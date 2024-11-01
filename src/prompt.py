@@ -186,3 +186,127 @@ Patient Information:
 </Assessment>
 
 """
+
+
+
+
+
+soap_closed_so = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis).
+
+Instructions:
+Select all applicable diagnoses or terms from the list provided.
+Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
+Use only terms from the list.
+
+List of Terms:
+{list_of_terms}
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective>
+
+<Objective>
+{objective_section}
+</Objective>
+
+"""
+soap_closed_a = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Assessment section. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis).
+
+Instructions:
+Select all applicable diagnoses or terms from the list provided.
+Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
+Use only terms from the list.
+
+List of Terms:
+{list_of_terms}
+
+Patient Information:
+<Assessment>
+{assessment_section}
+</Assessment>
+
+"""
+
+
+ltm_builder = """
+You are provided with parts of a patient's SOAP-formatted progress note, specifically the Subjective (S) and Objective (O) sections, followed by the Assessment (A). Your task is to identify patterns and formulate rules that connect information in S and O to the conclusions in A. These rules will serve as a foundation for another agent tasked with summarizing medical problems based on only the S and O sections.
+
+Instructions:
+1. Carefully review the Subjective (S) and Objective (O) sections provided below, followed by the corresponding Assessment (A) section.
+2. Identify specific findings or phrases in S and O that contribute to the assessments in A.
+3. Based on this example, generate a list of rules or pieces of knowledge that could apply to future cases, focusing on the connections between symptoms, clinical signs, data points, and the assessment outcomes.
+
+Example Input:
+<Subjective>
+{subjective_section}
+</Subjective>
+
+<Objective>
+{objective_section}
+</Objective>
+
+<Assessment>
+{assessment_section}
+</Assessment>
+
+---
+
+Using the example provided, create a list of concise rules based on the relationships between S, O, and A. Structure your output as follows:
+
+[“Describe the first observed pattern or logical connection”, “Describe the second observed pattern or logical connection”, “Describe the third observed pattern or logical connection”, …]
+"""
+
+ltm_test_open = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
+You have access to a set of knowledge rules that connect findings in the Subjective and Objective sections to potential medical problems and diagnoses.
+
+Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (e.g., a past medical problem or a consequence of the primary diagnosis).
+Use the knowledge rules provided to help you identify these problems.
+
+Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
+
+Knowledge Rules:
+{list_of_rules}
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective> 
+
+<Objective>
+{objective_section}
+</Objective>
+
+"""
+
+ltm_test_closed = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
+You have access to a set of knowledge rules that connect findings in the Subjective and Objective sections to potential medical problems and diagnoses.
+
+Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (e.g., a past medical problem or a consequence of the primary diagnosis).
+
+Instructions:
+- Use the knowledge rules provided to guide your selection of diagnoses or terms.
+- Select all applicable diagnoses or terms from the list provided.
+- Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
+- Use only terms from the list.
+
+Knowledge Rules:
+{list_of_rules}
+
+List of Terms:
+{list_of_terms}
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective>
+
+<Objective>
+{objective_section}
+</Objective>
+
+"""

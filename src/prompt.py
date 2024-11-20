@@ -188,9 +188,6 @@ Patient Information:
 """
 
 
-
-
-
 soap_closed_so = """
 You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis).
 
@@ -267,4 +264,84 @@ Patient Information:
 {assessment_section}
 </Assessment>
 
+"""
+
+
+ltm_builder = """
+You are provided with sections of a SOAP-formatted progress note for a patient diagnosed with {disease}, specifically the Subjective (S), Objective (O), and Assessment (A) sections.
+Identify patterns in how medical experts diagnose {disease} in the Assessment (A), based on the information provided in the Subjective (S) and Objective (O) sections. Formulate a list of rules or pieces of knowledge that can aid in diagnosing future patients with {disease}, using only the S and O sections.
+
+Progress Note of a Patient with {disease}:
+<Subjective>
+{subjective_section}
+</Subjective>
+<Objective>
+{objective_section}
+</Objective>
+<Assessment>
+{assessment_section}
+</Assessment>
+
+Structure your output as a list of rules, formatted as follows:
+["Rule 1", "Rule 2", "Rule 3", ...]
+"""
+
+
+ltm_refiner = """
+You are refining a list of diagnostic knowledge rules derived from analyzing patients' SOAP-formatted progress notes for {disease}. These rules are intended to assist in correctly diagnosing {disease} based on information from the Subjective (S) and Objective (O) sections of patient progress notes.
+
+Your Task:
+- Review each rule in the list carefully and consolidate similar or overlapping rules into single, more general rules.
+- Rewrite overly specific rules to capture underlying principles applicable to a broader range of cases.
+- Ensure that the refined list maintains the usefulness of the original rules while being more concise and general.
+- Do not add any new rules; only refine the existing ones.
+- Structure your output as a list of rules, formatted as ["Refined Rule 1", "Refined Rule 2", "Refined Rule 3", ...].
+
+
+Original List of Rules:
+{original_rules}
+
+Your Refined List of Rules:
+"""
+
+
+ltm_test = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
+You have access to a list of diagnostic knowledge rules derived from analyzing other patients' SOAP-formatted progress notes.
+
+Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (e.g., a past medical problem or a consequence of the primary diagnosis).
+You can use the provided knowledge rules to guide your diagnosis.
+
+Output format:
+- Present your response as a single, concatenated list of diagnoses, separated by semicolons and without any additional text or formatting.
+- Example format: "Diagnosis 1; Diagnosis 2; Diagnosis 3".
+
+Knowledge Rules:
+{list_of_rules}
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective> 
+<Objective>
+{objective_section}
+</Objective>
+"""
+
+without_ltm_test = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
+
+Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (e.g., a past medical problem or a consequence of the primary diagnosis).
+
+Output format:
+- Present your response as a single, concatenated list of diagnoses, separated by semicolons and without any additional text or formatting.
+- Example format: "Diagnosis 1; Diagnosis 2; Diagnosis 3".
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective> 
+<Objective>
+{objective_section}
+</Objective>
 """

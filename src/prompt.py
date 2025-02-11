@@ -1,320 +1,101 @@
-####### SOAP Prompts: S, O, A -> Summary #######
-soap_soa_zs = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective, Objective, and Assessment sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective> 
-
-<Objective>
-{objective_section}
-</Objective>
-
-<Assessment>
-{assessment_section}
-</Assessment>
-
+prompt_template_med42 = """
+<|system|>:{system_instruction}
+<|prompter|>:{prompt}
+<|assistant|>:
 """
 
-soap_soa_os = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective, Objective, and Assessment sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Use the example provided to guide your response. Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
------
-Example
-
-Patient Information:
-<Subjective>
-TITLE: Chief Complaint: 24 Hour Events: Allergies: No Known Drug Allergies
-</Subjective>
-
-<Objective>
-Last dose of Antibiotics: Infusions: Other ICU medications: Other medications: Changes to medical and family history: Review of systems is unchanged from admission except as noted below Review of systems: Flowsheet Data as of   07:07 AM Vital signs Hemodynamic monitoring Fluid balance 24 hours Since 12 AM Tmax: 36.6 C (97.9 Tcurrent: 36.3 C (97.4 HR: 54 (42 - 76) bpm BP: 142/54(75) (114/32(56) - 147/76(90)) mmHg RR: 17 (12 - 19) insp/min SpO2: 99% Heart rhythm: SR (Sinus Rhythm) Height: 76 Inch Total In: 900 mL PO: 900 mL TF: IVF: Blood products: Total out: 680 mL 980 mL Urine: 680 mL 980 mL NG: Stool: Drains: Balance: -680 mL -80 mL Respiratory support SpO2: 99% ABG: ///27/ Physical Examination GENERAL: Alert, interactive, comfortable, NAD. HEENT: Enlarged 1cm (approx) uvula with erythema and swelling of left side of soft palate/arch. CARDIAC: RRR, normal S1, S2. No m/r/g. LUNGS: Resp unlabored, no accessory muscle use. CTAB, no crackles, wheezes or rhonchi. ABDOMEN: Soft, NTND. EXTREMITIES: No c/c/e. Labs / Radiology 240 K/uL 13.9 g/dL 150 mg/dL 1.0 mg/dL 27 mEq/L 4.5 mEq/L 13 mg/dL 104 mEq/L 139 mEq/L 42.3 % 6.1 K/uL [image002.jpg]   04:01 AM WBC 6.1 Hct 42.3 Plt 240 Cr 1.0 Glucose 150 Other labs: Differential-Neuts:83.6 %, Lymph:10.6 %, Mono:5.1 %, Eos:0.3 %, Ca++:9.8 mg/dL, Mg++:1.8 mg/dL, PO4:3.7 mg/dL
-</Objective>
-
-<Assessment>
-Mr. [**Known lastname 8748**] is a 19 year old gentleman with history of AVNRT s/p nodal\n   ablation on [**2182-11-7**] with post procedural swelling of uvula.
-</Assessment>
-
-Summary:
-Uvula swelling; AVNRT
------
-
-Now, please perform the same task on the following patient information:
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective> 
-
-<Objective>
-{objective_section}
-</Objective>
-
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-
-####### SOAP Prompts: A -> Summary #######
-soap_a_zs = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Assessment section. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
-Patient Information:
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-soap_a_os = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Assessment section. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Use the example provided to guide your response. Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
------
-Example
-
-Patient Information:
-<Assessment>
-Mr. [**Known lastname 8748**] is a 19 year old gentleman with history of AVNRT s/p nodal\n   ablation on [**2182-11-7**] with post procedural swelling of uvula.
-</Assessment>
-
-Summary:
-Uvula swelling; AVNRT
------
-
-Now, please perform the same task on the following patient information:
-
-Patient Information:
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-####### SOAP Prompts: S, O -> Summary #######
-soap_so_zs = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective> 
-
-<Objective>
-{objective_section}
-</Objective>
-
-"""
-
-soap_so_os = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Use the example provided to guide your response. Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
------
-Example
-
-Patient Information:
-<Subjective>
-TITLE: Chief Complaint: 24 Hour Events: Allergies: No Known Drug Allergies
-</Subjective>
-
-<Objective>
-Last dose of Antibiotics: Infusions: Other ICU medications: Other medications: Changes to medical and family history: Review of systems is unchanged from admission except as noted below Review of systems: Flowsheet Data as of   07:07 AM Vital signs Hemodynamic monitoring Fluid balance 24 hours Since 12 AM Tmax: 36.6 C (97.9 Tcurrent: 36.3 C (97.4 HR: 54 (42 - 76) bpm BP: 142/54(75) (114/32(56) - 147/76(90)) mmHg RR: 17 (12 - 19) insp/min SpO2: 99% Heart rhythm: SR (Sinus Rhythm) Height: 76 Inch Total In: 900 mL PO: 900 mL TF: IVF: Blood products: Total out: 680 mL 980 mL Urine: 680 mL 980 mL NG: Stool: Drains: Balance: -680 mL -80 mL Respiratory support SpO2: 99% ABG: ///27/ Physical Examination GENERAL: Alert, interactive, comfortable, NAD. HEENT: Enlarged 1cm (approx) uvula with erythema and swelling of left side of soft palate/arch. CARDIAC: RRR, normal S1, S2. No m/r/g. LUNGS: Resp unlabored, no accessory muscle use. CTAB, no crackles, wheezes or rhonchi. ABDOMEN: Soft, NTND. EXTREMITIES: No c/c/e. Labs / Radiology 240 K/uL 13.9 g/dL 150 mg/dL 1.0 mg/dL 27 mEq/L 4.5 mEq/L 13 mg/dL 104 mEq/L 139 mEq/L 42.3 % 6.1 K/uL [image002.jpg]   04:01 AM WBC 6.1 Hct 42.3 Plt 240 Cr 1.0 Glucose 150 Other labs: Differential-Neuts:83.6 %, Lymph:10.6 %, Mono:5.1 %, Eos:0.3 %, Ca++:9.8 mg/dL, Mg++:1.8 mg/dL, PO4:3.7 mg/dL
-</Objective>
-
-Summary:
-Uvula swelling; AVNRT
------
-
-Now, please perform the same task on the following patient information:
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective> 
-
-<Objective>
-{objective_section}
-</Objective>
-
-"""
-
-####### SOAP Prompts: S, A -> Summary #######
-soap_sa_zs = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Assessment sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective> 
-
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-soap_sa_os = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Assessment sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Use the example provided to guide your response. Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-
------
-Example
-
-Patient Information:
-<Subjective>
-TITLE: Chief Complaint: 24 Hour Events: Allergies: No Known Drug Allergies
-</Subjective>
-
-<Assessment>
-Mr. [**Known lastname 8748**] is a 19 year old gentleman with history of AVNRT s/p nodal\n   ablation on [**2182-11-7**] with post procedural swelling of uvula.
-</Assessment>
-
-Summary:
-Uvula swelling; AVNRT
------
-
-Now, please perform the same task on the following patient information:
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective> 
-
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-
-soap_closed_so = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis).
-
-Instructions:
-Select all applicable diagnoses or terms from the list provided.
-Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-Use only terms from the list.
-
-List of Terms:
-{list_of_terms}
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective>
-
-<Objective>
-{objective_section}
-</Objective>
-
-"""
-soap_closed_a = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Assessment section. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis).
-
-Instructions:
-Select all applicable diagnoses or terms from the list provided.
-Present your response as a concatenated list of diagnoses separated by semicolons without any additional text or formatting.
-Use only terms from the list.
-
-List of Terms:
-{list_of_terms}
-
-Patient Information:
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-soap_closed_so_flex = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect issues (such as past medical conditions or consequences from the primary diagnosis).
-
-Instructions:
-- Select all applicable diagnoses or terms from the provided list.
-- You can add terms missing from the list if necessary.
-- Present your response as a semicolon-separated list of diagnoses without additional text or formatting.
-
-List of Terms:
-{list_of_terms}
-
-Patient Information:
-<Subjective>
-{subjective_section}
-</Subjective>
-
-<Objective>
-{objective_section}
-</Objective>
-"""
-
-soap_closed_a_flex = """
-You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Assessment section. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect issues (such as past medical conditions or consequences from the primary diagnosis).
-
-Instructions:
-- Select all applicable diagnoses or terms from the provided list.
-- You can add terms missing from the list if necessary.
-- Present your response as a semicolon-separated list of diagnoses without additional text or formatting.
-
-List of Terms:
-{list_of_terms}
-
-Patient Information:
-<Assessment>
-{assessment_section}
-</Assessment>
-
-"""
-
-
-ltm_builder = """
-You are provided with sections of a SOAP-formatted progress note for a patient diagnosed with {disease}, specifically the Subjective (S), Objective (O), and Assessment (A) sections.
-Identify patterns in how medical experts diagnose {disease} in the Assessment (A), based on the information provided in the Subjective (S) and Objective (O) sections. Formulate a list of rules or pieces of knowledge that can aid in diagnosing future patients with {disease}, using only the S and O sections.
-
-Progress Note of a Patient with {disease}:
-<Subjective>
-{subjective_section}
-</Subjective>
-<Objective>
-{objective_section}
-</Objective>
-<Assessment>
-{assessment_section}
-</Assessment>
-
-Structure your output as a list of rules, formatted as follows:
-["Rule 1", "Rule 2", "Rule 3", ...]
-"""
-
-
-ltm_refiner = """
-You are refining a list of diagnostic knowledge rules derived from analyzing patients' SOAP-formatted progress notes for {disease}. These rules are intended to assist in correctly diagnosing {disease} based on information from the Subjective (S) and Objective (O) sections of patient progress notes.
-
-Your Task:
-- Review each rule in the list carefully and consolidate similar or overlapping rules into single, more general rules.
-- Rewrite overly specific rules to capture underlying principles applicable to a broader range of cases.
-- Ensure that the refined list maintains the usefulness of the original rules while being more concise and general.
-- Do not add any new rules; only refine the existing ones.
-- Structure your output as a list of rules, formatted as ["Refined Rule 1", "Refined Rule 2", "Refined Rule 3", ...].
-
-
-Original List of Rules:
-{original_rules}
-
-Your Refined List of Rules:
-"""
-
+system_instruction = """You are a medical expert in diagnostic reasoning."""
+
+# ltm_builder = """
+# You are provided with sections of a SOAP-formatted progress note for a patient diagnosed with {disease}, specifically the Subjective (S), Objective (O), and Assessment (A) sections.
+# Identify patterns in how medical experts diagnose {disease} in the Assessment (A), based on the information provided in the Subjective (S) and Objective (O) sections. Formulate a list of rules or pieces of knowledge that can aid in diagnosing future patients with {disease}, using only the S and O sections.
+
+# Progress Note of a Patient with {disease}:
+# <Subjective>
+# {subjective_section}
+# </Subjective>
+# <Objective>
+# {objective_section}
+# </Objective>
+# <Assessment>
+# {assessment_section}
+# </Assessment>
+
+# Structure your output as a list of rules, formatted as follows:
+# ["Rule 1", "Rule 2", "Rule 3", ...]
+# """
+
+# ltm_builder_vllm = """
+# You are provided with sections of a SOAP-formatted progress note for a patient ultimately diagnosed with {disease}, specifically the Subjective (S), Objective (O), and Assessment (A) sections.
+
+# Your task is to identify patterns and formulate **general reasoning frameworks or rules** that clinicians could use to evaluate patients for potential {disease}, based on the information in the Subjective (S) and Objective (O) sections. These rules should help in assessing whether future patients might have {disease}, even when the diagnosis is not yet confirmed.
+
+# Progress Note of a Patient with {disease}:
+# <Subjective>
+# {subjective_section}
+# </Subjective>
+# <Objective>
+# {objective_section}
+# </Objective>
+# <Assessment>
+# {assessment_section}
+# </Assessment>
+
+# Structure your output as a list of **general rules or reasoning steps**, formatted as follows:
+# ["Rule 1: ...", "Rule 2: ...", "Rule 3: ...", ...]
+
+# Guidelines:
+# - Derive patterns or reasoning principles from the provided example.
+# - Focus on how clinicians integrate information from S and O to arrive at potential assessments for {disease}.
+# - Avoid specific details tied only to this patient; instead, abstract principles applicable to similar cases.
+# - Consider how clinical reasoning could be applied in cases where {disease} is one of several possible diagnoses.
+
+# These rules should provide a framework for evaluating and reasoning about future cases where {disease} is a diagnostic possibility.
+
+# """
+
+
+# ltm_refiner = """
+# You are refining a list of diagnostic knowledge rules derived from analyzing patients' SOAP-formatted progress notes for {disease}. These rules are intended to assist in correctly diagnosing {disease} based on information from the Subjective (S) and Objective (O) sections of patient progress notes.
+
+# Your Task:
+# - Review each rule in the list carefully and consolidate similar or overlapping rules into single, more general rules.
+# - Rewrite overly specific rules to capture underlying principles applicable to a broader range of cases.
+# - Ensure that the refined list maintains the usefulness of the original rules while being more concise and general.
+# - Do not add any new rules; only refine the existing ones.
+# - Structure your output as a list of rules, formatted as ["Refined Rule 1", "Refined Rule 2", "Refined Rule 3", ...].
+
+
+# Original List of Rules:
+# {original_rules}
+
+# Your Refined List of Rules:
+# """
+
+# ltm_refiner_vllm = """
+# You are refining a list of diagnostic knowledge rules derived from analyzing patients' SOAP-formatted progress notes for {disease}. These rules aim to assist clinicians in reasoning through potential diagnoses of {disease} based on information from the Subjective (S) and Objective (O) sections.
+
+# Your Task:
+# 1. **Consolidate Overlapping Rules**: Combine similar or overlapping rules into single, broader rules that capture their shared essence.
+# 2. **Generalize Overly Specific Rules**: Rewrite any rules that are too specific to individual cases so they reflect general diagnostic principles or reasoning patterns.
+# 3. **Ensure Usefulness and Clarity**: Retain the diagnostic utility of the rules while making the list more concise, clear, and broadly applicable.
+# 4. **Do Not Add New Rules**: Only refine or consolidate the rules provided; no additional rules should be introduced.
+# 5. **List Format**: Present your refined rules in the following format:
+#    ["Refined Rule 1", "Refined Rule 2", "Refined Rule 3", ...]
+
+# Original List of Rules:
+# {original_rules}
+
+# Your Refined List of Rules:
+# """
 
 ltm_test = """
 You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
-You have access to a list of diagnostic knowledge rules derived from analyzing other patients' SOAP-formatted progress notes.
+You have access to a list of diagnostic knowledge rules specifically related to diagnosing {disease}.
 
-Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (e.g., a past medical problem or a consequence of the primary diagnosis).
-You can use the provided knowledge rules to guide your diagnosis.
+Your task is to determine if the patient has {disease} based on the provided rules and patient information. You must provide a clear Yes/No response.
 
-Output format:
-- Present your response as a single, concatenated list of diagnoses, separated by semicolons and without any additional text or formatting.
-- Example format: "Diagnosis 1; Diagnosis 2; Diagnosis 3".
+Output format: Yes/No
 
 Knowledge Rules:
 {list_of_rules}
@@ -326,16 +107,16 @@ Patient Information:
 <Objective>
 {objective_section}
 </Objective>
+
 """
+
 
 without_ltm_test = """
 You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
 
-Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (e.g., a past medical problem or a consequence of the primary diagnosis).
+Your task is to determine if the patient has {disease} based on the provided patient information. You must provide a clear Yes/No response.
 
-Output format:
-- Present your response as a single, concatenated list of diagnoses, separated by semicolons and without any additional text or formatting.
-- Example format: "Diagnosis 1; Diagnosis 2; Diagnosis 3".
+Output format: Yes/No
 
 Patient Information:
 <Subjective>
@@ -344,4 +125,61 @@ Patient Information:
 <Objective>
 {objective_section}
 </Objective>
+
+"""
+
+cot1_test = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective and Objective sections.
+
+Your task is to write the Assessment (A) section by analyzing the provided information in the Subjective and Objective sections. Ensure the Assessment is concise, accurate, and clinically relevant.
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective>
+<Objective>
+{objective_section}
+</Objective>
+
+"""
+
+
+ltm_cot2_test = """
+You now have the Assessment (A) section that you wrote, as well as a list of diagnostic knowledge rules specifically related to diagnosing {disease}.
+
+Your task is to determine if the patient has {disease} by comparing the Assessment against the provided diagnostic rules. You must provide a clear Yes/No response.
+
+Output format: Yes/No
+
+Diagnostic Knowledge Rules:
+{list_of_rules}
+
+"""
+
+without_ltm_cot2_test = """
+You now have the Assessment (A) section that you wrote.
+
+Your task is to determine if the patient has {disease}, based on the Assessment. You must provide a clear "Yes" or "No" response.
+
+Output format: Yes/No
+
+"""
+
+
+soap_soa = """
+You are provided with a patient's medical information from a progress note formatted in the SOAP structure, containing only the Subjective, Objective, and Assessment sections. Your task is to generate a summary that lists the patient's medical problems and diagnoses, including both direct and indirect problems (a past medical problem or consequence from the primary diagnosis). Present your response as a list of diagnoses.
+
+Patient Information:
+<Subjective>
+{subjective_section}
+</Subjective> 
+
+<Objective>
+{objective_section}
+</Objective>
+
+<Assessment>
+{assessment_section}
+</Assessment>
+
 """

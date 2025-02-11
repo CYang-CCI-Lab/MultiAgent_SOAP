@@ -13,264 +13,182 @@ env_path = Path.home()
 load_dotenv(dotenv_path=env_path / ".env")
 
 
-class Agent:
-    def __init__(self):
-        self.client = OpenAI()
-
-    def get_response(self, prompt):
-        messages = [
-            {
-                "role": "system",
-                "content": "You are a medical expert in diagnostic reasoning.",
-            },
-            {"role": "user", "content": prompt},
-        ]
-
-        response = self.client.chat.completions.create(
-            model="gpt-4o-2024-08-06", messages=messages, temperature=0
-        )
-
-        return response.choices[0].message.content
-
-    def get_summary(
-        self, df, prompt, input_type: Literal["soa", "so", "sa", "a"] = "so"
-    ):
-        parsing_error = 0
-        pbar = tqdm(total=df.shape[0])
-
-        for idx, row in df.iterrows():
-            subj = row["Subjective"]
-            obj = row["Objective"]
-            ass = row["Assessment"]
-
-            if input_type.lower() == "soa":
-                formatted_prompt = prompt.format(
-                    subjective_section=subj,
-                    objective_section=obj,
-                    assessment_section=ass,
-                )
-            elif input_type.lower() == "so":
-                formatted_prompt = prompt.format(
-                    subjective_section=subj, objective_section=obj
-                )
-            elif input_type.lower() == "sa":
-                formatted_prompt = prompt.format(
-                    subjective_section=subj, assessment_section=ass
-                )
-            else:
-                formatted_prompt = prompt.format(assessment_section=ass)
-
-            response = self.get_response(formatted_prompt)
-
-            try:
-                df.at[idx, f"pred"] = response
-            except Exception as e:
-                print(f"An error occurred: {e}")
-                parsing_error += 1
-            pbar.update(1)
-        pbar.close()
-        print(f"Total parsing errors: {parsing_error}")
-        return df
-
-    def get_summary_ltm(
-        self, df, prompt, ltm, input_type: Literal["soa", "so", "sa", "a"] = "so"
-    ):
-        parsing_error = 0
-        pbar = tqdm(total=df.shape[0])
-
-        for idx, row in df.iterrows():
-            subj = row["Subjective"]
-            obj = row["Objective"]
-            ass = row["Assessment"]
-
-            if input_type.lower() == "soa":
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm,
-                    subjective_section=subj,
-                    objective_section=obj,
-                    assessment_section=ass,
-                )
-            elif input_type.lower() == "so":
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm, subjective_section=subj, objective_section=obj
-                )
-            elif input_type.lower() == "sa":
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm, subjective_section=subj, assessment_section=ass
-                )
-            else:
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm, assessment_section=ass
-                )
-
-            response = self.get_response(formatted_prompt)
-
-            try:
-                df.at[idx, f"pred"] = response
-            except Exception as e:
-                print(f"An error occurred: {e}")
-                parsing_error += 1
-            pbar.update(1)
-        pbar.close()
-        print(f"Total parsing errors: {parsing_error}")
-        return df
-
-    def get_closed_summary(
-        self, df, prompt, input_type: Literal["soa", "so", "sa", "a"], terms_lst
-    ):
-        parsing_error = 0
-        pbar = tqdm(total=df.shape[0])
-
-        for idx, row in df.iterrows():
-            subj = row["Subjective"]
-            obj = row["Objective"]
-            ass = row["Assessment"]
-
-            if input_type.lower() == "soa":
-                formatted_prompt = prompt.format(
-                    list_of_terms=", ".join(terms_lst),
-                    subjective_section=subj,
-                    objective_section=obj,
-                    assessment_section=ass,
-                )
-            elif input_type.lower() == "so":
-                formatted_prompt = prompt.format(
-                    list_of_terms=", ".join(terms_lst),
-                    subjective_section=subj,
-                    objective_section=obj,
-                )
-            elif input_type.lower() == "sa":
-                formatted_prompt = prompt.format(
-                    list_of_terms=", ".join(terms_lst),
-                    subjective_section=subj,
-                    assessment_section=ass,
-                )
-            else:
-                formatted_prompt = prompt.format(
-                    list_of_terms=", ".join(terms_lst), assessment_section=ass
-                )
-
-            response = self.get_response(formatted_prompt)
-
-            try:
-                df.at[idx, f"pred"] = response
-            except Exception as e:
-                print(f"An error occurred: {e}")
-                parsing_error += 1
-            pbar.update(1)
-        pbar.close()
-        print(f"Total parsing errors: {parsing_error}")
-        return df
-
-    def get_closed_summary_ltm(
-        self, df, prompt, input_type: Literal["soa", "so", "sa", "a"], terms_lst, ltm
-    ):
-        parsing_error = 0
-        pbar = tqdm(total=df.shape[0])
-
-        for idx, row in df.iterrows():
-            subj = row["Subjective"]
-            obj = row["Objective"]
-            ass = row["Assessment"]
-
-            if input_type.lower() == "soa":
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm,
-                    list_of_terms=", ".join(terms_lst),
-                    subjective_section=subj,
-                    objective_section=obj,
-                    assessment_section=ass,
-                )
-            elif input_type.lower() == "so":
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm,
-                    list_of_terms=", ".join(terms_lst),
-                    subjective_section=subj,
-                    objective_section=obj,
-                )
-            elif input_type.lower() == "sa":
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm,
-                    list_of_terms=", ".join(terms_lst),
-                    subjective_section=subj,
-                    assessment_section=ass,
-                )
-            else:
-                formatted_prompt = prompt.format(
-                    list_of_rules=ltm,
-                    list_of_terms=", ".join(terms_lst),
-                    assessment_section=ass,
-                )
-
-            response = self.get_response(formatted_prompt)
-
-            try:
-                df.at[idx, f"pred"] = response
-            except Exception as e:
-                print(f"An error occurred: {e}")
-                parsing_error += 1
-            pbar.update(1)
-        pbar.close()
-        print(f"Total parsing errors: {parsing_error}")
-        return df
+class YesOrNo(BaseModel):
+    answer: Literal["Yes", "No"] = Field(
+        description="Concise response indicating the presence ('Yes') or absence ('No') of the condition."
+    )
 
 
-class KnowledgeRules(BaseModel):
-    rules: List[str]
+class ProblemList(BaseModel):
+    problem_list: List[str] = Field(
+        description="List of problems identified in the patient's medical record."
+    )
 
 
-class LTMAgent:
-    def __init__(self, disease):
-        self.client = OpenAI()
+class TestAgent:
+    def __init__(self, client: OpenAI, model: str, disease: str):
+        self.client = client
+        self.model = model
         self.disease = disease
-        self.ltm = []
 
-    def get_rules(self, prompt):
-        messages = [
-            {
-                "role": "system",
-                "content": "You are a medical expert in diagnostic reasoning",
-            },
-            {"role": "user", "content": prompt},
-        ]
+    def get_response(self, messages: list, schema: BaseModel):
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                extra_body={"guided_json": schema.model_json_schema()},
+                temperature=0.1,
+            )
+            return json.loads(response.choices[0].message.content)
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return None
 
-        response = self.client.beta.chat.completions.parse(
-            model="gpt-4o-2024-08-06",
-            messages=messages,
-            temperature=0,
-            response_format=KnowledgeRules,
-        )
+    def test_with_assessment(
+        self,
+        testing_df: pd.DataFrame,
+        prompt: str = soap_soa,
+        schema: BaseModel = ProblemList,
+    ):
+        parsing_error = 0
+        pbar = tqdm(total=testing_df.shape[0])
 
-        return response.choices[0].message.parsed.rules
-
-    def get_ltm(self, df):
-        pbar = tqdm(total=df.shape[0])
-        for idx, row in df.iterrows():
+        for idx, row in testing_df.iterrows():
+            if testing_df.loc[idx, "is_parsed"]:
+                continue
             subj = row["Subjective"]
             obj = row["Objective"]
-            ass = row["Assessment"]
+            ass = row["generated_assess"]
 
-            formatted_prompt = ltm_builder.format(
-                disease=self.disease,
+            formatted_prompt = prompt.format(
                 subjective_section=subj,
                 objective_section=obj,
                 assessment_section=ass,
             )
+            messages = [{"role": "user", "content": formatted_prompt}]
 
-            rules = self.get_rules(formatted_prompt)
-            self.ltm.extend(rules)
+            response = self.get_response(messages, schema)
+
+            if not response:
+                parsing_error += 1
+                print(f"Error at index: {idx}")
+                testing_df.loc[idx, "is_parsed"] = False
+                continue
+
+            testing_df.loc[idx, "is_parsed"] = True
+            testing_df.loc[idx, "generated_summary"] = str(response["problem_list"])
 
             pbar.update(1)
         pbar.close()
+        print(f"Total parsing errors: {parsing_error}")
+        return testing_df
 
-        return self.ltm
+    def test(
+        self,
+        testing_df: pd.DataFrame,
+        prompt: str,
+        ltm: Optional[List[str]] = None,
+        schema: BaseModel = YesOrNo,
+    ):
+        parsing_error = 0
+        pbar = tqdm(total=testing_df.shape[0])
 
-    def refine_ltm(self):
+        for idx, row in testing_df.iterrows():
+            subj = row["Subjective"]
+            obj = row["Objective"]
 
-        formatted_prompt = ltm_refiner.format(
-            disease=self.disease, original_rules=self.ltm
-        )
-        refined_rules = self.get_rules(formatted_prompt)
-        self.ltm = refined_rules
+            if ltm:
+                formatted_prompt = prompt.format(
+                    disease=self.disease,
+                    list_of_rules=ltm,
+                    subjective_section=subj,
+                    objective_section=obj,
+                )
+                column_prefix = f"{self.disease}_with_ltm"
+            else:
+                formatted_prompt = prompt.format(
+                    disease=self.disease, subjective_section=subj, objective_section=obj
+                )
+                column_prefix = f"{self.disease}_without_ltm"
 
-        return self.ltm
+            messages = [{"role": "user", "content": formatted_prompt}]
+
+            response = self.get_response(messages, schema)
+
+            if not response:
+                parsing_error += 1
+                print(f"Error at index: {idx}")
+                testing_df.loc[idx, f"{column_prefix}_is_parsed"] = False
+                continue
+
+            testing_df.loc[idx, f"{column_prefix}_is_parsed"] = True
+            testing_df.loc[idx, f"{column_prefix}_answer"] = response["answer"]
+
+            pbar.update(1)
+        pbar.close()
+        print(f"Total parsing errors: {parsing_error}")
+        return testing_df
+
+    def test_cot(
+        self,
+        testing_df: pd.DataFrame,
+        ltm: Optional[List[str]] = None,
+        schema: BaseModel = YesOrNo,
+    ):
+        parsing_error = 0
+        pbar = tqdm(total=testing_df.shape[0])
+
+        for idx, row in testing_df.iterrows():
+            subj = row["Subjective"]
+            obj = row["Objective"]
+
+            # First, generate the Assessment section
+            formatted_prompt = cot1_test.format(
+                subjective_section=subj, objective_section=obj
+            )
+            messages = [
+                {
+                    "role": "user",
+                    "content": system_instruction + "\n" + formatted_prompt,
+                }
+            ]
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                temperature=0.1,
+            )
+            response = response.choices[0].message.content
+            messages.append({"role": "assistant", "content": response})
+            testing_df.loc[idx, f"generated_assess"] = response
+
+            if ltm:
+                formatted_prompt = ltm_cot2_test.format(
+                    disease=self.disease,
+                    list_of_rules=ltm,
+                    subjective_section=subj,
+                    objective_section=obj,
+                )
+                column_prefix = f"{self.disease}_with_ltm"
+            else:
+                formatted_prompt = without_ltm_cot2_test.format(
+                    disease=self.disease, subjective_section=subj, objective_section=obj
+                )
+                column_prefix = f"{self.disease}_without_ltm"
+
+            messages.append({"role": "user", "content": formatted_prompt})
+
+            response = self.get_response(messages, schema)
+
+            if not response:
+                parsing_error += 1
+                print(f"Error at index: {idx}")
+                testing_df.loc[idx, f"{column_prefix}_is_parsed"] = False
+                continue
+
+            testing_df.loc[idx, f"{column_prefix}_is_parsed"] = True
+            testing_df.loc[idx, f"{column_prefix}_answer"] = response["answer"]
+
+            pbar.update(1)
+        pbar.close()
+        print(f"Total parsing errors: {parsing_error}")
+        return testing_df

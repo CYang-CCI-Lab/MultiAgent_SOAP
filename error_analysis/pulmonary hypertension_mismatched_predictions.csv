@@ -1,0 +1,2448 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_pulmonary_hypertension_pred_single,is_pulmonary_hypertension_reasoning_single,is_pulmonary_hypertension_pred_multi,is_pulmonary_hypertension_reasoning_multi
+55,109844.txt,"[**2194-2-25**]:
+- pt back into a fib with rvr, wide complex from lbbb, gave two boluses
+of 5mg of metoprolol with no effect.  gave bolus of 150mg of amiodarone
+with better effect, hr down to 100s.  amiodarone drip following at
+1mg/min, then decreased to 0.5mg/min.  much improved rate.
+- during this time she was febrile to 101.6.  sent ua, urine cultures,
+blood cultures, and started on flagyl for anaerobic coverage.
+- negative 1.4l at 4pm
+- video swallow has not been done
+- free water deficit 3.3l, gave 500cc bolus of d5w
+- requested ativan for anxiety, gave 0.25mg iv as cannot take po
+- echo on [**2-25**] showed lvef of 20%, 3+ mr
+morphine
+unknown;
+opioids: morphine   related
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2194-2-23**] 09:02 am
+ceftriaxone - [**2194-2-24**] 12:00 pm
+fluconazole - [**2194-2-25**] 08:45 pm
+metronidazole - [**2194-2-26**] 02:32 am
+infusions:
+heparin sodium - 1,200 units/hour
+amiodarone - 0.5 mg/min
+other icu medications:
+furosemide (lasix) - [**2194-2-25**] 10:30 am
+metoprolol - [**2194-2-25**] 01:00 pm
+lorazepam (ativan) - [**2194-2-26**] 03:15 am
+other medications:
+flowsheet data as of  [**2194-2-26**] 06:03 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.7
+c (101.6
+tcurrent: 36.8
+c (98.3
+hr: 90 (80 - 151) bpm
+bp: 133/72(87) {100/55(66) - 139/80(196)} mmhg
+rr: 27 (12 - 30) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 75.7 kg (admission): 76 kg
+total in:
+1,561 ml
+360 ml
+po:
+tf:
+ivf:
+1,561 ml
+360 ml
+blood products:
+total out:
+2,165 ml
+158 ml
+urine:
+2,165 ml
+158 ml
+ng:
+stool:
+drains:
+balance:
+-604 ml
+202 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///28/
+general: awake/alert, oriented x2 to self and date, when asked for
+place she said [**hospital1 **] in [**state 5270**], mild diaphoresis
+heent: ncat, eomi, mmm, +pursed lip breathing, crepitance to the
+midface.
+neck: asymmetric swelling r>l, edematous, with +subcutaneous
+emphysemia, jvp unappreciable [**12-23**] edema
+cardiac: regular, +s1/s2, no [**1-24**] holosystolic murmur appreciated at the
+apex, fixed split s2 (vs. s3)
+lungs: decreased breath sounds at bilateral bases with mild crackles,
++expiratory ronchi, no wheezes
+abdomen: soft, ntnd, normal bs
+extremities: no c/c/e
+skin: no rashes
+pulses:  +2 radial and pedal
+416 k/ul
+11.5 g/dl
+179 mg/dl
+0.6 mg/dl
+28 meq/l
+4.7 meq/l
+30 mg/dl
+108 meq/l
+145 meq/l
+33.6 %
+19.4 k/ul
+wbc
+20.0
+18.0
+19.4
+hct
+34.7
+35.1
+33.3
+33.6
+plt
+[**telephone/fax (3) 5266**]
+cr
+0.7
+0.7
+0.8
+0.8
+0.8
+0.6
+tropt
+0.03
+0.03
+0.03
+tco2
+24
+glucose
+113
+109
+121
+179
+other labs: pt / ptt / inr:16.9/79.5/1.5, ck / ckmb /
+troponin-t:127/4/0.03, alt / ast:18/15, alk phos / t bili:74/1.0,
+differential-neuts:94.4 %, lymph:3.2 %, mono:2.1 %, eos:0.1 %, lactic
+acid:1.3 mmol/l, ca++:7.6 mg/dl, mg++:2.6 mg/dl, po4:1.8 mg/dl",wide complex tachycardia; chf; hypernatremia; subcutaneous emyphysema/mediastinitis; htn; anxiety/depression; hyperlipidemia; hyperthyroidism,wide complex tachycardia; congestive heart failure; hypernatremia; subcutaneous emphysema mediastinitis; hypertension; anxiety depression; hyperlipidemia; hyperthyroidism,"['wide complex tachycardia', 'congestive heart failure', 'hypernatremia', 'subcutaneous emphysema mediastinitis', 'hypertension', 'anxiety depression', 'hyperlipidemia', 'hyperthyroidism']","79 yof with hx of HTN, Hyperlipidemia, Hypothyroidism, who presented to
+   [**Hospital 839**] Hosp with SOB and chest pressure, found to be in acute CHF,
+   transferred here s/p traumatic intubation c/b tracheal tear and
+   subcutaneous emphysema.  Now transferred to CCU for management of afib
+   with RVR. Febrile overnight with episode of afib/rvr, converted to
+   sinus with amiodarone.",True,"The patient's presentation includes several clues that suggest pulmonary hypertension. The presence of a fixed split S2, which is indicative of an elevated pulmonary artery pressure, and the decreased breath sounds at bilateral bases with mild crackles, are supportive of pulmonary hypertension. Additionally, the patient's low left ventricular ejection fraction (LVEF) of 20% and 3+ mitral regurgitation (MR) could contribute to or be a consequence of elevated pulmonary pressures. The patient's symptoms, such as mild diaphoresis and pursed lip breathing, could also be indicative of pulmonary hypertension. However, without direct measurements of pulmonary artery pressure, such as through right heart catheterization, the diagnosis cannot be definitively confirmed. Nonetheless, the cumulative evidence from the subjective and objective findings leans towards the presence of pulmonary hypertension.",False,"While the patient has symptoms that could be related to pulmonary hypertension, such as decreased breath sounds and mild crackles, there is no direct measurement of pulmonary artery pressures provided. The fixed split S2 could be indicative of other conditions as well. Without specific diagnostic evidence, such as echocardiography showing elevated pulmonary artery pressures, it's challenging to confirm this diagnosis."
+69,194108.txt,"mr. [**known lastname 9586**] is a 87 year old gentleman with a pmh
+significant for afib with rvr, htn, gerd, dm 2, cva admitted on [**2160-9-11**]
+from [**hospital1 747**] for orthostatic hypotension, dizziness and emesis found to
+have ugib, developed afib with rvr on flood with worsening dyspnea and
+transferred to micu.
+rate controlled throughout night without issues
+relatively hypotensive for htn baseline
+o2 saturations stable  - 4-5l nc
+ekg - at [**2160-9-12**] 04:27 pm
+nasal swab - at [**2160-9-12**] 04:27 pm
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2160-9-12**] 05:43 pm
+cefipime - [**2160-9-12**] 10:06 pm
+metronidazole - [**2160-9-13**] 12:04 am
+infusions:
+other icu medications:
+furosemide (lasix) - [**2160-9-12**] 05:30 pm
+pantoprazole (protonix) - [**2160-9-12**] 08:19 pm
+other medications:
+flowsheet data as of  [**2160-9-13**] 06:19 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.3
+tcurrent: 36.9
+c (98.4
+hr: 94 (88 - 122) bpm
+bp: 104/48(62) {87/42(56) - 119/71(76)} mmhg
+rr: 21 (14 - 26) insp/min
+spo2: 94%
+heart rhythm: af (atrial fibrillation)
+total in:
+441 ml
+159 ml
+po:
+tf:
+ivf:
+441 ml
+159 ml
+blood products:
+total out:
+1,480 ml
+170 ml
+urine:
+1,480 ml
+170 ml
+ng:
+stool:
+drains:
+balance:
+-1,039 ml
+-12 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///31/
+neuro: appropriate, alert
+cv: rrr, without rubs, gallops, murmurs, no jvd appreciated
+resp: clear to auscultation anterior exam
+abd: soft, nontender, mild distention, + bs
+ext: warm, without edema, 2+ pulses
+145 k/ul
+11.6 g/dl
+148 mg/dl
+1.1 mg/dl
+31 meq/l
+3.8 meq/l
+17 mg/dl
+102 meq/l
+141 meq/l
+34.2 %
+11.4 k/ul
+image002.jpg]
+[**2160-9-12**]  02:55 pm
+[**2160-9-13**]  03:49 am
+wbc
+17.7
+11.4
+hct
+37.5
+34.2
+plt
+139
+145
+cr
+0.9
+1.1
+tropt
+<0.01
+<0.01
+glucose
+154
+148
+other labs: pt / ptt / inr:12.2/26.9/1.0, ck / ckmb /
+troponin-t:90/4/<0.01, differential-neuts:86.9 %, lymph:8.2 %, mono:4.6
+%, eos:0.2 %, lactic acid:1.7 mmol/l, ca++:8.8 mg/dl, mg++:1.8 mg/dl,
+po4:3.4 mg/dl
+maging: [**9-12**] pm pro-bnp 1627
+[**9-12**] am pro-bnp 590
+[**9-12**] am d-dimer 2035
+microbiology: urine cx pending",hypoxia:; hematemesis; atrial fibrillation:; lvef<55% with lvh and dchf; cva; leukocytosis; # dm 2:,hypoxia ; hematemesis; atrial fibrillation ; left ventricular ejection fraction<% with left ventricular hypertrophy and decompensated congestive heart failure; cerebrovascular accident; leukocytosis; number diabetes mellitus,"['hypoxia', 'hematemesis', 'atrial fibrillation', 'left ventricular ejection fraction<% with left ventricular hypertrophy and decompensated congestive heart failure', 'cerebrovascular accident', 'leukocytosis', 'number diabetes mellitus']","Mr. [**Known lastname 9586**] is a 87 year old gentleman with a PMH significant for afib
+   with RVR, HTN, GERD, DM 2, CVA admitted on [**2160-9-11**] from [**Hospital1 747**] for
+   orthostatic hypotension, dizziness and emesis, likely source is GIB
+   subsequently developed afib with rvr, dyspnea and relative hypotension
+   and was transferred to the MICU.",True,"The patient has a history of atrial fibrillation with right ventricular dysfunction (AFib with RVr), which is a risk factor for pulmonary hypertension. Additionally, the patient's symptoms of worsening dyspnea and orthostatic hypotension could be indicative of pulmonary hypertension. The elevated pro-BNP levels (1627 and 590) also support this diagnosis, as pro-BNP is a marker of right ventricular strain. However, the absence of direct measurements of pulmonary artery pressure and the lack of specific echocardiogram results make the diagnosis less certain. Nevertheless, considering the patient's clinical presentation, laboratory results, and risk factors, pulmonary hypertension is a likely diagnosis.",False,"There is no direct evidence provided in the SOAP note that specifically suggests pulmonary hypertension, such as elevated pulmonary artery pressures or right ventricular dysfunction on echocardiography. While the patient has AFib with RVR and heart failure, which can be associated with pulmonary hypertension, there's not enough information to confirm this diagnosis."
+97,195836.txt,"- pt's respiratory status did not improve with adjustment of his bipap,
+ultimately resulting in intubation/mechanical ventilation
+penicillins
+itching;
+levofloxacin
+rash;
+phenazopyridine
+unknown;
+changes to
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+dopamine - 6 mcg/kg/min
+other icu medications:
+furosemide (lasix) - [**2171-3-7**] 12:00 am
+midazolam (versed) - [**2171-3-7**] 06:00 am
+fentanyl - [**2171-3-7**] 06:07 am
+other medications:
+flowsheet data as of  [**2171-3-7**] 06:24 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**73**] am
+tmax: 37.2
+c (98.9
+tcurrent: 37.2
+c (98.9
+hr: 89 (85 - 107) bpm
+bp: 105/58(75) {64/47(54) - 120/60(79)} mmhg
+rr: 15 (15 - 33) insp/min
+spo2: 96%
+heart rhythm: st (sinus tachycardia)
+total in:
+1 ml
+453 ml
+po:
+tf:
+ivf:
+1 ml
+453 ml
+blood products:
+total out:
+260 ml
+300 ml
+urine:
+260 ml
+300 ml
+ng:
+stool:
+drains:
+balance:
+-259 ml
+153 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 500 (500 - 500) ml
+rr (set): 16
+peep: 8 cmh2o
+fio2: 50%
+rsbi deferred: unstable airway
+pip: 30 cmh2o
+plateau: 22 cmh2o
+spo2: 96%
+abg: 7.25/91.[**numeric identifier 96**]/277//9
+ve: 8.4 l/min
+pao2 / fio2: 554
+general: sedated, intubated..
+heent: nc/at.
+neck: jvp of [**10-15**] cm.
+cardiac: rrr, normal s1, s2. no m/r/g. no s3 or s4 appreciated.
+lungs: no chest wall deformities, scoliosis or kyphosis. harsh breath
+sounds anteriorly. ?decreased breath sounds at the right base.
+abdomen: obese. soft, ntnd. no masses noted.
+extremities: no c/c. some edema at the ankles.
+skin: no stasis dermatitis, ulcers, scars, or xanthomas.
+.0 meq/l
+[image002.jpg]
+no other labs yet this morning.
+**2171-3-7**]  03:16 am
+[**2171-3-7**]  03:39 am
+[**2171-3-7**]  04:11 am
+tropt
+0.09
+tco2
+43
+42
+other labs: ck / ckmb / troponin-t:47//0.09, lactic acid:0.8 mmol/l","# respiratory distress; chf,; ?copd",respiratory distress; congestive heart failure ; possible chronic obstructive pulmonary disease,"['respiratory distress', 'congestive heart failure', 'possible chronic obstructive pulmonary disease']","**Age over 90 323**] y/o M with history of CHF, ?COPD who was sent to the ED from [**Hospital 12**]
+   Rehab for respiratory distress.",True,"The patient's respiratory status did not improve with BiPAP adjustment, leading to intubation and mechanical ventilation, which suggests severe respiratory distress. The presence of harsh breath sounds anteriorly and possible decreased breath sounds at the right base, along with a high FiO2 requirement (50%) and the need for significant ventilatory support, indicate severe lung dysfunction. Additionally, the patient has a high jugular venous pressure (JVP) of 10-15 cm, which is a sign of right heart strain or fluid overload, often associated with pulmonary hypertension. The cardiac examination shows a regular rhythm with no murmurs, but the presence of sinus tachycardia (heart rate of 89 bpm) could be indicative of stress on the heart, possibly due to pulmonary hypertension. The patient's oxygenation is maintained (SpO2 96%) but requires significant support. While direct measurements of pulmonary artery pressures are not provided, the combination of respiratory failure, high JVP, and the need for intensive respiratory and hemodynamic support suggests that pulmonary hypertension could be a contributing factor to the patient's condition. However, without explicit pulmonary artery pressure measurements or more specific diagnostic criteria (like echocardiography findings), the diagnosis remains suggestive rather than definitive. Given the available information, it leans towards the possibility of pulmonary hypertension but with a need for further diagnostic confirmation.",False,"The patient is on mechanical ventilation with a PEEP of 8 cmH2O and has harsh breath sounds, which could be indicative of pulmonary issues, but there's no direct measurement of pulmonary pressures provided. The diagnosis of pulmonary hypertension typically requires specific hemodynamic measurements."
+112,191117.txt,"-- weaned from pressors
+-- extubated around 5:45 pm
+-- had hd, tolerated well; got dose of vanco after hd
+-- held off on starting tube feeds overnight
+this am, feels much better than on admission. alert, interactive,
+pleasant. wants to know
+what happened?
+morphine
+""   pt gets """"itchy""""""
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin - [**2156-2-5**] 05:19 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2156-2-5**] 02:42 am
+other medications:
+flowsheet data as of  [**2156-2-5**] 08:05 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.3
+c (99.2
+tcurrent: 36.7
+c (98
+hr: 91 (79 - 115) bpm
+bp: 131/73(92) {100/60(79) - 156/121(135)} mmhg
+rr: 14 (9 - 29) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 74 kg (admission): 74 kg
+height: 67 inch
+cvp: 19 (12 - 21)mmhg
+total in:
+846 ml
+279 ml
+po:
+tf:
+ivf:
+646 ml
+279 ml
+blood products:
+total out:
+35 ml
+120 ml
+urine:
+35 ml
+120 ml
+ng:
+stool:
+drains:
+balance:
+811 ml
+159 ml
+respiratory support
+o2 delivery device: face tent
+ventilator mode: cpap/psv
+vt (spontaneous): 407 (407 - 456) ml
+ps : 5 cmh2o
+rr (spontaneous): 28
+peep: 0 cmh2o
+fio2: 70%
+pip: 6 cmh2o
+spo2: 99%
+abg: 7.46/49/75/33/9
+ve: 10.9 l/min
+pao2 / fio2: 107
+general: pleasant, interactive, a+o x 3
+heent: nc/at, poor dentition
+neck: rij in place with oozing
+cardiac: [**state 7606**] gallop (s4?).
+lung: wheezing b/l, no crackles
+abdomen: distended but soft, no rebound/guarding, + hepatomegaly, no
+obvious fluid wave
+ext: extremities warmer, no cyanosis, clubbing or edema lue fistula +
+bruit
+skin: lle with superficial knee abrasion (pt reports fall)
+123 k/ul
+9.5 g/dl
+74 mg/dl
+4.9 mg/dl
+33 meq/l
+4.7 meq/l
+32 mg/dl
+96 meq/l
+136 meq/l
+27.9 %
+5.5 k/ul
+[image002.jpg]
+[**2156-2-4**]  02:55 am
+[**2156-2-4**]  06:49 am
+[**2156-2-4**]  10:11 am
+[**2156-2-4**]  04:07 pm
+[**2156-2-4**]  05:42 pm
+[**2156-2-5**]  03:59 am
+wbc
+10.7
+5.5
+hct
+32.3
+27.9
+plt
+229
+123
+cr
+5.2
+4.1
+4.9
+tco2
+29
+32
+36
+glucose
+55
+69
+74
+other labs: pt / ptt / inr:17.2/31.5/1.6, lactic acid:1.1 mmol/l,
+ca++:9.1 mg/dl, mg++:1.9 mg/dl, po4:3.7 mg/dl
+imaging: [**2-5**] cxr
+[**2-4**] cxr
+findings: in comparison with the study of [**2-3**], the monitoring and
+support
+devices remain in place. moderate right and small left pleural
+effusions
+persist along with bibasilar atelectasis and mild elevation of
+pulmonary
+venous pressure. more discrete opacification behind the heart could
+represent
+an area of consolidation. a lateral view would be helpful if the
+condition of
+the patient permits.
+microbiology: [**2-3**] bcx negative
+[**2156-2-3**] 11:21 pm sputum     site: endotracheal
+source: endotracheal.
+gram stain (final [**2156-2-4**]):
+[**11-7**] pmns and <10 epithelial cells/100x field.
+2+   (1-5 per 1000x field):   gram positive rod(s).
+2+   (1-5 per 1000x field):   gram positive cocci.
+in pairs and clusters.
+respiratory culture (preliminary):",# sepsis; esrd on hd; # chronic systolic chf; # dm:; # hyperkalemia,sepsis; end stage renal disease on hemodialysis; chronic systolic congestive heart failure; diabetes mellitus ; hyperkalemia,"['sepsis', 'end stage renal disease on hemodialysis', 'chronic systolic congestive heart failure', 'diabetes mellitus', 'hyperkalemia']","59M with CAD, CHF, DM, ESRD on HD, who presents with hypotension and
+   sepsis now much improved, off pressors, extubated, mental status
+   appears normal.",True,"The patient's presentation includes several clues that could suggest pulmonary hypertension, such as the presence of a gallop rhythm (S4) on cardiac examination, which can be indicative of increased pressure in the pulmonary vasculature. Additionally, the patient has hepatomegaly, which could be a sign of right heart strain or congestion, a common consequence of pulmonary hypertension. The imaging findings of moderate right and small left pleural effusions, bibasilar atelectasis, and mild elevation of pulmonary venous pressure also support this possibility. However, definitive diagnosis of pulmonary hypertension typically requires direct measurement of pulmonary artery pressures, which is not provided in the given information. Despite this, the cumulative evidence of cardiac and respiratory findings, along with the patient's overall clinical picture, leans towards the possibility of pulmonary hypertension. Therefore, based on the available information, the diagnosis of pulmonary hypertension is considered likely.",False,"While the patient has signs of respiratory distress and findings on the chest X-ray, there is no direct measurement or indication of pulmonary hypertension provided in the note, such as an echocardiogram estimating elevated pulmonary artery pressures. The diagnosis cannot be confirmed based on the information given."
+135,186078.txt,"dyspnea
+reason for micu admission: respiratory failure and intubation.
+arterial line - start [**2166-3-3**] 09:32 pm
+[**3-3**]
+-had respiratory alkalosis [**2-11**] overventilation, reduced rr which
+resolved this and brought her closer to her baseline pco2
+- place aline
+placed
+history obtained from patient
+history obtained from patientno known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+cardiovascular: chest pain, denies exertional angina, this does not
+feel like a heart attack.","last dose of antibiotics:
+vancomycin - [**2166-3-3**] 07:47 pm
+piperacillin/tazobactam (zosyn) - [**2166-3-4**] 03:47 am
+infusions:
+propofol - 35 mcg/kg/min
+other icu medications:
+pantoprazole (protonix) - [**2166-3-3**] 08:42 pm
+hydralazine - [**2166-3-4**] 02:16 am
+heparin sodium (prophylaxis) - [**2166-3-4**] 03:47 am
+other medications:
+flowsheet data as of  [**2166-3-4**] 07:25 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**68**] am
+tmax: 37.7
+c (99.9
+tcurrent: 37.7
+c (99.9
+hr: 103 (74 - 103) bpm
+bp: 150/71(101) {111/56(73) - 173/82(116)} mmhg
+rr: 16 (16 - 34) insp/min
+spo2: 95%
+heart rhythm: st (sinus tachycardia)
+wgt (current): 45.8 kg (admission): 20.8 kg
+total in:
+465 ml
+643 ml
+po:
+tf:
+ivf:
+385 ml
+563 ml
+blood products:
+total out:
+695 ml
+220 ml
+urine:
+695 ml
+220 ml
+ng:
+stool:
+drains:
+balance:
+-230 ml
+423 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 280 (280 - 300) ml
+rr (set): 16
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 40%
+rsbi deferred: rr >35
+pip: 31 cmh2o
+plateau: 24 cmh2o
+spo2: 95%
+abg: 7.40/73.[**numeric identifier 218**]/73.[**numeric identifier 218**]/39/15
+ve: 5.7 l/min
+pao2 / fio2: 183
+gen: drowsy but alert to voice, denied pupil exam
+cv: rrr, no rmg, jvd elevated half-way up neck, ttp on chest
+pulm: ctab no wrr
+abd: soft, mild ttp, quiet bs
+ext: no edema
+/
+129 k/ul
+10.1 g/dl
+116 mg/dl
+1.1 mg/dl
+39 meq/l
+3.8 meq/l
+24 mg/dl
+98 meq/l
+145 meq/l
+32.3 %
+5.5 k/ul
+image002.jpg]
+[**2166-3-3**]  03:41 pm
+[**2166-3-3**]  08:11 pm
+[**2166-3-3**]  10:02 pm
+[**2166-3-3**]  11:27 pm
+[**2166-3-4**]  02:01 am
+[**2166-3-4**]  03:30 am
+wbc
+5.5
+hct
+32.3
+plt
+129
+cr
+1.1
+tropt
+0.01
+tco2
+46
+50
+48
+49
+47
+glucose
+116
+other labs: pt / ptt / inr:12.4/29.5/1.0, ck / ckmb /
+troponin-t:149/3/0.01, lactic acid:1.0 mmol/l, ca++:9.6 mg/dl, mg++:2.1
+mg/dl, po4:1.9 mg/dl
+abg: [**2166-3-4**] 0700:
+ph
+7.45
+pco2
+57
+po2
+89
+hco3
+41
+basexs
+12
+imaging: cxr ap [**2166-3-5**]
+1. endotracheal tube approximately 3 cm above the carina.
+2. large hiatla hernia.
+3. probable bibasilar atelectasis.
+4. stable cardiomegaly.
+microbiology: [**2166-3-3**]  urine legionella urinary antigen -final
+inpatient - neg
+[**2166-3-3**]  urine urine culture-pending inpatient
+[**2166-3-3**]  sputum gram stain-final; respiratory culture-preliminary
+inpatient - ngtd, neg gram stain
+[**2166-3-3**]  blood culture blood culture, routine-pending emergency [**hospital1 **]
+ecg: nsr, no st changes, inferior twi",respiratory failure.; chronic diastolic heart failure and pulmonary hypertension.,respiratory failure ; chronic diastolic heart failure and pulmonary hypertension,"['respiratory failure', 'chronic diastolic heart failure and pulmonary hypertension']","ACUTE RESPIRATORY DISTRESS SYNDROME (ARDS, ACUTE LUNG INJURY, [**Doctor Last Name 11**])
+ HYPERTENSION, BENIGN
+ CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD, BRONCHITIS, EMPHYSEMA)
+   WITH ACUTE EXACERBATION
+   70F with severe kyphoscoliosis and chronic restrictive lung
+   disease/hypoventilation, presenting with likely hypercarbic respiratory
+   failure.",True,"The patient presents with dyspnea and respiratory failure, which are common symptoms of pulmonary hypertension. The elevated jugular venous distension (JVD) noted in the cardiovascular examination is also a significant clue, as it can indicate right heart strain or failure, often associated with pulmonary hypertension. Additionally, the patient's chest pain and the absence of exertional angina could suggest that the pain is not solely cardiac in origin, potentially pointing towards pulmonary hypertension. The stable cardiomegaly seen on the chest X-ray (CXR) further supports this, as it can be a sign of right ventricular hypertrophy, a common consequence of pulmonary hypertension. While the provided information does not include direct measurements of pulmonary artery pressure (PAP) or other definitive diagnostic tests for pulmonary hypertension, the combination of clinical presentation, symptoms, and supportive findings like JVD and cardiomegaly, in the context of respiratory failure, leans towards the diagnosis of pulmonary hypertension.",False,"While the patient has respiratory symptoms and is on ventilatory support, there is no specific information provided that directly suggests pulmonary hypertension, such as elevated pulmonary artery pressures or specific echocardiogram findings."
+142,198883.txt,"chief complaint
+ekg - at [**2132-6-3**] 12:45 pm
+triple introducer - start [**2132-6-3**] 12:55 pm
+ekg - at [**2132-6-3**] 02:40 pm
+[**6-3**]
+- hr remained in sinus tachy
+- bp stable in 80-90's which is her baseline
+- per liver, no plans for repeat liver bx at this time
+this morning has no complaints except very hungry. no chest pain,
+palitations, breathing at baseline, no abd pain.
+llergies:
+penicillins
+hives;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2132-6-3**] 08:01 pm
+other medications:
+flowsheet data as of  [**2132-6-4**] 07:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 35.6
+c (96
+hr: 99 (85 - 125) bpm
+bp: 130/51(67) {85/36(50) - 130/72(80)} mmhg
+rr: 21 (13 - 27) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+total in:
+3,976 ml
+76 ml
+po:
+tf:
+ivf:
+276 ml
+76 ml
+blood products:
+200 ml
+total out:
+700 ml
+300 ml
+urine:
+550 ml
+300 ml
+ng:
+stool:
+drains:
+150 ml
+balance:
+3,276 ml
+-224 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///16/
+gen: anxious, jaundiced
+heent: mm dry, sclerae icteric
+pulm: mostly clear with some scarce crackles
+cor: rrr, systolic murmur
+abd: obese, soft, normal
+ext: 3+ edema
+163 k/ul
+8.5 g/dl
+109 mg/dl
+0.6 mg/dl
+16 meq/l
+3.5 meq/l
+24 mg/dl
+116 meq/l
+142 meq/l
+26.0 %
+18.1 k/ul
+[image002.jpg]
+[**2132-6-3**]  12:36 pm
+[**2132-6-3**]  05:09 pm
+[**2132-6-4**]  05:18 am
+wbc
+15.8
+18.1
+hct
+26.9
+31.9
+26.0
+plt
+173
+163
+cr
+1.1
+0.6
+tropt
+0.02
+glucose
+76
+109
+other labs: pt / ptt / inr:23.2/47.4/2.2, ck / ckmb /
+troponin-t:25//0.02, alt / ast:25/87, alk phos / t bili:180/22.8,
+ca++:8.4 mg/dl, mg++:2.2 mg/dl, po4:3.3 mg/dl","# svt with hypotension: this occured in setting of having ra/rv
+   manipulated with wire; abdominal pain; # acute renal failure:; etoh cirrhosis:; # leukocytosis:",supraventricular tachycardia with hypotension this occurred in setting of having right atrium right ventricle manipulated with wire; abdominal pain; acute renal failure ; ethanol cirrhosis ; leukocytosis,"['supraventricular tachycardia with hypotension this occurred in setting of having right atrium right ventricle manipulated with wire', 'abdominal pain', 'acute renal failure', 'ethanol cirrhosis', 'leukocytosis']","Assessment and Plan
+ HYPOTENSION (NOT SHOCK)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ SUPRAVENTRICULAR TACHYCARDIA (SVT)
+   53 yo female with a history of ETOH cirrhosis c/b persistent
+   leukocytosis and elevated TBili, hx ascites, grade 1 varix, no hx SBP
+   or encephalopathy, recently discharged from [**Hospital1 5**] ([**Date range (1) 6020**]),
+   electively admitted [**5-28**] for an EUS to evaluate a GE junction polyp
+   (aborted given hypotension), now transferred to the liver service for
+   acute renal failure and ?decompensated cirrhosis.",True,"The patient's presentation includes several findings that could suggest pulmonary hypertension, such as sinus tachycardia (hr: 99 bpm), which can be a sign of increased right ventricular pressure. Additionally, the presence of a systolic murmur (cor: rrr, systolic murmur) could indicate tricuspid regurgitation, a common finding in pulmonary hypertension. However, the blood pressure is within a relatively normal range (bp: 130/51 mmHg), and there's no direct measurement of pulmonary artery pressure provided. The patient also has 3+ edema, which could be related to right heart failure, a potential consequence of pulmonary hypertension. Despite these suggestive findings, the absence of explicit symptoms like exertional dyspnea or direct evidence of elevated pulmonary pressures makes the diagnosis uncertain. Nonetheless, considering the combination of sinus tachycardia, systolic murmur, and significant edema in the context of other potential risk factors or comorbid conditions (e.g., the patient's jaundiced appearance and abnormal liver function tests), it leans towards a possible diagnosis of pulmonary hypertension, though further diagnostic testing (e.g., echocardiogram, right heart catheterization) would be necessary for confirmation.",False,"There is no specific information provided that directly supports a diagnosis of pulmonary hypertension, such as elevated pulmonary artery pressures or right ventricular strain on imaging. The presence of scarce crackles could be indicative of various conditions and is not specific enough to support this diagnosis."
+156,193309.txt,"underwent r vats evacuation of hemothorax. removed 2l of old blood,
+no active bleeding. good lung re-expansion. 3 chest tubes in place with
+minimal output initially (basilar is most ant on skin, ant apical is in
+the middle, and post apical is most post on the skin).
+went into svt with rate up to the 160s. did not break with valsalva as
+has in past. given lopressor 5mg iv x3, 25mg po and changed metoprolol
+back to 25mg [**hospital1 7**]. rate still in 120s. gave diltaizem 10mg iv. rate back
+to sinus in 80s, where he is currently this am.
+urine output down to <20cc/hr so bolused total of 750cc overnight.
+all drug allergies previously recorded have been deleted
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+midazolam (versed) - [**2173-3-15**] 09:35 am
+metoprolol - [**2173-3-15**] 11:15 pm
+diltiazem - [**2173-3-16**] 12:10 am
+morphine sulfate - [**2173-3-16**] 06:01 am
+other medications:
+flowsheet data as of  [**2173-3-16**] 07:14 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**74**] am
+tmax: 37
+c (98.6
+tcurrent: 35.9
+c (96.7
+hr: 85 (75 - 154) bpm
+bp: 127/67(91) {97/61(76) - 136/75(97)} mmhg
+rr: 20 (11 - 26) insp/min
+spo2: 96%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 85.5 kg (admission): 80.8 kg
+total in:
+7,934 ml
+1,096 ml
+po:
+120 ml
+120 ml
+tf:
+ivf:
+7,101 ml
+976 ml
+blood products:
+713 ml
+total out:
+3,459 ml
+634 ml
+urine:
+969 ml
+308 ml
+ng:
+stool:
+drains:
+balance:
+4,475 ml
+462 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 96%
+abg: 7.38/47/78.[**numeric identifier 181**]/25/1
+pao2 / fio2: 79
+gen: elderly gentleman in nad, pleasant
+heent: oropharynx clear, moist mucus membranes
+neck: jvp above clavicle at 60 degrees
+cv: s1, s2 regular rhythm, normal rate
+lung: course breath sounds right base
+abd: soft, ntnd
+ext: 1+ lower extremity edema, warm, distal pulses intact
+/
+367 k/ul
+10.8 g/dl
+145 mg/dl
+0.9 mg/dl
+25 meq/l
+5.1 meq/l
+33 mg/dl
+103 meq/l
+134 meq/l
+30.7 %
+11.5 k/ul
+wbc
+8.8
+11.9
+11.5
+hct
+31.8
+32.1
+31.9
+31
+33.9
+30.7
+plt
+[**telephone/fax (3) 14280**]
+cr
+1.2
+1.0
+0.9
+tco2
+27
+25
+29
+glucose
+121
+117
+121
+124
+144
+145
+other labs: pt / ptt / inr:13.3/31.7/1.1, alt / ast:50/59, alk phos / t
+bili:72/2.6, lactic acid:1.9 mmol/l, ldh:206 iu/l, ca++:7.6 mg/dl,
+mg++:2.3 mg/dl, po4:3.4 mg/dl",# svt; #hcc; #hyponatremia; #ivc clot; # pain control,supraventricular tachycardia; hepatocellular carcinoma; hyponatremia; inferior vena cava clot; pain control,"['supraventricular tachycardia', 'hepatocellular carcinoma', 'hyponatremia', 'inferior vena cava clot', 'pain control']","61M w/ HCC on lovenox for tumor thrombus in IVC, s/p RFA of liver
+   lesion [**2173-3-11**] admitted with large R hemothorax now s/p R VATS
+   yesterday with significant improvement in respiratory status",True,"The patient's presentation includes several clues that could suggest pulmonary hypertension, such as the history of hemothorax evacuation and the presence of tachycardia (rate up to 160s) which could be indicative of stress on the right heart. However, the key finding that leans towards pulmonary hypertension is the elevated jugular venous pressure (JVP) noted as 'jvp above clavicle at 60 degrees', which is a sign of right heart strain. Additionally, the patient has 1+ lower extremity edema, which could be indicative of right heart failure, a common consequence of pulmonary hypertension. The patient's oxygenation is maintained on a nasal cannula with an SpO2 of 96%, and the ABG shows a pH of 7.38 with a pAO2 of 78 on a relatively low FiO2, suggesting some impairment in gas exchange. While the direct measurement of pulmonary artery pressures is not provided, the combination of these clinical findings (elevated JVP, edema, and the context of recent thoracic surgery) supports the possibility of pulmonary hypertension. Nonetheless, without a direct measurement of pulmonary artery pressures or more specific echocardiographic data, the diagnosis remains suggestive rather than definitive. Given the information available, the most likely conclusion based on the provided clues is that pulmonary hypertension could be present, but a definitive diagnosis would require further diagnostic evaluation.",False,"While the patient has undergone a significant thoracic procedure and has some respiratory findings (course breath sounds right base), there is no direct measurement or indication of pulmonary hypertension provided in the SOAP note, such as an echocardiogram estimating elevated pulmonary artery pressures."
+157,100575.txt,"- digoxin resumed (dig level=0.9)
+- leni's negative
+- tte showed dilated rv
+- pe confirmed on final chest ct report
+- started coumadin 2.5 mg qhs
+- nwh records obtained
+- episode of tachycardia to 150's overnight, resolved with lopressor 5
+mg iv
+aspirin
+nausea/vomiting
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2133-2-12**] 09:52 pm
+piperacillin/tazobactam (zosyn) - [**2133-2-13**] 04:37 am
+infusions:
+heparin sodium - 1,425 units/hour
+other icu medications:
+metoprolol - [**2133-2-13**] 03:12 am
+other medications:
+flowsheet data as of  [**2133-2-13**] 07:45 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.4
+tcurrent: 37.1
+c (98.8
+hr: 107 (74 - 131) bpm
+bp: 126/54(72) {92/43(55) - 130/71(114)} mmhg
+rr: 24 (19 - 30) insp/min
+spo2: 99%
+heart rhythm: a flut (atrial flutter)
+height: 66 inch
+total in:
+3,323 ml
+524 ml
+po:
+tf:
+129 ml
+237 ml
+ivf:
+1,364 ml
+288 ml
+blood products:
+total out:
+1,785 ml
+440 ml
+urine:
+725 ml
+440 ml
+ng:
+stool:
+drains:
+balance:
+1,538 ml
+85 ml
+respiratory support
+o2 delivery device: tracheostomy tube
+ventilator mode: cpap/psv
+vt (spontaneous): 345 (138 - 345) ml
+ps : 8 cmh2o
+rr (spontaneous): 22
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 88
+pip: 13 cmh2o
+spo2: 99%
+abg: ///35/
+ve: 5.6 l/min
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+267 k/ul
+9.6 g/dl
+142 mg/dl
+0.4 mg/dl
+35 meq/l
+3.8 meq/l
+9 mg/dl
+98 meq/l
+138 meq/l
+28.4 %
+7.0 k/ul
+[image002.jpg]
+[**2133-2-12**]  03:40 am
+[**2133-2-12**]  04:40 am
+[**2133-2-12**]  11:28 am
+[**2133-2-13**]  05:15 am
+wbc
+9.5
+7.0
+hct
+28.6
+29.4
+28.4
+plt
+306
+267
+cr
+0.5
+0.4
+tropt
+0.05
+0.03
+tco2
+39
+glucose
+116
+142
+other labs: pt / ptt / inr:15.6/62.5/1.4, ck / ckmb /
+troponin-t:30//0.03, alt / ast:13/29, alk phos / t bili:68/0.3, amylase
+/ lipase:[**4-25**], differential-neuts:72.0 %, lymph:20.5 %, mono:5.6 %,
+eos:1.3 %, lactic acid:0.9 mmol/l, albumin:2.4 g/dl, ldh:320 iu/l,
+ca++:8.3 mg/dl, mg++:1.8 mg/dl, po4:3.5 mg/dl",pe; pna; afib/aflutter; vent dependence; uti,pulmonary embolism; pneumonia; atrial fibrillation atrial flutter; ventilator dependence; urinary tract infection,"['pulmonary embolism', 'pneumonia', 'atrial fibrillation atrial flutter', 'ventilator dependence', 'urinary tract infection']","81 yo female with PMH of ?, p/w acute onset
+   dyspnea, hypoxia, and tachycardia found to have a left upper PE, right
+   pna, uti, and afib with RVR.
+   .",True,"The patient's symptoms and medical history suggest the presence of pulmonary hypertension. Key clues include a dilated right ventricle (RV) as shown on the transthoracic echocardiogram (TTE), which is a common finding in pulmonary hypertension due to the increased pressure and workload on the right ventricle. Additionally, the patient has been diagnosed with a pulmonary embolism (PE), which can lead to or exacerbate pulmonary hypertension. The use of anticoagulants such as coumadin and heparin also supports the management of conditions like PE and potentially pulmonary hypertension. The patient's tachycardia episode and the presence of atrial flutter could be related to the increased stress on the heart due to pulmonary hypertension. While the direct measurement of pulmonary artery pressures is not provided, the combination of these findings strongly suggests the presence of pulmonary hypertension.",False,"The patient has a dilated RV on TTE, which could be indicative of pulmonary hypertension. However, there is no direct measurement of pulmonary artery pressure or other supporting evidence. Therefore, the diagnosis is uncertain, but it's possible."
+164,187036.txt,"admitted to micu-6
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 1,700 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2160-10-31**] 06:42 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.5
+tcurrent: 36.9
+c (98.5
+hr: 81 (81 - 105) bpm
+bp: 93/65(71) {90/58(65) - 116/76(85)} mmhg
+rr: 17 (15 - 24) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+height: 74 inch
+total in:
+242 ml
+po:
+150 ml
+tf:
+ivf:
+92 ml
+blood products:
+total out:
+0 ml
+300 ml
+urine:
+300 ml
+ng:
+stool:
+drains:
+balance:
+0 ml
+-58 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///25/
+gen: pleasant man lying comfortably in bed, mildly anxious.
+heent: eomi, perrl, neck supple, no jvp, op clear, mmm. neck is supple,
+no carotid bruits, no thyroid nodule.
+card: s1, s2, tachycardic and regular, no murmur.
+pulm: lungs clear b/l
+abd:  is soft and not tender.
+ext: +varicose veins.  rle is mildly edematous as compared to the
+left.  no palpable cord.  no warmth.  distal pulses are faint but
+palpable b/l. mildly tender to r calf.
+neuro:  alert and oriented, moving all extremities equally.
+/
+222 k/ul
+12.1 g/dl
+114 mg/dl
+0.9 mg/dl
+25 meq/l
+4.0 meq/l
+16 mg/dl
+106 meq/l
+140 meq/l
+34.1 %
+7.7 k/ul
+[image002.jpg]
+[**2160-10-31**]  03:28 am
+wbc
+7.7
+hct
+34.1
+plt
+222
+cr
+0.9
+glucose
+114
+radiology:
+bilat le us: nearly occlusive thrombus involving the right superficial
+femoral and popliteal veins. findings were discussed with dr.
+[**last name (stitle) 2104**] immediately after completion of the study by the
+son[**name (ni) 2105**]. the patient will be going to [**hospital1 19**] emergency room today.
+ct-pa: massive bilateral pulmonary emboli with right heart strain
+pattern. correlate clinically adn with echocardiography. stable
+centrilobular nodules and consolidative changes of the upper lobes and
+mediastinal lymphadenopathy, compatible with the patient's diagnosis of
+sarcoidosis.
+cxr: normal lung fields, normal heart size, no effusions, no ptx, no
+acute cardiopulmonary process, the costo-diaphragmatic angles were not
+imaged.",pulmonary embolism; sarcoid; leukocytosis,pulmonary embolism; sarcoidosis; leukocytosis,"['pulmonary embolism', 'sarcoidosis', 'leukocytosis']","59yo gentleman with h/o sarcoidosis who presented with dyspnea and was
+   found to have massive PEs with evidence of right heart strain.",True,"The patient presents with massive bilateral pulmonary emboli with right heart strain pattern on CT-PA, which is a strong indicator of pulmonary hypertension. Additionally, the presence of varicose veins, mildly edematous right lower extremity, and nearly occlusive thrombus involving the right superficial femoral and popliteal veins suggest venous thromboembolism, which can lead to pulmonary hypertension. The patient's tachycardia (hr: 81 bpm) and low blood pressure (bp: 93/65 mmHg) may also be indicative of right heart strain. Although the patient has a diagnosis of sarcoidosis, which can also cause pulmonary hypertension, the current presentation is more suggestive of acute pulmonary embolism leading to pulmonary hypertension. Therefore, based on the provided information, the diagnosis of pulmonary hypertension is likely true.",False,"The patient's CT-PA scan shows right heart strain pattern, which can be indicative of pulmonary hypertension. However, there is no direct measurement of pulmonary artery pressures provided, and the diagnosis of pulmonary hypertension typically requires more specific diagnostic criteria. Given the context of sarcoidosis and pulmonary embolism, it is possible but not definitively diagnosed here."
+189,185625.txt,"nasal swab - at [**2145-1-18**] 03:03 pm
+- called for asymptomatic hypoxia.  the patient was placed on a face
+tent and o2 sat remained in the low 90's.  the patient had a difficult
+time keeping her face mask on and had subsequent episodes of
+desaturation into the low 90's high 80's
+- she then became more tachycardic and her am cxr showed worsening
+pulmonary edema.  she was restarted on metoprolol 5mg iv tid and given
+20mg of iv lasix.
+- na on admission 125, up to 130 after 2l ns
+- had many pvcs overnight, replaced k and mag
+nitroglycerin
+hypotension;
+aspirin
+unknown;
+penicillins
+unknown;
+levaquin (oral) (levofloxacin)
+diarrhea;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2145-1-18**] 04:35 pm
+other medications:
+flowsheet data as of  [**2145-1-19**] 05:15 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.6
+c (99.7
+tcurrent: 37.6
+c (99.7
+hr: 109 (80 - 109) bpm
+bp: 110/58(69) {77/36(53) - 123/60(74)} mmhg
+rr: 19 (16 - 25) insp/min
+spo2: 91%
+heart rhythm: st (sinus tachycardia)
+height: 61 inch
+total in:
+4,588 ml
+718 ml
+po:
+tf:
+ivf:
+2,588 ml
+718 ml
+blood products:
+total out:
+884 ml
+185 ml
+urine:
+634 ml
+185 ml
+ng:
+250 ml
+stool:
+drains:
+balance:
+3,704 ml
+533 ml
+respiratory support
+o2 delivery device: face tent
+spo2: 91%
+abg: ///28/
+/
+148 k/ul
+9.8 g/dl
+127 mg/dl
+0.8 mg/dl
+28 meq/l
+3.7 meq/l
+18 mg/dl
+96 meq/l
+131 meq/l
+28.1 %
+13.8 k/ul
+[image002.jpg]
+[**2145-1-18**]  12:42 pm
+[**2145-1-18**]  09:10 pm
+[**2145-1-19**]  01:58 am
+wbc
+13.8
+hct
+28.1
+plt
+148
+cr
+0.8
+0.9
+0.8
+glucose
+140
+135
+127
+other labs: pt / ptt / inr:16.6/37.3/1.5, alt / ast:13/21, alk phos / t
+bili:44/0.6, albumin:3.3 g/dl, ldh:232 iu/l, ca++:8.1 mg/dl, mg++:1.9
+mg/dl, po4:2.8 mg/dl",sbo.; hypoxia.; hypothyroidism; osteoporosis.; htn; cad s/p mi.,small bowel obstruction ; hypoxia ; hypothyroidism; osteoporosis ; hypertension; coronary artery disease status post myocardial infarction,"['small bowel obstruction', 'hypoxia', 'hypothyroidism', 'osteoporosis', 'hypertension', 'coronary artery disease status post myocardial infarction']","Leukocytosis.  Likely secondary to SBO, but will evaluate for
+   infectious sources.  Also has infiltrate on CXR, ?aspiration
+   pneumonitis versus pneumonia.
+   - f/u urine, blood, sputum cultures
+   - monitor fever curve, wbc
+   - hold off on Abx for now, but consider if febrile or has worsening
+   respiratory symptoms",True,"The patient presents with asymptomatic hypoxia, requiring supplemental oxygen and experiencing episodes of desaturation. The presence of worsening pulmonary edema, as indicated by the chest X-ray, and the need for diuretics (lasix) suggest fluid overload, which can be associated with pulmonary hypertension. Additionally, the patient's tachycardia (sinus tachycardia with a heart rate of 109 bpm) and low systemic blood pressure (110/58 mmHg) could indicate right heart strain, a common complication of pulmonary hypertension. However, direct evidence of pulmonary hypertension, such as elevated pulmonary artery pressures or right ventricular dysfunction, is not explicitly mentioned in the provided SOAP note sections. Despite this, the combination of hypoxia, pulmonary edema, and signs of potential right heart strain provide indirect clues that could suggest pulmonary hypertension. Therefore, based on the available information, it seems plausible to consider pulmonary hypertension as a potential diagnosis, although definitive confirmation would require more specific diagnostic tests, such as echocardiography or right heart catheterization.",False,"While the patient has hypoxia and is experiencing respiratory distress, there is no direct measurement or indication of pulmonary hypertension provided in the SOAP note."
+201,148906.txt,"pt had ct which showed no rp bleed, no change in r groin hematoma.
+recieved 2 units prbcs overnight and vascular surgery consulted.  bps
+in the 90s overnight.  repeat hct 26.1.
+this morning, bps dropped to 70s systolic.  got 500cc ns bolus.
+dilaudid (oral) (hydromorphone hcl)
+unknown;
+morphine and related
+unknown;
+adhesive tape (topical)
+unknown;
+oxycodone
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2129-11-19**] 06:14 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37
+c (98.6
+tcurrent: 36.1
+c (97
+hr: 75 (73 - 96) bpm
+bp: 79/28(40) {71/19(33) - 113/43(57)} mmhg
+rr: 13 (8 - 24) insp/min
+spo2: 96%
+heart rhythm: sr (sinus rhythm)
+height: 60 inch
+total in:
+1,351 ml
+899 ml
+po:
+tf:
+ivf:
+551 ml
+149 ml
+blood products:
+750 ml
+350 ml
+total out:
+840 ml
+200 ml
+urine:
+840 ml
+200 ml
+ng:
+stool:
+drains:
+balance:
+511 ml
+699 ml
+respiratory support
+o2 delivery device: none
+spo2: 96%
+abg: ///26/
+general: wdwn female in nad. oriented x3. mood, affect appropriate.
+heent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no
+pallor or cyanosis of the oral mucosa. no xanthalesma.
+neck: supple with jvp of 6 cm.
+cardiac: pmi located in 5th intercostal space, midclavicular line. rr,
+normal s1, [**1-12**] holosystolic murmur at apex with diminishd s2. no
+thrills, lifts. no s3 or s4.
+lungs: no chest wall deformities, scoliosis or kyphosis. resp were
+unlabored, no accessory muscle use. ctab, no crackles, wheezes or
+rhonchi.
+abdomen: soft, mild right femoral tenderness.  moderate hematoma on
+right extendeding medially and laterally with echymossis.  non-tense.
+extremities: no c/c/e. no femoral bruit.  r aka amputation with heaing
+tissue.
+skin: sacral decub stage 2.
+pulses:
+left: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+
+hct
+26.1
+cr
+0.5
+glucose
+125
+other labs: pt / ptt / inr:13.2/24.5/1.1, ck / ckmb / troponin-t:24//,
+ca++:7.6 mg/dl, mg++:1.8 mg/dl, po4:4.3 mg/dl
+ct abd/pelvis (preliminary):  no retroperitoneal hematoma.  no
+significant change in size of right groin hematoma.","hypotension:  given prominent hct drop, clearly concern for active
+   groin bleed w/ visible groin hematoma.; cad; systolic congestive heart failure; diabetes type ii; copd",hypotension given prominent hematocrit drop clearly concern for active groin bleed with visible groin hematoma ; coronary artery disease; systolic congestive heart failure; diabetes type ii; chronic obstructive pulmonary disease,"['hypotension given prominent hematocrit drop clearly concern for active groin bleed with visible groin hematoma', 'coronary artery disease', 'systolic congestive heart failure', 'diabetes type ii', 'chronic obstructive pulmonary disease']","The patient is a 71 year old female with a history of CAD, dCHF, PVD
+   s/p recent amputation, DM, HTN who presented with diastolic HF and ? of
+   NSTEMI, now transferred with hypotension and HCT drop.
+   .",True,"The patient's presentation includes a holosystolic murmur at the apex with diminished S2, which could suggest mitral regurgitation or tricuspid regurgitation, both of which can be associated with pulmonary hypertension. Additionally, the patient has a low systolic blood pressure (70s mmHg) and a relatively low diastolic blood pressure, which may indicate decreased cardiac output or peripheral vasodilation, but these findings alone are not specific for pulmonary hypertension. The elevated heart rate (75 bpm) could be a compensatory response to decreased cardiac output or hypovolemia. However, the key finding that leans towards pulmonary hypertension is the presence of a holosystolic murmur, which can be indicative of tricuspid regurgitation, a common finding in pulmonary hypertension due to the increased pressure in the pulmonary artery causing backflow into the right atrium. The patient's oxygen saturation (96%) on room air and the absence of significant respiratory symptoms or findings (e.g., no crackles, wheezes, or rhonchi) do not strongly argue against pulmonary hypertension, as patients with this condition can have preserved oxygenation, especially if the disease is not advanced. The jugular venous pressure (JVP) is elevated at 6 cm, which can be seen in conditions that increase right ventricular pressure, such as pulmonary hypertension. Given these clues, while not definitive without further diagnostic testing like echocardiography or right heart catheterization, the evidence suggests a possible diagnosis of pulmonary hypertension.",False,"Pulmonary hypertension would typically present with signs of right heart strain or failure, such as an elevated JVP, peripheral edema, and possibly a loud P2 heart sound. While the JVP is slightly elevated, there's no mention of a loud P2 or significant peripheral edema. The patient's echocardiogram results are not provided, which would be crucial for assessing pulmonary pressures. Without direct evidence, pulmonary hypertension cannot be confirmed."
+231,149923.txt,"- switching iabp to 1:2 caused co to fall to 4, ci to 1.9. mixed venous
+sat to 58%, iabp put back on 1:1 with improvement of ci to 2.4
+- again trialed on 1:2 at 5:30am
+- ce came back at ck 3500, mb 400 trop 12.6 (from 20) (trend is 20,
+12.6, 8), hdl 55, ldl 116
+- put back on home dose of avodart
+no known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 1,600 units/hour
+other icu medications:
+pantoprazole (protonix) - [**2137-12-11**] 06:00 pm
+heparin sodium - [**2137-12-12**] 01:00 am
+other medications:
+flowsheet data as of  [**2137-12-12**] 06:50 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**39**] am
+tmax: 37.7
+c (99.9
+tcurrent: 37
+c (98.6
+hr: 77 (77 - 94) bpm
+bp: 104/63(79) {83/55(71) - 104/77(90)} mmhg
+rr: 19 (10 - 23) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+height: 73 inch
+cvp: 11 (5 - 14)mmhg
+pap: (31 mmhg) / (18 mmhg)
+co/ci (fick): (4.8 l/min) / (2.2 l/min/m2)
+mixed venous o2% sat: 58 - 62
+total in:
+1,410 ml
+103 ml
+po:
+1,020 ml
+tf:
+ivf:
+390 ml
+103 ml
+blood products:
+total out:
+2,140 ml
+485 ml
+urine:
+2,140 ml
+485 ml
+ng:
+stool:
+drains:
+balance:
+-730 ml
+-382 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ////
+general appearance: well nourished, appearing man lying on back in bed,
+nad
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), sounds obscured by iabp
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: dopplerable), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), clear to auscultation
+anteriorly
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right lower extremity cool, but patient can wiggle toes,
+dorsiflex and plantarflex the ankle, no edema, left lower extremity
+warm, well-perfused, no edema
+skin: large hematoma at groin incision site
+neurologic: attentive, conversant, mobility limited by bedrest, but
+able to move all extremities,
+161 k/ul
+10.7 g/dl
+112 mg/dl
+0.9 mg/dl
+24 meq/l
+3.9 meq/l
+25 mg/dl
+106 meq/l
+138 meq/l
+35.1 %
+8.7 k/ul
+[image002.jpg]
+[**2137-12-10**]  03:09 pm
+[**2137-12-10**]  03:31 pm
+[**2137-12-10**]  11:19 pm
+[**2137-12-11**]  06:35 am
+[**2137-12-11**]  02:22 pm
+wbc
+8.7
+hct
+46
+42
+35.1
+plt
+161
+cr
+0.9
+tropt
+21.30
+12.60
+8.39
+glucose
+112
+other labs: pt / ptt / inr:/53.3/, ck / ckmb /
+troponin-t:2137/188/8.39, mg++:2.1 mg/dl",stemi c/b cardiogenic shock; prostate ca; anxiety:; gerd,st elevation myocardial infarction complicated by cardiogenic shock; prostate cancer; anxiety ; gastroesophageal reflux disease,"['st elevation myocardial infarction complicated by cardiogenic shock', 'prostate cancer', 'anxiety', 'gastroesophageal reflux disease']","61 M with hx of CAD s/p Taxus stent to LAD in [**2134**], Prostate Ca
+   ([**Doctor First Name **] 7 or 8), GERD and anxiety presents with chest pressure and
+   dyspnea after playing a basketball game in the setting of 5 days off of
+   asa/plavix.",True,"The patient's hemodynamic monitoring data shows a pulmonary artery pressure (PAP) of 31 mmHg, which is elevated. Additionally, the patient has a low cardiac output (CO) of 4.8 L/min and a low cardiac index (CI) of 2.2 L/min/m2, indicating potential right ventricular dysfunction. The mixed venous oxygen saturation is also low at 58-62%, suggesting increased pulmonary vascular resistance. These findings, along with the patient's requirement for an intra-aortic balloon pump (IABP) and the observed decrease in CO and CI when the IABP is switched to 1:2, suggest that the patient may have pulmonary hypertension. However, the diagnosis of pulmonary hypertension is typically confirmed by right heart catheterization, which is not mentioned in the provided data. Despite this, the available evidence strongly suggests the presence of pulmonary hypertension.",False,"The patient's pulmonary artery pressure (PAP) is elevated (31 mmHg), which could indicate pulmonary hypertension. However, this finding alone is not sufficient to make a diagnosis, and other symptoms and lab results do not strongly support this diagnosis."
+257,185452.txt,"dyspnea/hypoxia
+ekg - at [**2125-12-31**] 08:23 am
+-tte - to assess for new [**year (4 digits) 2270**] given elevated bnp and findings of failure
+- no new [**last name (lf) **], [**first name3 (lf) **] 55%
+-s/s evalutation - rec barium swallow to r/o esophageal pathology,
+likely reflux, re-consult if (-) scan, cont purees
+- diuresis iv lasix 40mg am - net (-)
+""   -cardiology recs - from team census - """"when sob quiets down, consider""
+""   cath"""" - maximize med tx.  spoke with cards c/s o/n, will make sure team""
+evals [**1-1**].
+- ct scan 8pm - small bil pleural effusions, smooth septal thickening,
+ggo in dependant portion of lungs, findings suggestive of pulmonary
+edema, however pattern is somewhat atypical, aspiration may be
+considered.  3v cad noted, calcification of mitral annulus and av.
+demerol (oral) (meperidine hcl)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2125-12-30**] 07:45 am
+metronidazole - [**2126-1-1**] 06:00 am
+infusions:
+heparin sodium - 1,800 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2126-1-1**] 07:52 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 36.4
+c (97.5
+hr: 65 (57 - 69) bpm
+bp: 115/31(54) {93/21(44) - 157/123(131)} mmhg
+rr: 17 (11 - 17) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,078 ml
+220 ml
+po:
+480 ml
+tf:
+ivf:
+598 ml
+220 ml
+blood products:
+total out:
+2,045 ml
+260 ml
+urine:
+2,045 ml
+260 ml
+ng:
+stool:
+drains:
+balance:
+-967 ml
+-40 ml
+respiratory support
+o2 delivery device: aerosol-cool
+spo2: 92%
+abg: ///36/
+general appearance: well nourished, no acute distress, overweight /
+obese
+cardiovascular: (s1: normal), (s2: normal), (murmur: systolic)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (breath sounds: wheezes : )
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: 2+, left: 2+
+skin:  not assessed
+neurologic: attentive, responds to: not assessed, movement: not
+assessed, tone: not assessed
+250 k/ul
+9.7 g/dl
+167 mg/dl
+0.8 mg/dl
+36 meq/l
+4.2 meq/l
+26 mg/dl
+98 meq/l
+141 meq/l
+29.4 %
+8.8 k/ul
+image002.jpg]
+[**2125-12-30**]  04:27 am
+[**2125-12-30**]  11:14 am
+[**2125-12-31**]  05:20 am
+[**2125-12-31**]  04:33 pm
+[**2126-1-1**]  04:37 am
+wbc
+8.6
+9.5
+8.8
+hct
+29.3
+30.0
+29.4
+plt
+[**telephone/fax (3) 2271**]
+cr
+0.9
+0.9
+1.0
+0.8
+tropt
+2.89
+2.99
+2.61
+1.37
+0.82
+glucose
+97
+122
+223
+167
+other labs: pt / ptt / inr:13.1/76.8/1.1, ck / ckmb /
+troponin-t:110/3/0.82, alt / ast:[**12-30**], alk phos / t bili:64/0.3,
+lactic acid:0.9 mmol/l, albumin:2.9 g/dl, ldh:246 iu/l, ca++:8.2 mg/dl,
+mg++:2.0 mg/dl, po4:3.9 mg/dl",hypoxemia; # nstemi.; aspiration pneumonia; pleural effusion; copd,hypoxemia; non st elevation myocardial infarction ; aspiration pneumonia; pleural effusion; chronic obstructive pulmonary disease,"['hypoxemia', 'non st elevation myocardial infarction', 'aspiration pneumonia', 'pleural effusion', 'chronic obstructive pulmonary disease']","85 F with COPD on home O2, recent admission to hospital for post-ERCP
+   hypoxia thought related to NSTEMI and aspiration pneumonia, now
+   admitted with worsening dyspnea, elevated troponin, and pulmonary
+   edema.",True,"The patient presents with dyspnea and hypoxia, which are common symptoms of pulmonary hypertension. The elevated BNP (brain natriuretic peptide) levels and findings suggestive of pulmonary edema on the CT scan also support this diagnosis. Additionally, the patient has a systolic murmur, which could be indicative of tricuspid regurgitation, a common finding in pulmonary hypertension. The low diastolic blood pressure (31 mmHg) and the presence of small bilateral pleural effusions are also consistent with pulmonary hypertension. While the patient's symptoms and lab results could be attributed to other conditions, such as heart failure or pulmonary embolism, the combination of these findings and the recommendation for a cardiac catheterization to assess for pulmonary hypertension suggest that this diagnosis is likely.",False,"There is no direct evidence to suggest pulmonary hypertension, such as an elevated pulmonary artery pressure on echocardiogram or right heart catheterization. The patient does have dyspnea and hypoxia, but these symptoms are more likely due to congestive heart failure. Therefore, the diagnosis is unlikely."
+267,187660.txt,"85f with a history of cad, diastolic heart failure and restrictive lung
+disease who presents with chest pain, shortness of breath found to have
+3vd on cath.
+reached oliguric renal failure, u/o < 100cc s/p metolazone and lasix
+120 in am. renal felt that arf most likely is cin vs. ain vs.
+embolic.  her ua was positive again for leuks/wbcs/bacteria, per renal
+recs restarted cftx.  no eos on ua, added on for diff in am labs.
+urine lytes were still pending.  repeated metolazone and lasix 160 in
+afternoon, w/ u/o < 50cc over following 6hrs.  cr. bumped to 2.8 w/ pm
+lytes.  feurea - 7%!!! c. diff was negative.
+naprosyn (oral) (naproxen)
+nausea/vomiting
+metoprolol
+rash;
+nsaids
+unknown;
+verapamil
+sulfa (sulfonamides)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ceftriaxone - [**2140-11-10**] 12:00 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2140-11-10**] 04:00 pm
+furosemide (lasix) - [**2140-11-10**] 08:46 pm
+other medications:
+flowsheet data as of  [**2140-11-11**] 04:39 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38
+c (100.4
+tcurrent: 35.3
+c (95.6
+hr: 68 (66 - 94) bpm
+bp: 107/40(56) {91/33(48) - 143/67(79)} mmhg
+rr: 17 (13 - 26) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+height: 66 inch
+total in:
+1,060 ml
+po:
+1,010 ml
+tf:
+ivf:
+50 ml
+blood products:
+total out:
+389 ml
+50 ml
+urine:
+389 ml
+50 ml
+ng:
+stool:
+drains:
+balance:
+671 ml
+-50 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///27/
+general:. awake and interactive. answers questions appropriately.
+oriented x 1 only.
+heent: ncat. sclera anicteric. right surgical pupil; left 3mm-->2mm,
+conjunctiva were pink, no pallor or cyanosis of the oral mucosa. no
+xanthalesma.
+neck: supple, jvd ~ 8-10cm
+cardiac: rr, normal s1, s2 though distant. no clear murmurs. no s3 or
+s4.
+lungs: crackles bilaterally.  +wheezes.
+abdomen: soft, ntnd. obese. no hsm or tenderness.
+extremities: 1+ lower extremity edema. prior medial scar noted on
+right. venous stasis changes noted. pulses were dopplerable.
+238 k/ul
+11.8 g/dl
+190 mg/dl
+2.8 mg/dl
+27 meq/l
+4.4 meq/l
+67 mg/dl
+101 meq/l
+139 meq/l
+33.2 %
+9.5 k/ul
+image002.jpg]
+[**2140-11-7**]  12:51 pm
+[**2140-11-7**]  03:02 pm
+[**2140-11-7**]  08:28 pm
+[**2140-11-8**]  02:19 am
+[**2140-11-8**]  05:37 am
+[**2140-11-8**]  10:50 am
+[**2140-11-8**]  12:00 pm
+[**2140-11-9**]  05:47 am
+[**2140-11-10**]  05:03 am
+[**2140-11-10**]  06:50 pm
+wbc
+12.7
+11.1
+12.4
+9.5
+hct
+36.3
+33.0
+33.0
+33.2
+plt
+275
+237
+237
+248
+238
+cr
+1.2
+1.3
+1.5
+2.2
+2.8
+tropt
+0.43
+0.66
+0.83
+tco2
+30
+31
+30
+glucose
+[**telephone/fax (3) 6881**]7
+89
+190
+other labs: pt / ptt / inr:13.4/29.6/1.1, ck / ckmb /
+troponin-t:133/13/0.83, alt / ast:19/, alk phos / t bili:102/0.6,
+amylase / lipase:20/, differential-neuts:67.9 %, lymph:22.3 %, mono:7.1
+%, eos:2.5 %, lactic acid:0.9 mmol/l, albumin:3.7 g/dl, ca++:8.8 mg/dl,
+mg++:2.1 mg/dl, po4:3.8 mg/dl",inferior stemi;; diastolic chf,inferior st elevation myocardial infarction;; diastolic congestive heart failure,"['inferior st elevation myocardial infarction', 'diastolic congestive heart failure']","85F with a history of CAD, diastolic heart failure and restrictive lung
+   disease who presented with chest pain, shortness of breath found to
+   have 3VD on cath",True,"The patient presents with symptoms and signs that could be indicative of pulmonary hypertension, such as shortness of breath and chest pain. The presence of crackles and wheezes bilaterally in the lungs, as well as a history of restrictive lung disease, supports this possibility. Additionally, the patient has a history of diastolic heart failure, which can be associated with pulmonary hypertension. The elevated creatinine level and oliguric renal failure may also be related to pulmonary hypertension, as it can lead to right heart failure and subsequent renal impairment. However, the patient's low blood pressure (107/40 mmHg) and lack of clear murmurs on cardiac exam are not typical findings in pulmonary hypertension. Despite these inconsistencies, the overall clinical picture, including the patient's symptoms, lung exam findings, and history of heart failure, suggests that pulmonary hypertension is a possible diagnosis. Therefore, based on the available information, it is reasonable to conclude that the diagnosis of pulmonary hypertension is likely true.",False,"There is no direct evidence of pulmonary hypertension, such as an elevated pulmonary artery pressure or right ventricular strain on echocardiogram. The patient's restrictive lung disease and heart failure are more prominent."
+268,103159.txt,"sbps in 80s, responded to 2 500 cc ivf bolus
+patient persistently in af with rvr.  diltiazem uptitrated for rate
+control.  eventually started on drip with pressure parameters.
+difficulty maintaining o2 sat.  improved with positioning and bipap.
+hip films -> discussed with ortho.  possibly dislocation, but needs
+lateral x-ray to be sure.  they will staff this am.
+lithium
+unknown;
+iodine; iodine containing
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2166-9-10**] 12:28 am
+azithromycin - [**2166-9-10**] 01:00 am
+vancomycin - [**2166-9-10**] 02:00 am
+infusions:
+diltiazem - 10 mg/hour
+other icu medications:
+heparin sodium (prophylaxis) - [**2166-9-10**] 01:00 am
+diltiazem - [**2166-9-10**] 01:35 am
+morphine sulfate - [**2166-9-10**] 05:43 am
+other medications:
+flowsheet data as of  [**2166-9-10**] 06:34 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.8
+c (98.2
+tcurrent: 36.8
+c (98.2
+hr: 98 (94 - 135) bpm
+bp: 110/69(78) {81/48(58) - 158/7,516(134)} mmhg
+rr: 24 (16 - 39) insp/min
+spo2: 97%
+heart rhythm: af (atrial fibrillation)
+total in:
+2,606 ml
+656 ml
+po:
+tf:
+ivf:
+2,606 ml
+656 ml
+blood products:
+total out:
+1,240 ml
+210 ml
+urine:
+1,240 ml
+210 ml
+ng:
+stool:
+drains:
+balance:
+1,366 ml
+446 ml
+respiratory support
+o2 delivery device: bipap mask
+ventilator mode: cpap/psv
+vt (spontaneous): 719 (328 - 719) ml
+ps : 8 cmh2o
+rr (spontaneous): 20
+peep: 8 cmh2o
+fio2: 50%
+pip: 17 cmh2o
+spo2: 97%
+abg: 7.35/50/147/23/1
+ve: 11.4 l/min
+pao2 / fio2: 294
+gen:  nad.  non-verbal.
+heent:  anicteric.  perrl 2.5mm to 2mm bilaterally.  non-invasive
+ventilation mask on.  will not protrude tongue all the way.
+resp:  breathing comfortably on mask.  inspiratory rales at left base.
+thumping sound (?glottis closing) during mid expiration.
+cv:  jvp 10 cm above ra.  irregularly irregular.  no m/g/r.
+peripheral vascular: (right radial pulse: 2+), (left radial pulse: 2+),
+(right dp pulse: not assessed), (left dp pulse: not assessed)
+ext:  rle with 1+ pitting edema.  lle with 2+ pitting edema.  lle
+appears shortened and externally rotated.
+skin:  not assessed
+neurologic:  respond minimally to commands.  non-verbal.  spontaneous
+movements of left arm.  biceps reflex elicited on right.  withdraws to
+babinski bilaterally.  :  not assessed, movement: not assessed, tone:
+not assessed
+220 k/ul
+12.2 g/dl
+200 mg/dl
+1.1 mg/dl
+23 meq/l
+4.6 meq/l
+22 mg/dl
+108 meq/l
+140 meq/l
+37.4 %
+7.6 k/ul
+[image002.jpg]
+[**2166-9-9**]  12:30 pm
+[**2166-9-9**]  01:50 pm
+[**2166-9-9**]  02:41 pm
+[**2166-9-9**]  09:07 pm
+[**2166-9-10**]  03:16 am
+wbc
+9.0
+7.6
+hct
+37.6
+37.4
+plt
+255
+220
+cr
+0.7
+1.2
+1.1
+tropt
+0.02
+tco2
+29
+glucose
+70
+97
+200
+other labs: pt / ptt / inr:14.9/26.7/1.3, ck / ckmb /
+troponin-t:846/12/0.02, differential-neuts:89.4 %, lymph:6.9 %,
+mono:3.0 %, eos:0.7 %, ca++:8.7 mg/dl, mg++:1.9 mg/dl, po4:3.8 mg/dl
+legionella antigen negative.  urine cx negative.
+cxr
+dilated thoracic aorta with displacement of trachea.
+opacification of left lower lung field consistent with worsening lll
+infiltrate.",altered mental status; atrial fibrillation with rvr; pneumonia; congestive heart failure; copd; possible hip dislocation; lle edema,altered mental status; atrial fibrillation with rapid ventricular rate; pneumonia; congestive heart failure; chronic obstructive pulmonary disease; possible hip dislocation; left lower extremity edema,"['altered mental status', 'atrial fibrillation with rapid ventricular rate', 'pneumonia', 'congestive heart failure', 'chronic obstructive pulmonary disease', 'possible hip dislocation', 'left lower extremity edema']","84 yo M with COPD, Afib, s/p hip partial
+   replacement p/w altered mental status, tachycardia, hypoxemia, LLE
+   edema, and left hip/knee pain.",True,"The patient's presentation includes several clues suggestive of pulmonary hypertension. The presence of atrial fibrillation (AF) with a rapid ventricular response (RVR) and the need for rate control with diltiazem, along with the difficulty in maintaining oxygen saturation improved with positioning and BiPAP, hints at right heart strain. The elevated jugular venous pressure (JVP) at 10 cm above the right atrium and the presence of peripheral edema (1+ pitting edema in the right lower extremity and 2+ in the left) are also indicative of right heart failure, which can be a consequence of pulmonary hypertension. Additionally, the patient's requirement for oxygen therapy and the presence of inspiratory rales at the left base, along with a thumping sound during mid-expiration, suggest respiratory compromise. The dilated thoracic aorta and opacification of the left lower lung field consistent with a worsening infiltrate on the chest X-ray (CXR) further support the complexity of the patient's condition, which could be related to pulmonary hypertension. While the provided information does not include direct measurements of pulmonary artery pressures, the cumulative evidence of right heart strain, respiratory symptoms, and the need for intensive cardiovascular and respiratory support leans towards the diagnosis of pulmonary hypertension.",False,"The patient is in atrial fibrillation with rapid ventricular response (RVR) and has been started on diltiazem for rate control, which could be indicative of pulmonary hypertension. However, without direct measurements of pulmonary artery pressures or more specific diagnostic criteria, this diagnosis remains speculative."
+272,104051.txt,"- the patient began desating to the high 80's on ra overnight and was
+placed on oxygen.
+- she had two episodes of diarrhea.
+this am she admits to cough and shortness of breath.
+zidovudine
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+azithromycin - [**2191-1-25**] 08:01 pm
+fluconazole - [**2191-1-25**] 08:20 pm
+infusions:
+other icu medications:
+coumadin (warfarin) - [**2191-1-25**] 08:01 pm
+other medications:
+flowsheet data as of  [**2191-1-26**] 07:33 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 37.1
+c (98.8
+hr: 111 (96 - 113) bpm
+bp: 113/60(73) {88/16(43) - 128/94(108)} mmhg
+rr: 38 (26 - 39) insp/min
+spo2: 95%
+heart rhythm: st (sinus tachycardia)
+height: 61 inch
+total in:
+5,067 ml
+417 ml
+po:
+370 ml
+120 ml
+tf:
+ivf:
+697 ml
+297 ml
+blood products:
+total out:
+1,100 ml
+660 ml
+urine:
+1,100 ml
+660 ml
+ng:
+stool:
+drains:
+balance:
+3,967 ml
+-243 ml
+respiratory support
+o2 delivery device: nc
+spo2: 95% on 4 l nc
+abg: ///13/
+general appearance: thin middle-aged female lying in bed with increased
+wobing
+eyes / conjunctiva: perrl, conjunctiva pale
+head, ears, nose, throat: poor dentition, oral thrush
+cardiovascular: tachycardic and regular, no mrg
+peripheral vascular: 2+ dp
+respiratory / chest: patient with increased wob and accessory muscle
+use.  coarse breath sounds scattered throughout.
+abdominal: + bs, soft ntnd
+extremities: no edema
+skin:  warm
+neurologic: alert and appropriate
+140 k/ul
+9.5 g/dl
+118 mg/dl
+1.3 mg/dl
+13 meq/l
+3.9 meq/l
+42 mg/dl
+116 meq/l
+140 meq/l
+27.1 %
+3.8 k/ul
+[image002.jpg]
+[**2191-1-25**]  07:06 pm
+[**2191-1-26**]  03:31 am
+wbc
+3.8
+hct
+27.1
+plt
+140
+cr
+1.6
+1.3
+glucose
+82
+118
+other labs: pt / ptt / inr:106.3/56.5/14.3, ca++:7.4 mg/dl, mg++:1.9
+mg/dl, po4:1.9 mg/dl
+[1][**2191-1-25**]
+sputum
+gram stain-final; respiratory culture-final
+inpatient
+[2][**2191-1-25**]
+urine
+legionella urinary antigen -final
+inpatient
+[3][**2191-1-25**]
+mrsa screen
+mrsa screen-pending
+inpatient
+[4][**2191-1-25**]
+blood culture
+blood culture, routine-pending
+emergency [**hospital1 **]
+[5][**2191-1-25**]
+blood culture
+blood culture, routine-pending
+emergency [**hospital1 **]",pneumonia; hiv; antiphospholipid syndrome; cardiomyopathy; arf,pneumonia; human immunodeficiency virus; antiphospholipid syndrome; cardiomyopathy; acute renal failure,"['pneumonia', 'human immunodeficiency virus', 'antiphospholipid syndrome', 'cardiomyopathy', 'acute renal failure']","Ms. [**Known lastname 4135**] is a 47F with AIDS, HCV, cardiomyopathy, and antiphospholipid
+   antibody syndrome who presents with ~6 weeks of fatigue and dyspnea,
+   now worse in the last 3-4 days, with productive cough.",True,"The patient presents with symptoms of shortness of breath, cough, and desaturation to the high 80's on room air, which are concerning for pulmonary hypertension. The increased work of breathing (WOB) and accessory muscle use, as well as coarse breath sounds scattered throughout the lungs, further support this diagnosis. Additionally, the patient's tachycardia (heart rate of 111 bpm) and sinus tachycardia on heart rhythm monitoring could be indicative of right heart strain, which is often seen in pulmonary hypertension. However, there are also other potential explanations for these symptoms, such as infection or other cardiopulmonary conditions, and the patient is on oxygen and has been treated with antibiotics, which could be influencing the clinical picture. The lack of direct measurements of pulmonary artery pressure or other specific diagnostic tests for pulmonary hypertension (e.g., echocardiogram, right heart catheterization) in the provided information makes it difficult to conclusively diagnose pulmonary hypertension. Nonetheless, the combination of respiratory symptoms, desaturation, and signs of potential right heart strain lean towards considering pulmonary hypertension as a possible diagnosis, although further evaluation would be necessary for confirmation.",False,"There is no direct evidence provided in the SOAP note to support a diagnosis of pulmonary hypertension, such as echocardiogram findings or right heart catheterization results. The patient's respiratory symptoms could be attributed to various other conditions."
+294,193351.txt,"-patient extubated and doing well
+-r trapezius pain with some numbness of fingertips, patient refusing ct
+scan of neck
+-echo with moderate rv dilation and moderate rv hypokinesis
+-hct stable
+-cefepime discontinued, on vanc/cipro
+-40mg iv lasix given x 2, with very brisk diuresis
+-seroquel discontinued
+-percocet ordered for pain
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+cefipime - [**2161-3-13**] 12:08 am
+vancomycin - [**2161-3-13**] 08:02 am
+ciprofloxacin - [**2161-3-14**] 02:26 am
+infusions:
+other icu medications:
+furosemide (lasix) - [**2161-3-13**] 03:00 pm
+labetalol - [**2161-3-13**] 03:26 pm
+morphine sulfate - [**2161-3-13**] 07:53 pm
+hydromorphone (dilaudid) - [**2161-3-13**] 10:00 pm
+other medications:
+flowsheet data as of  [**2161-3-14**] 08:13 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**62**] am
+tmax: 38
+c (100.4
+tcurrent: 37.3
+c (99.2
+hr: 74 (70 - 105) bpm
+bp: 149/62(87) {106/48(65) - 182/79(110)} mmhg
+rr: 24 (19 - 30) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 122 kg (admission): 117.5 kg
+height: 71 inch
+cvp: 10 (4 - 12)mmhg
+total in:
+2,149 ml
+329 ml
+po:
+120 ml
+tf:
+ivf:
+1,869 ml
+329 ml
+blood products:
+total out:
+6,200 ml
+480 ml
+urine:
+6,200 ml
+480 ml
+ng:
+stool:
+drains:
+balance:
+-4,051 ml
+-151 ml
+respiratory support
+o2 delivery device: nasal cannula
+ventilator mode: standby
+vt (spontaneous): 481 (481 - 537) ml
+ps : 5 cmh2o
+rr (spontaneous): 26
+peep: 0 cmh2o
+fio2: 100%
+pip: 11 cmh2o
+spo2: 95%
+abg: ///24/
+ve: 12.9 l/min
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+102 k/ul
+8.9 g/dl
+105 mg/dl
+0.8 mg/dl
+24 meq/l
+3.3 meq/l
+18 mg/dl
+107 meq/l
+138 meq/l
+25.8 %
+8.4 k/ul
+wbc
+10.3
+9.2
+7.2
+10.5
+8.4
+hct
+33.8
+31.2
+26.9
+28.0
+25.8
+plt
+151
+107
+105
+122
+102
+cr
+1.0
+0.9
+0.8
+0.8
+tropt
+0.01
+tco2
+18
+18
+18
+22
+24
+glucose
+104
+107
+94
+105
+other labs: pt / ptt / inr:15.2/35.8/1.3, ck / ckmb /
+troponin-t:428/9/0.01, alt / ast:27/43, alk phos / t bili:51/0.9,
+differential-neuts:61.0 %, band:18.0 %, lymph:13.0 %, mono:3.0 %,
+eos:0.0 %, lactic acid:2.0 mmol/l, albumin:2.8 g/dl, ldh:332 iu/l,
+ca++:7.7 mg/dl, mg++:1.9 mg/dl, po4:2.1 mg/dl
+maging: echo [**3-13**]:
+suboptimal image quality. right ventricular cavity enlargement with
+free wall hypokinesis. preserved global left ventricular systolic
+function. no definite valvular dysfunction identified.
+compared with the prior study (images reviewed) of [**2161-3-11**], the right
+ventricular cavity is now smaller and free wall motion is slightly
+improved",# massive hemoptysis / pes; respiratory failure; # htn,massive hemoptysis pulmonary embolisms; respiratory failure; hypertension,"['massive hemoptysis pulmonary embolisms', 'respiratory failure', 'hypertension']","This is a 58 yo male with history of morbid obesity, s/p gastric
+   bypass, h/o DVT presenting with massive hemoptysis and found to have
+   bilateral PEs.",True,"The patient's echo shows moderate RV dilation and moderate RV hypokinesis, which are indicative of right ventricular strain, a common finding in pulmonary hypertension. Additionally, the echo from [**3-13**] confirms right ventricular cavity enlargement with free wall hypokinesis, although it notes an improvement compared to a prior study. The presence of these findings, particularly the RV dilation and hypokinesis, strongly suggests pulmonary hypertension. While the improvement in RV size and motion compared to the prior study could indicate some responsiveness to treatment, it does not rule out the diagnosis of pulmonary hypertension. The clinical context, including the need for diuresis (as evidenced by the use of IV lasix) and the presence of hemodynamic monitoring, further supports the likelihood of pulmonary hypertension. Therefore, based on the provided information, the diagnosis of pulmonary hypertension is likely.",False,"The echo shows right ventricular cavity enlargement and hypokinesis, which could be indicative of pulmonary hypertension. However, there is no direct measurement of pulmonary artery pressures provided. The patient's symptoms and other findings do not strongly suggest pulmonary hypertension as a primary diagnosis."
+295,196033.txt,"presep catheter - start [**2200-8-29**] 08:13 pm
+-restarted levophed at 6 am for sbp in 60s
+- flashed with last night difficulty breathing after 2 fluid boluses
+-responded to morphine and lasix
+penicillins
+unknown;
+shellfish derived
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+meropenem - [**2200-8-30**] 12:00 am
+infusions:
+norepinephrine - 0.08 mcg/kg/min
+other icu medications:
+furosemide (lasix) - [**2200-8-30**] 02:52 am
+morphine sulfate - [**2200-8-30**] 02:53 am
+other medications:
+changes to
+flowsheet data as of  [**2200-8-30**] 07:58 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 37.2
+c (99
+hr: 87 (87 - 142) bpm
+bp: 86/54(59) {63/18(28) - 120/74(80)} mmhg
+rr: 22 (18 - 36) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+cvp: 8 (8 - 9)mmhg
+total in:
+25 ml
+1,213 ml
+po:
+tf:
+ivf:
+25 ml
+1,213 ml
+blood products:
+total out:
+140 ml
+930 ml
+urine:
+140 ml
+930 ml
+ng:
+stool:
+drains:
+balance:
+-115 ml
+283 ml
+respiratory support
+o2 delivery device: high flow neb
+spo2: 98%
+abg: ///29/
+general: alert, oriented to person, hospital, not [**hospital3 **], month
+lungs: mildly tachypneic, trace crackles at rigth base, scant
+expiratory wheezes, no ronchi
+cv: tachycardic, s1 + s2, ii/vi hsm at apex, no rubs or gallops
+abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+gu: foley draining clear yellow urine
+ext: warm, well perfused, 1+ pulses, 1+ edema in rigth lower extremity,
+no cyanosis or edema
+neurologic:  pupils post-surgical bilaterally, otherwise cn ii-xii
+intact, strength 5/5 in upper and lower extremities, sensation intact
+to light touch across all dermatomes, resting tremor bilaterally, gait
+not tested, reflexes 2+ and symmetric.
+245 k/ul
+8.9 g/dl
+133 mg/dl
+1.0 mg/dl
+29 meq/l
+3.3 meq/l
+14 mg/dl
+99 meq/l
+138 meq/l
+26.6 %
+13.6 k/ul
+[image002.jpg]
+[**2200-8-30**]  05:09 am
+wbc
+13.6
+hct
+26.6
+plt
+245
+cr
+1.0
+glucose
+133
+other labs: lactic acid:1.4 mmol/l, ca++:7.5 mg/dl, mg++:1.6 mg/dl,
+po4:3.9 mg/dl
+.
+mrsa screen pending
+respiratory viral screen pending
+blood cx pending
+urine cx pending
+cxr (1 am): bilateral patchy infiltrates with cephalization, c/w
+pulmonary edema",septic shock; hypoxia:; atrial fibrillation; cerebrovascular disease:,septic shock; hypoxia ; atrial fibrillation; cerebrovascular disease,"['septic shock', 'hypoxia', 'atrial fibrillation', 'cerebrovascular disease']","This is an 86 year old female with a past medical history of occipital
+   stroke with memory difficulties and atrial fibrillation who presents
+   from home with cough for one week found in the emergency room to be
+   hypotensive to the 80s sysotlic non-responsive to fluid challenge",True,"The patient presents with difficulty breathing, which was alleviated by morphine and lasix, suggesting potential fluid overload or pulmonary congestion. The presence of bilateral patchy infiltrates with cephalization on the chest X-ray (cxr) is consistent with pulmonary edema, a condition often associated with pulmonary hypertension. Additionally, the patient's hemodynamic profile, including tachycardia (hr: 87 bpm) and low blood pressure (bp: 86/54 mmHg), along with the requirement for norepinephrine and fluid boluses, indicates hemodynamic instability. The mildly tachypneic state, trace crackles at the right base, and scant expiratory wheezes further support pulmonary involvement. While these findings can be seen in various conditions, the combination of respiratory symptoms, radiographic evidence of pulmonary edema, and the need for vasopressor support leans towards a diagnosis of pulmonary hypertension, especially in the context of acute respiratory distress and hemodynamic instability. However, a definitive diagnosis of pulmonary hypertension would typically require direct measurement of pulmonary artery pressures, which is not provided in the given information. Despite this, the cumulative evidence from the patient's presentation and the objective findings strongly suggests pulmonary hypertension as a contributing factor to the patient's condition.",False,"There is no direct evidence provided in the SOAP note to support a diagnosis of pulmonary hypertension, such as echocardiogram findings or right heart catheterization results. The patient's symptoms and treatment response are more indicative of fluid overload and heart failure rather than pulmonary hypertension."
+300,194627.txt,"cardiac
+arrest
+-patient being weaned slowly off all 4 pressors, and bp tolerating this
+thus far
+-no apparent change in mental status
+-continues to be on ventilator
+with fio2 being weaned down
+-paralyzed with vercuronium
+-per neuro: eeg c/w non-convulsive status epilepticus:  keppra 2000mg
+loading, 1000mg iv bid; still seizing so midazolam bolus given in the
+afternoon, and then uptitrated midazolam (running at 8/hour as of
+930pm)
+-leaving arterial and venous sheaths in groin for access; started on iv
+heparin; venous sheath converted to triple lumen (note: only 2 of the
+lumens can be used)
+-per pcp (dr. [**last name (stitle) 4562**]: echo 2 years ago wnl (ef 60%); cva in [**2183**] with
+no residual deficits; pad with stents (popliteal, sfa); htn;
+hyperlipidemia; no active coronary issues; borderline dm (not
+medication or insulin treated); prostate ca; complaints of poor memory.
+-per renal: too unstable for cvvhd at this point in time, will
+reevaluate and follow closely
+-repeatedly repleted k, phos, calcium, mg
+-gave bicarb when very academic
+-afib, then into sinus, multiple pvc
+s or short run vt (decreased
+frequency of these as the night went on)
+-continue insulin gtt, per endocrine; treating insulin resistance
+-chlorothiazide 500mg once in the evening for goal of increased
+diuresis and concern for volume overload
+-starting rewarming at 5am
+-echo: the left atrium is elongated. no atrial septal defect is seen by
+2d or color doppler. there is mild symmetric left ventricular
+hypertrophy. the left ventricular cavity size is normal. overall left
+ventricular systolic function is severely depressed (lvef= 25 %) with
+global hypokinesis and regional inferior akinesis to the apex. no
+masses or thrombi are seen in the left ventricle. there is no
+ventricular septal defect. rv with severe global free wall hypokinesis.
+the aortic valve leaflets (3) are mildly thickened but aortic stenosis
+is not present. no aortic regurgitation is seen. the mitral valve
+leaflets are mildly thickened. mild (1+) mitral regurgitation is seen.
+the tricuspid valve leaflets are mildly thickened. the pulmonary artery
+systolic pressure could not be determined. there is a
+trivial/physiologic pericardial effusion.
+no known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+fentanyl (concentrate) - 25 mcg/hour
+heparin sodium - 650 units/hour
+amiodarone - 0.5 mg/min
+furosemide (lasix) - 10 mg/hour
+vasopressin - 2.4 units/hour
+vecuronium - 0.05 mg/kg/hour
+dopamine - 4 mcg/kg/min
+norepinephrine - 0.1 mcg/kg/min
+epinephrine - 0.03 mcg/kg/min
+insulin - regular - 20 units/hour
+midazolam (versed) - 8 mg/hour
+other icu medications:
+furosemide (lasix) - [**2194-10-27**] 11:00 am
+vecuronium - [**2194-10-27**] 11:31 am
+heparin sodium (prophylaxis) - [**2194-10-27**] 12:00 pm
+famotidine (pepcid) - [**2194-10-27**] 02:00 pm
+midazolam (versed) - [**2194-10-27**] 04:17 pm
+sodium bicarbonate 8.4% (amp) - [**2194-10-27**] 06:15 pm
+other medications:
+flowsheet data as of  [**2194-10-28**] 06:38 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+hr: 67 (58 - 115) bpm
+bp: 112/43(77) {84/42(61) - 139/64(97)} mmhg
+rr: 24 (0 - 24) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+total in:
+5,663 ml
+1,482 ml
+po:
+tf:
+ivf:
+5,243 ml
+1,422 ml
+blood products:
+total out:
+1,128 ml
+790 ml
+urine:
+1,128 ml
+790 ml
+ng:
+stool:
+drains:
+balance:
+4,535 ml
+692 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 550 (550 - 550) ml
+rr (set): 24
+rr (spontaneous): 0
+peep: 14 cmh2o
+fio2: 80%
+rsbi deferred: peep > 10, fio2 > 60%, hemodynamic instability
+pip: 32 cmh2o
+plateau: 28 cmh2o
+compliance: 39.3 cmh2o/ml
+spo2: 99%
+abg: 7.25/33/91/13/-11
+ve: 13.1 l/min
+pao2 / fio2: 114
+hysical examination
+173 k/ul
+12.2 g/dl
+263
+2.0 mg/dl
+13 meq/l
+4.3 meq/l
+34 mg/dl
+112 meq/l
+141 meq/l
+35.8 %
+18.0 k/ul
+image002.jpg]
+[**2194-10-27**]  03:22 pm
+[**2194-10-27**]  05:00 pm
+[**2194-10-27**]  05:11 pm
+[**2194-10-27**]  08:31 pm
+[**2194-10-27**]  08:46 pm
+[**2194-10-27**]  11:54 pm
+[**2194-10-28**]  12:03 am
+[**2194-10-28**]  04:20 am
+[**2194-10-28**]  04:36 am
+[**2194-10-28**]  05:45 am
+wbc
+18.4
+18.0
+hct
+39.2
+35.8
+plt
+208
+173
+cr
+1.9
+1.8
+2.0
+2.0
+tropt
+22.47
+15.70
+tco2
+13
+13
+15
+14
+15
+glucose
+[**telephone/fax (2) 9215**]
+224
+263
+other labs: pt / ptt / inr:17.8/ 150.0/1.6, ck / ckmb /
+troponin-t:4576//15.70, d-dimer:[**numeric identifier 9216**] ng/ml, fibrinogen:288 mg/dl,
+lactic acid:7.5 mmol/l, ldh:951 iu/l, ca++:7.1 mg/dl, mg++:1.5 mg/dl,
+po4:1.7 mg/dl","stemi; cardiogenic shock secondary to cardiac
+   arrest and stemi.; pea and v tach s/p temp wire. was in afib; cardiac arrest:",st elevation myocardial infarction; cardiogenic shock secondary to cardiac arrest and st elevation myocardial infarction ; pulseless electrical activity and ventricular tachycardia status post temporary wire was in atrial fibrillation; cardiac arrest,"['st elevation myocardial infarction', 'cardiogenic shock secondary to cardiac arrest and st elevation myocardial infarction', 'pulseless electrical activity and ventricular tachycardia status post temporary wire was in atrial fibrillation', 'cardiac arrest']","77 year Russian speaking male with PMH DM,
+   reported prior CVA s/p cardiac arrest (PEA). Resuscitated to wide
+   complex perfusing rhythm. ED code STEMI was called for inferior STE and
+   anterolateral ST depressions - cath demonstrated acute thrombus in RCA
+   s/p bare metal stent. Patient unstable in cath lab required multiple
+   pressors, ballon pump and temp wire. Patient continues to be intubated,
+   on pressors, with balloon pump; being weaned on vent and pressors.",True,"The patient's echocardiogram shows severe global free wall hypokinesis of the right ventricle (RV), which is a key indicator of pulmonary hypertension. Additionally, the patient has a history of hypertension, hyperlipidemia, and borderline diabetes, which are risk factors for pulmonary hypertension. However, the pulmonary artery systolic pressure could not be determined, which is a crucial measurement for diagnosing pulmonary hypertension. Despite this, the combination of RV hypokinesis and risk factors, along with the patient's overall clinical presentation, suggests that pulmonary hypertension is likely. Furthermore, the patient's low left ventricular ejection fraction (LVEF) and presence of mild mitral regurgitation may also contribute to increased pulmonary pressures. Therefore, based on the available evidence, it is reasonable to conclude that the diagnosis of pulmonary hypertension is likely true.",False,"The patient's pulmonary artery systolic pressure could not be determined, and there is no other clear evidence of pulmonary hypertension, such as right ventricular hypertrophy or dilation on echocardiogram."
+305,190862.txt,,"wbc
+57.1
+45.1
+32.1
+19.5
+16.0
+hct
+30.1
+29.9
+31.5
+28.8
+30.0
+plt
+[**telephone/fax (3) 1226**]34
+320
+cr
+4.5
+4.3
+4.5
+4.6
+4.3
+3.9
+tropt
+0.82
+0.70
+0.62
+tco2
+17
+glucose
+106
+141
+99
+93
+94
+84
+88
+other labs: pt / ptt / inr:13.8/31.0/1.2, ck / ckmb /
+troponin-t:54/7/0.62, alt / ast:59/32, alk phos / t bili:532/2.5,
+amylase / lipase:84/25, differential-neuts:84.4 %, band:0.0 %,
+lymph:8.1 %, mono:4.3 %, eos:3.0 %, lactic acid:1.2 mmol/l, albumin:2.5
+g/dl, ldh:318 iu/l, ca++:7.7 mg/dl, mg++:2.7 mg/dl, po4:3.8 mg/dl
+corrected serum ca = 8.9
+tte ([**2124-9-11**]): the left atrium is elongated. the left ventricular
+cavity is moderately dilated. overall left ventricular systolic
+function is severely depressed (lvef= 20-25 %). there is no ventricular
+septal defect. right ventricular chamber size and free wall motion are
+normal. there is abnormal septal motion/position. the ascending aorta
+is mildly dilated. the aortic valve leaflets (3) are mildly thickened
+but aortic stenosis is not present. no aortic regurgitation is seen.
+the mitral valve leaflets are mildly thickened. there is no mitral
+valve prolapse. mild (1+) mitral regurgitation is seen. there is
+borderline pulmonary artery systolic hypertension. there is no
+pericardial effusion. impression: moderately dilated lv cavity with
+severe global hypokinesis. mild mitral regurgitation.",# cholangitis; cad; htn; aocrf,cholangitis; coronary artery disease; hypertension; acute on chronic renal failure,"['cholangitis', 'coronary artery disease', 'hypertension', 'acute on chronic renal failure']","81 yo man with CAD s/p CABG, recent NSTEMI at OSH, HTN, CKD here for
+   ERCP ([**2124-8-9**]) for cholangitis and admitted to ICU with hypotension,
+   now resolved",True,"The patient's echocardiogram (tte) shows borderline pulmonary artery systolic hypertension, which is a key indicator of pulmonary hypertension. However, the term 'borderline' suggests that the evidence is not conclusive. Other findings such as the severely depressed left ventricular systolic function (lvef= 20-25%) and mild mitral regurgitation could be related to or exacerbated by pulmonary hypertension, but they are not definitive on their own. Given the direct mention of 'borderline pulmonary artery systolic hypertension,' it leans towards the possibility of pulmonary hypertension, but the borderline nature introduces some uncertainty. Nonetheless, this is the strongest clue provided in the objective section, and without a subjective section to provide symptoms or further context, we must rely on this objective finding. Therefore, while not definitive, the evidence provided leans towards the presence of pulmonary hypertension, albeit not conclusively.",False,"The echocardiogram report mentions borderline pulmonary artery systolic hypertension, which suggests that the patient may have pulmonary hypertension. However, the term 'borderline' implies that the values may not be significantly elevated, and there's no other supporting evidence provided. Thus, while possible, the diagnosis of pulmonary hypertension is not strongly supported by the given information."
+344,111821.txt,"title: chief complaint: 24 hour events:  he continues to require 4l nc o2 and cool mist face tent at 50% fio2.  tried to wean o2 down to 2l nc and patient desatted to 90%, patient also desatted to 89% when face tent weaning was attempted.  lactate decreasing from 2.6 to 2.3, patient afebrile. patient put out about 2 liters of urine in response to lasix 40mg iv.  creatinine bumped to 1.3 from 1.2 on pm lytes.  needs further diuresis, but patient does not want a foley catheter, so will re-dose lasix 40mg iv in the am.  received vanco and levofloxacin iv in er, but discontinued on the floor.  abx may need to be restarted pending cxr, wbc count, and clinical exam.  currently clinical exam is not indicative of pna.  digoxin level is subtherapeutic at 0.4 and digoxin dosing increased to 125mcg daily from 125mcg 3x/wk (monitor levels). metoprolol dosing increased from 50mg daily to 50mg  for better rate control. this morning the patient reports that his cough has improved and he was able to sleep well in bed with 2 pillows like he does at home. allergies: no known drug allergies","last dose of antibiotics: infusions: other icu medications: furosemide (lasix) -  02:50 pm insulin - regular -  10:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:04 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.4 c (97.6 tcurrent: 36.4 c (97.6 hr: 78 (69 - 101) bpm bp: 117/61(74) {74/41(58) - 119/88(100)} mmhg rr: 21 (13 - 21) insp/min spo2: 94% heart rhythm: af (atrial fibrillation) wgt (current): 97.5 kg (admission): 96.4 kg total in: 180 ml po: 180 ml tf: ivf: blood products: total out: 1,850 ml 350 ml urine: 1,850 ml 350 ml ng: stool: drains: balance: -1,670 ml -350 ml respiratory support o2 delivery device: face tent spo2: 94% abg: 7.47/33/59/26/0 pao2 / fio2: 118 physical examination general: pleasant, well appearing male in nad, speaking in full sentences heent: normocephalic, atraumatic. no conjunctival pallor. no scleral icterus. perrla/eomi. mmm. op clear. neck supple, no  lad, no thyromegaly. neck:  jvp visible at jaw cardiac: irregularly irregular lungs: crackles  way up lung fields abdomen: nabs. soft, nt, nd. no hsm extremities: minimal amount of dependent edema on the back of the calves bilaterally, 1+ distal pulses, no calf tenderness. skin: no rashes/lesions, ecchymoses. neuro: a&ox3. appropriate. cn 2-12 grossly intact. preserved sensation and full strength throughout. normal coordination. gait assessment deferred psych: listens and responds to questions appropriately, pleasant labs / radiology 311 k/ul 10.7 g/dl 150 mg/dl 1.3 mg/dl 26 meq/l 4.1 meq/l 21 mg/dl 100 meq/l 135 meq/l 32.8 % 6.9 k/ul [image002.jpg]   03:07 pm   08:12 pm   04:03 am wbc 6.9 hct 32.8 plt 311 cr 1.3 1.3 tropt <0.01 tco2 25 glucose 253 150 other labs: pt / ptt / inr:23.9/27.5/2.3, ck / ckmb / troponin-t:118/3/<0.01, lactic acid:2.3 mmol/l, ca++:8.9 mg/dl, mg++:2.0 mg/dl, po4:4.4 mg/dl",acute on chronic systolic and diastolic congestive heart failure; atrial fibrillation; ,acute on chronic systolic and diastolic congestive heart failure; atrial fibrillation;,"['acute on chronic systolic and diastolic congestive heart failure', 'atrial fibrillation']","An 86 yo man with a history of non-ischemic cardiomyopathy and
+   paroxysmal atrial fibrillation presents with an acute of exacerbation
+   of chronic systolic congestive heart failure.",True,"The patient's requirement for continuous oxygen therapy with desaturation upon weaning, presence of crackles in the lung fields, and signs of right heart strain (evidenced by visible jugular venous distension and dependent edema) are suggestive of pulmonary hypertension. Additionally, the patient's atrial fibrillation and need for rate control with metoprolol could be related to or exacerbated by pulmonary hypertension. The patient's improvement in symptoms such as cough and ability to sleep with elevated head of bed, along with the decrease in lactate levels, indicates some response to treatment but does not rule out pulmonary hypertension. The absence of a clear alternative diagnosis for these findings and the presence of signs indicative of right heart strain support the likelihood of pulmonary hypertension.",False,"There is no direct evidence of pulmonary hypertension, such as elevated pulmonary artery pressures or right ventricular strain on echocardiography. The patient's symptoms and lab results do not specifically suggest pulmonary hypertension."
+372,135960.txt,"title: chief complaint: 24 hour events: invasive ventilation - stop  10:04 pm arterial line - stop  03:53 am - only put out 300 ml to 10 mg iv lasix. therefore gave another 20 mg iv this afternoon. - noted large soft tissue injury on right supraorbital ridge. no other contusions or injury to head. no ct head while here, so this may be worth considering depending on how mental status recovers. apparently had ct head at osh. - extubated at 22:00 - hypertensive to 180s and given metoprolol iv 5 mg mr1 - moving around quite a lot - a-line started to bleed and was removed - access now piv 18g x2 and large  ij central line. allergies: ketorolac unknown; codeine unknown;","last dose of antibiotics: ceftriaxone -  07:48 am vancomycin -  11:45 am infusions: pantoprazole (protonix) - 8 mg/hour other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:26 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 38 c (100.4 tcurrent: 36.7 c (98.1 hr: 89 (82 - 120) bpm bp: 123/67(80) {119/67(80) - 147/82(97)} mmhg rr: 11 (7 - 24) insp/min spo2: 96% heart rhythm: sr (sinus rhythm) cvp: 10 (10 - 10)mmhg total in: 2,212 ml 149 ml po: tf: ivf: 2,212 ml 149 ml blood products: total out: 1,985 ml 505 ml urine: 1,492 ml 305 ml ng: stool: drains: 493 ml 200 ml balance: 227 ml -356 ml respiratory support o2 delivery device: nasal cannula ventilator mode: cpap/psv vt (set): 500 (500 - 500) ml vt (spontaneous): 1,000 (587 - 1,200) ml ps : 5 cmh2o rr (set): 16 peep: 5 cmh2o fio2: 40% pip: 16 cmh2o plateau: 14 cmh2o compliance: 55.6 cmh2o/ml spo2: 96% abg: 7.52/29/92./23/1 ve: 7.5 l/min pao2 / fio2: 232 physical examination general: sedated. heent: sclera mild icterus. mmm. neck: supple, difficult to assess jvp. lungs: coarse breath sounds bilat improved. cv: tachycardic, regular rhythm, normal s1 + s2, no murmurs, rubs, gallops abdomen: soft, non-tender, mildly distended, bowel sounds present, no rebound tenderness or guarding.  dullness to percussion b/l on flanks consistent with ascites. gu: foley ext: warm, well perfused, bilateral edema labs / radiology 172 k/ul 9.7 g/dl 151 mg/dl 0.8 mg/dl 23 meq/l 3.8 meq/l 28 mg/dl 111 meq/l 141 meq/l 28.0 % 14.4 k/ul [image002.jpg]   08:03 pm   12:15 am   03:32 am   09:34 am   10:02 am   11:00 am   04:19 pm   04:41 pm   02:23 am   02:45 am wbc 16.5 14.6 14.4 hct 29.9 29.8 29.3 29.7 28.0 plt 163 153 181 172 cr 1.0 0.8 tco2 26 27 25 24 24 glucose 170 151 other labs: pt / ptt / inr:16.6/37.4/1.5, alt / ast:112/251, alk phos / t bili:124/5.5, fibrinogen:194 mg/dl, lactic acid:1.1 mmol/l, albumin:2.3 g/dl, ldh:341 iu/l, ca++:8.0 mg/dl, mg++:1.8 mg/dl, po4:3.7 mg/dl  cxr lung volumes are substantially lower. cardiac silhouette is enlarged and there is vascular engorgement consistent with elevated pulmonary venous pressure. the possibility of superimposed consolidation cannot be unequivocally excluded.  sputum invalid  blood cultures x2 pending  urine cultures pending  mrsa screen pending  blood culture preliminary still with gram positive cocci  blood culture pending",acute refractory ugib; ams: likely related with hepatic encephalopathy; etoh withdrawal; respiratory failure; cirrhosis: likely secondary to alcohol and hepatitis c; ,acute refractory upper gastrointestinal bleeding; altered mental status likely related with hepatic encephalopathy; ethanol withdrawal; respiratory failure; cirrhosis likely secondary to alcohol and hepatitis c;,"['acute refractory upper gastrointestinal bleeding', 'altered mental status likely related with hepatic encephalopathy', 'ethanol withdrawal', 'respiratory failure', 'cirrhosis likely secondary to alcohol and hepatitis c']","50 yo M ELSD secondary to EtOH abuse admitted to OSH with variceal
+   bleed s/p EGD with banding x2 and subsequent alcohol withdrawal
+   transferred to [**Hospital1 19**] for management of recurrent refractory UGIB s/p
+   [**State **] tube placement.",True,"The patient's presentation includes several clues that suggest pulmonary hypertension. The chest X-ray (CXR) shows an enlarged cardiac silhouette and vascular engorgement consistent with elevated pulmonary venous pressure, which can be indicative of pulmonary hypertension. Additionally, the patient has coarse breath sounds bilaterally and a history of requiring invasive ventilation and subsequent extubation, which may suggest respiratory distress. However, direct measurements of pulmonary artery pressure, a key diagnostic criterion for pulmonary hypertension, are not provided in the SOAP note. Despite this, the combination of clinical findings, particularly the radiographic evidence of elevated pulmonary venous pressure and the patient's respiratory status, leans towards the possibility of pulmonary hypertension. Therefore, based on the available information, the diagnosis of pulmonary hypertension is considered likely.",False,"The patient's CXR shows vascular engorgement consistent with elevated pulmonary venous pressure, which could be a sign of pulmonary hypertension. However, without a direct measurement of pulmonary artery pressures or more specific symptoms, it's challenging to conclusively diagnose pulmonary hypertension based on the provided information."
+375,137650.txt,"chief complaint: 24 hour events: - peep to 21, w/ any movement of pt he drops o2 sat to mid 80s.  fio2 increased to 60% as pao2 52 - d/w id ivig, decided not to dose ivig -og tube advanced, tube feeds advanced -fluid removed, bp tolerated -needed to be re-paralyzed as dysyncrhonous w/ vent and o2 sats dropping to 70s allergies: no known drug allergies","last dose of antibiotics: vancomycin -  08:30 am azithromycin -  11:15 am piperacillin -  02:00 pm piperacillin/tazobactam (zosyn) -  02:00 am infusions: calcium gluconate (crrt) - 1.8 grams/hour midazolam (versed) - 7 mg/hour fentanyl - 300 mcg/hour kcl (crrt) - 3 meq./hour cisatracurium - 0.1 mg/kg/hour other icu medications: pantoprazole (protonix) -  08:00 pm heparin sodium (prophylaxis) -  12:00 am fentanyl -  05:00 am midazolam (versed) -  05:01 am cisatracurium -  05:26 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:36 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.6 c (99.7 tcurrent: 37.2 c (99 hr: 87 (78 - 107) bpm bp: 125/65(84) {102/54(67) - 175/82(108)} mmhg rr: 30 (24 - 38) insp/min spo2: 100% heart rhythm: sr (sinus rhythm) height: 70 inch cvp: 18 (16 - 24)mmhg total in: 7,844 ml 1,997 ml po: tf: 330 ml 110 ml ivf: 7,177 ml 1,887 ml blood products: 277 ml total out: 9,504 ml 2,862 ml urine: ng: stool: drains: balance: -1,660 ml -865 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 480 (480 - 480) ml vt (spontaneous): 752 (752 - 752) ml rr (set): 30 rr (spontaneous): 2 peep: 23 cmh2o fio2: 60% rsbi deferred: peep > 10 pip: 44 cmh2o plateau: 40 cmh2o compliance: 28.2 cmh2o/ml spo2: 100% abg: 7.41/45/95./25/2 ve: 14.9 l/min pao2 / fio2: 160 physical examination general appearance: well nourished, intubated, sedated gen: intubated, sedated, paralyzed eyes / conjunctiva: perrl, small pupils head, ears, nose, throat: normocephalic, anasarca, significant facial edema cardiovascular: rrr, no m/r/g respiratory / chest: scattered ronchi diffusely in both lungs extremities: wwp, mild bilat edema, symmetric neurologic: intubated, sedated, paralyzed skin: cool labs / radiology 219 k/ul 8.6 g/dl 130 mg/dl 3.4 mg/dl 25 meq/l 3.6 meq/l 27 mg/dl 95 meq/l 133 meq/l 26.1 % 5.8 k/ul [image002.jpg]   10:04 am   01:10 pm   01:43 pm   04:21 pm   04:31 pm   08:44 pm   10:10 pm   10:17 pm   04:14 am   04:30 am wbc 4.5 5.8 hct 22.5 26.1 plt 181 219 cr 4.0 3.6 3.4 tco2 28 27 28 29 29 29 30 glucose 139 143 130 other labs: pt / ptt / inr:13.7/28.7/1.2, alt / ast:25/46, alk phos / t bili:133/0.4, amylase / lipase:26/16, differential-neuts:64.5 %, band:0.0 %, lymph:33.3 %, mono:1.2 %, eos:0.6 %, fibrinogen:489 mg/dl, lactic acid:1.4 mmol/l, albumin:2.4 g/dl, ldh:414 iu/l, ca++:8.2 mg/dl, mg++:1.7 mg/dl, po4:2.0 mg/dl",multifocal pneumonia/respiratory failure; arf; atrial fibrillation / atrial flutter; anemia; ,multifocal pneumonia respiratory failure; acute renal failure; atrial fibrillation atrial flutter; anemia;,"['multifocal pneumonia respiratory failure', 'acute renal failure', 'atrial fibrillation atrial flutter', 'anemia']","65 year old male without clear PMH presenting with multifocal pneumonia
+   and now with respiratory failure c/b ARDS.",True,"The patient's symptoms and clinical findings suggest the presence of pulmonary hypertension. The chief complaint mentions desaturation to the mid-80s with movement and the need for high levels of oxygen support (FiO2 60%) and positive end-expiratory pressure (PEEP 21, later adjusted to 23 cmH2O), indicating severe respiratory distress. The patient's hemodynamic parameters, such as the high central venous pressure (CVP 18 mmHg), also support this diagnosis. Additionally, the presence of anasarca and significant facial edema, as noted in the physical examination, can be associated with right heart failure, a common complication of pulmonary hypertension. While the provided information does not include direct measurements of pulmonary artery pressure, the overall clinical picture is consistent with pulmonary hypertension.",False,"The patient is on high levels of oxygen and has significant respiratory support needs, but there is no direct mention of pulmonary hypertension in the SOAP note. Pulmonary hypertension would typically be diagnosed with echocardiography or right heart catheterization, neither of which is mentioned. The high PEEP (21 cmH2O) and plateau pressures could suggest issues with lung compliance or resistance, but these findings alone do not specifically indicate pulmonary hypertension."
+382,141825.txt,"chief complaint: i saw and examined the patient, and was physically present with the icu resident for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: renal function worsening off of pressors since early yesterday 24 hour events: fever - 101.6 f -  08:00 pm allergies: zocor (oral) (simvastatin) abdominal pain; niacin unknown; sulfonamides unknown; penicillins unknown; vasotec (oral) (enalapril maleate) cough;","last dose of antibiotics: vancomycin -  08:49 am levofloxacin -  01:21 am infusions: midazolam (versed) - 10 mg/hour fentanyl (concentrate) - 350 mcg/hour other icu medications: pantoprazole (protonix) -  08:10 am other medications: changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:38 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 38.7 c (101.6 tcurrent: 38.2 c (100.7 hr: 69 (64 - 82) bpm bp: 89/41(56) {89/41(56) - 125/58(80)} mmhg rr: 27 (27 - 28) insp/min spo2: 96% heart rhythm: sr (sinus rhythm) wgt (current): 71.3 kg (admission): 77.5 kg height: 62 inch cvp: 11 (7 - 23)mmhg total in: 2,171 ml 532 ml po: tf: 746 ml 267 ml ivf: 1,364 ml 205 ml blood products: total out: 343 ml 145 ml urine: 343 ml 145 ml ng: stool: drains: balance: 1,828 ml 387 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: pcv+assist vt (spontaneous): 208 (208 - 208) ml rr (set): 28 rr (spontaneous): 0 peep: 12 cmh2o fio2: 50% rsbi deferred: peep > 10 pip: 31 cmh2o plateau: 28 cmh2o spo2: 96% abg: 7.29/44/99 ve: 12.3 l/min pao2 / fio2: 198 physical examination intubated, sedated, unresponsive hrt rrr lungs clear abd benign extrem no edema labs / radiology 7.2 g/dl 259 k/ul 112 mg/dl 4.7 mg/dl 18 meq/l 4.5 meq/l 68 mg/dl 105 meq/l 139 meq/l 21.5 % 9.0 k/ul [image002.jpg]   04:25 am   04:33 am   12:30 pm   07:20 pm   09:07 pm   06:21 am   06:34 am   04:26 pm   04:47 am   05:00 am wbc 16.8 13.9 9.0 hct 25.5 25.0 21.5 plt 271 241 259 cr 2.3 3.9 4.7 tco2 26 24 26 24 23 23 22 glucose 120 107 112 other labs: pt / ptt / inr:14.5/28.8/1.3, alt / ast:16/34, alk phos / t bili:97/0.5, amylase / lipase:18/9, differential-neuts:76.7 %, lymph:15.7 %, mono:4.4 %, eos:2.9 %, lactic acid:0.9 mmol/l, albumin:2.7 g/dl, ldh:605 iu/l, ca++:7.9 mg/dl, mg++:2.4 mg/dl, po4:3.9 mg/dl cxr  stable bilateral infiltrates","ards/hypercarbic respiratory failure; aspiration
+   pneumonitis, viral or atypical pneumonia, or inhalation in the
+   environment; sepsis; acute renal failure; ",acute respiratory distress syndrome hypercarbic respiratory failure; aspiration pneumonitis viral or atypical pneumonia or inhalation in the environment; sepsis; acute renal failure;,"['acute respiratory distress syndrome hypercarbic respiratory failure', 'aspiration pneumonitis viral or atypical pneumonia or inhalation in the environment', 'sepsis', 'acute renal failure']","Mrs. [**Known lastname 10054**] is a 70 year old female with history of hypertension,
+   glaucoma, and possible asthma who presents with subjective fevers, sore
+   throat, and respiratory distress.",True,"The patient's presentation includes several factors that could suggest pulmonary hypertension, such as the need for significant respiratory support (endotracheal tube, ventilator mode: pcv+assist, high PEEP of 12 cmH2O, and high FIO2 of 50%), which indicates severe respiratory distress. Additionally, the patient has a low systemic blood pressure (89/41 mmHg) and a relatively high central venous pressure (CVP) of 11 mmHg, which could imply right ventricular strain or failure, a common consequence of pulmonary hypertension. However, direct evidence of pulmonary hypertension, such as elevated pulmonary artery pressures or right heart catheterization data, is not provided in the SOAP note. Despite this, the clinical context of severe respiratory failure, the need for high levels of respiratory support, and signs of potential right heart strain (low BP, relatively high CVP) in the setting of critical illness could be consistent with pulmonary hypertension, especially if considering secondary causes related to the patient's critical condition (e.g., acute respiratory distress syndrome, sepsis). Therefore, while not definitive, the available information leans towards the possibility of pulmonary hypertension, particularly in the context of the patient's severe illness and the provided hemodynamic parameters.",False,"Pulmonary hypertension is not directly suggested by the information provided. There are no specific mentions of elevated pulmonary artery pressures, which would be necessary for this diagnosis. The patient's respiratory status and need for ventilatory support do not alone indicate pulmonary hypertension."
+390,146466.txt,"chief complaint: 24 hour events: transthoracic echo - at  09:07 am urine culture - at  10:33 am pa catheter - start  04:00 pm placed in cath lab through cordis -  stim 18 from 14. - svr's in 300s. got 4mg iv decadron. - checking act and  at 6am. - consider endocrine consult today. - went to or. co changed with levo/off levo -inconsistent with restrictive cardiomyopathy. - off levo, svr was low. consider sepsis (having back pain, abdominal pain). - cxr/kub now, consider ct scan in am. - repeat blood cx sent (afebrile) started on broad spectrum abx with vanc/zosyn/levo. - also has large pleural effusions, possible site infection, consider tap in am. - biopsy deferred with rec to f/u spep ? myeloma. consider biopsy in future if primary amyloidosis of heart is still a consideration. - svr low. swan placed in or. - returned to floor on levo/neo with bp's 98/48 systolic. allergies: no known drug allergies","last dose of antibiotics: cefipime -  04:00 am piperacillin/tazobactam (zosyn) -  07:02 pm piperacillin -  09:23 pm levofloxacin -  09:28 pm vancomycin -  11:00 pm infusions: other icu medications: heparin sodium (prophylaxis) -  07:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:01 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 37.6 c (99.7 tcurrent: 37.6 c (99.7 hr: 56 (56 - 93) bpm bp: 82/47(60) {80/42(53) - 119/60(77)} mmhg rr: 11 (10 - 22) insp/min spo2: 96% heart rhythm: 1st av (first degree av block) height: 70 inch cvp: 20 (14 - 26)mmhg pap: (46 mmhg) / (26 mmhg) co/ci (fick): (8 l/min) / (3.9 l/min/m2) mixed venous o2% sat: 65 - 71 total in: 2,116 ml 244 ml po: 500 ml tf: ivf: 1,616 ml 244 ml blood products: total out: 1,360 ml 125 ml urine: 1,360 ml 125 ml ng: stool: drains: balance: 756 ml 119 ml respiratory support o2 delivery device: nasal cannula spo2: 96% abg: 7.25/49/91./18/-5 physical examination general: alert; nad. cardiac: rrr, normal s1, s2. no m/r/g. no s3 or s4. lungs: bronchial breath sounds throughout; no notable crackles heard. abdomen: non-tender. somewhat distended. bowel sounds present. no masses appreciated. no rebound or guarding. extremities: pitting edema in the bilateral le's to the thighs. some ttp in the distal rle. labs / radiology 209 k/ul 8.2 g/dl 126 mg/dl 2.2 mg/dl 18 meq/l 5.1 meq/l 41 mg/dl 108 meq/l 135 meq/l 23 9.5 k/ul [image002.jpg]   02:38 am   04:30 pm   05:09 am   10:00 am   03:05 pm   07:40 pm   08:00 pm   02:59 am   03:15 am wbc 6.3 8.8 9.5 hct 23.8 24.7 25.9 25 25 26.2 23 plt 187 209 209 cr 2.1 2.1 2.2 2.2 tropt 0.21 0.21 tco2 23 glucose 104 121 115 126 other labs: pt / ptt / inr:12.9/34.6/1.1, ck / ckmb / troponin-t:81/4/0.21, alt / ast:23/27, alk phos / t bili:135/0.4, lactic acid:1.0 mmol/l, albumin:2.5 g/dl, ldh:152 iu/l, ca++:8.3 mg/dl, mg++:2.0 mg/dl, po4:5.0 mg/dl",hypotension; acute on chronic renal failure; diastolic congestive heart failure; copd; ,hypotension; acute on chronic renal failure; diastolic congestive heart failure; chronic obstructive pulmonary disease;,"['hypotension', 'acute on chronic renal failure', 'diastolic congestive heart failure', 'chronic obstructive pulmonary disease']","74 y/o M with history of HTN, COPD, dCHF (last EF 55% with LVH),
+   admitted for CHF exacerbation.",True,"The patient's presentation includes several clues that suggest pulmonary hypertension. The pulmonary artery pressure (PAP) is elevated at 46 mmHg, which is a key indicator of pulmonary hypertension. Additionally, the patient has a low cardiac output (CO) of 3.9 L/min/m2 and a high systemic vascular resistance (SVR) in the 300s, which can be seen in pulmonary hypertension due to the increased resistance in the pulmonary vasculature. The presence of large pleural effusions and pitting edema in the bilateral lower extremities also supports the diagnosis, as these can be signs of right heart failure, a common complication of pulmonary hypertension. While the patient is being treated for possible sepsis and has other comorbidities, the hemodynamic data and clinical presentation strongly suggest pulmonary hypertension.",False,"The patient has a pulmonary artery pressure (PAP) of 46 mmHg, which is elevated and suggests pulmonary hypertension. However, this finding alone without other supporting evidence or symptoms specifically related to pulmonary hypertension (e.g., exertional dyspnea, syncope) makes the diagnosis less certain."
+401,156835.txt,"title: chief complaint: 86m with cardiomyopathy (ef 15-20%), cad, as, prior mvr, and atrial flutter who presents with acute on chronic renal failure and worsening lower extremity edema. 24 hour events: bp dropped to sbp 60s after milrinone initiation, requiring addition of neo. did very well on milrinone, neo and lasix, diuresing well. neo attempted to be weaned, but dropped maps to 40s. allergies: vasotec - cough; niacin - facial erythema infusions: milrinone - 0.25 mcg/kg/min furosemide (lasix) - 8 mg/hour phenylephrine - 1 mcg/kg/min other icu medications: heparin sodium (prophylaxis) -  11:21 pm flowsheet data as of   06:44 am","vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.5 c (99.5 tcurrent: 37.5 c (99.5 hr: 79 (72 - 93) bpm bp: 104/55(66) {76/39(48) - 143/121(126)} mmhg rr: 20 (14 - 20) insp/min spo2: 95% heart rhythm: a flut (atrial flutter) total in: 676 ml 381 ml po: 120 ml 120 ml tf: ivf: 216 ml 261 ml blood products: total out: 1,790 ml 1,550 ml urine: 1,165 ml 1,550 ml ng: stool: drains: balance: -1,114 ml -1,169 ml physical examination general appearance: appears comfortable heent: perrl, squeaking hearing aids, unable to assess jvp due to carotid pulse. cardiovascular: rrr, distant heart sounds, no murmurs audible. respiratory / chest: cta b abdominal: soft, nt, nd, +bs, no hsm extremities: edematous bilaterally, wwp. skin:  rash on abdomen neurologic: alert and oriented x 3, follows commands and answers questions appropriately. labs / radiology 322 k/ul 9.9 g/dl 111 mg/dl 3.8 mg/dl 28 meq/l 5.1 meq/l 88 mg/dl 97 meq/l 136 meq/l 31.3 % 9.4 k/ul [image002.jpg]   07:59 pm   05:12 am wbc 9.4 hct 31.3 plt 322 cr 4.1 3.8 glucose 111 other labs: ca++:8.4 mg/dl, mg++:2.6 mg/dl, po4:4.6 mg/dl",acute on chronic systolic chf: secondary to ischemic cardiomyopathy; cad; acute on chronic renal failure:; atrial flutter; ,acute on chronic systolic congestive heart failure secondary to ischemic cardiomyopathy; coronary artery disease; acute on chronic renal failure ; atrial flutter;,"['acute on chronic systolic congestive heart failure secondary to ischemic cardiomyopathy', 'coronary artery disease', 'acute on chronic renal failure', 'atrial flutter']","86M with cardiomyopathy (EF 15-20%), CAD, AS, prior MVR, and atrial
+   flutter who presents with acute on chronic renal failure and worsening
+   lower extremity edema.",True,"The patient presents with cardiomyopathy (EF 15-20%), coronary artery disease (CAD), aortic stenosis (AS), prior mitral valve replacement (MVR), and atrial flutter, which are all risk factors for pulmonary hypertension. Additionally, the patient has worsening lower extremity edema and required milrinone and phenylephrine, indicating potential right heart failure. However, there is no direct measurement of pulmonary artery pressure or other specific diagnostic criteria for pulmonary hypertension mentioned in the provided SOAP note sections. Despite this, the combination of cardiomyopathy with low ejection fraction, signs of right heart strain (e.g., lower extremity edema), and the need for inotropic support (milrinone) and vasopressors (phenylephrine) suggest that pulmonary hypertension could be a complicating factor. The patient's response to milrinone, which is often used in pulmonary hypertension to reduce pulmonary vascular resistance, further supports this consideration. Given the clinical context and the patient's complex cardiovascular history, it is reasonable to suspect pulmonary hypertension, although a definitive diagnosis would typically require additional diagnostic testing such as echocardiography or right heart catheterization.",False,"While the patient has cardiomyopathy and heart failure, which can be associated with pulmonary hypertension, there is no direct measurement or indication of pulmonary hypertension provided in the SOAP note. The focus is on the patient's heart failure and renal failure management."
+405,160465.txt,"chief complaint: pulmonary embolism 24 hour events: ekg - at  03:36 pm ultrasound - at  05:04 pm leni for ? dvt's (pe source) pt admitted for monitoring of multifocal pe. started on heparin gtt in ed. pt with supratherapuetic ptt currently, heparin held this am for ptt 150. started on digoxin for rate control of a fib with rvr. hd stable overnight. allergies: penicillins unknown; morphine unknown;","last dose of antibiotics: infusions: other icu medications: metoprolol -  06:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:34 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.1 c (98.8 tcurrent: 36.1 c (97 hr: 92 (89 - 135) bpm bp: 129/73(86) {102/55(68) - 154/80(95)} mmhg rr: 19 (11 - 27) insp/min spo2: 100% heart rhythm: a flut (atrial flutter) height: 65 inch total in: 764 ml 822 ml po: tf: ivf: 764 ml 822 ml blood products: total out: 707 ml 250 ml urine: 707 ml 250 ml ng: stool: drains: balance: 57 ml 572 ml respiratory support o2 delivery device: nasal cannula spo2: 100% abg: ///29/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 302 k/ul 13.0 g/dl 231 mg/dl 0.4 mg/dl 29 meq/l 4.0 meq/l 25 mg/dl 110 meq/l 145 meq/l 40.9 % 10.2 k/ul [image002.jpg]   12:00 am   06:02 am wbc 8.8 10.2 hct 41.4 40.9 plt 300 302 cr 0.6 0.4 tropt 0.01  glucose 231 other labs: pt / ptt / inr:14.9/150.0/1.3, ck / ckmb / troponin-t:44//0.01, differential-neuts:85.3 %, lymph:11.3 %, mono:3.0 %, eos:0.3 %, ca++:8.6 mg/dl, mg++:1.9 mg/dl, po4:3.7 mg/dl imaging:  cta chest - impression: 1. pulmonary emboli involving the right main pulmonary artery, right upper lobar/segmental pulmonary artery, and right middle lobe segmental pulmonary artery. please note, there are likely acute-on-chronic pulmonary emboli given the eccentric nature of the filling defects with evidence of recanalization through portions of the filling defects. 2. emphysema with parenchymal ground-glass opacities most apparent in the right upper lobe suggestive of advanced respiratory bronchiolitis. 3. 6-mm left lower lobe nodule, for which followup in  months is advised. 4. cardiomegaly with pacer device in place.  leni - pnd microbiology:  blood cx - pnd  urine cx - pnd",embolism; atrial fibrillation; copd; cad/chf; ,embolism; atrial fibrillation; chronic obstructive pulmonary disease; coronary artery disease congestive heart failure;,"['embolism', 'atrial fibrillation', 'chronic obstructive pulmonary disease', 'coronary artery disease congestive heart failure']","74y/o F with a PMH of CAD, COPD presenting with
+   dyspnea and found to have PE.",True,"The patient presents with multifocal pulmonary emboli, which can lead to increased pressure in the pulmonary arteries, a hallmark of pulmonary hypertension. The CTA chest impression notes 'acute-on-chronic pulmonary emboli,' suggesting a possible chronic component that could contribute to pulmonary hypertension. Additionally, the patient has been started on digoxin for rate control of atrial fibrillation with right ventricular strain (rvr), indicating some level of right heart strain, which is consistent with pulmonary hypertension. The presence of cardiomegaly also supports this diagnosis, as it can be a consequence of long-standing increased pressure on the right heart. While direct measurements of pulmonary artery pressure are not provided, the combination of these findings strongly suggests pulmonary hypertension.",False,"There is no direct evidence of pulmonary hypertension such as elevated pulmonary artery pressures or right ventricular dysfunction. However, the patient has a history of pulmonary embolism, which can lead to pulmonary hypertension. The presence of cardiomegaly and a pacer device also suggests possible underlying cardiac disease. Further evaluation would be needed to confirm pulmonary hypertension."
+409,163063.txt,"chief complaint: respiratory failure i saw and examined the patient, and was physically present with the icu resident for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 24 hour events: patient with sbt--> 7.33/42/71 he has had requirment for continued psv support and has been required to have peep increased with recurrent hypoxemia seen. thoracic surgery consulted and vats appropriately defered given significant risk of procedure with broncho-pleural fistula raised as persistent concern with substantial impairment in wound healing of concern. history obtained from  medical records allergies: ifosfamide mental status c","last dose of antibiotics: bactrim (smx/tmp) -  04:28 pm levofloxacin -  08:00 pm voriconazole -  08:56 am piperacillin/tazobactam (zosyn) -  10:00 am daptomycin -  11:17 am infusions: other icu medications: pantoprazole (protonix) -  08:17 am other medications: changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   11:38 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 37.1 c (98.8 tcurrent: 36.4 c (97.5 hr: 70 (62 - 81) bpm bp: 107/61(79) {82/50(62) - 114/66(84)} mmhg rr: 17 (10 - 26) insp/min spo2: 93% heart rhythm: sr (sinus rhythm) wgt (current): 83 kg (admission): 73.3 kg height: 69 inch total in: 4,190 ml 2,205 ml po: tf: ivf: 4,160 ml 1,621 ml blood products: 554 ml total out: 1,210 ml 795 ml urine: 1,030 ml 795 ml ng: 180 ml stool: drains: balance: 2,980 ml 1,410 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cpap/psv vt (set): 550 (550 - 550) ml vt (spontaneous): 562 (493 - 693) ml ps : 5 cmh2o rr (set): 8 rr (spontaneous): 17 peep: 8 cmh2o fio2: 40% rsbi: 50 pip: 14 cmh2o spo2: 93% abg: 7.33/42/71/22/-3 ve: 8.6 l/min pao2 / fio2: 178 physical examination head, ears, nose, throat: endotracheal tube cardiovascular: (s1: normal), (s2: normal) peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) respiratory / chest: (expansion: symmetric), (percussion: dullness : ), (breath sounds: crackles : , diminished: ) abdominal: soft, non-tender, bowel sounds present skin:  not assessed neurologic: follows simple commands, responds to: verbal stimuli, movement: not assessed, tone: not assessed labs / radiology 8.6 g/dl 78 k/ul 158 mg/dl 1.1 mg/dl 22 meq/l 4.6 meq/l 27 mg/dl 117 meq/l 148 meq/l 25.9 % 0.4 k/ul [image002.jpg]   11:04 pm   03:35 am   10:14 am   11:57 am   02:37 pm   10:47 pm   03:56 am   06:00 am   08:32 am   08:43 am wbc 0.3 0.3 0.4 hct 24.9 28.9 25.9 plt 48 29 11 78 cr 1.1 1.2 1.1 tco2 23 24 24 24 22 23 glucose 104 164 158 other labs: pt / ptt / inr:19.6/37.7/1.8, alt / ast:25/87, alk phos / t bili:575/0.6, differential-neuts:72.0 %, band:6.0 %, lymph:14.0 %, mono:2.0 %, eos:0.0 %, lactic acid:2.3 mmol/l, albumin:2.2 g/dl, ldh:446 iu/l, ca++:7.9 mg/dl, mg++:2.1 mg/dl, po4:2.8 mg/dl imaging: cxr-asymmetry--we see elevation or right hemi-diaphragm which is atypical and raises a question of possible ptx with deep sulcus sign on left side-ett at 1.5cm above carina. will repeat film",respiratory failure; idiopathic pneumonitis; lymphoma; sepsis; ,respiratory failure; idiopathic pneumonitis; lymphoma; systemic inflammatory response syndrome;,"['respiratory failure', 'idiopathic pneumonitis', 'lymphoma', 'systemic inflammatory response syndrome']","68 yo male with renal cell CA and lymphoma now returning with febrile
+   neutropenia and is s/p splenectomy and has had nitrogen mustard therapy
+   for recurrent lymphoma and is admitted with respiratory failure and
+   evolution of diffuse ground glass opacities.  We have maintained a
+   broad differential on the source of these infiltrates but we have not
+   seen definative return of culture results from BAL to point to source
+   of infection and are left with possible non-infectious causes such as
+   alveolar hemorrhage or organizing pneumonitis.",True,"The patient's presentation with respiratory failure, requirement for continued positive pressure support (PSV) and increased PEEP due to recurrent hypoxemia, alongside the presence of crackles and diminished breath sounds on physical examination, suggests pulmonary involvement. The arterial blood gas (ABG) showing a pH of 7.33, PaCO2 of 42, and PaO2 of 71 on 40% FiO2 indicates hypoxemia and slight respiratory acidosis, which can be seen in pulmonary hypertension due to decreased oxygenation and potential right heart strain. Additionally, the elevated white blood cell count and markers of inflammation could indicate an underlying process contributing to pulmonary hypertension. However, direct evidence of pulmonary hypertension, such as elevated pulmonary artery pressures or right heart dysfunction on echocardiography, is not provided in the SOAP note. Despite this, the clinical context of respiratory failure, need for significant respiratory support, and signs of pulmonary compromise lean towards a diagnosis that could involve pulmonary hypertension, especially considering the patient's complex clinical picture and the presence of factors that could contribute to its development or exacerbation.",False,"There is no direct evidence provided in the SOAP note to support a diagnosis of pulmonary hypertension, such as echocardiogram findings or right heart catheterization results. The patient's respiratory issues are more suggestive of acute respiratory distress syndrome (ARDS) or other complications rather than pulmonary hypertension."
+438,185208.txt,"title: chief complaint: 24 hour events: radiation therapy - at  10:00 am  (4 out of 5) ekg - at  04:10 pm - given iv lasix 20mg due to cumulative volume overload - xrt team states that they have threshold hct for xrt and wanted 2u prbcs for hct 26. recheck hct 30, so pt not transfused - stressed out from ps trial, switched back into afib w rvr in 140s; may have had some component of having had sotalol suctioned out of ng tube which may have contributed; - ekg appeared to show mild demand ischemia from rvr (mild st elevation in avr and mild st depression lead ii, i) - given iv push 10mg diltiazem, which brought pressures down to 90s/50s and ventric rate to 90s; post-ekg showed resolution of st changes - sbp dipped to 70s/40s systolic briefly but recovered on its own-- fluctuated systolic 80s-110s.  relative hypotension likely secondary to diuresis.  also fluctuated rvr 90s-130s. - given back 500ml ns - patient agitated overnight, on much less sedation than previously due to hopeful planned extubation  and relative hypotension. - considered prn seroquel allergies: no known drug allergies","last dose of antibiotics: vancomycin -  08:00 pm piperacillin/tazobactam (zosyn) -  02:25 am metronidazole -  06:20 am infusions: midazolam (versed) - 0.8 mg/hour fentanyl - 50 mcg/hour other icu medications: furosemide (lasix) -  12:43 pm midazolam (versed) -  03:10 pm diltiazem -  04:10 pm famotidine (pepcid) -  08:00 pm fentanyl -  03:50 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:28 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.6 c (99.6 tcurrent: 37 c (98.6 hr: 110 (77 - 138) bpm bp: 108/60(78) {76/44(56) - 127/76(91)} mmhg rr: 26 (12 - 37) insp/min spo2: 97% heart rhythm: af (atrial fibrillation) wgt (current): 89.4 kg (admission): 70 kg height: 70 inch cvp: 17 (12 - 17)mmhg total in: 3,483 ml 635 ml po: tf: 1,013 ml 303 ml ivf: 2,009 ml 302 ml blood products: total out: 2,760 ml 423 ml urine: 2,265 ml 400 ml ng: 330 ml stool: drains: balance: 723 ml 212 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 450 (450 - 450) ml vt (spontaneous): 575 (575 - 575) ml ps : 0 cmh2o rr (set): 12 rr (spontaneous): 0 peep: 10 cmh2o fio2: 60% rsbi deferred: fio2 > 60% pip: 25 cmh2o plateau: 24 cmh2o compliance: 33.3 cmh2o/ml spo2: 97% abg: 7.41/45/76.//2 ve: 8.1 l/min pao2 / fio2: 127 physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 54 k/ul 9.5 g/dl 126 mg/dl 1.0 mg/dl 26 meq/l 3.5 meq/l 29 mg/dl 105 meq/l 138 meq/l 27.8 % 20.7 k/ul [image002.jpg]   09:33 am   12:47 pm   05:05 pm   08:18 pm   03:27 am   11:55 am   02:46 pm   05:08 pm   05:20 pm   06:10 am wbc 8.0 16.8 20.7 hct 26.6 30.3 27.8 plt 67 53 63 54 cr 1.0 tco2 26 26 28 28 28 30 30 glucose 126 other labs: pt / ptt / inr:13.2/31.0/1.1, ck / ckmb / troponin-t:/4/<0.01, alt / ast:44/59, alk phos / t bili:401/0.7, amylase / lipase:/91, differential-neuts:63.0 %, band:25.0 %, lymph:3.0 %, mono:3.0 %, eos:0.0 %, lactic acid:3.4 mmol/l, albumin:2.0 g/dl, ldh:461 iu/l, ca++:7.2 mg/dl, mg++:1.7 mg/dl, po4:1.7 mg/dl","hypoxic respiratory failure:
+   likely multifactorial, from post-obstructive pna, ptx, and underlying
+   lung disease (copd); afib; hypotension; sepsis; pneumothorax; small cell lung ca; ",hypoxic respiratory failure likely multifactorial from post obstructive pneumonia pneumothorax and underlying lung disease chronic obstructive pulmonary disease ; atrial fibrillation; hypotension; sepsis; pneumothorax; small cell lung cancer;,"['hypoxic respiratory failure likely multifactorial from post obstructive pneumonia pneumothorax and underlying lung disease chronic obstructive pulmonary disease', 'atrial fibrillation', 'hypotension', 'sepsis', 'pneumothorax', 'small cell lung cancer']","Pt is a 72 year old male with COPD, CAD presented with post-obstructive
+   PNA, s/p bronch and stent placement with evolution of resolving PTX
+   requiring chest tube placement.  Now hypotensive requiring pressors.",True,"The patient's presentation includes signs that could be indicative of pulmonary hypertension, such as right ventricular dysfunction suggested by the presence of atrial fibrillation with rapid ventricular response (RVR) and the need for rate control with diltiazem. The patient's hemodynamic instability, including fluctuations in blood pressure and the requirement for fluid management and diuresis, may also be consistent with pulmonary hypertension. However, direct evidence of pulmonary hypertension, such as elevated pulmonary artery pressures or right heart catheterization data, is not provided in the SOAP note. Despite this, the clinical context, including the patient's response to diltiazem and the presence of mild demand ischemia, suggests that pulmonary hypertension could be a contributing factor to the patient's condition. Therefore, based on the available information, it seems plausible that the patient could have pulmonary hypertension, but a definitive diagnosis would require more specific diagnostic testing.",False,"There is no specific information provided in the SOAP note that directly suggests pulmonary hypertension, such as elevated pulmonary artery pressures or right ventricular dysfunction. The patient's CVP is 17 mmHg, which is within a relatively normal range but does not rule out pulmonary hypertension without further context."

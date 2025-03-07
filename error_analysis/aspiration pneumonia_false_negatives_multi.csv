@@ -1,0 +1,365 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_aspiration_pneumonia_pred_multi,is_aspiration_pneumonia_reasoning_multi
+161,104263.txt,"multi lumen - start [**2153-4-23**] 03:45 pm
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2153-4-23**] 10:00 pm
+infusions:
+other icu medications:
+metoprolol - [**2153-4-23**] 06:28 pm
+heparin sodium (prophylaxis) - [**2153-4-24**] 12:00 am
+other medications:
+flowsheet data as of  [**2153-4-24**] 07:41 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**55**] am
+tmax: 37.8
+c (100
+tcurrent: 37.3
+c (99.2
+hr: 67 (67 - 125) bpm
+bp: 168/90(109) {125/67(80) - 168/94(109)} mmhg
+rr: 19 (18 - 28) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+cvp: 13 (7 - 14)mmhg
+total in:
+1,159 ml
+748 ml
+po:
+tf:
+ivf:
+1,159 ml
+748 ml
+blood products:
+total out:
+800 ml
+325 ml
+urine:
+450 ml
+325 ml
+ng:
+stool:
+drains:
+balance:
+359 ml
+423 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///31/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+184 k/ul
+12.2 g/dl
+229 mg/dl
+1.2 mg/dl
+31 meq/l
+4.1 meq/l
+31 mg/dl
+116 meq/l
+153 meq/l
+37.7 %
+12.1 k/ul
+[image002.jpg]
+[**2153-4-23**]  05:29 pm
+[**2153-4-24**]  03:54 am
+wbc
+12.6
+12.1
+hct
+40.7
+37.7
+plt
+174
+184
+cr
+1.3
+1.2
+tropt
+0.08
+0.06
+glucose
+80
+229
+other labs: pt / ptt / inr:13.1/26.0/1.1, ck / ckmb /
+troponin-t:815/3/0.06, lactic acid:1.3 mmol/l, ca++:8.5 mg/dl, mg++:2.0
+mg/dl, po4:2.6 mg/dl","fever/leukocytosis: potential sources: urinary (u/a with few wbcs),
+   pulm - possible aspiration pna or health-care associated pna; altered mental status; atrial fibrillation with rvr; arf; hypertension; dementia",fever leukocytosis potential sources urinary urinalysis with few white blood cells pulmonary possible aspiration pneumonia or health care associated pneumonia; altered mental status; atrial fibrillation with rapid ventricular rate; acute renal failure; hypertension; dementia,"['fever leukocytosis potential sources urinary urinalysis with few white blood cells pulmonary possible aspiration pneumonia or health care associated pneumonia', 'altered mental status', 'atrial fibrillation with rapid ventricular rate', 'acute renal failure', 'hypertension', 'dementia']","69 yo M with dementia (h/o anoxic brain injury), DM2, HTN who presents
+   from his NH with altered mental status, fevers, and atrial fibrillation
+   with rapid ventricular rates.
+   .",False,"There is no clear evidence of aspiration pneumonia, such as a history of aspiration, respiratory symptoms, or imaging studies suggestive of pneumonia. The patient's laboratory results and vital signs do not suggest aspiration pneumonia."
+167,101905.txt,"64f with history of idiopathic cm presenting on transfer after vfib
+arrest.
+the patient was restarted on lasix 20 mg [**hospital1 **].  her ij from the osh was
+removed.  the patient failed her spontaneous breathing trial.  she had
+copious secretions and was given a scopolamine patch in the evening.
+dr. [**first name (stitle) 1616**] decided that she will need a neuro consult in the am (even
+if she is looking better).  tte showed lobal left ventricular
+cardiomyopathy with an ef of 30%. moderate diastolic dysfunction with
+elevated filling pressures. mild to moderate mitral regurgitation. mild
+pulmonary hypertension.
+ekg - at [**2137-11-12**] 08:00 am
+transthoracic echo - at [**2137-11-12**] 10:30 am
+multi lumen - stop [**2137-11-12**] 02:30 pm
+sputum culture - at [**2137-11-12**] 05:20 pm
+no known drug allergies
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2137-11-12**] 10:02 pm
+infusions:
+midazolam (versed) - 3 mg/hour
+other icu medications:
+heparin sodium (prophylaxis) - [**2137-11-12**] 11:55 pm
+other medications:
+flowsheet data as of  [**2137-11-13**] 05:52 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.5
+c (99.5
+tcurrent: 36.9
+c (98.4
+hr: 83 (56 - 85) bpm
+bp: 150/59(82) {131/56(75) - 157/85(118)} mmhg
+rr: 12 (12 - 25) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,359 ml
+76 ml
+po:
+tf:
+ivf:
+1,179 ml
+76 ml
+blood products:
+total out:
+955 ml
+190 ml
+urine:
+940 ml
+180 ml
+ng:
+15 ml
+10 ml
+stool:
+drains:
+balance:
+404 ml
+-114 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 500 (500 - 550) ml
+vt (spontaneous): 174 (174 - 174) ml
+rr (set): 12
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 50%
+rsbi: 217
+pip: 30 cmh2o
+plateau: 19 cmh2o
+compliance: 35.7 cmh2o/ml
+spo2: 100%
+abg: ////
+ve: 7 l/min
+general appearance: no acute distress, coughing
+eyes / conjunctiva: perrl, 4mm --> 2mm and brisk
+head, ears, nose, throat: normocephalic, endotracheal tube, og tube,
+intact gag reflex
+cardiovascular: (pmi hyperdynamic), (s1: normal), (s2: normal), s4, rv
+lift
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (expansion: symmetric), (breath sounds: clear  )
+abdominal: soft, no(t) non-tender, bowel sounds present
+extremities: right: absent, left: absent
+skin:  not assessed
+neurologic: responds to voice commands, opens eyes, tracks, moves ue
+and le on demand (minimal distal movements against gravity).  sedation
+weaned to boluses.
+376 k/ul
+8.7 g/dl
+137 mg/dl
+1.0 mg/dl
+24 meq/l
+3.9 meq/l
+19 mg/dl
+109 meq/l
+141 meq/l
+27.1 %
+12.8 k/ul
+[image002.jpg]
+[**2137-11-11**]  05:51 pm
+[**2137-11-12**]  03:36 am
+[**2137-11-12**]  04:40 am
+wbc
+13.0
+12.8
+hct
+26.8
+27.1
+plt
+408
+376
+cr
+0.9
+1.0
+tropt
+0.03
+tco2
+24
+glucose
+78
+137
+other labs: pt / ptt / inr:13.0/34.7/1.1, ck / ckmb /
+troponin-t:400/2/0.03, alt / ast:55/44, alk phos / t bili:58/0.9,
+albumin:3.6 g/dl, ldh:263 iu/l, ca++:8.7 mg/dl, mg++:1.9 mg/dl, po4:2.7
+mg/dl",depressed ef; vfib; aspiration pna,depressed ejection fraction; ventricular fibrillation; aspiration pneumonia,"['depressed ejection fraction', 'ventricular fibrillation', 'aspiration pneumonia']","RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ CARDIAC ARREST
+   64F with history of idiopathic CM presenting on transfer after vfib
+   arrest.",False,"The patient has been intubated and has copious secretions, which increases the risk for aspiration pneumonia. However, there is no direct evidence provided, such as a positive culture from a respiratory sample or radiographic findings consistent with aspiration pneumonia."
+321,109958.txt,"good uop to lasix
+no overnight events
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2152-10-13**] 06:16 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+total in:
+po:
+tf:
+ivf:
+blood products:
+total out:
+0 ml
+0 ml
+urine:
+ng:
+stool:
+drains:
+balance:
+0 ml
+0 ml
+respiratory support
+abg: ///34/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+369 k/ul
+9.8 g/dl
+103 mg/dl
+0.9 mg/dl
+34 meq/l
+3.7 meq/l
+31 mg/dl
+96 meq/l
+138 meq/l
+29.0 %
+14.8 k/ul
+wbc
+15.9
+16.2
+15.7
+13.8
+13.2
+14.8
+hct
+26.2
+27.1
+26.3
+27.6
+27.6
+29.0
+plt
+166
+196
+193
+273
+286
+369
+cr
+0.7
+0.7
+0.8
+0.8
+0.9
+0.9
+0.8
+0.9
+tropt
+0.06
+tco2
+24
+25
+glucose
+142
+161
+179
+138
+133
+120
+139
+103
+other labs: pt / ptt / inr:13.8/35.9/1.2, ck / ckmb /
+troponin-t:71/5/0.06, alt / ast:30/27, alk phos / t bili:106/0.8,
+differential-neuts:88.8 %, lymph:5.1 %, mono:5.2 %, eos:0.8 %, lactic
+acid:0.8 mmol/l, albumin:3.1 g/dl, ldh:306 iu/l, ca++:8.4 mg/dl,
+mg++:2.3 mg/dl, po4:3.4 mg/dl","respiratory failure: multifactorial from pulmonary
+   edema/acute-on-chronic chf (?systolic vs diastolic) and likely
+   aspiration/hospital-acquired pneumonia;; fevers: likely due to aspiration pneumonia;; hypernatremia: lkikely from poor free water intake; atrial fibrillation; subdural hematoma",respiratory failure multifactorial from pulmonary edema acute on chronic congestive heart failure question systolic versus diastolic and likely aspiration hospital acquired pneumonia;; fevers likely due to aspiration pneumonia;; hypernatremia likely from poor free water intake; atrial fibrillation; subdural hematoma,"['respiratory failure multifactorial from pulmonary edema acute on chronic congestive heart failure question systolic versus diastolic and likely aspiration hospital acquired pneumonia', 'fevers likely due to aspiration pneumonia', 'hypernatremia likely from poor free water intake', 'atrial fibrillation', 'subdural hematoma']","Ms. [**Known lastname 4781**] is an 87 year old woman now s/p left craniotomy for a
+   traumatic subdural hematoma whose post-operative course is now
+   complicated by decompensated CHF, atrial fibrillation with RVR, and
+   fevers likely from aspiration/hospital-acquired pneumonia.
+   .",False,"There's no direct evidence provided that would suggest aspiration pneumonia, such as a history of aspiration, abnormal chest X-ray, or specific symptoms like cough or shortness of breath."
+341,111144.txt,"chief complaint: i saw and examined the patient, and was physically present with the icu resident for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 24 hour events: fever - 102.0 f -  08:00 am allergies: nortriptyline unknown;","last dose of antibiotics: metronidazole -  02:00 am piperacillin/tazobactam (zosyn) -  04:00 am vancomycin -  07:28 am infusions: fentanyl - 20 mcg/hour other icu medications: famotidine (pepcid) -  07:03 am heparin sodium (prophylaxis) -  07:28 am other medications: changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   09:44 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 38.2 c (100.8 tcurrent: 38.2 c (100.8 hr: 101 (93 - 104) bpm bp: 117/57(77) {93/42(58) - 128/66(86)} mmhg rr: 22 (6 - 27) insp/min spo2: 95% heart rhythm: st (sinus tachycardia) height: 73 inch cvp: 10 (2 - 20)mmhg total in: 4,648 ml 1,462 ml po: tf: 297 ml 288 ml ivf: 3,490 ml 1,114 ml blood products: total out: 3,618 ml 1,960 ml urine: 1,633 ml 730 ml ng: 750 ml stool: drains: 1,985 ml 480 ml balance: 1,030 ml -498 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 450 (450 - 450) ml rr (set): 24 rr (spontaneous): 2 peep: 8 cmh2o fio2: 40% rsbi deferred: rr >35 pip: 23 cmh2o plateau: 18 cmh2o compliance: 45 cmh2o/ml spo2: 95% abg: 7.50/38/131/30/6 ve: 12.6 l/min pao2 / fio2: 328 physical examination general appearance: well nourished, no acute distress eyes / conjunctiva: perrl head, ears, nose, throat: normocephalic, endotracheal tube, og tube cardiovascular: (s1: normal), (s2: normal) peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) respiratory / chest: (breath sounds: crackles : , diminished: bases) abdominal: soft, non-tender, distended extremities: right: 2+, left: 2+ skin:  warm neurologic: responds to: not assessed, movement: not assessed, sedated, tone: not assessed labs / radiology 9.6 g/dl 217 k/ul 102 mg/dl 0.5 mg/dl 30 meq/l 3.6 meq/l 16 mg/dl 105 meq/l 139 meq/l 28.9 % 12.8 k/ul [image002.jpg]   05:08 pm   06:29 pm   03:22 am   05:07 am   05:28 am   04:15 pm   04:28 pm   04:50 am   05:22 am   07:16 am wbc 13.0 11.8 12.8 hct 29.3 28.5 28.1 28.9 plt 196 191 217 cr 0.5 0.5 tco2 30 29 29 31 31 31 glucose 126 119 102 other labs: pt / ptt / inr:15.3/32.2/1.3, alt / ast:26/60, alk phos / t bili:124/1.6, amylase / lipase:110/35, differential-neuts:93.4 %, lymph:2.9 %, mono:2.9 %, eos:0.7 %, lactic acid:1.3 mmol/l, albumin:1.6 g/dl, ldh:235 iu/l, ca++:7.3 mg/dl, mg++:2.1 mg/dl, po4:2.7 mg/dl imaging: cxr diffuse b/l fluffy infiltrates and effusions c/w severe volume overload.  cannot r/o infiltrate. microbiology: no new data.",shock:  likely due to sepsis/hemorrhagic pancreatitis; hypoxic resp failure; aspiration pna; gallstone pancreatitis; ,shock likely due to sepsis hemorrhagic pancreatitis; hypoxic respiratory failure; aspiration pneumonia; gallstone pancreatitis;,"['shock likely due to sepsis hemorrhagic pancreatitis', 'hypoxic respiratory failure', 'aspiration pneumonia', 'gallstone pancreatitis']","53 y/o with ascending cholangitis tx here for ERCP [**12-31**], no stone found
+   so sent back to OSH.  Had lap chole ([**1-5**]) at OSH with resulting bile
+   leak - sent back here for ERCP and stenting ([**1-8**]).  During ERCP,
+   patient aspirated - difficult time oxygenating - bronch showed bile in
+   right main stem.  Now with severe necrotic pacreatitis/sepsis.  On
+   vanc/zosyn/flagyl.",False,"The patient has an endotracheal tube in place and is on ventilator support, which increases the risk for aspiration pneumonia. The presence of diffuse bilateral fluffy infiltrates on CXR could be consistent with aspiration pneumonia, especially in an intubated patient. However, the clinical context provided does not specifically mention aspiration as a suspected cause of the pulmonary findings. Given the patient's clinical scenario, aspiration pneumonia is a possible consideration but not conclusively diagnosed based on the information provided."
+349,117516.txt,chief complaint: 24 hour events: blood cultured - at  10:10 pm ekg - at  10:10 pm allergies: no known drug allergies,"last dose of antibiotics: ampicillin/sulbactam (unasyn) -  12:11 am infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:05 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.4 c (99.4 tcurrent: 37.4 c (99.4 hr: 96 (69 - 100) bpm bp: 144/89(102) {116/75(86) - 151/93(105)} mmhg rr: 20 (11 - 21) insp/min spo2: 95% total in: 5,282 ml 1,407 ml po: 500 ml tf: ivf: 282 ml 907 ml blood products: total out: 1,000 ml 810 ml urine: ng: stool: drains: balance: 4,282 ml 597 ml respiratory support o2 delivery device: nasal cannula spo2: 95% abg: ///27/ physical examination general: intoxicated heent: perrl, eomi, sclera anicteric, mmm, poor dentition neck: supple, jvp flat. acanthosis nigricans. lungs: transmitted upper airway sounds. mild rales at the bases bilaterally. cv: distant heart sounds. nl s1+s2. abdomen: s/nt/nd, +bs gu: scrotal edema, small superficial erosions. 2 1x1 cm superficial ulcers in peri-anal area. maggots on scrotum and peri-anal area. ext: 2+ pitting edema bilaterally. bilateral skin breakdown over feet. no tight compartments. labs / radiology 121 k/ul 10.7 g/dl 100 mg/dl 0.7 mg/dl 27 meq/l 3.5 meq/l 10 mg/dl 100 meq/l 139 meq/l 31.2 % 5.5 k/ul [image002.jpg]   10:06 pm   03:16 am wbc 5.5 hct 31.2 plt 121 cr 0.8 0.7 tropt <0.01 glucose 73 100 other labs: pt / ptt / inr:14.2//1.2, ck / ckmb / troponin-t:322/5/<0.01, alt / ast:11/39, alk phos / t bili:106/0.3, differential-neuts:70.5 %, lymph:19.0 %, mono:8.8 %, eos:1.5 %, lactic acid:1.9 mmol/l, albumin:3.5 g/dl, ldh:283 iu/l, ca++:7.1 mg/dl, mg++:2.5 mg/dl, po4:3.0 mg/dl","hypoxemia: likely secondary to aspiration pneumonia versus
+   pneumonitis; etoh; hypotension; dyspnea on exertion; ",hypoxemia likely secondary to aspiration pneumonia versus pneumonitis; ethanol; hypotension; dyspnea on exertion;,"['hypoxemia likely secondary to aspiration pneumonia versus pneumonitis', 'ethanol', 'hypotension', 'dyspnea on exertion']","Mr. [**Known lastname 6343**] is a 53 year old gentleman with a PMH significant for EtOH
+   abuse admitted for hypotension and hypoxemia after being found
+   unresponsive.",False,"The patient is described as intoxicated, which increases the risk of aspiration. However, there is no direct evidence provided, such as a witnessed aspiration event or radiographic findings consistent with aspiration pneumonia, to support this diagnosis. The presence of mild rales at the bases bilaterally could be consistent with several conditions, including but not limited to aspiration pneumonia."
+385,143753.txt,chief complaint: respiratory failure 24 hour events: family decided to make dnr/dni allergies: aspirin unknown; penicillins unknown; bactrim (oral) (sulfamethoxazole/trimethoprim) rash;,"last dose of antibiotics: levofloxacin -  06:10 pm metronidazole -  04:10 am vancomycin -  08:00 am amikacin -  09:03 am infusions: other icu medications: lansoprazole (prevacid) -  08:00 am heparin sodium (prophylaxis) -  08:00 am furosemide (lasix) -  09:35 am other medications: changes to medical and family history: none review of systems is unchanged from admission except as noted below review of systems: none flowsheet data as of   12:19 pm vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 38.1 c (100.5 tcurrent: 37.7 c (99.9 hr: 75 (68 - 93) bpm bp: 157/66(88) {127/57(73) - 164/72(93)} mmhg rr: 18 (15 - 38) insp/min spo2: 95% heart rhythm: sr (sinus rhythm) wgt (current): 77 kg (admission): 66.5 kg height: 66 inch total in: 1,987 ml 545 ml po: tf: 1,187 ml 10 ml ivf: 540 ml 455 ml blood products: total out: 1,115 ml 395 ml urine: 1,115 ml 395 ml ng: stool: drains: balance: 872 ml 150 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist vt (set): 450 (450 - 450) ml vt (spontaneous): 293 (293 - 293) ml ps : 20 cmh2o rr (set): 12 rr (spontaneous): 37 peep: 5 cmh2o fio2: 40% rsbi deferred: rr >35 pip: 22 cmh2o plateau: 17 cmh2o spo2: 95% abg: ///34/ ve: 7.7 l/min physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 875 k/ul 8.7 g/dl 102 mg/dl 1.0 mg/dl 34 meq/l 3.5 meq/l 19 mg/dl 97 meq/l 138 meq/l 27.0 % 20.2 k/ul [image002.jpg]   04:35 am   05:32 am   04:12 am   08:43 am   02:53 pm   05:54 am   04:28 pm   04:00 am   05:08 am   05:41 am wbc 16.1 15.7 15.4 18.4 20.2 hct 22.5 23.4 24.9 25.9 27.0 plt 583 548 666 781 875 cr 1.1 1.1 1.0 1.1 1.0 1.0 1.0 tropt 0.10 tco2 28 35 glucose 2 150 148 102 other labs: pt / ptt / inr:15.4/28.9/1.4, ck / ckmb / troponin-t:37/3/0.10, alt / ast:, alk phos / t bili:79/0.3, amylase / lipase:153/139, differential-neuts:88.3 %, band:3.0 %, lymph:7.9 %, mono:3.0 %, eos:0.7 %, fibrinogen:661 mg/dl, lactic acid:1.2 mmol/l, albumin:2.6 g/dl, ldh:256 iu/l, ca++:7.5 mg/dl, mg++:1.8 mg/dl, po4:3.0 mg/dl","respiratory failure; hap/aspiration pna/sepsis; urosepsis: e.coli bacteremia, and e.coli/providencia uti.; hypertension; ",respiratory failure; hospital acquired pneumonia aspiration pneumonia sepsis; urosepsis escherichia coli bacteremia and escherichia coli providencia urinary tract infection ; hypertension;,"['respiratory failure', 'hospital acquired pneumonia aspiration pneumonia sepsis', 'urosepsis escherichia coli bacteremia and escherichia coli providencia urinary tract infection', 'hypertension']","82 year old female with a history of breast cancer, CVA, hypertension
+   with recent MICU stay for E.coli urosepsis, providencia UTI, and RLL
+   aspiration PNA presents from medical floor after likely PEA arrest now
+   with worsening mental status than on previous transfer now 48 hours
+   after the event.",False,"The patient is on mechanical ventilation and has a history of respiratory failure, which could increase the risk for aspiration pneumonia. However, without specific evidence such as a chest X-ray showing infiltrates or a history of aspiration, the diagnosis cannot be confirmed."
+389,145644.txt,"chief complaint: 24 hour events: -cultures:picc line with no growth -repeat hct 10am 30, 29.8 allergies: heparin flush (intraven) (heparin sodium porcine/pf) unknown;","last dose of antibiotics: piperacillin -  12:00 am vancomycin -  09:00 am piperacillin/tazobactam (zosyn) -  04:00 pm infusions: other icu medications: pantoprazole (protonix) -  09:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:46 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.6 c (97.8 tcurrent: 36.3 c (97.3 hr: 70 (63 - 74) bpm bp: 111/52(66) {86/41(53) - 122/57(73)} mmhg rr: 17 (15 - 21) insp/min spo2: 96% heart rhythm: 1st av (first degree av block) cvp: 4 (0 - 7)mmhg total in: 1,260 ml 77 ml po: 400 ml tf: ivf: 860 ml 77 ml blood products: total out: 1,570 ml 400 ml urine: 1,570 ml 400 ml ng: stool: drains: balance: -310 ml -323 ml respiratory support o2 delivery device: none spo2: 96% abg: //// physical examination general appearance: no acute distress, overweight / obese eyes / conjunctiva: perrl head, ears, nose, throat: normocephalic cardiovascular: distant heart sounds; difficult to appreciate given coarse bs peripheral vascular: (right radial pulse: present), (left radial pulse: present), (right dp pulse: diminished), (left dp pulse: not assessed) respiratory / chest: (expansion: symmetric), (breath sounds: crackles at the right base > l ) abdominal: soft, bowel sounds present, distended, tender: diffuse; no rebound/guarding, central abd pad present at surgical site; no oozing or erythema around site extremities: right lower extremity edema: 2+, left bka skin:  cool neurologic: attentive, follows simple commands, responds to: verbal stimuli, oriented (to): a/o x 3, movement: purposeful, tone: not assessed labs / radiology 258 k/ul 9.9 g/dl 104 mg/dl 1.2 mg/dl 30 meq/l 4.0 meq/l 19 mg/dl 99 meq/l 135 meq/l 30.3 % 5.3 k/ul [image002.jpg]   11:55 pm   06:44 am   02:40 pm   04:56 pm   09:32 pm   11:13 pm   03:06 am   10:42 am   10:03 pm   05:54 am wbc 6.3 6.0 5.3 hct 31.0 33.4 32.8 31.2 31.0 30.2 29.8 30.3 plt  cr 1.0 1.0 1.2 tropt 0.04 tco2 30 glucose 124 104 other labs: pt / ptt / inr:36.6/54.4/3.8, ck / ckmb / troponin-t:25//0.04, d-dimer:210 ng/ml, lactic acid:1.2 mmol/l, ldh:208 iu/l, ca++:8.2 mg/dl, mg++:2.1 mg/dl, po4:3.4 mg/dl",aspiration pna; anemia; acute on chronic systolic chf; mechical avr; ischemic bowel; htn; dm2; ,aspiration pneumonia; anemia; acute on chronic systolic congestive heart failure; mechanical aortic valve replacement; ischemic bowel; hypertension; diabetes mellitus type ;,"['aspiration pneumonia', 'anemia', 'acute on chronic systolic congestive heart failure', 'mechanical aortic valve replacement', 'ischemic bowel', 'hypertension', 'diabetes mellitus type']","67 yo male with CAD s/p CABG, systolic CHF EF 20%, mechanical AVR, DM2,
+   HTN, h/o UTI, h/o CoNS bacteremia, recently admitted for ischemic bowel
+   s/p small bowel resection and primary anastomosis now admitted to the
+   MICU with hypotension and low grade temps.",False,"The patient has crackles at the right base of the lungs, which could indicate aspiration pneumonia. However, the patient's oxygen saturation is 96% on room air, and there are no other signs of significant respiratory distress, such as significant cough or sputum production."
+419,173003.txt,"title: chief complaint: fever, hypoxia 24 hour events: sputum culture - at  02:22 pm urine culture - at  02:22 pm transthoracic echo - at  05:00 pm -echo: no effusion, no flail leaflets, no wma -patient received total of 8 l ns to maintain adequate bp and uop allergies: codeine nausea/vomiting","last dose of antibiotics: vancomycin -  09:36 pm cefipime -  06:10 am infusions: other icu medications: pantoprazole (protonix) -  07:28 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:38 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.8 c (98.2 tcurrent: 36.5 c (97.7 hr: 85 (79 - 94) bpm bp: 105/69(77) {85/55(62) - 117/79(87)} mmhg rr: 17 (11 - 24) insp/min spo2: 100% heart rhythm: sr (sinus rhythm) total in: 8,409 ml 1,309 ml po: tf: ivf: 4,259 ml 1,159 ml blood products: total out: 1,000 ml 560 ml urine: 1,000 ml 560 ml ng: stool: drains: balance: 7,409 ml 749 ml respiratory support o2 delivery device: nasal cannula spo2: 100% abg: 7.41/39/85./23/0 pao2 / fio2: 85 physical examination general: appears comfortable, responds to voice, follows commands heent:  mmm, pupils constricted bilaterally minimal reactivity.  no jvd cardiac:  rrr, no m/r/g lung: abdomen:  soft, nd, nt slightly more distended, no masses or organomegaly.  bs present.  g tube site c/d/i. ext: warm, dry, no cyanosis or edema, good cap refill neuro:  the patient is responsive to verbal stimuli, winces to painful stimuli. labs / radiology 330 k/ul 8.5 g/dl 96 mg/dl 0.8 mg/dl 23 meq/l 3.6 meq/l 28 mg/dl 115 meq/l 145 meq/l 26.9 % 22.7 k/ul [image002.jpg]   02:49 pm   06:48 pm   03:40 am wbc 29.1 22.7 hct 27.1 26.9 plt 353 330 cr 1.0 0.8 tco2 26 glucose 103 96 other labs: pt / ptt / inr:27.0/54.8/2.6, differential-neuts:89.3 %, lymph:7.3 %, mono:1.9 %, eos:1.2 %, lactic acid:1.9 mmol/l, ca++:8.0 mg/dl, mg++:1.9 mg/dl, po4:1.8 mg/dl",sepsis; aspiration pneumonia; hypoxia: likely secondary to pneumonia; arf; stroke; ,sepsis; aspiration pneumonia; hypoxia likely secondary to pneumonia; acute renal failure; stroke;,"['sepsis', 'aspiration pneumonia', 'hypoxia likely secondary to pneumonia', 'acute renal failure', 'stroke']","55 yoM w/ baseline neurologic deficts related astrocytoma/meningioma
+   resections and previous CVA [**3-7**] [**Hospital 13985**] nursing home resident, presents
+   with fever, leukocytosis, hypoxia and tachycardia.",False,"While the patient has a fever and is on antibiotics, which could be consistent with pneumonia, there is no specific evidence provided that would point towards aspiration pneumonia, such as a history of aspiration event or radiographic findings consistent with aspiration pneumonia."
+440,188583.txt,"chief complaint:  pt has no complaints.  feels breathing is the same as yesterday 24 hour events: - nutrition consulted and suggested increasing tfs to cycle 120ml/hr for 18 hours per day, then off at night to prevent hunger but since not eating decided no need to cycle so just increased goal to 120ml/hr with increased free water boluses as sodium slightly high. - was 300ml positive at ~4pm so got 40mg iv lasix to keep more even in setting of increasing the tube feeds and put out >600ml but then was still positive (they werent adding in the 100ml free water flushes q6h) so gave another 40mg iv lasix. allergies: no known drug allergies","last dose of antibiotics: piperacillin/tazobactam (zosyn) -  12:30 pm piperacillin -  04:00 am infusions: other icu medications: enoxaparin (lovenox) -  08:00 pm furosemide (lasix) -  10:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:07 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.7 c (98 tcurrent: 36.3 c (97.3 hr: 77 (77 - 94) bpm bp: 89/44(53) {87/30(48) - 133/75(86)} mmhg rr: 31 (14 - 37) insp/min spo2: 100% heart rhythm: sr (sinus rhythm) wgt (current): 95.8 kg (admission): 101.5 kg height: 70 inch total in: 2,344 ml 741 ml po: tf: 1,484 ml 561 ml ivf: 210 ml 131 ml blood products: total out: 2,490 ml 440 ml urine: 2,490 ml 440 ml ng: stool: drains: balance: -146 ml 301 ml respiratory support o2 delivery device: nasal cannula spo2: 100% abg: //// physical examination gen: alert oriented x3, nad, pleasant heent:  mmm neck: supple, jvp 7 cm cor: overall rrr, although occasional premature beats. s1s2+,   holosystolic murmur at apex, no heave or thrill pulm: scattered crackles bilaterally, improved aeration. abd: nabs. soft, ntnd. ext: r thigh swelling stable, not ttp, bl le trace edema, 2+ le pulses (r>l). wwp. labs / radiology 330 k/ul 9.0 g/dl 162 mg/dl 0.8 mg/dl 33 meq/l 3.7 meq/l 36 mg/dl 105 meq/l 143 meq/l 29.4 % 9.4 k/ul [image002.jpg]   05:00 pm   06:47 am   04:10 am   04:18 am   07:18 am   05:00 pm   05:26 am   06:07 am   05:52 am   05:27 am wbc 12.6 11.6 10.7 10.0 9.9 10.3 9.4 hct 26.0 26.2 26.6 27.4 27.9 28.3 29.4 plt 286 309 309 300 328 332 330 cr 0.8 0.6 0.7 0.7 0.7 0.8 0.8 0.7 tco2 34 glucose 130 124 92 95 104 97 122 141 other labs: pt / ptt / inr:16.9/28.5/1.5, alt / ast:18/20, alk phos / t bili:44/1.9, differential-neuts:80.0 %, band:0.0 %, lymph:15.0 %, mono:2.0 %, eos:2.0 %, albumin:2.4 g/dl, ldh:448 iu/l, ca++:9.7 mg/dl, mg++:2.2 mg/dl, po4:2.2 mg/dl",aspiration pneumonia; chf and new mr; r hip bleed.; cad; hip surgery; ,aspiration pneumonia; congestive heart failure and new mitral regurgitation; right hip bleed ; coronary artery disease; hip surgery;,"['aspiration pneumonia', 'congestive heart failure and new mitral regurgitation', 'right hip bleed', 'coronary artery disease', 'hip surgery']","86 y/o male with R hip surgery and post-op STEMI with new MR with 2 DES
+   to Lcx and required balloon pump, course complicatd by VAP and R hip
+   bleed, now more medically stable.",False,"The patient has scattered crackles bilaterally on lung exam, which could be consistent with aspiration pneumonia, especially in a patient with altered mental status or difficulty swallowing. However, there is no specific mention of an aspiration event or findings on imaging studies like a chest X-ray that would confirm aspiration pneumonia. The improvement in aeration suggests some response to treatment, but without more definitive evidence, aspiration pneumonia remains a possibility but is not definitively diagnosed."
+443,194574.txt,"chief complaint: resp distress and hypotension i saw and examined the patient, and was physically present with the icu resident for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 73 yo m w/mmp including c4-5 paraplegia, tf dependence, on broad spectrum abx for recent pna transferred from osh w/ resp distress, leukocytosis, and hotn. 24 hour events: picc line - start  04:24 pm arterial line - start  07:00 pm hotn responded to ivf, never required pressor support ms  antibxcoverage  broadened--> vanco/ ct chest ordered leukocytosis normalizing history obtained from  medical records allergies: methyldopa hives; shellfish pt. with remote","last dose of antibiotics: cefipime -  03:00 pm metronidazole -  04:13 am meropenem -  08:37 am infusions: other icu medications: other medications: per  (reviewed) changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   09:44 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.5 c (97.7 tcurrent: 36.5 c (97.7 hr: 62 (60 - 66) bpm bp: 102/33(55) {87/25(45) - 126/43(330)} mmhg rr: 18 (12 - 21) insp/min spo2: 100% heart rhythm: v paced height: 76 inch total in: 1,996 ml 356 ml po: tf: ivf: 1,996 ml 296 ml blood products: total out: 0 ml 0 ml urine: ng: stool: drains: balance: 1,996 ml 356 ml respiratory support o2 delivery device: high flow neb vt (spontaneous): 17 (17 - 17) ml fio2: 40% shovel spo2: 100% abg: 7.43/40/92./22/1 pao2 / fio2: 232 physical examination general appearance: no acute distress, responds to simple questions eyes / conjunctiva: perrl, mmm cardiovascular: (s1: normal), (s2: normal), paced intermittently peripheral vascular: (right radial pulse: present), (left radial pulse: present), (right dp pulse: present), (left dp pulse: present) respiratory / chest: (expansion: symmetric), (breath sounds: diminished: l base) abdominal: soft, non-tender, bowel sounds present extremities: right: trace, left: trace, no(t) cyanosis, no(t) clubbing musculoskeletal: r bka skin:  sacral decub neurologic: attentive, follows simple commands, responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 6.9 g/dl 353 k/ul 51 mg/dl 2.9 mg/dl 22 meq/l 4.2 meq/l 72 mg/dl 103 meq/l 138 meq/l 23.3 % 12.7 k/ul [image002.jpg]   06:50 pm   06:58 pm   02:57 am wbc 16.5 12.7 hct 23.6 23.3 plt 360 353 cr 2.8 2.9 tco2 27 glucose 51 51 other labs: pt / ptt / inr:37.9/45.8/4.1, differential-neuts:76.4 %, band:0.0 %, lymph:10.6 %, mono:12.5 %, eos:0.4 %, ca++:7.9 mg/dl, mg++:2.8 mg/dl, po4:6.0 mg/dl imaging: cxr--l effusion improved, atelectasis, r infrahilar opacity microbiology: bl  ngtd",resp distress; recurrent asp pna/pneumonitis; sepsis; leukocytosis; ,respiratory distress; recurrent aspiration pneumonia pneumonitis; sepsis; leukocytosis;,"['respiratory distress', 'recurrent aspiration pneumonia pneumonitis', 'sepsis', 'leukocytosis']","73 yo M w/ mmp,  C4-5 paraplegia, TF dependence, on broad spectrum abx
+   for recent pna transferred from OSH w/ resp distress, leukocytosis, and
+   HOTN",False,"The patient has a history of respiratory distress and has been diagnosed with pneumonia, but the type of pneumonia (aspiration vs. other) is not specified. Aspiration pneumonia is a consideration, especially in patients with altered mental status or those who are at risk for aspiration, such as individuals with paraplegia. However, without more specific information on the nature of the pneumonia or the presence of risk factors for aspiration at the time of the illness, aspiration pneumonia cannot be confirmed."

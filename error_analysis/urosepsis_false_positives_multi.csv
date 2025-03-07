@@ -1,0 +1,1094 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_urosepsis_pred_multi,is_urosepsis_reasoning_multi
+14,199699.txt,"picc line - stop [**2177-7-16**] 01:30 pm
+arterial line - stop [**2177-7-16**] 03:00 pm
+- to be transferred back to [**hospital 328**] rehab once bed is available
+- very anxious, started on ativan prn
+codeine
+swelling;
+tetanus
+unknown;
+meropenem
+rash;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+meropenem - [**2177-7-15**] 10:31 am
+vancomycin - [**2177-7-16**] 06:00 pm
+cefipime - [**2177-7-17**] 05:30 am
+infusions:
+other icu medications:
+lorazepam (ativan) - [**2177-7-16**] 04:00 pm
+heparin sodium (prophylaxis) - [**2177-7-17**] 05:30 am
+other medications:
+flowsheet data as of  [**2177-7-17**] 07:10 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 37.2
+c (98.9
+hr: 86 (75 - 97) bpm
+bp: 90/44(55) {90/33(50) - 116/60(71)} mmhg
+rr: 20 (19 - 28) insp/min
+spo2: 93%
+heart rhythm: 1st av (first degree av block)
+wgt (current): 150.8 kg (admission): 122.5 kg
+height: 67 inch
+total in:
+2,916 ml
+808 ml
+po:
+tf:
+1,827 ml
+466 ml
+ivf:
+484 ml
+172 ml
+blood products:
+total out:
+1,955 ml
+880 ml
+urine:
+1,915 ml
+880 ml
+ng:
+stool:
+drains:
+balance:
+961 ml
+-72 ml
+respiratory support
+o2 delivery device: tracheostomy tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 500 (500 - 500) ml
+vt (spontaneous): 234 (234 - 234) ml
+rr (set): 12
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 111
+pip: 26 cmh2o
+plateau: 18 cmh2o
+spo2: 93%
+abg: ///31/
+ve: 10.6 l/min
+
+general:  alert, appears anxious, unable to vocalize
+lungs: improved rhonchi b/l, limited secondary to anterior exam and
+body habitus and sounds from mechanical ventilator
+cv: soft heart sounds, regular rate and rhythm, normal s1/s2
+abdomen:  obese, umbilical hernia (reducible), active bowel sounds, peg
+tube in place, denies pain with palpation
+skin: diffuse, erythematous, macular rash across chest and arms
+ext:  warm, well perfused, 2+ pulses; upper extremity edema, 1+
+502 k/ul
+8.9 g/dl
+138 mg/dl
+0.3 mg/dl
+31 meq/l
+3.6 meq/l
+7 mg/dl
+101 meq/l
+139 meq/l
+28.0 %
+10.2 k/ul
+image002.jpg]
+[**2177-7-14**]  03:29 am
+[**2177-7-14**]  03:41 pm
+[**2177-7-14**]  04:00 pm
+[**2177-7-14**]  09:10 pm
+[**2177-7-15**]  04:01 am
+[**2177-7-15**]  04:22 am
+[**2177-7-15**]  05:10 pm
+[**2177-7-16**]  03:08 am
+[**2177-7-16**]  03:21 am
+[**2177-7-17**]  04:19 am
+wbc
+7.5
+7.4
+7.8
+9.2
+10.2
+hct
+26.3
+25.9
+25.9
+25.8
+28.0
+plt
+474
+448
+460
+501
+502
+cr
+0.3
+0.3
+0.2
+0.3
+tco2
+30
+30
+32
+32
+34
+glucose
+136
+147
+148
+138
+other labs: pt / ptt / inr:14.4/26.5/1.2, alt / ast:14/13, alk phos / t
+bili:124/0.3, differential-neuts:70.8 %, band:0.0 %, lymph:20.2 %,
+mono:3.3 %, eos:4.8 %, lactic acid:0.7 mmol/l, albumin:2.2 g/dl,
+ldh:183 iu/l, ca++:8.4 mg/dl, mg++:2.1 mg/dl, po4:2.4 mg/dl
+.
+iron 40, tibc 146, ferritin 699, transferrin 112
+[**7-15**] blood cx pending
+urine cx: yeast
+[**7-14**] sputum gram stain: no microorg seen; cx pending","# septic shock:; #. lethargy:; . anemia:; diabetes mellitus, type ii",septic shock ; lethargy ; anemia ; diabetes mellitus type ii,"['septic shock', 'lethargy', 'anemia', 'diabetes mellitus type ii']","68F ventilator-dependent secondary to [**Last Name (un) 9456**]-[**Location (un) **] vs CIPD,
+   insulin-dependent diabetes mellitus, recurrent urinary tract infections
+   with chronic indwelling Foley catheter, recent C difficile infection on
+   vancomycin PO admitted from [**Hospital 328**] Rehab for fever x1 week, diarrhea,
+   and lethargy x1 days",True,"The patient has a yeast-positive urine culture, which indicates a urinary tract infection. Given the patient's systemic response (fever, elevated WBC, use of broad-spectrum antibiotics), urosepsis, which is sepsis caused by a urinary tract infection, is a likely diagnosis."
+20,110692.txt,"- ct head: no acute icp, e/o moderate chronic microvascular disease
+- cta:
+1. no pe or acute aortic pathology.
+2. large r pleural effusion. small l pleural effusion.
+3. dense material in the consolidated/collapsed rll, ? aspiration vs
+pna.
+- had episode of respiratory distress, pulling off mask, desats to 70s,
+improved with nebs
+- sugars stable, stopped q1h checks
+- agitated overnight and pulled out foley
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2189-1-24**] 08:18 pm
+cefipime - [**2189-1-25**] 05:00 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2189-1-25**] 12:22 am
+morphine sulfate - [**2189-1-25**] 01:06 am
+other medications:
+flowsheet data as of  [**2189-1-25**] 07:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**90**] am
+tmax: 36.4
+c (97.5
+tcurrent: 36.3
+c (97.3
+hr: 95 (87 - 110) bpm
+bp: 128/94(101) {85/28(40) - 169/6,237(112)} mmhg
+rr: 25 (13 - 35) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 78.8 kg (admission): 79 kg
+height: 60 inch
+total in:
+367 ml
+120 ml
+po:
+tf:
+ivf:
+367 ml
+120 ml
+blood products:
+total out:
+1,740 ml
+160 ml
+urine:
+1,740 ml
+160 ml
+ng:
+stool:
+drains:
+balance:
+-1,373 ml
+-40 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ///39/
+shallow breaths, clear; rr no murmurs; no edema
+225 k/ul
+10.0 g/dl
+246 mg/dl
+1.4 mg/dl
+39 meq/l
+4.3 meq/l
+27 mg/dl
+102 meq/l
+146 meq/l
+33.5 %
+9.9 k/ul
+wbc
+9.2
+9.9
+hct
+33.0
+33.5
+plt
+220
+225
+cr
+1.1
+1.2
+1.0
+1.4
+tropt
+0.09
+glucose
+65
+130
+146
+246
+other labs: ck / ckmb / troponin-t:45/3/0.09, differential-neuts:84.9
+%, lymph:7.4 %, mono:5.6 %, eos:2.1 %, ca++:9.7 mg/dl, mg++:2.1 mg/dl,
+po4:3.6 mg/dl
+imaging: ct head:
+no acute intracranial process. moderate chronic microvascular ischemic
+disease.
+cta chest:
+1. no pe or acute aortic pathology.
+2. large r pleural effusion. small l pleural effusion.
+3. dense material in the consolidated/collapsed rll, ? aspiration vs
+pna.
+cxr:
+there is continued evidence of
+pulmonary vascular congestion and a small right effusion. there is
+increased
+streaky density at the right base consistent with subsegmental
+atelectasis.
+the heart appears enlarged as before. the aorta is tortuous and
+calcified.
+compared with the previous study there is little interval change.
+us abdomen:
+direct son[**name (ni) 330**] examinations were performed on the four abdominal
+quadrants. there is a small pocket of ascites in the right lower
+quadrant,
+measuring approximately 3.8 x 2.6 cm (ap x trv). a trace amount of
+fluid is
+noted in the deep pelvis. limited views of the kidneys demonstrate no
+evidence of hydronephrosis.
+echo:
+moderately dilated and mildly hypokinetic right ventricle. moderate to
+severe tricuspid regurgitation. severe pulmonary hypertension.
+preserved left ventricular global systolic function. elevated estimated
+filling pressures.
+microbiology:    urine culture (final [**2189-1-24**]):
+gram positive bacteria.    10,000-100,000 organisms/ml..
+alpha hemolytic colonies consistent with alpha streptococcus
+or
+lactobacillus sp.",hypercarbic/hypoxic respiratory failure; hypoglycemia/type ii dm; right breast mass and skin changes; delirium on dementia/depression/anxiety; hypertension:; arf,hypercarbic hypoxic respiratory failure; hypoglycemia type ii diabetes mellitus; right breast mass and skin changes; delirium on dementia depression anxiety; hypertension ; acute renal failure,"['hypercarbic hypoxic respiratory failure', 'hypoglycemia type ii diabetes mellitus', 'right breast mass and skin changes', 'delirium on dementia depression anxiety', 'hypertension', 'acute renal failure']","CANCER (MALIGNANT NEOPLASM), BREAST
+ HYPOXEMIA
+ DEPRESSION
+ DELIRIUM / CONFUSION
+ HYPERTENSION, BENIGN
+ HYPOGLYCEMIA
+   78 yo F with h/o COPD, lung ca s/p lobectomy, breast CA s/p lumpectomy
+   who presents with altered mental status and new hypercarbic/hypoxic
+   respiratory failure.",True,"The urine culture is positive for gram-positive bacteria, which suggests a urinary tract infection. The presence of urosepsis is possible, given the positive urine culture and elevated WBC count."
+130,186332.txt,"afib w/ rvr, s/p fall
+transthoracic echo - at [**2181-10-26**] 09:00 am
+ultrasound - at [**2181-10-26**] 10:18 am
+ekg - at [**2181-10-26**] 11:18 am
+ekg - at [**2181-10-27**] 04:42 am
+called out
+- cspine cleared, no further trauma recs
+- f/u urine culture and blood cultures: urine w/ gnr's, on cipro.
+- echo results from today: small hyperdynamic lv, moderate tr, moderate
+pulmonary htn.
+- abdominal u/s: no ascites
+- abdominal film: lots of stool, some mild distention on my read.
+- ortho recs: surgery if patient family agrees
+- has 4 units of blood cross-matched if needs it.
+- call out to floor
+- spoke at length with daughter. stated mom has been declining for long
+""   time now, last time she saw her in [**month (only) **] mom had been """"wanting to die""""""
+and life was a burden. absolutely did not want aggressive measures.
+palliative care consulted. also stated that r shoulder pain was not
+new.
+- [**first name8 (namepattern2) 376**] [**last name (namepattern1) 377**] saw patient. recommended standing tylenol and morphine if
+needed. sw will call daughter this weekend.
+- new afib this morning to 150-160s, did not convert with 5mg lopressor
+x2 or diltiazem 10mg. started diltiazem gtt at 15mg/hr with rate to
+130s. started digoxin loading.
+cephalosporins
+unknown;
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+unknown;
+iodine
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2181-10-26**] 01:00 pm
+metronidazole - [**2181-10-26**] 08:01 pm
+infusions:
+diltiazem - 15 mg/hour
+other icu medications:
+pantoprazole (protonix) - [**2181-10-26**] 08:01 pm
+enoxaparin (lovenox) - [**2181-10-26**] 08:02 pm
+metoprolol - [**2181-10-27**] 04:30 am
+diltiazem - [**2181-10-27**] 04:51 am
+other medications:
+flowsheet data as of  [**2181-10-27**] 06:41 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37
+c (98.6
+tcurrent: 36.7
+c (98
+hr: 131 (89 - 156) bpm
+bp: 77/52(58) {77/21(37) - 146/105(113)} mmhg
+rr: 29 (21 - 36) insp/min
+spo2: 99%
+heart rhythm: af (atrial fibrillation)
+total in:
+2,679 ml
+1,530 ml
+po:
+tf:
+ivf:
+2,679 ml
+1,530 ml
+blood products:
+total out:
+825 ml
+250 ml
+urine:
+825 ml
+250 ml
+ng:
+stool:
+drains:
+balance:
+1,854 ml
+1,280 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: 7.46/28/128//-1
+cachectic elderly woman with poor coloring lying in bed large
+unresponsive.  perrl, sclerae anicteric.  tachycardic with now regular
+rhythm.  lungs clear on anterior exam.  abdomen soft, apparently
+non-tender.
+/
+297 k/ul
+8.6 g/dl
+176 mg/dl
+0.7 mg/dl
+19 meq/l
+3.8 meq/l
+23 mg/dl
+105 meq/l
+135 meq/l
+24.8 %
+33.9 k/ul
+[image002.jpg]
+[**2181-10-25**]  05:00 pm
+[**2181-10-25**]  11:35 pm
+[**2181-10-26**]  04:03 am
+[**2181-10-26**]  08:12 am
+wbc
+33.9
+hct
+26.4
+25.5
+24.8
+plt
+297
+cr
+0.7
+tropt
+0.09
+0.06
+0.08
+tco2
+21
+glucose
+176
+other labs: pt / ptt / inr:14.6/36.1/1.3, ck / ckmb /
+troponin-t:74//0.08, amylase / lipase:37/, differential-neuts:93.0 %,
+lymph:3.0 %, mono:3.8 %, eos:0.0 %, lactic acid:2.1 mmol/l, ca++:7.4
+mg/dl, mg++:1.5 mg/dl, po4:2.5 mg/dl
+imaging: [**10-26**] cxr: no change w/ hiatal hernia
+microbiology: [**10-25**] urine: gnr 10-100,000
+blood cx pending
+mrsa pending",atrial fibrillation; hip fracture; abdominal pain; nstemi.; fall.  osteoporotic; uti; leukocytosis,atrial fibrillation; hip fracture; abdominal pain; non st segment elevation myocardial infarction ; fall osteoporotic; urinary tract infection; leukocytosis,"['atrial fibrillation', 'hip fracture', 'abdominal pain', 'non st segment elevation myocardial infarction', 'fall osteoporotic', 'urinary tract infection', 'leukocytosis']","ATRIAL FIBRILLATION (AFIB)
+ .H/O HIP FRACTURE (FEMORAL NECK FRACTURE, FEMUR)
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ MYOCARDIAL INFARCTION, ACUTE (AMI, STEMI, NSTEMI)
+   [**Age over 90 **]F with CAD, history of CVA, prior hip fracture; presenting s/p fall
+   with new hip fracture, UTI, elevated troponin which is now trending
+   down, also seen to have R arm/shoulder pain, and abdominal pain of
+   unknown etiology.",True,"The patient has a urine culture positive for GNR bacteria, which, combined with the systemic signs of infection (fever, high white blood cell count, and low blood pressure), supports the diagnosis of urosepsis as the source of sepsis."
+179,102373.txt,""" """"low back pain""""""
+arterial line - start [**2153-10-10**] 02:10 pm
+- arterial line placed
+- legionella urinary antigen positive.
+- urine culture prelim - >100k enterococcus.
+- levophed weaned off at 1pm yesterday
+- talked with [**last name (lf) 782**], [**name (ni) 1760**]
+- 10:30pm -> map ~60, 250cc bolus given with some responsiveness to bp.
+history obtained from patient
+history obtained from patientlipitor (oral) (atorvastatin calcium)
+elevation of li
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+cardiovascular: no(t) chest pain
+respiratory: no(t) cough, no(t) dyspnea
+gastrointestinal: no(t) abdominal pain
+musculoskeletal: low back pain","last dose of antibiotics:
+vancomycin - [**2153-10-10**] 11:30 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2153-10-11**] 12:00 am
+other medications:
+flowsheet data as of  [**2153-10-11**] 07:24 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.7
+c (99.9
+tcurrent: 36.7
+c (98
+hr: 76 (70 - 76) bpm
+bp: 105/62(76) {94/42(57) - 118/64(302)} mmhg
+rr: 16 (0 - 31) insp/min
+spo2: 98%
+heart rhythm: v paced
+total in:
+3,131 ml
+103 ml
+po:
+1,900 ml
+30 ml
+tf:
+ivf:
+1,231 ml
+73 ml
+blood products:
+total out:
+840 ml
+325 ml
+urine:
+840 ml
+325 ml
+ng:
+stool:
+drains:
+balance:
+los balance:
+2,291 ml
+2996 ml
+-222 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///21/
+general appearance: well nourished, no acute distress
+head, ears, nose, throat: normocephalic
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (expansion: symmetric), (breath sounds: clear : ,
+no(t) bronchial: , no(t) wheezes : , no(t) rhonchorous: )
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: 2+, left: 2+, left shin superficial ulcer - bandage
+clear/dry/intact
+skin:  warm
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, movement: purposeful, tone: not assessed
+195 k/ul
+10.4 g/dl
+119 mg/dl
+1.2 mg/dl
+21 meq/l
+4.0 meq/l
+26 mg/dl
+104 meq/l
+132 meq/l
+30.9 %
+12.0 k/ul
+[image002.jpg]
+[**2153-10-9**]  08:44 pm
+[**2153-10-10**]  04:20 am
+[**2153-10-11**]  02:00 am
+wbc
+12.8
+14.1
+12.0
+hct
+33.7
+32.3
+30.9
+plt
+179
+180
+195
+cr
+1.2
+1.3
+1.2
+glucose
+241
+149
+119
+other labs: pt / ptt / inr:13.2/25.3/1.1, ca++:8.3 mg/dl, mg++:1.9
+mg/dl, po4:2.7 mg/dl
+microbiology: [**2153-10-9**] 2:30 pm urine     site: catheter
+urine culture (preliminary):
+enterococcus sp..    >100,000 organisms/ml..
+[**2153-10-10**] 11:06 am urine      source: catheter.    **final report
+[**2153-10-10**]**
+legionella urinary antigen  (final [**2153-10-10**]):
+reported by phone to [**first name8 (namepattern2) **] [**last name (namepattern1) 1811**] at 14:25pm on [**2153-10-10**] - 4i.
+presumptive positive for legionella serogroup 1 antigen.
+(reference range-negative).
+performed by immunochromogenic assay.
+clinical correlation and additional testing suggested including
+culture and detection of serum antibody.
+blood culture x2 pending.",sepsis/pneumonia; chronic systolic chf; bacturia; dm2,sepsis pneumonia; chronic systolic congestive heart failure; bacturia; diabetes mellitus type,"['sepsis pneumonia', 'chronic systolic congestive heart failure', 'bacturia', 'diabetes mellitus type']","84 year old female with PMH of DM2, CHF, s/p PPM in [**2148**], chronic LE
+   edema who presented to the ED after a visiting nurse found her to be
+   febrile.
+   .",True,"The patient has a positive legionella urinary antigen test and a urine culture showing >100,000 organisms/ml of enterococcus, which suggests a urinary tract infection. The patient is also being treated with vancomycin, which is a common antibiotic used to treat urosepsis. Additionally, the patient has a elevated WBC and a fever, which are common signs of urosepsis. Given the evidence of a urinary tract infection and signs of sepsis, the diagnosis of urosepsis is likely."
+220,109134.txt,"- endo: start 25 mcg levothyroxine for sublicnical to mild
+hypothyroidism, check tpo
+- heme-onc: no new recs
+- id: get bal to definitively diagnose influenza.  continue renally
+dosing medications.  continue double coverage for gnr.
+- culture from nephrostomy positive for gnr
+- called pharmacy to confirm dosage of oseltamavir
+- continue aggressive hydration to prevent acyclovir toxicity
+- unable to reach husband for physical consent of hiv
+- ir flushed clotted nephrostomy tube
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ceftriaxone - [**2115-9-20**] 07:30 am
+azithromycin - [**2115-9-20**] 12:00 pm
+ciprofloxacin - [**2115-9-20**] 02:00 pm
+cefipime - [**2115-9-20**] 08:00 pm
+levofloxacin - [**2115-9-20**] 11:19 pm
+metronidazole - [**2115-9-21**] 12:38 am
+vancomycin - [**2115-9-21**] 08:00 am
+acyclovir - [**2115-9-21**] 12:15 pm
+meropenem - [**2115-9-21**] 08:41 pm
+infusions:
+midazolam (versed) - 4 mg/hour
+fentanyl - 175 mcg/hour
+norepinephrine - 0.1 mcg/kg/min
+other icu medications:
+other medications:
+flowsheet data as of  [**2115-9-22**] 07:42 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.7
+c (98
+tcurrent: 36.7
+c (98
+hr: 61 (58 - 66) bpm
+bp: 95/52(66) {77/50(55) - 126/73(90)} mmhg
+rr: 28 (0 - 35) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 115 kg (admission): 105 kg
+cvp: 14 (7 - 344)mmhg
+mixed venous o2% sat: 74 - 74
+total in:
+7,084 ml
+641 ml
+po:
+tf:
+30 ml
+136 ml
+ivf:
+6,804 ml
+435 ml
+blood products:
+total out:
+1,147 ml
+350 ml
+urine:
+847 ml
+350 ml
+ng:
+300 ml
+stool:
+drains:
+balance:
+5,937 ml
+291 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 450 (450 - 450) ml
+rr (set): 28
+rr (spontaneous): 0
+peep: 12 cmh2o
+fio2: 60%
+rsbi deferred: peep > 10, fio2 > 60%
+pip: 41 cmh2o
+plateau: 26 cmh2o
+compliance: 29.8 cmh2o/ml
+spo2: 97%
+abg: 7.34/29/99.[**numeric identifier 126**]/17/-8
+ve: 12.2 l/min
+pao2 / fio2: 165
+nad:  intubated, sedated
+distant heart sounds
+mechanical ventilation
+obses, nd, abs
+1+ edema
+unresponsive to sternal rub
+29 k/ul
+10.2 g/dl
+111 mg/dl
+3.1 mg/dl
+17 meq/l
+3.7 meq/l
+65 mg/dl
+109 meq/l
+138 meq/l
+31.1 %
+26.0 k/ul
+wbc
+25.0
+22.7
+26.0
+hct
+30.3
+29.0
+31.1
+plt
+40
+25
+29
+cr
+2.5
+2.7
+3.1
+tco2
+19
+17
+17
+17
+17
+15
+16
+glucose
+237
+119
+110
+111
+other labs: pt / ptt / inr:12.8/24.8/1.1, ck / ckmb /
+troponin-t:83/3/0.04, alt / ast:42/32, alk phos / t bili:189/0.7,
+differential-neuts:90.4 %, band:0.0 %, lymph:8.1 %, mono:1.0 %, eos:0.1
+%, fibrinogen:730 mg/dl, lactic acid:1.2 mmol/l, albumin:2.5 g/dl,
+ldh:292 iu/l, ca++:7.7 mg/dl, mg++:2.1 mg/dl, po4:4.1 mg/dl
+imaging: cxr - unchanged from prior,  consistent wtih multilobar pna
+microbiology: nephrostomy tube - gnr","shock:  likely septic; respiratory failure:  cause of respiratory failure is likely
+   multifactorial including evidence for multifocal pna on ct,; pericardial effusion; altered mental status; thrombocytopenia; acute renal failure; hypothyroidism; substance abuse",shock likely septic; respiratory failure cause of respiratory failure is likely multifactorial including evidence for multifocal pneumonia on computed tomography ; pericardial effusion; altered mental status; thrombocytopenia; acute renal failure; hypothyroidism; substance abuse,"['shock likely septic', 'respiratory failure cause of respiratory failure is likely multifactorial including evidence for multifocal pneumonia on computed tomography', 'pericardial effusion', 'altered mental status', 'thrombocytopenia', 'acute renal failure', 'hypothyroidism', 'substance abuse']","SEPSIS, SEVERE (WITH ORGAN DYSFUNCTION)
+ HYPERGLYCEMIA
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 11**])
+ RENAL FAILURE, ACUTE (ACUTE RENAL FAILURE, ARF)
+ THROMBOCYTOPENIA, ACUTE
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+   59F with a h/o tramadol abuse and subacute altered mental status with
+   thrombocytopenia, now with respiratory failure.",True,"Given the positive culture from the nephrostomy tube for GNR, this suggests a urinary source of infection. The patient's clinical presentation and the use of broad-spectrum antibiotics support the diagnosis of urosepsis as a subset of sepsis."
+262,195318.txt,"sepsis
+- the final ct abd/pelvis showd a multiseptated cystic lesion in the
+tail of the pancreas, given appearance without associated duct dilation
+would favor serous cystic pancreatic tumor or ipmn.  recommend
+comparison with priors if available or endoscopic ultrasound.  tumor
+markers were ordered for the am.
+- ct also showed mild left uretral enhancement with surrounding
+inflammatory change, which could represent ureteritis. recommend
+followup ureteroscopy after appropriate treatement
+- the patient continued to require levophed, it was weaned down,
+however her sbps were in the 80's.  she briefly responded to a 500 cc
+bolus of fluid, however she looked volume overloaded, so her levophed
+was increased instead of more fluids for pressure support.
+- repeat lactates were down from 3.6 --> 2.0 --> 1.0.
+- vbg checked and was 7.30/48/41/25 in the am; repeat in the evening
+was 7.33/43/41/24
+history obtained from patient, family / friend
+history obtained from patient, family / friendno known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2150-11-21**] 04:00 am
+infusions:
+norepinephrine - 0.02 mcg/kg/min
+other icu medications:
+heparin sodium (prophylaxis) - [**2150-11-20**] 10:16 pm
+other medications:
+flowsheet data as of  [**2150-11-21**] 07:50 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.3
+c (100.9
+tcurrent: 36.7
+c (98
+hr: 73 (67 - 104) bpm
+bp: 121/64(78) {71/36(50) - 139/69(85)} mmhg
+rr: 24 (18 - 25) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+cvp: 12 (6 - 16)mmhg
+total in:
+1,953 ml
+161 ml
+po:
+150 ml
+tf:
+ivf:
+1,803 ml
+161 ml
+blood products:
+total out:
+1,350 ml
+770 ml
+urine:
+1,350 ml
+770 ml
+ng:
+stool:
+drains:
+balance:
+603 ml
+-609 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///25/
+general appearance: well nourished, no acute distress, overweight /
+obese
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), (murmur: systolic), murmur
+at rusb
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: present), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), (breath sounds: no(t)
+bronchial: , rhonchorous: )
+abdominal: soft, non-tender, bowel sounds present, obese, non-tender
+extremities: right: 1+, left: 1+
+skin:  warm
+neurologic: attentive, responds to: not assessed, oriented (to):
+person, place, time and purpose, movement: purposeful, tone: normal
+132 k/ul
+10.3 g/dl
+148 mg/dl
+1.1 mg/dl
+25 meq/l
+3.8 meq/l
+20 mg/dl
+111 meq/l
+143 meq/l
+31.1 %
+10.5 k/ul
+[image002.jpg]
+[**2150-11-20**]  06:15 am
+[**2150-11-20**]  07:26 pm
+[**2150-11-21**]  04:00 am
+wbc
+6.6
+10.5
+hct
+31.0
+31.1
+plt
+138
+132
+cr
+1.4
+1.2
+1.1
+glucose
+271
+154
+148
+other labs: pt / ptt / inr:13.9/33.4/1.2, alt / ast:43/35, alk phos / t
+bili:63/0.7, amylase / lipase:/40, differential-neuts:79.9 %, band:0.0
+%, lymph:16.8 %, mono:2.6 %, eos:0.4 %, lactic acid:1.0 mmol/l,
+albumin:2.9 g/dl, ldh:194 iu/l, ca++:7.3 mg/dl, mg++:2.0 mg/dl, po4:2.8
+mg/dl",sepsis: likely urinary source given ct findings and positive ua; hypotension: in the setting of infection/sepsis.; # acute renal failure:; # pancreatic mass; transaminitis; type ii dm:,sepsis likely urinary source given computed tomography findings and positive urinalysis; hypotension in the setting of infection sepsis ; acute renal failure ; pancreatic mass; transaminitis; type ii diabetes mellitus,"['sepsis likely urinary source given computed tomography findings and positive urinalysis', 'hypotension in the setting of infection sepsis', 'acute renal failure', 'pancreatic mass', 'transaminitis', 'type ii diabetes mellitus']","URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+   Assessment and Plan: This is an 86 year old female with PMH of
+   uncontrolled DM who presented with one day of LLQ discomfort, n/v/AMS,
+   now with hypotension and likely urosepsis. CT showed multiseptated
+   cystic lesion in the tail of the pancreas - which is suggestive of
+   serous cystic pancreatic tumor or IPMN.  Mild left ureteral enhancement
+   was also seen with surrounding inflammatory change that may represent
+   ureteritis. Patient continuing to require some pressor support but is
+   otherwise stable.",True,"The mention of 'mild left ureteral enhancement with surrounding inflammatory change' on the CT scan, which could represent ureteritis, along with the patient's septic presentation, suggests that the urinary tract could be the source of infection. This, combined with the overall clinical picture of sepsis, makes urosepsis a possible diagnosis. However, without a definitive urinary tract infection diagnosis (e.g., positive urine culture), it's somewhat speculative, but given the context, it's plausible."
+289,112314.txt,"rp bleed
+[**2111-8-26**]
+- bumped appropriately to total of 4 u prbcs and 1 u ffp (in total has
+gotten 6 u prbcs since first seen in ed)
+- k normalized with 2 doses of kayexcelate
+- hemodynamically stable
+- picc line deferred because of leukocytosis
+- repeat ua wiht >50 wbcs, post leuk and nit; had been on suppressive
+macrodantin which was stopped earlier this month
+- macrodantin avoided because of renal clearance, started levofloxacin
+for uti, will await culture data
+- o2 sat remained stable on 2l nc
+- scheduled oxycodone per dr. [**known lastname 1136**] and patient's preference
+history obtained from patient
+history obtained from patientepinephrine
+induction of af
+adhesive tape (topical)
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+oxycodone
+levaquin d 2
+zofran prn
+neurontin 400 qhs
+levothyroxine
+amiodarone 200 mg daily
+omeprazole
+simvastatin 10 mg daily
+dexamthasone 4 mg [**hospital1 **]
+colace
+flowsheet data as of  [**2111-8-27**] 07:30 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.7
+tcurrent: 36.8
+c (98.3
+hr: 70 (70 - 73) bpm
+bp: 116/46(63) {98/19(53) - 157/83(97)} mmhg
+rr: 16 (11 - 22) insp/min
+spo2: 93%
+heart rhythm: v paced
+total in:
+3,031 ml
+315 ml
+po:
+480 ml
+240 ml
+tf:
+ivf:
+585 ml
+75 ml
+blood products:
+1,966 ml
+total out:
+725 ml
+225 ml
+urine:
+725 ml
+225 ml
+ng:
+stool:
+drains:
+balance:
+2,306 ml
+90 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 93%
+abg: ///25/
+gen: nad
+heent: eomi, o/p clear
+cv: rrr, no m/r/g
+pulm: cta b/l
+abd: soft, nt, nd, bowel sounds present
+ext: +trace edema b/l
+157 k/ul
+9.8 g/dl
+139 mg/dl
+1.5 mg/dl
+25 meq/l
+4.5 meq/l
+48 mg/dl
+102 meq/l
+137 meq/l
+27.5 %
+22.7 k/ul
+wbc
+19.6
+23.0
+22.7
+hct
+24.8
+23.6
+19.4
+18.6
+31.3
+31.5
+24.7
+28.0
+27.5
+plt
+259
+168
+157
+cr
+1.3
+1.7
+1.7
+1.6
+0.5
+1.5
+tropt
+0.05
+0.05
+glucose
+162
+139
+other labs: pt / ptt / inr:12.4/25.0/1.0, ck / ckmb /
+troponin-t:244/5/0.05, alt / ast:48/39, alk phos / t bili:69/1.0,
+differential-neuts:93.6 %, lymph:3.4 %, mono:2.8 %, eos:0.1 %,
+fibrinogen:254 mg/dl, lactic acid:2.0 mmol/l, albumin:2.9 g/dl, ldh:385
+iu/l, ca++:7.1 mg/dl, mg++:2.2 mg/dl, po4:5.2 mg/dl","rp bleed; leukocytosis.  etiologies include infection, vs, stress response, vs
+   malignancy.; arf; h/o dvt; adeno ca of unknown primary; hypothyroid.",retroperitoneal bleed; leukocytosis etiologies include infection versus stress response versus malignancy ; acute renal failure; history of deep vein thrombosis; adenocarcinoma of unknown primary; hypothyroid,"['retroperitoneal bleed', 'leukocytosis etiologies include infection versus stress response versus malignancy', 'acute renal failure', 'history of deep vein thrombosis', 'adenocarcinoma of unknown primary', 'hypothyroid']","Mr. [**Known lastname 1136**] is  an 84 y.o male with PMH of HTN, HL, s/p CABG, h.o
+   prostate ca, MDS with recent dx adenoca of unknown primary and recent
+   DVT who presents with hypotension and RP bleed.
+   .",True,"The patient has a urinary tract infection (UTI) as indicated by the presence of >50 WBCs in the urine and has been started on levofloxacin. The patient's leukocytosis and the presence of a UTI could suggest urosepsis, especially if the infection is causing a systemic response."
+327,190934.txt,"urosepsis
+presep catheter - start [**2154-11-28**] 07:30 pm
+placed in the e.d.
+- weaned off levophed
+history obtained from patient
+history obtained from patientno known drug allergies
+changes to  and f
+none
+review of systems is unchanged from admission except as noted below
+review of systems:
+denies abdominal pain","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2154-11-29**] 06:00 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2154-11-29**] 12:27 am
+other medications:
+flowsheet data as of  [**2154-11-29**] 07:39 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.3
+tcurrent: 36.2
+c (97.2
+hr: 89 (89 - 93) bpm
+bp: 85/39(50) {85/39(50) - 104/65(71)} mmhg
+rr: 15 (13 - 37) insp/min
+spo2: 96%
+heart rhythm: sr (sinus rhythm)
+cvp: 18 (5 - 18)mmhg
+total in:
+4,771 ml
+1,557 ml
+po:
+tf:
+ivf:
+1,471 ml
+1,557 ml
+blood products:
+total out:
+1,455 ml
+356 ml
+urine:
+205 ml
+356 ml
+ng:
+stool:
+drains:
+balance:
+3,316 ml
+1,201 ml
+respiratory support
+spo2: 96%
+abg: ///27/
+general appearance: well nourished, no acute distress, thin
+cardiovascular: (s1: normal), (s2: normal), (murmur: systolic,
+diastolic)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: present), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), (breath sounds: crackles :
+bibasilar)
+abdominal: soft, no(t) non-tender, bowel sounds present, no(t)
+distended, tender: lower abdomen
+extremities: right lower extremity edema: absent, left lower extremity
+edema: absent
+skin:  not assessed
+neurologic: attentive, responds to: not assessed, movement: not
+assessed, tone: not assessed
+315 k/ul
+9.6 g/dl
+85 mg/dl
+1.0 mg/dl
+27 meq/l
+3.5 meq/l
+30 mg/dl
+109 meq/l
+144 meq/l
+29.2 %
+19.5 k/ul
+image002.jpg]
+[**2154-11-29**]  02:47 am
+wbc
+19.5
+hct
+29.2
+plt
+315
+cr
+1.0
+tropt
+0.07
+glucose
+85
+other labs: ck / ckmb / troponin-t:61//0.07, differential-neuts:93.8 %,
+lymph:2.9 %, mono:2.9 %, eos:0.1 %, lactic acid:1.6 mmol/l, ca++:7.7
+mg/dl, mg++:1.7 mg/dl, po4:4.3 mg/dl
+microbiology: [**5-4**] bcxs with gnrs",septic shock:  the most likely source is uti; uti:; arf:; # diarrhea:,septic shock the most likely source is urinary tract infection; urinary tract infection ; acute renal failure ; diarrhea,"['septic shock the most likely source is urinary tract infection', 'urinary tract infection', 'acute renal failure', 'diarrhea']","URINARY TRACT INFECTION (UTI)
+ SEPSIS WITHOUT ORGAN DYSFUNCTION
+ IMPAIRED SKIN INTEGRITY
+   83 yo M with h/o urinary retention and chronic indwelling foley who
+   presents with diarrhea, fever, and lower abdominal pain, found to have
+   malpositioned Foley and septic shock.",True,"The patient has a diagnosis of urosepsis mentioned in the subjective section, and the patient is receiving antibiotics (piperacillin/tazobactam). The patient's white blood cell count is high (19.5 k/ul), and the patient has a temperature of 37.4°C, which suggests an infectious process. The patient's urine output is 205 ml, which is low, but not significantly low to confirm urosepsis. However, the presence of GNRS in the urine culture suggests a urinary tract infection, which supports the diagnosis of urosepsis. Therefore, the diagnosis of urosepsis is likely."
+396,150956.txt,"chief complaint: respiratory failure, shock 24 hour events: -extubated -started fluconazole for funguria ( ucx >100k yeast) -started albumin iv bid x4 doses -levophed off at 2100 allergies: no known drug allergies","last dose of antibiotics: penicillin g potassium -  01:15 pm piperacillin/tazobactam (zosyn) -  08:13 pm vancomycin -  09:51 am piperacillin -  08:24 pm infusions: heparin sodium - 1,000 units/hour changes to medical and family history: n/a review of systems is unchanged from admission except as noted below review of systems: denies chest pain, cough, shortness of breath, abd pain, nausea flowsheet data as of   06:59 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.4 c (97.5 tcurrent: 35.9 c (96.7 hr: 68 (60 - 87) bpm bp: 118/45(69) {72/24(37) - 159/71(100)} mmhg rr: 13 (11 - 25) insp/min spo2: 99% heart rhythm: 1st av (first degree av block) height: 72 inch cvp: 16 (3 - 29)mmhg total in: 2,370 ml 135 ml po: tf: ivf: 2,150 ml 135 ml blood products: 100 ml total out: 2,135 ml 360 ml urine: 1,435 ml 360 ml ng: stool: drains: balance: 235 ml -225 ml respiratory support o2 delivery device: nasal cannula 99% 3l physical examination general appearance: well nourished, no acute distress, overweight / obese head, ears, nose, throat: normocephalic cardiovascular: (s1: normal), (s2: normal), no(t) s3, no(t) s4 peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) respiratory / chest: diminished at bases abdominal: soft, ntnd bowel sounds present, obese extremities: right lower extremity edema: 2+, left lower extremity edema: 2+, no(t) cyanosis skin:  warm, no(t) rash: , no(t) jaundice neurologic: awake, alert, conversing appropriately, oriented to person only labs / radiology 47 k/ul 7.9 g/dl 87 mg/dl 1.9 mg/dl 23 meq/l 3.2 meq/l 83 mg/dl 115 meq/l 147 meq/l 22.8 % 2.6 k/ul [image002.jpg]   04:36 am   06:58 am   09:33 am   11:31 am   01:45 pm   05:49 pm   04:58 am   11:50 am   03:47 pm   04:53 am wbc 3.3 6.7 2.6 hct 24.3 27.7 22.8 plt 66 71 47 cr 2.2 2.2 1.9 tco2 19 17 21 20 22 21 glucose 228 149 87 other labs: pt / ptt / inr:19.3/82.3/1.8, ck / ckmb / troponin-t:76//0.38, alk phos / t bili:/1.1, differential-neuts:79.2 %, lymph:9.0 %, mono:8.1 %, eos:3.3 %, d-dimer:1397 ng/ml, fibrinogen:565 mg/dl, lactic acid:1.3 mmol/l, albumin:1.8 g/dl, ldh:252 iu/l, ca++:8.3 mg/dl, mg++:2.1 mg/dl, po4:4.5 mg/dl imaging:  portable cxr the et tube tip is 6.4 cm above the carina. the ng tube tip passes below the inferior margin of the study. the right internal jugular line tip is at the level of mid svc. only the upper and mid portion of the lungs have been included in the field of view with the lung bases not imaged. the upper lungs are essentially clear although mild pulmonary edema cannot be excluded. repeated radiograph including the lung bases is highly recommended. microbiology:  3:58 pm urine      source: catheter. **final report ** urine culture (final ): yeast.    >100,000 organisms/ml..  sputum cx gram stain (final ): >25 pmns and <10 epithelial cells/100x field. no microorganisms seen.  bcx ngtd","multifactorial shock
+ now off pressors; attributed to sepsis (with
+   likely sources being nonhealing skin wounds and pneumonia; acute on chronic renal failure; thrombocytopenia; anemia; pvd with bilateral le cellulitis/ulcers; dm; afib; dvt; ",multifactorial shock now off pressors; attributed to sepsis with likely sources being nonhealing skin wounds and pneumonia; acute on chronic renal failure; thrombocytopenia; anemia; peripheral vascular disease with bilateral lower extremity cellulitis ulcers; diabetes mellitus; atrial fibrillation; deep vein thrombosis;,"['multifactorial shock now off pressors', 'attributed to sepsis with likely sources being nonhealing skin wounds and pneumonia', 'acute on chronic renal failure', 'thrombocytopenia', 'anemia', 'peripheral vascular disease with bilateral lower extremity cellulitis ulcers', 'diabetes mellitus', 'atrial fibrillation', 'deep vein thrombosis']","66M with DM, DVT on coumadin, PVD with chronic nonhealing LE ulcers and
+   recurrent cellulitis admitted to OSH with beta streptococcal bacteremia
+   and septic shock complicated by ATN requiring HD & AFib s/p
+   cardioversion admitted to the MICU for recurrent shock.",True,"Given the patient has a urine culture positive for yeast (>100,000 organisms/ml) and has been started on fluconazole, this suggests a urinary source of infection. The patient's clinical presentation and the fact that sepsis is likely support the diagnosis of urosepsis."

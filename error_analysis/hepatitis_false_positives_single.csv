@@ -1,0 +1,2997 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_hepatitis_pred_single,is_hepatitis_reasoning_single
+4,148969.txt,"sulfonamides
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2163-9-4**] 09:16 pm
+metronidazole - [**2163-9-5**] 12:30 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2163-9-4**] 08:19 pm
+heparin sodium (prophylaxis) - [**2163-9-5**] 12:30 am
+other medications:
+flowsheet data as of  [**2163-9-5**] 06:56 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.3
+c (101
+tcurrent: 36.2
+c (97.1
+hr: 62 (59 - 76) bpm
+bp: 127/57(74) {95/47(59) - 127/65(75)} mmhg
+rr: 17 (11 - 23) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,715 ml
+2,093 ml
+po:
+tf:
+ivf:
+1,715 ml
+2,093 ml
+blood products:
+total out:
+274 ml
+310 ml
+urine:
+274 ml
+310 ml
+ng:
+stool:
+drains:
+balance:
+1,441 ml
+1,783 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///22/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+144 k/ul
+10.7 g/dl
+91 mg/dl
+0.8 mg/dl
+22 meq/l
+3.4 meq/l
+11 mg/dl
+111 meq/l
+139 meq/l
+30.8 %
+8.2 k/ul
+wbc
+8.2
+hct
+30.8
+plt
+144
+cr
+0.8
+glucose
+91
+other labs: alt / ast:186/103, alk phos / t bili:343/5.0, amylase /
+lipase:36/17, albumin:2.8 g/dl, ldh:126 iu/l, ca++:7.1 mg/dl, mg++:1.7
+mg/dl, po4:2.7 mg/dl",cholangitis,cholangitis,['cholangitis'],"This is a 88 year-old female with a history of
+   hypertension, hyperlipidemia who presents with likely cholangitis.
+   .",True,"The patient's laboratory results show elevated liver enzymes (ALT: 186, AST: 103) and total bilirubin (5.0), which are indicative of liver damage or inflammation, a common feature of hepatitis. Additionally, the patient has been taking medications such as ciprofloxacin and metronidazole, which can be associated with liver injury in some cases. Although the patient's symptoms and other laboratory results are not explicitly provided, the presence of elevated liver enzymes and bilirubin levels strongly suggests hepatitis. The patient's fever (tmax: 38.3°C) could also be related to an infectious or inflammatory process, including hepatitis. Given the available information, it is reasonable to conclude that hepatitis is likely."
+21,187277.txt,"64m with hiv/aids on haart, hbv, cirrhosis c/b
+esophageal and gastric varices and recent presentation for variceal
+bleed and now s/p successful tips
+- tips placed
+- transfused 2 units in afternoon, none overnight. no further bleeding.
+sulfa (sulfonamide antibiotics)
+rash;
+penicillins
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2200-3-18**] 06:41 pm
+infusions:
+pantoprazole (protonix) - 8 mg/hour
+octreotide - 50 mcg/hour
+other icu medications:
+morphine sulfate - [**2200-3-18**] 07:53 pm
+other medications:
+flowsheet data as of  [**2200-3-19**] 07:38 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**01**] am
+tmax: 36.8
+c (98.2
+tcurrent: 36.8
+c (98.2
+hr: 63 (59 - 85) bpm
+bp: 127/55(73) {106/44(63) - 134/62(78)} mmhg
+rr: 15 (10 - 21) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 66 inch
+total in:
+2,887 ml
+262 ml
+po:
+tf:
+ivf:
+187 ml
+262 ml
+blood products:
+700 ml
+total out:
+5,520 ml
+640 ml
+urine:
+2,920 ml
+640 ml
+ng:
+stool:
+drains:
+balance:
+-2,633 ml
+-378 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///29/
+general cachectic, no acute distress
+heent anicteric, no bleeding in oropharynx, no thrush
+pulm lungs clear bilaterally
+cv regular s1 s2 iii/vi systolic murmur throughout precordium
+abd soft mildly distended but soft and nontender +bowel sounds
+extrem warm no edema palpable distal pulses
+neuro alert and answering appropriately
+derm multiple tattoos, no jaundice
+/
+157 k/ul
+9.3 g/dl
+95 mg/dl
+1.1 mg/dl
+29 meq/l
+3.2 meq/l
+14 mg/dl
+109 meq/l
+145 meq/l
+27.0 %
+9.1 k/ul
+image002.jpg]
+[**2200-3-18**]  01:59 pm
+[**2200-3-18**]  05:35 pm
+[**2200-3-18**]  09:59 pm
+[**2200-3-19**]  03:13 am
+wbc
+4.6
+9.1
+hct
+18.1
+25.9
+27.6
+27.0
+plt
+144
+157
+cr
+1.1
+1.1
+tropt
+<0.01
+<0.01
+glucose
+141
+95
+other labs: pt / ptt / inr:13.8/25.3/1.2, ck / ckmb /
+troponin-t:101/3/<0.01, alt / ast:48/75, alk phos / t bili:130/1.9,
+albumin:2.6 g/dl, ca++:9.0 mg/dl, mg++:1.9 mg/dl, po4:3.1 mg/dl
+[**3-18**]
+hepb and hepc viral loads pending",ugib; cirrhosis; hiv/aids; htn:,upper gastrointestinal bleeding; cirrhosis; human immunodeficiency virus acquired immunodeficiency syndrome; hypertension,"['upper gastrointestinal bleeding', 'cirrhosis', 'human immunodeficiency virus acquired immunodeficiency syndrome', 'hypertension']","This 64M with HIV/AIDS on HAART, HBV, cirrhosis c/b esophageal and
+   gastric varices and recent presentation for variceal bleed s/p failed
+   TIPS returns with hematemesis",True,"The patient has a history of HBV (hepatitis B virus) and cirrhosis, which are risk factors for hepatitis. The patient's labs show elevated liver enzymes (ALT 48, AST 75), low albumin (2.6 g/dl), and coagulopathy (INR 1.2), which are consistent with liver disease. However, the patient's total bilirubin is only 1.9 mg/dl, which is not significantly elevated. Additionally, the patient's hepatitis B and C viral loads are pending, which would provide more definitive information. Given the patient's history and lab results, hepatitis is likely, but the lack of significantly elevated bilirubin and pending viral loads introduce some uncertainty. Nevertheless, the presence of cirrhosis and elevated liver enzymes suggest that hepatitis is a likely diagnosis."
+28,186431.txt,"arterial line - stop [**2172-2-6**] 07:58 pm
+continued to have great urine output all day yesterday and overnight:
+i/o -5.3l yesterday, -1l today am
+creatinine improved to 3.2 on 5pm chem 7
+yesterday we stopped fludricortisone, lasix, and digoxin, and increased
+his lopressor dose
+hepatitis panel still pending
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ceftriaxone - [**2172-2-6**] 10:00 am
+metronidazole - [**2172-2-7**] 05:31 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2172-2-7**] 06:10 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.4
+tcurrent: 36
+c (96.8
+hr: 99 (90 - 108) bpm
+bp: 133/92(102) {112/67(90) - 147/105(110)} mmhg
+rr: 14 (11 - 27) insp/min
+spo2: 97%
+heart rhythm: af (atrial fibrillation)
+total in:
+1,606 ml
+161 ml
+po:
+810 ml
+tf:
+ivf:
+796 ml
+161 ml
+blood products:
+total out:
+6,980 ml
+1,100 ml
+urine:
+6,980 ml
+1,100 ml
+ng:
+stool:
+drains:
+balance:
+-5,374 ml
+-940 ml
+respiratory support
+o2 delivery device: cpap mask
+spo2: 97%
+abg: ///26/
+gen: nad, lying in bed
+heent: nc/at dry mouth.
+lungs: ctab
+heart: irreg irreg rhythm tachy [**3-13**] sm at apex
+abd: +bs. soft. nt/nd
+extrem: no edema
+neuro: a+ox3
+96 k/ul
+13.9 g/dl
+126 mg/dl
+3.2 mg/dl
+26 meq/l
+3.2 meq/l
+79 mg/dl
+111 meq/l
+149 meq/l
+41.5 %
+9.4 k/ul
+[image002.jpg]
+[**2172-2-4**]  06:03 am
+[**2172-2-4**]  01:37 pm
+[**2172-2-4**]  03:31 pm
+[**2172-2-4**]  03:36 pm
+[**2172-2-4**]  11:03 pm
+[**2172-2-5**]  04:59 am
+[**2172-2-5**]  05:44 am
+[**2172-2-5**]  02:30 pm
+[**2172-2-6**]  05:57 am
+[**2172-2-6**]  05:03 pm
+wbc
+9.0
+12.6
+9.4
+hct
+41.6
+40.3
+41.5
+plt
+102
+109
+96
+cr
+2.6
+3.4
+3.7
+3.9
+3.2
+tropt
+0.03
+tco2
+22
+22
+17
+17
+15
+glucose
+97
+103
+84
+118
+126
+other labs: pt / ptt / inr:31.2/44.8/3.2, ck / ckmb /
+troponin-t:185/7/0.03, alt / ast:628/505, alk phos / t bili:155/1.5,
+lactic acid:5.3 mmol/l, albumin:3.2 g/dl, ldh:617 iu/l, ca++:7.0 mg/dl,
+mg++:2.3 mg/dl, po4:6.4 mg/dl",# acute renal failure; possible uti; paroxysmal atrial fibrillation; altered mental status; history of hypertension,acute renal failure; possible urinary tract infection; paroxysmal atrial fibrillation; altered mental status; history of hypertension,"['acute renal failure', 'possible urinary tract infection', 'paroxysmal atrial fibrillation', 'altered mental status', 'history of hypertension']","IMPAIRED SKIN INTEGRITY
+ RENAL FAILURE, ACUTE (ACUTE RENAL FAILURE, ARF)
+ IMPAIRED PHYSICAL MOBILITY
+ ATRIAL FIBRILLATION (AFIB)
+   85-yo man w/ HTN and PAF who presented to the ED w/ dry mouth in the
+   setting of treatment for BPH, then found to convert from NSR to A-Fib
+   w/ RVR to 120s-130s. Initially controlled on the floor w/ diltiazem,
+   but progressively developed worsening RVR, hypoxia, and altered mental
+   status, requiring transfer to the CCU. Now with worsening renal
+   failure.",True,"The patient's lab results show elevated liver enzymes (ALT: 628, AST: 505), which is a strong indicator of liver damage or inflammation, consistent with hepatitis. Additionally, the patient has a pending hepatitis panel, suggesting that hepatitis is being considered as a potential diagnosis. While the patient's symptoms and other lab results do not provide conclusive evidence of hepatitis, the elevated liver enzymes and pending hepatitis panel are significant clues that support the diagnosis. Therefore, based on the available information, it is likely that the patient has hepatitis."
+31,104988.txt,"fever - 101.4
+f - [**2160-11-8**] 03:00 am, cx
+egd 7pm: old blood in stomach, no active bleeding; octreotide gtt d/c'd
+hct 24, transfused 1 unit
+methamphetamines positive on u tox
+this am, pt denies any methamphetamine or otc medication use. reports
+only taking prescription meds. denies n/v. no b or emesis since
+admission. c/o diffuse abd. pain, strongest under left rib, worse with
+deep breathing.
+lasix (oral) (furosemide)
+rash;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2160-11-8**] 01:57 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2160-11-8**] 06:13 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.6
+c (101.4
+tcurrent: 38.6
+c (101.4
+hr: 103 (98 - 156) bpm
+bp: 126/69(82) {125/67(80) - 169/128(131)} mmhg
+rr: 16 (14 - 26) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+height: 68 inch
+total in:
+1,248 ml
+654 ml
+po:
+50 ml
+tf:
+ivf:
+973 ml
+604 ml
+blood products:
+275 ml
+total out:
+450 ml
+150 ml
+urine:
+450 ml
+150 ml
+ng:
+stool:
+drains:
+balance:
+798 ml
+504 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///26/
+general: wdwn, nad, breathing comfortably on ra
+heent: perrl, eomi, icteric sclera, conjunctivae pink
+neck: supple, trachea midline, no thyromegaly or masses, no lad
+cardiac: tachycardic, regular, s1s2 normal, no m/r/g, no jvd
+pulmonary: ctab
+abdomen: +bs, soft, c/o diffuse mild tenderness, no focality, unable to
+appreciate frank ascites or hsm, no spiders or caput, no rebound or
+guarding
+extremities: warm, 2+ dp pulses, no edema
+neuro: a&ox3, speech clear and logical, cnii-xii intact, moves all
+extremities, no asterixis, mild tremulousness
+48 k/ul
+8.2 g/dl
+114 mg/dl
+0.6 mg/dl
+26 meq/l
+3.2 meq/l
+6 mg/dl
+102 meq/l
+137 meq/l
+24.9 %
+4.4 k/ul
+[image002.jpg]
+[**2160-11-7**]  06:00 pm
+[**2160-11-7**]  08:15 pm
+[**2160-11-8**]  04:42 am
+wbc
+4.4
+hct
+22.7
+24.0
+24.9
+plt
+48
+cr
+0.6
+tropt
+<0.01
+glucose
+114
+other labs: pt / ptt / inr:16.1/27.0/1.4, ck / ckmb /
+troponin-t:55//<0.01, alt / ast:33/76, alk phos / t bili:231/3.1,
+amylase / lipase:34/35, albumin:3.4 g/dl, ldh:149 iu/l, ca++:8.0 mg/dl,
+mg++:1.5 mg/dl, po4:2.2 mg/dl
+tsh 2.8 ggt 1477 serum tox neg, urine tox pos methamphetamines
+blood cx, urine cx no growth
+ruq us read pending
+tte pending
+egd as above",gi bleeding; tachycardia; fever; syncope; cirrhosis:  due to etoh,gastrointestinal bleeding; tachycardia; fever; syncope; cirrhosis due to ethanol,"['gastrointestinal bleeding', 'tachycardia', 'fever', 'syncope', 'cirrhosis due to ethanol']",,True,"The patient presents with icteric sclera, which is a sign of jaundice, a common symptom of hepatitis. Additionally, the patient has elevated liver enzymes (ALT 33, AST 76) and total bilirubin (3.1 mg/dL), which are indicative of liver damage. The patient also has a low albumin level (3.4 g/dL), which can be seen in chronic liver disease. However, the patient's symptoms and lab results could also be consistent with other conditions, such as drug-induced liver injury (given the positive methamphetamine test) or other causes of acute liver injury. Despite these considerations, the presence of jaundice and elevated liver enzymes, in the absence of other clear causes of liver injury, leans towards a diagnosis of hepatitis."
+38,147724.txt,"-femoral line in place (right femoral line)
+-ekg no evidence of hyperkalemia
+-paracentesis (2l removed)
+-drinking contrast for ct of abdomen and pelvis
+no known drug allergies
+===== label: none =====
+last dose of antibiotics:
+ceftriaxone - [**2191-9-20**] 10:00 pm
+vancomycin - [**2191-9-21**] 01:00 am
+piperacillin/tazobactam (zosyn) - [**2191-9-21**] 02:00 am
+infusions:
+octreotide - 50 mcg/hour
+other icu medications:
+pantoprazole (protonix) - [**2191-9-21**] 12:50 am
+other medications:
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","flowsheet data as of  [**2191-9-21**] 04:23 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 35.5
+c (95.9
+tcurrent: 35.1
+c (95.1
+hr: 105 (93 - 110) bpm
+bp: 102/37(53) {96/34(49) - 109/56(66)} mmhg
+rr: 21 (14 - 27) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+wgt (current): 78.7 kg (admission): 78.7 kg
+height: 67 inch
+bladder pressure: 17 (17 - 20) mmhg
+total in:
+2,780 ml
+5,537 ml
+po:
+180 ml
+tf:
+ivf:
+2,166 ml
+4,588 ml
+blood products:
+614 ml
+769 ml
+total out:
+49 ml
+16 ml
+urine:
+49 ml
+16 ml
+ng:
+stool:
+drains:
+balance:
+2,731 ml
+5,521 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///11/
+gen: acute on chronically ill appearing middle aged male, nad heent:
+sclera icteric, mmm slightly dry, op with dried blood present cv:
+regular rate, tachycardic, no m/r/g, lungs: cta anteriorly [**last name (un) **]:
+decreased bowel sounds, soft, distended, + shifting dullness, mildly
+tender, no rebound/guarding extrem: no edema skin: icteric, warm,
+slightly [**doctor last name 988**], spider angiomata
+neuro: aaox3,  + asterixis, tongue fasiculations
+134 k/ul
+8.2 g/dl
+104 mg/dl
+4.3 mg/dl
+11 meq/l
+5.9 meq/l
+90 mg/dl
+94 meq/l
+124 meq/l
+24.8 %
+33.8 k/ul
+wbc
+37.1
+33.8
+hct
+25.6
+24.8
+plt
+139
+134
+cr
+4.2
+4.3
+glucose
+97
+104
+other labs: pt / ptt / inr:30.6/43.9/3.0, alt / ast:23/44, alk phos / t
+bili:72/12.9, differential-neuts:86.0 %, band:3.0 %, lymph:4.0 %,
+mono:5.0 %, eos:0.0 %, fibrinogen:152 mg/dl, lactic acid:6.3 mmol/l,
+albumin:2.5 g/dl, ldh:201 iu/l, ca++:7.3 mg/dl, mg++:2.0 mg/dl, po4:8.5
+mg/dl",sepsis; gi bleed; metabolic acidosis; oliguria; coagulopathy:; esld; ascites; hypoalbuminemia,sepsis; gastrointestinal bleed; metabolic acidosis; oliguria; coagulopathy ; end stage liver disease; ascites; hypoalbuminemia,"['sepsis', 'gastrointestinal bleed', 'metabolic acidosis', 'oliguria', 'coagulopathy', 'end stage liver disease', 'ascites', 'hypoalbuminemia']","49M with PMHx significant for ESLD secondary to hepatitis C and EtOH
+   abuse who presents with coffee ground emesis/melena, also septic in
+   setting of no SBP prophylaxis.",True,"The patient presents with sclera icteric (yellowing of the eyes), skin icteric (jaundice), and spider angiomata, which are classic signs of liver disease. The laboratory results show elevated ALT (23) and AST (44) levels, indicating liver damage. Additionally, the total bilirubin level is 12.9 mg/dL, which is significantly elevated. The presence of asterixis (a flapping tremor) also suggests liver dysfunction. These findings, combined with the patient's clinical presentation, strongly suggest hepatitis. Furthermore, the low albumin level (2.5 g/dL) and elevated INR (3.0) indicate impaired liver synthetic function. While the patient is receiving multiple medications, including antibiotics, the overall clinical picture points towards hepatitis as a likely diagnosis."
+83,197164.txt,"- sedation d/c'd
+- levophed weaned
+- seen by nephrology
+- seen by gyn (signed off)
+currently on cvvh, no pressors required, off sedation, however still
+somewhat somnolent however opens eyes to command.
+llergies:
+no known drug allergies
+changes to
+review of systems is unchanged from admission except as noted below
+review of systems","last dose of antibiotics:
+cipro [**2107-2-2**]
+infusions:
+heparin sodium - 900 units/hour
+calcium gluconate (crrt) - 1.2 grams/hour
+kcl (crrt) - 3 meq./hour
+other icu medications:
+pantoprazole (protonix) - [**2107-2-2**] 10:05 pm
+other medications:
+flowsheet data as of  [**2107-2-3**] 06:51 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.7
+c (99.8
+tcurrent: 37.1
+c (98.8
+hr: 101 (101 - 133) bpm
+bp: 96/52(65) {91/51(63) - 152/76(99)} mmhg
+rr: 15 (11 - 25) insp/min
+spo2: 100%
+heart rhythm: st (sinus tachycardia)
+wgt (current): 78.1 kg (admission): 66.5 kg
+height: 62 inch
+cvp: 14 (7 - 20)mmhg
+total in:
+4,524 ml
+1,228 ml
+po:
+tf:
+682 ml
+205 ml
+ivf:
+3,502 ml
+923 ml
+blood products:
+total out:
+4,828 ml
+1,474 ml
+urine:
+112 ml
+35 ml
+ng:
+stool:
+drains:
+balance:
+-304 ml
+-244 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cpap/psv
+vt (spontaneous): 603 (432 - 770) ml
+ps : 5 cmh2o
+rr (spontaneous): 19
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 32
+pip: 11 cmh2o
+spo2: 100%
+abg: 7.37/32/141/18/-5
+ve: 12.5 l/min
+pao2 / fio2: 353
+general appearance: intubated, sedated, arousable opens eyes to command
+eyes / conjunctiva: perrl, pinpoint
+head, ears, nose, throat: normocephalic, et in place
+cardiovascular: s1 s2 tachycardic, loud p2 with rv heave
+peripheral vascular: warm well perfused
+respiratory / chest: clear anteriorly, coarse bs bilateral,
+posteiro-laterally
+abdominal: soft, non-tender, bowel sounds present, distended. ostomy
+llq
+extremities: 2+ edema. no c/c. dp/pt 2+
+neurologic: pt remains intubated. opens eyes to command, however does
+not follow
+107 k/ul
+8.3 g/dl
+174 mg/dl
+1.8 mg/dl
+18 meq/l
+5.0 meq/l
+18 mg/dl
+110 meq/l
+133 meq/l
+24.5 %
+12.3 k/ul
+[image002.jpg]
+[**2107-2-2**]  04:00 am
+[**2107-2-2**]  04:12 am
+[**2107-2-2**]  09:25 am
+[**2107-2-2**]  09:43 am
+[**2107-2-2**]  03:41 pm
+[**2107-2-2**]  04:01 pm
+[**2107-2-2**]  10:00 pm
+[**2107-2-2**]  10:06 pm
+[**2107-2-3**]  04:09 am
+[**2107-2-3**]  04:26 am
+wbc
+10.7
+12.3
+hct
+24.9
+24.5
+plt
+158
+107
+cr
+2.7
+2.2
+2.0
+1.8
+tco2
+21
+20
+20
+20
+19
+glucose
+161
+179
+203
+[**telephone/fax (3) 3670**]
+174
+other labs: pt / ptt / inr:16.0/61.6/1.4, ck / ckmb /
+troponin-t:758/12/0.78, alt / ast:1573/283, alk phos / t bili:179/3.3,
+differential-neuts:85.1 %, lymph:10.1 %, mono:4.2 %, eos:0.3 %, lactic
+acid:1.2 mmol/l, albumin:3.1 g/dl, ldh:383 iu/l, ca++:7.6 mg/dl,
+mg++:2.1 mg/dl, po4:1.3 mg/dl",# hemodynamics s/p pea arrest:; # saddle pulmonary emboli; # acute respiratory failure; # arf: atn secondary to hypotensive event; # shock liver: secondary to hypoperfusion; coagulopathy; troponin bump: likely secondary to demand ischemia; hypoglycvemia:,hemodynamics status post pulseless electrical activity arrest ; saddle pulmonary emboli; acute respiratory failure; acute renal failure acute tubular necrosis secondary to hypotensive event; shock liver secondary to hypoperfusion; coagulopathy; troponin bump likely secondary to demand ischemia; hypoglycemia,"['hemodynamics status post pulseless electrical activity arrest', 'saddle pulmonary emboli', 'acute respiratory failure', 'acute renal failure acute tubular necrosis secondary to hypotensive event', 'shock liver secondary to hypoperfusion', 'coagulopathy', 'troponin bump likely secondary to demand ischemia', 'hypoglycemia']","H/O HYPERGLYCEMIA
+ ACIDOSIS, METABOLIC
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 76**])
+ CARDIAC ARREST
+ PULMONARY EMBOLISM (PE), ACUTE
+ CHEST PAIN
+   71 year old female with DM2, HTN, GERD, admitted with b/l PE in setting
+   of  having bowel resection and vaginal hysterectomy
+   now 4 days s/p PEA arrest with lysed saddle embolus.",True,"The patient's laboratory results show significantly elevated liver enzymes (ALT: 1573, AST: 283), which is a strong indicator of liver damage or inflammation, a common feature of hepatitis. Additionally, the patient has elevated total bilirubin (3.3 mg/dl), although not markedly high, it still suggests some level of liver dysfunction. The presence of these abnormalities in liver function tests, in the absence of other clear causes of liver injury (like significant bile duct obstruction or ischemic liver injury), leans towards a diagnosis of hepatitis. However, without specific tests for hepatitis (such as hepatitis virus panels) or more detailed clinical information (such as exposure history, risk factors, or specific symptoms like jaundice), the diagnosis cannot be made with absolute certainty. Nonetheless, the elevated liver enzymes are a critical clue that supports the possibility of hepatitis."
+85,196250.txt,"blood cultured - at [**2107-3-3**] 08:00 am
+urine culture - at [**2107-3-3**] 08:00 am
+invasive ventilation - stop [**2107-3-3**] 10:45 am
+- liver: d/c octreotide, get ruq u/s on [**3-4**] to assess tips patency
+(ordered), re-check lfts
+- extubated in am
+- l arm erythematous; pt afebrile but will broaden abx if spikes
+- remains confused
+no known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+unchanged","last dose of antibiotics:
+ceftriaxone - [**2107-3-4**] 12:27 am
+infusions:
+other icu medications:
+furosemide (lasix) - [**2107-3-3**] 07:00 pm
+pantoprazole (protonix) - [**2107-3-4**] 12:27 am
+other medications:
+lowsheet data as of  [**2107-3-4**] 07:26 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**08**] am
+tmax: 37.2
+c (99
+tcurrent: 36.9
+c (98.5
+hr: 78 (51 - 82) bpm
+bp: 130/46(67) {110/31(51) - 149/58(70)} mmhg
+rr: 22 (21 - 31) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+height: 73 inch
+total in:
+1,517 ml
+130 ml
+po:
+tf:
+ivf:
+1,517 ml
+130 ml
+blood products:
+total out:
+1,810 ml
+310 ml
+urine:
+1,810 ml
+310 ml
+ng:
+stool:
+drains:
+balance:
+-293 ml
+-180 ml
+respiratory support
+o2 delivery device: face tent
+ventilator mode: standby
+vt (spontaneous): 499 (499 - 499) ml
+ps : 5 cmh2o
+rr (spontaneous): 27
+peep: 0 cmh2o
+fio2: 50%
+pip: 6 cmh2o
+spo2: 95%
+abg: 7.44/41/76.[**numeric identifier 299**]/26/3
+ve: 13.4 l/min
+pao2 / fio2: 152
+general: nad
+heent: sclera anicteric, mm dry, oropharynx with evidence of small
+amount of blood
+neck: supple, jvp difficult to assess
+lungs: unlabored respirations, bibasilar crackles
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen: soft, ntnd, positive bowel sounds
+gu: foley in place
+ext: warm, well perfused, 2+ pulses, 1+ ble edema to knees
+skin: no jaundice, spider angiomas, or palmar erythema.  lue with
+marked erythema of lateral forearm. + warmth
+neuro: a + o x 1 (person only/
+[**hospital 680**] hospital
+129 k/ul
+8.8 g/dl
+120 mg/dl
+1.4 mg/dl
+26 meq/l
+3.5 meq/l
+32 mg/dl
+111 meq/l
+145 meq/l
+27.0 %
+10.7 k/ul
+image002.jpg]
+[**2107-3-1**]  08:30 pm
+[**2107-3-2**]  01:45 am
+[**2107-3-2**]  07:53 am
+[**2107-3-2**]  03:24 pm
+[**2107-3-2**]  09:48 pm
+[**2107-3-3**]  03:26 am
+[**2107-3-3**]  10:14 am
+[**2107-3-3**]  12:23 pm
+[**2107-3-3**]  10:03 pm
+[**2107-3-4**]  02:42 am
+wbc
+9.1
+26.9
+10.7
+hct
+31.9
+31.2
+31.8
+31.1
+29.3
+29.5
+30.1
+27.5
+27.0
+plt
+180
+241
+129
+cr
+1.2
+1.4
+1.6
+1.5
+1.4
+tco2
+29
+glucose
+109
+110
+216
+120
+other labs: pt / ptt / inr:17.8/31.4/1.6, alt / ast:[**telephone/fax (1) 12667**], alk phos
+/ t bili:115/1.1, differential-neuts:91.0 %, band:0.0 %, lymph:4.0 %,
+mono:4.0 %, eos:1.0 %, fibrinogen:316 mg/dl, albumin:2.1 g/dl, ldh:863
+iu/l, ca++:7.5 mg/dl, mg++:1.8 mg/dl, po4:3.1 mg/dl",# upper gi bleed; # respiratory failure; # liver cirrhosis:; #shortness of breath; # arf; # thrombocytopenia:,upper gastrointestinal bleed; respiratory failure; liver cirrhosis ; shortness of breath; acute renal failure; thrombocytopenia,"['upper gastrointestinal bleed', 'respiratory failure', 'liver cirrhosis', 'shortness of breath', 'acute renal failure', 'thrombocytopenia']","81M with cirrhosis, esophageal and gastric varices with recurrent
+   variceal bleed now s/p TIPS on [**3-2**].",True,"The patient's liver function is being closely monitored, as indicated by the order to 're-check LFTs' and the plan to assess TIPS patency with a RUQ ultrasound. The lab results show elevated ALT and AST levels ([**telephone/fax (1) 12667**]), which are indicators of liver damage. Additionally, the patient's albumin level is low (2.1 g/dl), and the total bilirubin is slightly elevated (1.1 mg/dl). However, the patient does not exhibit jaundice, spider angiomas, or palmar erythema, which are common signs of liver disease. Despite this, the liver enzyme elevations and low albumin level suggest some degree of liver dysfunction, which could be consistent with hepatitis. Therefore, based on the available evidence, hepatitis is a possible diagnosis, but it is not definitively confirmed."
+90,186902.txt,"- changed code status to dnr after discussion with family
+- transfused 2u prbc
+- started heparin gtt
+- started vasopressin
+- titrated off dobutamine with stable cvo2 80s yesterday -> this
+morning 69%
+- cardiology consult -> supportive treatment, no acute intervention
+- started insulin gtt
+- gave 2l ns overnight
+diuril (oral) (chlorothiazide)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2196-11-6**] 03:30 pm
+piperacillin - [**2196-11-7**] 12:00 am
+ciprofloxacin - [**2196-11-7**] 03:32 am
+infusions:
+fentanyl - 75 mcg/hour
+midazolam (versed) - 2 mg/hour
+vasopressin - 2.4 units/hour
+insulin - regular - 5 units/hour
+heparin sodium - 600 units/hour
+norepinephrine - 0.34 mcg/kg/min
+other icu medications:
+midazolam (versed) - [**2196-11-6**] 09:48 am
+fentanyl - [**2196-11-6**] 09:48 am
+pantoprazole (protonix) - [**2196-11-7**] 12:00 am
+other medications:
+flowsheet data as of  [**2196-11-7**] 07:59 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 40.6
+c (105
+tcurrent: 39.5
+c (103.1
+hr: 120 (109 - 131) bpm
+bp: 103/45(65) {91/39(56) - 118/53(73)} mmhg
+rr: 25 (22 - 32) insp/min
+spo2: 34%
+heart rhythm: st (sinus tachycardia)
+height: 62 inch
+cvp: 7 (7 - 18)mmhg
+bladder pressure: 14 (14 - 14) mmhg
+total in:
+6,374 ml
+1,778 ml
+po:
+tf:
+ivf:
+5,434 ml
+1,778 ml
+blood products:
+700 ml
+total out:
+556 ml
+527 ml
+urine:
+406 ml
+127 ml
+ng:
+150 ml
+400 ml
+stool:
+drains:
+balance:
+5,818 ml
+1,251 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 430 (380 - 430) ml
+rr (set): 32
+rr (spontaneous): 0
+peep: 12 cmh2o
+fio2: 60%
+rsbi deferred: peep > 10
+pip: 39 cmh2o
+plateau: 28 cmh2o
+spo2: 34%
+abg: 7.28/34/102/16/-9
+ve: 13.5 l/min
+pao2 / fio2: 170
+general appearance: no acute distress, overweight / obese
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic, endotracheal tube, og tube
+cardiovascular: (pmi normal), (s1: normal), (s2: distant), (murmur:
+no(t) systolic, no(t) diastolic)
+peripheral vascular: (right radial pulse: diminished), (left radial
+pulse: diminished), (right dp pulse: diminished), (left dp pulse:
+diminished), extremities cool this am compared to prior
+respiratory / chest: (breath sounds: bronchial: , wheezes : ,
+diminished: )
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: absent, left: absent, cyanosis, no(t) clubbing
+skin:  cool, no(t) rash:
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, movement: purposeful, sedated, tone: normal
+347 k/ul
+10.6 g/dl
+183 mg/dl
+2.9 mg/dl
+16 meq/l
+4.0 meq/l
+45 mg/dl
+101 meq/l
+129 meq/l
+30.8 %
+14.1 k/ul
+[image002.jpg]
+[**2196-11-6**]  06:00 pm
+[**2196-11-6**]  06:38 pm
+[**2196-11-6**]  07:55 pm
+[**2196-11-6**]  08:48 pm
+[**2196-11-6**]  10:04 pm
+[**2196-11-7**]  12:02 am
+[**2196-11-7**]  12:42 am
+[**2196-11-7**]  01:01 am
+[**2196-11-7**]  03:53 am
+[**2196-11-7**]  04:05 am
+wbc
+14.1
+hct
+31.5
+31.6
+30.8
+plt
+347
+cr
+2.8
+2.9
+tropt
+7.46
+10.06
+tco2
+21
+21
+21
+19
+18
+18
+17
+glucose
+243
+183
+other labs: pt / ptt / inr:19.1/130.0/1.8, ck / ckmb /
+troponin-t:853/19/10.06, alt / ast:2193/2212, alk phos / t bili:92/0.7,
+differential-neuts:82.0 %, band:1.0 %, lymph:14.0 %, mono:0.0 %,
+eos:0.0 %, fibrinogen:910 mg/dl, lactic acid:2.4 mmol/l, ldh:2454 iu/l,
+ca++:7.3 mg/dl, mg++:2.2 mg/dl, po4:3.2 mg/dl","septic shock: significant leukocytosis. fever. bilateral pneumonia,
+   urinary tract infection.; cardiogenic shock/ nstemi/ known cad; hypoxemic respiratory failure; anemia; dm2; hyperlipidemia; pvd",septic shock significant leukocytosis fever bilateral pneumonia urinary tract infection ; cardiogenic shock non st elevation myocardial infarction known coronary artery disease; hypoxemic respiratory failure; anemia; diabetes mellitus type ; hyperlipidemia; peripheral vascular disease,"['septic shock significant leukocytosis fever bilateral pneumonia urinary tract infection', 'cardiogenic shock non st elevation myocardial infarction known coronary artery disease', 'hypoxemic respiratory failure', 'anemia', 'diabetes mellitus type', 'hyperlipidemia', 'peripheral vascular disease']","72 year old female with past medical history significant for CAD s/p
+   CABG, s/p AVR with porcine valve, Htn, DM, presents with sepsis from
+   pulmonary or urinary source, cardiogenic shock in setting of NSTEMI,
+   and  renal failure.",True,"The patient's laboratory results show significantly elevated liver enzymes (ALT: 2193, AST: 2212), which is a strong indicator of liver damage or hepatitis. Additionally, the patient has coagulopathy as evidenced by an elevated INR (1.8) and prolonged PT (19.1) and PTT (130.0), which can be seen in liver disease. However, the provided information does not specify the cause of the liver enzyme elevation, which could be due to various factors including but not limited to viral hepatitis, drug-induced liver injury, or ischemic hepatitis. Despite this, the presence of markedly elevated liver enzymes in the context of critical illness suggests hepatitis or liver injury, making the diagnosis likely true based on the available information."
+103,199614.txt,"chief complaint
+-repeat hct at 6pm: 37 (up from 36.2)
+-ciwa scale: diazepam 5-10 mg iv q2h:prn ciwa > 10
+-was nauseous and given compazine
+- recs: adequate right upper quadrant study.  not necessary to
+repeat imaging.  u/s: 1. no son[**name (ni) 330**] evidence for portal venous
+thrombus. recanalized paraumbilical vein consistent with portal
+hypertension. 2. echogenic and nodular liver consistent with cirrhosis.
+-diagnostic paracentesis: no signs of sbp.  albumin <1.0. wbc: 190.
+rbc: 495. polys: 4, lymphs: 7.  suggestive of a transudative process.
+penicillins
+hives;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","ast dose of antibiotics:
+ciprofloxacin - [**2168-7-31**] 03:05 pm
+infusions:
+pantoprazole (protonix) - 8 mg/hour
+other icu medications:
+morphine sulfate - [**2168-7-31**] 07:30 pm
+hydromorphone (dilaudid) - [**2168-8-1**] 04:00 am
+diazepam (valium) - [**2168-8-1**] 04:30 am
+other medications:
+flowsheet data as of  [**2168-8-1**] 08:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.4
+tcurrent: 36.1
+c (97
+hr: 86 (57 - 89) bpm
+bp: 180/86(110) {135/74(89) - 191/120(134)} mmhg
+rr: 22 (17 - 25) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 149 kg (admission): 150 kg
+height: 75 inch
+total in:
+1,149 ml
+946 ml
+po:
+tf:
+ivf:
+1,149 ml
+946 ml
+blood products:
+total out:
+1,375 ml
+600 ml
+urine:
+1,050 ml
+600 ml
+ng:
+325 ml
+stool:
+drains:
+balance:
+-226 ml
+346 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///26/
+general: alert, oriented, no acute distress, no asterixis
+heent: sclera icteric, dry mucous membranes
+neck: supple, obese, jvp not elevated
+lungs: bibasilar crackles, no wheezes
+cv: regular rate and rhythm, [**1-1**] soft nonradiating systolic murmur
+abdomen:  obese/distended, ruq and epigastric tenderness to palpation,
+normoactive bowel sounds, no rebound or guarding.
+ext: warm, well perfused, 1+ pitting edema bilaterally, 2+ pulses
+37 k/ul
+12.1 g/dl
+118 mg/dl
+0.5 mg/dl
+26 meq/l
+5.3 meq/l
+7 mg/dl
+104 meq/l
+134 meq/l
+36.8 %
+3.9 k/ul
+[image002.jpg]
+[**2168-7-31**]  08:43 am
+[**2168-7-31**]  06:00 pm
+[**2168-8-1**]  04:24 am
+wbc
+2.5
+3.9
+hct
+36.2
+37.0
+36.8
+plt
+28
+37
+cr
+0.5
+0.5
+glucose
+111
+118
+other labs: pt / ptt / inr:19.1/32.7/1.7, alt / ast:43/200, alk phos /
+t bili:111/9.8, amylase / lipase:122/404, albumin:2.3 g/dl, ldh:469
+iu/l, ca++:7.9 mg/dl, mg++:1.7 mg/dl, po4:2.8 mg/dl","#hematemasis; #pancreatitis; #cirrhosis, portal hypertension, ascites, pancytopenia, coagulopathy; #etoh abuse",hematemasis; pancreatitis; cirrhosis portal hypertension ascites pancytopenia coagulopathy; ethanol abuse,"['hematemasis', 'pancreatitis', 'cirrhosis portal hypertension ascites pancytopenia coagulopathy', 'ethanol abuse']","Mr. [**Known lastname 8120**] is a 41 yo F with ETOH abuse, HTN, obesity presenting with
+   hematemasis, pancreatitis and evidence of cirrhosis and portal
+   hypertension.",True,"The patient's presentation includes sclera icteric (indicative of jaundice), elevated liver enzymes (ALT 43, AST 200), and low albumin levels, which are common findings in hepatitis. Additionally, the ultrasound findings of an echogenic and nodular liver consistent with cirrhosis and the presence of a recanalized paraumbilical vein suggesting portal hypertension further support the diagnosis of hepatitis, particularly chronic hepatitis leading to cirrhosis. The absence of signs of spontaneous bacterial peritonitis (SBP) and the characteristics of the ascitic fluid (transudative process) also align with cirrhotic liver disease. While the patient's symptoms and lab results could suggest other liver conditions, the cumulative evidence strongly supports a diagnosis of hepatitis, specifically chronic hepatitis with cirrhosis."
+104,185759.txt,"invasive ventilation - stop [**2125-9-3**] 11:30 am
+ekg - at [**2125-9-4**] 05:02 am
+.
+- patient extubated and titrated to ra
+- patient likely to be listed for transplant this afternoon
+- lasix at increased dose, diuresed 0.7 l
+- needs s&s and pt eval in am
+- possible liver for her which with procurement time of 7 am today.
+patient unable to provide history: sedated
+ceftriaxone
+rash; eosinophi
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2125-9-2**] 12:00 am
+aztreonam - [**2125-9-4**] 12:22 am
+infusions:
+other icu medications:
+propofol - [**2125-9-3**] 08:15 am
+furosemide (lasix) - [**2125-9-3**] 08:00 pm
+other medications:
+flowsheet data as of  [**2125-9-4**] 07:26 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.6
+c (97.9
+tcurrent: 35.5
+c (95.9
+hr: 59 (58 - 85) bpm
+bp: 136/72(99) {116/57(80) - 143/78(104)} mmhg
+rr: 16 (8 - 18) insp/min
+spo2: 96%
+heart rhythm: sb (sinus bradycardia)
+wgt (current): 68.8 kg (admission): 68.8 kg
+height: 63 inch
+total in:
+1,024 ml
+124 ml
+po:
+tf:
+107 ml
+ivf:
+597 ml
+124 ml
+blood products:
+total out:
+1,741 ml
+570 ml
+urine:
+1,641 ml
+570 ml
+ng:
+stool:
+drains:
+100 ml
+balance:
+-717 ml
+-446 ml
+respiratory support
+o2 delivery device: none
+ventilator mode: standby
+vt (spontaneous): 274 (274 - 274) ml
+ps : 0 cmh2o
+rr (spontaneous): 33
+peep: 0 cmh2o
+fio2: 40%
+rsbi: 253
+pip: 11 cmh2o
+spo2: 96%
+abg: 7.45/37/71/25/1
+ve: 7.7 l/min
+pao2 / fio2: 178
+gen: sedated, intubated
+heent: icteric sclera
+cv: rrr, nom/r/g
+pulm: cta b/l
+abd: distended, soft, nt, bowel sounds present
+ext: b/l pitting edema
+/
+95 k/ul
+12.3 g/dl
+81 mg/dl
+0.8 mg/dl
+25 meq/l
+3.6 meq/l
+47 mg/dl
+115 meq/l
+149 meq/l
+38.1 %
+6.7 k/ul
+[image002.jpg]
+[**2125-9-1**]  04:29 am
+[**2125-9-1**]  04:57 pm
+[**2125-9-2**]  03:48 am
+[**2125-9-2**]  05:59 pm
+[**2125-9-3**]  03:50 am
+[**2125-9-3**]  04:01 am
+[**2125-9-3**]  12:43 pm
+[**2125-9-3**]  06:38 pm
+[**2125-9-4**]  03:50 am
+[**2125-9-4**]  03:58 am
+wbc
+6.6
+7.1
+9.4
+7.6
+6.7
+hct
+36.0
+39.0
+36.9
+40.1
+37.4
+38.1
+plt
+87
+74
+93
+97
+95
+cr
+0.8
+1.0
+0.9
+0.9
+0.8
+tco2
+23
+24
+25
+27
+glucose
+153
+109
+106
+140
+81
+other labs: pt / ptt / inr:26.2/56.3/2.5, alt / ast:13/27, alk phos / t
+bili:76/11.8, differential-neuts:57.6 %, lymph:19.3 %, mono:8.6 %,
+eos:14.1 %, fibrinogen:120 mg/dl, lactic acid:1.4 mmol/l, albumin:3.9
+g/dl, ldh:218 iu/l, ca++:9.6 mg/dl, mg++:1.9 mg/dl, po4:3.0 mg/dl",gib; .  ams.; . alcoholic cirrhosis; respiratory failure.; exfoliative dermatitis.; pulmonary hypertension,gastrointestinal bleeding; altered mental status ; alcoholic cirrhosis; respiratory failure ; exfoliative dermatitis ; pulmonary hypertension,"['gastrointestinal bleeding', 'altered mental status', 'alcoholic cirrhosis', 'respiratory failure', 'exfoliative dermatitis', 'pulmonary hypertension']","ALTERED MENTAL STATUS (NOT DELIRIUM)
+ [**Last Name 12**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+   Fluid Volume Overload
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+ IMPAIRED SKIN INTEGRITY
+ ALTERATION IN NUTRITION
+ AIRWAY, INABILITY TO PROTECT (RISK FOR ASPIRATION, ALTERED GAG,
+   AIRWAY CLEARANCE, COUGH)
+ ASCITES
+ EDEMA, PERIPHERAL
+ GASTROINTESTINAL BLEED, LOWER (HEMATOCHEZIA, BRBPR, GI BLEED, GIB)
+ RENAL FAILURE, ACUTE (ACUTE RENAL FAILURE, ARF)
+   .
+   Ms. [**Known lastname 5566**] is a 63 yo female with alcoholic cirrhosis who was
+   initially admitted on [**2125-8-19**] for ARF which has improved with albumin
+   and holding diuretics, now in MICU for GIB (?hemorroidal).",True,"The patient's icteric sclera, which indicates jaundice, is a key clue that suggests liver dysfunction, a common symptom of hepatitis. Additionally, the lab results show elevated bilirubin levels (t.bili: 76/11.8), which further support the diagnosis of hepatitis. The presence of eosinophilia (eos: 14.1%) could be indicative of a drug-induced liver injury, but it does not rule out hepatitis. The patient's overall clinical presentation, including the need for a possible liver transplant, also points towards severe liver disease, which could be due to hepatitis. Although the patient is sedated and unable to provide a detailed history, the objective findings strongly suggest hepatitis."
+117,183659.txt,"nasal swab - at [**2155-5-13**] 11:09 am
+arterial line - start [**2155-5-13**] 03:03 pm
+nasal swab - at [**2155-5-13**] 03:17 pm
+flu swab
+sputum culture - at [**2155-5-13**] 09:23 pm
+[**2155-5-13**]
+- ct torso:
+1. there is dilatation and distention of the esophagus around a gastric
+tube. given the extensive inflammatory change in the right middle lobe
+in particular, aspiration must be considered.
+2. compared to the most recent cross-sectional study, the ct
+examination of [**2155-4-16**] there has been interval mild progression of
+ascites and bilateral pleural effusions.
+3. diffuse small bowel dilatation is identified. there is no evidence
+of pneumatosis nor of a transition point. in the colon there appears to
+be pancolitis and c-diff is suspected.
+4. pancreatic lesions, likely cyst or pseudocyst cysts and unchanged
+from prior mr examination.
+5. there is no evidence of vascular abnormality outside the varices and
+portal hypertension. the portal vein appears relatively [**name2 (ni) 6719**], but
+unchanged from multiple prior cross-sectional imaging studies. smv,
+sma, celiac vessels all appears patent.
+- a-line placed and lactate treded down slowly.
+- u/s guided paracentesis for am of [**5-14**]
+- id recs: 1) send c. diff, daily bl cx, sputum cx, fungal cx, nasal
+flu, urine legionella.  2) hold haart meds as they may contribute to
+lactic acidosis.  3) added azithro for atypical coverage.
+sulfa (sulfonamides)
+fever/chills;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+fluconazole - [**2155-5-13**] 02:00 pm
+vancomycin - [**2155-5-13**] 08:19 pm
+metronidazole - [**2155-5-13**] 10:12 pm
+azithromycin - [**2155-5-13**] 11:12 pm
+piperacillin/tazobactam (zosyn) - [**2155-5-14**] 12:00 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2155-5-14**] 12:00 am
+other medications:
+flowsheet data as of  [**2155-5-14**] 05:33 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.2
+c (99
+tcurrent: 37.1
+c (98.8
+hr: 86 (78 - 102) bpm
+bp: 100/56(69) {88/53(0) - 114/67(81)} mmhg
+rr: 24 (18 - 28) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 63.1 kg (admission): 61.4 kg
+height: 72 inch
+total in:
+9,324 ml
+1,044 ml
+po:
+tf:
+ivf:
+2,664 ml
+684 ml
+blood products:
+total out:
+1,760 ml
+905 ml
+urine:
+1,210 ml
+530 ml
+ng:
+300 ml
+stool:
+160 ml
+375 ml
+drains:
+balance:
+7,564 ml
+139 ml
+respiratory support
+o2 delivery device: nasal cannula, venti mask
+spo2: 100%
+abg: 7.51/29/137/22/1
+[**2155-5-14**]
+06:08a
+_______________________________________________________________________
+ph
+7.50
+pco2
+26
+po2
+103
+hco3
+21
+basexs
+0
+type:art
+k:3.4
+glu:55
+freeca:1.06
+lactate:5.1
+gen: cachectic with protuberant abdomen, somnolent, nad
+heent: nrb, mmm
+cv: rrr, no m/r/g
+pulm: diminished breath sounds throughout, absent at r base
+abd: somewhat firm and tender, but no rebound
+extr: muscular wasting, no edema, pulses 2+
+neuro: perrl, eomi, somnolent aox2, moving all extremities equally.
+82 k/ul
+9.2 g/dl
+82 mg/dl
+1.0 mg/dl
+22 meq/l
+3.8 meq/l
+12 mg/dl
+106 meq/l
+137 meq/l
+27.3 %
+19.3 k/ul
+image002.jpg]
+[**2155-5-13**]  12:59 pm
+[**2155-5-13**]  01:00 pm
+[**2155-5-13**]  11:13 pm
+[**2155-5-14**]  03:43 am
+[**2155-5-14**]  04:08 am
+wbc
+27.5
+19.3
+hct
+33.9
+27.3
+plt
+95
+82
+cr
+1.0
+1.0
+tropt
+<0.01
+tco2
+17
+24
+glucose
+36
+65
+83
+82
+other labs: pt / ptt / inr:32.1/78.8/3.2, ck / ckmb /
+troponin-t:133/5/<0.01, alt / ast:13/44, alk phos / t bili:51/3.4,
+amylase / lipase:/9, lactic acid:5.6 mmol/l, albumin:1.8 g/dl, ca++:8.2
+mg/dl, mg++:1.5 mg/dl, po4:3.2 mg/dl
+pt: 32.1
+ptt: 78.8
+inr: 3.2
+alt: 13
+ap: 51
+tbili: 3.4
+alb:
+ast: 44
+ldh:
+dbili:
+tprot:
+[**doctor first name 92**]:
+lip:
+c diff
+negative x1
+sputum
+cancelled for >10 epithelial cells/100x field
+urine legionella
+negative
+blood cx and fungal cx pending
+ct torso:
+see 24hr events above.
+and plan===== label: a =====
+53m with hiv/hepc, admitted with nausea, weakness, hypotension",sepsis/altered mental status; hypoxia; seizure; hypoglycemia; esld; hiv,sepsis altered mental status; hypoxia; seizure; hypoglycemia; end stage liver disease; human immunodeficiency virus,"['sepsis altered mental status', 'hypoxia', 'seizure', 'hypoglycemia', 'end stage liver disease', 'human immunodeficiency virus']","53M with HIV/hepC, admitted with nausea, weakness, hypotension",True,"The patient has a history of HIV/HEPC (hepatitis), which is directly mentioned in the Objective section. Additionally, lab results show elevated AST (44) and ALT (13) levels, although the ALT is not significantly elevated, the AST is, which can indicate liver damage or disease. The patient also has a low albumin level (1.8 g/dl), which can be seen in chronic liver disease. Furthermore, the presence of ascites and portal hypertension, as noted in the CT torso findings, are also indicative of liver disease. While these findings do not exclusively point to hepatitis, given the patient's known history of HEPC, it is reasonable to consider hepatitis as a relevant diagnosis. However, without more specific liver function tests or viral hepatitis panels, the diagnosis cannot be confirmed solely based on the provided information. Nonetheless, the combination of the patient's history, clinical presentation, and some laboratory findings leans towards the possibility of hepatitis being a factor in the patient's condition."
+142,198883.txt,"chief complaint
+ekg - at [**2132-6-3**] 12:45 pm
+triple introducer - start [**2132-6-3**] 12:55 pm
+ekg - at [**2132-6-3**] 02:40 pm
+[**6-3**]
+- hr remained in sinus tachy
+- bp stable in 80-90's which is her baseline
+- per liver, no plans for repeat liver bx at this time
+this morning has no complaints except very hungry. no chest pain,
+palitations, breathing at baseline, no abd pain.
+llergies:
+penicillins
+hives;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2132-6-3**] 08:01 pm
+other medications:
+flowsheet data as of  [**2132-6-4**] 07:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 35.6
+c (96
+hr: 99 (85 - 125) bpm
+bp: 130/51(67) {85/36(50) - 130/72(80)} mmhg
+rr: 21 (13 - 27) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+total in:
+3,976 ml
+76 ml
+po:
+tf:
+ivf:
+276 ml
+76 ml
+blood products:
+200 ml
+total out:
+700 ml
+300 ml
+urine:
+550 ml
+300 ml
+ng:
+stool:
+drains:
+150 ml
+balance:
+3,276 ml
+-224 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///16/
+gen: anxious, jaundiced
+heent: mm dry, sclerae icteric
+pulm: mostly clear with some scarce crackles
+cor: rrr, systolic murmur
+abd: obese, soft, normal
+ext: 3+ edema
+163 k/ul
+8.5 g/dl
+109 mg/dl
+0.6 mg/dl
+16 meq/l
+3.5 meq/l
+24 mg/dl
+116 meq/l
+142 meq/l
+26.0 %
+18.1 k/ul
+[image002.jpg]
+[**2132-6-3**]  12:36 pm
+[**2132-6-3**]  05:09 pm
+[**2132-6-4**]  05:18 am
+wbc
+15.8
+18.1
+hct
+26.9
+31.9
+26.0
+plt
+173
+163
+cr
+1.1
+0.6
+tropt
+0.02
+glucose
+76
+109
+other labs: pt / ptt / inr:23.2/47.4/2.2, ck / ckmb /
+troponin-t:25//0.02, alt / ast:25/87, alk phos / t bili:180/22.8,
+ca++:8.4 mg/dl, mg++:2.2 mg/dl, po4:3.3 mg/dl","# svt with hypotension: this occured in setting of having ra/rv
+   manipulated with wire; abdominal pain; # acute renal failure:; etoh cirrhosis:; # leukocytosis:",supraventricular tachycardia with hypotension this occurred in setting of having right atrium right ventricle manipulated with wire; abdominal pain; acute renal failure ; ethanol cirrhosis ; leukocytosis,"['supraventricular tachycardia with hypotension this occurred in setting of having right atrium right ventricle manipulated with wire', 'abdominal pain', 'acute renal failure', 'ethanol cirrhosis', 'leukocytosis']","Assessment and Plan
+ HYPOTENSION (NOT SHOCK)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ SUPRAVENTRICULAR TACHYCARDIA (SVT)
+   53 yo female with a history of ETOH cirrhosis c/b persistent
+   leukocytosis and elevated TBili, hx ascites, grade 1 varix, no hx SBP
+   or encephalopathy, recently discharged from [**Hospital1 5**] ([**Date range (1) 6020**]),
+   electively admitted [**5-28**] for an EUS to evaluate a GE junction polyp
+   (aborted given hypotension), now transferred to the liver service for
+   acute renal failure and ?decompensated cirrhosis.",True,"The patient presents with jaundice (indicated by 'gen: anxious, jaundiced' and 'heent: mm dry, sclerae icteric') and elevated liver enzymes (ALT/AST: 25/87), which are common signs of hepatitis. Additionally, the patient has elevated total bilirubin (t bili: 22.8), further supporting the diagnosis of hepatitis. The absence of abdominal pain and the mention of 'no plans for repeat liver bx at this time' do not strongly argue against hepatitis, as hepatitis can be asymptomatic or present with non-specific symptoms. The patient's overall clinical presentation, including laboratory findings and physical examination results, suggests hepatitis."
+160,187397.txt,"altered mental status
+- stayed in micu for combination of ?worsening dic picture, subjective
+dyspnea and wheezes.
+- afternoon check: fdp 40-80 in afternoon, f'gen down to 60, platelets
+(32-36). inr up to 2.1 overnight.
+- hct trend: 26.4 -> 26.1 -> 24.4 -> 25.2
+- cxr without change. u/a with both whites and reds, culture pending.
+- wheezing improved with nebs, have not yet started steroids.  sats in
+mid to upper 90s on ra.  put on 2 l mainly for comfort.
+- spiked to 100.5, cultured.
+- lactate 2.8 (from 1.7, though liver patient), down to 1.4 in am.
+- during sleep, dropping sbp to mid to low 80s, bolused 1 liter.
+- for all of the above, toyed with broadening antibiotic spectrum, but
+did not.
+penicillins
+rash;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2100-10-14**] 04:00 am
+vancomycin - [**2100-10-14**] 08:00 am
+aztreonam - [**2100-10-14**] 10:00 am
+ceftriaxone - [**2100-10-15**] 04:26 pm
+infusions:
+other icu medications:
+other medications:
+simethicone
+ceftriaxone d2
+lactulose 30 tid
+lansoprazole 30 daily
+iss
+vitamin k 5 mg daily
+albuterol nebs
+fluticasone 110 [**hospital1 **]
+flowsheet data as of  [**2100-10-16**] 08:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 35.7
+c (96.3
+hr: 88 (72 - 109) bpm
+bp: 100/61(70) {72/37(48) - 112/66(73)} mmhg
+rr: 18 (17 - 32) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+total in:
+2,230 ml
+530 ml
+po:
+580 ml
+360 ml
+tf:
+ivf:
+1,300 ml
+170 ml
+blood products:
+350 ml
+total out:
+992 ml
+250 ml
+urine:
+992 ml
+250 ml
+ng:
+stool:
+drains:
+balance:
+1,238 ml
+280 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///25/
+general appearance: well nourished, overweight / obese
+eyes / conjunctiva: perrl
+cardiovascular: (s1: normal), (s2: normal)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (breath sounds: clear : )
+abdominal: soft, non-tender, distended
+extremities: right: absent, left: absent
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+35 k/ul
+8.5 g/dl
+93 mg/dl
+0.9 mg/dl
+25 meq/l
+3.5 meq/l
+26 mg/dl
+109 meq/l
+141 meq/l
+25.2 %
+6.8 k/ul
+wbc
+5.4
+6.0
+7.4
+6.6
+6.9
+7.2
+7.4
+6.8
+hct
+25.7
+26.0
+27.1
+27.3
+26.4
+26.1
+24.4
+25.2
+plt
+48
+46
+36
+35
+35
+36
+32
+35
+cr
+1.2
+1.1
+1.1
+1.0
+0.9
+glucose
+184
+135
+158
+143
+154
+114
+93
+other labs: pt / ptt / inr:21.6/51.8/2.0, alt / ast:53/33, alk phos / t
+bili:114/5.6, differential-neuts:77.1 %, lymph:16.2 %, mono:5.6 %,
+eos:0.9 %, fibrinogen:72 mg/dl, lactic acid:1.4 mmol/l, albumin:3.1
+g/dl, ldh:312 iu/l, ca++:7.9 mg/dl, mg++:2.0 mg/dl, po4:1.2 mg/dl
+[**10-15**]
+urine culture, blood culture
+pending
+[**10-13**]
+c. diff negative",concerning for sepsis; low grade fever; anemia; thrombocytopenia; encephalopathy.; cirrhosis.,concerning for sepsis; low grade fever; anemia; thrombocytopenia; encephalopathy; cirrhosis,"['concerning for sepsis', 'low grade fever', 'anemia', 'thrombocytopenia', 'encephalopathy', 'cirrhosis']","Mr. [**Known lastname 2807**] is a 57 year old male with hepatitis C cirrhosis admitted
+   for altered mental status secondary to hepatic encephalopathy and
+   hypotension requiring pressors.",True,"The patient's laboratory results show elevated liver enzymes (ALT 53, AST 33), elevated total bilirubin (5.6), and an increased INR (2.0), which are indicative of liver dysfunction. The presence of lactulose in the medication list, which is commonly used to treat hepatic encephalopathy, and the mention of 'liver patient' in the subjective section, further support the diagnosis of hepatitis. Additionally, the patient's altered mental status could be a sign of hepatic encephalopathy, a complication of hepatitis. While the patient is on multiple medications and has other comorbidities, the combination of these findings suggests hepatitis as a likely diagnosis."
+174,104464.txt,"hypotension
+off dopamine, still on low-dose neosynephrine this am.  had a low bp
+after trial without pressors overnight, so neosynephrine restarted.  no
+more fluids given.
+multi lumen - start [**2141-1-6**] 03:22 pm
+blood cultured - at [**2141-1-6**] 04:31 pm
+blood cultured - at [**2141-1-6**] 04:31 pm
+levofloxacin
+lightheadedness
+morphine
+headache;
+adhesive tape (topical)
+rash;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+keflex - [**2141-1-6**] 11:00 pm
+infusions:
+phenylephrine - 2 mcg/kg/min
+other icu medications:
+ranitidine (prophylaxis) - [**2141-1-6**] 11:00 pm
+heparin sodium (prophylaxis) - [**2141-1-6**] 11:00 pm
+other medications:
+flowsheet data as of  [**2141-1-7**] 07:00 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.8
+c (100
+tcurrent: 35.6
+c (96
+hr: 86 (86 - 122) bpm
+bp: 120/43(62) {96/27(50) - 121/70(115)} mmhg
+rr: 20 (15 - 22) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+cvp: 10 (10 - 13)mmhg
+mixed venous o2% sat: 85 - 85
+total in:
+3,883 ml
+426 ml
+po:
+210 ml
+tf:
+ivf:
+1,973 ml
+426 ml
+blood products:
+total out:
+70 ml
+50 ml
+urine:
+20 ml
+50 ml
+ng:
+stool:
+drains:
+balance:
+3,813 ml
+376 ml
+respiratory support
+o2 delivery device: none
+spo2: 98%
+abg: 7.26/37/119/21/-9
+general: pleasant, sleepy but appropriate.
+cardiac: tachycardia with some premature beats.  +soft systolic murmur
+at lusb.  no gallops.  jvp not elevated.
+lungs:  decreased breath sounds at right with occasional crackles,
+otherwise clear.
+abdomen:  +bs, well-healed scar over ruq.  ++hepatomegaly, liver edge
+is not tender.  no splenomegaly.
+extremities: no edema or calf pain, weak dp pulses
+skin: no rashes/lesions, ecchymoses.  subclavian site clean and dry,
+not tender.
+112 k/ul
+12.3 g/dl
+94 mg/dl
+3.2 mg/dl
+21 meq/l
+3.9 meq/l
+43 mg/dl
+108 meq/l
+136 meq/l
+37.8 %
+11.7 k/ul
+[image002.jpg]
+[**2141-1-6**]  03:39 pm
+[**2141-1-6**]  04:23 pm
+[**2141-1-6**]  08:18 pm
+[**2141-1-7**]  04:28 am
+wbc
+11.1
+11.7
+hct
+42.9
+37.8
+plt
+121
+112
+cr
+3.2
+tropt
+0.04
+0.03
+tco2
+17
+glucose
+94
+other labs: pt / ptt / inr:13.0/34.9/1.1, ck / ckmb /
+troponin-t:34/5/0.03, alt / ast:41/42, alk phos / t bili:239/1.9,
+differential-neuts:61.0 %, band:3.0 %, lymph:21.0 %, mono:4.0 %,
+eos:6.0 %, lactic acid:1.6 mmol/l, albumin:2.2 g/dl, ca++:7.1 mg/dl,
+mg++:2.1 mg/dl, po4:3.2 mg/dl
+[**2141-1-6**] blood cx pending
+central venous sat 85
+no cxr today","hypotension; altered mental status; hypoxia; renal cell carcinoma with liver mets, s/p il-2 treatment; acute renal failure; metabolic acidosis",hypotension; altered mental status; hypoxia; renal cell carcinoma with liver metastases status post interleukin treatment; acute renal failure; metabolic acidosis,"['hypotension', 'altered mental status', 'hypoxia', 'renal cell carcinoma with liver metastases status post interleukin treatment', 'acute renal failure', 'metabolic acidosis']","67yo woman transferred to the medical ICU with hypotension and
+   somnolence in the setting of IL-2 treatment for metastatic renal cell
+   carcinoma.",True,"The patient's presentation includes hepatomegaly, which is a significant clue pointing towards liver pathology. Additionally, the lab results show elevated liver enzymes (ALT/AST: 41/42) and alkaline phosphatase (239), which are indicative of liver dysfunction. The presence of these findings, particularly the hepatomegaly and abnormal liver function tests, strongly suggests hepatitis. Although the patient is on various medications and has other systemic issues, the specific findings related to the liver (hepatomegaly and elevated liver enzymes) are key indicators of hepatitis. Therefore, based on the provided information, hepatitis is likely."
+197,105347.txt,"- underwent ercp yesterday
+- received ivf bolus 1000 cc ns x 2 for urine output of 20-30cc/h
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ampicillin/sulbactam (unasyn) - [**2144-8-18**] 12:30 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2144-8-18**] 06:54 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.6
+c (99.6
+tcurrent: 37.2
+c (99
+hr: 89 (89 - 103) bpm
+bp: 112/58(71) {100/51(63) - 112/58(71)} mmhg
+rr: 16 (16 - 21) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+total in:
+30 ml
+669 ml
+po:
+tf:
+ivf:
+30 ml
+669 ml
+blood products:
+total out:
+0 ml
+410 ml
+urine:
+410 ml
+ng:
+stool:
+drains:
+balance:
+30 ml
+259 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ////
+general: alert, oriented, no acute distress; observed sleeping prior to
+exam and pt noted to snore audibly
+heent: icteric sclera, dry mm, oropharynx clear
+neck: supple, jvp not elevated, no lad
+lungs: clear to auscultation bilaterally, intact air movement
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen: soft, non-tender, slight distension, bowel sounds present, no
+guarding and no tap tenderness
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+skin: 1 2cm bulla on medial side of 3rd toe on r foot; no other rashes
+or bullae in limited exam, no sarcoid nodules appreciated
+144 k/ul
+11.5 g/dl
+34.7 %
+23.7 k/ul
+[image002.jpg]
+alt: 86, ast: 110, ap: 103, tbili: 1.7
+pt: 15.7, ptt: 30.3, inr: 1.4
+micro: pending blood culture
+u/a negative
+imaging: wet read ruq u/s: gallstones, common bile duct dilated at 8mm
+[**2144-8-18**]  06:17 am
+wbc
+23.7
+hct
+34.7
+plt
+144",cholangitis; sarcoidosis; asthma; hypertension,cholangitis; sarcoidosis; asthma; hypertension,"['cholangitis', 'sarcoidosis', 'asthma', 'hypertension']","This is a 78 year old woman with a history
+   evidently significant for sarcoidosis and asthma as well as
+   hypertension who comes with a one day history of illness and presents
+   with evidence of cholangitis, confirmed by ERCP shortly after her
+   arrival to the [**Hospital Unit Name 4**].",True,"The patient presents with icteric sclera, which is a sign of jaundice, a common symptom of hepatitis. Additionally, the patient has elevated liver enzymes (ALT: 86, AST: 110, AP: 103) and a slightly elevated total bilirubin (TBili: 1.7), which can indicate liver inflammation or damage consistent with hepatitis. The recent ERCP procedure and presence of gallstones with a dilated common bile duct may also suggest a biliary obstruction, which could lead to or exacerbate hepatitis. However, the absence of specific symptoms like abdominal pain, nausea, or fatigue, which are commonly associated with hepatitis, and the lack of direct evidence of hepatitis infection (e.g., hepatitis virus serologies) introduce some uncertainty. Nonetheless, the combination of jaundice, elevated liver enzymes, and the context of recent biliary intervention lean towards a diagnosis of hepatitis."
+210,187637.txt,"31m with bipolar d/o and history of polysubstance
+abuse p/w fevers/hypotension after propofol injection.
+ultrasound - at [**2143-8-13**] 11:00 am
+ruq-liver - c/w acute hepatitis.
+blood cultured - at [**2143-8-13**] 02:00 pm
+x2 sets
+fever - 102.0
+f - [**2143-8-13**] 04:00 pm
+id curbsided in am re abx regimen:  vanc, [**last name (un) 430**] (listeria/clostridia
+coverage)
+increased pressor requirement
+continued fevers
+increased 02 requirement, ivf held
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2143-8-13**] 07:00 am
+ceftriaxone - [**2143-8-13**] 12:00 pm
+vancomycin - [**2143-8-13**] 08:00 pm
+meropenem - [**2143-8-14**] 06:02 am
+infusions:
+norepinephrine - 0.07 mcg/kg/min
+other icu medications:
+heparin sodium (prophylaxis) - [**2143-8-14**] 12:00 am
+other medications:
+flowsheet data as of  [**2143-8-14**] 07:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.9
+c (102
+tcurrent: 38.4
+c (101.1
+hr: 72 (72 - 106) bpm
+bp: 101/54(66) {81/39(52) - 125/79(88)} mmhg
+rr: 15 (7 - 31) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+height: 69 inch
+cvp: 17 (5 - 18)mmhg
+mixed venous o2% sat: 79 - 80
+total in:
+10,606 ml
+713 ml
+po:
+1,660 ml
+360 ml
+tf:
+ivf:
+3,446 ml
+353 ml
+blood products:
+total out:
+7,335 ml
+840 ml
+urine:
+6,035 ml
+840 ml
+ng:
+stool:
+drains:
+balance:
+3,271 ml
+-127 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///25/
+gen: awake, appropriate, nad
+heent: ncat, eomi, perrl, oropharynx clear without exudate, mm dry
+neck: supple, no lad, no appreciable jvd
+cv: rrr, normal s1s2, no murmurs, rubs or gallops
+pulm: ctab, no wheezes, diminished effort bilaterally
+abd: soft, mild epigastric tenderness, normoactive bowel sounds, liver
+edge palpable below costrophrenic angle, non-tender
+ext: warm and well perfused, full and symmetric distal pulses, no pedal
+edema, b/l knees appear normal, no erythema or swelling, no peripheral
+stigmata of endocarditis
+skin: no rashes, chronically sun exposed skin
+neuro: aaox3, responds appropriately to questions, cn 2-12 grossly
+intact, muscle strength 5/5 in all 4 ext., sensation intact to light
+touch.
+150 k/ul
+12.8 g/dl
+87 mg/dl
+0.9 mg/dl
+25 meq/l
+3.8 meq/l
+13 mg/dl
+103 meq/l
+135 meq/l
+33.7 %
+21.1 k/ul
+image002.jpg]
+[**2143-8-14**]  03:38 am
+wbc
+21.1
+hct
+33.7
+plt
+150
+cr
+0.9
+glucose
+87
+other labs: pt / ptt / inr:14.9/78.2/1.3, ck / ckmb / troponin-t:138//,
+alt / ast:269/203, alk phos / t bili:57/0.5, amylase / lipase:38/,
+differential-neuts:93.0 %, lymph:4.4 %, mono:2.1 %, eos:0.1 %, lactic
+acid:1.5 mmol/l, albumin:3.5 g/dl, ldh:350 iu/l, ca++:7.5 mg/dl,
+mg++:1.8 mg/dl, po4:2.3 mg/dl
+fluid analysis / other labs: cortsol: 26.6
+imaging: ruq u/s: impression:
+1. findings consistent with acute hepatitis. no biliary dilatation.
+2. small right pleural effusion.
+microbiology: from [**hospital3 1243**] from [**8-12**]: gpcs in at least 2 blood
+cx bottles, 1 bottle with gpb.","sepsis: likely source is propofol self injection from non-sterile
+   vial.; bipolar disorder:; polysubstance abuse",sepsis likely source is propofol self injection from non sterile vial ; bipolar disorder ; polysubstance abuse,"['sepsis likely source is propofol self injection from non sterile vial', 'bipolar disorder', 'polysubstance abuse']","31 y/o M with PMH of bipolar d/o and polysubstance abuse who presents
+   with sepsis after intraveneous propfol injection",True,"The patient's ultrasound showing findings consistent with acute hepatitis, along with elevated liver enzymes (ALT: 269, AST: 203) and the presence of a palpable liver edge, strongly suggest hepatitis. Additionally, the patient's history of polysubstance abuse and recent propofol injection could be risk factors for hepatitis. The absence of biliary dilatation and the specific mention of 'findings consistent with acute hepatitis' in the ultrasound impression further support this diagnosis. While the patient is being treated for other conditions, including sepsis (indicated by fever, hypotension, and increased pressor requirement), the specific evidence pointing towards hepatitis makes it a likely diagnosis."
+244,101194.txt,"presep catheter - start [**2189-12-4**] 06:21 pm
+paracentesis - at [**2189-12-4**] 11:00 pm
+- episodes of hypotension through the night treated with dexamethasone,
+vasopressin, pressors and blood products
+- poor uop overnight
+- paracentesis labs returned suggestive of sbp
+- s/p 6l ns
+- rij in ed with bleeding at insertion site; we placed additional
+sutures
+levaquin (oral) (levofloxacin)
+unknown;
+shellfish derived
+unknown;
+latex
+unknown;
+aranesp (injection) (darbepoetin alfa in [**first name9 (namepattern2) 10061**] [**male first name (un) **])
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2189-12-5**] 04:00 am
+infusions:
+norepinephrine - 0.2 mcg/kg/min
+vasopressin - 1.2 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2189-12-5**] 07:40 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**91**] am
+tmax: 36.2
+c (97.2
+tcurrent: 36.1
+c (97
+hr: 103 (93 - 136) bpm
+bp: 95/54(59) {76/40(47) - 101/81(71)} mmhg
+rr: 22 (18 - 32) insp/min
+spo2: 95%
+heart rhythm: af (atrial fibrillation)
+height: 73 inch
+co/ci (fick): (6.5 l/min) / (3.1 l/min/m2)
+svo2: 59%
+total in:
+2,572 ml
+2,328 ml
+po:
+tf:
+ivf:
+2,572 ml
+2,037 ml
+blood products:
+292 ml
+total out:
+300 ml
+135 ml
+urine:
+300 ml
+135 ml
+ng:
+stool:
+drains:
+balance:
+2,272 ml
+2,193 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///21/
+general: alert and oriented; able to relate history in detail
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple
+lungs: decreased breath sounds at the right base with mild to moderate
+crackles at bases; wheezes bilaterally
+cv: rrr, somewhat distant; jvd elevated
+abdomen: mildly protuberant, soft, non-tender
+extremities: 3+ pitting edema
+neuro: wide based markedly abnormal and tentative gait
+skin: improved maculopapular rash over back/trunk/flank/lower abdomen
+33 k/ul
+8.6 g/dl
+67 mg/dl
+1.9 mg/dl
+21 meq/l
+3.6 meq/l
+41 mg/dl
+112 meq/l
+142 meq/l
+26.9 %
+23.5 k/ul
+image002.jpg]
+[**2189-12-5**]  12:54 am
+[**2189-12-5**]  02:43 am
+wbc
+20.5
+23.5
+hct
+27.2
+26.9
+plt
+28
+33
+cr
+1.9
+glucose
+67
+other labs: pt / ptt / inr:16.7/49.1/1.5, alt / ast:58/48, alk phos / t
+bili:210/1.8, amylase / lipase:/21, lactic acid:1.1 mmol/l, albumin:2.5
+g/dl, ldh:356 iu/l, ca++:7.6 mg/dl, mg++:1.7 mg/dl, po4:3.4 mg/dl
+paracentesis results
+[**12-5**], [**12-4**] cxr
+final read pending;
+[**12-4**] ct abdomen/pelvis
+final read pending; cirrhosis with moderate
+ascites","hypotension/tachycardia/hypothermia; sbp; right pleural effusion. cannot rule out right lower quadrant
+   pneumonia, likely nosocomial (mrsa/pseudomonal).; tachycardia; chest pain/recent nstemi",hypotension tachycardia hypothermia; systolic blood pressure; right pleural effusion cannot rule out right lower quadrant pneumonia likely nosocomial methicillin resistant staphylococcus aureus pseudomonal ; tachycardia; chest pain recent non st elevation myocardial infarction,"['hypotension tachycardia hypothermia', 'systolic blood pressure', 'right pleural effusion cannot rule out right lower quadrant pneumonia likely nosocomial methicillin resistant staphylococcus aureus pseudomonal', 'tachycardia', 'chest pain recent non st elevation myocardial infarction']","75 yo M hx CAD s/p recent NSTEMI, a. fib not on Coumadin, and recent
+   hospitalization for SIRS now with pneumonia on CXR and hypotension.
+   .",True,"The patient's presentation includes several key findings that suggest hepatitis, particularly the mention of 'cirrhosis with moderate ascites' in the CT abdomen/pelvis results. Cirrhosis is a late-stage scarring (fibrosis) of the liver, often caused by hepatitis. Additionally, the elevated liver enzymes (ALT/AST of 58/48) and the presence of ascites (as indicated by the paracentesis and the CT scan) are consistent with liver disease. The patient's coagulopathy (as suggested by the PT/PTT/INR of 16.7/49.1/1.5) could also be related to liver dysfunction. While the patient has a complex clinical picture with multiple potential diagnoses, the specific findings related to liver disease (cirrhosis, ascites, elevated liver enzymes) strongly support the diagnosis of hepatitis or its complications."
+245,187859.txt,"large ugib
+radiation therapy - at [**2166-12-25**] 12:45 pm
+called out
+-got radiation treatment for first of 4 days in a row.
+-checking tumor lysis labs and hct q 6hrs
+-bmt with nothing new other than checking labs
+-got 2 units prbcs at 7p for hct drop from 27.5 to 24.7
+- started on clear liquids to advance as tol
+-ngt was removed
+-d/c'd abx
+- per bmt, continuing to alkalinize urine with bicarb ivf
+-note: pt has congenital nystagmus on exam
+- got 500cc bolus in afternoon and again in evening for tachycardia.
+-called out to bmt. hope to get a bed in the am.
+- cx ngtd
+history obtained from patient
+history obtained from patientno known drug allergies
+changes to  and
+fnone
+review of systems is unchanged from admission except as noted below
+review of systems:
+constitutional: no(t) fever
+ear, nose, throat: no(t) dry mouth
+cardiovascular: no(t) chest pain, no(t) palpitations, no(t) edema
+respiratory: no(t) cough, no(t) dyspnea
+gastrointestinal: abdominal pain, no(t) nausea, no(t) emesis, no(t)
+diarrhea, no(t) constipation
+integumentary (skin): jaundice, no(t) rash
+neurologic: no(t) headache
+psychiatric / sleep: no(t) agitated, no(t) suicidal, no(t) delirious,
+no(t) daytime somnolence","last dose of antibiotics:
+levofloxacin - [**2166-12-24**] 08:32 pm
+vancomycin - [**2166-12-25**] 08:15 am
+metronidazole - [**2166-12-25**] 09:15 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2166-12-26**] 08:04 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.6
+c (97.8
+tcurrent: 36.3
+c (97.3
+hr: 99 (83 - 107) bpm
+bp: 122/70(84) {103/57(70) - 132/94(104)} mmhg
+rr: 18 (10 - 21) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+height: 72 inch
+total in:
+5,401 ml
+974 ml
+po:
+960 ml
+tf:
+ivf:
+3,881 ml
+974 ml
+blood products:
+560 ml
+total out:
+4,935 ml
+1,750 ml
+urine:
+4,685 ml
+1,750 ml
+ng:
+250 ml
+stool:
+drains:
+balance:
+466 ml
+-776 ml
+respiratory support
+spo2: 100%
+abg: ///29/
+general appearance: well nourished, no acute distress
+eyes / conjunctiva: perrl, congenital nystagmus
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), no(t) rub, (murmur: no(t)
+systolic, no(t) diastolic)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: present), (left dp pulse:
+present)
+respiratory / chest: (expansion: symmetric), (breath sounds: clear : ,
+no(t) crackles : , no(t) wheezes : )
+abdominal: soft, bowel sounds present, tender: in luq slightly
+extremities: right: absent, left: absent, no(t) cyanosis, no(t)
+clubbing
+skin:  warm, jaundice
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, oriented (to): x3, movement: purposeful, no(t) sedated, tone:
+normal
+304 k/ul
+9.9 g/dl
+133 mg/dl
+0.7 mg/dl
+29 meq/l
+4.1 meq/l
+17 mg/dl
+104 meq/l
+138 meq/l
+27.1 %
+14.7 k/ul
+image002.jpg]
+[**2166-12-24**]  07:55 am
+[**2166-12-24**]  12:00 pm
+[**2166-12-24**]  08:02 pm
+[**2166-12-25**]  03:10 am
+[**2166-12-25**]  07:00 am
+[**2166-12-25**]  12:00 pm
+[**2166-12-25**]  01:39 pm
+[**2166-12-25**]  05:06 pm
+[**2166-12-26**]  12:01 am
+[**2166-12-26**]  03:15 am
+wbc
+18.3
+14.7
+hct
+21.7
+27.9
+30.7
+26.7
+28.5
+27.5
+24.7
+27.5
+27.1
+plt
+304
+304
+cr
+0.5
+0.7
+0.5
+0.6
+0.6
+0.5
+0.7
+glucose
+179
+134
+152
+133
+other labs: pt / ptt / inr:12.9/27.1/1.1, alt / ast:152/60, alk phos /
+t bili:349/2.7, amylase / lipase:/17, differential-neuts:95.4 %,
+lymph:2.0 %, mono:2.4 %, eos:0.1 %, lactic acid:1.9 mmol/l, albumin:2.5
+g/dl, ldh:187 iu/l, ca++:7.9 mg/dl, mg++:2.1 mg/dl, po4:4.4 mg/dl",gib; biliary obstruction secondary to malignancy:; b cell lymphoma,gastrointestinal bleeding; biliary obstruction secondary to malignancy ; b cell lymphoma,"['gastrointestinal bleeding', 'biliary obstruction secondary to malignancy', 'b cell lymphoma']","GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+ LYMPHOMA (CANCER, MALIGNANT NEOPLASM, LYMPHOID)
+   Patient is a 50 year old male with newly found B cell lymphoma
+   significant gi bleed, unclear whether from tumor, biopsy or
+   sphincterotomy",True,"The patient presents with jaundice, which is a key symptom of hepatitis. Additionally, laboratory results show elevated liver enzymes (ALT: 152, AST: 60) and total bilirubin (2.7 mg/dL), indicating liver dysfunction. The presence of abdominal pain and tender liver area (LUQ) also supports the diagnosis of hepatitis. Although the patient has been undergoing radiation therapy and has other comorbidities, the combination of jaundice, elevated liver enzymes, and abdominal pain suggests hepatitis as a likely diagnosis."
+247,103146.txt,"- blood cultures speciated - mssa. d'c ed vanco and started naficillin
+- had diuresed >3.5l at 1500 with map's in high 50-60's and was unable
+to wean off levophed. held lasix gtt and gave 250cc ivf. gave another
+250cc ivf at [**2104**], 500cc @ 2300
+- liver recs - likely [**year (4 digits) 1613**] liver, rec: abdominal u/s with dopplers,
+trend lft's and supportive care
+- had trouble weaning levophed, likely [**1-22**] intravascular volume
+depletion from overdiuresis
+pa pressure increasing
+negative yesterday, gave fluids and held lasix (look up totals in i/o)
+got nearly 3l since 1500 yesterday
+maps were low, need 60-65 goal, levophed went up (try to wean by
+increasing fluids)
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2114-4-24**] 08:00 pm
+metronidazole - [**2114-4-25**] 06:14 am
+vancomycin - [**2114-4-26**] 08:29 am
+nafcillin - [**2114-4-27**] 04:30 am
+infusions:
+norepinephrine - 0.05 mcg/kg/min
+dobutamine - 4 mcg/kg/min
+other icu medications:
+heparin sodium (prophylaxis) - [**2114-4-26**] 11:29 pm
+other medications:
+flowsheet data as of  [**2114-4-27**] 05:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.4
+c (97.5
+hr: 86 (81 - 96) bpm
+bp: 97/56(66) {69/16(41) - 109/67(74)} mmhg
+rr: 20 (13 - 27) insp/min
+spo2: 95%
+heart rhythm: af (atrial fibrillation)
+wgt (current): 121.1 kg (admission): 119.3 kg
+height: 69 inch
+cvp: 11 (1 - 13)mmhg
+pap: (86 mmhg) / (36 mmhg)
+pcwp: 0 (0 - 0) mmhg
+co/ci (fick): (4.7 l/min) / (2 l/min/m2)
+svo2: 49%
+mixed venous o2% sat: 40 - 57
+total in:
+4,429 ml
+876 ml
+po:
+660 ml
+360 ml
+tf:
+ivf:
+3,769 ml
+516 ml
+blood products:
+total out:
+5,905 ml
+475 ml
+urine:
+5,905 ml
+475 ml
+ng:
+stool:
+drains:
+balance:
+-1,476 ml
+401 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ///22/
+gen: nad. awake, alert
+heent: ncat perrl
+cv: irregularly irregular nl s1s2 harsh systolic murmur at base
+pulm: fine crackles at the bases, no wheezes or rhonchi appreciated
+abd: obese, soft non-distended, non-tender, normal bs
+ext:  warm, dry; trace edema, palpable dp/pt pulses bilat; no splinter
+hemorrhages, osler
+s nodes
+neuro: a&ox3, responds to questions appropriately
+105 k/ul
+9.9 g/dl
+182 mg/dl
+1.4 mg/dl
+22 meq/l
+3.6 meq/l
+50 mg/dl
+104 meq/l
+134 meq/l
+30
+12.6 k/ul
+[image002.jpg]
+[**2114-4-25**]  01:34 pm
+[**2114-4-25**]  08:22 pm
+[**2114-4-25**]  10:40 pm
+[**2114-4-26**]  04:30 am
+[**2114-4-26**]  04:55 am
+[**2114-4-26**]  01:54 pm
+[**2114-4-26**]  10:16 pm
+[**2114-4-26**]  10:23 pm
+[**2114-4-27**]  04:39 am
+[**2114-4-27**]  04:54 am
+wbc
+18.7
+14.4
+12.9
+12.6
+hct
+32.1
+29
+28
+30.1
+29
+29
+31.3
+31.2
+30
+plt
+148
+118
+105
+105
+cr
+2.4
+2.0
+1.7
+1.4
+glucose
+175
+156
+158
+182
+other labs: pt / ptt / inr:18.5/37.4/1.7, ck / ckmb /
+troponin-t:196/6/0.11, alt / ast:1434/1699, alk phos / t bili:74/3.1,
+amylase / lipase:22/27, differential-neuts:89.9 %, band:7.0 %,
+lymph:6.3 %, mono:3.7 %, eos:0.0 %, d-dimer:[**numeric identifier 5835**] ng/ml, fibrinogen:392
+mg/dl, lactic acid:1.4 mmol/l, albumin:3.7 g/dl, ldh:730 iu/l, ca++:7.8
+mg/dl, mg++:1.8 mg/dl, po4:2.6 mg/dl",septic [**numeric identifier 1613**]: [**1-22**] mssa bacteremia.; liver failure; as; acute on chronic systolic heart failure; dyspnea; arf; thrombocytopenia; afib; dm,septic numeric identifier methicillin sensitive staphylococcus aureus bacteremia ; liver failure; aortic stenosis; acute on chronic systolic heart failure; dyspnea; acute renal failure; thrombocytopenia; atrial fibrillation; diabetes mellitus,"['septic numeric identifier methicillin sensitive staphylococcus aureus bacteremia', 'liver failure', 'aortic stenosis', 'acute on chronic systolic heart failure', 'dyspnea', 'acute renal failure', 'thrombocytopenia', 'atrial fibrillation', 'diabetes mellitus']","64 M w/ nonischemic dilated cardiomyopathy (EF 25%), severe AS,
+   rheumatic MS, DM, COPD, OSA & pulm HTN admitted to OSH with DOE,
+   transferred for further evaluation of AS, now with GPC bacteremia and
+   septic [**Numeric Identifier 1613**].
+   .",True,"The patient's laboratory results show significantly elevated liver enzymes (ALT: 1434, AST: 1699), which is a strong indicator of liver damage or inflammation, consistent with hepatitis. Additionally, the patient has a recommendation for an abdominal ultrasound with Dopplers and to trend liver function tests (LFTs), suggesting that the healthcare team is investigating liver pathology. While the patient is on multiple medications, including antibiotics, which could potentially cause liver enzyme elevations, the degree of elevation and the specific recommendation for liver-related tests point towards a liver condition such as hepatitis. However, without explicit mention of hepatitis markers (e.g., hepatitis B surface antigen, hepatitis C antibody) or liver biopsy results, the diagnosis relies on the interpretation of elevated liver enzymes and clinical context. Given the information provided, the most likely explanation for the elevated liver enzymes in this context is hepatitis, although the exact type (A, B, C, etc.) cannot be determined from the provided data."
+277,192003.txt,"40 yo f with cirrhosis [**1-24**] hep c, copd, depression who
+presents with abdominal pain, nausea, vomiting, melena, breast pain and
+a rash, broken ribs. respiratory failure, dic, sepsis, hepatic failure
+and altered mental status primary issues at present.
+blood cultured - at [**2141-1-22**] 04:49 am
+- hepatology recommended no tips, will look into possibility of
+embolization.
+- called and spoke with [**doctor first name 1271**] at organ bank. they said that we should
+not recommend to the family organ donation.
+- one liter lr
+- hct: 20 (3u) -> 21 (2u) -> 22.6 ->19.9 (2u) ->
+- 2ffp - 1plt - 1cryo
+- [**telephone/fax (1) 10591**], [**doctor first name 2778**] ([**name (ni) 10658**] husband)
+- at this time plan to make cmo tomorrow when [**doctor first name **]/[**doctor first name **] come to the
+hospital.
+- yeast - [**female first name (un) **] albicans.
+- id: continue micafungin and await c. albican sensitivities.
+- increased d5w to 200cc hour given 6 liter free water deficit.
+- 1800 sats to 88%. improved some with suction. lasix 20mg iv once.
+penicillins
+unknown;
+erythromycin base
+unknown;
+sulfonamides
+unknown;
+zithromax (oral) (azithromycin)
+unknown;
+ceftin (oral) (cefuroxime axetil)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+micafungin - [**2141-1-21**] 11:56 am
+vancomycin - [**2141-1-21**] 07:31 pm
+meropenem - [**2141-1-21**] 10:35 pm
+metronidazole - [**2141-1-22**] 05:40 am
+infusions:
+octreotide - 50 mcg/hour
+pantoprazole (protonix) - 8 mg/hour
+other icu medications:
+furosemide (lasix) - [**2141-1-21**] 06:21 pm
+methadone hydrochloride - [**2141-1-22**] 03:33 am
+other medications:
+flowsheet data as of  [**2141-1-22**] 08:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**42**] am
+tmax: 36.2
+c (97.2
+tcurrent: 35.6
+c (96.1
+hr: 64 (64 - 92) bpm
+bp: 126/50(69) {86/45(62) - 137/85(95)} mmhg
+rr: 25 (0 - 25) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 113 kg (admission): 108 kg
+height: 63 inch
+cvp: 11 (10 - 17)mmhg
+total in:
+8,187 ml
+2,283 ml
+po:
+tf:
+ivf:
+4,581 ml
+1,782 ml
+blood products:
+3,606 ml
+502 ml
+total out:
+3,970 ml
+735 ml
+urine:
+3,370 ml
+435 ml
+ng:
+stool:
+600 ml
+300 ml
+drains:
+balance:
+4,217 ml
+1,548 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 400 (400 - 400) ml
+rr (set): 25
+rr (spontaneous): 0
+peep: 18 cmh2o
+fio2: 60%
+pip: 37 cmh2o
+plateau: 33 cmh2o
+compliance: 26.7 cmh2o/ml
+spo2: 92%
+abg: 7.52/46/59/38/12
+ve: 9.6 l/min
+pao2 / fio2: 98
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+/
+29 k/ul
+8.6 g/dl
+298 mg/dl
+0.4 mg/dl
+38 meq/l
+4.1 meq/l
+58 mg/dl
+107 meq/l
+154 meq/l
+23.4 %
+5.4 k/ul
+[image002.jpg]
+[**2141-1-20**]  06:55 pm
+[**2141-1-21**]  01:00 am
+[**2141-1-21**]  03:30 am
+[**2141-1-21**]  03:38 am
+[**2141-1-21**]  09:56 am
+[**2141-1-21**]  03:12 pm
+[**2141-1-21**]  09:40 pm
+[**2141-1-22**]  03:54 am
+[**2141-1-22**]  04:05 am
+[**2141-1-22**]  06:15 am
+wbc
+10.3
+15.3
+13.1
+6.2
+4.8
+5.4
+hct
+19.8
+20.2
+21.1
+22.6
+19.9
+23.4
+plt
+45
+65
+46
+23
+18
+29
+cr
+0.6
+0.6
+0.5
+0.4
+0.4
+tco2
+40
+40
+40
+39
+glucose
+176
+174
+204
+281
+298
+other labs: pt / ptt / inr:27.3/36.7/2.7, ck / ckmb /
+troponin-t:317/19/<0.01, alt / ast:59/180, alk phos / t bili:56/37.1,
+amylase / lipase:[**11-17**], differential-neuts:71.0 %, band:5.0 %,
+lymph:11.0 %, mono:8.0 %, eos:0.0 %, d-dimer:7666 ng/ml, fibrinogen:138
+mg/dl, lactic acid:5.8 mmol/l, albumin:2.9 g/dl, ldh:761 iu/l, ca++:9.3
+mg/dl, mg++:2.7 mg/dl, po4:3.6 mg/dl
+fluid analysis / other labs: none.
+imaging: cxr without obvious area of consolidation but some patchy
+opacity. effusions and infiltrate diffusely with comparison to
+admission. interval improvement from yesterday.
+microbiology: significant results have been strep. pneumoniae (not in
+recent) and [**female first name (un) **] albicans in blood cultures.
+ecg: no new.",# gib/brbpr; # fungemia; # sepsis/strep pneumo bacteremia; # respiratory failure/pleural effusion; altered mental status; transaminitis/hyperbilirubinemia; abdominal rash; # cirrhosis; pancytopenia; rib fractures/trauma,gastrointestinal bleeding bright red blood per rectum; fungemia; sepsis streptococcus pneumoniae bacteremia; respiratory failure pleural effusion; altered mental status; transaminitis hyperbilirubinemia; abdominal rash; cirrhosis; pancytopenia; rib fractures trauma,"['gastrointestinal bleeding bright red blood per rectum', 'fungemia', 'sepsis streptococcus pneumoniae bacteremia', 'respiratory failure pleural effusion', 'altered mental status', 'transaminitis hyperbilirubinemia', 'abdominal rash', 'cirrhosis', 'pancytopenia', 'rib fractures trauma']","GASTROINTESTINAL BLEED, LOWER (HEMATOCHEZIA, BRBPR, GI BLEED, GIB)
+ ESOPHAGEAL VARICES
+ IMPAIRED SKIN INTEGRITY
+ PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ SEPSIS, SEVERE (WITH ORGAN DYSFUNCTION)
+ ALTERATION IN NUTRITION
+ ASCITES
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ ACUTE RESPIRATORY DISTRESS SYNDROME (ARDS, ACUTE LUNG INJURY, [**Doctor Last Name 2**])
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+ COAGULOPATHY
+ RASH
+   40 yo F with cirrhosis [**1-24**] hep C, COPD, depression who presents with
+   abdominal pain, nausea, vomiting, melena, breast pain and a rash,
+   broken ribs. Respiratory failure, DIC, sepsis, hepatic failure and
+   altered mental status primary issues at present.
+   Impression: Liver failure complicated by coma, coagulopathy and gastric
+   varices that are now bleeding. Prognosis very poor. Will meet with
+   family today to discuss goals of care.",True,"The patient has a history of hepatitis C and cirrhosis, which are significant risk factors for liver disease. The patient's current presentation includes abdominal pain, nausea, vomiting, and melena, which can be symptoms of liver dysfunction. Additionally, the patient has hepatic failure and altered mental status, which are concerning for advanced liver disease. The laboratory results show elevated liver enzymes (ALT 59, AST 180) and low albumin (2.9 g/dl), which are indicative of liver dysfunction. The patient's coagulopathy (INR 2.7) and thrombocytopenia (platelet count 29 k/ul) are also consistent with liver disease. While the patient has multiple other comorbidities and complications, the presence of hepatitis C and cirrhosis, combined with the clinical and laboratory evidence of liver dysfunction, suggests that hepatitis is a significant contributor to the patient's current condition."
+305,190862.txt,,"wbc
+57.1
+45.1
+32.1
+19.5
+16.0
+hct
+30.1
+29.9
+31.5
+28.8
+30.0
+plt
+[**telephone/fax (3) 1226**]34
+320
+cr
+4.5
+4.3
+4.5
+4.6
+4.3
+3.9
+tropt
+0.82
+0.70
+0.62
+tco2
+17
+glucose
+106
+141
+99
+93
+94
+84
+88
+other labs: pt / ptt / inr:13.8/31.0/1.2, ck / ckmb /
+troponin-t:54/7/0.62, alt / ast:59/32, alk phos / t bili:532/2.5,
+amylase / lipase:84/25, differential-neuts:84.4 %, band:0.0 %,
+lymph:8.1 %, mono:4.3 %, eos:3.0 %, lactic acid:1.2 mmol/l, albumin:2.5
+g/dl, ldh:318 iu/l, ca++:7.7 mg/dl, mg++:2.7 mg/dl, po4:3.8 mg/dl
+corrected serum ca = 8.9
+tte ([**2124-9-11**]): the left atrium is elongated. the left ventricular
+cavity is moderately dilated. overall left ventricular systolic
+function is severely depressed (lvef= 20-25 %). there is no ventricular
+septal defect. right ventricular chamber size and free wall motion are
+normal. there is abnormal septal motion/position. the ascending aorta
+is mildly dilated. the aortic valve leaflets (3) are mildly thickened
+but aortic stenosis is not present. no aortic regurgitation is seen.
+the mitral valve leaflets are mildly thickened. there is no mitral
+valve prolapse. mild (1+) mitral regurgitation is seen. there is
+borderline pulmonary artery systolic hypertension. there is no
+pericardial effusion. impression: moderately dilated lv cavity with
+severe global hypokinesis. mild mitral regurgitation.",# cholangitis; cad; htn; aocrf,cholangitis; coronary artery disease; hypertension; acute on chronic renal failure,"['cholangitis', 'coronary artery disease', 'hypertension', 'acute on chronic renal failure']","81 yo man with CAD s/p CABG, recent NSTEMI at OSH, HTN, CKD here for
+   ERCP ([**2124-8-9**]) for cholangitis and admitted to ICU with hypotension,
+   now resolved",True,"The patient's lab results show elevated liver enzymes (ALT: 59, AST: 32) and alkaline phosphatase (532), which are indicative of liver damage or disease. The presence of elevated bilirubin (2.5) also suggests liver dysfunction. However, the patient's albumin level is low (2.5 g/dl), which can be seen in chronic liver disease. The provided information does not include symptoms typically associated with hepatitis, such as jaundice, dark urine, or fatigue, as the subjective section is empty. Despite this, the objective findings of abnormal liver function tests are highly suggestive of hepatitis or another liver condition. Given the available data, it is reasonable to conclude that hepatitis is likely, although the absence of specific symptoms and a more detailed clinical history introduces some uncertainty."
+316,189583.txt,"[**7-19**]
+- lfts continuing to trend down
+- hct bumped 16.9 -> 20.3 w/ 2 units. received another 2 units with hct
+21.2. transfused 1 more unit...
+- tbili decreased 2.7 -> 2.4. hapto...
+- fibrinogen 2.1 and coags stable.
+- repeat cbc still w/ pancytopenia. anc 120.
+- heme-onc did bm tap. likely infectious rather than lymphoma. no
+blasts on smear. would check dic labs (coags, fibrinogen), tumor lysis
+labs (chem 10, uric acid, ldh), also lfts qid-tid.
+- id thought most likely viral (parvo, influenza, cmv, ebv, hsv; also
+mycoplasma). added acv. given hypoxia, recommended ct chest; resp cx.
+also concerned about cns process and recommended lp and mri head -
+holding on ordering for now.
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+neutropenia; pa
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+azithromycin - [**2187-7-19**] 10:30 pm
+cefipime - [**2187-7-20**] 12:00 am
+acyclovir - [**2187-7-20**] 01:02 am
+vancomycin - [**2187-7-20**] 02:00 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2187-7-20**] 07:01 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 37.1
+c (98.8
+hr: 95 (85 - 99) bpm
+bp: 107/69(77) {97/46(58) - 127/85(92)} mmhg
+rr: 27 (15 - 28) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+height: 72 inch
+total in:
+3,005 ml
+540 ml
+po:
+tf:
+ivf:
+1,800 ml
+420 ml
+blood products:
+725 ml
+total out:
+2,070 ml
+600 ml
+urine:
+2,070 ml
+600 ml
+ng:
+stool:
+drains:
+balance:
+935 ml
+-60 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 92%
+abg: ///28/
+general: alert, oriented, following commands, answering yes and no
+questions, no acute distress
+heent: sclera mildly icteric, mmm, oropharynx clear
+lungs: scattered expiratory wheezes, no rales, ronchi, dry cough
+cv: regular rate and rhythm, normal s1, split s2, no murmurs, rubs,
+gallops
+abdomen: soft, non-tender, non-distended, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+ext: warm, well perfused, 2+ pulses, pitting edema on left to ankle,
+right knee w/ mild effusion, +warmth, right wrist/knee contracted, righ
+foot drop, no other joint effusions
+skin: faint [**doctor last name **] rash over arms/trunk, + blanching, rle without
+erythema, warmth, few scabbed over abrasions on 5th digit.
+/
+152 k/ul
+8.3 g/dl
+104 mg/dl
+0.5 mg/dl
+28 meq/l
+3.8 meq/l
+8 mg/dl
+99 meq/l
+132 meq/l
+23.9 %
+0.7 k/ul
+[image002.jpg]
+pt: 13.5
+ptt: 21.6
+inr: 1.2
+fibrinogen: 287
+ca: 7.6 mg: 2.0 p: 1.7
+alt: 57
+ap: 92
+tbili: 2.3
+alb:
+ast: 34
+ldh: 537
+dbili:
+tprot:
+[**doctor first name 92**]: 430
+lip: 763
+urica:1.6
+[**2187-7-19**]  08:56 am
+[**2187-7-19**]  02:21 pm
+[**2187-7-19**]  09:40 pm
+[**2187-7-20**]  05:14 am
+wbc
+0.4
+0.5
+0.7
+hct
+21
+21.2
+24.0
+23.9
+plt
+118
+130
+152
+cr
+0.5
+0.4
+0.5
+glucose
+100
+105
+104
+other labs: pt / ptt / inr:13.5/21.6/1.2, alt / ast:57/34, alk phos / t
+bili:92/2.3, amylase / lipase:430/763, fibrinogen:287 mg/dl, lactic
+acid:0.6 mmol/l, ldh:537 iu/l, ca++:7.6 mg/dl, mg++:2.0 mg/dl, po4:1.7
+mg/dl
+cmv viral load-pending
+cryptococcal antigen-pending
+mrsa screen-pending
+blood culture, routine-pending
+hiv-1 viral load/ultrasensitive-pending
+blood culture, routine-pending
+[**doctor last name **]-[**doctor last name **] virus vca-igg ab-pending; [**doctor last name **]-[**doctor last name **] virus ebna igg
+ab-pending; [**doctor last name **]-[**doctor last name **] virus vca-igm ab-pending
+cmv igg antibody-pending; cmv igm antibody-pending
+lyme serology-pending
+ct chest : bilateral pe
+s that appear chronic. fr pending.",pancytopenia; pe; pancreatitis; gi bleed; # hiv -,pancytopenia; pulmonary embolism; pancreatitis; gastrointestinal bleed; fracture human immunodeficiency virus,"['pancytopenia', 'pulmonary embolism', 'pancreatitis', 'gastrointestinal bleed', 'fracture human immunodeficiency virus']","PANCYTOPENIA
+   40 yo M with HIV, PML presents with malaise found to have pancytopenia,
+   elevated LFTs, pancreatitis, and possible GI bleed.",True,"The patient's presentation includes mildly icteric sclera, which suggests jaundice, a common symptom of hepatitis. Additionally, the patient has abnormal liver function tests (LFTs) with an ALT of 57 and an AST of 34, indicating liver injury. The total bilirubin (tbili) is 2.3, which is slightly elevated. However, the clinical context also suggests consideration of other diagnoses, such as infections (given the use of antibiotics and antivirals like acyclovir) and potential hematologic issues (given the pancytopenia and recent blood transfusions). Despite these considerations, the specific mention of 'lfts continuing to trend down' and the presence of jaundice are key indicators that lean towards hepatitis as a potential diagnosis. The pending viral load tests, including CMV and HIV, will provide more definitive information but based on the current evidence, hepatitis seems plausible."
+325,106374.txt,"transthoracic echo - at [**2127-9-26**] 11:00 am
+called out
+percocet (oral) (oxycodone hcl/acetaminophen)
+unknown;
+codeine
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2127-9-25**] 09:22 pm
+ceftriaxone - [**2127-9-26**] 07:05 pm
+ampicillin - [**2127-9-27**] 04:05 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2127-9-27**] 06:34 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.5
+c (97.7
+tcurrent: 36.5
+c (97.7
+hr: 94 (69 - 94) bpm
+bp: 170/101(118) {137/80(96) - 172/105(118)} mmhg
+rr: 16 (10 - 23) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 57 inch
+cvp: 16 (14 - 16)mmhg
+svo2: 72%
+total in:
+1,956 ml
+266 ml
+po:
+tf:
+ivf:
+1,410 ml
+266 ml
+blood products:
+546 ml
+total out:
+844 ml
+321 ml
+urine:
+844 ml
+321 ml
+ng:
+stool:
+drains:
+balance:
+1,112 ml
+-55 ml
+respiratory support
+o2 delivery device: none
+spo2: 97%
+abg: ///23/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+113 k/ul
+10.9 g/dl
+38 mg/dl
+3.3 mg/dl
+23 meq/l
+4.1 meq/l
+62 mg/dl
+105 meq/l
+144 meq/l
+33.8 %
+9.0 k/ul
+[image002.jpg]
+[**2127-9-25**]  01:49 pm
+[**2127-9-25**]  07:19 pm
+[**2127-9-26**]  05:49 am
+[**2127-9-27**]  04:00 am
+wbc
+10.1
+9.0
+hct
+33
+33.1
+33.8
+plt
+154
+113
+cr
+3.7
+3.3
+tropt
+0.18
+0.17
+glucose
+74
+38
+other labs: pt / ptt / inr:66.2/39.8/8.0, ck / ckmb /
+troponin-t:73/4/0.17, alt / ast:487/843, alk phos / t bili:110/1.7,
+differential-neuts:83.7 %, lymph:12.6 %, mono:3.5 %, eos:0.2 %, lactic
+acid:2.2 mmol/l, albumin:2.7 g/dl, ldh:1191 iu/l, ca++:7.9 mg/dl,
+mg++:1.8 mg/dl, po4:4.6 mg/dl",mental status changes; acute on chornic renal failure; chf; cad,mental status changes; acute on chronic renal failure; congestive heart failure; coronary artery disease,"['mental status changes', 'acute on chronic renal failure', 'congestive heart failure', 'coronary artery disease']","70 yoF w/ a h/o CHF EF 20%, DMII, CAD , PVD, HTN, COPD, and
+   CKD w/ a baseline Cr of 2.0 found unresponsive by her husband.
+   [**Name (NI) 440**]:",True,"The patient's lab results show significantly elevated liver enzymes (ALT: 487, AST: 843), which are indicative of liver damage or inflammation, a common symptom of hepatitis. Additionally, the low albumin level (2.7 g/dl) and elevated total bilirubin (1.7) also support the diagnosis of hepatitis. Although the patient's vital signs and other lab results are provided, the key indicators of liver health point towards hepatitis. The presence of other symptoms or conditions (such as the use of antibiotics and other medications) does not rule out the diagnosis of hepatitis, especially given the specific liver enzyme elevations."
+359,126165.txt,"chief complaint: 29 yr man with polysubstance abuse/ hep c. pea arrest in ed. had multiple ct's in ed. ck 260,000. i saw and examined the patient, and was physically present with the icu resident for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: tox screen pos for opiates, benzo's, cocaine 24 hour events: dialyzed for hyperkalemia, cooled per protocol. dialysis today sbt tried and failed. c spine cleared sputum with staph aureus now making some urine following simple commands history obtained from medical records patient unable to provide history: sedated allergies: no known drug allergies","last dose of antibiotics: cefipime -  03:00 pm clindamycin -  08:00 am azithromycin -  12:00 pm infusions: fentanyl - 200 mcg/hour other icu medications: famotidine (pepcid) -  12:00 pm heparin sodium (prophylaxis) -  08:15 am other medications: albuterol, versed drip, vanco changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   11:22 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.7 c (99.8 tcurrent: 37.4 c (99.3 hr: 81 (80 - 102) bpm bp: 116/98(102) {82/69(71) - 156/102(116)} mmhg rr: 22 (0 - 28) insp/min spo2: 97% heart rhythm: sr (sinus rhythm) height: 75 inch cvp: 6 (6 - 18)mmhg total in: 1,646 ml 443 ml po: tf: ivf: 1,646 ml 443 ml blood products: total out: 190 ml 110 ml urine: 115 ml 110 ml ng: stool: drains: balance: 1,456 ml 333 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 490 (490 - 490) ml rr (set): 20 rr (spontaneous): 0 peep: 8 cmh2o fio2: 40% rsbi: 10 rsbi deferred: agitated pip: 33 cmh2o plateau: 18 cmh2o compliance: 61.3 cmh2o/ml spo2: 97% abg: 7.39/42/108/25/0 ve: 9.1 l/min pao2 / fio2: 270 physical examination general appearance: well nourished, no(t) overweight / obese eyes / conjunctiva: perrl head, ears, nose, throat: normocephalic, poor dentition lymphatic: cervical wnl cardiovascular: (s1: normal), (s2: normal) peripheral vascular: (right radial pulse: present), (left radial pulse: present), (right dp pulse: present), (left dp pulse: present) respiratory / chest: (expansion: symmetric), (percussion: resonant : ), (breath sounds: clear : ) abdominal: soft, non-tender, bowel sounds present, no(t) obese extremities: right: trace, left: trace, r thigh larger than left; bilateral upper extremity edema musculoskeletal: unable to stand skin:  warm neurologic: attentive, follows simple commands, responds to: verbal stimuli, movement: purposeful, tone: normal labs / radiology 11.4 g/dl 109 k/ul 84 mg/dl 7.2 mg/dl 25 meq/l 4.5 meq/l 53 mg/dl 103 meq/l 142 meq/l 31.4 % 12.3 k/ul [image002.jpg]   07:36 am   08:13 am   11:36 am   11:52 am   04:50 pm   11:22 pm   04:18 am   06:20 am   11:36 am   03:55 am wbc 10.9 12.3 hct 35.4 31.4 plt 106 109 cr 4.2 2.8 4.6 7.2 tropt 0.54 0.83 tco2 25 25 26 26 26 glucose 105 126 106 96 84 other labs: pt / ptt / inr:13.6/29.4/1.2, ck / ckmb / troponin-t://0.83, alt / ast:630/920, alk phos / t bili:64/0.7, differential-neuts:80.8 %, lymph:14.8 %, mono:3.9 %, eos:0.3 %, fibrinogen:455 mg/dl, lactic acid:1.4 mmol/l, albumin:2.5 g/dl, ldh:1585 iu/l, ca++:8.1 mg/dl, mg++:2.1 mg/dl, po4:5.1 mg/dl","respiratory
+   alkalosis; rhabdomyolysis/acute renal failure; hypertension; pea arrest: his arrest was felt to likely be a combination of
+   hyperkalemia, hypoxia, hypercarbia, and/or acidemia.; ",respiratory alkalosis; rhabdomyolysis acute renal failure; hypertension; pulseless electrical activity arrest his arrest was felt to likely be a combination of hyperkalemia hypoxia hypercarbia and or acidemia ;,"['respiratory alkalosis', 'rhabdomyolysis acute renal failure', 'hypertension', 'pulseless electrical activity arrest his arrest was felt to likely be a combination of hyperkalemia hypoxia hypercarbia and or acidemia']","29 year old male who was found down with toxicology screen
+   positive for opiates, benzos, and cocaine with resultant respiratory
+   depression, acidemia, rhabdomyolysis, acute renal failure,  intubated
+   after PEA arrest in emergency room, extubated [**11-9**], with respiratory
+   alkalosis.",True,"The patient has a history of hepatitis C, which is a significant risk factor for liver disease. The laboratory results show elevated liver enzymes (ALT: 630, AST: 920), indicating liver damage or inflammation, which is consistent with hepatitis. Additionally, the patient's low albumin level (2.5 g/dl) and elevated bilirubin level (0.7 mg/dl) also suggest liver dysfunction. The patient's clinical presentation, including the chief complaint and physical examination findings, does not provide strong evidence against hepatitis. Therefore, based on the patient's history and laboratory results, it is likely that the patient has hepatitis."
+360,127339.txt,"chief complaint: 24 hour events: blood cultured - at  05:26 am peripheral patient had episode of brbpr this am, remained asymptomatic and vss. per patient has never had bloody stools. allergies: no known drug allergies","last dose of antibiotics: ampicillin/sulbactam (unasyn) -  04:00 am infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   08:20 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.6 c (97.8 tcurrent: 36.4 c (97.6 hr: 77 (64 - 81) bpm bp: 125/79(87) {109/55(74) - 153/88(103)} mmhg rr: 25 (13 - 26) insp/min spo2: 94% heart rhythm: af (atrial fibrillation) wgt (current): 69.6 kg (admission): 69.6 kg height: 69 inch total in: 240 ml 1,342 ml po: 60 ml tf: ivf: 180 ml 767 ml blood products: 575 ml total out: 1,610 ml 365 ml urine: 110 ml 365 ml ng: stool: drains: balance: -1,370 ml 977 ml respiratory support o2 delivery device: nasal cannula spo2: 94% abg: ///21/ physical examination gen: jaundiced lungs: ctab cv: irregular,  holosystolic murmur with a palpable thrill appreciated at the apex, no rubs or gallops abdomen:  soft, ntnd, bowel sounds present ext: no edema. left  toe stage ii ulcer, wrapped w/ guaze labs / radiology 155 k/ul 10.6 g/dl 72 mg/dl 0.9 mg/dl 21 meq/l 4.3 meq/l 23 mg/dl 108 meq/l 143 meq/l 30.8 % 5.9 k/ul [image002.jpg]   12:00 am   05:18 am   06:04 am wbc 5.9 hct 30.1 30.8 plt 155 cr 0.9 tropt 0.06 glucose 113 72 other labs: pt / ptt / inr:24.7/44.6/2.4, ck / ckmb / troponin-t:69/3/0.06, alt / ast:134/188, alk phos / t bili:278/5.6, albumin:3.5 g/dl, ca++:9.3 mg/dl, mg++:2.1 mg/dl, po4:3.4 mg/dl",brbpr: likely lower gi bleed; choledocholithiasis; afib; ,bright red blood per rectum likely lower gastrointestinal bleed; choledocholithiasis; atrial fibrillation;,"['bright red blood per rectum likely lower gastrointestinal bleed', 'choledocholithiasis', 'atrial fibrillation']","88 yo M with PMHx sig. for afib, HTN who presents
+   with chest pain, found to have jaundice and choledocholithiasis.",True,"The patient's presentation includes jaundice, which is a key symptom of hepatitis. Additionally, the laboratory results show elevated liver enzymes (ALT: 134, AST: 188) and total bilirubin (5.6 mg/dL), which are indicative of liver dysfunction. The presence of jaundice and abnormal liver function tests (LFTs) suggests hepatitis. However, the patient's clinical context, including the recent use of antibiotics (ampicillin/sulbactam) and the absence of other typical hepatitis symptoms (e.g., nausea, vomiting, abdominal pain), should be considered. Despite these factors, the elevated LFTs and jaundice provide strong evidence for hepatitis. Therefore, based on the available information, hepatitis is likely."
+366,129917.txt,"chief complaint: 24 hour events: - liver recommended mrcp, although feel that tpn could be playing a role - surgery would like to hold off on mrcp until patient more stable - psychiatry feels patient is mildly delerious although compensated  by family -> no psychoactive medications at this time - ferritin elevated to 3303 - ? of hemochromatosis (ask liver tomorrow) - bicarb down to 15 and vbg with ph of 7.31/38/38/20 - urine and ostomy lytes indicate ? bicarb wasting out of ostomy. allergies: lisinopril hives; aspirin dyspepsia;","last dose of antibiotics: infusions: other icu medications: pantoprazole (protonix) -  08:00 am other medications: changes to medical and family history: no changes review of systems is unchanged from admission except as noted below review of systems: no complaints today. no pain. no fevers chills. abdomen without tenderness. flowsheet data as of   04:33 pm vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.7 c (99.9 tcurrent: 37.5 c (99.5 hr: 93 (85 - 109) bpm bp: 124/65(79) {119/49(69) - 140/70(87)} mmhg rr: 23 (18 - 38) insp/min spo2: 97% heart rhythm: sr (sinus rhythm) wgt (current): 87.2 kg (admission): 81.2 kg height: 61 inch total in: 2,280 ml 1,756 ml po: tf: ivf: 881 ml 797 ml blood products: total out: 2,775 ml 1,560 ml urine: 2,175 ml 1,460 ml ng: stool: drains: balance: -495 ml 196 ml respiratory support o2 delivery device: none spo2: 97% abg: ///18/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 66 k/ul 10.8 g/dl 124 mg/dl 1.5 mg/dl 18 meq/l 4.4 meq/l 45 mg/dl 117 meq/l 144 meq/l 33.3 % 25.0 k/ul [image002.jpg]   05:23 am   04:39 pm   05:25 am   08:55 am   03:57 pm   04:55 pm   07:54 am   03:34 pm   03:39 am   05:17 am wbc 21.6 25.6 25.9 25.5 22.7 25.0 hct 31.0 34.5 30.5 32.9 33.2 33.1 33.3 plt 69 72 65 67 70 66 cr 1.8 1.8 1.6 1.6 1.6 1.7 1.5 1.5 tco2 19 18 glucose 130 131 110 100 121 105 95 124 other labs: pt / ptt / inr:17.1/29.9/1.5, ck / ckmb / troponin-t:50/5/0.04, alt / ast:139/109, alk phos / t bili:207/6.5, amylase / lipase:, differential-neuts:71.0 %, band:4.0 %, lymph:2.0 %, mono:9.0 %, eos:0.0 %, d-dimer:5744 ng/ml, fibrinogen:412 mg/dl, lactic acid:1.0 mmol/l, albumin:2.8 g/dl, ldh:699 iu/l, ca++:8.3 mg/dl, mg++:1.6 mg/dl, po4:3.0 mg/dl",sepsis; anemia; thrombocytopenia; acute renal failure; cecal mass; low grade b cell lymphoma; aml; ,sepsis; anemia; thrombocytopenia; acute renal failure; cecal mass; low grade b cell lymphoma; acute myeloid leukemia;,"['sepsis', 'anemia', 'thrombocytopenia', 'acute renal failure', 'cecal mass', 'low grade b cell lymphoma', 'acute myeloid leukemia']","75yoF with AML s/p chemo and R  hemicolectomy for cecal mass (low grade
+   B cell lymphoma) c/b anastomotic leak and intra-abdominal abscesses s/p
+   IR guided drain placement and washout with surgical drain now
+   readmitted to the [**Hospital Unit Name 4**] for sepsis (hypotension, anemia, coagulopathy,
+   and worsening leukocytosis), now POD#1 from would closure and wash out.",True,"The patient's elevated liver enzymes (ALT 139, AST 109), total bilirubin (6.5 mg/dl), and alkaline phosphatase (207) suggest liver dysfunction, which could be indicative of hepatitis. Additionally, the patient's ferritin level is significantly elevated (3303), which may indicate hemochromatosis, a condition that can lead to liver damage and potentially hepatitis. However, there is no direct evidence of hepatitis infection, such as viral hepatitis serologies or liver biopsy results. Despite this, the liver enzyme elevations and other laboratory abnormalities (e.g., low albumin, elevated lactate dehydrogenase) provide sufficient evidence to lean towards a diagnosis of hepatitis, although the exact etiology remains unclear."
+381,139318.txt,"chief complaint: 24 hour events: fever - 101.3 f -  12:00 am - ordered for mucomyst prior to ct scan given dye load w/ cardiac cath - added levofloxacin this am given increased bands to cover atypicals empirically - in total, received 3 l ns and 1l d5w with bicarb for low blood pressures (sbp80s) allergies: no known drug allergies","last dose of antibiotics: piperacillin/tazobactam (zosyn) -  09:00 pm vancomycin -  09:30 pm infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:35 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 38.5 c (101.3 tcurrent: 37.6 c (99.6 hr: 93 (93 - 119) bpm bp: 80/61(65) {78/48(55) - 110/70(78)} mmhg rr: 21 (12 - 28) insp/min spo2: 98% heart rhythm: sr (sinus rhythm) total in: 3,079 ml 2,534 ml po: tf: ivf: 3,079 ml 2,534 ml blood products: total out: 550 ml 450 ml urine: 550 ml 450 ml ng: stool: drains: balance: 2,529 ml 2,084 ml respiratory support o2 delivery device: nasal cannula spo2: 98% abg: ///20/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 183 k/ul 11.1 g/dl 106 mg/dl 0.7 mg/dl 20 meq/l 3.5 meq/l 14 mg/dl 108 meq/l 137 meq/l 32.2 % 10.6 k/ul [image002.jpg] lactate 1.9 urine cx x1 ngtd hcv viral load pending viral hepatitis serologies pending inr 1.4 1.3 alt 603 758, ast 379 677, ldh 300 519, alkphos 63 76, tbili 2.3 2.1 blood cultures 2/3 + gnr ruq ultrasound no acute processes   07:20 pm   08:30 pm   04:21 am wbc 10.9 11.7 10.6 hct 35.8 34.2 32.2 plt 200 188 183 cr 0.7 0.7 glucose 184 106 other labs: pt / ptt / inr:15.9/32.2/1.4, alt / ast:603/379, alk phos / t bili:63/2.3, differential-neuts:72.0 %, band:16.0 %, lymph:6.0 %, mono:4.0 %, eos:2.0 %, lactic acid:1.9 mmol/l, albumin:3.4 g/dl, ldh:300 iu/l, ca++:7.7 mg/dl, mg++:1.4 mg/dl, po4:3.8 mg/dl",sepsis; dm; ,sepsis; diabetes mellitus;,"['sepsis', 'diabetes mellitus']","56-year-old male w/ a PMHx of DM, nephrolithiasis and presumed TB
+   pleurisy 30 years ago (treated with streptomycin, INH, p-salicylic
+   acid)  presenting with epigastric pain, found to have STE on EKG-
+   brought to cath lab and found to have no significant disease and
+   transferred to MICU for concern of sepsis.",True,"The patient's presentation includes fever, low blood pressure, and elevated liver enzymes (ALT 603, AST 379), which could suggest a hepatitis infection. However, the patient has been receiving multiple antibiotics, which might also contribute to elevated liver enzymes. The pending viral hepatitis serologies and HCV viral load are crucial for a definitive diagnosis. Given the significantly elevated liver enzymes and the clinical context, hepatitis is a plausible diagnosis, but the lack of specific symptoms such as jaundice or more detailed liver function tests in the provided information introduces some uncertainty. Nonetheless, the objective evidence of liver enzyme elevation and the pending hepatitis tests lean towards considering hepatitis as a potential diagnosis."
+398,153621.txt,"title: chief complaint: 24 hour events: - lue us is without dvt, picc placed. - on  ns ivf for maintenance. - f/u on bcx, sputum cx, and urine cx. - ip will place a trach and peg next week, need to get another service to get it done earlier. - family was code purpled (sister), unable to address the code status. - ep: continue dronedarone, d/c heparin gtt, give heparin sc ppx. - has ventricular bigeminy over the night started around 4:40am, which comes and goes. allergies: no known drug allergies","last dose of antibiotics: cefipime -  08:34 pm ampicillin -  04:34 am infusions: other icu medications: pantoprazole (protonix) -  08:34 pm metoprolol -  04:35 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:26 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.7 c (99.8 tcurrent: 37.5 c (99.5 hr: 84 (62 - 96) bpm bp: 123/78(93) {93/48(62) - 134/81,102(101)} mmhg rr: 20 (13 - 27) insp/min spo2: 100% heart rhythm: sr (sinus rhythm) wgt (current): 78 kg (admission): 76.9 kg height: 67 inch total in: 3,536 ml 1,097 ml po: tf: 555 ml 364 ml ivf: 2,321 ml 583 ml blood products: total out: 1,755 ml 400 ml urine: 1,255 ml 400 ml ng: stool: drains: balance: 1,781 ml 697 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: mmv/psv/autoflow vt (set): 400 (400 - 400) ml vt (spontaneous): 474 (436 - 569) ml ps : 5 cmh2o rr (set): 10 rr (spontaneous): 17 peep: 5 cmh2o fio2: 40% rsbi: 40 pip: 11 cmh2o spo2: 100% abg: ///21/ ve: 8 l/min physical examination gen: intubated, nad heent: perrl 3-4mm 1-2 mm, brisk cv: rrr, no m/r/g pulm: ctab, equal bs anteriorly abd: +bs, soft, distention unchanged extr: 1+ pedal edema at ankles b/l neuro: no response to sternal rub, pressure to nailbed labs / radiology 269 k/ul 9.4 g/dl 158 mg/dl 2.6 mg/dl 21 meq/l 3.9 meq/l 50 mg/dl 119 meq/l 150 meq/l 29.2 % 15.6 k/ul [image002.jpg]   04:16 am   05:05 pm   05:27 pm   04:30 am   04:39 am   04:50 pm   05:04 pm   03:14 am   03:22 am   04:19 am wbc 10.9 13.8 15.6 hct 30.7 29.3 29.2 plt  cr 4.8 4.3 3.7 3.3 2.6 tco2 21 23 20 22 19 glucose 98 120 148 156 158 other labs: pt / ptt / inr:25.2/37.3/2.4, ck / ckmb / troponin-t:77/8/0.49, alt / ast:1828/1272, alk phos / t bili:198/5.1, amylase / lipase:240/850, differential-neuts:88.8 %, lymph:6.2 %, mono:3.9 %, eos:0.8 %, lactic acid:1.3 mmol/l, albumin:3.4 g/dl, ldh:690 iu/l, ca++:8.6 mg/dl, mg++:1.7 mg/dl, po4:1.7 mg/dl","vt; transaminitis: elevated transaminases, ldh concerning for medication
+   toxicity (amiodarone) versus viral etiology versus shock liver; acute renal failure; hypernatremia; ",ventricular tachycardia; transaminitis elevated transaminases lactate dehydrogenase concerning for medication toxicity amiodarone versus viral etiology versus shock liver; acute renal failure; hypernatremia;,"['ventricular tachycardia', 'transaminitis elevated transaminases lactate dehydrogenase concerning for medication toxicity amiodarone versus viral etiology versus shock liver', 'acute renal failure', 'hypernatremia']","43 y/o M w/ h/o Ischemic Dilated Cardiomyopathy (EF 20%) s/p ICD
+   placement who presents with VT Storm.",True,"The patient's laboratory results show significantly elevated liver enzymes (ALT: 1828, AST: 1272) and total bilirubin (5.1 mg/dL), which are indicative of liver injury or inflammation. These findings, particularly the high levels of ALT and AST, are consistent with hepatitis. Although the patient is on multiple medications and has various medical interventions, the liver enzyme elevations are a strong clue towards hepatitis. However, without specific hepatitis panel results (e.g., hepatitis A, B, or C antibodies, HBsAg, or HCV RNA), the diagnosis cannot be definitively confirmed as viral hepatitis. Nonetheless, given the substantial elevation in liver enzymes, it is reasonable to suspect hepatitis as a diagnosis, considering the broad definition that includes any inflammatory condition of the liver."
+437,182771.txt,"title: chief complaint: gi bleed 24 hour events: - received vit k 5mg po and 2 units ffp given elevated inr in setting of gib. - decreased o2 sats -> cxr with retrocardiac opacity concerning for pna. cipro changed to augmentin to cover possible aspiration. - repeat hct stable: 36 -> 33.9 -> 35.7 -> 35.5 - ck and trop still rising. tte suboptimal; ef still 25% c/w multivessel cad, 2+ mr   pa systolic htn increased since . - liver: rising lfts likely  shock liver. hida not indicated, consider mrcp. - inr increased to 5.3, given 5 mg vitamin k and 2 u ffp - given 500cc for map <50s with only transient improvement. started on dopamine gtt given ef 25% but stopped for tachy to 150s. a-line faulty but as sbp 80s with uop about 20 cc/hr, cvo2 67, lactate 2.1 (cvp 12) allergies: no known drug allergies","last dose of antibiotics: ciprofloxacin -  06:43 am ampicillin/sulbactam (unasyn) -  04:00 am infusions: pantoprazole (protonix) - 8 mg/hour other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:07 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.8 c (98.3 tcurrent: 36.2 c (97.2 hr: 106 (81 - 116) bpm bp: 64/36(47) {54/29(39) - 134/73(96)} mmhg rr: 28 (20 - 32) insp/min spo2: 93% heart rhythm: 1st av (first degree av block) height: 70 inch cvp: 14 (12 - 16)mmhg total in: 3,227 ml 799 ml po: tf: ivf: 2,531 ml 799 ml blood products: 666 ml total out: 738 ml 62 ml urine: 738 ml 62 ml ng: stool: drains: balance: 2,489 ml 737 ml respiratory support o2 delivery device: non-rebreather spo2: 93% abg: 7.32/31/95./17/-8 pao2 / fio2: 137 physical examination general: alert, mentating well, appears younger than stated age,  face mask on heent: sclera anicteric, dry mm, oropharynx clear neck: jvp not elevated lungs: clear to auscultation bilaterally, no wheezes, rales, ronchi cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops abdomen: soft, non-tender, non-distended, bowel sounds present, no rebound tenderness or guarding, no organomegaly ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema labs / radiology 190 k/ul 12.2 g/dl 190 mg/dl 3.6 mg/dl 17 meq/l 4.8 meq/l 90 mg/dl 110 meq/l 142 meq/l 36.3 % 13.3 k/ul [image002.jpg]   05:10 am   05:15 am   11:22 am   12:54 pm   02:23 pm   04:52 pm   06:17 pm   10:23 pm   10:29 pm   01:26 am wbc 9.2 11.2 13.3 hct 36.0 33.9 35.7 35.5 36.3 plt  cr 3.1 3.0 3.6 tropt 1.20 1.87 tco2 15 15 17 15 17 glucose 195 155 190 other labs: pt / ptt / inr:48.7/32.1/5.3, ck / ckmb / troponin-t:705/39/1.87, alt / ast:2415/3598, alk phos / t bili:610/11.0, amylase / lipase:143/12, lactic acid:2.1 mmol/l, albumin:3.5 g/dl, ldh:1337 iu/l, ca++:7.4 mg/dl, mg++:2.1 mg/dl, po4:3.9 mg/dl","hypotension:  cardiogenic v. hypovolemic v. distributive; a-fib with rvr; likely shock liver with transaminitis; likely upper gi source in setting of
+   supra-therapeutic inr; acute renal failure: likely atn due to hypotension; ",hypotension cardiogenic versus hypovolemic versus distributive; atrial fibrillation with rapid ventricular rate; likely shock liver with transaminitis; likely upper gastrointestinal source in setting of supra therapeutic international normalized ratio; acute renal failure likely acute tubular necrosis due to hypotension;,"['hypotension cardiogenic versus hypovolemic versus distributive', 'atrial fibrillation with rapid ventricular rate', 'likely shock liver with transaminitis', 'likely upper gastrointestinal source in setting of supra therapeutic international normalized ratio', 'acute renal failure likely acute tubular necrosis due to hypotension']","This is a 88 yo M admitted for abdominal pain and hypotension,
+   transferred to the unit for evaluation of new UGI bleed in setting of
+   anticoagulation complicated by hypotension, ARF, and shock liver.",True,"The patient's laboratory results show significantly elevated liver enzymes (ALT: 2415, AST: 3598), which is a strong indicator of liver damage or hepatitis. Additionally, the patient has an elevated total bilirubin level (11.0 mg/dL) and an increased INR (5.3), suggesting impaired liver function. However, the patient's sclera is described as anicteric, which means there is no visible yellowing of the eyes, a common sign of jaundice associated with liver disease. Despite this, the liver enzyme elevations and coagulopathy (elevated INR) are more indicative of liver dysfunction. The term 'shock liver' is also mentioned, which refers to liver dysfunction due to inadequate blood flow and oxygen delivery, often seen in critically ill patients. This, combined with the elevated liver enzymes, supports the diagnosis of hepatitis or liver injury, although the exact cause (viral, toxic, ischemic) cannot be determined from the provided information."

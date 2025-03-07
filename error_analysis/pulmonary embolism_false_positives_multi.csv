@@ -1,0 +1,320 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_pulmonary_embolism_pred_multi,is_pulmonary_embolism_reasoning_multi
+87,194453.txt,"shock
+arterial line - start [**2166-3-25**] 10:05 pm
+multi lumen - start [**2166-3-25**] 10:06 pm
+blood cultured - at [**2166-3-25**] 11:53 pm
+invasive ventilation - start [**2166-3-25**] 11:53 pm
+blood cultured - at [**2166-3-26**] 06:14 am
+pressors titrated up
+vent settings adjusted -> tidal volume decreased
+cta performed
+iv heparin gtts started
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2166-3-25**] 07:00 pm
+piperacillin/tazobactam (zosyn) - [**2166-3-26**] 08:00 am
+infusions:
+midazolam (versed) - 7 mg/hour
+fentanyl - 75 mcg/hour
+phenylephrine - 1 mcg/kg/min
+heparin sodium - 1,150 units/hour
+norepinephrine - 0.36 mcg/kg/min
+vasopressin - 2.4 units/hour
+other icu medications:
+famotidine (pepcid) - [**2166-3-26**] 08:00 am
+other medications:
+changes to
+flowsheet data as of  [**2166-3-26**] 10:54 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.5
+c (99.5
+tcurrent: 36.9
+c (98.4
+hr: 95 (95 - 116) bpm
+bp: 94/67(78) {77/44(55) - 132/73(91)} mmhg
+rr: 32 (25 - 38) insp/min
+spo2: 100%
+heart rhythm: st (sinus tachycardia)
+cvp: 12 (-3 - 17)mmhg
+svo2: 71%
+mixed venous o2% sat: 56 - 61
+total in:
+10,366 ml
+3,254 ml
+po:
+tf:
+ivf:
+5,866 ml
+3,254 ml
+blood products:
+total out:
+870 ml
+450 ml
+urine:
+870 ml
+450 ml
+ng:
+stool:
+drains:
+balance:
+9,496 ml
+2,804 ml
+respiratory support
+ventilator mode: cmv/assist/autoflow
+vt (set): 400 (400 - 450) ml
+rr (set): 30
+rr (spontaneous): 0
+peep: 10 cmh2o
+fio2: 100%
+rsbi deferred: fio2 > 60%
+pip: 23 cmh2o
+plateau: 22 cmh2o
+spo2: 100%
+abg: 7.15/50/86/18/-11
+ve: 12.6 l/min
+pao2 / fio2: 86
+general appearance: thin
+head, ears, nose, throat: normocephalic, endotracheal tube
+cardiovascular: (s1: normal), (s2: normal), no(t) s3, no(t) s4, no(t)
+rub, (murmur: no(t) systolic, no(t) diastolic)
+peripheral vascular: (right radial pulse: diminished), (left radial
+pulse: not assessed), (right dp pulse: diminished), (left dp pulse:
+diminished)
+respiratory / chest: (breath sounds: clear : ), transmmitted mech vent
+sounds
+abdominal: soft, non-tender, no(t) bowel sounds present, no(t)
+distended, no(t) tender: , hypoactive bs
+extremities: right: absent, left: absent
+musculoskeletal: unable to stand
+skin:  cool, mottled extremeties
+neurologic: responds to: not assessed, movement: not assessed, sedated,
+tone: normal
+379 k/ul
+11.7 g/dl
+159 mg/dl
+1.2 mg/dl
+18 meq/l
+3.9 meq/l
+17 mg/dl
+118 meq/l
+145 meq/l
+38.2 %
+29.0 k/ul
+image002.jpg]
+[**2166-3-25**]  07:32 pm
+[**2166-3-25**]  09:09 pm
+[**2166-3-25**]  09:21 pm
+[**2166-3-25**]  11:05 pm
+[**2166-3-26**]  03:30 am
+[**2166-3-26**]  03:44 am
+[**2166-3-26**]  04:04 am
+[**2166-3-26**]  08:24 am
+wbc
+16.1
+29.0
+hct
+34
+35.0
+33
+38.2
+plt
+325
+379
+cr
+0.9
+1.2
+tco2
+17
+17
+18
+18
+glucose
+83
+159
+other labs: pt / ptt / inr:18.8/70.0/1.7, alt / ast:28/42, alk phos / t
+bili:103/0.3, amylase / lipase:/52, differential-neuts:91.3 %, band:0.0
+%, lymph:6.9 %, mono:1.3 %, eos:0.2 %, lactic acid:1.7 mmol/l, ca++:6.9
+mg/dl, mg++:3.0 mg/dl, po4:3.0 mg/dl
+imaging: cta wet read
+4 x 5cm rt hilar neoplasm causing marked compression and possible
+invasion of
+the central rt bronchovascular bundle and complete obliteration of the
+bronchus intermedius.  addtional small filling defect is noted within a
+rll
+segmental branch which may represent a small non occlusive emboli.
+distal
+branches not evaluated due to motion which also obscures eval of lung
+parenchyma.  there is marked pneumonia/postobstructive pneumonitis of
+portion
+of the rll and rml.  marked bronchial wall thickening and scattred
+opacities
+with interstitial thickening which are likley infectious but can not
+exclude lymphangitic spread of tumor.  small b/l effusions with lt
+compression
+atelectasis.  severe emphysema.  thyroid nodules.  probable b/l adrenal
+masses, not fully evaluated.","res failure
+   ddx: lung collapse w/ hilar mass, post obstructive pna, non obstructive
+   infection including tb, pseudomonas, mrsa, ards.; shock
+   likely sepsis, from post pneumonia",res failure differential diagnosis lung collapse with hilar mass post obstructive pneumonia non obstructive infection including tuberculosis pseudomonas methicillin resistant staphylococcus aureus acute respiratory distress syndrome ; shock likely sepsis from post pneumonia,"['res failure differential diagnosis lung collapse with hilar mass post obstructive pneumonia non obstructive infection including tuberculosis pseudomonas methicillin resistant staphylococcus aureus acute respiratory distress syndrome', 'shock likely sepsis from post pneumonia']","87 yo male w/ HTN, dementia, past prostate CA presents w/ shock and
+   hypoxemic respiratory failure",True,"The CTA scan mentions a 'small filling defect' in a right lower lobe segmental branch that 'may represent a small non-occlusive emboli.' This finding suggests the possibility of a pulmonary embolism, although it is described as small and non-occlusive. Given this direct imaging evidence, pulmonary embolism is a consideration."
+264,103226.txt,"sputum culture - at [**2100-11-1**] 04:20 am
+fever - 102.9
+f - [**2100-10-31**] 02:00 pm
+- continues on levophed
+- id recs: add micafungin 100mg daily
+- gave 1l ns bolus for low uop, lowish bp (sbp 90), then another 500cc
+- cvo2sat: 76
+repeat hct 25.1, stable
+- at pm, tf had high residuals, so tamiflu po may not have been
+absorbed.  tfs held.
+- spiked temp to 102 -> sent cultures
+- ordered cvo2sat for am
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+tobramycin - [**2100-10-30**] 03:37 pm
+metronidazole - [**2100-10-31**] 08:30 pm
+cefipime - [**2100-11-1**] 12:00 am
+azithromycin - [**2100-11-1**] 03:30 am
+vancomycin - [**2100-11-1**] 04:00 am
+infusions:
+midazolam (versed) - 1.5 mg/hour
+norepinephrine - 0.15 mcg/kg/min
+fentanyl (concentrate) - 55 mcg/hour
+other icu medications:
+pantoprazole (protonix) - [**2100-10-31**] 12:00 pm
+other medications:
+flowsheet data as of  [**2100-11-1**] 07:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 39.4
+c (102.9
+tcurrent: 37.5
+c (99.5
+hr: 84 (80 - 121) bpm
+bp: 99/50(68) {88/49(63) - 119/59(80)} mmhg
+rr: 20 (6 - 27) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 43.4 kg (admission): 48.8 kg
+height: 61 inch
+co/ci (fick): (9.4 l/min) / (6.5 l/min/m2)
+mixed venous o2% sat: 76 - 81
+total in:
+5,044 ml
+762 ml
+po:
+tf:
+41 ml
+21 ml
+ivf:
+4,808 ml
+741 ml
+blood products:
+total out:
+1,980 ml
+640 ml
+urine:
+1,510 ml
+640 ml
+ng:
+470 ml
+stool:
+drains:
+balance:
+3,064 ml
+123 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist
+vt (set): 400 (400 - 400) ml
+rr (set): 20
+rr (spontaneous): 0
+peep: 10 cmh2o
+fio2: 70%
+rsbi deferred: peep > 10
+pip: 28 cmh2o
+plateau: 26 cmh2o
+compliance: 25 cmh2o/ml
+spo2: 98%
+abg: 7.30/55/127/24/0
+ve: 8.2 l/min
+pao2 / fio2: 181
+general: alert, oriented, in moderate respiratory distress
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple, jvp not elevated, no lad
+lungs: bronchial bs throughout
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen:  thin, soft, non-tender, non-distended, bowel sounds present,
+no rebound tenderness or guarding, no organomegaly
+gu: no foley
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+310 k/ul
+8.5 g/dl
+110 mg/dl
+0.5 mg/dl
+24 meq/l
+4.1 meq/l
+8 mg/dl
+107 meq/l
+138 meq/l
+26.4 %
+13.9 k/ul
+[image002.jpg]
+[**2100-10-30**]  09:19 pm
+[**2100-10-30**]  11:55 pm
+[**2100-10-31**]  04:08 am
+[**2100-10-31**]  04:43 am
+[**2100-10-31**]  07:24 am
+[**2100-10-31**]  01:29 pm
+[**2100-10-31**]  03:30 pm
+[**2100-11-1**]  03:01 am
+[**2100-11-1**]  03:18 am
+[**2100-11-1**]  07:18 am
+wbc
+17.7
+12.1
+13.9
+hct
+26.1
+25.5
+25.1
+26.4
+plt
+333
+299
+310
+cr
+0.6
+0.5
+tco2
+23
+23
+23
+23
+27
+28
+glucose
+112
+110
+other labs: pt / ptt / inr:25.1/38.9/2.4, ck / ckmb /
+troponin-t:62/4/<0.01, alt / ast:[**10-6**], alk phos / t bili:52/0.2,
+differential-neuts:91.7 %, lymph:4.6 %, mono:3.2 %, eos:0.3 %,
+d-dimer:1547 ng/ml, fibrinogen:653 mg/dl, lactic acid:1.0 mmol/l,
+albumin:2.6 g/dl, ldh:276 iu/l, ca++:8.3 mg/dl, mg++:1.8 mg/dl, po4:2.7
+mg/dl","hypoxic respiratory distress: likely secondary to [**doctor first name **] superinfected
+   with bacterial pneumonia.; sepsis: likely from pneumonia.; coagulopathy",hypoxic respiratory distress likely secondary to doctor first name superinfected with bacterial pneumonia ; sepsis likely from pneumonia ; coagulopathy,"['hypoxic respiratory distress likely secondary to doctor first name superinfected with bacterial pneumonia', 'sepsis likely from pneumonia', 'coagulopathy']","67 yo F with longstanding hx of [**Hospital **] transferred to ICU presenting with
+   hypoxia most likely due to bacterial left pneumonia  causes with known
+   L PNA and chronic [**Doctor First Name **] (MDR) with future plan for R pneumonectomy.",True,"The patient has a high D-dimer level (1547 ng/ml), which could suggest pulmonary embolism, but this test is not specific. The clinical context, including the patient's respiratory distress and need for oxygen therapy, could be consistent with pulmonary embolism, but definitive diagnostic tests (e.g., CT pulmonary angiogram) are not mentioned. Given the information, it's uncertain but possible."
+405,160465.txt,"chief complaint: pulmonary embolism 24 hour events: ekg - at  03:36 pm ultrasound - at  05:04 pm leni for ? dvt's (pe source) pt admitted for monitoring of multifocal pe. started on heparin gtt in ed. pt with supratherapuetic ptt currently, heparin held this am for ptt 150. started on digoxin for rate control of a fib with rvr. hd stable overnight. allergies: penicillins unknown; morphine unknown;","last dose of antibiotics: infusions: other icu medications: metoprolol -  06:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:34 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.1 c (98.8 tcurrent: 36.1 c (97 hr: 92 (89 - 135) bpm bp: 129/73(86) {102/55(68) - 154/80(95)} mmhg rr: 19 (11 - 27) insp/min spo2: 100% heart rhythm: a flut (atrial flutter) height: 65 inch total in: 764 ml 822 ml po: tf: ivf: 764 ml 822 ml blood products: total out: 707 ml 250 ml urine: 707 ml 250 ml ng: stool: drains: balance: 57 ml 572 ml respiratory support o2 delivery device: nasal cannula spo2: 100% abg: ///29/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 302 k/ul 13.0 g/dl 231 mg/dl 0.4 mg/dl 29 meq/l 4.0 meq/l 25 mg/dl 110 meq/l 145 meq/l 40.9 % 10.2 k/ul [image002.jpg]   12:00 am   06:02 am wbc 8.8 10.2 hct 41.4 40.9 plt 300 302 cr 0.6 0.4 tropt 0.01  glucose 231 other labs: pt / ptt / inr:14.9/150.0/1.3, ck / ckmb / troponin-t:44//0.01, differential-neuts:85.3 %, lymph:11.3 %, mono:3.0 %, eos:0.3 %, ca++:8.6 mg/dl, mg++:1.9 mg/dl, po4:3.7 mg/dl imaging:  cta chest - impression: 1. pulmonary emboli involving the right main pulmonary artery, right upper lobar/segmental pulmonary artery, and right middle lobe segmental pulmonary artery. please note, there are likely acute-on-chronic pulmonary emboli given the eccentric nature of the filling defects with evidence of recanalization through portions of the filling defects. 2. emphysema with parenchymal ground-glass opacities most apparent in the right upper lobe suggestive of advanced respiratory bronchiolitis. 3. 6-mm left lower lobe nodule, for which followup in  months is advised. 4. cardiomegaly with pacer device in place.  leni - pnd microbiology:  blood cx - pnd  urine cx - pnd",embolism; atrial fibrillation; copd; cad/chf; ,embolism; atrial fibrillation; chronic obstructive pulmonary disease; coronary artery disease congestive heart failure;,"['embolism', 'atrial fibrillation', 'chronic obstructive pulmonary disease', 'coronary artery disease congestive heart failure']","74y/o F with a PMH of CAD, COPD presenting with
+   dyspnea and found to have PE.",True,"The CTA chest imaging shows pulmonary emboli involving the right main pulmonary artery, right upper lobar/segmental pulmonary artery, and right middle lobe segmental pulmonary artery. The patient was admitted for monitoring of multifocal PE and started on heparin, which strongly supports the diagnosis of pulmonary embolism."

@@ -1,0 +1,1373 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_sepsis_pred_single,is_sepsis_reasoning_single,is_sepsis_pred_multi,is_sepsis_reasoning_multi
+2,198989.txt,"- id: rec bedside echo
+- continued fluid bolus
+- bb downtitrated from q6 to [**hospital1 **]
+- fena of 0.17, random cortisol was normal.
+morphine
+rash;
+demerol (oral) (meperidine hcl)
+confusion/delir
+levaquin (oral) (levofloxacin)
+unknown;
+benadryl (injection) (diphenhydramine hcl)
+confusion/delir
+cymbalta (oral) (duloxetine hcl)
+unknown;
+celexa (oral) (citalopram hydrobromide)
+unknown;
+remeron (oral) (mirtazapine)
+unknown;
+sulfa (sulfonamide antibiotics)
+unknown;
+quinolones
+unknown;
+vancomycin
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2168-11-8**] 08:00 am
+meropenem - [**2168-11-9**] 12:00 am
+infusions:
+other icu medications:
+other medications:
+changes to
+flowsheet data as of  [**2168-11-10**] 07:26 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.9
+c (98.4
+hr: 75 (70 - 79) bpm
+bp: 102/68(74) {89/31(46) - 119/68(74)} mmhg
+rr: 17 (15 - 33) insp/min
+spo2: 99%
+heart rhythm: v paced
+wgt (current): 75 kg (admission): 63 kg
+height: 64 inch
+cvp: 14 (9 - 14)mmhg
+total in:
+2,713 ml
+409 ml
+po:
+tf:
+1,073 ml
+335 ml
+ivf:
+840 ml
+74 ml
+blood products:
+total out:
+680 ml
+310 ml
+urine:
+680 ml
+310 ml
+ng:
+stool:
+drains:
+balance:
+2,033 ml
+99 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///19/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+200 k/ul
+8.5 g/dl
+146 mg/dl
+2.1 mg/dl
+19 meq/l
+4.3 meq/l
+90 mg/dl
+111 meq/l
+139 meq/l
+26.0 %
+22.4 k/ul
+[image002.jpg]
+[**2168-11-5**]  09:14 pm
+[**2168-11-6**]  04:57 am
+[**2168-11-7**]  04:41 am
+[**2168-11-7**]  12:00 pm
+[**2168-11-7**]  05:00 pm
+[**2168-11-8**]  03:20 am
+[**2168-11-8**]  04:57 pm
+[**2168-11-8**]  10:55 pm
+[**2168-11-9**]  03:29 am
+[**2168-11-10**]  04:27 am
+wbc
+14.5
+21.9
+24.5
+20.4
+22.5
+22.4
+hct
+27.4
+28.3
+26.2
+26.4
+23.0
+25.3
+24.5
+26.0
+plt
+101
+124
+129
+135
+149
+200
+cr
+2.3
+2.6
+2.9
+2.6
+2.5
+2.4
+2.3
+2.1
+glucose
+175
+169
+76
+90
+106
+87
+97
+96
+114
+146
+other labs: pt / ptt / inr:54.6/44.0/6.1, alt / ast:44/41, alk phos / t
+bili:101/0.6, differential-neuts:93.0 %, band:0.0 %, lymph:5.0 %,
+mono:1.0 %, eos:0.0 %, fibrinogen:622 mg/dl, lactic acid:2.0 mmol/l,
+albumin:2.3 g/dl, ldh:194 iu/l, ca++:8.2 mg/dl, mg++:2.7 mg/dl, po4:3.9
+mg/dl
+te: the left atrium is mildly dilated. left ventricular wall
+thicknesses are normal. the left ventricular cavity is moderately
+dilated. there is severe global left ventricular hypokinesis (lvef =
+20-25 %). [intrinsic left ventricular systolic function is likely more
+depressed given the severity of valvular regurgitation.] right
+ventricular chamber size is normal. with focal hypokinesis of the
+apical free wall. the aortic valve leaflets (3) are mildly thickened.
+there is mild aortic valve stenosis (valve area 1.2-1.9cm2). mild (1+)
+aortic regurgitation is seen. the mitral valve leaflets are mildly
+thickened. moderate to severe (3+) mitral regurgitation is seen. [due
+to acoustic shadowing, the severity of mitral regurgitation may be
+significantly underestimated.] moderate [2+] tricuspid regurgitation is
+seen. there is moderate pulmonary artery systolic hypertension. the
+pulmonic valve leaflets are thickened. there is no pericardial
+effusion.
+compared with the prior study (images reviewed) of [**2168-4-20**], the left
+ventricular cavity appears dilated on the current study. the degree of
+mitral regurgitation has increased significantly. the degree of aortic
+stenosis has incrased slightly. lv systolic function remains severely
+depressed, although the ventricle does not appear as dyssynchronous as
+on the prior study.
+cxr: improved pulmonary edema which is now mild with stable left
+perihilar opacity, worsened since [**2168-11-6**] and is most likely
+consolidation, probably pneumonia,less likely asymmetrical pulmonary
+edema.","sepsis; altered/depressed ms
+ thought to be [**1-25**] to ativan yesterday,; # acute on chronic renal failure; supertherapeutic inr; afib, now rate controlled - likely worsened by underlying
+   sepsis; s/p biv placement [**8-31**].; demand ischemia",sepsis; altered depressed mental status thought to be to ativan yesterday ; acute on chronic renal failure; supertherapeutic international normalized ratio; atrial fibrillation now rate controlled likely worsened by underlying sepsis; status post biventricular placement ; demand ischemia,"['sepsis', 'altered depressed mental status thought to be to ativan yesterday', 'acute on chronic renal failure', 'supertherapeutic international normalized ratio', 'atrial fibrillation now rate controlled likely worsened by underlying sepsis', 'status post biventricular placement', 'demand ischemia']","79 yo F w/ a h/o CHF (EF of 20-30%), carotid stenosis, no CAD from cath
+   [**2-1**], and h/o LBBB s/p BiV pacer presents as OSH transfer with ?Sepsis
+   [**1-25**] UTI, atrial fibrillation w/ RVR and demand ischemia.",True,"The patient presents with several signs and symptoms that could suggest sepsis, including a high white blood cell count (WBC) of 22.4 k/ul, a temperature of 36.9°C (98.4°F), and the presence of pneumonia as indicated by the chest X-ray (CXR) showing worsened consolidation. Additionally, the patient is on broad-spectrum antibiotics such as meropenem and metronidazole, which could indicate a suspicion of infection. The lactic acid level is slightly elevated at 2.0 mmol/l, which can be seen in sepsis. However, the blood pressure is relatively stable at 102/68 mmHg, and there's no clear indication of hypotension, which is a key criterion for sepsis. The patient's Sequential Organ Failure Assessment (SOFA) score is not directly provided, but there are indications of organ dysfunction, such as severe global left ventricular hypokinesis (LVEF = 20-25%) and moderate pulmonary artery systolic hypertension. Despite these findings, the presence of pneumonia, elevated WBC, and the use of broad-spectrum antibiotics lean towards the diagnosis of sepsis, especially considering the clinical context of potential infection and organ dysfunction.",False,"The patient is on broad-spectrum antibiotics (metronidazole and meropenem), which suggests a suspicion of infection. The elevated white blood cell count (WBC) and the presence of confusion/delirium could be indicative of sepsis. However, without clear evidence of a source of infection or more specific signs of sepsis (e.g., hypotension, organ dysfunction), it's challenging to confirm this diagnosis solely based on the provided information."
+14,199699.txt,"picc line - stop [**2177-7-16**] 01:30 pm
+arterial line - stop [**2177-7-16**] 03:00 pm
+- to be transferred back to [**hospital 328**] rehab once bed is available
+- very anxious, started on ativan prn
+codeine
+swelling;
+tetanus
+unknown;
+meropenem
+rash;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+meropenem - [**2177-7-15**] 10:31 am
+vancomycin - [**2177-7-16**] 06:00 pm
+cefipime - [**2177-7-17**] 05:30 am
+infusions:
+other icu medications:
+lorazepam (ativan) - [**2177-7-16**] 04:00 pm
+heparin sodium (prophylaxis) - [**2177-7-17**] 05:30 am
+other medications:
+flowsheet data as of  [**2177-7-17**] 07:10 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 37.2
+c (98.9
+hr: 86 (75 - 97) bpm
+bp: 90/44(55) {90/33(50) - 116/60(71)} mmhg
+rr: 20 (19 - 28) insp/min
+spo2: 93%
+heart rhythm: 1st av (first degree av block)
+wgt (current): 150.8 kg (admission): 122.5 kg
+height: 67 inch
+total in:
+2,916 ml
+808 ml
+po:
+tf:
+1,827 ml
+466 ml
+ivf:
+484 ml
+172 ml
+blood products:
+total out:
+1,955 ml
+880 ml
+urine:
+1,915 ml
+880 ml
+ng:
+stool:
+drains:
+balance:
+961 ml
+-72 ml
+respiratory support
+o2 delivery device: tracheostomy tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 500 (500 - 500) ml
+vt (spontaneous): 234 (234 - 234) ml
+rr (set): 12
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 111
+pip: 26 cmh2o
+plateau: 18 cmh2o
+spo2: 93%
+abg: ///31/
+ve: 10.6 l/min
+
+general:  alert, appears anxious, unable to vocalize
+lungs: improved rhonchi b/l, limited secondary to anterior exam and
+body habitus and sounds from mechanical ventilator
+cv: soft heart sounds, regular rate and rhythm, normal s1/s2
+abdomen:  obese, umbilical hernia (reducible), active bowel sounds, peg
+tube in place, denies pain with palpation
+skin: diffuse, erythematous, macular rash across chest and arms
+ext:  warm, well perfused, 2+ pulses; upper extremity edema, 1+
+502 k/ul
+8.9 g/dl
+138 mg/dl
+0.3 mg/dl
+31 meq/l
+3.6 meq/l
+7 mg/dl
+101 meq/l
+139 meq/l
+28.0 %
+10.2 k/ul
+image002.jpg]
+[**2177-7-14**]  03:29 am
+[**2177-7-14**]  03:41 pm
+[**2177-7-14**]  04:00 pm
+[**2177-7-14**]  09:10 pm
+[**2177-7-15**]  04:01 am
+[**2177-7-15**]  04:22 am
+[**2177-7-15**]  05:10 pm
+[**2177-7-16**]  03:08 am
+[**2177-7-16**]  03:21 am
+[**2177-7-17**]  04:19 am
+wbc
+7.5
+7.4
+7.8
+9.2
+10.2
+hct
+26.3
+25.9
+25.9
+25.8
+28.0
+plt
+474
+448
+460
+501
+502
+cr
+0.3
+0.3
+0.2
+0.3
+tco2
+30
+30
+32
+32
+34
+glucose
+136
+147
+148
+138
+other labs: pt / ptt / inr:14.4/26.5/1.2, alt / ast:14/13, alk phos / t
+bili:124/0.3, differential-neuts:70.8 %, band:0.0 %, lymph:20.2 %,
+mono:3.3 %, eos:4.8 %, lactic acid:0.7 mmol/l, albumin:2.2 g/dl,
+ldh:183 iu/l, ca++:8.4 mg/dl, mg++:2.1 mg/dl, po4:2.4 mg/dl
+.
+iron 40, tibc 146, ferritin 699, transferrin 112
+[**7-15**] blood cx pending
+urine cx: yeast
+[**7-14**] sputum gram stain: no microorg seen; cx pending","# septic shock:; #. lethargy:; . anemia:; diabetes mellitus, type ii",septic shock ; lethargy ; anemia ; diabetes mellitus type ii,"['septic shock', 'lethargy', 'anemia', 'diabetes mellitus type ii']","68F ventilator-dependent secondary to [**Last Name (un) 9456**]-[**Location (un) **] vs CIPD,
+   insulin-dependent diabetes mellitus, recurrent urinary tract infections
+   with chronic indwelling Foley catheter, recent C difficile infection on
+   vancomycin PO admitted from [**Hospital 328**] Rehab for fever x1 week, diarrhea,
+   and lethargy x1 days",False,"The patient presents with several signs and symptoms that could suggest sepsis, including a fever (tmax: 38.1°C or 100.5°F), tachycardia (hr: 86 bpm), and an elevated white blood cell count (wbc: 10.2 k/ul). The presence of a macular rash and the patient's anxiety could also be indicative of a systemic infection. Additionally, the patient is on broad-spectrum antibiotics (meropenem, vancomycin, cefipime), which could imply a suspicion of sepsis. However, the lack of a clear source of infection (although there is a pending blood culture and a urine culture showing yeast) and the absence of hypotension (bp: 90/44 mmHg, which, although low, does not clearly indicate septic shock without more context on fluid resuscitation) makes the diagnosis less straightforward. The patient's lactic acid level is within normal limits (0.7 mmol/l), which argues against severe sepsis or septic shock. Considering these factors, while there are indicators that could suggest sepsis, the evidence is not conclusive without more definitive proof of an infection source and a more pronounced systemic inflammatory response syndrome (SIRS) criteria fulfillment. Thus, leaning towards the most likely conclusion based on the information provided, the diagnosis of sepsis is uncertain but the presence of some criteria and the clinical context (use of broad-spectrum antibiotics, fever, elevated WBC) suggests it could be considered, but the information is not strong enough to conclusively diagnose sepsis.",True,"The patient is on broad-spectrum antibiotics (meropenem, vancomycin, cefipime), which suggests a suspicion of infection. The presence of a fever (tmax: 38.1°C), a rash, and an elevated white blood cell count (up to 10.2 k/ul) could indicate an infectious process. Additionally, the patient has a yeast-positive urine culture, which is a clear sign of infection. Given these signs of infection and the systemic response, sepsis is a likely diagnosis."
+75,197038.txt,"chief complaint
+ultrasound - at [**2188-10-12**] 11:23 am
+ruq u/s no portal vein thrombosis.
+echo ordered
+repeat lactate trending down, pt was drinking a lot.
+heme consult to be requested.
+no known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2188-10-12**] 08:21 am
+ceftriaxone - [**2188-10-13**] 02:00 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2188-10-13**] 03:36 am
+other medications:
+flowsheet data as of  [**2188-10-13**] 06:09 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.3
+c (99.2
+tcurrent: 37
+c (98.6
+hr: 82 (82 - 104) bpm
+bp: 141/82(93) {116/65(76) - 149/84(99)} mmhg
+rr: 15 (15 - 29) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+total in:
+6,340 ml
+200 ml
+po:
+1,560 ml
+150 ml
+tf:
+ivf:
+1,530 ml
+50 ml
+blood products:
+total out:
+1,925 ml
+650 ml
+urine:
+1,725 ml
+650 ml
+ng:
+stool:
+drains:
+balance:
+4,415 ml
+-450 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///23/
+gen: nad, ruddy complexion, pleasant
+heent: eomi, perrl, op clear, mm dry.
+neck: no jvd, no lad
+cv: rrr no m/r/g
+pulm: no breath sounds at the left base, +dullness to percussion and
+reduced fremitus at lll. diffuse musical wheezing and rhonchi.
+abd: soft +bs, nt/nd, no hsm
+extrem: no c/c/e, strong pulses.
+skin: no rashes
+neuro: cn ii-xii intact bilaterally. strength is [**3-24**] bilaterally.
+sensation to lt in tact. no tremor. a&ox3.
+79 k/ul
+12.6 g/dl
+115 mg/dl
+0.9 mg/dl
+23 meq/l
+3.2 meq/l
+26 mg/dl
+99 meq/l
+130 meq/l
+35.0 %
+5.1 k/ul
+image002.jpg]
+[**2188-10-12**]  01:35 am
+[**2188-10-13**]  03:29 am
+wbc
+7.6
+5.1
+hct
+38.5
+35.0
+plt
+85
+79
+cr
+1.2
+0.9
+tropt
+<0.01
+glucose
+125
+115
+other labs: pt / ptt / inr:15.9/33.9/1.4, ck / ckmb /
+troponin-t:74//<0.01, alt / ast:37/30, alk phos / t bili:95/1.8,
+amylase / lipase:15/15, differential-neuts:81.4 %, band:15.0 %,
+lymph:13.4 %, mono:4.0 %, eos:0.8 %, lactic acid:1.8 mmol/l,
+albumin:3.2 g/dl, ldh:148 iu/l, ca++:8.5 mg/dl, mg++:2.1 mg/dl, po4:2.3
+mg/dl",# sepsis from lll pneumonia-; # hemochromatosis:,sepsis from left lower lobe pneumonia ; hemochromatosis,"['sepsis from left lower lobe pneumonia', 'hemochromatosis']","A/P: 56 yo M with history of hemochromatosis and history of CAP,
+   presents with LLL pneumonia and hypoxia.",True,"The patient's presentation includes a fever (tmax: 37.3°C, tcurrent: 37°C), tachycardia (hr: 82 bpm), and an elevated white blood cell count (wbc: 7.6 and 5.1 k/ul) with a left shift (band: 15.0%), which are indicative of an infectious process. The patient is also on antibiotics (levofloxacin and ceftriaxone), suggesting a suspected or confirmed infection. Additionally, the patient has a decreased lactate level (lactic acid: 1.8 mmol/l) which was trending down, indicating potential improvement in response to treatment. However, the presence of a fever, tachycardia, and elevated white blood cell count, along with the administration of antibiotics, supports the diagnosis of sepsis. Furthermore, the patient's respiratory findings (no breath sounds at the left base, +dullness to percussion, and reduced fremitus at lll) could suggest a respiratory source of infection, which is a common cause of sepsis. Given these findings, the diagnosis of sepsis is likely.",False,"The patient has been on antibiotics, including levofloxacin and ceftriaxone, which suggests a concern for infection. The patient's white blood cell count (WBC) is 7.6, which is within normal limits, and the band percentage is 15.0%, which is slightly elevated. The patient's lactate level is trending down, which is a good sign. However, the presence of antibiotics and the patient's overall clinical picture do not strongly suggest sepsis."
+150,198464.txt,"hief complaint:
+- gnr zosyn sensitive, can change back to zosyn vs more narrow abx
+- surv cx from [**9-26**] ngtd [**9-25**] ngtd
+- wbc trending back down to 8 from 12
+- cxr still with some rll atalectasis
+demerol (oral) (meperidine hcl)
+seizures;
+compazine (oral) (prochlorperazine maleate)
+rash;
+reglan (oral) (metoclopramide hcl)
+rash;
+betadine surgi-prep (topical) (povidone-iodine)
+blisters;
+nausea/vomiting
+iodine; iodine containing
+hives; nausea/v
+morphine
+nknown
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","ast dose of antibiotics:
+vancomycin - [**2145-9-25**] 06:00 am
+metronidazole - [**2145-9-25**] 08:00 am
+linezolid - [**2145-9-26**] 08:40 pm
+meropenem - [**2145-9-27**] 05:41 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2145-9-26**] 08:02 am
+heparin sodium (prophylaxis) - [**2145-9-27**] 12:04 am
+hydromorphone (dilaudid) - [**2145-9-27**] 05:00 am
+other medications:
+flowsheet data as of  [**2145-9-27**] 07:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.8
+c (98.3
+tcurrent: 36.2
+c (97.1
+hr: 69 (69 - 79) bpm
+bp: 101/71(81) {83/52(66) - 102/99(101)} mmhg
+rr: 10 (8 - 17) insp/min
+spo2: 96%
+heart rhythm: sr (sinus rhythm)
+total in:
+3,450 ml
+353 ml
+po:
+240 ml
+120 ml
+tf:
+ivf:
+3,210 ml
+233 ml
+blood products:
+total out:
+3,360 ml
+750 ml
+urine:
+1,870 ml
+510 ml
+ng:
+stool:
+drains:
+balance:
+90 ml
+-397 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 96%, 3l
+abg: ///22/
+nad, a/ox3, cn 2-12 grossly intact, elevated rij to level of ear, mild
+crackle at r base, bronchovesicular breath sounds on r, decreased
+breath sounds on l, no le edema, abd soft non-tender.  r mid line in
+place, no erythema, r a line, no erythema
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+269 k/ul
+9.2 g/dl
+87 mg/dl
+0.9 mg/dl
+22 meq/l
+3.8 meq/l
+7 mg/dl
+111 meq/l
+137 meq/l
+28.5 %
+8.2 k/ul
+[image002.jpg]
+[**2145-9-24**]  06:45 am
+[**2145-9-24**]  08:47 am
+[**2145-9-24**]  01:20 pm
+[**2145-9-24**]  09:33 pm
+[**2145-9-25**]  03:39 am
+[**2145-9-26**]  04:47 am
+[**2145-9-26**]  02:23 pm
+[**2145-9-27**]  04:12 am
+wbc
+57.0
+31.4
+44.8
+33.2
+29.3
+12.9
+8.2
+hct
+29.2
+29.0
+27.4
+27.1
+29.5
+27.1
+28.5
+plt
+332
+287
+269
+[**telephone/fax (3) 6299**]
+269
+cr
+1.4
+1.2
+1.2
+1.0
+1.0
+0.9
+0.9
+glucose
+86
+70
+167
+91
+72
+90
+87
+other labs: pt / ptt / inr:13.6/35.9/1.2, alt / ast:22/19, alk phos / t
+bili:301/0.3, amylase / lipase:74/22, differential-neuts:93.0 %,
+lymph:4.2 %, mono:1.9 %, eos:0.8 %, lactic acid:0.8 mmol/l, albumin:2.5
+g/dl, ldh:155 iu/l, ca++:7.8 mg/dl, mg++:2.0 mg/dl, po4:3.6 mg/dl
+[**9-24**]
+klebsiella pneumonia, pan sensitive, save bactrim
+cdiff (-) x2","#  leukocytosis/fever - +bacteremia at osh (k. pna, coag(-) staph) and
+   now growing k. pna from [**9-24**] f; hypotension
+ initially, likely from septic shock; hypoxia",leukocytosis fever +bacteremia at outside hospital klebsiella pneumoniae coagulase staphylococcus and now growing klebsiella pneumoniae from f; hypotension initially likely from septic shock; hypoxia,"['leukocytosis fever +bacteremia at outside hospital klebsiella pneumoniae coagulase staphylococcus and now growing klebsiella pneumoniae from f', 'hypotension initially likely from septic shock', 'hypoxia']","Assessment and Plan
+   46 [**First Name9 (NamePattern2) 3050**] [**Location (un) 2455**] syndrome s/p small and large bowel resection on
+   chronic TPN and hx of multiple line infections s/p femoral line
+   removal, now being treated for OSH UTI and GNR Bacteremia.",False,"The patient's report shows a decrease in white blood cell (WBC) count from 12 to 8, which could indicate an improvement in infection. However, the patient is still on broad-spectrum antibiotics such as vancomycin, metronidazole, linezolid, and meropenem, suggesting an ongoing infection. The presence of Klebsiella pneumoniae, which is pan-sensitive, including to Bactrim, is a significant finding. The patient's temperature is within normal limits (tmax: 36.8°C, tcurrent: 36.2°C), and other vital signs such as heart rate (69 bpm), blood pressure (101/71 mmHg), and respiratory rate (10 insp/min) are relatively stable. The lactic acid level is 0.8 mmol/L, which is not significantly elevated. While these findings do not strongly suggest sepsis at the moment, the recent history of infection and the use of broad-spectrum antibiotics indicate that sepsis could have been a concern in the recent past. Given the current stable vital signs and the absence of clear indicators of organ dysfunction or failure, the diagnosis of active sepsis at this moment seems less likely. However, without more information on the patient's clinical course and response to treatment, this conclusion is made with caution.",True,"The patient's white blood cell count (WBC) has been trending down, and the patient is on broad-spectrum antibiotics, which suggests that sepsis is being treated. The presence of Klebsiella pneumoniae, which is sensitive to the antibiotics being used, also supports the diagnosis of sepsis."
+180,186926.txt,"lbp, cough
+pt did well o/n on 5l nc sating low 90's and above
+lithium
+unknown;
+ibuprofen
+unknown;
+erythromycin base
+diarrhea;
+changes to  and
+f none
+review of systems is unchanged from admission except as noted below
+review of systems: pt states he feels the same as last night. has same
+cough. no cp, sob. wants to eat breakfast","last dose of antibiotics:
+infusions:
+other icu medications:
+furosemide (lasix) - [**2177-2-22**] 12:20 am
+heparin sodium (prophylaxis) - [**2177-2-22**] 06:00 am
+other medications:
+flowsheet data as of  [**2177-2-22**] 08:26 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38
+c (100.4
+tcurrent: 38
+c (100.4
+hr: 77 (75 - 93) bpm
+bp: 129/63(79) {114/57(70) - 156/75(94)} mmhg
+rr: 25 (14 - 43) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 67 inch
+total in:
+3,220 ml
+264 ml
+po:
+180 ml
+tf:
+ivf:
+20 ml
+84 ml
+blood products:
+total out:
+400 ml
+1,450 ml
+urine:
+400 ml
+1,450 ml
+ng:
+stool:
+drains:
+balance:
+2,820 ml
+-1,186 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: 7.40/39/63/26/0
+general appearance: well nourished, no acute distress
+cardiovascular: (s1: normal), (s2: normal), (murmur: no(t) systolic)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: present), (left dp pulse:
+present)
+respiratory / chest: (expansion: symmetric), (breath sounds: crackles :
+at bases bilat)
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: trace, left: trace, no(t) cyanosis
+skin:  warm, no(t) rash: , no(t) jaundice
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, oriented (to): x3, movement: purposeful, tone: normal
+/
+245 k/ul
+12.6 g/dl
+100 mg/dl
+0.9 mg/dl
+26 meq/l
+4.5 meq/l
+14 mg/dl
+104 meq/l
+141 meq/l
+37.6 %
+11.0 k/ul
+image002.jpg]
+[**2177-2-21**]  10:24 pm
+[**2177-2-22**]  03:55 am
+wbc
+11.0
+hct
+37.6
+plt
+245
+cr
+0.9
+tco2
+25
+glucose
+100
+other labs: ck / ckmb / troponin-t:488/3/, lactic acid:0.8 mmol/l,
+ca++:8.0 mg/dl, mg++:2.1 mg/dl, po4:2.5 mg/dl","sepsis - fevers, leukocytosis, tachycardia, and tachypnea. lll
+   infiltrate; hypoxia",sepsis fevers leukocytosis tachycardia and tachypnea left lower lobe infiltrate; hypoxia,"['sepsis fevers leukocytosis tachycardia and tachypnea left lower lobe infiltrate', 'hypoxia']","PNEUMONIA, BACTERIAL, COMMUNITY ACQUIRED (CAP)
+   Assesment: This is a 67 year-old male with no significant PMH who
+   presents with fevers, tachypnea, and tachycardia with ? LLL pneumoia",True,"The patient presents with a fever (tmax: 38°C or 100.4°F), which is a key indicator of potential sepsis. Additionally, the patient has been prescribed antibiotics, suggesting a suspected or confirmed infection. The presence of crackles at the bases of the lungs bilaterally could indicate a respiratory infection, which, combined with the fever, supports the possibility of sepsis. However, the patient's vital signs, such as heart rate (77 bpm), blood pressure (129/63 mmHg), and respiratory rate (25 inspirations/min), are not significantly elevated, which might argue against severe sepsis or septic shock at this moment. The white blood cell count (WBC) is slightly elevated at 11.0 k/ul, which can be seen in infections and thus supports the diagnosis of sepsis. The lactic acid level is 0.8 mmol/l, which is not significantly elevated, suggesting that if sepsis is present, the patient may not be in shock. Considering these factors, the evidence suggests the patient could be experiencing sepsis, particularly given the fever, use of antibiotics, and slight elevation in WBC. However, the absence of more pronounced hemodynamic instability (e.g., hypotension, significant tachycardia) and the relatively low lactic acid level might suggest that if sepsis is present, it is not severe or the patient is in the early stages.",False,"The patient has a fever (Tmax: 38°C or 100.4°F), an elevated white blood cell count (WBC) of 11.0 k/ul, and is on antibiotics, which could suggest an infectious process. However, the presence of sepsis would typically require more evidence of organ dysfunction or a clear source of infection, which is not clearly outlined in the provided information."
+192,148290.txt,"weaned off pressors
+blood cultures still growing gpcs in pairs and chains
+id approved cefepime
+sent pneumococcal vaccine titers
+quantitative igg normal
+started on famotidine
+nothing in utd about vaccinating family members
+advanced to regular diet
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+rash;
+percocet (oral) (oxycodone hcl/acetaminophen)
+rash; shortness
+lipitor (oral) (atorvastatin calcium)
+myalgia;
+fioricet (oral) (butalb/acetaminophen/caffeine)
+lip swelling;
+fioricet (oral) (butalb/acetaminophen/caffeine)
+lip swelling;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+acyclovir - [**2183-5-24**] 06:29 am
+vancomycin - [**2183-5-24**] 11:57 pm
+cefipime - [**2183-5-25**] 05:49 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2183-5-24**] 11:57 pm
+other medications:
+flowsheet data as of  [**2183-5-25**] 06:59 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.2
+c (98.9
+tcurrent: 36.3
+c (97.4
+hr: 87 (73 - 106) bpm
+bp: 101/67(75) {88/55(63) - 104/71(77)} mmhg
+rr: 16 (12 - 26) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+cvp: 11 (11 - 11)mmhg
+total in:
+8,595 ml
+650 ml
+po:
+1,680 ml
+480 ml
+tf:
+ivf:
+1,915 ml
+170 ml
+blood products:
+total out:
+6,160 ml
+1,500 ml
+urine:
+4,160 ml
+1,500 ml
+ng:
+stool:
+drains:
+balance:
+2,435 ml
+-850 ml
+respiratory support
+o2 delivery device: none
+spo2: 94%
+abg: ///26/
+gen: a/ox3, conversant, pleasant
+heent: no sinus tenderness, no icterus
+heart: rrr, no mrg
+lungs: ctab
+abd: soft, nt, nd, bs+
+ext: no edema, 2+ peripheral pulses
+237 k/ul
+11.4 g/dl
+107 mg/dl
+0.8 mg/dl
+26 meq/l
+4.0 meq/l
+11 mg/dl
+107 meq/l
+140 meq/l
+32.1 %
+16.3 k/ul
+wbc
+12.7
+21.4
+16.3
+hct
+27.5
+36
+33.0
+32.1
+plt
+161
+256
+237
+cr
+0.9
+1.0
+0.8
+0.8
+glucose
+103
+109
+109
+107
+other labs: alt / ast:23/33, alk phos / t bili:45/0.5, amylase /
+lipase:/53, differential-neuts:83.5 %, lymph:12.0 %, mono:2.8 %,
+eos:1.2 %, lactic acid:1.3 mmol/l, ldh:189 iu/l, ca++:8.1 mg/dl,
+mg++:2.2 mg/dl, po4:2.2 mg/dl",fevers; sepsis; hiv,fevers; sepsis; human immunodeficiency virus,"['fevers', 'sepsis', 'human immunodeficiency virus']","51yo male with history of asplenia and HIV was admitted with fevers and
+   weakness.
+   .",False,"The patient's blood cultures are growing Gram-positive cocci in pairs and chains, which is suggestive of a bacterial infection. The patient has been on various antibiotics, including vancomycin and cefepime, which are commonly used to treat sepsis. The patient's vital signs, such as heart rate and blood pressure, are within relatively normal limits, but the patient's white blood cell count (WBC) is elevated at 16.3 k/ul, which can indicate an infectious process. Additionally, the patient's lactic acid level is slightly elevated at 1.3 mmol/l, which can be a sign of tissue hypoperfusion. However, the patient's temperature is not significantly elevated, and the patient has been weaned off pressors, which suggests that the patient's hemodynamic status is stable. Overall, while there are some signs of infection and inflammation, the patient's clinical presentation does not strongly suggest sepsis at this time.",True,"The patient has been on various antibiotics, and blood cultures are growing Gram-positive cocci in pairs and chains, which suggests a bacterial infection. The patient's white blood cell count (WBC) is elevated at 16.3 k/ul, and the patient has been on pressors (though weaned off), indicating potential sepsis. The presence of fever (tmax: 37.2°C or 98.9°F) and the use of broad-spectrum antibiotics like cefepime and vancomycin further support this diagnosis."
+233,197051.txt,"invasive ventilation - stop [**2124-8-31**] 11:28 am
+picc line - start [**2124-8-31**] 09:18 pm
+- sbt x2 hrs, very comfortable, did well--> so he was extubated without
+difficulty, did well on face tent
+- on nasal canula 4l this am, saturations around 98%
+- picc line placed to complete 10day course of zosyn, now on po
+linezolid
+- picc line not in right position, but central line cannot be taken out
+until pt has more access
+no known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin - [**2124-8-29**] 08:38 pm
+acyclovir - [**2124-8-31**] 08:00 pm
+linezolid - [**2124-8-31**] 09:30 pm
+piperacillin/tazobactam (zosyn) - [**2124-9-1**] 12:31 am
+voriconazole - [**2124-9-1**] 12:31 am
+infusions:
+other icu medications:
+enoxaparin (lovenox) - [**2124-8-31**] 08:00 pm
+other medications:
+flowsheet data as of  [**2124-9-1**] 07:10 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.2
+c (99
+tcurrent: 36.4
+c (97.6
+hr: 72 (66 - 111) bpm
+bp: 152/79(98) {113/57(73) - 155/95(105)} mmhg
+rr: 11 (11 - 22) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 74 kg (admission): 73.7 kg
+height: 62 inch
+cvp: 11 (10 - 17)mmhg
+total in:
+1,051 ml
+412 ml
+po:
+100 ml
+tf:
+ivf:
+801 ml
+172 ml
+blood products:
+total out:
+1,950 ml
+970 ml
+urine:
+1,950 ml
+970 ml
+ng:
+stool:
+drains:
+balance:
+-899 ml
+-558 ml
+respiratory support
+o2 delivery device: aerosol-cool
+ventilator mode: psv/sbt
+ps : 5 cmh2o
+rr (spontaneous): 14
+peep: 0 cmh2o
+fio2: 35%
+pip: 6 cmh2o
+spo2: 99%
+abg: 7.45/46/71/33/6
+ve: 7.6 l/min
+pao2 / fio2: 178
+general: alert, oriented, no acute distress
+heent:  pupils equal and reactive
+neck: rij in place
+lungs: coarse basilar crackles b/l with diminished sounds at l base
+cv: soft heart sounds, rrr no m/r/g.
+abdomen: soft, diffuse tenderness without rebound/guarding, mildly
+distended, bowel sounds present
+ext: ecchymotic, 3+ le pitting edema, weeping; has some erythema on
+lower anterior legs l>r . warm with 2+ pulses; toes warm.
+skin: very thin and delicate; has skin tears ; dark ecchymoses right
+shoulder and upper chest, diffuse erythema
+189 k/ul
+9.1 g/dl
+98 mg/dl
+0.6 mg/dl
+33 meq/l
+3.7 meq/l
+15 mg/dl
+102 meq/l
+140 meq/l
+27.9 %
+8.6 k/ul
+[image002.jpg]
+[**2124-8-29**]  05:36 pm
+[**2124-8-29**]  08:51 pm
+[**2124-8-30**]  12:46 am
+[**2124-8-30**]  04:04 am
+[**2124-8-30**]  04:28 pm
+[**2124-8-30**]  10:33 pm
+[**2124-8-31**]  03:04 am
+[**2124-8-31**]  09:47 am
+[**2124-8-31**]  01:54 pm
+[**2124-9-1**]  06:02 am
+wbc
+7.9
+8.6
+7.6
+8.6
+hct
+27.1
+24.9
+26.4
+23.9
+27.9
+plt
+181
+201
+169
+189
+cr
+0.8
+0.6
+0.6
+tropt
+0.26
+0.19
+tco2
+30
+33
+34
+33
+glucose
+177
+127
+98
+other labs: ck / ckmb / troponin-t:30/7/0.19, alt / ast:70/52, alk phos
+/ t bili:437/0.2, differential-neuts:95.8 %, lymph:1.5 %, mono:2.3 %,
+eos:0.1 %, lactic acid:0.8 mmol/l, ldh:263 iu/l, ca++:8.3 mg/dl,
+mg++:2.2 mg/dl, po4:2.9 mg/dl","# hypoxic respiratory failure:; # hypotension/sepsis:; cml s/p allo sct,",hypoxic respiratory failure ; hypotension sepsis ; chronic myeloid leukemia status post allogeneic stem cell transplant,"['hypoxic respiratory failure', 'hypotension sepsis', 'chronic myeloid leukemia status post allogeneic stem cell transplant']","58 year old male w past medical history of CML s/p BMT in [**2121**] on
+   chronic immunosuppression, w recent hospitalizations for his
+   bronchiolitis obliterans and for resistant pseudomonal infections,
+   presenting w respiratory distress and hypotension.",False,"The patient's presentation includes several indicators that could suggest sepsis, such as the administration of broad-spectrum antibiotics (e.g., piperacillin/tazobactam, linezolid), the presence of coarse basilar crackles and diminished sounds at the left lung base, and diffuse tenderness of the abdomen. However, the patient's vital signs, such as a temperature of 36.4°C (97.6°F), heart rate of 72 bpm, and blood pressure of 152/79 mmHg, do not strongly indicate systemic inflammatory response syndrome (SIRS) criteria typically seen in sepsis. The white blood cell count (WBC) is within a relatively normal range (8.6 k/ul), and while there is some elevation in neutrophil percentage, other markers like lactic acid are not significantly elevated (0.8 mmol/l), which is an important indicator of tissue hypoperfusion often seen in sepsis. The patient's clinical presentation and laboratory findings do not conclusively support a diagnosis of sepsis at this time, especially considering the lack of clear evidence of organ dysfunction or failure that is typically required for a sepsis diagnosis.",True,"The patient is on broad-spectrum antibiotics, including piperacillin/tazobactam, linezolid, and voriconazole, suggesting a concern for infection. The white blood cell count is elevated, and the patient has a fever (tmax: 37.2°C). The presence of diffuse erythema and ecchymoses also raises the possibility of sepsis."
+276,101665.txt,"fever, abd pain
+-gi:  doubt that patient has uc based on colonoscopy though biopsies
+""   pending; hold tfs until """"clinically improves,"""" cont getting c. diff""
+assays.
+-tfs held with plan to restart in a.m. on [**3-23**] given patient's well
+appearance
+-stopped gent
+-got 1l lr bolus b/c npo and sbp decreased to 80 o/n but had nl hr and
+was clinically well
+penicillins
+rash;
+keflex (oral) (cephalexin monohydrate)
+face swelling;
+ciprofloxacin
+colitis;
+sulfa (sulfonamides)
+face swelling;
+clarithromycin
+agitation;
+demerol (oral) (meperidine hcl)
+hives;
+red dye
+tongue swelling
+haldol (injection) (haloperidol lactate)
+unknown;
+review of systems is unchanged from admission except as noted below
+review of systems: through mother, denies pain, sob, is hungry","last dose of antibiotics:
+gentamicin - [**2146-3-22**] 05:00 am
+vancomycin - [**2146-3-22**] 08:07 pm
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2146-3-22**] 02:00 pm
+pantoprazole (protonix) - [**2146-3-22**] 05:45 pm
+other medications:
+flowsheet data as of  [**2146-3-23**] 07:48 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36
+c (96.8
+hr: 63 (63 - 121) bpm
+bp: 92/56(65) {82/50(36) - 146/72(80)} mmhg
+rr: 19 (17 - 32) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 66 inch
+total in:
+8,023 ml
+404 ml
+po:
+tf:
+ivf:
+3,693 ml
+344 ml
+blood products:
+total out:
+2,340 ml
+120 ml
+urine:
+1,775 ml
+120 ml
+ng:
+stool:
+drains:
+balance:
+5,683 ml
+284 ml
+respiratory support
+o2 delivery device: none
+spo2: 97%
+abg: ///25/
+general appearance: no acute distress, thin
+cardiovascular: (s1: normal), (s2: normal), (murmur: no(t) systolic)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: present), (left dp pulse:
+present)
+respiratory / chest: (expansion: symmetric), (breath sounds: clear : )
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: absent, left: absent, no(t) cyanosis
+skin:  warm, no(t) rash: , no(t) jaundice
+neurologic: attentive, responds to: not assessed, movement: not
+assessed, tone: increased
+175 k/ul
+11.9 g/dl
+67 mg/dl
+0.5 mg/dl
+25 meq/l
+3.6 meq/l
+16 mg/dl
+104 meq/l
+138 meq/l
+33.7 %
+8.0 k/ul
+[image002.jpg]
+[**2146-3-22**]  04:51 am
+[**2146-3-23**]  05:00 am
+wbc
+11.9
+8.0
+hct
+34.8
+33.7
+plt
+190
+175
+cr
+0.5
+0.5
+glucose
+93
+67
+other labs: ca++:8.0 mg/dl, mg++:2.3 mg/dl, po4:2.8 mg/dl","sepsis - on initial admit, febrile, tachycardic, and had
+   leukocytosis.  potential likely sources include lll pneumonia with
+   infiltrate on cxr; hypotension: likely component of dehydration and infection.; gerd",sepsis on initial admission febrile tachycardic and had leukocytosis potential likely sources include left lower lobe pneumonia with infiltrate on chest x ray; hypotension likely component of dehydration and infection ; gastroesophageal reflux disease,"['sepsis on initial admission febrile tachycardic and had leukocytosis potential likely sources include left lower lobe pneumonia with infiltrate on chest x ray', 'hypotension likely component of dehydration and infection', 'gastroesophageal reflux disease']","GASTROESOPHAGEAL REFLUX DISEASE (GERD)
+ FEVER, UNKNOWN ORIGIN (FUO, HYPERTHERMIA, PYREXIA)
+ HYPOTENSION (NOT SHOCK)
+   Assessment: This is a 39 year-old male with a history of cerebral
+   palsy, chronic aspiration, GERD who presents with fevers, cough,
+   abdominal pain, and diarrhea with persistent hypotension",False,"The patient presents with fever and abdominal pain, which are common symptoms of sepsis. The patient's vital signs show a temperature of 36.9°C (98.4°F) and a heart rate of 63 bpm, which are within normal limits, but the blood pressure is slightly low at 92/56 mmHg. The patient's white blood cell count (WBC) is elevated at 11.9 g/dL, which is a sign of infection. The patient is also receiving antibiotics, including gentamicin and vancomycin, which suggests that the patient is being treated for a suspected infection. However, the patient's abdominal exam is soft and non-tender, and bowel sounds are present, which argues against a severe abdominal infection. Additionally, the patient's clinical appearance is described as 'no acute distress' and 'thin', which suggests that the patient is not in severe distress. The patient's lactate level is not reported, which is an important marker for sepsis. Overall, while there are some signs of infection, such as fever and elevated WBC, the patient's clinical presentation and laboratory results do not strongly suggest sepsis. Therefore, the diagnosis of sepsis is unlikely.",True,"The patient has a fever and has been receiving antibiotics, and the white blood cell count is elevated at 11.9 g/dL, suggesting a possible infectious process. However, the patient's clinical appearance is described as 'no acute distress' and 'thin', and the vital signs are relatively stable, making the diagnosis of sepsis uncertain but possible."
+281,105027.txt,"- urologist needs clotting expert dr. [**first name4 (namepattern1) 84**] [**last name (namepattern1) 10937**] clearance before
+surgical removal of kidney
+- we need father's hx of clotting disorder for dr. [**last name (stitle) **] (urology) as
+well
+- pt spiked to [**age over 90 516**]f 8:30pm, tachycardia into 130s ; was in more pain to
+right side but given iv morphine 2mg and felt better but still
+tachycardic 130s
+- no need for lasix as patient is diuresing > 150cc/hr
+sulfa (sulfonamide antibiotics)
+rash; itching p
+codeine
+rash; itching p
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+cefipime - [**2125-9-20**] 10:07 am
+vancomycin - [**2125-9-20**] 08:04 pm
+metronidazole - [**2125-9-20**] 11:48 pm
+infusions:
+other icu medications:
+morphine sulfate - [**2125-9-21**] 02:02 am
+other medications:
+flowsheet data as of  [**2125-9-21**] 07:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.8
+c (101.8
+f) ([**2115**])
+tcurrent: 37.8
+c (100
+hr: 114 (102 - 133) bpm
+bp: 129/76(89) {98/39(55) - 153/80(93)} mmhg
+rr: 20 (13 - 29) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+height: 59 inch
+cvp: 11 (11 - 11)mmhg
+total in:
+2,980 ml
+311 ml
+po:
+540 ml
+240 ml
+tf:
+ivf:
+2,440 ml
+71 ml
+blood products:
+total out:
+3,670 ml
+1,270 ml
+urine:
+3,670 ml
+1,270 ml
+ng:
+stool:
+drains:
+balance:
+-690 ml
+-959 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///17/
+general appearance: well nourished
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic, mmm
+cardiovascular: regular rhythm, 1/6 sem, tachycardic but improving
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: present), (left dp pulse:
+present)
+respiratory / chest: (expansion: symmetric), breath sounds: crackles :
+r > l base and decreased bilateral bases
+abdominal: soft, bowel sounds present, tender: ruq > luq, left cva
+tenderness
+extremities: right lower extremity edema: absent, left lower extremity
+edema: absent
+skin:  not assessed, rash: 1mm erthyematous macules at sites of
+follicules on bl shins. no ecchymoses.
+neurologic: attentive, responds to: not assessed, oriented (to): x3,
+movement: purposeful, tone: not assessed
+39 k/ul
+9.1 g/dl
+91 mg/dl
+0.9 mg/dl
+17 meq/l
+3.5 meq/l
+13 mg/dl
+113 meq/l
+138 meq/l
+28.9 %
+9.7 k/ul
+[image002.jpg]
+[**2125-9-18**]  10:23 am
+[**2125-9-18**]  12:52 pm
+[**2125-9-18**]  08:30 pm
+[**2125-9-19**]  03:25 pm
+[**2125-9-20**]  03:42 am
+[**2125-9-20**]  02:51 pm
+[**2125-9-21**]  05:02 am
+wbc
+2.8
+2.5
+3.3
+4.5
+9.7
+hct
+28.5
+29.9
+30.4
+26.7
+28.9
+plt
+55
+38
+43
+56
+48
+39
+cr
+1.0
+1.0
+1.0
+1.0
+0.9
+glucose
+97
+53
+99
+164
+91
+other labs: pt / ptt / inr:17.3/28.8/1.5, alt / ast:17/15, alk phos / t
+bili:98/0.7, differential-neuts:82.1 %, band:0.0 %, lymph:13.1 %,
+mono:3.8 %, eos:0.9 %, d-dimer:[**numeric identifier 10938**] ng/ml, fibrinogen:808 mg/dl,
+lactic acid:1.2 mmol/l, ldh:361(294) iu/l, ca++:7.9 mg/dl, mg++:1.7
+mg/dl, po4:3.1 mg/dl
+peripheral smear: no shistocytes
+anca: negative
+micro: ucx [**9-18**] and [**9-19**] no growth; bcx: [**9-18**] and [**9-19**] ngtd
+: none",sepsis: secondary to pyelonephritis;; sinus tachycardia; pancytopenia; arf,sepsis secondary to pyelonephritis;; sinus tachycardia; pancytopenia; acute renal failure,"['sepsis secondary to pyelonephritis', 'sinus tachycardia', 'pancytopenia', 'acute renal failure']","37 year old female with acute sepsis secondary to pyelonephritis with
+   evolving pancytopenia and radiological evidence of necrotic
+   pyelonephritis
+   .",False,"The patient presents with symptoms and signs that could suggest sepsis, such as tachycardia (heart rate in the 130s), fever (tmax: 38.8°C or 101.8°F), and an elevated white blood cell count (WBC) that increased from 2.8 to 9.7 k/ul over time. Additionally, the patient is on broad-spectrum antibiotics (cefipime, vancomycin, and metronidazole), which could indicate a suspicion of infection. However, the patient's blood cultures ([**9-18**] and [**9-19**]) show no growth, and the urinalysis and other cultures also do not indicate a clear source of infection. The patient's lactic acid level is slightly elevated at 1.2 mmol/l, which could be a sign of tissue hypoperfusion but is not conclusively high. The presence of sinus tachycardia and the patient's response to morphine for pain suggest that while the patient is ill, the clinical picture does not conclusively point to sepsis without a clear source of infection or more definitive signs of organ dysfunction. Therefore, based on the information provided, the diagnosis of sepsis is uncertain but leans towards being unlikely due to the lack of clear evidence of infection and organ dysfunction.",True,"The patient has a fever (tmax: 38.8°C or 101.8°F), tachycardia (hr: 114 bpm), and an elevated white blood cell count (WBC: 9.7 k/ul), which are indicative of a potential infectious process. The presence of antibiotics (cefipime, vancomycin, metronidazole) suggests a suspicion of infection, supporting the possibility of sepsis."
+312,100746.txt,"- has tendency for systolic blood pressure (sbp) to drift in to low
+80's when asleep, however after waking, goes immediately up to 100.
+patient remained asymptommatic overnight.
+shellfish
+unknown;","last dose of antibiotics:
+vancomycin - [**2165-3-7**] 10:00 pm
+piperacillin/tazobactam (zosyn) - [**2165-3-8**] 06:06 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2165-3-7**] 08:20 pm
+pantoprazole (protonix) - [**2165-3-8**] 06:06 am
+other medications:
+flowsheet data as of  [**2165-3-8**] 07:16 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 36.4
+c (97.5
+hr: 60 (54 - 73) bpm
+bp: 93/50(61) {69/30(44) - 112/66(118)} mmhg
+rr: 11 (11 - 25) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+total in:
+5,235 ml
+255 ml
+po:
+400 ml
+tf:
+ivf:
+3,535 ml
+255 ml
+blood products:
+total out:
+2,580 ml
+1,240 ml
+urine:
+1,930 ml
+1,240 ml
+ng:
+stool:
+balance:
+2,655 ml
+-985 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 92%
+abg: ///23/
+gen: nad
+heent: perrl, eomi, oral mucosa moist
+neck: supple, no lad, jvp at ~8 cm
+pulm: inpiratory squeaks bilaterally anterior, decreased breath sounds
+throughout
+card: rr, nl s1, nl s2, no m/r/g
+abd: bs hyperactive, soft, non-tender, non-distended, no organomegaly
+ext: no c/c/e
+""   neuro: oriented to """"hospital"""", date, year, current president""
+222 k/ul
+9.6 g/dl
+92 mg/dl
+0.8 mg/dl
+23 meq/l
+3.6 meq/l
+11 mg/dl
+111 meq/l
+140 meq/l
+29.1 %
+9.5 k/ul
+image002.jpg]
+[**2165-3-7**]  05:00 am
+[**2165-3-7**]  12:17 pm
+[**2165-3-7**]  07:51 pm
+[**2165-3-8**]  03:19 am
+wbc
+10.1
+9.5
+hct
+32.8
+31.6
+30.5
+29.1
+plt
+246
+222
+cr
+0.8
+0.8
+glucose
+87
+92
+other labs: pt / ptt / inr:14.0/29.9/1.2, differential-neuts:76.5 %,
+lymph:18.9 %, mono:4.2 %, eos:0.2 %, lactic acid:1.3 mmol/l, ca++:7.8
+mg/dl, mg++:2.1 mg/dl, po4:3.1 mg/dl","fevers / leukocytosis:
+   pulmonary source i; hypotension:
+   likely sepsis physiology; gi bleed",fevers leukocytosis pulmonary source infection; hypotension likely sepsis physiology; gastrointestinal bleed,"['fevers leukocytosis pulmonary source infection', 'hypotension likely sepsis physiology', 'gastrointestinal bleed']","67 yo M with history of COPD, CVA with residual left sided weakness,
+   history of aspiration, hypertension. Was admitted to the MICU due to
+   concerns for upper GI bleed, fevers, and hypotension.",False,"The patient's vital signs show a temperature of 37.1°C (98.8°F) at maximum and 36.4°C (97.5°F) currently, which does not strongly indicate fever, a common sign of sepsis. The heart rate is 60 bpm, which is within normal limits. The blood pressure is 93/50 mmHg, with a notable drop in systolic blood pressure to the low 80s when asleep, but it immediately goes up to 100 upon waking, suggesting some degree of blood pressure instability. The respiratory rate is 11 breaths per minute, which is lower than what is typically seen in sepsis. The white blood cell count (WBC) is 9.5 k/ul, which is within normal limits, and the differential shows a slight increase in neutrophils (76.5%) but not significantly elevated. The lactic acid level is 1.3 mmol/l, which is slightly elevated but not conclusively indicative of sepsis. The patient is on antibiotics (vancomycin and piperacillin/tazobactam), which suggests a suspicion of infection, but the overall clinical picture does not strongly support sepsis at this moment. The patient's asymptomatic status overnight and the absence of clear signs of organ dysfunction or failure also argue against sepsis.",True,"The patient is on antibiotics (vancomycin and piperacillin/tazobactam), which suggests a suspicion of infection. The patient's white blood cell count (WBC) is slightly elevated (10.1), and there is a mention of 'inpiratory squeaks bilaterally anterior, decreased breath sounds throughout,' which could indicate a respiratory infection. The lactic acid level is slightly elevated at 1.3 mmol/L, which can be seen in sepsis. Given these clues, sepsis is a possible diagnosis, although the patient's temperature is not significantly elevated, and other specific criteria for sepsis (e.g., organ dysfunction) are not clearly met based on the information provided."
+350,117599.txt,chief complaint: chief complaint:pneumonia 24 hour events: invasive ventilation - stop  02:30 pm arterial line - stop  11:58 pm  -inr goal is 2.5 - 3.5 for mechanical valve -increased redness seen in lower extremities so teds were removed to ensure that he was not extravasating given rising inr -switched to pressure support in the morning and he tolerated sbt; was extubated w/ no complications -urine lytes were:  fena 0.2% suggestive of prerenal etiology -order placed for echo history obtained from patient allergies: history obtained from patientmorphine nausea/vomiting,"last dose of antibiotics: azithromycin -  10:00 pm cefipime -  08:00 pm metronidazole -  04:02 am infusions: other icu medications: famotidine (pepcid) -  10:34 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: denies cp, sob. flowsheet data as of   08:14 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.6 c (97.9 tcurrent: 35.6 c (96 hr: 60 (60 - 63) bpm bp: 152/70(88) {115/54(68) - 167/115(123)} mmhg rr: 15 (12 - 16) insp/min spo2: 97% heart rhythm: v paced wgt (current): 91.3 kg (admission): 92.8 kg cvp: 10 (5 - 17)mmhg total in: 1,417 ml 182 ml po: tf: ivf: 1,357 ml 182 ml blood products: total out: 1,125 ml 305 ml urine: 1,105 ml 305 ml ng: 20 ml stool: drains: balance: 292 ml -123 ml respiratory support o2 delivery device: nasal cannula ventilator mode: cpap/psv vt (spontaneous): 520 (207 - 520) ml ps : 5 cmh2o rr (spontaneous): 0 peep: 5 cmh2o fio2: 40% pip: 10 cmh2o spo2: 97% abg: 7.36/36/125/22/-4 ve: 7.6 l/min pao2 / fio2: 125 physical examination gen: floridly delerious, aox0, labile affect, laughing/crying inappropriately, redirectable and pleasant cv: rrr, no rmg pulm: ctab, no wrr abd: soft, ntnd, +bs ext: chronic venous changes, erythematous rash at r thigh neuro: perrla, moving all 4 extremities spontaneously, slightly slurred speech, no facial droop labs / radiology 106 k/ul 11.5 g/dl 163 mg/dl 1.3 mg/dl 22 meq/l 4.0 meq/l 27 mg/dl 113 meq/l 142 meq/l 33.8 % 5.7 k/ul [image002.jpg]   05:09 pm   08:28 pm   09:07 pm   04:04 am   06:29 am   01:10 pm   03:54 am wbc 15.6 5.7 hct 36.9 33.8 plt 192 106 cr 1.7 1.3 tropt 0.02 <0.01 tco2 20 23 22 21 glucose 192 163 other labs: pt / ptt / inr:57.8/57.4/6.5, ck / ckmb / troponin-t:70/3/<0.01, alt / ast:49/39, alk phos / t bili:112/0.5, amylase / lipase:64/, differential-neuts:91.8 %, lymph:4.0 %, mono:4.1 %, eos:0.1 %, fibrinogen:337 mg/dl, lactic acid:0.9 mmol/l, ldh:275 iu/l, ca++:8.4 mg/dl, mg++:2.3 mg/dl, po4:3.2 mg/dl imaging: cxr ap : progressive heterogeneous opacification at the base of the left lung could be due to a combination of pneumonia and increasing moderate left pleural effusion. pulmonary vascular congestion and borderline pulmonary edema have been present for several days and mild-to-moderate cardiomegaly is chronic.  et tube and right internal jugular line, transvenous right atrial and right ventricular pacer leads are all unchanged in standard placements and a nasogastric tube passes into the stomach and out of view. no pneumothorax. microbiology:   sputum gram stain-final; respiratory culture-preliminary inpatient - oral flora   urine legionella urinary antigen -final inpatient   urine urine culture-final emergency    blood culture blood culture, routine-pending emergency ","septic shock
+   presumably urinary source; hypoxic respiratory failure; avr/chb pacer dependent; ",septic shock presumably urinary source; hypoxic respiratory failure; aortic valve replacement complete heart block pacer dependent;,"['septic shock presumably urinary source', 'hypoxic respiratory failure', 'aortic valve replacement complete heart block pacer dependent']","76 yo M w/ AVR on coumadin, CHB pacer dependent, Afib, prostate CA on
+   hydrocortisone po presents from home with acute onset chills and
+   vomiting followed by septic shock and respiratory failure.",False,"The patient presents with several signs and symptoms that could suggest sepsis, including a high white blood cell count (WBC) of 15.6, indicating a potential infection, and the presence of pneumonia as noted in the chief complaint and supported by the chest X-ray (CXR) findings of 'progressive heterogeneous opacification at the base of the left lung' which could be due to a combination of pneumonia and increasing moderate left pleural effusion. Additionally, the patient has been on antibiotics (azithromycin, cefipime, and metronidazole), which further supports the suspicion of an infection. The patient's temperature has been relatively stable, with a maximum of 36.6°C and a current temperature of 35.6°C, which does not strongly indicate fever, a common sign of sepsis. However, the presence of tachycardia (heart rate of 60 bpm, which is within the normal range but on the higher end for this patient's context), and the elevated lactic acid level of 0.9 mmol/L, although not significantly high, could be indicative of an early or mild septic response. The patient's mental status, described as 'floridly delerious, aox0, labile affect, laughing/crying inappropriately,' could suggest altered mental status, which is a criterion for the systemic inflammatory response syndrome (SIRS) and potentially sepsis. Given these points, while the evidence is not overwhelmingly conclusive for sepsis, especially with the lack of clear hypotension or significant organ dysfunction at this moment, the combination of infection signs (pneumonia), the use of antibiotics, and some SIRS criteria (leukocytosis, potential altered mental status) lean towards considering sepsis as a possible diagnosis. However, the diagnosis of sepsis typically requires more definitive evidence of organ dysfunction or failure in response to infection, which is not clearly outlined in the provided information. Therefore, based on the information given, the diagnosis of sepsis is plausible but not definitively confirmed.",True,"The patient has a high white blood cell count (15.6 k/ul), fever (tmax: 36.6 C), and is being treated with antibiotics, which suggests a possible infectious process. However, the source of infection is unclear, and the patient's condition is complex, making it difficult to determine if sepsis is present."
+355,123147.txt,"title: chief complaint: 24 hour events: - weaned off pressors - extubated in afternoon, abg: ph 7.43 pco2 34 po2 67 hco3 23 lactate:0.5 - ortho recs: changed dressing and d/c'd ,  contact dr.  to update - hand recs: daily dressing changes; conyinue splint, elevate - id recs: do not d/c clinda until bps more stable, get hiv when possible to consent - psych recs: when pt is ready for extubation, use haldol; withdrawal sx unlikely as pt has not used any substances in 4d; page  with any q/c - d/c'd a-line -  ekg showed no qt prolongation allergies: magnesium anaphylaxis; ra latex anaphylaxis; salicylate unknown; benzocaine methemoglobinem","last dose of antibiotics: vancomycin -  08:06 am gentamicin -  06:00 pm penicillin g potassium -  03:37 am clindamycin -  05:08 am infusions: other icu medications: pantoprazole (protonix) -  08:27 pm haloperidol (haldol) -  01:18 am heparin sodium (prophylaxis) -  01:19 am hydromorphone (dilaudid) -  04:36 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:36 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.4 c (99.3 tcurrent: 36.2 c (97.2 hr: 108 (91 - 121) bpm bp: 100/58(68) {84/47(56) - 100/70(78)} mmhg rr: 20 (18 - 24) insp/min spo2: 99% heart rhythm: st (sinus tachycardia) wgt (current): 50.2 kg (admission): 50.9 kg height: 60 inch cvp: 0 (0 - 6)mmhg total in: 1,560 ml 726 ml po: 400 ml tf: ivf: 1,560 ml 326 ml blood products: total out: 2,805 ml 1,420 ml urine: 2,775 ml 1,420 ml ng: stool: drains: 30 ml balance: -1,245 ml -694 ml respiratory support o2 delivery device: nasal cannula 5l abg: 7.43/34/67/23/0 physical examination general: appears comfortable, drowsy, arousable to voice lungs: ctab, no wheezes or crackles cv: rrr, normal s1 + s2, no murmurs, rubs, gallops abdomen:  soft, non-tender, non-distended, bowel sounds present gu: foley in place draining clear yellow urine ext: left hand with splint, left wrapped in dressing, pain on movement labs / radiology 262 k/ul 7.7 g/dl 83 mg/dl 0.3 mg/dl 23 meq/l 3.4 meq/l 4 mg/dl 106 meq/l 135 meq/l 23.7 % 4.8 k/ul [image002.jpg]   03:55 pm   04:59 pm   06:34 pm   08:46 pm   11:47 pm   12:03 am   05:00 am   05:25 am   05:40 pm   04:05 am wbc 5.0 5.8 4.8 hct 24.9 25.4 26.9 23.7 plt 191 203 262 cr 0.5 0.3 tco2 25 27 28 27 27 27 23 glucose 108 83 other labs: pt / ptt / inr:13.4/40.2/1.1 lactic acid:0.5 mmol/l ca++:7.2 mg/dl (corrected is wnl), mg++:1.7 mg/dl, po4:3.2 mg/dl micro:  cx- group a strep, susc pending  swab gram + cocci in pairs/chains  tissue- leuk, no org  ->  blood cx ntd cxr (my read): ett out, rij in place, improved bilat haziness, no pleural effusions or consolidations",sepsis - most likely [**2-26**] thumb abscess/septic arthritis; l knee septic arthritis s/p l knee replacement; thumb abscess; severe persistent asthma; heroin abuse; ,sepsis most likely thumb abscess septic arthritis; left knee septic arthritis status post left knee replacement; thumb abscess; severe persistent asthma; heroin abuse;,"['sepsis most likely thumb abscess septic arthritis', 'left knee septic arthritis status post left knee replacement', 'thumb abscess', 'severe persistent asthma', 'heroin abuse']","Ms [**Known lastname 980**] is a 25 yo female with PMH of severe persistent asthma and
+   IV drug use, s/p bilateral knee replacement for osteonecrosis
+   presenting with sepsis [**2-26**] thumb abscess and left knee septic arthritis
+   likely [**2-26**] IVDU.",False,"The patient's report shows several indicators that argue against sepsis. The patient has been weaned off pressors and extubated, suggesting an improvement in their condition. The ABG results (pH 7.43, pCO2 34, pO2 67, HCO3 23) and lactate level (0.5) are within normal limits, which does not indicate severe metabolic acidosis typically seen in sepsis. The patient's temperature is also within a relatively normal range (Tmax: 37.4 C, Tcurrent: 36.2 C). The white blood cell count (WBC) has been relatively stable (5.0, 5.8, 4.8), which does not strongly suggest an infectious process. Although the patient is on antibiotics (vancomycin, gentamicin, penicillin G potassium, clindamycin), this could be prophylactic or for a localized infection rather than sepsis. The presence of a sinus tachycardia (heart rhythm: ST) could be due to various reasons, including pain, anxiety, or dehydration, and not necessarily sepsis. The patient's overall appearance (comfortable, drowsy, arousable to voice) and the absence of significant findings on physical examination (e.g., no wheezes, crackles, murmurs, or tenderness) further argue against sepsis. Therefore, based on the provided information, the diagnosis of sepsis seems unlikely.",True,"The patient is receiving multiple antibiotics, including vancomycin, gentamicin, and clindamycin, which suggests a concern for sepsis. The patient's white blood cell count is elevated at 5.0-5.8 k/ul, and the patient has a fever with a maximum temperature of 37.4°C. However, the patient's lactate level is normal at 0.5 mmol/L, which is not typically elevated in sepsis. The presence of a positive culture (group A strep) also supports the diagnosis of sepsis."
+367,131118.txt,"chief complaint: 24 hour events: - given 25 cyclosporine, checking levels daily - tunnel line to be placed on , c/b previous port site - needs to start pcp  on day 21 (friday ) - became uncomfortable on decreased sedation, so they went up again - will get pressure support trial in am - did not restart amio as hr came down on increased bb allergies: penicillins rash; anaphylax morphine nausea/vomiting dilaudid-hp (injection) (hydromorphone hcl/pf) nausea/vomiting","last dose of antibiotics: vancomycin -  10:00 am micafungin -  04:30 pm meropenem -  09:00 pm infusions: heparin sodium - 1,250 units/hour fentanyl (concentrate) - 75 mcg/hour midazolam (versed) - 2 mg/hour other icu medications: fentanyl -  06:40 pm metoprolol -  04:00 am other medications: changes to medical and family history: none review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:49 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.6 c (97.8 tcurrent: 36.3 c (97.4 hr: 101 (94 - 129) bpm bp: 105/57(71) {93/47(61) - 162/88(108)} mmhg rr: 16 (12 - 24) insp/min spo2: 99% heart rhythm: af (atrial fibrillation) wgt (current): 129.8 kg (admission): 132.3 kg height: 72 inch cvp: 10 (9 - 330)mmhg total in: 4,194 ml 1,047 ml po: tf: ivf: 3,101 ml 723 ml blood products: total out: 7,187 ml 2,092 ml urine: 54 ml 12 ml ng: 1,040 ml stool: drains: balance: -2,993 ml -1,045 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 500 (500 - 500) ml vt (spontaneous): 1,070 (125 - 1,070) ml rr (set): 14 rr (spontaneous): 0 peep: 5 cmh2o fio2: 40% rsbi deferred: no spon resp pip: 11 cmh2o plateau: 9 cmh2o spo2: 99% abg: 7.43/40/148/26/2 nif: -21 cmh2o ve: 8.5 l/min pao2 / fio2: 370 physical examination gen: obese, intubated and sedated, not arousable to voice, not grimacing to pain. neck: right-sided portacath. left-sided tunneled catheter over erythematous patch ?old xrt site. unable to assess jvd  obese habitus. cv: tachycardic, irregular. normal s1/s2. lungs: mildly coarse breath sounds abd: obese, soft, nt, nd.  no hsm. hypoactive bs ext: 1+ pitting edema on dorsum of feet; upper extremities bilaterally edematous but non-pitting. right-sided a-line in place labs / radiology 258 k/ul 9.0 g/dl 123 mg/dl 1.8 mg/dl 26 meq/l 3.6 meq/l 21 mg/dl 100 meq/l 133 meq/l 26.7 % 10.9 k/ul [image002.jpg]   02:16 pm   04:32 pm   01:35 am   01:43 am   01:49 pm   07:44 pm   08:05 pm   01:52 am   02:12 am   05:16 am wbc 11.0 10.9 hct 29.2 26.7 plt 217 258 cr 2.3 1.9 1.8 tco2 27 27 27 27 27 glucose 120 131 141 131 123 other labs: pt / ptt / inr:14.0/91.9/1.2, alt / ast:, alk phos / t bili:91/0.6, differential-neuts:81.0 %, band:6.0 %, lymph:2.0 %, mono:7.0 %, eos:0.0 %, lactic acid:0.9 mmol/l, albumin:2.3 g/dl, ldh:361 iu/l, ca++:8.1 mg/dl, mg++:2.0 mg/dl, po4:1.9 mg/dl fluid analysis / other labs: dig level pending imaging: cxr: midline in place, et tube 2.5cm from carina impression: no definitive evidence of obstruction. however, a paucity of air is noted within the abdomen except for the ascending colon. a partial proximal obstruction with distally collapsed loops cannot be excluded--given the rather distended stomach on prior ct examination, if there is clinical concern for gastric outlet obstruction, upper gi series or endoscopy can be considered for further evaluation of the stomach and duodenum. microbiology: wound swab from port: coag neg staph","respiratory failure: complex etiology including ards , parainfluenza
+   type 3 pneumonia, possible altered mental status, possible pe; sepsis/ e. coli bacteremia; afib with rvr; arf; anemia; myeloma; ",respiratory failure complex etiology including acute respiratory distress syndrome parainfluenza type pneumonia possible altered mental status possible pulmonary embolism; sepsis escherichia coli bacteremia; atrial fibrillation with rapid ventricular response; acute renal failure; anemia; myeloma;,"['respiratory failure complex etiology including acute respiratory distress syndrome parainfluenza type pneumonia possible altered mental status possible pulmonary embolism', 'sepsis escherichia coli bacteremia', 'atrial fibrillation with rapid ventricular response', 'acute renal failure', 'anemia', 'myeloma']","61 yo man s/p alogeneic SCT (day 0= [**2165-3-8**]) for multiple myeloma
+   transferred to the [**Hospital Unit Name 1**] for evaluation of altered mental status,
+   hypoxia, and meropenem desensitization for ESBL E. coli bacteremia.
+   Also with parainfuenza PNA; AFIB; concern for PE.  Overnight concerns
+   over his mental status in that he appears agitated when sedation
+   decreases but not alert.",True,"The patient is receiving multiple antibiotics (vancomycin, micafungin, meropenem), which suggests a suspicion of infection. The presence of a tunneled catheter and a portacath, along with a wound swab from the port site growing coagulase-negative staph, indicates a potential source of infection. The patient's vital signs show tachycardia (hr: 101 bpm) and a slightly elevated temperature (tmax: 36.6 C), which can be indicative of infection. Additionally, the patient has an elevated white blood cell count (wbc: 11.0) with a left shift (band: 6.0%), suggesting an infectious process. The lactic acid level is within normal limits (0.9 mmol/l), which does not strongly support sepsis. However, considering the clinical context, including the use of broad-spectrum antibiotics and signs of potential infection, along with some systemic inflammatory response syndrome (SIRS) criteria being met (tachycardia, elevated wbc), the diagnosis of sepsis is plausible. Nonetheless, without clear evidence of organ dysfunction or a more pronounced metabolic acidosis, the diagnosis remains uncertain. Given the information, the most likely conclusion leans towards sepsis due to the presence of infection signs and the use of antibiotics, but it's not definitive without further evidence of organ dysfunction or failure.",False,"The patient has a number of risk factors and signs that could suggest sepsis, including the presence of a portacath and tunneled catheter, use of broad-spectrum antibiotics (vancomycin, micafungin, meropenem), and a slightly elevated white blood cell count (WBC 11.0). However, the patient's temperature is not significantly elevated (Tmax 36.6 C), and while there is some evidence of potential infection (e.g., coag neg staph from a wound swab), the overall picture does not strongly support sepsis without more clear signs of organ dysfunction or a more pronounced systemic inflammatory response."
+369,132598.txt,"chief complaint: hypoxia, esrd s/p bilat nephrectomy 24 hour events: ekg - at  06:41 pm -iv metop d/c'd -started po metoprolol w/ ngtube (cant take pos reliably) -cvvh restarted for volume optimization. -still flu dfa a + but no evidence to continue therapy -hypotension with w/ cvvh overnight, maps low 50s as cvvh clotted.  ? 80-150 cc blood lost in machine. 250 cc ns x 2.  albumin 25 g x 1 with mild improvement.  cvvh held for now. allergies: penicillins itchiness in gr enalapril unknown;","last dose of antibiotics: cefipime -  04:30 pm piperacillin/tazobactam (zosyn) -  03:10 am vancomycin -  03:45 am infusions: other icu medications: coumadin (warfarin) -  04:00 pm pantoprazole (protonix) -  07:23 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:51 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.2 c (99 tcurrent: 37.2 c (99 hr: 91 (79 - 96) bpm bp: 109/53(68) {88/44(56) - 125/66(85)} mmhg rr: 27 (22 - 28) insp/min spo2: 98% heart rhythm: af (atrial fibrillation) wgt (current): 95 kg (admission): 88 kg height: 74 inch cvp: 13 (2 - 272)mmhg total in: 3,069 ml 1,844 ml po: 30 ml tf: ivf: 1,696 ml 1,217 ml blood products: 100 ml 100 ml total out: 2,312 ml 390 ml urine: ng: stool: drains: balance: 757 ml 1,454 ml respiratory support o2 delivery device: high flow neb spo2: 98% abg: 7.38/41/78./24/0 pao2 / fio2: 158 physical examination gen: mental status improved, conversant, in no acute distress heent: white patches on tongue, ncat, shovel mask in place cv: difficult to ascultate  lung sounds pulm: coarse bs with poor air movement, upper airway congestion abd: distended, dull to percussion on right, hard and non-compressible, non-tender ext: multiple av fistulas on l arm, boots in place labs / radiology 121 k/ul 10 g/dl 152 mg/dl 3.1 mg/dl 22 meq/l 3.7 meq/l 42 mg/dl 100 meq/l 133 meq/l 30.9 % 5.6 k/ul [image002.jpg]   05:31 pm   08:33 pm   03:57 am   01:04 pm   01:32 pm   05:40 pm   05:43 pm   11:35 pm   11:50 pm   05:59 am wbc 5.4 hct 33.2 plt 119 cr 3.2 3.6 3.1 tco2 24 23 24 26 25 25 glucose 158 157 146 155 other labs: pt / ptt / inr:18.0/31.1/1.6, ck / ckmb / troponin-t:207/5/0.04, alt / ast:316/105, alk phos / t bili:92/3.7, amylase / lipase:72/14, differential-neuts:84.0 %, band:2.0 %, lymph:4.0 %, mono:9.0 %, eos:0.0 %, fibrinogen:298 mg/dl, lactic acid:1.8 mmol/l, albumin:3.2 g/dl, ldh:268 iu/l, ca++:7.9 mg/dl, mg++:2.0 mg/dl, po4:2.8 mg/dl alt 194 ast 49 alp 71 tbili 2.9 micro: cdiff neg x3 dfa a positive  bcx : 4 sets ngtd",ards; influenza; pulmonary htn; septic shock; thrombocytopenia; esrd; afib with rvr; ,acute respiratory distress syndrome; influenza; pulmonary hypertension; septic shock; thrombocytopenia; end stage renal disease; atrial fibrillation with rapid ventricular response;,"['acute respiratory distress syndrome', 'influenza', 'pulmonary hypertension', 'septic shock', 'thrombocytopenia', 'end stage renal disease', 'atrial fibrillation with rapid ventricular response']","67M h/o ESLD/ESRD [**2-8**] polycystic kidney disease, ARDS [**2-8**] influenza,
+   pulmonary HTN, on levofloxacin (day1 = [**4-6**]), oseltamivir (day1 =
+   [**4-6**]), cefepime (day1 = [**4-6**]), vancomycin (day1 = [**4-6**], dosing by
+   level)",True,"The patient presents with several signs and symptoms that could suggest sepsis, including hypotension (low blood pressure) with maps in the 50s, a history of recent antibiotic use (cefipime, piperacillin/tazobactam, vancomycin), and an elevated white blood cell count (WBC) is not significantly elevated at 5.4 k/ul but does show a left shift with 84% neutrophils and 2% bands. The patient also has a positive DFA A test but no evidence to continue therapy, and multiple organ dysfunction is suggested by the need for CVVH (continuous venovenous hemofiltration) for volume optimization and the presence of hypoxia. However, the patient's temperature is not significantly elevated at 37.2 C, and the lactic acid level, while slightly elevated at 1.8 mmol/l, is not markedly high. The presence of atrial fibrillation, coarse breath sounds with poor air movement, and upper airway congestion could also be contributing to the patient's hypoxia. Given these mixed findings, the diagnosis of sepsis is not conclusively proven but is highly suggestive due to the combination of hypotension, recent antibiotic use, and signs of organ dysfunction. Thus, leaning towards the most likely conclusion based on the information provided.",False,"The patient has been on antibiotics (cefipime, piperacillin/tazobactam, vancomycin), and there is mention of 'flu dfa a +', suggesting a possible infection. However, the white blood cell count (WBC) is 5.4, which is within normal limits, and there's no clear evidence of systemic inflammatory response syndrome (SIRS) criteria being met based on the information provided. The lactic acid level is 1.8 mmol/L, which is slightly elevated but not conclusively indicative of sepsis. The patient's clinical picture is complex, and while infection is a concern, the diagnosis of sepsis is not clearly supported by the provided data."
+394,150509.txt,"title: chief complaint: 24 hour events: ekg - at  10:00 am ultrasound - at  04:00 pm abd and transvaginal - romi negative. - nutrition recommended holding tube feeds until monday given patient's nutritional status and asked to be re-consulted at that time. - ultrasound limited, but no evidence for retained products of conception, or abscesses as there was no internal vascularity within the endometrial cavity. - pus drained from c-section incision site and sent for culture; ob/gyn formally consulted. they opened the incision and noted bloody fluid from seroma but no overt infection. recommended continued wound care and treating uti given association of pyelonephritis with ards. attending later in the evening recommended ct abdomen to look for collection when patient able to tolerate ct. - bps uptrending throughout evening to high of 200/100 on arterial line (165/85 on cuff). attempted treatment with labetalol and hydralazine with good result. allergies: lisinopril cough; celexa (oral) (citalopram hydrobromide) sexual dysfunct","last dose of antibiotics: ciprofloxacin -  01:04 am piperacillin/tazobactam (zosyn) -  08:49 pm vancomycin -  04:14 am acyclovir -  04:14 am levofloxacin -  04:14 am infusions: fentanyl (concentrate) - 125 mcg/hour insulin - regular - 2 units/hour midazolam (versed) - 9 mg/hour cisatracurium - 0.25 mg/kg/hour other icu medications: hydralazine -  06:43 am labetalol -  06:43 am midazolam (versed) -  08:12 am fentanyl -  08:12 am famotidine (pepcid) -  08:14 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   08:15 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 37.5 c (99.5 tcurrent: 37.5 c (99.5 hr: 113 (83 - 113) bpm bp: 216/103(140) {121/59(78) - 216/107(140)} mmhg rr: 31 (10 - 32) insp/min spo2: 98% heart rhythm: st (sinus tachycardia) height: 61 inch cvp: 73 (8 - 73)mmhg total in: 4,053 ml 973 ml po: tf: 23 ml ivf: 3,940 ml 973 ml blood products: total out: 2,408 ml 1,140 ml urine: 2,405 ml 1,140 ml ng: 3 ml stool: drains: balance: 1,645 ml -167 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 360 (360 - 360) ml rr (set): 32 rr (spontaneous): 0 peep: 18 cmh2o fio2: 50% rsbi deferred: neuromusc block pip: 36 cmh2o plateau: 32 cmh2o compliance: 27.5 cmh2o/ml spo2: 98% abg: 7.44/43/112/29/4 ve: 12.7 l/min pao2 / fio2: 224 physical examination general: intubated, sedated and paralyzed.  initially (pre-paralysis) moving all extremities. heent: sclera anicteric, pupils very small but equal/reactive, mmm, ett in place. neck: supple, jvd very difficult to appreciate, no adenopathy. lungs: coarse anterolaterally, cannot obtain posterior exam.  no wheezes or rales. cv: tachy and regular, normal s1 + s2, no murmurs, rubs, gallops appreciated. abdomen:  very obese, soft, appears non-tender, bowel sounds present, no rebound tenderness or guarding, no organomegaly, pitting abdominal wall edema.  suprapubic incision c/d/i, no bleeding or drainage, staples intact.  no underlying mass appreciated. ext: warm, well perfused, diffuse 2+ edema/anasarca. neuro: paralyzed, but moving all extrems prior to paralysis. labs / radiology 306 k/ul 7.3 g/dl 83 mg/dl 0.8 mg/dl 29 meq/l 3.8 meq/l 24 mg/dl 109 meq/l 145 meq/l 22.7 % 11.6 k/ul [image002.jpg]   02:38 am   03:57 am   08:08 am   09:28 am   09:55 am   04:36 pm   05:01 pm   05:10 pm   03:09 am   03:24 am wbc 14.7 11.6 hct 23.6 22.7 plt 310 306 cr 0.8 0.8 tropt <0.01 tco2 31 30 33 32 32 30 glucose 286 244 82 83 other labs: pt / ptt / inr:13.7/26.0/1.2, ck / ckmb / troponin-t:115/2/<0.01, alt / ast:18/17, alk phos / t bili:59/0.2, amylase / lipase:30/15, differential-neuts:96.5 %, lymph:1.3 %, mono:2.1 %, eos:0.1 %, lactic acid:0.7 mmol/l, albumin:3.0 g/dl, ca++:8.2 mg/dl, mg++:2.0 mg/dl, po4:2.6 mg/dl  cxr final read pending;  cxr there is patchy multifocal airspace consolidation of both lungs. the heart is mildly enlarged. no frank effusion is detected. right ij catheter terminates in superior vena cava. endotracheal tube terminates at the thoracic inlet.  nasogastric tube terminates in the stomach.   swab gram stain-final; wound culture-preliminary; anaerobic culture-preliminary inpatient gram stain (final ): 2+   (1-5 per 1000x field):   polymorphonuclear leukocytes. no microorganisms seen. wound culture (preliminary): anaerobic culture (preliminary):   swab gram stain-final; wound culture-preliminary; anaerobic culture-final inpatient gram stain (final ): no polymorphonuclear leukocytes seen. no microorganisms seen. wound culture (preliminary): anaerobic culture (final ): specimen not processed due to: not sent in anaerobic transport.   rapid respiratory viral screen & culture respiratory viral culture-preliminary; respiratory viral antigen screen-final inpatient respiratory viral culture (preliminary): respiratory viral antigen screen (final ): negative for respiratory viral antigen. specimen screened for: adeno, parainfluenza 1, 2, 3, influenza a, b, and rsv by immunofluorescence. refer to respiratory viral culture for further information.   serology/blood varicella-zoster igg serology-pending inpatient   urine legionella urinary antigen -final inpatient legionella urinary antigen  (final ): negative for legionella serogroup 1 antigen. (reference range-negative). performed by immunochromogenic assay. a negative result does not rule out infection due to other l. pneumophila serogroups or other legionella species. furthermore, in infected patients the excretion of antigen in urine may vary.   mrsa screen mrsa screen-pending inpatient   urine urine culture-pending inpatient   blood culture blood culture, routine-pending inpatient",hypoxic respiratory failure; ards; pneumonia; sepsis; dm; htn; asthma; ,hypoxic respiratory failure; acute respiratory distress syndrome; pneumonia; sepsis; diabetes mellitus; hypertension; asthma;,"['hypoxic respiratory failure', 'acute respiratory distress syndrome', 'pneumonia', 'sepsis', 'diabetes mellitus', 'hypertension', 'asthma']","34F with asthma, DM, HTN, G3P1 POD#9 from caesarean section, presenting
+   with hypoxemic respiratory failure.",False,"The patient presents with several signs and symptoms that could suggest sepsis, including a high white blood cell count (WBC) of 14.7 and 11.6 k/ul, indicating a potential infection. The presence of tachycardia (hr: 113 bpm) and hypertension (bp: 216/103 mmHg) could also be indicative of a systemic inflammatory response, which is a key component of sepsis. Additionally, the patient has been receiving multiple antibiotics (ciprofloxacin, piperacillin/tazobactam, vancomycin, levofloxacin), which suggests a suspicion of infection. However, the absence of clear evidence of organ dysfunction (e.g., no mention of acute kidney injury, liver dysfunction, or significant respiratory failure beyond the need for oxygen support) and the fact that some laboratory values such as lactic acid (0.7 mmol/l) are not markedly elevated, makes the diagnosis less clear-cut. Furthermore, the patient's clinical presentation could also be consistent with other conditions such as systemic inflammatory response syndrome (SIRS) due to non-infectious causes. Given the information provided, while there are indicators that could suggest sepsis, the diagnosis is not conclusively supported due to the lack of definitive evidence of organ dysfunction and the presence of potential alternative explanations for the patient's condition.",True,"The patient has an elevated white blood cell count (WBC) of 14.7 and 11.6 k/ul at different times, indicating a potential infectious process. The presence of pus drained from the C-section incision site and the administration of broad-spectrum antibiotics (ciprofloxacin, piperacillin/tazobactam, vancomycin) suggest a concern for infection. Additionally, the patient's clinical presentation, including fever (Tmax: 37.5 C), tachycardia (HR: 113 bpm), and the need for vasopressor support, aligns with sepsis."
+421,173812.txt,"title: chief complaint: 24 hour events: picc line - start  11:14 am dual lumen patient maintained on cpap during the day with stable abg, weaned fio2 from 100 to 60%, then transitioned for 2hr period to high flow facemask, but then increasing rr so put back on cpap 60% allergies: no known drug allergies","last dose of antibiotics: vancomycin -  01:12 pm cefipime -  11:22 pm metronidazole -  02:00 am infusions: other icu medications: heparin sodium (prophylaxis) -  09:03 pm other medications: changes to medical and family history: unchanged review of systems is unchanged from admission except as noted below review of systems: unable to obtain flowsheet data as of   06:54 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 37.9 c (100.3 tcurrent: 37.1 c (98.8 hr: 123 (118 - 133) bpm bp: 87/64(67) {80/57(63) - 101/79(82)} mmhg rr: 32 (14 - 53) insp/min spo2: 96% heart rhythm: st (sinus tachycardia) total in: 2,604 ml 1,234 ml po: tf: ivf: 2,025 ml 919 ml blood products: total out: 590 ml 1,150 ml urine: 590 ml 450 ml ng: 700 ml stool: drains: balance: 2,014 ml 84 ml respiratory support o2 delivery device: high flow neb ventilator mode: standby vt (spontaneous): 687 (320 - 710) ml ps : 18 cmh2o rr (set): 35 rr (spontaneous): 25 peep: 4 cmh2o fio2: 100% pip: 23 cmh2o spo2: 96% abg: ///28/ ve: 13 l/min physical examination gen: thin, alert but appears uncomfortable, tachypneic with increased wob, use of accessory respiratory muscles heent: sclera anicteric, eyes sunken, mmm, on nrb mask neck: supple, thin, ejs prominent and hyperdynamic, no lad lungs: bronchial bs at l>r base, upper airways clearer; no wheezes, rhonchi, or rales cv: regular but tachycardic, normal s1 + s2, unable to appreciate any murmurs, rubs, gallops abdomen: soft, bs+, distended, pt appears uncomfortable on palpations gu: condom cath in place ext: warm, cachectic, ble contractures, + dp pulses, no cyanosis or edema neuro: alert, nonverbal, tracking gaze, moving upper extremities purposefully labs / radiology 168 k/ul 8.8 g/dl 133 mg/dl 0.6 mg/dl 28 meq/l 4.4 meq/l 24 mg/dl 107 meq/l 141 meq/l 26.3 % 6.8 k/ul [image002.jpg]   03:16 pm   03:47 pm   01:45 am wbc 6.8 hct 29 26.3 plt 168 cr 0.6 0.6 glucose 118 133 other labs: lactic acid:0.8 mmol/l, ca++:7.6 mg/dl, mg++:2.1 mg/dl, po4:3.4 mg/dl",pneumonia; sepsis; gib; seizure disorder; cerebral pasy; ,pneumonia; sepsis; gastrointestinal bleeding; seizure disorder; cerebral palsy;,"['pneumonia', 'sepsis', 'gastrointestinal bleeding', 'seizure disorder', 'cerebral palsy']","35 yo M with PMH of CP, seizure disorder, GIB, pancreatic cyst s/p
+   drainage in [**2113**], admitted with abdominal pain with complicated course,
+   now with new fever, tachypnea, and hypoxia.",False,"The patient presents with several signs and symptoms that could suggest sepsis, including a high white blood cell count (WBC) of 6.8 k/ul, which is not significantly elevated but still within a range that could be seen in early sepsis or as a response to infection, and a temperature that has been as high as 37.9 C (100.3 F), indicating a potential infectious process. The patient is also on broad-spectrum antibiotics (vancomycin, cefipime, and metronidazole), which could imply a suspicion of infection. Additionally, the patient's respiratory status, with an increased respiratory rate (RR) and the need for CPAP with a high FiO2, suggests respiratory distress, which could be part of a sepsis syndrome, especially if the respiratory issue is secondary to an infectious process. The lactic acid level is 0.8 mmol/L, which is not significantly elevated, a common marker for tissue hypoperfusion seen in sepsis. However, the presence of sinus tachycardia (heart rate of 123 bpm) and hypotension (BP 87/64 mmHg) could indicate a systemic response to infection. Despite these findings, the overall clinical picture does not strongly confirm sepsis without more definitive evidence of an infectious source or more pronounced organ dysfunction. The patient's condition could be consistent with sepsis, but the information provided does not conclusively support this diagnosis without further clarification on the source of infection and the severity of organ dysfunction.",True,"The patient is on antibiotics (vancomycin, cefipime, metronidazole), which suggests a suspicion of infection. The patient's tachycardia (HR 123 bpm), fever (Tmax 37.9°C), and elevated white blood cell count (WBC 6.8 k/ul, though not markedly elevated) could support a diagnosis of sepsis. However, without clear evidence of organ dysfunction or a identified source of infection, the diagnosis is not definitive."
+424,175448.txt,"title: chief complaint: 24 hour events: - as his a-line bp isn't accurate, agreement was made to wean off levophed and monitor his mentation.  his a-line was dc'ed.  the levophed was weaned off overnight. - chronic pain consult service recommended liberalizing his pain medication which could include increasing his opiods, a ketamine gtt (although he couldn't go to rehab with this), alcohol ablation of nerve roots (although he would lose feeling in other areas and be predisposed to further ulceration), or an epidural pump (although this is generally pallative since there is increasing risk for infection the longer it is left in). - his fentanyl patch was increased to 75 mcg. allergies: penicillins unknown; sulfa (sulfonamides) unknown;","last dose of antibiotics: meropenem -  10:00 pm infusions: heparin sodium - 1,200 units/hour other icu medications: fentanyl -  09:44 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:21 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.9 c (98.4 tcurrent: 36.7 c (98 hr: 92 (76 - 95) bpm bp: 90/42(52) {85/34(46) - 122/63(78)} mmhg rr: 19 (16 - 25) insp/min spo2: 96% heart rhythm: 1st av (first degree av block) wgt (current): 118.9 kg (admission): 117.6 kg total in: 3,243 ml 688 ml po: tf: 1,457 ml 445 ml ivf: 1,216 ml 143 ml blood products: total out: 3,500 ml 0 ml urine: ng: stool: drains: balance: -257 ml 688 ml respiratory support o2 delivery device: trach mask ventilator mode: standby vt (spontaneous): 494 (494 - 494) ml rr (spontaneous): 0 peep: 5 cmh2o fio2: 50% pip: 0 cmh2o spo2: 96% abg: ///29/ physical examination general appearance: elderly, obese male lying in bed on vent cardiovascular: rrr, no mrg pulmonary: coarse bs throughtou abdominal: soft, bowel diminished, ntnd, obese. llq stoma retracted, serosanguinous drainage, no ttp at site. extremities: rt bka, left leg and foot dusky with 2+ b/l upper edema present neurologic: attentive, follows commands. labs / radiology 191 k/ul 6.6 g/dl 106 mg/dl 1.5 mg/dl 29 meq/l 4.3 meq/l 13 mg/dl 108 meq/l 146 meq/l 21.2 % 11.0 k/ul [image002.jpg]   03:45 am   08:37 pm   04:52 am   05:05 am   08:05 am   01:38 pm   08:29 pm   04:22 am   04:40 am   04:07 am wbc 10.2 16.4 22.3 11.0 hct 31.4 28 25.0 24.7 25.7 21.2 plt 91 cr 2.2 1.7 2.1 1.5 tco2 31 28 28 26 glucose 62 64 68 57 70 106 other labs: pt / ptt / inr:22.1/45.2/2.1, differential-neuts:68.5 %, band:0.0 %, lymph:20.9 %, mono:9.0 %, eos:1.4 %, lactic acid:1.2 mmol/l, ca++:7.4 mg/dl, mg++:1.7 mg/dl, po4:2.8 mg/dl",hypotension: etiology hypovolemia [**1-17**] over ultrfiltration vs sepsis; chronic respiratory failure; esrd; cad; dm; plasma cell dyscrasia; ,hypotension etiology hypovolemia over ultrafiltration versus sepsis; chronic respiratory failure; end stage renal disease; coronary artery disease; diabetes mellitus; plasma cell dyscrasia;,"['hypotension etiology hypovolemia over ultrafiltration versus sepsis', 'chronic respiratory failure', 'end stage renal disease', 'coronary artery disease', 'diabetes mellitus', 'plasma cell dyscrasia']","75 y.o male, chronic trach, s/p mult admissions, ESRD, CAD, afib, DM2,
+   plasma cell dyscrasia who presents with hypotension.",False,"The patient's presentation includes several indicators that could suggest sepsis, such as an elevated white blood cell count (WBC) that has fluctuated (10.2 to 22.3 k/ul), a bandemia of 0.0% which might not directly indicate sepsis but in the context of other findings could be relevant, and the presence of a potential source of infection (serosanguinous drainage from the llq stoma). Additionally, the patient is on meropenem, a broad-spectrum antibiotic often used in the treatment of sepsis. The patient's temperature has been relatively stable (36.9 C to 36.7 C), which does not strongly indicate sepsis but does not rule it out either. The lactic acid level is slightly elevated at 1.2 mmol/l, which can be seen in sepsis. However, the clinical context (e.g., the patient's chronic pain management, potential sources of infection, and the use of antibiotics) and the absence of overt signs of septic shock (e.g., significant hypotension not responsive to fluid resuscitation, though the BP is 90/42 mmHg, which is low) or severe organ dysfunction makes the diagnosis less clear-cut. Given the information, while there are indicators that could suggest sepsis, such as the elevated WBC, potential infection source, and antibiotic use, the overall picture does not conclusively confirm sepsis without more definitive signs of organ dysfunction or a clear source of infection leading to a systemic response.",True,"The patient has an elevated white blood cell count (up to 22.3 k/ul), and the presence of serosanguinous drainage from the stoma site could indicate a source of infection. The patient is also on meropenem, a broad-spectrum antibiotic, suggesting treatment for a suspected infection. Additionally, the lactic acid level is slightly elevated at 1.2 mmol/l, which can be seen in sepsis. These findings together suggest sepsis."
+434,179771.txt,chief complaint: 24 hour events: transthoracic echo - at  11:56 am midline - start  12:43 pm multi lumen - stop  08:00 pm called out allergies: no known drug allergies,"last dose of antibiotics: piperacillin/tazobactam (zosyn) -  07:44 am vancomycin -  09:42 am cefipime -  04:00 am infusions: other icu medications: heparin sodium (prophylaxis) -  04:00 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:45 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.8 c (98.2 tcurrent: 36.8 c (98.2 hr: 73 (73 - 105) bpm bp: 84/40(69) {72/40(52) - 123/77(84)} mmhg rr: 16 (14 - 24) insp/min spo2: 99% heart rhythm: sr (sinus rhythm) wgt (current): 79.6 kg (admission): 77.5 kg height: 61 inch total in: 2,880 ml 127 ml po: 1,781 ml tf: ivf: 1,099 ml 127 ml blood products: total out: 2,724 ml 280 ml urine: 2,724 ml 280 ml ng: stool: drains: balance: 156 ml -153 ml respiratory support spo2: 99% abg: ///25/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 150 k/ul 10.8 g/dl 97 mg/dl 0.7 mg/dl 25 meq/l 4.0 meq/l 8 mg/dl 106 meq/l 139 meq/l 31.9 % 5.3 k/ul [image002.jpg]   11:26 pm   12:31 am   03:37 am   06:41 am   01:47 pm   11:32 pm   04:23 am   04:00 am   04:37 am wbc 22.0 16.6 15.1 8.1 5.3 hct 36.2 35.2 33.8 33.2 31.5 31.9 plt 58 150 cr 1.7 1.8 1.2 0.9 0.7 0.7 tco2 22 20 glucose 136 142 131 128 126 97 other labs: pt / ptt / inr:15.5/31.6/1.4, differential-neuts:93.1 %, band:0.0 %, lymph:4.7 %, mono:1.5 %, eos:0.4 %, lactic acid:1.0 mmol/l, ca++:8.1 mg/dl, mg++:2.3 mg/dl, po4:3.2 mg/dl",sepsis-   source most likely to be from urinary tract; hep b (chronic); ,sepsis source most likely to be from urinary tract; hepatitis b chronic ;,"['sepsis source most likely to be from urinary tract', 'hepatitis b chronic']","51 yo gentleman with Down syndrome, chronic Hep B, and frequent UTIs
+   since undergoing posterior cervical laminectomy earlier this month.  He
+   presents with mental status changes, fever, hypotension and a urinary
+   tract infection.",True,"The patient's report shows several indicators that could suggest sepsis, including a high white blood cell count (WBC) of 22.0 at one point, which indicates an infection or inflammatory response. The patient is also on multiple antibiotics (piperacillin/tazobactam, vancomycin, and cefipime), which suggests a suspected or confirmed infection. Additionally, the patient's vital signs, such as a heart rate of 73 bpm and a blood pressure of 84/40 mmHg, could indicate a systemic response to infection, although these values alone are not definitive. The lactic acid level is 1.0 mmol/L, which is within normal limits, but the presence of a high WBC count and the use of broad-spectrum antibiotics lean towards an infectious process. However, without more specific information on the source of infection, organ dysfunction, or a clear systemic inflammatory response syndrome (SIRS) criteria fulfillment, the diagnosis of sepsis is not conclusively confirmed. Nonetheless, given the antibiotic treatment and lab results indicating an infection, it is reasonable to consider sepsis as a potential diagnosis.",False,"The patient is receiving broad-spectrum antibiotics (piperacillin/tazobactam, vancomycin, cefipime), which suggests a suspicion of infection. The white blood cell count (WBC) is elevated at certain points (up to 22.0 k/ul), and there is a mention of lactic acid level at 1.0 mmol/l, which could be indicative of sepsis. However, the definition of sepsis involves a combination of infection, organ dysfunction, and a systemic inflammatory response. While some elements are present, the information provided does not conclusively confirm sepsis, especially without clear evidence of organ dysfunction beyond the elevated WBC and lactic acid."
+438,185208.txt,"title: chief complaint: 24 hour events: radiation therapy - at  10:00 am  (4 out of 5) ekg - at  04:10 pm - given iv lasix 20mg due to cumulative volume overload - xrt team states that they have threshold hct for xrt and wanted 2u prbcs for hct 26. recheck hct 30, so pt not transfused - stressed out from ps trial, switched back into afib w rvr in 140s; may have had some component of having had sotalol suctioned out of ng tube which may have contributed; - ekg appeared to show mild demand ischemia from rvr (mild st elevation in avr and mild st depression lead ii, i) - given iv push 10mg diltiazem, which brought pressures down to 90s/50s and ventric rate to 90s; post-ekg showed resolution of st changes - sbp dipped to 70s/40s systolic briefly but recovered on its own-- fluctuated systolic 80s-110s.  relative hypotension likely secondary to diuresis.  also fluctuated rvr 90s-130s. - given back 500ml ns - patient agitated overnight, on much less sedation than previously due to hopeful planned extubation  and relative hypotension. - considered prn seroquel allergies: no known drug allergies","last dose of antibiotics: vancomycin -  08:00 pm piperacillin/tazobactam (zosyn) -  02:25 am metronidazole -  06:20 am infusions: midazolam (versed) - 0.8 mg/hour fentanyl - 50 mcg/hour other icu medications: furosemide (lasix) -  12:43 pm midazolam (versed) -  03:10 pm diltiazem -  04:10 pm famotidine (pepcid) -  08:00 pm fentanyl -  03:50 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:28 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.6 c (99.6 tcurrent: 37 c (98.6 hr: 110 (77 - 138) bpm bp: 108/60(78) {76/44(56) - 127/76(91)} mmhg rr: 26 (12 - 37) insp/min spo2: 97% heart rhythm: af (atrial fibrillation) wgt (current): 89.4 kg (admission): 70 kg height: 70 inch cvp: 17 (12 - 17)mmhg total in: 3,483 ml 635 ml po: tf: 1,013 ml 303 ml ivf: 2,009 ml 302 ml blood products: total out: 2,760 ml 423 ml urine: 2,265 ml 400 ml ng: 330 ml stool: drains: balance: 723 ml 212 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 450 (450 - 450) ml vt (spontaneous): 575 (575 - 575) ml ps : 0 cmh2o rr (set): 12 rr (spontaneous): 0 peep: 10 cmh2o fio2: 60% rsbi deferred: fio2 > 60% pip: 25 cmh2o plateau: 24 cmh2o compliance: 33.3 cmh2o/ml spo2: 97% abg: 7.41/45/76.//2 ve: 8.1 l/min pao2 / fio2: 127 physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 54 k/ul 9.5 g/dl 126 mg/dl 1.0 mg/dl 26 meq/l 3.5 meq/l 29 mg/dl 105 meq/l 138 meq/l 27.8 % 20.7 k/ul [image002.jpg]   09:33 am   12:47 pm   05:05 pm   08:18 pm   03:27 am   11:55 am   02:46 pm   05:08 pm   05:20 pm   06:10 am wbc 8.0 16.8 20.7 hct 26.6 30.3 27.8 plt 67 53 63 54 cr 1.0 tco2 26 26 28 28 28 30 30 glucose 126 other labs: pt / ptt / inr:13.2/31.0/1.1, ck / ckmb / troponin-t:/4/<0.01, alt / ast:44/59, alk phos / t bili:401/0.7, amylase / lipase:/91, differential-neuts:63.0 %, band:25.0 %, lymph:3.0 %, mono:3.0 %, eos:0.0 %, lactic acid:3.4 mmol/l, albumin:2.0 g/dl, ldh:461 iu/l, ca++:7.2 mg/dl, mg++:1.7 mg/dl, po4:1.7 mg/dl","hypoxic respiratory failure:
+   likely multifactorial, from post-obstructive pna, ptx, and underlying
+   lung disease (copd); afib; hypotension; sepsis; pneumothorax; small cell lung ca; ",hypoxic respiratory failure likely multifactorial from post obstructive pneumonia pneumothorax and underlying lung disease chronic obstructive pulmonary disease ; atrial fibrillation; hypotension; sepsis; pneumothorax; small cell lung cancer;,"['hypoxic respiratory failure likely multifactorial from post obstructive pneumonia pneumothorax and underlying lung disease chronic obstructive pulmonary disease', 'atrial fibrillation', 'hypotension', 'sepsis', 'pneumothorax', 'small cell lung cancer']","Pt is a 72 year old male with COPD, CAD presented with post-obstructive
+   PNA, s/p bronch and stent placement with evolution of resolving PTX
+   requiring chest tube placement.  Now hypotensive requiring pressors.",False,"The patient presents with several signs that could suggest sepsis, including a white blood cell count (WBC) that fluctuates and peaks at 20.7 k/ul, indicating a potential infection or inflammatory response. The patient is also on broad-spectrum antibiotics (vancomycin, piperacillin/tazobactam, and metronidazole), which could imply a suspicion of infection. Additionally, the patient has a lactic acid level of 3.4 mmol/l, which is elevated and can be associated with sepsis. However, the patient's temperature is not significantly elevated (maximum of 37.6 C or 99.6 F), and there is no clear source of infection mentioned. The patient's hypotension (with systolic blood pressure dipping to 70s/40s at one point) and the need for vasopressor support are concerning for sepsis, but the relative hypotension is also attributed to diuresis. Given these mixed findings, it's challenging to conclusively diagnose sepsis without more definitive evidence of an infection source or a more pronounced systemic inflammatory response syndrome (SIRS) criteria fulfillment. Nonetheless, the presence of antibiotics, elevated WBC, and lactic acidosis leans towards considering sepsis as a potential diagnosis, but the information provided does not strongly support it as the primary diagnosis at this moment.",True,"The patient is on antibiotics (vancomycin, piperacillin/tazobactam, and metronidazole), which could indicate suspicion of sepsis. The patient's white blood cell count (WBC) is elevated (up to 20.7 k/ul), and there is a mention of bandemia (25.0% bands), which can be seen in sepsis. Additionally, the lactic acid level is 3.4 mmol/L, which is elevated and can be associated with sepsis. However, without a clear source of infection or more specific criteria for sepsis (e.g., SOFA score), the diagnosis is uncertain but possible."

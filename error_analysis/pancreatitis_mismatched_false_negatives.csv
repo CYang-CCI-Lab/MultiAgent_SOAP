@@ -1,0 +1,155 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_pancreatitis_pred_single,is_pancreatitis_reasoning_single,is_pancreatitis_pred_multi,is_pancreatitis_reasoning_multi
+316,189583.txt,"[**7-19**]
+- lfts continuing to trend down
+- hct bumped 16.9 -> 20.3 w/ 2 units. received another 2 units with hct
+21.2. transfused 1 more unit...
+- tbili decreased 2.7 -> 2.4. hapto...
+- fibrinogen 2.1 and coags stable.
+- repeat cbc still w/ pancytopenia. anc 120.
+- heme-onc did bm tap. likely infectious rather than lymphoma. no
+blasts on smear. would check dic labs (coags, fibrinogen), tumor lysis
+labs (chem 10, uric acid, ldh), also lfts qid-tid.
+- id thought most likely viral (parvo, influenza, cmv, ebv, hsv; also
+mycoplasma). added acv. given hypoxia, recommended ct chest; resp cx.
+also concerned about cns process and recommended lp and mri head -
+holding on ordering for now.
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+neutropenia; pa
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+azithromycin - [**2187-7-19**] 10:30 pm
+cefipime - [**2187-7-20**] 12:00 am
+acyclovir - [**2187-7-20**] 01:02 am
+vancomycin - [**2187-7-20**] 02:00 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2187-7-20**] 07:01 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 37.1
+c (98.8
+hr: 95 (85 - 99) bpm
+bp: 107/69(77) {97/46(58) - 127/85(92)} mmhg
+rr: 27 (15 - 28) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+height: 72 inch
+total in:
+3,005 ml
+540 ml
+po:
+tf:
+ivf:
+1,800 ml
+420 ml
+blood products:
+725 ml
+total out:
+2,070 ml
+600 ml
+urine:
+2,070 ml
+600 ml
+ng:
+stool:
+drains:
+balance:
+935 ml
+-60 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 92%
+abg: ///28/
+general: alert, oriented, following commands, answering yes and no
+questions, no acute distress
+heent: sclera mildly icteric, mmm, oropharynx clear
+lungs: scattered expiratory wheezes, no rales, ronchi, dry cough
+cv: regular rate and rhythm, normal s1, split s2, no murmurs, rubs,
+gallops
+abdomen: soft, non-tender, non-distended, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+ext: warm, well perfused, 2+ pulses, pitting edema on left to ankle,
+right knee w/ mild effusion, +warmth, right wrist/knee contracted, righ
+foot drop, no other joint effusions
+skin: faint [**doctor last name **] rash over arms/trunk, + blanching, rle without
+erythema, warmth, few scabbed over abrasions on 5th digit.
+/
+152 k/ul
+8.3 g/dl
+104 mg/dl
+0.5 mg/dl
+28 meq/l
+3.8 meq/l
+8 mg/dl
+99 meq/l
+132 meq/l
+23.9 %
+0.7 k/ul
+[image002.jpg]
+pt: 13.5
+ptt: 21.6
+inr: 1.2
+fibrinogen: 287
+ca: 7.6 mg: 2.0 p: 1.7
+alt: 57
+ap: 92
+tbili: 2.3
+alb:
+ast: 34
+ldh: 537
+dbili:
+tprot:
+[**doctor first name 92**]: 430
+lip: 763
+urica:1.6
+[**2187-7-19**]  08:56 am
+[**2187-7-19**]  02:21 pm
+[**2187-7-19**]  09:40 pm
+[**2187-7-20**]  05:14 am
+wbc
+0.4
+0.5
+0.7
+hct
+21
+21.2
+24.0
+23.9
+plt
+118
+130
+152
+cr
+0.5
+0.4
+0.5
+glucose
+100
+105
+104
+other labs: pt / ptt / inr:13.5/21.6/1.2, alt / ast:57/34, alk phos / t
+bili:92/2.3, amylase / lipase:430/763, fibrinogen:287 mg/dl, lactic
+acid:0.6 mmol/l, ldh:537 iu/l, ca++:7.6 mg/dl, mg++:2.0 mg/dl, po4:1.7
+mg/dl
+cmv viral load-pending
+cryptococcal antigen-pending
+mrsa screen-pending
+blood culture, routine-pending
+hiv-1 viral load/ultrasensitive-pending
+blood culture, routine-pending
+[**doctor last name **]-[**doctor last name **] virus vca-igg ab-pending; [**doctor last name **]-[**doctor last name **] virus ebna igg
+ab-pending; [**doctor last name **]-[**doctor last name **] virus vca-igm ab-pending
+cmv igg antibody-pending; cmv igm antibody-pending
+lyme serology-pending
+ct chest : bilateral pe
+s that appear chronic. fr pending.",pancytopenia; pe; pancreatitis; gi bleed; # hiv -,pancytopenia; pulmonary embolism; pancreatitis; gastrointestinal bleed; fracture human immunodeficiency virus,"['pancytopenia', 'pulmonary embolism', 'pancreatitis', 'gastrointestinal bleed', 'fracture human immunodeficiency virus']","PANCYTOPENIA
+   40 yo M with HIV, PML presents with malaise found to have pancytopenia,
+   elevated LFTs, pancreatitis, and possible GI bleed.",False,"The patient's laboratory results show elevated amylase (430) and lipase (763) levels, which are key indicators of pancreatitis. However, the abdominal examination findings are soft, non-tender, non-distended, with bowel sounds present, and no rebound tenderness or guarding, which does not strongly support acute pancreatitis. The presence of scattered expiratory wheezes, dry cough, and bilateral pleural effusions (as seen on the CT chest) could suggest other complications or conditions. Despite the lack of strong clinical evidence for pancreatitis in the physical examination, the significantly elevated pancreatic enzymes are a crucial diagnostic clue. Given the information, it seems there might be some pancreatic involvement, but the clinical context (e.g., the patient's overall condition, presence of infections, and other laboratory findings) suggests that pancreatitis might not be the primary diagnosis or could be a secondary process. However, without more specific information on the timing and context of the enzyme elevations and considering the complexity of the patient's presentation, it's challenging to conclusively diagnose pancreatitis based solely on the provided SOAP note sections. The elevated amylase and lipase levels are the most direct evidence for pancreatitis, but the clinical picture is complex, and these findings could be influenced by other factors or conditions. Therefore, while there is some evidence to suggest pancreatic involvement, the diagnosis of pancreatitis as the primary condition is not conclusively supported by the overall clinical presentation.",True,"The patient has elevated lipase (763) and amylase (430) levels, which are indicative of pancreatitis. These findings, in the context of the patient's clinical presentation, support the diagnosis of pancreatitis."

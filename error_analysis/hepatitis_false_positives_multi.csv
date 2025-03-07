@@ -1,0 +1,496 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_hepatitis_pred_multi,is_hepatitis_reasoning_multi
+4,148969.txt,"sulfonamides
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2163-9-4**] 09:16 pm
+metronidazole - [**2163-9-5**] 12:30 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2163-9-4**] 08:19 pm
+heparin sodium (prophylaxis) - [**2163-9-5**] 12:30 am
+other medications:
+flowsheet data as of  [**2163-9-5**] 06:56 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.3
+c (101
+tcurrent: 36.2
+c (97.1
+hr: 62 (59 - 76) bpm
+bp: 127/57(74) {95/47(59) - 127/65(75)} mmhg
+rr: 17 (11 - 23) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,715 ml
+2,093 ml
+po:
+tf:
+ivf:
+1,715 ml
+2,093 ml
+blood products:
+total out:
+274 ml
+310 ml
+urine:
+274 ml
+310 ml
+ng:
+stool:
+drains:
+balance:
+1,441 ml
+1,783 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///22/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+144 k/ul
+10.7 g/dl
+91 mg/dl
+0.8 mg/dl
+22 meq/l
+3.4 meq/l
+11 mg/dl
+111 meq/l
+139 meq/l
+30.8 %
+8.2 k/ul
+wbc
+8.2
+hct
+30.8
+plt
+144
+cr
+0.8
+glucose
+91
+other labs: alt / ast:186/103, alk phos / t bili:343/5.0, amylase /
+lipase:36/17, albumin:2.8 g/dl, ldh:126 iu/l, ca++:7.1 mg/dl, mg++:1.7
+mg/dl, po4:2.7 mg/dl",cholangitis,cholangitis,['cholangitis'],"This is a 88 year-old female with a history of
+   hypertension, hyperlipidemia who presents with likely cholangitis.
+   .",True,"The patient's liver enzymes (ALT/AST: 186/103) are elevated, suggesting liver injury or inflammation. However, hepatitis is a broad term, and these findings could be due to various causes, including drug-induced liver injury, given the patient's medication regimen. The alkaline phosphatase and total bilirubin are also elevated, which could indicate cholestasis or hepatocellular injury."
+208,191928.txt,"- extubated patient
+- lenis showed - deep vein thrombosis identified in the right popliteal
+vein
+- uelis negative
+- mri brain ->
+findings suggestive of dural-based metastatic disease bifrontally,
+right greater than left, which may invade the anterior aspect of the
+sagittal sinus. there is an extra-axial lesion in the left frontal lobe
+which may represent metastatic disease or meningioma. no evidence of
+hemorrhage.
+- cardiac echo - ef 30%, the left atrium is mildly dilated. no atrial
+septal defect is seen by 2d or color doppler. left ventricular wall
+thicknesses are normal. the left ventricular cavity size is top
+normal/borderline dilated. no masses or thrombi are seen in the left
+ventricle. overall left ventricular systolic function is moderately
+depressed (lvef= 30 %) with inferior, infero-lateral and apical
+akinesis. there is no ventricular septal defect. with mild global free
+wall hypokinesis. the ascending aorta is mildly dilated. the aortic
+valve leaflets (3) are mildly thickened but aortic stenosis is not
+present. no aortic regurgitation is seen. the mitral valve leaflets are
+mildly thickened. mild (1+) mitral regurgitation is seen. the tricuspid
+valve leaflets are mildly thickened. the pulmonary artery systolic
+pressure could not be determined. there is no pericardial effusion.
+- resumed regular diet, no need for tube feeds since extubated
+- will discuss goals of care with patient since she has capacity, ask
+her re anticoagulation vs filter placement
+penicillins
+rash;
+codeine
+nausea/vomiting
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2157-1-31**] 04:30 am
+cefipime - [**2157-2-1**] 02:12 am
+infusions:
+heparin sodium - 700 units/hour
+other icu medications:
+pantoprazole (protonix) - [**2157-2-1**] 06:15 am
+other medications:
+flowsheet data as of  [**2157-2-1**] 06:53 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.8
+c (98.3
+tcurrent: 36
+c (96.8
+hr: 95 (56 - 109) bpm
+bp: 118/61(81) {95/36(56) - 139/81(104)} mmhg
+rr: 20 (13 - 25) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+cvp: 7 (6 - 7)mmhg
+total in:
+8,355 ml
+927 ml
+po:
+tf:
+ivf:
+5,355 ml
+927 ml
+blood products:
+total out:
+430 ml
+150 ml
+urine:
+430 ml
+150 ml
+ng:
+stool:
+drains:
+balance:
+7,925 ml
+777 ml
+respiratory support
+o2 delivery device: nasal cannula
+ventilator mode: cpap/psv
+vt (spontaneous): 427 (415 - 427) ml
+ps : 8 cmh2o
+rr (spontaneous): 20
+peep: 5 cmh2o
+fio2: 40%
+pip: 14 cmh2o
+spo2: 98%
+abg: 7.34/31/82.[**numeric identifier 143**]/18/-7
+ve: 9.6 l/min
+general: nad, tired, extubated
+heent: pupils are equal, round, and reactive to light. mm dry
+lungs: clear to ausculation bilaterally, no w/r
+heart: regular, prominent p2, no apprec murmur
+abdomen: soft, mildly distended, nabs, nttp, no rebound
+extremities: cool, distal pulses +2, left hand erythematous, edematous
+and cool, radial pulse dopplerable
+neurologic: following commands, moving all 4 extremities  and easily
+arousable
+/
+242 k/ul
+8.1 g/dl
+88 mg/dl
+1.4 mg/dl
+18 meq/l
+3.9 meq/l
+26 mg/dl
+115 meq/l
+141 meq/l
+23.9 %
+3.4 k/ul
+wbc
+5.3
+3.4
+hct
+27.0
+23.9
+plt
+355
+242
+cr
+1.3
+1.4
+tropt
+3.73
+3.99
+tco2
+17
+19
+19
+18
+17
+glucose
+163
+88
+other labs: pt / ptt / inr:15.6/86.8/1.4, ck / ckmb /
+troponin-t:1111/192/3.99, alt / ast:400/541, alk phos / t bili:403/2.1,
+lactic acid:1.3 mmol/l, ldh:919 iu/l, ca++:7.8 mg/dl, mg++:2.4 mg/dl,
+po4:4.0 mg/dl",# s/p pea arrest; acute pe/resp failure; nstemi; fever:; metastatic breast cancer,status post pulseless electrical activity arrest; acute pulmonary embolism respiratory failure; non st elevation myocardial infarction; fever ; metastatic breast cancer,"['status post pulseless electrical activity arrest', 'acute pulmonary embolism respiratory failure', 'non st elevation myocardial infarction', 'fever', 'metastatic breast cancer']","82 y/o F with CAD s/p CABG and metastatic breast cancer who presented
+   with fever and SOB, found to have bilateral PEs and now s/p Vfib
+   arrest, intubated and following commands.",True,"The patient has elevated liver enzymes (ALT: 400, AST: 541), which suggests hepatitis. However, there is no other evidence of hepatitis, such as jaundice or a positive hepatitis panel. This diagnosis is possible but not definitive."
+210,187637.txt,"31m with bipolar d/o and history of polysubstance
+abuse p/w fevers/hypotension after propofol injection.
+ultrasound - at [**2143-8-13**] 11:00 am
+ruq-liver - c/w acute hepatitis.
+blood cultured - at [**2143-8-13**] 02:00 pm
+x2 sets
+fever - 102.0
+f - [**2143-8-13**] 04:00 pm
+id curbsided in am re abx regimen:  vanc, [**last name (un) 430**] (listeria/clostridia
+coverage)
+increased pressor requirement
+continued fevers
+increased 02 requirement, ivf held
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2143-8-13**] 07:00 am
+ceftriaxone - [**2143-8-13**] 12:00 pm
+vancomycin - [**2143-8-13**] 08:00 pm
+meropenem - [**2143-8-14**] 06:02 am
+infusions:
+norepinephrine - 0.07 mcg/kg/min
+other icu medications:
+heparin sodium (prophylaxis) - [**2143-8-14**] 12:00 am
+other medications:
+flowsheet data as of  [**2143-8-14**] 07:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.9
+c (102
+tcurrent: 38.4
+c (101.1
+hr: 72 (72 - 106) bpm
+bp: 101/54(66) {81/39(52) - 125/79(88)} mmhg
+rr: 15 (7 - 31) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+height: 69 inch
+cvp: 17 (5 - 18)mmhg
+mixed venous o2% sat: 79 - 80
+total in:
+10,606 ml
+713 ml
+po:
+1,660 ml
+360 ml
+tf:
+ivf:
+3,446 ml
+353 ml
+blood products:
+total out:
+7,335 ml
+840 ml
+urine:
+6,035 ml
+840 ml
+ng:
+stool:
+drains:
+balance:
+3,271 ml
+-127 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///25/
+gen: awake, appropriate, nad
+heent: ncat, eomi, perrl, oropharynx clear without exudate, mm dry
+neck: supple, no lad, no appreciable jvd
+cv: rrr, normal s1s2, no murmurs, rubs or gallops
+pulm: ctab, no wheezes, diminished effort bilaterally
+abd: soft, mild epigastric tenderness, normoactive bowel sounds, liver
+edge palpable below costrophrenic angle, non-tender
+ext: warm and well perfused, full and symmetric distal pulses, no pedal
+edema, b/l knees appear normal, no erythema or swelling, no peripheral
+stigmata of endocarditis
+skin: no rashes, chronically sun exposed skin
+neuro: aaox3, responds appropriately to questions, cn 2-12 grossly
+intact, muscle strength 5/5 in all 4 ext., sensation intact to light
+touch.
+150 k/ul
+12.8 g/dl
+87 mg/dl
+0.9 mg/dl
+25 meq/l
+3.8 meq/l
+13 mg/dl
+103 meq/l
+135 meq/l
+33.7 %
+21.1 k/ul
+image002.jpg]
+[**2143-8-14**]  03:38 am
+wbc
+21.1
+hct
+33.7
+plt
+150
+cr
+0.9
+glucose
+87
+other labs: pt / ptt / inr:14.9/78.2/1.3, ck / ckmb / troponin-t:138//,
+alt / ast:269/203, alk phos / t bili:57/0.5, amylase / lipase:38/,
+differential-neuts:93.0 %, lymph:4.4 %, mono:2.1 %, eos:0.1 %, lactic
+acid:1.5 mmol/l, albumin:3.5 g/dl, ldh:350 iu/l, ca++:7.5 mg/dl,
+mg++:1.8 mg/dl, po4:2.3 mg/dl
+fluid analysis / other labs: cortsol: 26.6
+imaging: ruq u/s: impression:
+1. findings consistent with acute hepatitis. no biliary dilatation.
+2. small right pleural effusion.
+microbiology: from [**hospital3 1243**] from [**8-12**]: gpcs in at least 2 blood
+cx bottles, 1 bottle with gpb.","sepsis: likely source is propofol self injection from non-sterile
+   vial.; bipolar disorder:; polysubstance abuse",sepsis likely source is propofol self injection from non sterile vial ; bipolar disorder ; polysubstance abuse,"['sepsis likely source is propofol self injection from non sterile vial', 'bipolar disorder', 'polysubstance abuse']","31 y/o M with PMH of bipolar d/o and polysubstance abuse who presents
+   with sepsis after intraveneous propfol injection",True,"The ultrasound findings are consistent with acute hepatitis, and the liver enzymes are significantly elevated (ALT 269, AST 203), which supports the diagnosis of hepatitis. The patient's clinical presentation with fever and the ultrasound impression directly point towards hepatitis."
+247,103146.txt,"- blood cultures speciated - mssa. d'c ed vanco and started naficillin
+- had diuresed >3.5l at 1500 with map's in high 50-60's and was unable
+to wean off levophed. held lasix gtt and gave 250cc ivf. gave another
+250cc ivf at [**2104**], 500cc @ 2300
+- liver recs - likely [**year (4 digits) 1613**] liver, rec: abdominal u/s with dopplers,
+trend lft's and supportive care
+- had trouble weaning levophed, likely [**1-22**] intravascular volume
+depletion from overdiuresis
+pa pressure increasing
+negative yesterday, gave fluids and held lasix (look up totals in i/o)
+got nearly 3l since 1500 yesterday
+maps were low, need 60-65 goal, levophed went up (try to wean by
+increasing fluids)
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2114-4-24**] 08:00 pm
+metronidazole - [**2114-4-25**] 06:14 am
+vancomycin - [**2114-4-26**] 08:29 am
+nafcillin - [**2114-4-27**] 04:30 am
+infusions:
+norepinephrine - 0.05 mcg/kg/min
+dobutamine - 4 mcg/kg/min
+other icu medications:
+heparin sodium (prophylaxis) - [**2114-4-26**] 11:29 pm
+other medications:
+flowsheet data as of  [**2114-4-27**] 05:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.4
+c (97.5
+hr: 86 (81 - 96) bpm
+bp: 97/56(66) {69/16(41) - 109/67(74)} mmhg
+rr: 20 (13 - 27) insp/min
+spo2: 95%
+heart rhythm: af (atrial fibrillation)
+wgt (current): 121.1 kg (admission): 119.3 kg
+height: 69 inch
+cvp: 11 (1 - 13)mmhg
+pap: (86 mmhg) / (36 mmhg)
+pcwp: 0 (0 - 0) mmhg
+co/ci (fick): (4.7 l/min) / (2 l/min/m2)
+svo2: 49%
+mixed venous o2% sat: 40 - 57
+total in:
+4,429 ml
+876 ml
+po:
+660 ml
+360 ml
+tf:
+ivf:
+3,769 ml
+516 ml
+blood products:
+total out:
+5,905 ml
+475 ml
+urine:
+5,905 ml
+475 ml
+ng:
+stool:
+drains:
+balance:
+-1,476 ml
+401 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ///22/
+gen: nad. awake, alert
+heent: ncat perrl
+cv: irregularly irregular nl s1s2 harsh systolic murmur at base
+pulm: fine crackles at the bases, no wheezes or rhonchi appreciated
+abd: obese, soft non-distended, non-tender, normal bs
+ext:  warm, dry; trace edema, palpable dp/pt pulses bilat; no splinter
+hemorrhages, osler
+s nodes
+neuro: a&ox3, responds to questions appropriately
+105 k/ul
+9.9 g/dl
+182 mg/dl
+1.4 mg/dl
+22 meq/l
+3.6 meq/l
+50 mg/dl
+104 meq/l
+134 meq/l
+30
+12.6 k/ul
+[image002.jpg]
+[**2114-4-25**]  01:34 pm
+[**2114-4-25**]  08:22 pm
+[**2114-4-25**]  10:40 pm
+[**2114-4-26**]  04:30 am
+[**2114-4-26**]  04:55 am
+[**2114-4-26**]  01:54 pm
+[**2114-4-26**]  10:16 pm
+[**2114-4-26**]  10:23 pm
+[**2114-4-27**]  04:39 am
+[**2114-4-27**]  04:54 am
+wbc
+18.7
+14.4
+12.9
+12.6
+hct
+32.1
+29
+28
+30.1
+29
+29
+31.3
+31.2
+30
+plt
+148
+118
+105
+105
+cr
+2.4
+2.0
+1.7
+1.4
+glucose
+175
+156
+158
+182
+other labs: pt / ptt / inr:18.5/37.4/1.7, ck / ckmb /
+troponin-t:196/6/0.11, alt / ast:1434/1699, alk phos / t bili:74/3.1,
+amylase / lipase:22/27, differential-neuts:89.9 %, band:7.0 %,
+lymph:6.3 %, mono:3.7 %, eos:0.0 %, d-dimer:[**numeric identifier 5835**] ng/ml, fibrinogen:392
+mg/dl, lactic acid:1.4 mmol/l, albumin:3.7 g/dl, ldh:730 iu/l, ca++:7.8
+mg/dl, mg++:1.8 mg/dl, po4:2.6 mg/dl",septic [**numeric identifier 1613**]: [**1-22**] mssa bacteremia.; liver failure; as; acute on chronic systolic heart failure; dyspnea; arf; thrombocytopenia; afib; dm,septic numeric identifier methicillin sensitive staphylococcus aureus bacteremia ; liver failure; aortic stenosis; acute on chronic systolic heart failure; dyspnea; acute renal failure; thrombocytopenia; atrial fibrillation; diabetes mellitus,"['septic numeric identifier methicillin sensitive staphylococcus aureus bacteremia', 'liver failure', 'aortic stenosis', 'acute on chronic systolic heart failure', 'dyspnea', 'acute renal failure', 'thrombocytopenia', 'atrial fibrillation', 'diabetes mellitus']","64 M w/ nonischemic dilated cardiomyopathy (EF 25%), severe AS,
+   rheumatic MS, DM, COPD, OSA & pulm HTN admitted to OSH with DOE,
+   transferred for further evaluation of AS, now with GPC bacteremia and
+   septic [**Numeric Identifier 1613**].
+   .",True,"The liver function tests (ALT 1434, AST 1699) are significantly elevated, suggesting liver injury or hepatitis. However, the etiology (viral, toxic, etc.) cannot be determined from the information provided."

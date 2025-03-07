@@ -1,0 +1,638 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_acute_tubular_necrosis_pred_multi,is_acute_tubular_necrosis_reasoning_multi
+80,188291.txt,"54 year old man with pmh significant for bipolar
+disorder, etoh use with h/o of dts, now presenting with lithium
+toxicity admitted to the icu for cvvh.
+had hd catheter placed, started cvvh
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2122-3-18**] 06:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.8
+c (98.3
+tcurrent: 36.7
+c (98
+hr: 59 (58 - 63) bpm
+bp: 108/59(70) {97/49(62) - 126/64(77)} mmhg
+rr: 12 (10 - 16) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+height: 72 inch
+total in:
+2,344 ml
+po:
+tf:
+ivf:
+344 ml
+blood products:
+total out:
+0 ml
+1,204 ml
+urine:
+945 ml
+ng:
+stool:
+drains:
+balance:
+0 ml
+1,140 ml
+respiratory support
+o2 delivery device: none
+spo2: 99%
+abg: 7.39/30/101/15/-5
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+/
+133 k/ul
+12.0 g/dl
+102 mg/dl
+2.2 mg/dl
+15 meq/l
+3.8 meq/l
+67 mg/dl
+107 meq/l
+131 meq/l
+33.5 %
+8.4 k/ul
+[image002.jpg]
+[**2122-3-18**]  01:48 am
+[**2122-3-18**]  01:59 am
+[**2122-3-18**]  02:39 am
+[**2122-3-18**]  06:01 am
+wbc
+8.2
+8.4
+hct
+33.7
+33.5
+plt
+146
+133
+cr
+2.2
+tco2
+21
+19
+glucose
+102
+other labs: pt / ptt / inr:16.7/150.0/1.5, lactic acid:1.0 mmol/l,
+ca++:10.5 mg/dl, mg++:2.6 mg/dl, po4:2.8 mg/dl",.lithium toxicity:; acute renal failure; hyponatremia:; .alcohol use; bipolar disorder,lithium toxicity ; acute renal failure; hyponatremia ; alcohol use; bipolar disorder,"['lithium toxicity', 'acute renal failure', 'hyponatremia', 'alcohol use', 'bipolar disorder']","54 year old man with pmh significant for bipolar disorder presenting
+   with lithium toxicity",True,"Given the patient's history of lithium toxicity, which is known to cause renal damage, and the elevated creatinine level, acute tubular necrosis is a possible cause of the acute kidney injury. However, without a renal biopsy or more specific markers of tubular damage, this diagnosis is less certain but plausible."
+132,191100.txt,"patient tolerated clear liquid diet
+cardiac enzymes
+betablocker po
+last bm [**8-8**]?
+uop 45-100 -fluids stopped overnight
+mental status: labile, +asterixis
+continues to complain of ruq pain  -seen by surgery, not acute abdomen,
+no indication for surgery
+-ercp -no imaging unless change in labs or dvlps fever
+renal: encephalopathic, increasing bun -plan for dialysis today
+nutrition recs: start tube feeds, encourage po intake
+pneumovax 23 (injection) (pneumococcal 23-[**male first name (un) **] p-sac vac)
+rash;
+allopurinol
+rash;
+hydralazine
+rash;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2120-8-10**] 04:08 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2120-8-10**] 12:09 am
+other medications:
+flowsheet data as of  [**2120-8-10**] 06:55 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 36.2
+c (97.1
+hr: 67 (64 - 76) bpm
+bp: 113/48(64) {106/44(61) - 147/104(109)} mmhg
+rr: 10 (10 - 20) insp/min
+spo2: 96%
+heart rhythm: rbbb (right bundle branch block)
+height: 70 inch
+total in:
+2,740 ml
+119 ml
+po:
+210 ml
+tf:
+ivf:
+2,530 ml
+119 ml
+blood products:
+total out:
+1,460 ml
+465 ml
+urine:
+1,405 ml
+465 ml
+ng:
+stool:
+drains:
+55 ml
+balance:
+1,280 ml
+-346 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 96%
+abg: ///18/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+344 k/ul
+9.4 g/dl
+75 mg/dl
+5.7 mg/dl
+18 meq/l
+4.4 meq/l
+106 mg/dl
+105 meq/l
+138 meq/l
+29.4 %
+8.6 k/ul
+wbc
+18.1
+15.7
+10.2
+10.7
+8.6
+hct
+31.4
+30.6
+28.3
+31.0
+31.5
+29.4
+plt
+295
+303
+278
+317
+344
+cr
+5.2
+5.3
+5.4
+6.0
+6.2
+6.1
+5.7
+tropt
+1.57
+1.53
+1.57
+1.78
+2.01
+2.09
+tco2
+20
+glucose
+146
+132
+100
+53
+78
+63
+129
+75
+other labs: pt / ptt / inr:15.2/29.1/1.3, ck / ckmb /
+troponin-t:198/7/2.09, alt / ast:44/38, alk phos / t bili:286/2.2,
+amylase / lipase:88/97, lactic acid:1.1 mmol/l, albumin:2.6 g/dl,
+ldh:197 iu/l, ca++:7.9 mg/dl, mg++:2.5 mg/dl, po4:6.5 mg/dl",obstructive cholangitis s/p ercp with stenting:; # cad; # acute on chronic renal failure,obstructive cholangitis status post endoscopic retrograde cholangiopancreatography with stenting ; coronary artery disease; acute on chronic renal failure,"['obstructive cholangitis status post endoscopic retrograde cholangiopancreatography with stenting', 'coronary artery disease', 'acute on chronic renal failure']","74 y/o M with CAD/DM who presented with obstructive cholangitis and
+   course complicated by troponin leak & acute renal failure now s/p ERCP
+   with stenting.",True,"Given the patient's acute kidney injury and the context of critical illness, acute tubular necrosis (ATN) is a possible cause. ATN is a common cause of acute kidney injury in hospitalized patients, especially those who are critically ill or have been exposed to nephrotoxic agents. However, without a renal biopsy or more specific indicators, this remains a probable cause rather than a definitive diagnosis."
+155,106674.txt,"shortness of breath
+- ct chest per rads, prelim cannot rule out tb (likely atypical
+mycoplasma)- send sputum afbs, isolation/respiratory precautions for
+rule out.
+prelim ct chest read:
+right upper lobe irregular consolidation and nodularity, with variable
+sized cavities at the right apex; suggesting infection, cannot rule out
+tb. background of severe emphysema. tiny bilateral pleural effusions
+with atelectasis.
+- ct head completed: f/u final ct reports.
+prelim ct head read:
+1. no intracranial hemorrhage. pan-sinus disease with fluid in right
+maxillary and sphenoid air cells; complete opacification of right
+mastoid air cells.
+2. subgaleal low attenuation fluid collection overlying right occiput,
+max 10mm depth. no underlying bony abnormality.
+- left a line placed.
+- family updated.
+- follow-up cardiac enzymes, trop 0.4 x2
+- appeared dry on exam in early am, with bun elevated and cr trending
+down. gave 500cc ns bolus at 6:30 am.
+tramadol
+unknown;
+oxycodone
+unknown;
+penicillins
+unknown;
+review of systems is unchanged from admission except as noted below
+review of systems: denies pain.","last dose of antibiotics:
+levofloxacin - [**2131-1-17**] 08:46 pm
+metronidazole - [**2131-1-18**] 01:44 am
+infusions:
+propofol - 17 mcg/kg/min
+other icu medications:
+midazolam (versed) - [**2131-1-17**] 05:30 pm
+fentanyl - [**2131-1-17**] 11:46 pm
+famotidine (pepcid) - [**2131-1-18**] 01:44 am
+other medications:
+flowsheet data as of  [**2131-1-18**] 07:15 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**32**] am
+tmax: 37.8
+c (100.1
+tcurrent: 37.3
+c (99.2
+hr: 94 (73 - 97) bpm
+bp: 96/52(66) {66/38(46) - 152/64(93)} mmhg
+rr: 16 (10 - 19) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+total in:
+3,843 ml
+346 ml
+po:
+tf:
+30 ml
+ivf:
+843 ml
+237 ml
+blood products:
+total out:
+2,550 ml
+445 ml
+urine:
+600 ml
+445 ml
+ng:
+150 ml
+stool:
+drains:
+balance:
+1,293 ml
+-99 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist
+vt (set): 500 (500 - 500) ml
+rr (set): 16
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 50%
+rsbi: 70
+pip: 27 cmh2o
+plateau: 14 cmh2o
+compliance: 71.4 cmh2o/ml
+spo2: 95%
+abg: 7.34/61/86/31/4
+ve: 7.4 l/min
+pao2 / fio2: 172
+general: intubated, slightly sedated, no distress.
+heent: sclera anicteric, perrl, mmm, oropharynx clear.  subcutaneous
+fluctuant collection on posterior head more on left side.
+neck: obese, supple, jvd elevation difficult to appreciate, slightly
+erythematous ?lymph node at angle of mandible on left side.
+lungs: clear to auscultation bilaterally, no wheezes, rales, ronchi but
+prolonged expiratory phase.
+cv: regular rate and rhythm, normal s1 + s2, [**12-23**] sm at rusb with some
+radiation to carotids, and [**12-23**] holosystolic murmur at apex.
+abdomen:  soft, appears non-tender, non-distended, bowel sounds
+present, no rebound tenderness or guarding, no organomegaly.
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema.
+neuro: needs assessment off sedation.  hyperreflexic l patellar reflex
+compared to right.  withdraws bilaterally to babinski
+133 k/ul
+7.8 g/dl
+151 mg/dl
+2.8 mg/dl
+31 meq/l
+3.9 meq/l
+66 mg/dl
+103 meq/l
+144 meq/l
+23.6 %
+6.0 k/ul
+[image002.jpg]
+[**2131-1-17**]  05:23 pm
+[**2131-1-18**]  01:24 am
+[**2131-1-18**]  01:54 am
+[**2131-1-18**]  02:27 am
+wbc
+5.7
+6.0
+hct
+26.1
+23.6
+plt
+145
+133
+cr
+3.5
+2.8
+tropt
+0.04
+tco2
+32
+34
+glucose
+130
+151
+other labs: pt / ptt / inr:13.4/29.4/1.1, ck / ckmb /
+troponin-t:253/6/0.04, lactic acid:0.7 mmol/l, albumin:3.0 g/dl,
+ca++:8.1 mg/dl, mg++:1.6 mg/dl, po4:3.1 mg/dl
+micro:
+sputum gram stain (final [**2131-1-18**]):
+>25 pmns and <10 epithelial cells/100x field.
+2+   (1-5 per 1000x field):   gram positive cocci. in pairs.
+urine legionella negative
+blood cultures pending",hypercarbic respiratory failure; borderline hypotension; copd; acute renal failure; osa,hypercarbic respiratory failure; borderline hypotension; chronic obstructive pulmonary disease; acute renal failure; obstructive sleep apnea,"['hypercarbic respiratory failure', 'borderline hypotension', 'chronic obstructive pulmonary disease', 'acute renal failure', 'obstructive sleep apnea']","70F with history of COPD on home O2, HTN, presenting with shortness of
+   breath now with hypercarbic respiratory failure.
+   .",True,"Given the patient's acute kidney injury and the context of possible sepsis and fluid resuscitation, acute tubular necrosis (ATN) is a plausible cause. ATN can result from ischemia or nephrotoxins, and the patient's clinical picture (elevated creatinine improving with fluid administration) could be consistent with ATN. However, without a renal biopsy or more specific markers, this diagnosis remains presumptive."
+236,189858.txt,"rhabdomyolysis
+- renal recommended given fluids with sodium bicarb fluids if acidocic,
+but ph 7.39 so continued on lr.
+- ck trending down to 10k
+- cr improved to 4.6
+penicillins
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2125-10-2**] 07:53 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 36.3
+c (97.3
+hr: 75 (70 - 93) bpm
+bp: 109/59(70) {101/48(63) - 150/84(96)} mmhg
+rr: 18 (3 - 24) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+total in:
+4,191 ml
+1,173 ml
+po:
+400 ml
+tf:
+ivf:
+3,791 ml
+1,173 ml
+blood products:
+total out:
+1,405 ml
+700 ml
+urine:
+1,405 ml
+700 ml
+ng:
+stool:
+drains:
+balance:
+2,786 ml
+473 ml
+respiratory support
+o2 delivery device: none
+spo2: 94%
+abg: 7.39/30/91/20/-5
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+433 k/ul
+9.4 g/dl
+98 mg/dl
+4.6 mg/dl
+20 meq/l
+4.3 meq/l
+85 mg/dl
+105 meq/l
+137 meq/l
+27.7 %
+10.7 k/ul
+wbc
+12.5
+10.7
+hct
+29.5
+27.7
+plt
+469
+433
+cr
+5.0
+5.1
+4.8
+4.8
+4.6
+tropt
+0.61
+0.55
+tco2
+19
+glucose
+129
+92
+106
+116
+98
+other labs: pt / ptt / inr:11.7/27.7/1.0, ck / ckmb /
+troponin-t:[**numeric identifier 2044**]/36/0.55, alt / ast:465/374, alk phos / t bili:95/0.2,
+lactic acid:1.2 mmol/l, albumin:2.4 g/dl, ldh:609 iu/l, ca++:8.5 mg/dl,
+mg++:1.7 mg/dl, po4:6.1 mg/dl",rhabdomyolysis; arf on ckd; hyperkalemia; #  generalized weakness.; metabolic acidosis,rhabdomyolysis; acute renal failure on chronic kidney disease; hyperkalemia; generalized weakness ; metabolic acidosis,"['rhabdomyolysis', 'acute renal failure on chronic kidney disease', 'hyperkalemia', 'generalized weakness', 'metabolic acidosis']","# Respiratory alkalosis.  pH 7.68 in ED.  Compensating for metabolic
+   acidosis but hyperventilating in addition.  Improved on repeat; likely
+   anxiety related as patient hyperventilating during testing.  ASA
+   negative.
+   -          Ativan prn anxiety as per home regimen.",True,"Given the context of rhabdomyolysis and the improvement in renal function, acute tubular necrosis (ATN) is a possible cause of the patient's acute kidney injury. Rhabdomyolysis is a known cause of ATN."
+256,191180.txt,"- decrease prograf to 2 mg [**hospital1 **] (starting with pm dose today) because
+level high
+- stopped lasix and metolazone, as urine lytes c/w pre-renal
+- renal looked at urine and saw hyaline casts (c/w dehydration) and
+muddy brown casts (c/w atn)
+- changed hydralazine to po
+- id: 6 week course of vanc from day of explant, d/w ortho wound care
+for k ankle, daily vanc levels while renal fxn changing (redose if
+<15), weekly cbcs while on vanc, call id when closed to d/c to arrange
+outpt abx
+- renal: increase lasix to 120 mg [**hospital1 **] and metolazone to 10 mg [**hospital1 **], if
+cr continues to rise, could consider renal bx
+- micro ngtd
+codeine
+nausea/vomiting
+amoxicillin
+nausea/vomiting
+blood-group specific substance
+unknown;
+adhesive tape (topical)
+""   """"tape absorbs i""
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2149-4-5**] 08:30 am
+heparin sodium (prophylaxis) - [**2149-4-5**] 08:30 am
+furosemide (lasix) - [**2149-4-5**] 08:30 am
+hydralazine - [**2149-4-5**] 12:00 pm
+other medications:
+flowsheet data as of  [**2149-4-6**] 06:51 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**51**] am
+tmax: 36.7
+c (98
+tcurrent: 36.7
+c (98
+hr: 97 (90 - 102) bpm
+bp: 168/69(107) {122/45(73) - 168/114(118)} mmhg
+rr: 7 (7 - 18) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 59 kg (admission): 58.8 kg
+height: 67 inch
+total in:
+640 ml
+68 ml
+po:
+400 ml
+tf:
+ivf:
+240 ml
+68 ml
+blood products:
+total out:
+511 ml
+220 ml
+urine:
+511 ml
+220 ml
+ng:
+stool:
+drains:
+balance:
+129 ml
+-152 ml
+respiratory support
+spo2: 98%
+abg: ///23/
+general: alert; lying in bed; no acute distress. nasal cannula in
+place.
+heent: nc/at.
+neck: supple
+cardiac: rrr, [**4-5**] holosytolic murmur heard throughout, most notably at
+the apex.
+lungs: no respiratory difficulties. bibasilar crackles noted, greater
+on the l.
+abdomen: +bs, abdomen soft, nt/nd.
+extremities: no edema noted in the legs. cast on lle.
+439 k/ul
+8.5 g/dl
+233 mg/dl
+4.1 mg/dl
+23 meq/l
+3.5 meq/l
+67 mg/dl
+97 meq/l
+135 meq/l
+26.2 %
+6.5 k/ul
+wbc
+12.1
+9.8
+6.5
+hct
+23
+24.3
+24
+25.3
+24.9
+26.2
+plt
+483
+453
+439
+cr
+2.7
+2.8
+3.4
+3.7
+4.1
+4.1
+tco2
+27
+24
+26
+glucose
+98
+110
+180
+160
+233
+other labs: pt / ptt / inr:12.6/24.4/1.1, ck / ckmb /
+troponin-t:28//0.06, alt / ast:122/54, alk phos / t bili:443/0.3,
+differential-neuts:85.8 %, lymph:9.1 %, mono:4.5 %, eos:0.6 %, lactic
+acid:0.8 mmol/l, albumin:3.0 g/dl, ldh:179 iu/l, ca++:9.0 mg/dl,
+mg++:2.4 mg/dl, po4:6.7 mg/dl",acute mitral regurgitation:; # acute renal failure/ s/p renal transplant; coronary artery disease s/p cabg; recent septic arthritis of her left ankle:; diabetes,acute mitral regurgitation ; acute renal failure status post renal transplant; coronary artery disease status post coronary artery bypass grafting; recent septic arthritis of her left ankle ; diabetes,"['acute mitral regurgitation', 'acute renal failure status post renal transplant', 'coronary artery disease status post coronary artery bypass grafting', 'recent septic arthritis of her left ankle', 'diabetes']","Ms [**Known lastname 11751**] is a 45 yo woman with pmh of DM1, CAD s/p CABG and PCI,
+   ESRD s/p living-related kidney transplant in [**10-31**], and recent
+   hospitalization for septic arthritis here with acute renal failure,
+   acute diastolic heart failure with newly diagnosed severe MR and
+   pulmonary hypertension.",True,"The presence of muddy brown casts in the urine is suggestive of acute tubular necrosis (ATN), a type of acute kidney injury. The patient's clinical context, including the elevated creatinine and the mention of ATN in the renal assessment, supports this diagnosis."
+392,147673.txt,"title: chief complaint: 24 hour events: blood cultured - at  02:00 pm urine culture - at  02:34 pm invasive ventilation - start  08:00 pm paracentesis - at  08:30 pm paracentesis - at  12:02 am dialysis catheter - start  02:00 am -taking po midodrine, kayexalate, lactulose (so held on ng tube) -hyperkalemia continues -pan cultured, 50g albumin daily per hepatology -hemolysis labs  per heme/onc -less responsive (ams), incr work of breathing, hyperkalemic, incr pressor and o2 requirement - intubated at ~7pm -diagnostic para - 900 wbc -ct torso - wetread: extremely limited examination in absence of oral and intravenous contrast for evaluation of ischemia. within these limitations, no pneuoperitoneum or pneumatosis. extensive ascites and cirrhotic liver. massively distended gallbladder and clinical correlation for cholecystitis is recommended.  suggestion of bowel wall thickening involving loop of small bowel in the left upper quadrant though evaluation is limited without contrast. rectal tube, foley catheter, cvc, ngt, ett in standard positions. bilateral moderate atelectasis. bilateral moderate pleural effusions. bilateral multifocal non- specific opacification may represent infectious or inflammatory etiology. -ffp, cryo, prbc, (300cc blood suctioned - but hct stable @ 23); og tube placed; low fibrinogen; bili rising -fem line; cvvh -intraabdominal pressure (low 20s) -propofol -lactate rising; vanc/zosyn/flagyl -this morning, lower o2 sat, so increased peep from 5 to 10 and dropped fio2 from 100 to 80 allergies: no known drug allergies","last dose of antibiotics: clindamycin -  02:45 pm ciprofloxacin -  08:36 pm vancomycin -  09:49 pm metronidazole -  12:16 am piperacillin -  05:00 am infusions: vasopressin - 2.4 units/hour propofol - 30 mcg/kg/min calcium gluconate (crrt) - 1.2 grams/hour norepinephrine - 0.5 mcg/kg/min phenylephrine - 5 mcg/kg/min other icu medications: dextrose 50% -  08:50 am furosemide (lasix) -  09:45 am sodium bicarbonate 8.4% (amp) -  02:00 pm pantoprazole (protonix) -  11:30 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:40 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.1 c (97 tcurrent: 36 c (96.8 hr: 81 (75 - 95) bpm bp: 60/37(47) {60/37(47) - 125/59(82)} mmhg rr: 29 (14 - 31) insp/min spo2: 93% heart rhythm: sr (sinus rhythm) wgt (current): 100.6 kg (admission): 91.7 kg height: 71 inch cvp: 25 (15 - 264)mmhg bladder pressure: 23 (20 - 23) mmhg total in: 6,906 ml 2,896 ml po: 270 ml tf: ivf: 3,105 ml 1,342 ml blood products: 1,667 ml 1,494 ml total out: 458 ml 302 ml urine: 258 ml 2 ml ng: 300 ml stool: drains: balance: 6,448 ml 2,594 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist/autoflow vt (set): 500 (500 - 500) ml rr (set): 24 rr (spontaneous): 0 peep: 5 cmh2o fio2: 100% rsbi deferred: fio2 > 60% pip: 34 cmh2o plateau: 21 cmh2o compliance: 31.3 cmh2o/ml spo2: 93% abg: 7.24/47/87./17/-7 ve: 12.4 l/min pao2 / fio2: 110 physical examination gen nad, intubated, sedated cv rrr, no murmurs pulm - ctab abd distended, tense, no ttp extr mild edema b/l pedal skin - jaundiced labs / radiology 67 k/ul 7.5 g/dl 99 mg/dl 1.0 mg/dl 17 meq/l 6.8 meq/l 79 mg/dl 106 meq/l 141 meq/l 26.0 % 16.3 k/ul [image002.jpg]   04:19 pm   05:14 pm   06:08 pm   08:08 pm   08:24 pm   09:15 pm   11:23 pm   11:40 pm   03:03 am   03:20 am wbc 18.3 18.4 15.5 16.3 hct 23.0 23.5 25.0 26.0 plt 79 78 72 67 cr 1.0 1.0 tco2 28 29 28 24 24 21 glucose 91 99 other labs: pt / ptt / inr:22.0/47.2/2.1, ck / ckmb / troponin-t:75/7/0.09, alt / ast:208/796, alk phos / t bili:97/42.2, amylase / lipase:98/63, differential-neuts:66.0 %, band:3.0 %, lymph:10.0 %, mono:6.0 %, eos:5.0 %, d-dimer: ng/ml, fibrinogen:85 mg/dl, lactic acid:6.6 mmol/l, albumin:4.0 g/dl, ldh:919 iu/l, ca++:10.5 mg/dl, mg++:2.1 mg/dl, po4:6.6 mg/dl peritoneal fluid: 900* * 70* 22* 6* 2* wbc    rbc   polys  lymphs  monos  eos",arf; sepsis; pna; peritonitis; chf; anemia; hepatitis c cirrhosis; thrombocytopenia; ,acute renal failure; sepsis; pneumonia; peritonitis; congestive heart failure; anemia; hepatitis c cirrhosis; thrombocytopenia;,"['acute renal failure', 'sepsis', 'pneumonia', 'peritonitis', 'congestive heart failure', 'anemia', 'hepatitis c cirrhosis', 'thrombocytopenia']","60 year old man with history of hepatitis C (s/p interferon rx with no
+   response), cirrhosis, esophageal varices and hyponatremia admitted with
+   dyspnea and diffuse abdominal pain, found to have peritonitis as well
+   as a possibility of CAP",True,"Given the patient's acute kidney injury and the context of multi-organ dysfunction, acute tubular necrosis is a possible cause. However, without a renal biopsy or more specific markers, it's difficult to confirm. The patient's clinical picture and need for dialysis support the possibility."
+414,169374.txt,"chief complaint: 24 hour events: -abdominal ct read: notable for hyperdensity/wedge shaped area in liver 3x 4 cm ? infarct.   pancreas unremarkable.  sigmoid colon shows some edematous/inflammatory changes which could be consistent with his c diff colitis hx. -abg was good: 7.43, 23, 90 -started vanc + cefepime for broad spectrum coverage of unknown source for sepsis.  continuing iv vanc + po vanc + iv metronidazole for c diff.  wbc still very high.  on levophed for pressor support -hct drop from 30 -> 23, stable in pm.  evening hct showed . . . -left leg looked swollen w/ some warmth and tenderness, lower extremity doppler obtained which showed presence of clot in superficial femoral vein (still a dvt); also appears to have erythema behind left knee and along left thigh/groin -amylase and lipase showed . . . -renal recs:  renal failure prob secondary to atn in setting of hypotension.  oliguric; so probably will take long time for kidney to recover.  feel prognosis for kidney not good. -cycled cardiac enzymes which were 0.04, 0.05, 0.05 -lactate trending down -given stable hcts, started on iv heparin - stim in am allergies: no known drug allergies","last dose of antibiotics: cefipime -  12:00 am vancomycin -  02:00 am metronidazole -  11:41 pm infusions: other icu medications: omeprazole (prilosec) -  08:00 am morphine sulfate -  10:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:42 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37 c (98.6 tcurrent: 35.3 c (95.6 hr: 72 (72 - 101) bpm bp: 110/() {0/() - 0/()} mmhg rr: 14 (13 - 35) insp/min spo2: 98% heart rhythm: sr (sinus rhythm) wgt (current): 83 kg (admission): 79 kg total in: 4,199 ml 713 ml po: 720 ml tf: ivf: 3,208 ml 13 ml blood products: 271 ml 700 ml total out: 335 ml 50 ml urine: 135 ml 50 ml ng: stool: 200 ml drains: balance: 3,864 ml 663 ml respiratory support o2 delivery device: nasal cannula spo2: 98% abg: 7.43/23/90./15/-6 physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 55 k/ul 9.7 g/dl 110 mg/dl 2.7 mg/dl 15 meq/l 5.4 meq/l 81 mg/dl 107 meq/l 133 meq/l 28.8 % 20.4 k/ul [image002.jpg]   12:02 am   12:31 am   05:54 am   06:18 am   12:26 pm   12:47 pm   04:40 pm   05:06 pm   04:28 am wbc 42.8 31.4 42.6 45.4 20.4 hct 30.9 22.8 23.4 23.9 28.8 plt 32 65 67 64 55 cr 2.5 2.3 2.5 2.5 2.7 tropt 0.04 0.05 0.05 tco2 12 14 15 16 glucose 95 147 194 176 110 other labs: pt / ptt / inr:18.8/41.7/1.7, ck / ckmb / troponin-t:148/6/0.05, alt / ast:31/28, alk phos / t bili:70/1.2, amylase / lipase:287/252, differential-neuts:89.0 %, band:8.0 %, lymph:1.0 %, mono:1.0 %, eos:0.0 %, fibrinogen:363 mg/dl, lactic acid:2.9 mmol/l, ldh:354 iu/l, ca++:7.5 mg/dl, mg++:1.9 mg/dl, po4:5.9 mg/dl","rll opacity possible effusion, collapse, pna; sepsis; thrombocytopenia; mds; acute renal failure; hiv; c. difficile colitis; adrenal insufficiency; ",right lower lobe opacity possible effusion collapse pneumonia; sepsis; thrombocytopenia; myelodysplastic syndromes; acute renal failure; human immunodeficiency virus; clostridium difficile colitis; adrenal insufficiency;,"['right lower lobe opacity possible effusion collapse pneumonia', 'sepsis', 'thrombocytopenia', 'myelodysplastic syndromes', 'acute renal failure', 'human immunodeficiency virus', 'clostridium difficile colitis', 'adrenal insufficiency']","81 year old male who over the past 3-4 months has had new
+   diagnoses of HIV, MDS, and adrenal insufficiency presenting with [**Last Name (un) **]
+   and C diff from an outside hospital and now transferred to the MICU for
+   hypotension.",True,"The renal team suspects renal failure is secondary to ATN in the setting of hypotension, which aligns with the patient's clinical presentation and lab findings. This suggests ATN is likely."
+420,173513.txt,"chief complaint: 24 hour events: ekg - at  09:41 pm - dark brown casts in urine > atn - pressure suppport trial - hyperkalemic, no ekg changes, given 80mg iv lasix allergies: oxycodone nausea/vomiting","last dose of antibiotics: meropenem -  09:01 am levofloxacin -  10:33 am voriconazole -  10:00 pm infusions: midazolam (versed) - 2 mg/hour fentanyl - 50 mcg/hour other icu medications: furosemide (lasix) -  09:41 pm other medications: vanc (level still >38) methylprednisolone 40mg  flowsheet data as of   07:41 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.4 c (99.4 tcurrent: 37 c (98.6 hr: 98 (84 - 102) bpm bp: 144/84(109) {114/64(82) - 144/84(109)} mmhg rr: 20 (16 - 20) insp/min spo2: 94% heart rhythm: sr (sinus rhythm) wgt (current): 82.2 kg (admission): 76.1 kg height: 59 inch cvp: 12 (3 - 15)mmhg total in: 1,626 ml 426 ml po: tf: 853 ml 299 ml ivf: 593 ml 127 ml blood products: total out: 446 ml 226 ml urine: 446 ml 226 ml ng: stool: drains: balance: 1,180 ml 200 ml respiratory support ventilator mode: cmv/assist/autoflow vt (set): 400 (400 - 400) ml vt (spontaneous): 461 (461 - 515) ml rr (set): 20 rr (spontaneous): 0 peep: 8 cmh2o fio2: 40% rsbi deferred: agitated pip: 22 cmh2o plateau: 18 cmh2o spo2: 94% abg: 7.38/37/95./21/-2 ve: 8.6 l/min pao2 / fio2: 238 physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 44 k/ul 10.0 g/dl 173 mg/dl 5.1 mg/dl 21 meq/l 5.1 meq/l 120 mg/dl 108 meq/l 139 meq/l 29.6 % 0.3 k/ul [image002.jpg]   04:06 am   11:31 am   03:55 pm   05:22 pm   02:13 am   05:26 am   05:02 pm   05:45 pm   05:53 am   06:07 am wbc 0.1 0.2 0.2 0.3 hct 20.6 29.2 28.6 28.6 29.6 plt 46 45 55 47 44 cr 3.7 4.1 4.4 4.8 5.1 tco2 25 24 23 24 23 glucose 44 173 other labs: pt / ptt / inr:13.9/27.5/1.2, alt / ast:13/37, alk phos / t bili:114/0.5, differential-neuts:33.0 %, band:0.0 %, lymph:47.0 %, mono:20.0 %, eos:0.0 %, fibrinogen:940 mg/dl, lactic acid:1.3 mmol/l, albumin:2.9 g/dl, ldh:508 iu/l, ca++:8.2 mg/dl, mg++:2.3 mg/dl, po4:6.3 mg/dl fluid analysis / other labs: vanc level 38 glucan pending from  urine eos negative granulyte count 190 diff from  shows return of monos 20 imaging: cxr  study is limited as the left cp angle has been cut off from the study.  the endotracheal tube, right-sided ij central venous catheter, and feeding tube are unchanged in position.  the tip of the feeding tube is looped upon itself and is pointing towards the gastroesophageal junction. there is some improvement of airspace opacities throughout both lung fields. however, there remains small areas of consolidation bilaterally, some pulmonary vascular congestion. : blood cx from  &  pending ngtd urine cx  neg &  pending rapid viral screen  neg (para, rsv, influ a/b & adeno) viral culture prelim neg influenza dfa neg   bal gram stain (final ): 1+    (<1 per 1000x field):   polymorphonuclear leukocytes. no microorganisms seen. respiratory culture (final ):    no growth, <1000 cfu/ml. legionella culture (preliminary):    no legionella isolated. potassium hydroxide preparation (final ): patient credited. this is a low yield procedure based on our in-house studies. if pulmonary histoplasmosis, coccidioidomycosis, blastomycosis, aspergillosis or mucormycosis is strongly suspected, contact the  laboratory (7-2306). immunoflourescent test for pneumocystis jirovecii (carinii) (final ):    negative for pneumocystis jirvovecii (carinii). fungal culture (preliminary):    no fungus isolated. nocardia culture (preliminary):    no nocardia isolated. acid fast smear (final ): no acid fast bacilli seen on concentrated smear. acid fast culture (pending):","respiratory failure: etiology likely multifactorial [**12-27**] ards s/p
+   induction chemotherapy, volume overload; arf; afib; aml; ",respiratory failure etiology likely multifactorial acute respiratory distress syndrome status post induction chemotherapy volume overload; acute renal failure; atrial fibrillation; acute myeloid leukemia;,"['respiratory failure etiology likely multifactorial acute respiratory distress syndrome status post induction chemotherapy volume overload', 'acute renal failure', 'atrial fibrillation', 'acute myeloid leukemia']","68F h/o breast CA, polio & secondary AML s/p induction (7+3), course
+   complicated by post-induction febrile neutropenia, hypoxia [**12-27**] ARDS,
+   LUL PNA, volume overload, B pulmonary infiltrates. Intubated day 21
+   ([**2167-1-27**]) & s/p bronchoscopy x2 ([**2167-1-27**], 326/08), now on PSV 10/8.",True,"While the patient has acute kidney injury, the specific diagnosis of acute tubular necrosis (ATN) is suggested by the presence of 'dark brown casts in urine', which can indicate tubular damage. ATN is a common cause of acute kidney injury in hospitalized patients, especially those with exposure to nephrotoxic agents or severe illness. The patient's clinical context and lab findings support this diagnosis."

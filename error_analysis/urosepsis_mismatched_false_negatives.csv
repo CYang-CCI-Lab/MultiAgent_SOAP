@@ -1,0 +1,279 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_urosepsis_pred_single,is_urosepsis_reasoning_single,is_urosepsis_pred_multi,is_urosepsis_reasoning_multi
+91,193894.txt,"arterial line - start [**2157-12-30**] 11:17 pm
+multi lumen - start [**2157-12-30**] 11:17 pm
+pan culture - at [**2157-12-31**] 12:01 am
+invasive ventilation - start [**2157-12-31**] 12:01 am
+intubated from osh at 22:30.
+ekg - at [**2157-12-31**] 12:30 am
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2157-12-31**] 12:00 am
+vancomycin - [**2157-12-31**] 07:55 am
+metronidazole - [**2157-12-31**] 10:10 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2157-12-30**] 11:59 pm
+fentanyl - [**2157-12-31**] 04:50 am
+other medications:
+flowsheet data as of  [**2157-12-31**] 10:52 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**59**] am
+tmax: 37.2
+c (98.9
+tcurrent: 37.2
+c (98.9
+hr: 91 (88 - 119) bpm
+bp: 141/76(102) {116/57(83) - 157/78(113)} mmhg
+rr: 17 (9 - 22) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+total in:
+868 ml
+8,247 ml
+po:
+tf:
+ivf:
+868 ml
+3,247 ml
+blood products:
+total out:
+1,287 ml
+925 ml
+urine:
+160 ml
+925 ml
+ng:
+stool:
+drains:
+balance:
+-419 ml
+7,322 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cpap/psv
+vt (spontaneous): 427 (423 - 481) ml
+ps : 10 cmh2o
+rr (spontaneous): 24
+peep: 5 cmh2o
+fio2: 40%
+pip: 15 cmh2o
+spo2: 99%
+abg: 7.44/27/95.[**numeric identifier 218**]/18/-3
+ve: 9.4 l/min
+pao2 / fio2: 238
+physical exam
+general: intubated, sedated
+heent: normocephalic, atraumatic. no conjunctival pallor. no scleral
+icterus. perrla/eomi. mmm. op clear. neck supple, no lad, no
+thyromegaly.
+cardiac: regular rhythm, tachycardic. normal s1, s2. no murmurs, rubs
+or [**last name (un) 1011**]. no jvd.
+lungs: ctab anteriorly, good air movement bilaterally.
+abdomen: nabs. soft, slight distension.  involuntary guarding. no hsm
+extremities: trace pedal edema, 2+ dorsalis pedis/ posterior tibial
+pulses.
+skin: bilateral antecubital erythema and skin break on right.
+neuro: intubated sedated, not following commands.  withdraws all four
+extremities to pain
+201 k/ul
+11.1 g/dl
+88 mg/dl
+0.4 mg/dl
+18 meq/l
+4.0 meq/l
+15 mg/dl
+111 meq/l
+136 meq/l
+34.3 %
+34.6 k/ul
+image002.jpg]
+[**2157-12-30**]  10:31 pm
+[**2157-12-30**]  11:04 pm
+[**2157-12-31**]  04:56 am
+wbc
+31.4
+34.6
+hct
+33.3
+34.3
+plt
+174
+201
+cr
+0.6
+0.4
+tropt
+<0.01
+tco2
+19
+glucose
+119
+119
+88
+other labs: pt / ptt / inr:15.9/38.5/1.4, ck / ckmb /
+troponin-t:60/4/<0.01, alt / ast:288/164, alk phos / t bili:183/2.2,
+amylase / lipase:45/16, differential-neuts:96.8 %, lymph:1.5 %,
+mono:1.4 %, eos:0.1 %, lactic acid:1.6 mmol/l, albumin:2.9 g/dl,
+ldh:165 iu/l, ca++:8.2 mg/dl, mg++:2.4 mg/dl, po4:1.8 mg/dl",sepsis: cholangitis vs urosepsis are most likely sources.; respiratory failure:; . seizure disorder:; meningioma; . ams,sepsis cholangitis versus urosepsis are most likely sources ; respiratory failure ; seizure disorder ; meningioma; altered mental status,"['sepsis cholangitis versus urosepsis are most likely sources', 'respiratory failure', 'seizure disorder', 'meningioma', 'altered mental status']","Ms. [**Known lastname 12663**] is a 87 yo female with PMH of meningioma and seizure
+   disorder who presented to [**Hospital6 5579**] on [**2157-12-29**] with sepsis.",True,"The patient's presentation includes several key indicators that suggest urosepsis. The patient is intubated and sedated, indicating a severe condition. The use of broad-spectrum antibiotics such as piperacillin/tazobactam, vancomycin, and metronidazole suggests a suspicion of a severe infection. The patient's vital signs show tachycardia (hr: 91 bpm) and slight fever (tmax: 37.2°C), which can be indicative of an infectious process. The laboratory results show an elevated white blood cell count (wbc: 31.4 and 34.6 k/ul), which is a marker of infection. Additionally, the patient has involuntary guarding and slight abdominal distension, which could suggest an abdominal source of infection, such as a urinary tract infection leading to urosepsis. However, the absence of specific urinary symptoms or laboratory results (e.g., urinalysis) in the provided sections makes it difficult to confirm urosepsis directly. Despite this, the overall clinical picture of severe infection, the use of broad-spectrum antibiotics, and the patient's critical condition lean towards the possibility of urosepsis, especially considering the abdominal findings and the context of severe sepsis management. Therefore, based on the available information, urosepsis is a likely consideration in this patient's diagnosis.",False,"There is no specific evidence provided that would directly indicate urosepsis, such as a urinary tract infection (UTI) diagnosis, positive urine cultures, or symptoms directly related to the urinary system. While the patient has a high WBC count and is on antibiotics, the source of the infection is not specified as being urinary in origin."
+293,186629.txt,"mrs. [**known lastname **] is an 81 year old female with metastatic
+melanoma (known brain mets, adrenal mets), who presented with nausea
+and hypotension now being transfered to the icu for tachycardia,
+hypotension, and respiratory distress, concerning for sepsis vs effects
+of metastatic cancer. overnight improved with decreased requirement of
+levophed but continued anuria.
+picc line - start [**2120-3-19**] 11:30 am
+dual [**last name (un) 3122**] 41 cm
+blood cultured - at [**2120-3-19**] 02:32 pm
+x2
+multi lumen - stop [**2120-3-19**] 04:35 pm
+aspirin
+abdominal pain;
+nsaids
+gi bleed;
+technetium-[**age over 90 **]m
+hives;
+gadolinium-containing agents
+tongue
+lip tin
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2120-3-19**] 08:00 pm
+infusions:
+heparin sodium - 1,450 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2120-3-20**] 07:13 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.7
+c (98
+tcurrent: 35.7
+c (96.3
+hr: 100 (86 - 114) bpm
+bp: 136/88(99) {85/50(51) - 150/88(99)} mmhg
+rr: 23 (17 - 31) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,340 ml
+175 ml
+po:
+450 ml
+tf:
+ivf:
+890 ml
+175 ml
+blood products:
+total out:
+1,105 ml
+390 ml
+urine:
+1,105 ml
+390 ml
+ng:
+stool:
+drains:
+balance:
+235 ml
+-215 ml
+respiratory support
+o2 delivery device: none
+spo2: 100%
+abg: ///20/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+75 k/ul
+8.3 g/dl
+134 mg/dl
+0.9 mg/dl
+20 meq/l
+3.7 meq/l
+36 mg/dl
+109 meq/l
+138 meq/l
+24.9 %
+6.8 k/ul
+image002.jpg]
+[**2120-3-15**]  10:21 am
+[**2120-3-15**]  10:25 am
+[**2120-3-15**]  02:55 pm
+[**2120-3-16**]  05:11 am
+[**2120-3-16**]  03:20 pm
+[**2120-3-17**]  04:22 am
+[**2120-3-18**]  04:20 am
+[**2120-3-19**]  04:22 am
+[**2120-3-20**]  04:24 am
+wbc
+12.5
+24.9
+17.9
+18.3
+12.2
+7.8
+6.8
+hct
+28.0
+26.4
+26.0
+25.6
+24.2
+25.9
+24.9
+plt
+[**telephone/fax (3) 4805**]5
+81
+88
+75
+cr
+1.0
+1.6
+1.7
+1.7
+1.4
+1.2
+0.9
+tco2
+18
+21
+glucose
+146
+200
+164
+[**telephone/fax (3) 4855**]
+134
+other labs: pt / ptt / inr:15.5/89.3/1.4, alt / ast:22/43, alk phos / t
+bili:180/1.3, differential-neuts:89.0 %, band:5.0 %, lymph:5.0 %,
+mono:1.0 %, eos:0.0 %, lactic acid:1.7 mmol/l, albumin:2.5 g/dl,
+ldh:2720 iu/l, ca++:7.1 mg/dl, mg++:2.3 mg/dl, po4:2.4 mg/dl","urosepsis; tachycardia, atrial fibrillation (afib; thrombocytopenia; renal failure, acute (acute renal failure, arf); metastatic melanoma",urosepsis; tachycardia atrial fibrillation atrial fibrillation; thrombocytopenia; renal failure acute acute renal failure acute renal failure ; metastatic melanoma,"['urosepsis', 'tachycardia atrial fibrillation atrial fibrillation', 'thrombocytopenia', 'renal failure acute acute renal failure acute renal failure', 'metastatic melanoma']","BALANCE, IMPAIRED
+ AEROBIC CAPACITY / ENDURANCE, IMPAIRED
+ KNOWLEDGE, IMPAIRED
+ GAIT, IMPAIRED
+ ATRIAL FIBRILLATION (AFIB)
+ SEPSIS WITHOUT ORGAN DYSFUNCTION
+ HYPOTENSION (NOT SHOCK)
+ HYPOCALCEMIA (LOW CALCIUM)
+ RENAL FAILURE, ACUTE (ACUTE RENAL FAILURE, ARF)
+ .H/O TACHYCARDIA, OTHER
+   Mrs. [**Known lastname **] is an 81 year old female with metastatic melanoma (known
+   brain mets, adrenal mets), who presented with nausea and hypotension
+   now being transfered to the ICU for tachycardia, hypotension, and
+   respiratory distress, concerning for sepsis vs effects of metastatic
+   cancer. Overnight improved with decreased requirement of levophed but
+   continued anuria.",True,"The patient presents with symptoms concerning for sepsis, including hypotension, tachycardia, and respiratory distress. The presence of abdominal pain and anuria (lack of urine production) could suggest a urinary source of infection, which is a common cause of urosepsis. Additionally, the patient has been started on ciprofloxacin, a common antibiotic used to treat urinary tract infections. The patient's lab results show an elevated white blood cell count (WBC) and lactic acid level, which are indicative of infection and sepsis. However, the patient's complex medical history, including metastatic melanoma, could also contribute to their symptoms. Despite this, the combination of symptoms and lab results suggests that urosepsis is a possible diagnosis. The patient's anuria and abdominal pain, in particular, point towards a urinary source of infection, which supports the diagnosis of urosepsis.",False,"While sepsis is suspected, there is no specific evidence pointing towards a urinary source of infection (e.g., urinary symptoms, positive urine culture). Therefore, urosepsis cannot be confirmed based on the provided information."
+332,100347.txt,"chief complaint: admitted with hypotension, possible urosepsis 24 hour events: overnight, his hr improved with diltiazem po, off the drip when sbp 90s during sleep. now hr back to 110-120, but otherwise stable. allergies: penicillins unknown;","last dose of antibiotics: infusions: other icu medications: heparin sodium (prophylaxis) -  07:35 am omeprazole (prilosec) -  07:47 am other medications: ceftriaxone 1gm q24h folic acid mvi aricept reglan b12 diltiazem 30mg qid changes to medical and family history: no change review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   08:53 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.6 c (99.6 tcurrent: 37.3 c (99.1 hr: 97 (76 - 137) bpm bp: 126/65(77) {95/51(62) - 127/76(84)} mmhg rr: 14 (12 - 26) insp/min spo2: 100% heart rhythm: af (atrial fibrillation) total in: 3,601 ml 516 ml po: tf: ivf: 3,601 ml 516 ml blood products: total out: 1,365 ml 435 ml urine: 1,365 ml 435 ml ng: stool: drains: balance: 2,236 ml 81 ml respiratory support o2 delivery device: none spo2: 100% abg: ///19/ physical examination gen: pleasant, disoriented but alert chest: crackles at left mid lung field; unchanged from yesterday cv: ir/ir abd: s/nt/nd ext: no edema, warm, well perfused labs / radiology 9.7 g/dl 214 k/ul 154 mg/dl 1.8 mg/dl 19 meq/l 4.5 meq/l 43 mg/dl 120 meq/l 147 meq/l 29.3 % 14.4 k/ul [image002.jpg]   01:05 am   04:29 pm   03:45 am wbc 13.8 14.4 hct 33.3 29.3 plt 206 214 cr 2.2 1.8 1.8 tropt 0.05 glucose 128 111 154 other labs: ck / ckmb / troponin-t:50//0.05, differential-neuts:83.9 %, lymph:12.8 %, mono:3.0 %, eos:0.2 %, lactic acid:0.8 mmol/l, ca++:8.0 mg/dl, mg++:2.0 mg/dl, po4:2.6 mg/dl",urosepsis: proteus; afib rvr; acute renal failure; ,urosepsis proteus; atrial fibrillation rapid ventricular rate; acute renal failure;,"['urosepsis proteus', 'atrial fibrillation rapid ventricular rate', 'acute renal failure']","85M with dementia, afib RVR; admitted with possible urosepsis with
+   proteus.",False,"The patient presents with hypotension and a possible diagnosis of urosepsis. However, the current vital signs show a blood pressure of 126/65 mmHg, which is within a relatively normal range, and a heart rate of 97 bpm, which, although slightly elevated, does not strongly indicate sepsis at this moment. The patient is also on ceftriaxone, an antibiotic that could be used to treat urosepsis, suggesting that there was a concern for a urinary infection. The white blood cell count (WBC) is elevated at 13.8 and 14.4 k/ul, indicating an infectious or inflammatory process. The presence of crackles at the left mid lung field could suggest pneumonia or another pulmonary issue but does not directly indicate urosepsis. The lactic acid level is 0.8 mmol/l, which is not significantly elevated, arguing against severe sepsis or septic shock at this time. Given the information, while there are signs of an infection (elevated WBC) and the patient is being treated with antibiotics, the current state does not strongly support active urosepsis, especially considering the stable vital signs and lack of significantly elevated lactic acid. However, the diagnosis of urosepsis might have been considered and treated, and the current state could represent an improvement or a controlled condition.",True,"The patient was admitted with possible urosepsis, and the patient's symptoms and lab results, such as the high white blood cell count and elevated temperature, support this diagnosis. The patient is also on antibiotics, which suggests that the healthcare team is treating a suspected infection."

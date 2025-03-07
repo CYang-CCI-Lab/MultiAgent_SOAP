@@ -1,0 +1,314 @@
+File ID,Assessment,Summary,Subjective,Objective,Summary_lemma,Summary_expanded,Summary_umls,Summary_lemma_umls,Summary_expanded_umls,cleaned_expanded_Summary,terms,hypertension,acute renal failure,atrial fibrillation,anemia,coronary artery disease,hypotension,altered mental status,respiratory failure,diabetes mellitus,leukocytosis,is_hypotension_baseline,is_hypotension_baseline_reasoning,is_hypotension_ltm,is_hypotension_ltm_reasoning
+198989.txt,"79 yo F w/ a h/o CHF (EF of 20-30%), carotid stenosis, no CAD from cath
+   [**2-1**], and h/o LBBB s/p BiV pacer presents as OSH transfer with ?Sepsis
+   [**1-25**] UTI, atrial fibrillation w/ RVR and demand ischemia.","Sepsis; Altered/Depressed MS
+ thought to be [**1-25**] to ativan yesterday,; # Acute on Chronic Renal Failure; supertherapeutic INR; Afib, now rate controlled - likely worsened by underlying
+   sepsis; s/p BiV placement [**8-31**].; demand ischemia","- ID: rec bedside echo
+- continued fluid bolus
+- BB downtitrated from Q6 to [**Hospital1 **]
+- FeNa of 0.17, random cortisol was normal.
+Morphine
+Rash;
+Demerol (Oral) (Meperidine Hcl)
+Confusion/Delir
+Levaquin (Oral) (Levofloxacin)
+Unknown;
+Benadryl (Injection) (Diphenhydramine Hcl)
+Confusion/Delir
+Cymbalta (Oral) (Duloxetine Hcl)
+Unknown;
+Celexa (Oral) (Citalopram Hydrobromide)
+Unknown;
+Remeron (Oral) (Mirtazapine)
+Unknown;
+Sulfa (Sulfonamide Antibiotics)
+Unknown;
+Quinolones
+Unknown;
+Vancomycin
+Rash;
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Metronidazole - [**2168-11-8**] 08:00 AM
+Meropenem - [**2168-11-9**] 12:00 AM
+Infusions:
+Other ICU medications:
+Other medications:
+Changes to
+Flowsheet Data as of  [**2168-11-10**] 07:26 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.9
+C (98.4
+Tcurrent: 36.9
+C (98.4
+HR: 75 (70 - 79) bpm
+BP: 102/68(74) {89/31(46) - 119/68(74)} mmHg
+RR: 17 (15 - 33) insp/min
+SpO2: 99%
+Heart rhythm: V Paced
+Wgt (current): 75 kg (admission): 63 kg
+Height: 64 Inch
+CVP: 14 (9 - 14)mmHg
+Total In:
+2,713 mL
+409 mL
+PO:
+TF:
+1,073 mL
+335 mL
+IVF:
+840 mL
+74 mL
+Blood products:
+Total out:
+680 mL
+310 mL
+Urine:
+680 mL
+310 mL
+NG:
+Stool:
+Drains:
+Balance:
+2,033 mL
+99 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 99%
+ABG: ///19/
+Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+Not assessed)
+Skin:  Not assessed
+Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+Not assessed
+200 K/uL
+8.5 g/dL
+146 mg/dL
+2.1 mg/dL
+19 mEq/L
+4.3 mEq/L
+90 mg/dL
+111 mEq/L
+139 mEq/L
+26.0 %
+22.4 K/uL
+[image002.jpg]
+[**2168-11-5**]  09:14 PM
+[**2168-11-6**]  04:57 AM
+[**2168-11-7**]  04:41 AM
+[**2168-11-7**]  12:00 PM
+[**2168-11-7**]  05:00 PM
+[**2168-11-8**]  03:20 AM
+[**2168-11-8**]  04:57 PM
+[**2168-11-8**]  10:55 PM
+[**2168-11-9**]  03:29 AM
+[**2168-11-10**]  04:27 AM
+WBC
+14.5
+21.9
+24.5
+20.4
+22.5
+22.4
+Hct
+27.4
+28.3
+26.2
+26.4
+23.0
+25.3
+24.5
+26.0
+Plt
+101
+124
+129
+135
+149
+200
+Cr
+2.3
+2.6
+2.9
+2.6
+2.5
+2.4
+2.3
+2.1
+Glucose
+175
+169
+76
+90
+106
+87
+97
+96
+114
+146
+Other labs: PT / PTT / INR:54.6/44.0/6.1, ALT / AST:44/41, Alk Phos / T
+Bili:101/0.6, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:5.0 %,
+Mono:1.0 %, Eos:0.0 %, Fibrinogen:622 mg/dL, Lactic Acid:2.0 mmol/L,
+Albumin:2.3 g/dL, LDH:194 IU/L, Ca++:8.2 mg/dL, Mg++:2.7 mg/dL, PO4:3.9
+mg/dL
+TE: The left atrium is mildly dilated. Left ventricular wall
+thicknesses are normal. The left ventricular cavity is moderately
+dilated. There is severe global left ventricular hypokinesis (LVEF =
+20-25 %). [Intrinsic left ventricular systolic function is likely more
+depressed given the severity of valvular regurgitation.] Right
+ventricular chamber size is normal. with focal hypokinesis of the
+apical free wall. The aortic valve leaflets (3) are mildly thickened.
+There is mild aortic valve stenosis (valve area 1.2-1.9cm2). Mild (1+)
+aortic regurgitation is seen. The mitral valve leaflets are mildly
+thickened. Moderate to severe (3+) mitral regurgitation is seen. [Due
+to acoustic shadowing, the severity of mitral regurgitation may be
+significantly UNDERestimated.] Moderate [2+] tricuspid regurgitation is
+seen. There is moderate pulmonary artery systolic hypertension. The
+pulmonic valve leaflets are thickened. There is no pericardial
+effusion.
+Compared with the prior study (images reviewed) of [**2168-4-20**], the left
+ventricular cavity appears dilated on the current study. The degree of
+mitral regurgitation has increased significantly. The degree of aortic
+stenosis has incrased slightly. LV systolic function remains severely
+depressed, although the ventricle does not appear as dyssynchronous as
+on the prior study.
+CXR: Improved pulmonary edema which is now mild with stable left
+perihilar opacity, worsened since [**2168-11-6**] and is most likely
+consolidation, probably pneumonia,less likely asymmetrical pulmonary
+edema.","sepsis ; altered/depressed m thought to be [ * * 1-25 * * ] to ativan yesterday , ; # acute on chronic renal failure ; supertherapeutic inr ; afib , now rate control - likely worsen by underlie sepsis ; s/p biv placement [ * * 8-31 * * ] . ; demand ischemia","Sepsis; Altered/Depressed Mental Status thought to be [**1-25**] to ativan yesterday,; # Acute on Chronic Renal Failure; supertherapeutic International Normalized Ratio; Atrial fibrillation, now rate controlled - likely worsened by underlying sepsis; status post Biventricular placement [**8-31**].; demand ischemia",Depressed Mood;Sepsis;Demand ischemia;sepsis;Acute on Chronic Right Heart Failure,acute on chronic renal failure;Demand ischemia;afib;depressed;sepsis,Altered Mental Status;Sepsis;Demand ischemia;alternation;Biventricular failure;Atrial fibrillation;sepsis;Acute on Chronic Right Heart Failure,sepsis; altered depressed mental status thought to be to ativan yesterday ; acute on chronic renal failure; supertherapeutic international normalized ratio; atrial fibrillation now rate controlled likely worsened by underlying sepsis; status post biventricular placement ; demand ischemia,"['sepsis', 'altered depressed mental status thought to be to ativan yesterday', 'acute on chronic renal failure', 'supertherapeutic international normalized ratio', 'atrial fibrillation now rate controlled likely worsened by underlying sepsis', 'status post biventricular placement', 'demand ischemia']",False,False,True,False,False,False,False,False,False,False,False,"To determine if the patient is diagnosed with hypotension, we need to analyze the provided subjective and objective data. Hypotension is generally defined as a blood pressure reading lower than 90/60 mmHg. Looking at the objective data, the patient's blood pressure is listed as 102/68 mmHg, with a range of {89/31(46) - 119/68(74)} mmHg. Although the patient's blood pressure does dip to 89/31 mmHg at some point, the current reading and the majority of the range provided are not indicative of hypotension. Furthermore, the patient is receiving fluid boluses, which suggests efforts to maintain or improve blood pressure, but the current blood pressure readings do not fall into the hypotensive range for the majority of the observations. The patient's condition, including severe global left ventricular hypokinesis and significant valvular issues, could predispose to hypotension, but based on the provided blood pressure readings, the patient does not currently meet the criteria for hypotension at the time of this assessment.",True,"To diagnose hypotension, we need to analyze the patient's blood pressure readings and other relevant information from the provided report. The patient's blood pressure is listed as 102/68(74) mmHg with a range of {89/31(46) - 119/68(74)} mmHg. The low blood pressure reading of 89/31(46) mmHg indicates potential hypotension. Additionally, the patient is on various medications, including antibiotics and vasodilators, which can contribute to hypotension. The echocardiogram results show severe global left ventricular hypokinesis, which can also lead to hypotension due to decreased cardiac output. Furthermore, the patient has a history of fluid bolus and changes in medication, which may be related to managing hypotension. Considering these factors, it appears that the patient is experiencing hypotension. "
+193604.txt,"Mr. [**Known firstname 1908**] [**Known lastname 9824**] is a 74 yo Russian-speaking male with h/o ESRD on
+   HD, HTN, HL, and CAD who presented with asymptomatic bradycardia.",# Bradycardia / Rhythm; #. Hypertension; # CAD; #. Chronic Kidney Disease Stage V on HD; . Peripheral Vascular Disease,"High-grade AV nodal block
+- Had successful [**Company 2375**] VDD implant yesterday via axillary access.
+Follow-up CXR showed no pneumothorax.
+- He had lots of bleeding during procedure. Post procedure HCT = 33 .
+White count elevated. [**Month (only) 60**] represent hemoconcentration s/p HD.
+- Simvastatin increased to 40mg daily
+- Started albuterol nebs
+- Episode of chest pain yesterday morning. Rated [**5-21**] in the left
+anterior chest wall and moved to the left scapula. No shortness of
+breath, no diaphoresis, no nausea. No EKG changes. Lasted 30 minutes.
+Nitro given x2 and improved. CK/Troponin flat. Later in afternoon had
+intermittent pain associated with left scapula that was on and off for
+a few hours. Again, EKG unchanged.
+No Known Drug Allergies
+Changes to  and f
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Infusions:
+Other ICU medications:
+Other medications:
+Flowsheet Data as of  [**2169-8-12**] 06:44 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.7
+C (98.1
+Tcurrent: 35.9
+C (96.7
+HR: 62 (30 - 83) bpm
+BP: 150/50(77) {129/47(77) - 213/151(159)} mmHg
+RR: 11 (9 - 17) insp/min
+SpO2: 99%
+Heart rhythm: V Paced
+Wgt (current): 61.6 kg (admission): 62 kg
+Height: 69 Inch
+Total In:
+PO:
+TF:
+IVF:
+Blood products:
+Total out:
+3,000 mL
+0 mL
+Urine:
+NG:
+Stool:
+Drains:
+Balance:
+-3,000 mL
+0 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 99%
+ABG: ///29/
+GENERAL - well-appearing man in NAD, Oriented x3, comfortable, Mood,
+affect appropriate.
+HEENT - NC/AT, PERRLA, EOMI, sclerae anicteric, MMM, OP clear,
+Conjunctiva were pink, no pallor or cyanosis of the oral mucosa. No
+xanthalesma.
+CHEST: No pain on palpation of the right subclavian site sp PPM
+attempt. No pain on palpation of the chest wall.  Dialysis catheter in
+left chest wall.
+NECK - supple, no thyromegaly, no JVD, no carotid bruits
+LUNGS - Diffuse wheezing throughout lung fields, specifically in right
+posterior lungs, resp unlabored, no accessory muscle use.  No
+rales/rhonchi/crackles
+HEART - PMI located in 5th intercostal space, midclavicular line.
+Bradycardic normal S1, S2. No m/r/g auscultated, although difficult to
+hear due to diffuse wheezing.  No thrills, lifts. No S3 or S4.
+ABDOMEN - NABS, slightly distended with large kidneys palpable
+bilaterally, liver palpable in center of the abdomen as likely shifted
+due to kidney size, no rebound/guarding. Abd aorta not enlarged by
+palpation. No abdominial bruits.
+EXTREMITIES - WWP, no c/c/e, 2+ peripheral pulses (radials, DPs), No
+c/c/e. No femoral bruits.  Lower legs both newly wrapped by home nurse
+due to stasis ulcers, not unwrapped at this time.  Both legs tender to
+palpation.
+LYMPH - no cervical, axillary, or inguinal LAD
+NEURO - awake, A&Ox3, CNs II-XII grossly intact, muscle strength 5/5
+throughout, sensation grossly intact throughout, DTRs 2+ and symmetric,
+cerebellar exam intact, gait not assessed
+PULSES:  Right: Carotid 2+ Femoral 2+ Popliteal Left: Carotid 2+
+Femoral 2+ Popliteal 2+ (DP and PT not assessed due to wrapping)
+170 K/uL
+9.3 g/dL
+79 mg/dL
+5.6 mg/dL
+29 mEq/L
+4.3 mEq/L
+30 mg/dL
+101 mEq/L
+141 mEq/L
+29.6 %
+8.1 K/uL
+[image002.jpg]
+[**2169-8-10**]  05:22 AM
+[**2169-8-11**]  06:14 AM
+[**2169-8-11**]  12:17 PM
+[**2169-8-11**]  07:40 PM
+[**2169-8-12**]  03:53 AM
+WBC
+6.9
+7.1
+13.3
+8.1
+Hct
+31.1
+31.2
+33.5
+29.6
+Plt
+188
+171
+206
+170
+Cr
+5.2
+7.5
+5.6
+TropT
+0.27
+0.34
+Glucose
+68
+72
+79
+Other labs: PT / PTT / INR:17.2/30.6/1.5, CK / CKMB /
+Troponin-T:91//0.34, Ca++:8.5 mg/dL, Mg++:1.9 mg/dL, PO4:5.0 mg/dL",# bradycardia / rhythm ; # . hypertension ; # cad ; # . chronic kidney disease stage v on hd ; . peripheral vascular disease,# Bradycardia / Rhythm; #. Hypertension; # Coronary Artery Disease; #. Chronic Kidney Disease Stage V on Hemodialysis; . Peripheral Vascular Disease,"Other Specified Peripheral Vascular Diseases;Sinus Bradycardia;Hypertension;Chronic Kidney Disease, Stage 1",Reflex bradycardia;hypertension;PVD-peripheral vascular disease;Chronic kidney disease stage 1,"Other Specified Peripheral Vascular Diseases;Sinus Bradycardia;Hypertension NOS;Coronary Disease;Chronic Kidney Disease, Stage 1",bradycardia rhythm; hypertension; coronary artery disease; chronic kidney disease stage v on hemodialysis; peripheral vascular disease,"['bradycardia rhythm', 'hypertension', 'coronary artery disease', 'chronic kidney disease stage v on hemodialysis', 'peripheral vascular disease']",True,False,False,False,True,False,False,False,False,False,False,"To determine if the patient is diagnosed with hypotension, we first need to understand what hypotension is. Hypotension, or low blood pressure, is typically defined as a blood pressure reading below 90/60 mmHg. The patient's report provides blood pressure readings, which are crucial for this diagnosis. In the Objective section, the patient's blood pressure is listed as 150/50(77) {129/47(77) - 213/151(159)} mmHg. The key figure here for diagnosing hypotension is the diastolic blood pressure (the bottom number), but more importantly, the overall blood pressure reading and its implications on the patient's health. Given that the lowest systolic blood pressure mentioned is 129 mmHg and the lowest diastolic is 47 mmHg, with a mean arterial pressure (MAP) of 77 mmHg, we need to consider if these values indicate hypotension. However, the provided blood pressure readings do not consistently fall below the threshold for hypotension, especially considering the systolic values. Furthermore, the presence of a high-grade AV nodal block and the recent implantation of a VDD pacemaker via axillary access, along with episodes of chest pain, suggest that the patient's condition is complex and involves cardiovascular issues, but the blood pressure readings themselves do not clearly indicate hypotension. Therefore, based on the blood pressure readings provided, the patient does not have a clear diagnosis of hypotension.",True,"To determine if the patient is diagnosed with hypotension, we need to analyze the provided patient report in the context of the long-term memory about hypotension. The patient report includes both subjective and objective information. From the subjective section, we note that the patient had a recent procedure (VDD implant) with significant bleeding, a high-grade AV nodal block, and episodes of chest pain. The objective section provides vital signs, laboratory results, and physical examination findings. Key points include a blood pressure reading of 150/50 mmHg, which indicates hypotension given the low diastolic value, a heart rate of 62 bpm, and various laboratory results such as low hemoglobin (9.3 g/dL) and hematocrit (Hct) levels, which could suggest blood loss or anemia. The presence of diffuse wheezing, bradycardia, and the patient's recent medical history are also relevant. Considering the long-term memory, several points are pertinent: hypotension can be associated with recent procedures, especially those involving bleeding; low hematocrit levels over time can indicate blood loss contributing to hypotension; medications and certain medical conditions can cause hypotension; and laboratory findings such as low hemoglobin and hematocrit levels can be indicative of hypotension. Given these considerations, the patient's low diastolic blood pressure, recent bleeding during a procedure, and laboratory evidence of potential anemia or blood loss support the diagnosis of hypotension."

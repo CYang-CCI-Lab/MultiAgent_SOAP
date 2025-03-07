@@ -1,0 +1,459 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_cholangitis_pred_single,is_cholangitis_reasoning_single
+91,193894.txt,"arterial line - start [**2157-12-30**] 11:17 pm
+multi lumen - start [**2157-12-30**] 11:17 pm
+pan culture - at [**2157-12-31**] 12:01 am
+invasive ventilation - start [**2157-12-31**] 12:01 am
+intubated from osh at 22:30.
+ekg - at [**2157-12-31**] 12:30 am
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2157-12-31**] 12:00 am
+vancomycin - [**2157-12-31**] 07:55 am
+metronidazole - [**2157-12-31**] 10:10 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2157-12-30**] 11:59 pm
+fentanyl - [**2157-12-31**] 04:50 am
+other medications:
+flowsheet data as of  [**2157-12-31**] 10:52 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**59**] am
+tmax: 37.2
+c (98.9
+tcurrent: 37.2
+c (98.9
+hr: 91 (88 - 119) bpm
+bp: 141/76(102) {116/57(83) - 157/78(113)} mmhg
+rr: 17 (9 - 22) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+total in:
+868 ml
+8,247 ml
+po:
+tf:
+ivf:
+868 ml
+3,247 ml
+blood products:
+total out:
+1,287 ml
+925 ml
+urine:
+160 ml
+925 ml
+ng:
+stool:
+drains:
+balance:
+-419 ml
+7,322 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cpap/psv
+vt (spontaneous): 427 (423 - 481) ml
+ps : 10 cmh2o
+rr (spontaneous): 24
+peep: 5 cmh2o
+fio2: 40%
+pip: 15 cmh2o
+spo2: 99%
+abg: 7.44/27/95.[**numeric identifier 218**]/18/-3
+ve: 9.4 l/min
+pao2 / fio2: 238
+physical exam
+general: intubated, sedated
+heent: normocephalic, atraumatic. no conjunctival pallor. no scleral
+icterus. perrla/eomi. mmm. op clear. neck supple, no lad, no
+thyromegaly.
+cardiac: regular rhythm, tachycardic. normal s1, s2. no murmurs, rubs
+or [**last name (un) 1011**]. no jvd.
+lungs: ctab anteriorly, good air movement bilaterally.
+abdomen: nabs. soft, slight distension.  involuntary guarding. no hsm
+extremities: trace pedal edema, 2+ dorsalis pedis/ posterior tibial
+pulses.
+skin: bilateral antecubital erythema and skin break on right.
+neuro: intubated sedated, not following commands.  withdraws all four
+extremities to pain
+201 k/ul
+11.1 g/dl
+88 mg/dl
+0.4 mg/dl
+18 meq/l
+4.0 meq/l
+15 mg/dl
+111 meq/l
+136 meq/l
+34.3 %
+34.6 k/ul
+image002.jpg]
+[**2157-12-30**]  10:31 pm
+[**2157-12-30**]  11:04 pm
+[**2157-12-31**]  04:56 am
+wbc
+31.4
+34.6
+hct
+33.3
+34.3
+plt
+174
+201
+cr
+0.6
+0.4
+tropt
+<0.01
+tco2
+19
+glucose
+119
+119
+88
+other labs: pt / ptt / inr:15.9/38.5/1.4, ck / ckmb /
+troponin-t:60/4/<0.01, alt / ast:288/164, alk phos / t bili:183/2.2,
+amylase / lipase:45/16, differential-neuts:96.8 %, lymph:1.5 %,
+mono:1.4 %, eos:0.1 %, lactic acid:1.6 mmol/l, albumin:2.9 g/dl,
+ldh:165 iu/l, ca++:8.2 mg/dl, mg++:2.4 mg/dl, po4:1.8 mg/dl",sepsis: cholangitis vs urosepsis are most likely sources.; respiratory failure:; . seizure disorder:; meningioma; . ams,sepsis cholangitis versus urosepsis are most likely sources ; respiratory failure ; seizure disorder ; meningioma; altered mental status,"['sepsis cholangitis versus urosepsis are most likely sources', 'respiratory failure', 'seizure disorder', 'meningioma', 'altered mental status']","Ms. [**Known lastname 12663**] is a 87 yo female with PMH of meningioma and seizure
+   disorder who presented to [**Hospital6 5579**] on [**2157-12-29**] with sepsis.",False,"The patient's presentation includes several key findings that suggest cholangitis. The patient is intubated and sedated, indicating a severe clinical condition. The laboratory results show an elevated white blood cell count (WBC) of 31.4 and 34.6 k/ul, indicating a significant inflammatory response. The patient is also on broad-spectrum antibiotics, including piperacillin/tazobactam, vancomycin, and metronidazole, which could be indicative of a severe infection. Additionally, the liver function tests show elevated ALT (288 U/L) and AST (164 U/L) levels, which could indicate liver injury or inflammation. However, the total bilirubin level is only slightly elevated at 2.2 mg/dL, and there is no mention of jaundice or scleral icterus on physical examination. The abdominal examination reveals slight distension and involuntary guarding, which could be consistent with an intra-abdominal infection, but it is not specific for cholangitis. Given the lack of specific symptoms such as Charcot's triad (fever, jaundice, and abdominal pain) and the absence of direct evidence of biliary obstruction or infection, the diagnosis of cholangitis is not definitively confirmed by the provided information. However, the presence of systemic inflammation, antibiotic use, and abnormal liver function tests in a critically ill patient suggests that cholangitis or another severe infection could be a consideration. Therefore, while the evidence does not strongly support a diagnosis of cholangitis, it cannot be entirely ruled out without further investigation, such as imaging studies of the biliary system. Given the information provided and the need for a definitive answer, the most cautious approach would lean towards considering cholangitis as a potential diagnosis due to the patient's critical condition and the presence of some suggestive laboratory and clinical findings, but with significant uncertainty."
+132,191100.txt,"patient tolerated clear liquid diet
+cardiac enzymes
+betablocker po
+last bm [**8-8**]?
+uop 45-100 -fluids stopped overnight
+mental status: labile, +asterixis
+continues to complain of ruq pain  -seen by surgery, not acute abdomen,
+no indication for surgery
+-ercp -no imaging unless change in labs or dvlps fever
+renal: encephalopathic, increasing bun -plan for dialysis today
+nutrition recs: start tube feeds, encourage po intake
+pneumovax 23 (injection) (pneumococcal 23-[**male first name (un) **] p-sac vac)
+rash;
+allopurinol
+rash;
+hydralazine
+rash;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2120-8-10**] 04:08 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2120-8-10**] 12:09 am
+other medications:
+flowsheet data as of  [**2120-8-10**] 06:55 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 36.2
+c (97.1
+hr: 67 (64 - 76) bpm
+bp: 113/48(64) {106/44(61) - 147/104(109)} mmhg
+rr: 10 (10 - 20) insp/min
+spo2: 96%
+heart rhythm: rbbb (right bundle branch block)
+height: 70 inch
+total in:
+2,740 ml
+119 ml
+po:
+210 ml
+tf:
+ivf:
+2,530 ml
+119 ml
+blood products:
+total out:
+1,460 ml
+465 ml
+urine:
+1,405 ml
+465 ml
+ng:
+stool:
+drains:
+55 ml
+balance:
+1,280 ml
+-346 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 96%
+abg: ///18/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+344 k/ul
+9.4 g/dl
+75 mg/dl
+5.7 mg/dl
+18 meq/l
+4.4 meq/l
+106 mg/dl
+105 meq/l
+138 meq/l
+29.4 %
+8.6 k/ul
+wbc
+18.1
+15.7
+10.2
+10.7
+8.6
+hct
+31.4
+30.6
+28.3
+31.0
+31.5
+29.4
+plt
+295
+303
+278
+317
+344
+cr
+5.2
+5.3
+5.4
+6.0
+6.2
+6.1
+5.7
+tropt
+1.57
+1.53
+1.57
+1.78
+2.01
+2.09
+tco2
+20
+glucose
+146
+132
+100
+53
+78
+63
+129
+75
+other labs: pt / ptt / inr:15.2/29.1/1.3, ck / ckmb /
+troponin-t:198/7/2.09, alt / ast:44/38, alk phos / t bili:286/2.2,
+amylase / lipase:88/97, lactic acid:1.1 mmol/l, albumin:2.6 g/dl,
+ldh:197 iu/l, ca++:7.9 mg/dl, mg++:2.5 mg/dl, po4:6.5 mg/dl",obstructive cholangitis s/p ercp with stenting:; # cad; # acute on chronic renal failure,obstructive cholangitis status post endoscopic retrograde cholangiopancreatography with stenting ; coronary artery disease; acute on chronic renal failure,"['obstructive cholangitis status post endoscopic retrograde cholangiopancreatography with stenting', 'coronary artery disease', 'acute on chronic renal failure']","74 y/o M with CAD/DM who presented with obstructive cholangitis and
+   course complicated by troponin leak & acute renal failure now s/p ERCP
+   with stenting.",False,"The patient presents with right upper quadrant (RUQ) pain, which is a common symptom of cholangitis. However, the surgical team has evaluated the patient and determined that it is not an acute abdomen, and there is no indication for surgery. The patient is also on antibiotics (piperacillin/tazobactam), which could suggest an infectious process, but the absence of fever and the lack of specific laboratory findings (such as elevated liver enzymes or bilirubin) that are typically associated with cholangitis make the diagnosis less likely. The patient's mental status is labile with asterixis, which could indicate hepatic encephalopathy, but this is not specific to cholangitis. The patient's renal function is impaired, with increasing BUN and plans for dialysis, which could be related to various conditions, including sepsis or multi-organ failure, but is not directly indicative of cholangitis. Overall, while there are some suggestive symptoms, the lack of definitive evidence (such as imaging or laboratory findings specific to cholangitis) and the presence of other potential explanations for the patient's condition make the diagnosis of cholangitis uncertain. However, given the presence of RUQ pain and the patient being on antibiotics, it is still a consideration, though not strongly supported by the provided information."
+191,149367.txt,"- weaned off pressors, on review of transfer records pt's baseline bp
+has ranged from mid 70s to low 90s.
+- pt indicated she would like to go back to [**hospital3 **]
+this am the patient states she continues to have [**7-10**] pain all over and
+feels that it is not under control.
+sulfa (sulfonamide antibiotics)
+unknown;
+celecoxib
+unknown;
+singulair (oral) (montelukast sodium)
+unknown;
+accolate (oral) (zafirlukast)
+unknown;
+prilosec (oral) (omeprazole)
+unknown;
+coumadin (oral) (warfarin sodium)
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2139-1-22**] 07:50 pm
+meropenem - [**2139-1-22**] 11:41 pm
+metronidazole - [**2139-1-23**] 12:30 am
+infusions:
+other icu medications:
+morphine sulfate - [**2139-1-22**] 11:20 am
+other medications:
+flowsheet data as of  [**2139-1-23**] 06:35 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.6
+c (99.7
+tcurrent: 37.4
+c (99.4
+hr: 90 (80 - 115) bpm
+bp: 90/44(55) {90/44(55) - 100/52(73)} mmhg
+rr: 11 (7 - 20) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+height: 63 inch
+cvp: 10 (9 - 12)mmhg
+total in:
+2,248 ml
+158 ml
+po:
+420 ml
+tf:
+ivf:
+1,828 ml
+158 ml
+blood products:
+total out:
+1,560 ml
+325 ml
+urine:
+885 ml
+175 ml
+ng:
+stool:
+drains:
+675 ml
+150 ml
+balance:
+688 ml
+-167 ml
+respiratory support
+o2 delivery device: none
+spo2: 92% on ra
+abg: ///27/
+general appearance: elderly female lying in bed in nad
+head, ears, nose, throat: normocephalic, op clear
+cardiovascular: rrr, no mrg
+respiratory / chest: coarse breath sounds anteriorly
+abdominal: + bs, soft, nd, tender to palpation in the ruq. small
+draining tract with a bag in place in her luq
+extremities: 2+ edema in her arms b/l and legs.  right: 2+, left: 2+
+dp,
+skin:  warm
+neurologic: alert and oriented x 3.
+62 k/ul
+7.0 g/dl
+87 mg/dl
+0.4 mg/dl
+27 meq/l
+3.7 meq/l
+8 mg/dl
+105 meq/l
+135 meq/l
+21.0 %
+3.7 k/ul
+wbc
+5.8
+7.1
+5.5
+3.7
+hct
+24.1
+26.0
+24.3
+21.0
+plt
+82
+104
+89
+62
+cr
+0.5
+0.5
+0.4
+0.4
+tco2
+15
+glucose
+97
+113
+115
+87
+other labs: pt / ptt / inr:17.1/30.3/1.5, alt / ast:15/23, alk phos / t
+bili:127/1.5, differential-neuts:82.9 %, lymph:11.7 %, mono:4.5 %,
+eos:0.5 %, lactic acid:0.3 mmol/l, albumin:1.6 g/dl, ldh:125 iu/l,
+ca++:6.6 mg/dl, mg++:1.7 mg/dl, po4:1.6 mg/dl
+[1][**2139-1-21**]
+mrsa screen
+mrsa screen-pending
+inpatient
+[2][**2139-1-21**]
+blood culture
+blood culture, routine-pending
+inpatient
+[3][**2139-1-21**]
+blood culture
+blood culture, routine-pending
+inpatient
+[4][**2139-1-21**]
+urine
+urine culture-final
+inpatient","hypotension is likely due to sepsis secondary to
+   bacteremia after instrumentation during ercp.; choledocholithiasis/cholangitis; esbl e coli uti:",hypotension is likely due to sepsis secondary to bacteremia after instrumentation during endoscopic retrograde cholangiopancreatography ; choledocholithiasis cholangitis; extended spectrum beta lactamase escherichia coli urinary tract infection,"['hypotension is likely due to sepsis secondary to bacteremia after instrumentation during endoscopic retrograde cholangiopancreatography', 'choledocholithiasis cholangitis', 'extended spectrum beta lactamase escherichia coli urinary tract infection']","61F s/p gastric bypass and more recently, lap CCY, with
+   choledocholithiasis, ESBL E coli UTI, and also ? pna, transferred from
+   OSH for ERCP s/p stone removal complicated by sepsis.",False,"The patient presents with abdominal tenderness in the right upper quadrant (RUQ) and a small draining tract with a bag in place in the left upper quadrant (LUQ), which could indicate a biliary tract issue. The patient is also on broad-spectrum antibiotics (vancomycin, meropenem, and metronidazole), which might suggest a suspicion of infection. However, the key diagnostic criteria for cholangitis, such as fever (the patient's temperature is mildly elevated at 37.6°C but not significantly), jaundice (not explicitly mentioned), and abdominal pain (present but not specifically localized to the RUQ in a manner classic for cholangitis), are not all clearly met based on the provided information. The patient's white blood cell count (WBC) is 5.8, which is within the normal range, and while there are some abnormalities in liver function tests (e.g., elevated alkaline phosphatase), they are not diagnostic on their own. The presence of a draining tract could suggest a biliary intervention or infection, but without more specific evidence of biliary obstruction or infection (such as positive blood cultures or a clear source of infection), the diagnosis of cholangitis remains uncertain. Given the information, the most likely conclusion leans towards the patient not having cholangitis based on the lack of clear evidence meeting the diagnostic criteria for cholangitis."
+305,190862.txt,,"wbc
+57.1
+45.1
+32.1
+19.5
+16.0
+hct
+30.1
+29.9
+31.5
+28.8
+30.0
+plt
+[**telephone/fax (3) 1226**]34
+320
+cr
+4.5
+4.3
+4.5
+4.6
+4.3
+3.9
+tropt
+0.82
+0.70
+0.62
+tco2
+17
+glucose
+106
+141
+99
+93
+94
+84
+88
+other labs: pt / ptt / inr:13.8/31.0/1.2, ck / ckmb /
+troponin-t:54/7/0.62, alt / ast:59/32, alk phos / t bili:532/2.5,
+amylase / lipase:84/25, differential-neuts:84.4 %, band:0.0 %,
+lymph:8.1 %, mono:4.3 %, eos:3.0 %, lactic acid:1.2 mmol/l, albumin:2.5
+g/dl, ldh:318 iu/l, ca++:7.7 mg/dl, mg++:2.7 mg/dl, po4:3.8 mg/dl
+corrected serum ca = 8.9
+tte ([**2124-9-11**]): the left atrium is elongated. the left ventricular
+cavity is moderately dilated. overall left ventricular systolic
+function is severely depressed (lvef= 20-25 %). there is no ventricular
+septal defect. right ventricular chamber size and free wall motion are
+normal. there is abnormal septal motion/position. the ascending aorta
+is mildly dilated. the aortic valve leaflets (3) are mildly thickened
+but aortic stenosis is not present. no aortic regurgitation is seen.
+the mitral valve leaflets are mildly thickened. there is no mitral
+valve prolapse. mild (1+) mitral regurgitation is seen. there is
+borderline pulmonary artery systolic hypertension. there is no
+pericardial effusion. impression: moderately dilated lv cavity with
+severe global hypokinesis. mild mitral regurgitation.",# cholangitis; cad; htn; aocrf,cholangitis; coronary artery disease; hypertension; acute on chronic renal failure,"['cholangitis', 'coronary artery disease', 'hypertension', 'acute on chronic renal failure']","81 yo man with CAD s/p CABG, recent NSTEMI at OSH, HTN, CKD here for
+   ERCP ([**2124-8-9**]) for cholangitis and admitted to ICU with hypotension,
+   now resolved",False,"The patient's laboratory results show an elevated white blood cell count (wbc) with a high percentage of neutrophils (84.4%), indicating a potential infection. The presence of abnormal liver function tests, such as elevated alkaline phosphatase (532) and total bilirubin (2.5), suggests liver or biliary tract involvement. However, the provided information lacks specific symptoms commonly associated with cholangitis, such as fever, jaundice, and abdominal pain, which are typically reported in the subjective section. Despite this, the objective findings of elevated liver enzymes and evidence of a potential infection could suggest a biliary infection. Nonetheless, without direct evidence of biliary obstruction or infection (e.g., positive blood cultures, specific imaging findings of the biliary tree), the diagnosis of cholangitis cannot be conclusively made based on the information provided. Given the lack of direct evidence and specific symptoms, the diagnosis of cholangitis is uncertain but leans towards being unlikely based solely on the provided objective findings."

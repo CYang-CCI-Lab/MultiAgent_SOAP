@@ -1,0 +1,1548 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_congestive_heart_failure_pred_single,is_congestive_heart_failure_reasoning_single,is_congestive_heart_failure_pred_multi,is_congestive_heart_failure_reasoning_multi
+30,103771.txt,"#required continuous overnight o2 supplementation with non-rebreather.
+nurse attempted to wean to nasal cannula
+#abx: single [**doctor last name **] therapy with meropenem.
+#negative cardiac enzymes x 2. third set pending.
+aspirin
+unknown;
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+hives;
+nsaids
+avoid secondary
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+constitutional: no(t) fever
+ear, nose, throat: dry mouth
+cardiovascular: no(t) chest pain, no(t) edema
+respiratory: cough, dyspnea, tachypnea
+gastrointestinal: no(t) abdominal pain, nausea, no(t) emesis, no(t)
+diarrhea, no(t) constipation
+genitourinary: no(t) dysuria","last dose of antibiotics:
+ciprofloxacin - [**2137-6-9**] 10:00 pm
+meropenem - [**2137-6-9**] 10:50 pm
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2137-6-9**] 10:00 pm
+other medications:
+flowsheet data as of  [**2137-6-10**] 07:19 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 36.4
+c (97.6
+hr: 81 (80 - 81) bpm
+bp: 94/46(59) {94/42(59) - 115/56(72)} mmhg
+rr: 26 (25 - 33) insp/min
+spo2: 100%
+heart rhythm: v paced
+total in:
+127 ml
+189 ml
+po:
+120 ml
+tf:
+ivf:
+127 ml
+69 ml
+blood products:
+total out:
+0 ml
+180 ml
+urine:
+180 ml
+ng:
+stool:
+drains:
+balance:
+127 ml
+9 ml
+respiratory support
+o2 delivery device: non-rebreather
+spo2: 100%
+abg: ///30/
+general appearance: no acute distress, thin
+eyes / conjunctiva: no(t) pupils dilated, no(t) sclera edema
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), no(t) s3, no(t) s4, no(t)
+rub, (murmur: no(t) systolic, no(t) diastolic)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: not assessed), (left dp pulse: not assessed)
+respiratory / chest: (breath sounds: crackles : inspiratory crackles
+heard over all lung fields and loudest at the bases.)
+abdominal: soft, bowel sounds present
+extremities: right: absent, left: absent, no(t) cyanosis
+skin:  warm
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, movement: not assessed, tone: not assessed
+234 k/ul
+12.8 g/dl
+88 mg/dl
+0.7 mg/dl
+30 meq/l
+4.2 meq/l
+18 mg/dl
+99 meq/l
+134 meq/l
+38.4 %
+10.6 k/ul
+[image002.jpg]
+[**2137-6-9**]  10:00 pm
+[**2137-6-10**]  04:48 am
+wbc
+10.6
+hct
+38.4
+plt
+234
+cr
+0.7
+tropt
+<0.01
+glucose
+88
+other labs: pt / ptt / inr:27.9/32.2/2.8, ck / ckmb /
+troponin-t:28/2/<0.01
+microbiology: blood, urine, and sputum cultures pending with no growth
+to date.",respiratory distress; bronchiectasis; chf.,respiratory distress; bronchiectasis; congestive heart failure,"['respiratory distress', 'bronchiectasis', 'congestive heart failure']","A/P: 80 yo F with a bronchiectasis and CHF admitted with fevers and
+   shortness of breath concerning for pulmonary infection.
+   .",True,"The patient presents with symptoms and signs that could be indicative of congestive heart failure (CHF), such as dyspnea, tachypnea, and inspiratory crackles heard over all lung fields, which are suggestive of pulmonary congestion. However, the absence of chest pain, edema, and significant abnormalities in heart sounds (S1 and S2 are normal, no S3 or S4, no murmurs) somewhat argues against CHF. The patient's vital signs show a heart rate of 81 bpm and a blood pressure of 94/46 mmHg, which does not strongly suggest cardiogenic shock or severe heart failure. The respiratory support with a non-rebreather and the attempt to wean to nasal cannula, along with the requirement for continuous oxygen supplementation, indicate significant respiratory distress. The laboratory findings, including negative cardiac enzymes (with a third set pending) and a troponin-T of <0.01, do not provide strong evidence for acute myocardial infarction but do not rule out other forms of heart failure. The patient's general appearance without acute distress and the presence of crackles loudest at the bases are more suggestive of fluid overload, which can be seen in CHF. Given the combination of respiratory symptoms, the need for oxygen therapy, and the presence of crackles on lung exam, despite some findings not typical for CHF, the diagnosis of congestive heart failure cannot be ruled out and seems plausible, especially considering the clinical context of fluid balance and respiratory support.",False,"The presence of crackles in all lung fields, loudest at the bases, and the requirement for continuous oxygen supplementation could indicate congestive heart failure, especially in the context of potential fluid overload (as suggested by the need for diuretics, though not explicitly mentioned). However, the absence of reported edema and the normal heart sounds (S1 and S2 normal, no S3 or S4) make this diagnosis less clear. The blood pressure is somewhat low, which could be seen in heart failure but also in other conditions."
+51,188553.txt,"multi lumen - start [**2109-11-3**] 11:31 pm
+placed in osh.
+ekg - at [**2109-11-3**] 11:43 pm
+arterial line - start [**2109-11-4**] 12:00 am
+invasive ventilation - start [**2109-11-4**] 12:05 am
+hydrochlorothiazide
+rash;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2109-11-4**] 06:07 am
+infusions:
+fentanyl - 100 mcg/hour
+midazolam (versed) - 3 mg/hour
+phenylephrine - 3 mcg/kg/min
+insulin - regular - 5 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2109-11-4**] 06:12 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.8
+c (100.1
+tcurrent: 37.8
+c (100.1
+hr: 87 (87 - 152) bpm
+bp: 102/48(66) {78/34(47) - 117/51(69)} mmhg
+rr: 23 (22 - 32) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+cvp: 10 (10 - 10)mmhg
+total in:
+2,000 ml
+5,651 ml
+po:
+tf:
+ivf:
+2,000 ml
+2,651 ml
+blood products:
+total out:
+0 ml
+1,155 ml
+urine:
+255 ml
+ng:
+stool:
+drains:
+balance:
+2,000 ml
+4,496 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 450 (450 - 450) ml
+rr (set): 26
+rr (spontaneous): 0
+peep: 12 cmh2o
+fio2: 80% (59-100)
+rsbi deferred: peep > 10
+pip: 28 cmh2o
+spo2: 100%
+abg: 7.35/44/138/26/-1
+ve: 12.7 l/min
+pao2 / fio2: 173
+general appearance: thin, diaphoretic
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+lymphatic: cervical wnl, supraclavicular wnl
+cardiovascular: (s1: normal), (s2: normal), s4
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: present), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), (breath sounds:
+diminished: , rhonchorous: )
+extremities: bl 1+ edema, warm ext
+skin:  cool, levido reticularis
+neurologic: intubated and sedated. non-responsive to painful stimuli.
+tone: not assessed
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+358 k/ul
+9.3 g/dl
+467 mg/dl
+2.4 mg/dl
+26 meq/l
+3.4 meq/l
+52 mg/dl
+102 meq/l
+135 meq/l
+27.9 %
+26.5 k/ul
+[image002.jpg]
+wbc 16 to 26.5
+hct: 35.3 to 27.9
+cr 2.4 to 2.4
+ua mod leuk, 139 rbc, 16 wbc, few bac
+micro: blood 12/14 gnr, urine [**11-3**] and [**11-4**] pending
+cdiff negative
+sputum [**9-14**] pmns, no organisms
+[**2109-11-3**]  11:50 pm
+[**2109-11-4**]  12:47 am
+[**2109-11-4**]  02:35 am
+[**2109-11-4**]  04:05 am
+wbc
+26.5
+hct
+27.9
+plt
+358
+cr
+2.4
+tco2
+13
+18
+25
+glucose
+467
+other labs: pt / ptt / inr:15.4/33.2/1.4, alt / ast:29/38, alk phos / t
+bili:127/3.3, differential-neuts:93.8 %, lymph:3.3 %, mono:2.5 %,
+eos:0.1 %, lactic acid:1.8 mmol/l, albumin:1.9 g/dl, ldh:215 iu/l,
+ca++:6.7 mg/dl, mg++:1.9 mg/dl, po4:2.6 mg/dl","sepsis, severe (with organ dysfunction)
+   : worsening acidosis with rising lactate. most likely source is liver.; acute renal failure; anemia; cad with chronic systolic chf; pvd",sepsis severe with organ dysfunction worsening acidosis with rising lactate most likely source is liver ; acute renal failure; anemia; coronary artery disease with chronic systolic congestive heart failure; peripheral vascular disease,"['sepsis severe with organ dysfunction worsening acidosis with rising lactate most likely source is liver', 'acute renal failure', 'anemia', 'coronary artery disease with chronic systolic congestive heart failure', 'peripheral vascular disease']","84 yoM with a history of CAD, ischemic cardiomyopathy, PVD and [**Hospital 2092**]
+   transferred to unit with septic shock.",True,"The patient presents with several signs and symptoms that could be indicative of congestive heart failure (CHF), such as bilateral 1+ edema, which suggests fluid overload, a common feature of CHF. Additionally, the patient has diminished breath sounds and rhonchorous sounds, which could indicate pulmonary congestion, another hallmark of CHF. The patient's vital signs show tachycardia (heart rate of 87 bpm) and hypotension (blood pressure of 102/48 mmHg), which could be signs of decreased cardiac output. The central venous pressure (CVP) is 10 mmHg, which, while not elevated, does not strongly argue against CHF in the context of other findings. The patient is also on phenylephrine, a vasopressor, which could be used to support blood pressure in the setting of heart failure. However, the presence of sinus rhythm and the absence of explicit mentions of S3 heart sounds or significantly elevated CVP are factors that do not strongly support CHF. The patient's respiratory support requirements, including high levels of oxygen and positive end-expiratory pressure (PEEP), could be related to various critical conditions, including but not limited to CHF. Given the complexity of the patient's presentation and the presence of multiple organ systems involved, it's challenging to conclude CHF solely based on the provided information without more direct evidence of cardiac dysfunction or failure. Nonetheless, the combination of edema, respiratory findings, and the need for vasopressor support leans towards considering CHF as a potential component of the patient's condition, although a definitive diagnosis would require more specific cardiac function assessments (e.g., echocardiography) and possibly more detailed information on the patient's fluid status and renal function.",False,"The patient is on invasive ventilation and has a central line, with a CVP of 10 mmHg, which does not strongly indicate congestive heart failure. However, the presence of diminished breath sounds and the need for significant respiratory support could suggest fluid overload or pulmonary edema, but without more specific evidence like echocardiogram results or clear signs of volume overload, it's difficult to confirm."
+82,108877.txt,"ultrasound - at [**2136-7-9**] 10:07 am
+renal
+pronestyl (oral) (procainamide hcl)
+unknown;
+quinidine
+unknown;
+clonidine
+unknown;
+a.c.e inhibitors
+unknown; cough;
+spironolactone
+mental status c
+flagyl (oral) (metronidazole)
+nausea/vomiting
+levaquin (oral) (levofloxacin)
+increased bleed
+compazine (injection) (prochlorperazine edisylate)
+unknown;
+keflex (oral) (cephalexin monohydrate)
+nausea/vomiting
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2136-7-9**] 07:59 am
+furosemide (lasix) - [**2136-7-9**] 11:20 am
+coumadin (warfarin) - [**2136-7-9**] 04:00 pm
+heparin sodium (prophylaxis) - [**2136-7-10**] 12:00 am
+other medications:
+flowsheet data as of  [**2136-7-10**] 06:30 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.4
+tcurrent: 36.2
+c (97.1
+hr: 70 (70 - 73) bpm
+bp: 108/37(55) {86/28(43) - 134/49(65)} mmhg
+rr: 20 (14 - 33) insp/min
+spo2: 95%
+heart rhythm: v paced
+total in:
+1,418 ml
+158 ml
+po:
+460 ml
+60 ml
+tf:
+ivf:
+958 ml
+98 ml
+blood products:
+total out:
+1,200 ml
+180 ml
+urine:
+1,200 ml
+180 ml
+ng:
+stool:
+drains:
+balance:
+218 ml
+-22 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///28/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+142 k/ul
+9.5 g/dl
+94 mg/dl
+1.7 mg/dl
+28 meq/l
+3.5 meq/l
+53 mg/dl
+104 meq/l
+140 meq/l
+27.1 %
+9.8 k/ul
+wbc
+14.0
+12.0
+10.6
+12.2
+14.9
+11.9
+9.8
+hct
+26.7
+28.4
+23.7
+28.9
+35.7
+30.8
+27.1
+plt
+187
+163
+138
+154
+191
+162
+142
+cr
+2.8
+2.7
+2.4
+2.2
+2.3
+2.1
+1.8
+1.7
+tropt
+0.04
+0.04
+glucose
+106
+118
+71
+63
+52
+[**telephone/fax (3) 3747**]4
+other labs: pt / ptt / inr:18.1/33.6/1.7, ck / ckmb /
+troponin-t:69/4/0.04, alt / ast:113/82, alk phos / t bili:71/0.8,
+amylase / lipase:33/19, differential-neuts:87.4 %, band:0.0 %,
+lymph:7.4 %, mono:4.9 %, eos:0.2 %, lactic acid:1.3 mmol/l, albumin:3.5
+g/dl, ldh:395 iu/l, ca++:8.0 mg/dl, mg++:2.1 mg/dl, po4:2.5 mg/dl","acute on chronic renal failure; acute on chronic systolic heart failure; bilat pleural effusion/rll opacity - likely transudative effusions in
+   the setting of decompensated chf,; n/v/d; transaminitis; afib; cad",acute on chronic renal failure; acute on chronic systolic heart failure; bilateral pleural effusion right lower lobe opacity likely transudative effusions in the setting of decompensated congestive heart failure ; nausea vomiting diarrhea; transaminitis; atrial fibrillation; coronary artery disease,"['acute on chronic renal failure', 'acute on chronic systolic heart failure', 'bilateral pleural effusion right lower lobe opacity likely transudative effusions in the setting of decompensated congestive heart failure', 'nausea vomiting diarrhea', 'transaminitis', 'atrial fibrillation', 'coronary artery disease']","86 y/o F h/o CAD, CHF, DM, AFib hypertherapeutic on coumadin, and
+   chronic c. diff colitis on recently elevated dose of PO vanco a/w
+   vomiting and diarrhea with evidence of colitis, and acute on chronic
+   renal failure in the setting of escalating diuresis.",True,"The patient's report shows several indicators that could suggest congestive heart failure (CHF), such as the use of furosemide (Lasix), which is a diuretic often used to manage fluid overload in CHF patients. Additionally, the patient's vital signs, including a heart rate of 70 bpm and blood pressure of 108/37 mmHg, do not immediately suggest acute decompensated heart failure but do indicate some level of cardiovascular management. The presence of a ventricular paced rhythm ('v paced') also implies some form of cardiac dysfunction or conduction abnormality. However, the absence of explicit symptoms like shortness of breath, orthopnea, or paroxysmal nocturnal dyspnea in the subjective report, and the lack of detailed echocardiogram results or direct measures of cardiac function (e.g., ejection fraction) in the objective section, makes it challenging to conclusively diagnose CHF based solely on the provided information. Nonetheless, the use of medications typically used in the management of heart failure and the presence of a paced rhythm lean towards the possibility of CHF. The patient's renal function, as indicated by creatinine levels, and the presence of electrolyte imbalances, could also be related to CHF, especially considering the use of ACE inhibitors and spironolactone, which are common in CHF management. Given these considerations, while the evidence is not definitive, it suggests a likelihood of CHF.",False,"There is no clear evidence of congestive heart failure, such as pulmonary edema or significant hypoxia. The patient's vital signs and hemodynamic monitoring do not suggest heart failure. However, the use of furosemide (Lasix) could indicate fluid overload, but it's not conclusive."
+139,186277.txt,"hypoxia
+pt tolerated cpap well overnight. resting comfortably. continued on
+vancomycin and cefepime. afebrile.
+history obtained from patient
+history obtained from patientpenicillins
+unknown;
+levofloxacin
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+cefipime - [**2169-6-5**] 04:17 pm
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2169-6-6**] 06:40 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.1
+c (96.9
+tcurrent: 35.7
+c (96.2
+hr: 78 (75 - 92) bpm
+bp: 126/75(125) {122/34(64) - 157/78(125)} mmhg
+rr: 26 (20 - 39) insp/min
+spo2: 92%
+heart rhythm: af (atrial fibrillation)
+height: 68 inch
+total in:
+177 ml
+306 ml
+po:
+240 ml
+tf:
+ivf:
+177 ml
+66 ml
+blood products:
+total out:
+750 ml
+0 ml
+urine:
+750 ml
+ng:
+stool:
+drains:
+balance:
+-573 ml
+306 ml
+respiratory support
+o2 delivery device: cpap mask
+spo2: 92%
+abg: 7.33/72/121/39/9
+pao2 / fio2: 151
+general appearance: no acute distress, overweight / obese
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+lymphatic: cervical wnl
+cardiovascular: (s1: normal), (s2: normal), (murmur: no(t) systolic,
+no(t) diastolic)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: present), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), (breath sounds: crackles :
+bases b/l)
+abdominal: soft, non-tender, bowel sounds present
+extremities: right: 1+, left: 1+
+skin:  warm
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, movement: purposeful, tone: not assessed
+/
+:
+cxr [**6-5**]
+despite limitations of study, no apparent change of chronic
+bibasilar opacities from seven months prior.
+micro: bcx - ngtd
+239 k/ul
+12.3 g/dl
+140 mg/dl
+1.5 mg/dl
+39 meq/l
+5.0 meq/l
+30 mg/dl
+95 meq/l
+140 meq/l
+40.1 %
+4.0 k/ul
+image002.jpg]
+[**2169-6-5**]  05:24 pm
+[**2169-6-6**]  03:58 am
+wbc
+4.0
+hct
+40.1
+plt
+239
+cr
+1.5
+tropt
+0.02
+tco2
+40
+glucose
+140
+other labs: ck / ckmb / troponin-t:81/3/0.02, differential-neuts:81.7
+%, lymph:17.1 %, mono:1.0 %, eos:0.0 %, lactic acid:2.4 mmol/l,
+ca++:8.9 mg/dl, mg++:2.0 mg/dl, po4:3.7 mg/dl",hypoxia:; chf,hypoxia ; congestive heart failure,"['hypoxia', 'congestive heart failure']","P: [**Age over 90 382**] yom NH resident, pmh of severe pneumonia presenting currently
+   with cough, fever, and dyspnea without improvement with antibiotics.",True,"The patient presents with symptoms and signs that could be indicative of congestive heart failure (CHF), such as hypoxia, the need for CPAP, and crackles at the bases of the lungs bilaterally, which suggest pulmonary congestion. Additionally, the patient has atrial fibrillation, which is a common arrhythmia associated with CHF. However, the patient's vital signs, including blood pressure and heart rate, are within relatively normal limits, and there's no explicit mention of significant peripheral edema (only 1+ noted in extremities), which is often a hallmark of CHF. The chest X-ray shows chronic bibasilar opacities but no apparent change from a previous study, which might indicate chronic rather than acute pulmonary congestion. The laboratory values, including a slightly elevated troponin level, could suggest some cardiac stress or injury but are not definitive for CHF. Given these mixed findings, the diagnosis of congestive heart failure is plausible but not conclusively proven based on the information provided. The presence of atrial fibrillation and signs of pulmonary congestion lean towards CHF, but the lack of more definitive signs such as significant edema or clear evidence of fluid overload on the vital signs and lab values introduces uncertainty.",False,"The patient has a history of hypoxia and is on CPAP, and the chest X-ray shows chronic bibasilar opacities, which could be indicative of congestive heart failure. The patient also has atrial fibrillation, which is a risk factor for congestive heart failure. However, there is no clear evidence of fluid overload or pulmonary edema. Therefore, congestive heart failure is possible but not confirmed."
+141,109977.txt,"ekg - at [**2165-12-11**] 10:00 pm
+urine culture - at [**2165-12-12**] 01:30 am
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+furosemide (lasix) - 5 mg/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2165-12-12**] 07:23 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.4
+c (97.6
+tcurrent: 36.3
+c (97.3
+hr: 106 (92 - 115) bpm
+bp: 95/77(79) {70/43(28) - 133/79(88)} mmhg
+rr: 25 (18 - 25) insp/min
+spo2: 97%
+heart rhythm: af (atrial fibrillation)
+total in:
+645 ml
+385 ml
+po:
+480 ml
+120 ml
+tf:
+ivf:
+165 ml
+265 ml
+blood products:
+total out:
+25 ml
+100 ml
+urine:
+25 ml
+100 ml
+ng:
+stool:
+drains:
+balance:
+620 ml
+285 ml
+respiratory support
+o2 delivery device: none
+spo2: 97%
+abg: ///19/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+235 k/ul
+11.7 g/dl
+213 mg/dl
+2.0 mg/dl
+19 meq/l
+4.5 meq/l
+50 mg/dl
+98 meq/l
+133 meq/l
+34.1 %
+12.6 k/ul
+wbc
+12.6
+hct
+34.1
+plt
+235
+cr
+2.0
+tropt
+0.03
+glucose
+213
+other labs: pt / ptt / inr:20.0/150.0/1.9, ck / ckmb /
+troponin-t:72//0.03, alt / ast:[**telephone/fax (1) 3304**], alk phos / t bili:148/0.6,
+albumin:3.8 g/dl, ldh:[**2169**] iu/l, mg++:2.6 mg/dl","chf, systolic; dilated cardiomyopathy; arf; dm2",congestive heart failure systolic; dilated cardiomyopathy; acute renal failure; diabetes mellitus type,"['congestive heart failure systolic', 'dilated cardiomyopathy', 'acute renal failure', 'diabetes mellitus type']","60 year old female with a hx of DM2, HTN, and CVA who
+   presents with dyspnea x3 days, AFib, and new dilated CM with EF
+   15-20%.",True,"The patient is receiving furosemide (Lasix), a common diuretic used to treat fluid overload, which is a hallmark of congestive heart failure (CHF). The presence of atrial fibrillation (AF) also increases the risk of CHF. Additionally, the patient's vital signs show tachycardia (hr: 106 bpm) and low blood pressure (bp: 95/77 mmHg), which can be indicative of decreased cardiac output. The lab results show elevated troponin-t (0.03), which suggests myocardial injury. However, the patient's oxygen saturation (spo2: 97%) and respiratory rate (rr: 25 insp/min) are within relatively normal limits, which might argue against severe CHF. Nonetheless, considering the use of furosemide, presence of AF, and signs of potential myocardial injury, the evidence leans towards CHF.",False,"The use of furosemide (Lasix) at 5 mg/hour suggests fluid overload management, which is common in congestive heart failure (CHF). The patient's atrial fibrillation and low blood pressure (95/77 mmHg) could also be indicative of CHF. However, without more specific evidence like echocardiogram results or clear signs of fluid overload, the diagnosis remains uncertain."
+143,190561.txt,"- cardioversion yesterday at 10:45 pm; a-fib aflutter prior to dcc hr
+128 synchron. shock 200 j x1
+- repeatedly low bp overnight with sbp in 70-80s despite good
+mentation, urine output, well- perfused extremities
+- received in total 1.5 l
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2189-12-20**] 09:52 pm
+ciprofloxacin - [**2189-12-20**] 11:53 pm
+infusions:
+heparin sodium - 1,100 units/hour
+other icu medications:
+propofol - [**2189-12-20**] 10:25 pm
+heparin sodium - [**2189-12-20**] 11:52 pm
+other medications:
+flowsheet data as of  [**2189-12-21**] 06:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.4
+tcurrent: 37.4
+c (99.4
+hr: 60 (32 - 129) bpm
+bp: 80/41(51) {72/41(51) - 108/70(75)} mmhg
+rr: 22 (9 - 24) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,782 ml
+823 ml
+po:
+tf:
+ivf:
+782 ml
+823 ml
+blood products:
+total out:
+975 ml
+570 ml
+urine:
+425 ml
+570 ml
+ng:
+stool:
+drains:
+balance:
+807 ml
+253 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ///15/
+general: nad. oriented x3. mood, affect appropriate.
+heent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no
+pallor or cyanosis of the oral mucosa. no xanthalesma.
+neck: supple with jvp of 8 cm.
+cardiac: pmi located in 5th intercostal space, midclavicular line. rrr
+s1 s2.  grade iii/vi late peaking sem with delayed carotid upstrokes.
+lungs: no chest wall deformities, scoliosis or kyphosis. resp were
+unlabored, no accessory muscle use. crackles and expiratory wheeze  at
+rll
+abdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by
+palpation. no abdominial bruits.   vein graft in place
+extremities: no c/c/ +1. erythema/ warmth/ edema over the left foot
+with scattered ecchymoses; well healed surgical scar over b/l groin.
+fluid collection over the right anterior thigh
+skin: stasis dermatitis, skin breakdown over the left buttock, scars,
+or xanthomas.
+pulses:
+right: carotid 2+ femoral 2+ popliteal 1+ dp dopplerable pt doppler
+left: carotid 2+ femoral 2+ popliteal 1+ dp dopplerable pt doppler
+78 k/ul
+7.3 g/dl
+139 mg/dl
+1.8 mg/dl
+15 meq/l
+4.9 meq/l
+66 mg/dl
+110 meq/l
+134 meq/l
+22.9 %
+6.6 k/ul
+[image002.jpg]
+[**2189-12-20**]  09:06 pm
+[**2189-12-21**]  05:27 am
+wbc
+6.6
+hct
+22.9
+plt
+78
+cr
+1.8
+tropt
+3.87
+glucose
+139
+other labs: pt / ptt / inr:12.5/95.7/1.0, ck / ckmb /
+troponin-t:424/70/3.87, alt / ast:42/118, alk phos / t bili:49/0.3,
+amylase / lipase:38/, differential-neuts:89.7 %, lymph:7.9 %, mono:1.8
+%, eos:0.4 %, lactic acid:1.4 mmol/l, albumin:2.9 g/dl, ldh:401 iu/l,
+ca++:8.1 mg/dl, mg++:1.7 mg/dl, po4:3.1 mg/dl
+feurea: 31%
+iron: 14  caltibc: 202  hapto: 154  ferritn: 458  trf: 155
+maging: no evidence of bilateral le dvt. likely right thing hematoma
+cxr: no acute intra thoracic process",a-fib w/ rvr; cp; grade ii dchf; severe as; . uti:; doe; . leukocytosis; diabetes,atrial fibrillation with rapid ventricular rate; chest pain; grade ii decompensated congestive heart failure; severe aortic stenosis; urinary tract infection ; dyspnea on exertion; leukocytosis; diabetes,"['atrial fibrillation with rapid ventricular rate', 'chest pain', 'grade ii decompensated congestive heart failure', 'severe aortic stenosis', 'urinary tract infection', 'dyspnea on exertion', 'leukocytosis', 'diabetes']","77 yo M with dCHF (Grade II), severe AS (0.8-1.0cm2), HTN, HL, diet
+   controlled DM, PVD s/p Left axillary bifemoral bypass [**2189-8-28**] and s/p
+   left fem-pt bypass w/ ISSV [**2184**] presents with a-fib /w RVR.",True,"The patient's presentation includes several clues that suggest congestive heart failure (CHF). The recent cardioversion for atrial fibrillation/flutter and the presence of a grade III/VI late-peaking systolic ejection murmur (SEM) with delayed carotid upstrokes are indicative of potential left ventricular dysfunction. Additionally, the patient has crackles and an expiratory wheeze at the right lower lung lobe, which could suggest pulmonary congestion, a common finding in CHF. The elevated troponin-T level (3.87) also points towards myocardial injury, which could be related to CHF. However, the patient's blood pressure has been low (SBP in the 70-80s), which might not typically align with the expected findings of CHF, where one might anticipate elevated pressures due to fluid overload. Despite this, the overall clinical picture, including the recent arrhythmia, signs of pulmonary congestion, and evidence of myocardial injury, leans towards the diagnosis of congestive heart failure. Furthermore, the patient's jugular venous pressure (JVP) is elevated at 8 cm, and there is evidence of peripheral edema and stasis dermatitis, which are common in CHF. The absence of acute intra-thoracic processes on the chest X-ray (CXR) does not rule out CHF, as the pulmonary findings can be subtle and not always visible on imaging. Considering these factors, the diagnosis of congestive heart failure is supported.",False,"The patient has a history of cardioversion for atrial fibrillation and has signs of fluid overload, including a high JVP of 8 cm and crackles in the lungs. The patient also received a significant amount of fluid, which may worsen heart failure. However, the diagnosis is not definitive without more information on the patient's ejection fraction and cardiac function."
+175,111874.txt,"-  given metoprolol 5mg, repeat x1 which brought hr down to 100s, also
+dropped bp and required more pressors
+- 4l ivf, now on levo and neo, trying to switch to neo...
+- fever, + blood cultures
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+midazolam (versed) - 6 mg/hour
+fentanyl (concentrate) - 100 mcg/hour
+phenylephrine - 1 mcg/kg/min
+norepinephrine - 0.25 mcg/kg/min
+other icu medications:
+metoprolol - [**2174-11-30**] 01:00 am
+other medications:
+flowsheet data as of  [**2174-11-30**] 06:45 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.6
+c (101.5
+tcurrent: 38.1
+c (100.5
+hr: 105 (99 - 121) bpm
+bp: 96/55(64) {95/49(64) - 120/60(71)} mmhg
+rr: 21 (21 - 28) insp/min
+spo2: 100%
+heart rhythm: af (atrial fibrillation)
+total in:
+4,568 ml
+po:
+tf:
+ivf:
+4,568 ml
+blood products:
+total out:
+0 ml
+170 ml
+urine:
+170 ml
+ng:
+stool:
+drains:
+balance:
+0 ml
+4,398 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 600 (600 - 600) ml
+rr (set): 16
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 50%
+rsbi deferred: rr >35
+pip: 25 cmh2o
+spo2: 100%
+abg: ///23/
+ve: 15.5 l/min
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+178 k/ul
+13.3 g/dl
+104 mg/dl
+2.0 mg/dl
+23 meq/l
+3.3 meq/l
+37 mg/dl
+106 meq/l
+142 meq/l
+40.4 %
+6.5 k/ul
+wbc
+6.5
+hct
+40.4
+plt
+178
+cr
+2.0
+tropt
+0.09
+glucose
+104
+other labs: pt / ptt / inr:18.9/34.1/1.7, ck / ckmb /
+troponin-t:/5/0.09, lactic acid:2.1 mmol/l, ca++:7.5 mg/dl, mg++:1.5
+mg/dl, po4:3.2 mg/dl
+imaging: cxr
+microbiology: blood cultures: +gnr
+urine, sputum pending","sepsis: bandemia.  likely from pneumonia; respiratory failure: sedation and ventilation.  underlying etiology
+   likely pna vs aspiration pneumonitis; a fib with rvr; elevated troponin; acute on chornic renal failure; altered mental status; chf/as",sepsis bandemia likely from pneumonia; respiratory failure sedation and ventilation underlying etiology likely pneumonia versus aspiration pneumonitis; atrial fibrillation with rapid ventricular response; elevated troponin; acute on chronic renal failure; altered mental status; congestive heart failure aortic stenosis,"['sepsis bandemia likely from pneumonia', 'respiratory failure sedation and ventilation underlying etiology likely pneumonia versus aspiration pneumonitis', 'atrial fibrillation with rapid ventricular response', 'elevated troponin', 'acute on chronic renal failure', 'altered mental status', 'congestive heart failure aortic stenosis']","76yoM h/o CHF, a fib on coumadin found down, now with pna and sepsis.",True,"The patient presents with atrial fibrillation (AF), which is a common arrhythmia associated with congestive heart failure (CHF). The use of metoprolol, a beta-blocker, suggests an attempt to control heart rate, which is often elevated in CHF. However, the patient's heart rate remains elevated at 105 bpm. The blood pressure is low (96/55 mmHg), and the patient requires pressors (phenylephrine and norepinephrine), indicating potential cardiogenic shock, a complication of severe CHF. Additionally, the patient has a fever and positive blood cultures, which could indicate sepsis, a condition that can precipitate CHF. The laboratory results show elevated troponin-T (0.09), indicating myocardial injury, and elevated lactic acid (2.1 mmol/L), suggesting tissue hypoperfusion, both of which can be seen in CHF. The chest X-ray (CXR) results are not provided, but the presence of AF, low blood pressure, and requirement for pressors, along with the laboratory findings, suggest that CHF is a likely diagnosis. However, without explicit mention of pulmonary edema, peripheral edema, or other classic signs of CHF, the diagnosis is not definitive. Considering the available information, CHF seems probable, but a definitive diagnosis would require more specific evidence of heart failure, such as echocardiogram results or clear signs of fluid overload.",False,"There's no direct evidence provided in the SOAP note that strongly suggests congestive heart failure, such as specific findings on chest X-ray (CXR) that would indicate pulmonary edema or significant left ventricular dysfunction. The patient is on ventilator support, but the specifics of the respiratory support do not directly imply heart failure. The presence of atrial fibrillation and the need for pressors could be related to various conditions, not exclusively heart failure."
+195,100571.txt,"multi lumen - start [**2173-2-24**] 05:38 pm
+[**2173-2-24**] events:
+- held dilantin for elevated level, check in am and restart 360mg of
+dilantin qhs if wnl
+- getting ruled out for tb, [**1-30**] sputum cultures done
+- id approval for vanc for possible hap vs. vap vs. aspiration.
+- pt received lasix 40mg iv x 2 with good uop
+- code purple because trying to leave,agitated, received 2mg of haldol
+no known drug allergies
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2173-2-24**] 08:15 pm
+piperacillin - [**2173-2-25**] 12:15 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2173-2-24**] 08:25 pm
+other medications:
+flowsheet data as of  [**2173-2-25**] 06:43 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.3
+c (99.1
+tcurrent: 37.3
+c (99.1
+hr: 103 (78 - 103) bpm
+bp: 125/75(86) {103/36(53) - 136/89(94)} mmhg
+rr: 31 (15 - 31) insp/min
+spo2: 90%
+heart rhythm: st (sinus tachycardia)
+wgt (current): 113.8 kg (admission): 108 kg
+height: 70 inch
+total in:
+300 ml
+400 ml
+po:
+100 ml
+300 ml
+tf:
+ivf:
+200 ml
+100 ml
+blood products:
+total out:
+770 ml
+480 ml
+urine:
+770 ml
+480 ml
+ng:
+stool:
+drains:
+balance:
+-470 ml
+-80 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 90%
+abg: ///31/
+general: alert, oriented to person, but not to place or time
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple, jvp at jaw, no lad
+lungs: diffuse inspiratory and expiratory wheezes throughout improved
+from yesterday, some scarce crackles at bases
+cv: regular rate and rhythm, normal s1 + s2, no murmurs
+abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis, +trace
+edema
+267 k/ul
+12.9 g/dl
+127 mg/dl
+0.9 mg/dl
+31 meq/l
+3.1 meq/l
+7 mg/dl
+105 meq/l
+143 meq/l
+34.5 %
+6.4 k/ul
+[image002.jpg]
+[**2173-2-22**]  09:29 am
+[**2173-2-22**]  05:24 pm
+[**2173-2-22**]  05:42 pm
+[**2173-2-23**]  12:01 am
+[**2173-2-23**]  01:39 am
+[**2173-2-23**]  03:00 am
+[**2173-2-23**]  03:07 am
+[**2173-2-23**]  06:20 am
+[**2173-2-24**]  01:57 pm
+[**2173-2-25**]  02:22 am
+wbc
+7.2
+6.4
+hct
+28.5
+28.8
+32.2
+34.5
+plt
+205
+267
+cr
+0.9
+0.9
+tropt
+0.24
+0.14
+tco2
+24
+25
+27
+28
+30
+glucose
+128
+127
+other labs: pt / ptt / inr:12.9/25.4/1.1, ck / ckmb /
+troponin-t:135/3/0.14, alt / ast:18/32, alk phos / t bili:101/0.3,
+lactic acid:0.6 mmol/l, albumin:3.5 g/dl, ldh:198 iu/l, ca++:8.5 mg/dl,
+mg++:1.9 mg/dl, po4:2.7 mg/dl",resp distress; seizures:  secondary to eee; nstemi/chf,respiratory distress; seizures secondary to eastern equine encephalitis; non st elevation myocardial infarction congestive heart failure,"['respiratory distress', 'seizures secondary to eastern equine encephalitis', 'non st elevation myocardial infarction congestive heart failure']","his is a 66 y/o M hx seizures from EEE encephalitis p/w status c/b
+   aspiration PNA, intubated in NICU, and NSTEMI and extubated on [**2-21**].
+   Transferred to floor on [**2-24**] and continues to have some mild
+   respiratory distress, tachypnea.
+   .",True,"The patient's presentation includes several clues that suggest congestive heart failure (CHF). The administration of Lasix (a diuretic commonly used to treat fluid overload in CHF) with a good urinary output indicates an attempt to manage fluid overload, a hallmark of CHF. Additionally, the patient has a history of weight gain (from 108 kg to 113.8 kg), which could indicate fluid retention. The presence of diffuse inspiratory and expiratory wheezes and some scarce crackles at the bases on lung exam, along with a low Spo2 of 90% on room air, suggests pulmonary congestion. The trace edema noted in the extremities further supports the diagnosis of fluid overload. While the cardiac exam shows a regular rate and rhythm with no murmurs, the presence of sinus tachycardia (heart rate of 103 bpm) could be a compensatory response to decreased cardiac output or volume overload. The labs do not show significant elevations in troponin or other cardiac biomarkers that would suggest an acute coronary syndrome, but the clinical picture leans towards CHF, especially given the response to diuretic therapy. Therefore, based on the evidence of fluid overload, pulmonary congestion, and the patient's response to treatment, CHF is likely.",False,"The patient has received lasix, a diuretic, which suggests possible fluid overload. The patient's weight has increased from 108 kg to 113.8 kg, and there is a mention of +trace edema. However, the lungs show improvement in wheezes and crackles, and the JVP is not elevated. The diagnosis of congestive heart failure is possible but not strongly supported."
+222,189330.txt,"septic shock, respiratory failure
+invasive ventilation - stop [**2109-3-31**] 11:30 am
+sulfa (sulfonamides)
+unknown;
+verapamil
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2109-3-29**] 08:29 am
+cefipime - [**2109-3-29**] 03:30 pm
+piperacillin/tazobactam (zosyn) - [**2109-4-1**] 04:19 am
+infusions:
+heparin sodium - 550 units/hour
+other icu medications:
+furosemide (lasix) - [**2109-3-31**] 01:41 pm
+fentanyl - [**2109-3-31**] 08:23 pm
+heparin sodium - [**2109-3-31**] 08:56 pm
+other medications:
+flowsheet data as of  [**2109-4-1**] 07:18 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.6
+c (97.9
+tcurrent: 36.1
+c (96.9
+hr: 92 (87 - 136) bpm
+bp: 92/74(79) {82/43(25) - 130/97(103)} mmhg
+rr: 19 (11 - 29) insp/min
+spo2: 92%
+heart rhythm: af (atrial fibrillation)
+wgt (current): 74 kg (admission): 71.1 kg
+height: 62 inch
+total in:
+1,371 ml
+248 ml
+po:
+tf:
+155 ml
+ivf:
+1,015 ml
+248 ml
+blood products:
+total out:
+2,175 ml
+400 ml
+urine:
+2,175 ml
+400 ml
+ng:
+stool:
+drains:
+balance:
+-804 ml
+-152 ml
+respiratory support
+o2 delivery device: aerosol-cool
+ventilator mode: cpap/psv
+vt (spontaneous): 472 (360 - 472) ml
+ps : 8 cmh2o
+rr (spontaneous): 16
+peep: 5 cmh2o
+fio2: 50%
+spo2: 92%
+abg: 7.46/41/86//4
+ve: 5 l/min
+pao2 / fio2: 172
+general appearance: no acute distress
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), irreg irregular
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (breath sounds: wheezes : , rhonchorous: )
+extremities: right: 2+, left: 2+
+skin:  not assessed
+neurologic: attentive, follows simple commands, responds to: not
+assessed, oriented (to): x3, movement: not assessed, tone: not assessed
+243 k/ul
+7.8 g/dl
+119 mg/dl
+1.5 mg/dl
+29 meq/l
+4.3 meq/l
+19 mg/dl
+105 meq/l
+140 meq/l
+23.6 %
+14.7 k/ul
+image002.jpg]
+[**2109-3-29**]  05:27 am
+[**2109-3-29**]  07:27 am
+[**2109-3-29**]  09:30 am
+[**2109-3-29**]  03:01 pm
+[**2109-3-29**]  03:23 pm
+[**2109-3-30**]  04:33 am
+[**2109-3-30**]  04:00 pm
+[**2109-3-31**]  04:21 am
+[**2109-3-31**]  10:34 am
+[**2109-4-1**]  04:40 am
+wbc
+9.1
+12.7
+19.5
+14.5
+14.2
+14.7
+hct
+23.4
+27.8
+27.1
+25.0
+24.2
+23.6
+plt
+[**telephone/fax (3) 2656**]
+cr
+1.1
+1.1
+1.3
+1.4
+1.5
+tco2
+25
+25
+25
+30
+glucose
+100
+100
+125
+92
+119
+other labs: pt / ptt / inr:14.8/93.2/1.3, ck / ckmb /
+troponin-t:103/9/0.09, alt / ast:31/24, alk phos / t bili:163/0.3,
+differential-neuts:94.0 %, band:3.0 %, lymph:3.0 %, mono:0.0 %, eos:0.0
+%, d-dimer:1470 ng/ml, fibrinogen:413 mg/dl, lactic acid:0.7 mmol/l,
+albumin:2.8 g/dl, ldh:239 iu/l, ca++:8.7 mg/dl, mg++:1.9 mg/dl, po4:2.6
+mg/dl
+imaging: [**2-28**] ct neck showed resolved sq emphysema, no hematoma, [**month (only) 38**]
+swelling
+microbiology: none new","respiratory failure
+ likely resulting from septic shock (below) with
+   component of chf; klebsiella uti: c/b by septic shock t; cad; a fib; anemia",respiratory failure likely resulting from septic shock below with component of congestive heart failure; klebsiella urinary tract infection complicated by septic shock t; coronary artery disease; atrial fibrillation; anemia,"['respiratory failure likely resulting from septic shock below with component of congestive heart failure', 'klebsiella urinary tract infection complicated by septic shock t', 'coronary artery disease', 'atrial fibrillation', 'anemia']","79F with COPD, CAD, a fib, lung cancer, now with respiratory distress
+   and septic shock now with clear evidence of recent cardiac event",True,"The patient's presentation includes signs that could be indicative of congestive heart failure (CHF), such as atrial fibrillation (AF) noted in the heart rhythm, which is a common arrhythmia associated with CHF. Additionally, the use of furosemide (Lasix), a loop diuretic commonly used to manage fluid overload in CHF, suggests an attempt to manage fluid status, potentially indicative of CHF. However, the patient's primary issues as presented are septic shock and respiratory failure, which can also lead to fluid overload and require diuretic use. The patient's vital signs, such as blood pressure and heart rate, do not strongly indicate CHF without additional context on fluid status changes over time. The laboratory values, including a slightly elevated troponin level, could suggest cardiac injury but are not definitive for CHF. The presence of peripheral edema (extremities: right: 2+, left: 2+) could be a sign of fluid overload, which is consistent with CHF. Given the complexity of the patient's condition, with septic shock and respiratory failure being primary concerns, and the presence of some signs that could be consistent with CHF (like AF and the use of furosemide), but without clear evidence of left ventricular dysfunction or significant fluid overload specifically attributed to CHF, the diagnosis of congestive heart failure is uncertain based on the provided information. However, considering the context and the presence of atrial fibrillation, furosemide use, and peripheral edema, there is a leaning towards the possibility of CHF, especially if the patient's condition is being managed with an assumption of CHF contributing to their fluid status and hemodynamic instability.",False,"There's no direct evidence of congestive heart failure such as elevated BNP levels, significant pulmonary edema on imaging, or a clear description of heart failure symptoms. The patient is on furosemide, which could be for fluid overload, but this is not exclusive to heart failure. Atrial fibrillation is noted, which can be associated with heart failure, but alone it's not diagnostic. Thus, congestive heart failure is possible but not conclusively diagnosed with the given information."
+235,148180.txt,"pt c/o cp [**11-15**] last night.  received sl nitro x 2 without relief.
+discussed via interpreter, pt stated that this is similar to prior
+episodes of heartburn.  ecg done and some flattened t waves laterally,
+unchanged from admission ecg but changed from prior.  pt got maalox
+without relief.
+presep catheter - start [**2137-12-8**] 09:49 pm
+ekg - at [**2137-12-9**] 12:09 am
+ekg - at [**2137-12-9**] 04:27 am
+
+phenylephrine
+rash;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2137-12-9**] 05:28 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 35.9
+c (96.7
+hr: 65 (58 - 66) bpm
+bp: 124/67(81) {96/44(59) - 124/67(81)} mmhg
+rr: 12 (12 - 25) insp/min
+spo2: 96%
+heart rhythm: sr (sinus rhythm)
+height: 70 inch
+cvp: 17 (12 - 17)mmhg
+co/ci (fick): (3.8 l/min) / (1.9 l/min/m2)
+svo2: 54%
+mixed venous o2% sat: 64 - 64
+total in:
+3,364 ml
+55 ml
+po:
+tf:
+ivf:
+364 ml
+55 ml
+blood products:
+total out:
+530 ml
+450 ml
+urine:
+80 ml
+450 ml
+ng:
+stool:
+drains:
+balance:
+2,834 ml
+-395 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 96%
+abg: ///32/
+general appearance: well nourished, no acute distress, overweight /
+obese
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascularno jvd but diff to assess with rt ij, rrr, high pitched
+1/6 systolic murmur at rusb
+peripheral vascular; good distal pulses
+respiratory / chest: (expansion: symmetric), (breath sounds: crackles :
+left post lung base, rhonchorous: left anterior lung), no wheezing
+abdominal: soft, non-tender
+extremities: right: absent, left: absent
+skin:  warm, well perfused
+neurologic: attentive, aox3
+134 k/ul
+11.8 g/dl
+126 mg/dl
+1.7 mg/dl
+32 meq/l
+4.3 meq/l
+41 mg/dl
+106 meq/l
+142 meq/l
+34.4 %
+8.3 k/ul
+wbc
+10.6
+8.3
+hct
+35.0
+34.4
+plt
+136
+134
+cr
+1.8
+1.7
+glucose
+137
+126
+other labs: pt / ptt / inr:13.9/30.0/1.2, ck / ckmb / troponin-t:121//,
+lactic acid:1.4 mmol/l, ca++:8.2 mg/dl, mg++:1.7 mg/dl, po4:3.2 mg/dl",sob; pna; hx chf; hx cad; bronchiectasis:,shortness of breath; pneumonia; history of congestive heart failure; history of coronary artery disease; bronchiectasis,"['shortness of breath', 'pneumonia', 'history of congestive heart failure', 'history of coronary artery disease', 'bronchiectasis']","Assessment and Plan: This is a 82 year old male with Hx CAD, CHF
+   (systolic and diastolic with EF 45%), bronchiectasis who presents with
+   PNA, hypotension c/w sepsis.
+   .",False,"The patient presents with symptoms that could suggest congestive heart failure (CHF), such as crackles at the left post lung base and a high-pitched 1/6 systolic murmur, which are indicative of fluid overload and potential cardiac dysfunction. However, the patient's symptoms of chest pain (cp) were initially thought to be similar to prior episodes of heartburn, and the use of nitroglycerin did not provide relief, which might lean more towards an ischemic or other cardiac issue rather than typical CHF symptoms. The patient's vital signs, including blood pressure and heart rate, are within relatively normal limits, and the oxygen saturation is at 96% on a nasal cannula, which does not strongly indicate severe respiratory distress typically seen in acute CHF. The central venous pressure (CVP) is at the upper limit of normal (17 mmHg), which could suggest some degree of fluid overload but is not conclusively indicative of CHF without other supporting evidence. The cardiac output (CO) and cardiac index (CI) are provided but without clear indication of being significantly impaired. The mixed venous oxygen saturation (SvO2) is somewhat low at 54%, which could indicate decreased cardiac output or increased oxygen extraction, but this finding alone is not specific to CHF. Given the complexity of the patient's presentation and the mix of findings that could support or refute CHF, the diagnosis is not conclusively supported by the information provided. Therefore, while there are some suggestive findings, they are not strong enough to definitively diagnose congestive heart failure without further evaluation or more specific indicators of cardiac dysfunction and fluid overload.",True,"The patient has a history of similar episodes that were attributed to heartburn, but the presence of crackles at the left post lung base and a high-pitched 1/6 systolic murmur could indicate some degree of heart failure. However, without more definitive signs such as significant JVD, peripheral edema, or a clear history of heart failure, this diagnosis remains uncertain but possible given the clinical context."
+238,149842.txt,"invasive ventilation - start [**2155-10-30**] 12:34 pm
+arterial line - start [**2155-10-30**] 01:00 pm
+ekg - at [**2155-10-30**] 01:16 pm
+ekg - at [**2155-10-30**] 01:45 pm
+multi lumen - start [**2155-10-30**] 03:00 pm
+blood cultured - at [**2155-10-30**] 07:25 pm
+stool culture - at [**2155-10-30**] 09:22 pm
+ekg - at [**2155-10-30**] 10:03 pm
+transthoracic echo - at [**2155-10-30**] 11:22 pm
+- intermittently hypotensive (maps as low as upper 40s) with cvp from
+[**1-15**] initially to [**6-21**] after fluid resuscitation; started on 2nd pressor,
+and eventually weaned back to one pressor
+- total fluid resuscitation (or + [**hospital unit name 10**]) = 9l crystalloid + 8u prbcs
+- bump in cardiac enzymes (troponin 0.10>1.05)
+- cardiology consulted; patient had tte; recs =
+- one episode of melena
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+unable to obtain.","last dose of antibiotics:
+infusions:
+phenylephrine - 3 mcg/kg/min
+other icu medications:
+fentanyl - [**2155-10-30**] 02:15 pm
+heparin sodium (prophylaxis) - [**2155-10-31**] 12:00 am
+other medications:
+flowsheet data as of  [**2155-10-31**] 07:33 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.7
+c (98.1
+tcurrent: 36.7
+c (98
+hr: 85 (62 - 87) bpm
+bp: 106/44(60) {70/30(50) - 141/50(74)} mmhg
+rr: 17 (0 - 20) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+height: 68 inch
+cvp: 6 (2 - 7)mmhg
+mixed venous o2% sat: 65 - 65
+total in:
+9,953 ml
+1,000 ml
+po:
+tf:
+ivf:
+5,613 ml
+470 ml
+blood products:
+220 ml
+530 ml
+total out:
+405 ml
+160 ml
+urine:
+30 ml
+ng:
+100 ml
+stool:
+drains:
+275 ml
+160 ml
+balance:
+9,548 ml
+840 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 700 (700 - 700) ml
+rr (set): 10
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 30
+pip: 24 cmh2o
+plateau: 19 cmh2o
+spo2: 100%
+abg: 7.34/22/247/11/-11
+ve: 12.9 l/min
+pao2 / fio2: 618
+gen: intubated, sedated, intermittently diaphoretic
+neck: no jvd, trachea midline
+cv: rrr, nml s1, s2, no m/g/r appreciated
+pulm: lungs ctab anteriorly, no w/r/r
+abd: soft, nd, possible luq tenderness to deep palpation
+ext: left leg in knee immobilizer with blood in drain from knee.  toes
+cool but with good cap refill.
+133 k/ul
+14.2 g/dl
+270 mg/dl
+2.5 mg/dl
+11 meq/l
+5.5 meq/l
+58 mg/dl
+114 meq/l
+139 meq/l
+40.3 %
+13.9 k/ul
+ca 8.2; mg 1.6; phos 6.3
+troponin: 1.73>1.67
+ck: 250>204
+hct
+28.6
+27.5
+37.1
+40.3
+plt
+133
+cr
+2.2
+2.5
+tropt
+1.05
+1.73
+1.67
+tco2
+14
+14
+12
+glucose
+265
+270
+other labs: pt / ptt / inr:15.5/28.6/1.3, ck / ckmb /
+troponin-t:204/43/1.67, alt / ast:[**12-5**], alk phos / t bili:64/1.5,
+differential-neuts:92.0 %, band:0.0 %, lymph:2.0 %, mono:5.0 %, eos:0.0
+%, lactic acid:3.5 mmol/l, albumin:1.9 g/dl, ca++:8.2 mg/dl, mg++:1.6
+mg/dl, po4:6.3 mg/dl",hypotension:; cad; respiratory failure; oligo-/anuria; elevated lactate; dchf; dm; copd,hypotension ; coronary artery disease; respiratory failure; oligo anuria; elevated lactate; decompensated congestive heart failure; diabetes mellitus; chronic obstructive pulmonary disease,"['hypotension', 'coronary artery disease', 'respiratory failure', 'oligo anuria', 'elevated lactate', 'decompensated congestive heart failure', 'diabetes mellitus', 'chronic obstructive pulmonary disease']","83 year-old male with a history of CAD s/p CABG, DM, dCHF and s/p
+   recent rx for MRSA septic joint who is now admitted to the ICU with
+   hypotension following fusion of his left knee on [**2155-8-30**].",True,"The patient presents with several signs and symptoms suggestive of congestive heart failure (CHF), including intermittently hypotensive episodes with low mean arterial pressures, the need for fluid resuscitation and pressor support, and a bump in cardiac enzymes (troponin). The patient also underwent a transthoracic echo, which, although the results are not provided, suggests that there was a concern for cardiac function. Additionally, the patient's hemodynamic monitoring shows a central venous pressure (CVP) that initially increased after fluid resuscitation, which could indicate fluid overload, a common issue in CHF. The presence of melena could also suggest decreased perfusion to the gastrointestinal tract, which can be seen in severe heart failure. However, the absence of explicit symptoms like orthopnea, paroxysmal nocturnal dyspnea, or peripheral edema in the provided text makes the diagnosis less straightforward. Despite these considerations, the overall clinical picture, including the use of pressors, significant fluid resuscitation, and elevated cardiac enzymes, leans towards the diagnosis of congestive heart failure.",False,"The patient is on invasive ventilation and has had fluid resuscitation, which could be indicative of congestive heart failure. However, the CVP values are not significantly elevated, and there is no clear evidence of pulmonary edema or other signs of heart failure. The patient's hypotension and need for pressors could be due to other causes."
+253,106559.txt,"no events since admission to ccu
+penicillins
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 750 units/hour
+furosemide (lasix) - 3 mg/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2102-3-17**] 04:47 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 37.1
+c (98.8
+hr: 80 (77 - 84) bpm
+bp: 129/96(103) {99/42(57) - 138/99(108)} mmhg
+rr: 23 (17 - 26) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+height: 66 inch
+total in:
+93 ml
+96 ml
+po:
+tf:
+ivf:
+93 ml
+96 ml
+blood products:
+total out:
+600 ml
+280 ml
+urine:
+600 ml
+280 ml
+ng:
+stool:
+drains:
+balance:
+-507 ml
+-184 ml
+respiratory support
+o2 delivery device: none
+spo2: 98%
+abg: ////
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+[image002.jpg]
+other labs: pt / ptt / inr:26.0/66.4/2.6","cad; severe systolic and diastolic chf and cardiomyopathy
+   with lvef of 10.; lv thrombus:; elevated liver enzymes:; dm2; elevated cr; alcohol abuse",coronary artery disease; severe systolic and diastolic congestive heart failure and cardiomyopathy with left ventricular ejection fraction of ; left ventricle thrombus ; elevated liver enzymes ; diabetes mellitus type ; elevated creatinine; alcohol abuse,"['coronary artery disease', 'severe systolic and diastolic congestive heart failure and cardiomyopathy with left ventricular ejection fraction of', 'left ventricle thrombus', 'elevated liver enzymes', 'diabetes mellitus type', 'elevated creatinine', 'alcohol abuse']","53 yo M with alcohol abuse, HTN, severe cardiomyopathy with EF 10-15%,
+   DM2 and atrial fibrillation now with subacute Left superior MCA stroke
+   and possible left ventricular thrombus. Transferred to CCU for volume
+   overload and poor forward flow.
+   .",True,"The patient is receiving furosemide (Lasix), a diuretic commonly used to treat fluid overload, which is a hallmark of congestive heart failure. The patient's vital signs show a heart rate of 80 bpm and blood pressure of 129/96 mmHg, which are within relatively normal limits but do not strongly argue against congestive heart failure. The respiratory rate is slightly elevated at 23 breaths per minute, which could indicate some respiratory distress, possibly due to pulmonary congestion. The patient's oxygen saturation is 98% on room air, which is normal. However, the significant negative fluid balance (-507 ml over 24 hours and -184 ml since 12 am) suggests that the patient is being aggressively diuresed, likely to reduce fluid overload. The use of heparin sodium also suggests concern for thrombotic events, which can be associated with heart failure. While the provided information does not include classic symptoms of heart failure such as shortness of breath, leg swelling, or fatigue, the treatment approach (use of furosemide and heparin) and the focus on fluid balance and hemodynamic monitoring in the ICU setting lean towards managing complications associated with congestive heart failure. Therefore, based on the treatment and monitoring approach, it is reasonable to conclude that congestive heart failure is likely being managed in this patient.",False,"The patient is receiving furosemide (Lasix), a diuretic often used to treat fluid overload conditions like congestive heart failure. The significant negative fluid balance (-507 ml and -184 ml) also suggests diuresis, which could be indicative of treating fluid overload. However, without more specific information on cardiac function or symptoms of heart failure, this is not definitive."
+263,102064.txt,"transthoracic echo - at [**2159-7-19**] 09:30 am
+arterial line - stop [**2159-7-20**] 12:33 am
+.
+--tte: severe as (0.8-1.0), nl ef, mod pulm hypertn
+--cardiac enzymes: stable (last set ck 94  mb 10  mbi 10.6  trop-t
+0.16)
+--off study: now started on atorvastatin
+--off bipap this am, pt wanted to be on it overnight
+--lactate 2.3 up from 1.1 over 24 hrs
+--started on ns 100cc/hr
+--pulled a-line at night
+review of systems is unchanged from admission except as noted below
+review of systems:","amiodarone
+worsening copd;
+proscar (oral) (finasteride)
+breast sensitiv
+sotalol
+unknown;
+last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2159-7-18**] 01:54 pm
+levofloxacin - [**2159-7-19**] 07:30 am
+cefipime - [**2159-7-19**] 07:00 pm
+vancomycin - [**2159-7-19**] 08:00 pm
+metronidazole - [**2159-7-20**] 12:08 am
+infusions:
+other icu medications:
+famotidine (pepcid) - [**2159-7-19**] 09:57 am
+other medications:
+flowsheet data as of  [**2159-7-20**] 07:32 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.7
+c (98
+hr: 70 (70 - 114) bpm
+bp: 99/65(72) {99/59(72) - 122/77(84)} mmhg
+rr: 18 (17 - 32) insp/min
+spo2: 98%
+heart rhythm: vf (ventricular fibrillation)
+wgt (current): 82.3 kg (admission): 79.5 kg
+height: 70 inch
+total in:
+1,800 ml
+927 ml
+po:
+360 ml
+tf:
+ivf:
+1,440 ml
+927 ml
+blood products:
+total out:
+1,755 ml
+410 ml
+urine:
+1,755 ml
+410 ml
+ng:
+stool:
+drains:
+balance:
+45 ml
+519 ml
+respiratory support
+o2 delivery device: nasal cannula, 2l
+ventilator mode: cpap/psv
+vt (spontaneous): 524 (494 - 690) ml
+ps : 10 cmh2o
+rr (spontaneous): 22
+peep: 8 cmh2o
+fio2: 30%
+spo2: 98%
+abg: 7.44/40/99.[**numeric identifier 8**]/23/2
+ve: 9.2 l/min
+pao2 / fio2: 333
+general: alert, oriented, pursed lip breathing, accessory muscle use.
+pt able to speak in short, full sentences.
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple
+lungs: mild labored breathing, tachypneic, poor inspiratory effort,
+decreased bs bilaterally, scatered wheezes throughout, no rales,
+rhonchi
+cv: tachy, regular rhythm, normal s1 + s2, no rubs, gallops
+abdomen: ventral hernia, reducible, soft, non-tender, non-distended,
+bowel sounds hypoactive, no rebound tenderness or guarding
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or trace
+edema
+neuro: a&ox3
+181 k/ul
+10.2 g/dl
+169 mg/dl
+0.9 mg/dl
+23 meq/l
+4.0 meq/l
+20 mg/dl
+107 meq/l
+141 meq/l
+31.9 %
+16.1 k/ul
+[image002.jpg]
+[**2159-7-18**]  10:13 pm
+[**2159-7-19**]  12:24 am
+[**2159-7-19**]  03:36 am
+[**2159-7-19**]  03:58 am
+[**2159-7-19**]  06:32 am
+[**2159-7-19**]  05:48 pm
+[**2159-7-19**]  08:58 pm
+[**2159-7-19**]  09:51 pm
+[**2159-7-20**]  02:46 am
+[**2159-7-20**]  03:26 am
+wbc
+14.0
+16.1
+hct
+31.3
+31.9
+plt
+165
+181
+cr
+0.8
+0.9
+tropt
+0.20
+0.15
+0.16
+0.11
+tco2
+27
+32
+28
+29
+28
+glucose
+137
+169
+other labs: pt / ptt / inr:34.9/30.1/3.6, ck / ckmb /
+troponin-t:91/8/0.11, alt / ast:25/20, alk phos / t bili:46/0.6,
+differential-neuts:93.2 %, lymph:1.9 %, mono:4.6 %, eos:0.2 %, lactic
+acid:2.3 mmol/l, ldh:293 iu/l, ca++:8.5 mg/dl, mg++:2.6 mg/dl, po4:2.3
+mg/dl
+.
+c diff: positive
+.
+cultures
+pend
+.
+cxr: interval improvement from prior",hypercapneic respiratory failure: pt with severe copd; sepsis; cardiac ischemia; diastolic chf (ef >55%); h/o atrial fibrillation; aortic stenosis,hypercapneic respiratory failure patient with severe chronic obstructive pulmonary disease; sepsis; cardiac ischemia; diastolic congestive heart failure ejection fraction >% ; history of atrial fibrillation; aortic stenosis,"['hypercapneic respiratory failure patient with severe chronic obstructive pulmonary disease', 'sepsis', 'cardiac ischemia', 'diastolic congestive heart failure ejection fraction >%', 'history of atrial fibrillation', 'aortic stenosis']","MYOCARDIAL INFARCTION, ACUTE (AMI, STEMI, NSTEMI)
+ CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD, BRONCHITIS, EMPHYSEMA)
+   WITH ACUTE EXACERBATION
+   .
+   This is a 71 year-old male with a history of severe COPD (FEV1 24%
+   predicted) on home 02, a-fib on coumadin, diastolic CHF, AS (valve area
+   1.0 cm) who presents with sepsis and respiratory distress.
+   .",True,"The patient's presentation includes several factors that could suggest congestive heart failure (CHF), such as the mention of 'severe AS' (aortic stenosis) and 'mod pulm hypertn' (moderate pulmonary hypertension) in the subjective section, which are conditions that can lead to or exacerbate CHF. Additionally, the patient has been experiencing 'mild labored breathing, tachypneic, poor inspiratory effort, decreased bs bilaterally, scattered wheezes throughout' as noted in the objective section, which could indicate pulmonary congestion, a hallmark of CHF. However, the echocardiogram result showing 'nl ef' (normal ejection fraction) argues against systolic heart failure, a common form of CHF. The patient's 'lactate 2.3 up from 1.1 over 24 hrs' could indicate some degree of tissue hypoperfusion, but this is not specific to CHF. The presence of 'worsening COPD' and positive 'c diff' could also contribute to the patient's respiratory symptoms, making the diagnosis of CHF less clear. Despite these mixed findings, the combination of severe aortic stenosis, moderate pulmonary hypertension, and signs of pulmonary congestion lean towards the possibility of CHF, particularly diastolic heart failure, which would not be reflected in a reduced ejection fraction. However, without more definitive evidence such as elevated BNP levels or clear signs of fluid overload (e.g., significant edema, ascites), the diagnosis remains uncertain. Given the information provided and focusing on the potential for diastolic dysfunction in the context of severe AS and pulmonary hypertension, the most likely conclusion, albeit with some uncertainty, is that CHF could be present, particularly if considering diastolic heart failure.",False,"The patient has severe aortic stenosis (AS) and moderate pulmonary hypertension, which could contribute to heart failure. However, the echocardiogram shows a normal ejection fraction (EF), which argues against congestive heart failure. The clinical presentation of mild labored breathing and tachypnea could be related to other conditions such as COPD or pneumonia."
+357,125385.txt,"chief complaint: 24 hour events: - amio decreased to 200qd - increased lasix gtt to 10/hr, no bolus - started coumadin for af - guaiac positive stool, sent for c. diff, returned negative - spoke with ir, offered to reposition picc and could do so with pt at 30 degree angle, so picc replaced in the afternoon - drank pre-thickened milkshake yesterday, with frequent coughing - patient slept well with mirtazapine qhs, still somewhat sleepy this am, falling asleep intermittently during exam allergies: hydrochlorothiazide rash;","last dose of antibiotics: acyclovir -  04:00 pm meropenem -  08:58 pm infusions: heparin sodium - 650 units/hour furosemide (lasix) - 10 mg/hour other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:56 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.2 c (97.2 tcurrent: 36.2 c (97.2 hr: 98 (90 - 108) bpm bp: 92/48(63) {72/38(49) - 108/59(74)} mmhg rr: 24 (10 - 29) insp/min spo2: 97% heart rhythm: af (atrial fibrillation) wgt (current): 80.7 kg (admission): 74.4 kg height: 65 inch cvp: 4 (4 - 5)mmhg total in: 3,055 ml 924 ml po: tf: 1,296 ml 494 ml ivf: 789 ml 119 ml blood products: total out: 3,410 ml 1,765 ml urine: 3,110 ml 1,640 ml ng: stool: 300 ml drains: balance: -355 ml -841 ml respiratory support o2 delivery device: nasal cannula spo2: 97% abg: ///38/ physical examination general: elderly woman, lying in bed, ng tube in place, nc in nares, nad heent: nc/at, lower lip with crusted lesions that appear improved from prior cardiology: ii/vi systolic murmur heard best at the lusb pulmonary: bronchial breath sounds throughout the anterior chest, diminished breath sounds at the bases bilaterally abdominal: soft, non-tender, non-distended, normoactive bowel sounds extremities: warm, well-perfused, 2+ edema in lower extremities & right arm peripheral vascular: (right radial pulse: not assessed as a-line in place), (left radial pulse: palpable), (right dp pulse: palpable), (left dp pulse: palpable) skin:  blood-crusted lesions along lower lip and vermilion border, no active bleeding or erosions, no exudate, no vesicles neurologic: alert & oriented x 3, can move all extremities with purposeful movement, easily conversant labs / radiology 643 k/ul 8.8 g/dl 113 mg/dl 0.7 mg/dl 38 meq/l 3.2 meq/l 40 mg/dl 104 meq/l 148 meq/l 27.3 % 12.7 k/ul [image002.jpg]   03:00 pm   03:07 pm   03:14 pm   05:06 pm   02:39 am   03:51 am   05:02 am   06:25 am   05:08 pm   04:14 am wbc 11.6 12.5 12.0 12.5 12.7 hct 29.2 26.8 24.5 25.5 27.5 27.3 plt 97 643 cr 0.6 0.6 0.7 0.7 tco2 41 39 40 glucose 132 127 106 113 other labs: pt / ptt / inr:12.9/64.6/1.1, ck / ckmb / troponin-t:13//<0.01, alt / ast:, alk phos / t bili:78/0.2, differential-neuts:76.3 %, band:2.0 %, lymph:16.3 %, mono:3.9 %, eos:3.2 %, lactic acid:0.7 mmol/l, albumin:2.0 g/dl, ldh:179 iu/l, ca++:8.5 mg/dl, mg++:2.1 mg/dl, po4:3.1 mg/dl",deconditioned; chronic schf; leukocytosis; anemia; severe mr; af; ,deconditioned; chronic systolic congestive heart failure; leukocytosis; anemia; severe mitral regurgitation; atrial fibrillation;,"['deconditioned', 'chronic systolic congestive heart failure', 'leukocytosis', 'anemia', 'severe mitral regurgitation', 'atrial fibrillation']","83 y.o woman with chronic sCHF (EF >60%) with 2 week history of
+   generalized weakness and shortness of breath, transferred to [**Hospital1 1**] for
+   heart failure and new afib with RVR, now improving after intubation
+   requiring pressors and a marked leukocytosis, concerning for septic
+   shock despite no positive cultures. Patient was extubated on [**12-17**],
+   respiratory status improving, but refusing MVR surgery needed for full
+   recovery.",False,"The patient presents with several signs and symptoms that could be indicative of congestive heart failure (CHF), such as a history of atrial fibrillation (AF), increased dosage of furosemide (Lasix), and the presence of 2+ edema in the lower extremities and right arm. Additionally, the patient has a systolic murmur and bronchial breath sounds throughout the anterior chest with diminished breath sounds at the bases, which could suggest pulmonary congestion. However, the patient's current vital signs, such as a blood pressure of 92/48 mmHg, heart rate of 98 bpm, and oxygen saturation of 97% on nasal cannula, do not strongly indicate acute decompensated heart failure. The central venous pressure (CVP) is 4 mmHg, which is within a relatively normal range. The patient's weight gain since admission could be due to fluid retention, a common feature of CHF. Despite these findings, the overall clinical picture does not conclusively point towards congestive heart failure without additional information such as echocardiogram results or more specific biomarkers like BNP (brain natriuretic peptide) levels. Given the information provided, while there are suggestive signs, they are not conclusive for a diagnosis of congestive heart failure.",True,"The patient has a history of atrial fibrillation, is on furosemide (a diuretic), and has 2+ edema in the lower extremities, suggesting possible fluid overload. The bronchial breath sounds throughout the anterior chest could indicate pulmonary congestion, which is consistent with congestive heart failure."
+390,146466.txt,"chief complaint: 24 hour events: transthoracic echo - at  09:07 am urine culture - at  10:33 am pa catheter - start  04:00 pm placed in cath lab through cordis -  stim 18 from 14. - svr's in 300s. got 4mg iv decadron. - checking act and  at 6am. - consider endocrine consult today. - went to or. co changed with levo/off levo -inconsistent with restrictive cardiomyopathy. - off levo, svr was low. consider sepsis (having back pain, abdominal pain). - cxr/kub now, consider ct scan in am. - repeat blood cx sent (afebrile) started on broad spectrum abx with vanc/zosyn/levo. - also has large pleural effusions, possible site infection, consider tap in am. - biopsy deferred with rec to f/u spep ? myeloma. consider biopsy in future if primary amyloidosis of heart is still a consideration. - svr low. swan placed in or. - returned to floor on levo/neo with bp's 98/48 systolic. allergies: no known drug allergies","last dose of antibiotics: cefipime -  04:00 am piperacillin/tazobactam (zosyn) -  07:02 pm piperacillin -  09:23 pm levofloxacin -  09:28 pm vancomycin -  11:00 pm infusions: other icu medications: heparin sodium (prophylaxis) -  07:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:01 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 37.6 c (99.7 tcurrent: 37.6 c (99.7 hr: 56 (56 - 93) bpm bp: 82/47(60) {80/42(53) - 119/60(77)} mmhg rr: 11 (10 - 22) insp/min spo2: 96% heart rhythm: 1st av (first degree av block) height: 70 inch cvp: 20 (14 - 26)mmhg pap: (46 mmhg) / (26 mmhg) co/ci (fick): (8 l/min) / (3.9 l/min/m2) mixed venous o2% sat: 65 - 71 total in: 2,116 ml 244 ml po: 500 ml tf: ivf: 1,616 ml 244 ml blood products: total out: 1,360 ml 125 ml urine: 1,360 ml 125 ml ng: stool: drains: balance: 756 ml 119 ml respiratory support o2 delivery device: nasal cannula spo2: 96% abg: 7.25/49/91./18/-5 physical examination general: alert; nad. cardiac: rrr, normal s1, s2. no m/r/g. no s3 or s4. lungs: bronchial breath sounds throughout; no notable crackles heard. abdomen: non-tender. somewhat distended. bowel sounds present. no masses appreciated. no rebound or guarding. extremities: pitting edema in the bilateral le's to the thighs. some ttp in the distal rle. labs / radiology 209 k/ul 8.2 g/dl 126 mg/dl 2.2 mg/dl 18 meq/l 5.1 meq/l 41 mg/dl 108 meq/l 135 meq/l 23 9.5 k/ul [image002.jpg]   02:38 am   04:30 pm   05:09 am   10:00 am   03:05 pm   07:40 pm   08:00 pm   02:59 am   03:15 am wbc 6.3 8.8 9.5 hct 23.8 24.7 25.9 25 25 26.2 23 plt 187 209 209 cr 2.1 2.1 2.2 2.2 tropt 0.21 0.21 tco2 23 glucose 104 121 115 126 other labs: pt / ptt / inr:12.9/34.6/1.1, ck / ckmb / troponin-t:81/4/0.21, alt / ast:23/27, alk phos / t bili:135/0.4, lactic acid:1.0 mmol/l, albumin:2.5 g/dl, ldh:152 iu/l, ca++:8.3 mg/dl, mg++:2.0 mg/dl, po4:5.0 mg/dl",hypotension; acute on chronic renal failure; diastolic congestive heart failure; copd; ,hypotension; acute on chronic renal failure; diastolic congestive heart failure; chronic obstructive pulmonary disease;,"['hypotension', 'acute on chronic renal failure', 'diastolic congestive heart failure', 'chronic obstructive pulmonary disease']","74 y/o M with history of HTN, COPD, dCHF (last EF 55% with LVH),
+   admitted for CHF exacerbation.",False,"The patient presents with several signs and symptoms that could be indicative of congestive heart failure (CHF), such as large pleural effusions, pitting edema in the bilateral lower extremities, and a history of potential cardiac issues (e.g., consideration of restrictive cardiomyopathy and primary amyloidosis of the heart). However, the patient's current hemodynamic parameters, including a low systolic blood pressure (82 mmHg) and low systemic vascular resistance (SVR), are more suggestive of shock than CHF. The presence of sepsis, indicated by back pain, abdominal pain, and the initiation of broad-spectrum antibiotics, further supports the diagnosis of septic shock over CHF. Additionally, the patient's cardiac examination shows a regular rate and rhythm (RRR) with normal S1 and S2 heart sounds and no murmurs, which does not strongly support CHF. While the patient has some findings that could be consistent with CHF, such as edema and pleural effusions, the overall clinical picture, including the patient's hemodynamic status and the presence of sepsis, does not strongly support a diagnosis of congestive heart failure at this time.",True,"The patient has large pleural effusions, pitting edema in the bilateral lower extremities, and a history of possible restrictive cardiomyopathy, which are all indicative of congestive heart failure. The patient's low systolic blood pressure and requirement for vasopressors also suggest poor cardiac output, consistent with heart failure."
+432,177953.txt,"title: chief complaint: shortness of breath 24 hour events: : -- discussion with patient and son  (hcp) decision made to make patient dnr/dni (pressors and lines okay) -- increased metoprolol to 25 mg  -- osh micro 2/4 bottles blood cx mrsa -- sputum mrsa and p. aeruginosa -- will consult id in am -- pressors continued to maintain lactate < 2, uop > 40cc/hr allergies: no known drug allergies","last dose of antibiotics: piperacillin -  04:00 am metronidazole -  08:30 am vancomycin -  12:30 pm piperacillin/tazobactam (zosyn) -  04:07 am infusions: norepinephrine - 0.08 mcg/kg/min heparin sodium - 400 units/hour other icu medications: omeprazole (prilosec) -  08:30 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   05:46 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.4 c (97.6 tcurrent: 35.7 c (96.3 hr: 93 (82 - 101) bpm bp: 102/57(72) {84/49(61) - 136/70(91)} mmhg rr: 38 (16 - 40) insp/min spo2: 100% heart rhythm: af (atrial fibrillation) cvp: 17 (13 - 18)mmhg mixed venous o2% sat: 54 - 54 total in: 2,465 ml 199 ml po: 600 ml tf: ivf: 1,865 ml 199 ml blood products: total out: 942 ml 185 ml urine: 942 ml 185 ml ng: stool: drains: balance: 1,523 ml 14 ml respiratory support o2 delivery device: nasal cannula spo2: 100% abg: 7.30/47/33/22/-4 physical examination general:  nad, pleasant cardiac:  distant heart sounds, tachycardic, no mrg lung:  some ronchi at l base with minimal rales at r base, comfortable breathing abdomen: + bs, soft, ruq tenderness, no rebound, no guarding ext:  warm, dry, no edema neuro:  a+o x 3, no focal deficits. derm:  no rashes, small scattered ecchymoses, warm, dry labs / radiology 192 k/ul 10.3 g/dl 87 mg/dl 1.5 mg/dl 22 meq/l 4.0 meq/l 44 mg/dl 109 meq/l 140 meq/l 30.8 % 13.6 k/ul [image002.jpg]   06:25 am   02:11 pm   11:47 pm   04:09 am   05:23 pm   03:58 am   03:11 pm   03:39 am   03:49 am wbc 13.3 20.4 21.3 13.6 hct 31.0 34.3 33.2 30.8 plt 142 181 199 192 cr 1.3 1.5 1.7 1.6 1.5 tropt 0.41 0.59 0.67 0.67 0.62 tco2 24 glucose 176 146 131 281 87 other labs: pt / ptt / inr:19.3/121.1/1.8, ck / ckmb / troponin-t:68/12/0.62, alt / ast:31/44, alk phos / t bili:72/0.7, differential-neuts:85.6 %, band:0.0 %, lymph:8.4 %, mono:5.1 %, eos:0.6 %, lactic acid:1.4 mmol/l, ldh:245 iu/l, ca++:8.4 mg/dl, mg++:1.8 mg/dl, po4:3.3 mg/dl",sepsis: source likely pneumonia and mrsa bacteremia; chronic systolic chf; atrial fibrillation; acute on chronic renal failure; dm2; ,sepsis source likely pneumonia and methicillin resistant staphylococcus aureus bacteremia; chronic systolic congestive heart failure; atrial fibrillation; acute on chronic renal failure; diabetes mellitus type ;,"['sepsis source likely pneumonia and methicillin resistant staphylococcus aureus bacteremia', 'chronic systolic congestive heart failure', 'atrial fibrillation', 'acute on chronic renal failure', 'diabetes mellitus type']","81 year old man with a history of CHF, Afib, COPD and DM2 presented to
+   an OSH after several days of nausea, vomiting, and diarrhea with new
+   onset altered mental status transferred for management of sepsis found
+   to have PNA and MRSA bacteremia.",True,"The patient presents with shortness of breath, a common symptom of congestive heart failure (CHF). The objective findings of distant heart sounds, tachycardia, and atrial fibrillation (AF) also support CHF, as AF can lead to decreased cardiac output and contribute to heart failure. Additionally, the patient's elevated troponin level (0.62) indicates myocardial injury, which can be associated with CHF. However, the absence of explicit signs of fluid overload, such as significant edema or pulmonary edema on examination, and the relatively low central venous pressure (CVP) of 17 mmHg, might argue against severe CHF. Nonetheless, the combination of shortness of breath, AF, and myocardial injury, along with the clinical context of pressor use to maintain adequate blood pressure and the patient's overall critical condition, leans towards the diagnosis of congestive heart failure.",False,"The patient has a history of shortness of breath, distant heart sounds, and tachycardia, which could be indicative of congestive heart failure. However, the patient's vital signs and other lab results do not strongly support this diagnosis. The patient's CVP is within normal limits, and there is no mention of significant fluid overload or pulmonary edema. Therefore, the diagnosis is uncertain but leans towards false."

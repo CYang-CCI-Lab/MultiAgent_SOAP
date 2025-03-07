@@ -1,0 +1,1357 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_gastrointestinal_bleed_pred_single,is_gastrointestinal_bleed_reasoning_single,is_gastrointestinal_bleed_pred_multi,is_gastrointestinal_bleed_reasoning_multi
+5,100326.txt,"multi lumen - start [**2159-8-12**] 01:36 pm
+transfused a total of 4 units prbcs
+gi and surgery consulted
+developed cool blue foot; vascular surgery consulted.
+had agitation/delerium overnight--no response to haldol 0.5 mg x 2.
+pneumococcal vaccine
+unknown;
+influenza virus vaccine
+unknown;
+sulfa (sulfonamides)
+unknown;
+penicillins
+unknown;
+review of systems is unchanged from admission except as noted below
+review of systems:
+denies any pain","last dose of antibiotics:
+metronidazole - [**2159-8-13**] 04:33 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2159-8-12**] 09:09 pm
+heparin sodium (prophylaxis) - [**2159-8-12**] 09:09 pm
+other medications:
+flowsheet data as of  [**2159-8-13**] 07:57 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36
+c (96.8
+tcurrent: 35.8
+c (96.4
+hr: 113 (102 - 125) bpm
+bp: 124/60(76) {74/33(47) - 136/99(106)} mmhg
+rr: 11 (11 - 27) insp/min
+spo2: 95%
+heart rhythm: st (sinus tachycardia)
+height: 60 inch
+cvp: 9 (4 - 12)mmhg
+total in:
+2,641 ml
+258 ml
+po:
+tf:
+ivf:
+1,891 ml
+258 ml
+blood products:
+750 ml
+total out:
+425 ml
+710 ml
+urine:
+425 ml
+710 ml
+ng:
+stool:
+drains:
+balance:
+2,216 ml
+-452 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ///21/
+general appearance: thin, anxious
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (left dp pulse: diminished), r dp- dopplerable
+respiratory / chest: (breath sounds: clear : )
+abdominal: soft, mildly distended, non-tender, +ecchymosis
+skin:  not assessed
+neurologic: follows simple commands, responds to: not assessed,
+oriented (to): self, movement: not assessed, tone: not assessed
+196 k/ul
+12.3 g/dl
+177 mg/dl
+1.6 mg/dl
+21 meq/l
+5.8 meq/l
+62 mg/dl
+109 meq/l
+136 meq/l
+35.7 %
+15.4 k/ul
+[image002.jpg]
+[**2159-8-12**]  02:32 pm
+[**2159-8-13**]  12:02 am
+[**2159-8-13**]  05:56 am
+wbc
+14.9
+15.4
+hct
+27.2
+36.1
+35.7
+plt
+222
+196
+cr
+1.7
+1.6
+glucose
+251
+177
+other labs: pt / ptt / inr:13.8/33.1/1.2, lactic acid:1.5 mmol/l,
+ca++:8.0 mg/dl, mg++:2.5 mg/dl, po4:3.9 mg/dl","shock- likely hypovolemic from gi bleed, but may have septic
+   component as well given uti,; gib bleed; possible sepsis- ? urosepsis; hyperkalemia; anemia",shock likely hypovolemic from gastrointestinal bleed but may have septic component as well given urinary tract infection ; gastrointestinal bleed bleed; possible sepsis urosepsis; hyperkalemia; anemia,"['shock likely hypovolemic from gastrointestinal bleed but may have septic component as well given urinary tract infection', 'gastrointestinal bleed bleed', 'possible sepsis urosepsis', 'hyperkalemia', 'anemia']","[**Age over 90 382**]F presents with history of GERD, dementia, MRSA UTI presents from [**Hospital1 169**]
+   with shock, UTI and GI bleed.
+   .",True,"The patient's history of being transfused a total of 4 units of PRBCs (packed red blood cells) and the involvement of GI and surgery consultants suggest a potential gastrointestinal bleed. Additionally, the administration of pantoprazole (a proton pump inhibitor) could indicate an attempt to manage or prevent gastrointestinal bleeding. The patient's abdominal examination shows a soft, mildly distended abdomen with ecchymosis, which could be indicative of bleeding. However, the absence of explicit symptoms such as melena (black, tarry stools) or hematemesis (vomiting blood) in the provided information makes the diagnosis less straightforward. Despite this, the overall clinical context, including the transfusion of blood products and the specific consultations, leans towards the presence of a gastrointestinal bleed. Therefore, considering the available evidence, the diagnosis of gastrointestinal bleed is likely true.",False,"The patient has been transfused with 4 units of PRBCs, which could suggest significant blood loss, potentially from a gastrointestinal bleed. However, there's no direct evidence provided in the SOAP note, such as melena, hematemesis, or a drop in hemoglobin/hematocrit that would confirm a gastrointestinal bleed."
+18,190911.txt,"ercp - at [**2143-10-8**] 11:53 am
+nasal swab - at [**2143-10-8**] 01:46 pm
+ekg - at 11/[**numeric identifier 9925**] 01:50 pm
+ekg - at [**2143-10-8**] 03:05 pm
+-seen by cardiology who recommended starting warfarin this evening at
+his home dose ( we will start heparin bridge today)
+hct at 4am.  4 am 27.7, hcts stable
+-s/p ercp s/p biliary stent, doing well no further episodes of melena,
+no abd pain
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+morphine sulfate - [**2143-10-8**] 03:05 pm
+pantoprazole (protonix) - [**2143-10-8**] 10:00 pm
+other medications:
+flowsheet data as of  [**2143-10-9**] 07:30 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.1
+c (97
+tcurrent: 36.1
+c (96.9
+hr: 67 (63 - 70) bpm
+bp: 121/37(58) {102/30(51) - 172/64(89)} mmhg
+rr: 21 (9 - 23) insp/min
+spo2: 100%
+heart rhythm: af (atrial fibrillation)
+total in:
+3,783 ml
+po:
+tf:
+ivf:
+810 ml
+blood products:
+total out:
+2,500 ml
+975 ml
+urine:
+1,900 ml
+975 ml
+ng:
+stool:
+drains:
+balance:
+1,283 ml
+-975 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ///23/
+general: pleasant, well appearing in nad
+heent: normocephalic, atraumatic. no conjunctival pallor. no scleral
+icterus. perrla. mmm. op clear no blood in pharynx.
+cardiac: rrr. normal loud click of mechanical [**year (4 digits) 4601**]. no murmurs, rubs
+or [**last name (un) 4808**]. no jvd. no carotid bruit.  cabg scar.
+lungs: ctab, good air movement biaterally.
+abdomen: +bs. soft, nt, nd. no hsm. no ruq tenderness.  rash from
+previous ekg lead. old black stool present.  guiac + in ed.
+extremities: no edema, 2+ dorsalis pedis.
+skin: + erythematous macules on back.
+neuro: alert and responding appropriately to questions. cn 2-12 intact.
+preserved sensation throughout grossly. 5/5 strength ue and le. gait
+assessment deferred
+psych: listens and responds to questions appropriately, pleasant.
+139 k/ul
+9.1 g/dl
+114 mg/dl
+1.6 mg/dl
+23 meq/l
+4.5 meq/l
+46 mg/dl
+111 meq/l
+142 meq/l
+27.7 %
+4.6 k/ul
+image002.jpg]
+[**2143-10-8**]  09:40 am
+[**2143-10-8**]  02:26 pm
+[**2143-10-8**]  09:52 pm
+[**2143-10-9**]  03:35 am
+wbc
+4.8
+4.6
+hct
+30.1
+29.7
+26.8
+27.7
+plt
+148
+139
+cr
+1.4
+1.6
+tropt
+<0.01
+<0.01
+glucose
+138
+114
+other labs: pt / ptt / inr:16.0/27.5/1.4, ck / ckmb /
+troponin-t:21/2/<0.01, alt / ast:21/15, alk phos / t bili:93/0.7,
+ldh:138 iu/l, ca++:8.7 mg/dl, mg++:2.0 mg/dl, po4:2.9 mg/dl",gib; cad s/p avr-; . dm:,gastrointestinal bleeding; coronary artery disease status post aortic valve replacement ; diabetes mellitus,"['gastrointestinal bleeding', 'coronary artery disease status post aortic valve replacement', 'diabetes mellitus']","Mr. [**Known lastname 6148**] is a lovely 78 year-old gentleman w/ CAD s/p AVR w/
+   mechanical [**First Name8 (NamePattern2) **] [**First Name7 (NamePattern1) 1104**]
+[**Initials (NamePattern4) **] [**Last Name (NamePattern4) 4601**] (on Coumadin at home), DM2, and Prostate CA
+   who was admitted to the ICU for melena and lightheadedness w/ etiology
+   of GIB from previous ERCP ([**2143-10-3**]), now s/p ERCP ([**2143-10-8**]) w/
+   placement of double-pigtail stent, doing well without complaints of
+   abdominal pain or further episodes of bleeding",True,"The patient has a history of melena, which is a symptom of gastrointestinal bleed, but it is noted that there have been no further episodes of melena. The guiac test was positive in the ED, indicating the presence of blood in the stool. However, the patient's hemoglobin (hct) levels have been stable, and there is no current evidence of active bleeding. The patient is also on anticoagulation therapy, which could increase the risk of bleeding. Considering these factors, the evidence suggests that the patient had a gastrointestinal bleed in the past, but there is no clear indication of an active bleed at present. Nonetheless, given the history and positive guiac test, it leans towards the patient having experienced a gastrointestinal bleed.",False,"The patient has a history of melena, but there is no current evidence of active gastrointestinal bleeding. The patient's hemoglobin and hematocrit are stable, and there is no mention of hematemesis or coffee ground emesis."
+21,187277.txt,"64m with hiv/aids on haart, hbv, cirrhosis c/b
+esophageal and gastric varices and recent presentation for variceal
+bleed and now s/p successful tips
+- tips placed
+- transfused 2 units in afternoon, none overnight. no further bleeding.
+sulfa (sulfonamide antibiotics)
+rash;
+penicillins
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2200-3-18**] 06:41 pm
+infusions:
+pantoprazole (protonix) - 8 mg/hour
+octreotide - 50 mcg/hour
+other icu medications:
+morphine sulfate - [**2200-3-18**] 07:53 pm
+other medications:
+flowsheet data as of  [**2200-3-19**] 07:38 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**01**] am
+tmax: 36.8
+c (98.2
+tcurrent: 36.8
+c (98.2
+hr: 63 (59 - 85) bpm
+bp: 127/55(73) {106/44(63) - 134/62(78)} mmhg
+rr: 15 (10 - 21) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 66 inch
+total in:
+2,887 ml
+262 ml
+po:
+tf:
+ivf:
+187 ml
+262 ml
+blood products:
+700 ml
+total out:
+5,520 ml
+640 ml
+urine:
+2,920 ml
+640 ml
+ng:
+stool:
+drains:
+balance:
+-2,633 ml
+-378 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///29/
+general cachectic, no acute distress
+heent anicteric, no bleeding in oropharynx, no thrush
+pulm lungs clear bilaterally
+cv regular s1 s2 iii/vi systolic murmur throughout precordium
+abd soft mildly distended but soft and nontender +bowel sounds
+extrem warm no edema palpable distal pulses
+neuro alert and answering appropriately
+derm multiple tattoos, no jaundice
+/
+157 k/ul
+9.3 g/dl
+95 mg/dl
+1.1 mg/dl
+29 meq/l
+3.2 meq/l
+14 mg/dl
+109 meq/l
+145 meq/l
+27.0 %
+9.1 k/ul
+image002.jpg]
+[**2200-3-18**]  01:59 pm
+[**2200-3-18**]  05:35 pm
+[**2200-3-18**]  09:59 pm
+[**2200-3-19**]  03:13 am
+wbc
+4.6
+9.1
+hct
+18.1
+25.9
+27.6
+27.0
+plt
+144
+157
+cr
+1.1
+1.1
+tropt
+<0.01
+<0.01
+glucose
+141
+95
+other labs: pt / ptt / inr:13.8/25.3/1.2, ck / ckmb /
+troponin-t:101/3/<0.01, alt / ast:48/75, alk phos / t bili:130/1.9,
+albumin:2.6 g/dl, ca++:9.0 mg/dl, mg++:1.9 mg/dl, po4:3.1 mg/dl
+[**3-18**]
+hepb and hepc viral loads pending",ugib; cirrhosis; hiv/aids; htn:,upper gastrointestinal bleeding; cirrhosis; human immunodeficiency virus acquired immunodeficiency syndrome; hypertension,"['upper gastrointestinal bleeding', 'cirrhosis', 'human immunodeficiency virus acquired immunodeficiency syndrome', 'hypertension']","This 64M with HIV/AIDS on HAART, HBV, cirrhosis c/b esophageal and
+   gastric varices and recent presentation for variceal bleed s/p failed
+   TIPS returns with hematemesis",True,"The patient has a history of cirrhosis with esophageal and gastric varices, and a recent presentation for variceal bleed, which is a common cause of gastrointestinal bleeding. The patient underwent a successful Transjugular Intrahepatic Portosystemic Shunt (TIPS) procedure, which is often performed to treat variceal bleeding. The patient was also transfused 2 units of blood, indicating significant blood loss. However, there is no further mention of active bleeding after the TIPS procedure and transfusion. The patient's vital signs and laboratory results, including hemoglobin and hematocrit levels, are stable. The presence of octreotide, a medication often used to treat variceal bleeding, and pantoprazole, a proton pump inhibitor, also supports the diagnosis of gastrointestinal bleed. Given the patient's history and the recent intervention, it is likely that the gastrointestinal bleed has been successfully managed, but the history of bleed is still relevant to the patient's current condition.",False,The patient has a history of recent variceal bleed and has undergone a successful TIPS procedure. The patient was transfused 2 units of blood in the afternoon but had no further bleeding overnight. This suggests that the gastrointestinal bleed has been managed and is no longer active.
+31,104988.txt,"fever - 101.4
+f - [**2160-11-8**] 03:00 am, cx
+egd 7pm: old blood in stomach, no active bleeding; octreotide gtt d/c'd
+hct 24, transfused 1 unit
+methamphetamines positive on u tox
+this am, pt denies any methamphetamine or otc medication use. reports
+only taking prescription meds. denies n/v. no b or emesis since
+admission. c/o diffuse abd. pain, strongest under left rib, worse with
+deep breathing.
+lasix (oral) (furosemide)
+rash;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2160-11-8**] 01:57 am
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2160-11-8**] 06:13 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.6
+c (101.4
+tcurrent: 38.6
+c (101.4
+hr: 103 (98 - 156) bpm
+bp: 126/69(82) {125/67(80) - 169/128(131)} mmhg
+rr: 16 (14 - 26) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+height: 68 inch
+total in:
+1,248 ml
+654 ml
+po:
+50 ml
+tf:
+ivf:
+973 ml
+604 ml
+blood products:
+275 ml
+total out:
+450 ml
+150 ml
+urine:
+450 ml
+150 ml
+ng:
+stool:
+drains:
+balance:
+798 ml
+504 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///26/
+general: wdwn, nad, breathing comfortably on ra
+heent: perrl, eomi, icteric sclera, conjunctivae pink
+neck: supple, trachea midline, no thyromegaly or masses, no lad
+cardiac: tachycardic, regular, s1s2 normal, no m/r/g, no jvd
+pulmonary: ctab
+abdomen: +bs, soft, c/o diffuse mild tenderness, no focality, unable to
+appreciate frank ascites or hsm, no spiders or caput, no rebound or
+guarding
+extremities: warm, 2+ dp pulses, no edema
+neuro: a&ox3, speech clear and logical, cnii-xii intact, moves all
+extremities, no asterixis, mild tremulousness
+48 k/ul
+8.2 g/dl
+114 mg/dl
+0.6 mg/dl
+26 meq/l
+3.2 meq/l
+6 mg/dl
+102 meq/l
+137 meq/l
+24.9 %
+4.4 k/ul
+[image002.jpg]
+[**2160-11-7**]  06:00 pm
+[**2160-11-7**]  08:15 pm
+[**2160-11-8**]  04:42 am
+wbc
+4.4
+hct
+22.7
+24.0
+24.9
+plt
+48
+cr
+0.6
+tropt
+<0.01
+glucose
+114
+other labs: pt / ptt / inr:16.1/27.0/1.4, ck / ckmb /
+troponin-t:55//<0.01, alt / ast:33/76, alk phos / t bili:231/3.1,
+amylase / lipase:34/35, albumin:3.4 g/dl, ldh:149 iu/l, ca++:8.0 mg/dl,
+mg++:1.5 mg/dl, po4:2.2 mg/dl
+tsh 2.8 ggt 1477 serum tox neg, urine tox pos methamphetamines
+blood cx, urine cx no growth
+ruq us read pending
+tte pending
+egd as above",gi bleeding; tachycardia; fever; syncope; cirrhosis:  due to etoh,gastrointestinal bleeding; tachycardia; fever; syncope; cirrhosis due to ethanol,"['gastrointestinal bleeding', 'tachycardia', 'fever', 'syncope', 'cirrhosis due to ethanol']",,True,"The patient's presentation includes several key indicators suggestive of a gastrointestinal bleed. The EGD performed at 7 pm showed old blood in the stomach with no active bleeding, which directly supports the diagnosis of a gastrointestinal bleed. Additionally, the patient's low hematocrit (hct) of 24 and the need for a blood transfusion of 1 unit further support this diagnosis, as they indicate significant blood loss. The patient's symptoms of diffuse abdominal pain, strongest under the left rib and worsening with deep breathing, could be related to the gastrointestinal bleed, although they are non-specific. The presence of icteric sclera (indicative of jaundice) and elevated liver enzymes (ALT/AST) may suggest liver dysfunction, which could be related to the bleed or other underlying conditions. However, the absence of active bleeding at the time of the EGD and the lack of recent emesis or melena (black, tarry stools) might suggest that the bleed has stopped or is not currently active. Despite these considerations, the cumulative evidence from the EGD findings, low hematocrit, and transfusion requirement strongly supports the diagnosis of a gastrointestinal bleed.",False,"The patient had an EGD that showed old blood in the stomach, but no active bleeding. The patient's hemoglobin and hematocrit levels are low (8.2 g/dL and 24.9%, respectively), but the patient received a transfusion of 1 unit of blood, which may have affected these values. The patient denies any nausea or vomiting, and there is no evidence of active bleeding."
+38,147724.txt,"-femoral line in place (right femoral line)
+-ekg no evidence of hyperkalemia
+-paracentesis (2l removed)
+-drinking contrast for ct of abdomen and pelvis
+no known drug allergies
+===== label: none =====
+last dose of antibiotics:
+ceftriaxone - [**2191-9-20**] 10:00 pm
+vancomycin - [**2191-9-21**] 01:00 am
+piperacillin/tazobactam (zosyn) - [**2191-9-21**] 02:00 am
+infusions:
+octreotide - 50 mcg/hour
+other icu medications:
+pantoprazole (protonix) - [**2191-9-21**] 12:50 am
+other medications:
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","flowsheet data as of  [**2191-9-21**] 04:23 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 35.5
+c (95.9
+tcurrent: 35.1
+c (95.1
+hr: 105 (93 - 110) bpm
+bp: 102/37(53) {96/34(49) - 109/56(66)} mmhg
+rr: 21 (14 - 27) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+wgt (current): 78.7 kg (admission): 78.7 kg
+height: 67 inch
+bladder pressure: 17 (17 - 20) mmhg
+total in:
+2,780 ml
+5,537 ml
+po:
+180 ml
+tf:
+ivf:
+2,166 ml
+4,588 ml
+blood products:
+614 ml
+769 ml
+total out:
+49 ml
+16 ml
+urine:
+49 ml
+16 ml
+ng:
+stool:
+drains:
+balance:
+2,731 ml
+5,521 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///11/
+gen: acute on chronically ill appearing middle aged male, nad heent:
+sclera icteric, mmm slightly dry, op with dried blood present cv:
+regular rate, tachycardic, no m/r/g, lungs: cta anteriorly [**last name (un) **]:
+decreased bowel sounds, soft, distended, + shifting dullness, mildly
+tender, no rebound/guarding extrem: no edema skin: icteric, warm,
+slightly [**doctor last name 988**], spider angiomata
+neuro: aaox3,  + asterixis, tongue fasiculations
+134 k/ul
+8.2 g/dl
+104 mg/dl
+4.3 mg/dl
+11 meq/l
+5.9 meq/l
+90 mg/dl
+94 meq/l
+124 meq/l
+24.8 %
+33.8 k/ul
+wbc
+37.1
+33.8
+hct
+25.6
+24.8
+plt
+139
+134
+cr
+4.2
+4.3
+glucose
+97
+104
+other labs: pt / ptt / inr:30.6/43.9/3.0, alt / ast:23/44, alk phos / t
+bili:72/12.9, differential-neuts:86.0 %, band:3.0 %, lymph:4.0 %,
+mono:5.0 %, eos:0.0 %, fibrinogen:152 mg/dl, lactic acid:6.3 mmol/l,
+albumin:2.5 g/dl, ldh:201 iu/l, ca++:7.3 mg/dl, mg++:2.0 mg/dl, po4:8.5
+mg/dl",sepsis; gi bleed; metabolic acidosis; oliguria; coagulopathy:; esld; ascites; hypoalbuminemia,sepsis; gastrointestinal bleed; metabolic acidosis; oliguria; coagulopathy ; end stage liver disease; ascites; hypoalbuminemia,"['sepsis', 'gastrointestinal bleed', 'metabolic acidosis', 'oliguria', 'coagulopathy', 'end stage liver disease', 'ascites', 'hypoalbuminemia']","49M with PMHx significant for ESLD secondary to hepatitis C and EtOH
+   abuse who presents with coffee ground emesis/melena, also septic in
+   setting of no SBP prophylaxis.",True,"The patient's presentation suggests a high likelihood of gastrointestinal bleed. Key clues include the presence of dried blood in the oral cavity (op with dried blood present), the administration of octreotide (50 mcg/hour), which is often used to treat bleeding esophageal varices, and the presence of sclera icteric and skin icteric, indicating jaundice, which can be associated with liver disease and portal hypertension, a common cause of gastrointestinal bleeding. Additionally, the patient is on pantoprazole (protonix), which could be used to reduce gastric acid production in the setting of a bleed. The patient's lab results show an elevated INR (3.0), low albumin (2.5 g/dl), and elevated liver enzymes (ALT/AST), further supporting the presence of liver disease. The presence of spider angiomata and asterixis also points towards liver dysfunction. While the direct evidence of gastrointestinal bleeding (such as hematemesis or melena) is not explicitly mentioned, the combination of these findings in the context of a critically ill patient with signs of liver disease and the therapeutic interventions suggests a strong likelihood of gastrointestinal bleed.",False,"There is no specific evidence in the SOAP note to suggest a gastrointestinal bleed, such as hematemesis, melena, or a drop in hemoglobin/hematocrit. The patient is receiving pantoprazole, which could be for stress ulcer prophylaxis, but this does not confirm a gastrointestinal bleed."
+81,188087.txt,"gi recs: saw [**doctor first name **]-[**doctor last name **] tear. no evidence of active bleed. cont [**hospital1 **]
+ppi and h. pylori serologies
+hct: 26.3 (noon)--> 24.8 (5pm)--> 25.2
+hemolysis labs: negative
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","ast dose of antibiotics:
+infusions:
+other icu medications:
+midazolam (versed) - [**2160-3-11**] 12:05 pm
+fentanyl - [**2160-3-11**] 12:05 pm
+morphine sulfate - [**2160-3-12**] 12:42 am
+pantoprazole (protonix) - [**2160-3-12**] 05:00 am
+other medications:
+flowsheet data as of  [**2160-3-12**] 07:49 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**62**] am
+tmax: 37.6
+c (99.6
+tcurrent: 36.6
+c (97.8
+hr: 81 (70 - 109) bpm
+bp: 112/61(72) {103/41(56) - 129/78(88)} mmhg
+rr: 13 (10 - 16) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 81.3 kg (admission): 81.3 kg
+total in:
+703 ml
+88 ml
+po:
+tf:
+ivf:
+40 ml
+88 ml
+blood products:
+375 ml
+total out:
+1,490 ml
+200 ml
+urine:
+1,290 ml
+200 ml
+ng:
+200 ml
+stool:
+drains:
+balance:
+-787 ml
+-112 ml
+respiratory support
+o2 delivery device: none
+spo2: 99%
+abg: ///26/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+222 k/ul
+8.5 g/dl
+91 mg/dl
+0.7 mg/dl
+26 meq/l
+3.8 meq/l
+17 mg/dl
+109 meq/l
+139 meq/l
+23.7 %
+7.1 k/ul
+wbc
+10.6
+7.1
+hct
+26.6
+26.3
+24.8
+25.2
+23.7
+plt
+263
+222
+cr
+0.6
+0.7
+glucose
+115
+91
+other labs: pt / ptt / inr:13.3/22.4/1.1, alk phos / t bili:/0.4,
+differential-neuts:80.5 %, lymph:14.9 %, mono:4.2 %, eos:0.2 %, ldh:128
+iu/l, ca++:8.0 mg/dl, mg++:1.7 mg/dl, po4:3.4 mg/dl",upper gi bleed,upper gastrointestinal bleed,['upper gastrointestinal bleed'],"24 year old woman with no significant past medical history presenting
+   with acute upper GI bleed, with mild hemodynamic compromise",True,"The patient's report shows a decrease in hematocrit (hct) levels from 26.3 to 24.8, which suggests a potential gastrointestinal bleed. However, the subjective section mentions 'no evidence of active bleed.' The administration of pantoprazole (protonix) and the consideration of H. pylori serologies also hint at a gastrointestinal issue. Despite the lack of direct evidence of an active bleed, the fluctuations in hct levels and the medical interventions suggest that a gastrointestinal bleed is a possibility. Therefore, considering the clinical context and the provided information, the diagnosis of gastrointestinal bleed is likely true, given the indirect evidence of blood loss and the medical management that aligns with treating such a condition.",False,"Although the patient has a low hematocrit (hct) of 26.3, 24.8, and 25.2 at different times, and there is mention of 'gi recs' and 'no evidence of active bleed,' the provided information does not conclusively support an active gastrointestinal bleed at the time of the SOAP note."
+93,193670.txt,"egd on saturday a.m.  low o2sat of 91% after 5units prbc; gave
+furosemide 20mg iv x1 (pt's home dose of furosemide is 40mg daily).
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2149-1-24**] 02:00 pm
+other medications:
+flowsheet data as of  [**2149-1-25**] 07:01 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.6
+c (99.7
+tcurrent: 36.9
+c (98.5
+hr: 76 (70 - 98) bpm
+bp: 155/72(89){116/53(71) - 155/73(89)} mmhg
+rr: 15 (11 - 22) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+height: 68 inch
+total in:
+2,755 ml
+633 ml
+po:
+tf:
+ivf:
+1,024 ml
+blood products:
+1,731 ml
+633 ml
+total out:
+1,325 ml
+840 ml
+urine:
+1,325 ml
+840 ml
+ng:
+stool:
+drains:
+balance:
+1,430 ml
+-207 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///24/
+general appearance: well nourished, no acute distress
+head, ears, nose, throat: normocephalic
+lymphatic: cervical wnl, supraclavicular wnl
+cardiovascular: (s1: normal), (s2: normal), rrr
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (expansion: symmetric), (percussion: resonant : ),
+(breath sounds: clear : )
+abdominal: soft, non-tender, bowel sounds present
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+/
+151 k/ul
+7.3 g/dl
+109 mg/dl
+1.5 mg/dl
+24 meq/l
+3.9 meq/l
+61 mg/dl
+111 meq/l
+145 meq/l
+21.6 %
+6.1 k/ul
+[image002.jpg]
+[**2149-1-24**]  02:49 pm
+[**2149-1-24**]  09:00 pm
+wbc
+6.1
+hct
+20.2
+21.6
+plt
+151
+cr
+1.5
+tropt
+0.03
+glucose
+109
+other labs: pt / ptt / inr:24.2/35.8/2.4, ck / ckmb /
+troponin-t:158/3/0.03, differential-neuts:66.1 %, band:units: %
+range: 0-5 %, lymph:27.0 %, mono:5.0 %, eos:1.8 %, albumin:3.6 g/dl,
+ca++:8.0 mg/dl, mg++:2.3 mg/dl, po4:3.5 mg/dl",# gib:,gastrointestinal bleeding,['gastrointestinal bleeding'],A/P:78 yo M w/ MMP p/w GIB in setting of elevated INR,True,"The patient had an EGD (esophagogastroduodenoscopy) on Saturday, which is a procedure often used to investigate gastrointestinal bleeding. Additionally, the patient received 5 units of PRBC (packed red blood cells), indicating a significant blood loss. The low O2 saturation of 91% after the transfusion also suggests that the patient had a substantial bleed. However, the current vital signs, including a Spo2 of 98% on a nasal cannula and stable hemodynamics, indicate that the patient is currently stable. The abdominal exam shows a soft, non-tender abdomen with bowel sounds present, which does not strongly suggest active bleeding at the time of examination. Despite this, the recent history of EGD and blood transfusion, along with the mention of heparin sodium for prophylaxis, leans towards the patient having experienced a gastrointestinal bleed. The labs, including a low hematocrit (Hct) of 20.2 and 21.6, support the diagnosis of a recent bleed. Therefore, considering the recent medical history and interventions, the diagnosis of gastrointestinal bleed is likely true.",False,"The patient received 5 units of PRBC, which could suggest a significant blood loss, possibly from a gastrointestinal source. However, without explicit mention of gastrointestinal symptoms (e.g., melena, hematemesis) or a documented drop in hemoglobin/hematocrit, this remains speculative."
+138,148254.txt,"received 2 u prbcs and 2 ffp overnight.  receiving another u prbcs this
+am.
+no events overnight.
+
+penicillins
+unknown;
+demerol (oral) (meperidine hcl)
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+pantoprazole (protonix) - 8 mg/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2150-12-4**] 06:49 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.2
+c (97.2
+tcurrent: 35.7
+c (96.2
+hr: 80 (68 - 92) bpm
+bp: 116/67(86) {109/57(72) - 148/76(89)} mmhg
+rr: 18 (12 - 34) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+total in:
+2,161 ml
+1,467 ml
+po:
+tf:
+ivf:
+42 ml
+408 ml
+blood products:
+569 ml
+1,059 ml
+total out:
+180 ml
+300 ml
+urine:
+180 ml
+300 ml
+ng:
+stool:
+drains:
+balance:
+1,981 ml
+1,167 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///25/
+gen: awake, waxing and [**doctor last name 226**] mental status (attempting to eat
+stethoscope)
+heent: bitemporal wasting, op clear, dry mucous membranes
+cv rrr, nl s1, s2, no m/r/g
+pulm: small basilar crackles b/l
+abd: soft, nt, nd, +bs
+extem: no c/c/e, 2+dp pulses
+331 k/ul
+7.5 g/dl
+196 mg/dl
+1.1 mg/dl
+25 meq/l
+3.8 meq/l
+33 mg/dl
+125 meq/l
+158 meq/l
+22.3 %
+6.5 k/ul
+wbc
+7.2
+6.5
+hct
+16.4
+22.3
+plt
+479
+331
+cr
+1.3
+1.1
+tropt
+<0.01
+<0.01
+glucose
+122
+196
+other labs: pt / ptt / inr:14.9/24.2/1.3, ck / ckmb /
+troponin-t:50/2/<0.01, differential-neuts:73.3 %, band:0.0 %,
+lymph:21.4 %, mono:4.7 %, eos:0.3 %, ca++:7.8 mg/dl, mg++:2.6 mg/dl,
+po4:2.9 mg/dl
+urine lytes: creat:47, na:115, osmolal:552
+cxr [**12-3**] prelim read:
+motion artifact limits evaluation of lungs. vascular congestion, no
+overt
+pumonary edema. unchanged left basilar retrocardiac opacity and right
+basilar
+atelectasis. cardiac silhouette appears slightly larger, although this
+may be
+due to differences in technique.
+cxr this am:",hypovolemic shock; gi bleed; coagulopathy; acute renal failure,hypovolemic shock; gastrointestinal bleed; coagulopathy; acute renal failure,"['hypovolemic shock', 'gastrointestinal bleed', 'coagulopathy', 'acute renal failure']","85 year old female with history of PUD, DVT on ASA and coumadin,
+   admitted for GI bleed and hypovolemic shock.
+   .",True,"The patient received 2 units of PRBCs (Packed Red Blood Cells) and 2 units of FFP (Fresh Frozen Plasma) overnight, and another unit of PRBCs in the morning, which suggests a significant blood loss or anemia. The patient is also receiving pantoprazole (Protonix), a proton pump inhibitor, which is often used to reduce stomach acid and prevent bleeding in the gastrointestinal tract. Additionally, the patient's lab results show a low hemoglobin (Hct) level of 16.4 and a low hematocrit (Hct) level of 22.3, indicating anemia. However, there is no direct evidence of gastrointestinal bleeding, such as melena (black tarry stools) or hematemesis (vomiting blood), mentioned in the subjective or objective sections. Despite this, the patient's treatment and lab results suggest a possible gastrointestinal bleed, and the administration of blood products and proton pump inhibitor supports this diagnosis. Therefore, based on the available information, the diagnosis of gastrointestinal bleed is likely true.",False,"The patient received blood products (PRBCs and FFP), which could suggest a gastrointestinal bleed or another source of bleeding. However, without more specific evidence such as melena, hematemesis, or a drop in hemoglobin, it's difficult to conclude a GI bleed. The patient's hemoglobin and hematocrit levels are provided but without trend information or clear indication of acute blood loss, it's uncertain."
+144,110349.txt,"gib
+- ortho evaluated pt - blood in pre-patellar bursae b/l, no further
+evaluation needed
+- started cipro 500 mg q24h for uti
+- hct did not bump after 1st unit of prbcs
+- knee imaging deferred until am as pt has to stand for films
+- transfused 3 units prbcs over the night (hct 24->26 with 2 units)
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2136-3-14**] 06:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.2
+c (98.9
+tcurrent: 36.3
+c (97.4
+hr: 60 (60 - 75) bpm
+bp: 110/40(57) {110/38(57) - 124/52(97)} mmhg
+rr: 18 (12 - 22) insp/min
+spo2: 95%
+heart rhythm: v paced
+total in:
+1,100 ml
+476 ml
+po:
+tf:
+ivf:
+50 ml
+66 ml
+blood products:
+1,050 ml
+410 ml
+total out:
+605 ml
+160 ml
+urine:
+605 ml
+160 ml
+ng:
+stool:
+drains:
+balance:
+495 ml
+316 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///27/
+general appearance: well nourished, no acute distress
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+lymphatic: cervical wnl
+cardiovascular: (pmi normal), (s1: normal), (s2: normal), (murmur:
+systolic)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: present), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), (breath sounds: clear : )
+abdominal: soft, non-tender, bowel sounds present
+extremities: hematomas b/l over the knees, improving; joint mobility
+intact
+skin:  warm
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+153 k/ul
+8.8 g/dl
+176
+1.6 mg/dl
+27 meq/l
+4.3 meq/l
+41 mg/dl
+107 meq/l
+140 meq/l
+26.2 %
+7.8 k/ul
+wbc
+7.8
+hct
+23.9
+24.0
+26.2
+plt
+153
+cr
+1.6
+tropt
+0.02
+0.03
+glucose
+148
+176
+other labs: pt / ptt / inr:44.7/46.8/5.0, ca++:8.3 mg/dl, mg++:2.7
+mg/dl, po4:3.3 mg/dl
+urine lytes: urea 783, creat 160, na 12, fena 0.09%, feurea 19.1%
+2^nd ua with large blood, nitrite +, many bacteria, [**6-13**] hyaline casts,
+urine eos neg.",gib; coagulopathy; arf; l knee hematoma; cad; aortic aneurysm s/p repair:,gastrointestinal bleeding; coagulopathy; acute renal failure; left knee hematoma; coronary artery disease; aortic aneurysm status post repair,"['gastrointestinal bleeding', 'coagulopathy', 'acute renal failure', 'left knee hematoma', 'coronary artery disease', 'aortic aneurysm status post repair']","This is an 88 year old man with significant
+   cardiac history who is admitted with significant coagulopathy, acute
+   renal failure and a GI bleed.",True,"The patient's report indicates a history of transfusions with packed red blood cells (PRBCs), which suggests a significant blood loss. The hemoglobin (Hct) levels initially did not increase after the first unit of PRBCs but later showed a slight increase from 24 to 26 with 2 units, indicating ongoing blood loss or insufficient replacement. The presence of blood in the pre-patellar bursae bilaterally and the need for multiple transfusions support the likelihood of a gastrointestinal bleed. Additionally, the patient's urine analysis showing large blood, nitrite positive, and many bacteria, along with the clinical context of a recent start of ciprofloxacin for a urinary tract infection, may initially seem unrelated but the presence of blood in the urine could also indicate a systemic issue related to bleeding. However, the abdominal examination is soft and non-tender with bowel sounds present, which does not strongly support an active gastrointestinal bleed at the time of examination. Despite this, the overall clinical picture, including the transfusion requirements and initial lack of response to blood transfusion, leans towards the diagnosis of a gastrointestinal bleed, especially considering the context of recent blood transfusions and the patient's hemodynamic status.",False,"The patient received transfusions of packed red blood cells (PRBCs), which could indicate a significant blood loss, potentially from a gastrointestinal bleed. However, the SOAP note does not provide direct evidence of a gastrointestinal bleed, such as melena, hematemesis, or a drop in hemoglobin/hematocrit not explained by other factors."
+170,194922.txt,"4 hour events:
+- 8pm hct 25 --> transfused 1u prbcs b/c appeared to be dropping (not
+sure how much fluid he got; no active bloody bms or nose bleed right
+now)
+vicodin (oral) (hydrocodone bit/acetaminophen)
+rash;
+percocet (oral) (oxycodone hcl/acetaminophen)
+rash;
+darvocet a500 (oral) (propoxyphene/acetaminophen)
+rash;
+oxycodone
+rash;
+vancomycin
+hypotension;
+adhesive tape (topical)
+skin tears;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2133-2-22**] 09:33 pm
+other medications:
+flowsheet data as of  [**2133-2-23**] 07:16 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**34**] am
+tmax: 36.3
+c (97.3
+tcurrent: 36.2
+c (97.1
+hr: 67 (64 - 78) bpm
+bp: 114/41(58) {89/37(54) - 135/60(78)} mmhg
+rr: 12 (12 - 20) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+height: 68 inch
+total in:
+194 ml
+894 ml
+po:
+tf:
+ivf:
+194 ml
+544 ml
+blood products:
+350 ml
+total out:
+0 ml
+0 ml
+urine:
+ng:
+stool:
+drains:
+balance:
+194 ml
+894 ml
+respiratory support
+o2 delivery device: none
+spo2: 94%
+abg: ///21/
+general - well-appearing man in nad, comfortable, appropriate, not
+jaundiced (skin, mouth, conjuntiva)
+heent - nc/at, perrla, eomi, sclerae anicteric, mmm, op clear
+neck - supple, no thyromegaly, no jvd, no carotid bruits
+lungs - cta bilat, no r/rh/wh, good air movement, resp unlabored, no
+accessory muscle use
+heart - pmi non-displaced, rrr, no mrg, nl s1-s2
+abdomen - nabs, soft/nt/nd, no masses or hsm, no rebound/guarding.
+extremities - wwp, no c/c/e, 1+ peripheral pulses (radials, dps)
+skin - no rashes or lesions
+lymph - no cervical, axillary, or inguinal lad
+neuro - awake, a&ox3, cns ii-xii grossly intact, muscle strength 5/5
+throughout, sensation grossly intact throughout, dtrs 2+ and symmetric,
+cerebellar exam intact, steady gait
+217 k/ul
+9.9 g/dl
+87 mg/dl
+7.5 mg/dl
+21 meq/l
+5.4 meq/l
+117 mg/dl
+99 meq/l
+140 meq/l
+30.8 %
+11.2 k/ul
+[image002.jpg]
+[**2133-2-22**]  08:07 pm
+[**2133-2-23**]  03:52 am
+wbc
+11.2
+hct
+25.2
+30.8
+plt
+217
+cr
+7.5
+glucose
+87
+other labs: pt / ptt / inr:12.2/27.8/1.0, alt / ast:15/32, alk phos / t
+bili:105/0.7, differential-neuts:61.0 %, band:0.0 %, lymph:23.0 %,
+mono:9.0 %, eos:3.0 %, albumin:3.1 g/dl, ldh:289 iu/l, ca++:9.1 mg/dl,
+mg++:2.5 mg/dl, po4:5.3 mg/dl",black stools / ugib?; #. anemia; #. cad; pvd/aaa; esrd; diverticulosis,black stools upper gastrointestinal bleeding ; anemia; coronary artery disease; peripheral vascular disease abdominal aortic aneurysm; end stage renal disease; diverticulosis,"['black stools upper gastrointestinal bleeding', 'anemia', 'coronary artery disease', 'peripheral vascular disease abdominal aortic aneurysm', 'end stage renal disease', 'diverticulosis']","83 year-old gentleman with CAD s/p CABG, PVD, AAA, s/p repair, ESRD on
+   HD, diverticulosis and recent UGIB 2 months ago who comes with black
+   stool and bleeding through his nose.",True,"The patient's low hematocrit (hct) level of 25, which prompted a transfusion of 1 unit of packed red blood cells (PRBCs), suggests a potential gastrointestinal bleed. However, there is no direct mention of active bloody bowel movements (BMs) or other overt signs of gastrointestinal bleeding at the time of reporting. The administration of pantoprazole (a proton pump inhibitor) could be indicative of an attempt to manage or prevent gastrointestinal bleeding, especially in a patient who may be at risk due to the use of medications like vicodin, percocet, and darvocet, which can increase the risk of gastrointestinal issues. Despite the lack of explicit evidence of active bleeding, the patient's hypotension and the need for transfusion, alongside the use of medications that could exacerbate gastrointestinal issues, lean towards the possibility of a gastrointestinal bleed. Nonetheless, without explicit evidence of bleeding (e.g., melena, hematemesis, or positive fecal occult blood test), the diagnosis remains uncertain. Given the information provided, the most likely conclusion, based on the low hematocrit and the clinical context, is that there might be a gastrointestinal bleed, but it's not conclusively proven.",False,"The patient was transfused with 1 unit of PRBCs due to a dropping hematocrit, but there is no active bloody emesis or melena mentioned. The abdomen is soft and non-tender. While the transfusion suggests some concern for blood loss, there is not enough information to confirm a gastrointestinal bleed as the source."
+194,188739.txt,"- one episode of small brbpr this am
+- slept through night and then 400+ urine output
+- hct 23.3 -> 25.7 -> 26.5
+- s/p 1 unit prbcs, 3 units ffp
+- no complaints
+-unable to get ivc [** 2616**] (from ir or vascular [**doctor first name **]) as her ivc is too
+large/wide
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2113-8-19**] 07:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.9
+c (100.2
+tcurrent: 37.2
+c (99
+hr: 70 (69 - 93) bpm
+bp: 102/42(55) {98/42(55) - 136/82(88)} mmhg
+rr: 24 (17 - 28) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+total in:
+2,197 ml
+526 ml
+po:
+tf:
+ivf:
+526 ml
+blood products:
+894 ml
+total out:
+380 ml
+400 ml
+urine:
+380 ml
+400 ml
+ng:
+stool:
+drains:
+balance:
+1,817 ml
+126 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///24/
+general: alert, oriented, no acute distress
+lungs: clear to auscultation bilaterally, no wheezes, rales, rhonchi
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+gu: no foley
+ext: warm, well perfused, 3+ edema of left lower extremity, trace edema
+of right lower extremity, 2+ pulses, no clubbing or cyanosis
+353 k/ul
+9.0 g/dl
+79 mg/dl
+0.9 mg/dl
+24 meq/l
+3.4 meq/l
+17 mg/dl
+98 meq/l
+136 meq/l
+26.5 %
+8.2 k/ul
+wbc
+8.2
+hct
+23.3
+25.7
+26.5
+plt
+353
+cr
+0.9
+glucose
+79
+other labs: pt / ptt / inr:14.1/29.5/1.2, ca++:8.7 mg/dl, mg++:1.4
+mg/dl, po4:3.1 mg/dl",lower gastrointestinal bleeding:; left lower extremity dvt; vulvar cancer,lower gastrointestinal bleeding ; left lower extremity deep vein thrombosis; vulvar cancer,"['lower gastrointestinal bleeding', 'left lower extremity deep vein thrombosis', 'vulvar cancer']","82 year old female with a history of stage [**Doctor First Name **] squamous cell carcinoma
+   of the vulva and recent diagnosis of DVT on anticoagulation who
+   presents from rehab with bright red blood per rectum.",True,"The patient's report mentions 'one episode of small brbpr this am', which suggests a recent episode of bright red blood per rectum, a common symptom of gastrointestinal bleed. Additionally, the patient received 1 unit of packed red blood cells (PRBCs) and 3 units of fresh frozen plasma (FFP), indicating a need for blood transfusion, possibly due to blood loss. The patient's hemoglobin (Hct) levels showed an initial low value of 23.3, which increased to 25.7 and then 26.5 after transfusion, suggesting an initial anemia that was partially corrected. However, the absence of current complaints, a soft and non-tender abdomen, and the presence of bowel sounds on examination argue against an active, severe gastrointestinal bleed at the time of assessment. Despite this, the recent history of bleeding and the need for transfusion support the likelihood of a gastrointestinal bleed having occurred. Therefore, considering the recent episode of bleeding and the transfusion requirements, the diagnosis of gastrointestinal bleed is likely true, even if the patient is not currently showing active signs of severe bleeding.",False,"The patient had an episode of 'small brbpr' (likely indicating a small amount of bright red blood per rectum), which could suggest a gastrointestinal bleed. However, there is no further information provided about the nature or severity of the bleeding, and the patient's hemoglobin and hematocrit levels have actually increased after receiving blood products. While this could indicate a response to transfusion for a bleed, the information provided does not strongly support an active gastrointestinal bleed at the time of the note. Thus, the diagnosis is uncertain but leans towards false given the lack of current evidence of active bleeding."
+273,148918.txt,"got echo, get ij placed.
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2151-9-3**] 10:00 am
+infusions:
+pantoprazole (protonix) - 10 mg/hour
+other icu medications:
+furosemide (lasix) - [**2151-9-3**] 05:57 am
+other medications:
+flowsheet data as of  [**2151-9-3**] 10:20 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37
+c (98.6
+tcurrent: 36.6
+c (97.8
+hr: 88 (85 - 110) bpm
+bp: 197/83(111) {149/57(83) - 197/99(111)} mmhg
+rr: 19 (19 - 28) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+total in:
+673 ml
+po:
+tf:
+ivf:
+143 ml
+blood products:
+530 ml
+total out:
+0 ml
+1,802 ml
+urine:
+1,790 ml
+ng:
+12 ml
+stool:
+drains:
+balance:
+0 ml
+-1,129 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ////
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+286 k/ul
+10.3 g/dl
+30.2 %
+11.0 k/ul
+wbc
+11.0
+hct
+21.0
+30.2
+plt
+286
+other labs: pt / ptt / inr:14.8/25.0/1.3",gi bleed; hx c.diff colitis; dm,gastrointestinal bleed; history clostridioides difficile colitis; diabetes mellitus,"['gastrointestinal bleed', 'history clostridioides difficile colitis', 'diabetes mellitus']","76 y/o female with MMP presenting with melanotic stools, coffee ground
+   emesis in setting of coagulopathy with INR 4.5 on admission. Given
+   coffee ground emesis, source is likely upper G.I, and may be due to
+   ulcer dx,gastritis, AVM or cancer.",True,"The patient is receiving pantoprazole, a proton pump inhibitor, which is often used to reduce stomach acid and prevent bleeding in the gastrointestinal tract. Additionally, the patient has received blood products (530 ml), which could indicate a recent bleed. However, there is no direct mention of gastrointestinal bleed symptoms such as melena, hematemesis, or abdominal pain in the subjective section. The objective section shows stable vital signs and no clear evidence of active bleeding, but the administration of blood products and pantoprazole suggests a potential recent gastrointestinal bleed. Given the indirect evidence and the lack of clear symptoms or signs of active bleeding, the diagnosis of gastrointestinal bleed is uncertain but leans towards being possible due to the treatment the patient is receiving.",False,"There is no direct evidence of gastrointestinal bleeding, such as hematemesis, melena, or a drop in hemoglobin or hematocrit levels. The patient is receiving pantoprazole, which could be used to prevent stress ulcer bleeding in a critically ill patient, but this does not confirm an active bleed."
+315,106339.txt,"hcts 21->27.9 after 2 units. received 1 more unit and hct 27.6 but
+checked while going in so will need repeat this am.
+sgy is following as concern for developing toxic megacolon as well as
+may need colectomy depending on results of the scope. suggested
+starting cipro.
+chest pain - at [**2142-9-29**] 02:20 am
+drank 50% of golytely. then, pt oob to commode. stated feeling
+nauseous. had syncopal event without loc. was helped to knees by rn.
+did not hit head. was able to be helped back into bed. complained of
+cp. ekg done.
+-> no change from prior. enzymes sent. 2units prbcs and 500 ml ns
+infused with return of sbps to120s and resolution of cp. called gi to
+ask if should continue golytely. can put down ngt if can
+t tolerate po
+but after 4mg zofran could tolerate po golytely and had no further
+episodes of syncope or cp.
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2142-9-28**] 11:00 pm
+ciprofloxacin - [**2142-9-29**] 12:00 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2142-9-29**] 12:00 am
+other medications:
+flowsheet data as of  [**2142-9-29**] 06:50 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37
+c (98.6
+tcurrent: 36.9
+c (98.4
+hr: 65 (56 - 107) bpm
+bp: 108/49(81) {75/34(44) - 149/78(92)} mmhg
+rr: 14 (10 - 17) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+height: 72 inch
+total in:
+1,300 ml
+3,046 ml
+po:
+1,000 ml
+1,000 ml
+tf:
+ivf:
+300 ml
+1,388 ml
+blood products:
+658 ml
+total out:
+0 ml
+50 ml
+urine:
+ng:
+50 ml
+stool:
+drains:
+balance:
+1,300 ml
+2,996 ml
+respiratory support
+spo2: 100%
+abg: ///25/
+gen: slim asian male in nad lying in bed.
+heent: nc/at sclera non-icteric. dry mm
+lungs: ctab
+heart: rrr s1/s2 no m/r/g
+abd: slightly ttp llq +bs
+extrem: no cyanosis/clubbing/edema
+neuro: a&ox3
+244 k/ul
+9.4 g/dl
+248 mg/dl
+1.0 mg/dl
+25 meq/l
+3.9 meq/l
+18 mg/dl
+102 meq/l
+136 meq/l
+27.6 %
+16.8 k/ul
+[image002.jpg]
+[**2142-9-27**]  09:57 am
+[**2142-9-27**]  03:47 pm
+[**2142-9-27**]  10:35 pm
+[**2142-9-28**]  11:18 pm
+[**2142-9-29**]  02:47 am
+wbc
+15.0
+16.8
+hct
+24.1
+24.4
+26.4
+27.9
+27.6
+plt
+324
+244
+cr
+0.9
+1.0
+tropt
+<0.01
+glucose
+94
+248
+other labs: pt / ptt / inr:18.3/26.2/1.7, ck / ckmb /
+troponin-t:22//<0.01, alt / ast:16/14, alk phos / t bili:36/0.5,
+differential-neuts:70.5 %, lymph:24.0 %, mono:4.2 %, eos:1.1 %, lactic
+acid:1.1 mmol/l, albumin:2.6 g/dl, ldh:136 iu/l, ca++:7.4 mg/dl,
+mg++:1.8 mg/dl, po4:4.2 mg/dl",lower gi bleed; uc flare,lower gastrointestinal bleed; ulcerative colitis flare,"['lower gastrointestinal bleed', 'ulcerative colitis flare']","Mr. [**Known lastname 4385**] is a 37 yo male with lower GI bleed in setting of active UC
+   flare.
+   .",True,"The patient's report indicates a significant increase in hematocrit (hct) levels after receiving blood transfusions, which suggests a possible gastrointestinal bleed. The patient's symptoms, such as nausea and syncope, could be related to a gastrointestinal bleed. Additionally, the patient is being followed by surgery for a concern of developing toxic megacolon and may need a colectomy, which further supports the possibility of a gastrointestinal bleed. The laboratory results show a low hemoglobin level (9.4 g/dl) and a high white blood cell count (16.8 k/ul), which could indicate an active bleed. However, there is no direct evidence of gastrointestinal bleeding, such as melena or hematemesis, mentioned in the report. Despite this, the overall clinical picture and the patient's response to blood transfusions suggest that a gastrointestinal bleed is likely.",False,"The patient received 2 units of packed red blood cells, which may suggest a gastrointestinal bleed. However, there is no clear evidence of bleeding, such as melena or hematemesis, and the patient's hemoglobin and hematocrit levels are not significantly decreased."
+360,127339.txt,"chief complaint: 24 hour events: blood cultured - at  05:26 am peripheral patient had episode of brbpr this am, remained asymptomatic and vss. per patient has never had bloody stools. allergies: no known drug allergies","last dose of antibiotics: ampicillin/sulbactam (unasyn) -  04:00 am infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   08:20 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.6 c (97.8 tcurrent: 36.4 c (97.6 hr: 77 (64 - 81) bpm bp: 125/79(87) {109/55(74) - 153/88(103)} mmhg rr: 25 (13 - 26) insp/min spo2: 94% heart rhythm: af (atrial fibrillation) wgt (current): 69.6 kg (admission): 69.6 kg height: 69 inch total in: 240 ml 1,342 ml po: 60 ml tf: ivf: 180 ml 767 ml blood products: 575 ml total out: 1,610 ml 365 ml urine: 110 ml 365 ml ng: stool: drains: balance: -1,370 ml 977 ml respiratory support o2 delivery device: nasal cannula spo2: 94% abg: ///21/ physical examination gen: jaundiced lungs: ctab cv: irregular,  holosystolic murmur with a palpable thrill appreciated at the apex, no rubs or gallops abdomen:  soft, ntnd, bowel sounds present ext: no edema. left  toe stage ii ulcer, wrapped w/ guaze labs / radiology 155 k/ul 10.6 g/dl 72 mg/dl 0.9 mg/dl 21 meq/l 4.3 meq/l 23 mg/dl 108 meq/l 143 meq/l 30.8 % 5.9 k/ul [image002.jpg]   12:00 am   05:18 am   06:04 am wbc 5.9 hct 30.1 30.8 plt 155 cr 0.9 tropt 0.06 glucose 113 72 other labs: pt / ptt / inr:24.7/44.6/2.4, ck / ckmb / troponin-t:69/3/0.06, alt / ast:134/188, alk phos / t bili:278/5.6, albumin:3.5 g/dl, ca++:9.3 mg/dl, mg++:2.1 mg/dl, po4:3.4 mg/dl",brbpr: likely lower gi bleed; choledocholithiasis; afib; ,bright red blood per rectum likely lower gastrointestinal bleed; choledocholithiasis; atrial fibrillation;,"['bright red blood per rectum likely lower gastrointestinal bleed', 'choledocholithiasis', 'atrial fibrillation']","88 yo M with PMHx sig. for afib, HTN who presents
+   with chest pain, found to have jaundice and choledocholithiasis.",True,"The patient's chief complaint includes an episode of bright red blood per rectum (brbpr) this morning, which is a classic symptom of gastrointestinal bleed. However, the patient reports never having had bloody stools before, and the current vital signs and hemodynamic monitoring do not indicate significant instability or signs of active bleeding at the time of reporting. The laboratory results show a slight elevation in troponin and abnormal liver function tests (ALT/AST), but these are not specific indicators of gastrointestinal bleed. The patient's physical examination does not reveal abdominal tenderness or other signs suggestive of an acute gastrointestinal issue. Despite the episode of brbpr, the absence of other supporting evidence such as hematemesis, melena, or significant changes in vital signs, along with the patient remaining asymptomatic and vital signs stable (VSS), makes the diagnosis of an active gastrointestinal bleed uncertain. However, given the direct mention of brbpr, it leans towards a potential gastrointestinal bleed event, albeit the overall clinical picture does not strongly support an ongoing or severe bleed.",False,"The patient had an episode of 'brbpr' (likely a typographical error for 'bright red blood per rectum'), which could indicate a gastrointestinal bleed. However, the patient remains asymptomatic and has no known history of bloody stools, making the significance of this event unclear without further context."

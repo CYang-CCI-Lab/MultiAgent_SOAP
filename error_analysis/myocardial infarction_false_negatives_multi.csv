@@ -1,0 +1,2265 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_myocardial_infarction_pred_multi,is_myocardial_infarction_reasoning_multi
+19,192874.txt,"admitted to unit with hypotension and hypoxia, both had resolved by the
+time he arrived in unit
+cxr w/ ? pna
+cardiac enzymes negative x1
+lft's normal
+repeat ekg this a.m. was unchanged
+compazine (injection) (prochlorperazine edisylate)
+unknown;
+codeine
+unknown;
+atenolol
+bradycardia;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 1,000 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2108-12-20**] 06:23 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.8
+c (100
+tcurrent: 36.9
+c (98.4
+hr: 71 (71 - 86) bpm
+bp: 107/69(77) {103/67(75) - 129/96(102)} mmhg
+rr: 10 (10 - 21) insp/min
+spo2: 94%
+total in:
+160 ml
+123 ml
+po:
+tf:
+ivf:
+160 ml
+123 ml
+blood products:
+total out:
+0 ml
+700 ml
+urine:
+700 ml
+ng:
+stool:
+drains:
+balance:
+160 ml
+-577 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///28/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+164 k/ul
+9.1 g/dl
+78 mg/dl
+1.3 mg/dl
+28 meq/l
+4.4 meq/l
+21 mg/dl
+103 meq/l
+138 meq/l
+26.2 %
+4.5 k/ul
+[image002.jpg]
+[**2108-12-19**]  05:01 pm
+[**2108-12-20**]  04:35 am
+wbc
+4.4
+4.5
+hct
+28.3
+26.2
+plt
+158
+164
+cr
+1.3
+1.3
+tropt
+<0.01
+glucose
+93
+78
+other labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /
+troponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,
+amylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7
+%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3
+mg/dl",hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filter,hypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter,"['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']","Mr. [**Known lastname 2367**] is a 61 yo M with PMH of recent STEMI s/p BMS to LAD, CHF,
+   and DVT/PE s/p IVC filter who was just discharged from an OSH, now
+   referred in for evaluation of bilateral LE edema. Pt. was transferred
+   to MICU for hypoxia and hypotension which resolved quickly after
+   admission to the unit.",False,"The patient's cardiac enzymes are negative, and the troponin-t level is <0.01, which suggests that myocardial infarction is unlikely. The repeat EKG was unchanged, further supporting this conclusion."
+43,184357.txt,"dyspnea
+no events overnight.
+daypro (oral) (oxaprozin)
+rash;
+shellfish derived
+rash; abdominal
+lipitor (oral) (atorvastatin calcium)
+leg pain;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2169-10-22**] 06:54 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.2
+c (97.2
+tcurrent: 36.2
+c (97.2
+hr: 50 (50 - 61) bpm
+bp: 114/63(74) {88/52(68) - 126/66(80)} mmhg
+rr: 18 (14 - 24) insp/min
+spo2: 99%
+heart rhythm: sb (sinus bradycardia)
+total in:
+475 ml
+650 ml
+po:
+150 ml
+150 ml
+tf:
+ivf:
+325 ml
+500 ml
+blood products:
+total out:
+750 ml
+1,020 ml
+urine:
+750 ml
+1,020 ml
+ng:
+stool:
+drains:
+balance:
+-275 ml
+-370 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///27/
+general: wdwn in nad. oriented x3. mood, affect appropriate.
+heent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no
+pallor or cyanosis of the oral mucosa. no xanthalesma.
+neck: unable to examine for jvd
+cardiac: pmi located in 5th intercostal space, midclavicular line. rr,
+normal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no
+thrills, lifts. no s3 or s4.
+lungs: no chest wall deformities, scoliosis or kyphosis. resp were
+unlabored, no accessory muscle use. unable to auscultate bases for
+exam.
+abdomen: soft, ntnd. no hsm or tenderness.
+extremities: no c/c/e. no femoral bruits.
+skin: no stasis dermatitis, ulcers, scars, or xanthomas.
+pulses:
+right: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+
+left: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+
+205 k/ul
+11.3 g/dl
+136 mg/dl
+0.8 mg/dl
+27 meq/l
+4.4 meq/l
+13 mg/dl
+105 meq/l
+137 meq/l
+33.4 %
+5.6 k/ul
+image002.jpg]
+[**2169-10-21**]  10:29 pm
+[**2169-10-22**]  05:17 am
+wbc
+6.6
+5.6
+hct
+35.4
+33.4
+plt
+199
+205
+cr
+0.9
+0.8
+tropt
+0.14
+0.17
+glucose
+136
+other labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /
+troponin-t:135/16/0.17, mg++:2.0 mg/dl",stemi,st elevation myocardial infarction,['st elevation myocardial infarction'],"60 y/o F w/ h/o hyperlipidemia presents with STEMI, currently s/p cath
+   with [**Name Prefix (Prefixes) **] [**Last Name (Prefixes) **] 2 to prox and mid RCA and proximal left diagonal stenosis.
+   Cath c/b hematoma, integrillin discontinued",False,"The patient's troponin-T level is slightly elevated at 0.17, which could indicate myocardial infarction. However, the elevation is not significantly high, and other cardiac markers such as CK and CKMB are not provided. The patient's symptoms of dyspnea and leg pain could be related to myocardial infarction, but they are non-specific. The ECG shows sinus bradycardia, which is not typical for myocardial infarction. Therefore, the diagnosis of myocardial infarction is uncertain but leans towards being unlikely given the lack of strong evidence."
+47,111372.txt,"[**8-14**]
+- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o
+correction, pt will not tolerate feeds.
+.
+- given two doses iv vit k to reverse inr 2.5 in case she goes for
+surgery tomorrow. goal inr <1.4
+.
+- changed ppi, metoprolol, and h2 blocker to iv form. po meds being
+held as pt has lots of fluid suctioned from ngt, brown, guaiac
+negative. nausea improved with suctioning.
+.
+- nausea after 0.5 of morphine- trying toradol for pain control
+morphine
+nausea/vomiting
+percocet (oral) (oxycodone hcl/acetaminophen)
+nausea/vomiting
+codeine
+nausea/vomiting
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+morphine sulfate - [**2119-8-14**] 08:50 pm
+metoprolol - [**2119-8-14**] 09:14 pm
+pantoprazole (protonix) - [**2119-8-14**] 10:00 pm
+famotidine (pepcid) - [**2119-8-14**] 11:51 pm
+other medications:
+flowsheet data as of  [**2119-8-15**] 07:48 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.3
+tcurrent: 35.9
+c (96.7
+hr: 91 (81 - 115) bpm
+bp: 131/69(85) {107/53(51) - 140/83(96)} mmhg
+rr: 16 (9 - 28) insp/min
+spo2: 99% tent, fio2 50%
+heart rhythm: svt (supra ventricular tachycardia)
+wgt (current): 71.1 kg (admission): 71.6 kg
+height: 66 inch
+abg: 7.40/41/63/26 (normal)
+total in:
+1,076 ml
+585 ml
+po:
+tf:
+ivf:
+1,076 ml
+585 ml
+blood products:
+total out:
+220 ml
+500 ml
+urine:
+170 ml
+200 ml
+ng:
+50 ml
+300 ml
+stool:
+drains:
+balance:
+856 ml
+85 ml
+general:  pleasant, conversational, comfortable
+heent:  sclera anicteric, dry mucous membranes
+neck:  supple
+lungs:  diffuse ronchi b/l
+cv:  irregularly irregular; normal s1/s2; no murmurs
+abdomen:  hypoactive bowel sounds; soft, nontender, not distended
+ext:  warm, well-perfused; no lower extremity edema
+131 k/ul
+11.9 g/dl
+174 mg/dl
+1.3 mg/dl
+19 meq/l
+4.3 meq/l
+28 mg/dl
+111 meq/l
+146 meq/l
+37.1 %
+12.1 k/ul
+wbc
+12.1
+hct
+37.1
+plt
+131
+cr
+1.3
+tropt
+<0.01
+0.01
+tco2
+26
+glucose
+174
+other labs:
+pt/ptt/inr: 185./26.7/1.7
+cardiac enzymes negative x 3
+lipase: 26,
+lactic acid:1.3 mmol/l,
+ca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl
+.
+cxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and
+[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in
+stomach above diaphragm. pt with mild pulm edema persists but appears
+drier than yesterday. has collapse of rll, which may be due to pleural
+effusion vs atelectasis.
+ct chest/[**last name (un) **]/pelvis
+thoracic aa measures 4.9 x 4.4 cm, minimal
+interval enlargement; no dissection or pe; interval enlargement and
+large hiatal hernia.",hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.,hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia,"['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']","HYPOXEMIA
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+   [**Age over 90 **]F with CAD, thoracic aortic aneurysm, gastritis, GERD admitted with
+   left shoulder pain, nausea with transient relative hypotension in
+   context of [**Name (NI) 9631**]
+   .",False,"Cardiac enzymes are negative x 3, which strongly argues against myocardial infarction. The patient's troponin (tropt) is <0.01, further supporting this conclusion."
+60,107049.txt,"fever - 101.6
+f - [**2190-3-25**] 12:00 pm
+- palliative care recs: order for sl morphine 5-10 mg sl q 15 minutes
+prn resp distress and morphine supp 10-20 mg pr q2- 4 hours prn for
+longer acting coverage, and then use sl morphine for breakthrough,
+levsin 0.125-0.25 mg sl q4 prn may be used for secretions, and ativan
+prn for agitation or restlessness.
+- coughing up bilious fluid. ngt to suction returned several hundred cc
+bilious fluid. tube feeds held o/n.
+no known drug allergies
+a
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2190-3-25**] 12:00 am
+vancomycin - [**2190-3-25**] 08:00 am
+meropenem - [**2190-3-25**] 08:24 pm
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2190-3-26**] 07:03 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**91**] am
+tmax: 38.7
+c (101.6
+tcurrent: 37.2
+c (99
+hr: 104 (102 - 125) bpm
+bp: 85/48(56) {81/11(38) - 149/83(95)} mmhg
+rr: 11 (11 - 21) insp/min
+spo2: 100%
+heart rhythm: st (sinus tachycardia)
+height: 69 inch
+total in:
+3,043 ml
+106 ml
+po:
+tf:
+1,289 ml
+ivf:
+894 ml
+106 ml
+blood products:
+total out:
+904 ml
+180 ml
+urine:
+204 ml
+80 ml
+ng:
+700 ml
+100 ml
+stool:
+drains:
+balance:
+2,139 ml
+-74 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cpap/psv
+vt (spontaneous): 198 (198 - 695) ml
+ps : 5 cmh2o
+rr (spontaneous): 18
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 27
+pip: 11 cmh2o
+spo2: 100%
+abg: ////
+ve: 6.2 l/min
+general: patient flutters eyelids in response to voice, but unable to
+open eyes to command; no signs of pain/distress
+heent: intubated
+cv: tachycardic but regular, heart sounds overwhelmed by rhonchi
+lungs: diffuse rhonchi throughout lung fields, more pronounced at
+apices.
+abdomen: full/firm, no apparent tenderness, +bs present
+extremities: hands with contractures of fingers. feet with amputation
+of toes at baseline, but warm/perfused.
+258 k/ul
+9.4 g/dl
+86 mg/dl
+1.7 mg/dl
+18 meq/l
+3.7 meq/l
+59 mg/dl
+116 meq/l
+144 meq/l
+30.2 %
+15.0 k/ul
+wbc
+11.4
+10.6
+8.8
+10.3
+15.0
+hct
+26.5
+26.7
+28.1
+28.4
+29.0
+29.7
+29.6
+30.2
+plt
+255
+208
+186
+227
+258
+cr
+1.4
+1.5
+1.5
+1.5
+1.6
+1.6
+1.7
+tropt
+1.39
+1.28
+1.26
+1.28
+tco2
+23
+glucose
+92
+111
+100
+87
+92
+129
+86
+other labs: pt / ptt / inr:17.1/37.4/1.5, ck / ckmb /
+troponin-t:132/22/1.28, differential-neuts:84.3 %, lymph:10.4 %,
+mono:3.5 %, eos:1.7 %, lactic acid:1.7 mmol/l, ca++:7.9 mg/dl, mg++:1.9
+mg/dl, po4:4.1 mg/dl",acute hypercarbic respiratory failure; pneumonia; fluid overload; nstemi; afib:,acute hypercarbic respiratory failure; pneumonia; fluid overload; non st elevation myocardial infarction; atrial fibrillation,"['acute hypercarbic respiratory failure', 'pneumonia', 'fluid overload', 'non st elevation myocardial infarction', 'atrial fibrillation']","78 y/o M with multiple medical problems including healthcare associated
+   pneumonia, chronic aspiration, afib on coumadin, CVAs, and CAD who
+   presents with hypoxia, consistent with pulmonary edema.  Plan to wait
+   for family
+s arrival today and take patient off of ventilator, transfer
+   to [**Hospital1 **] for supportive care.",False,"The patient has an elevated troponin-T level of 1.28, which is a biomarker for myocardial infarction. However, the clinical context and other information such as ECG findings are not provided. Given the elevated troponin level, it is possible that the patient had a myocardial infarction, but without further information, this cannot be concluded with certainty. The presence of sinus tachycardia and the patient's overall critical condition could also be related to other conditions. Therefore, while there is some evidence to suggest myocardial infarction, it is not conclusive."
+74,148314.txt,"[**3-29**]
+- after transfusion started at osh hct was 27.9, transfused a second
+unit
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2180-3-29**] 10:00 pm
+other medications:
+flowsheet data as of  [**2180-3-30**] 06:01 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36
+c (96.8
+hr: 73 (71 - 82) bpm
+bp: 111/56(69) {101/48(62) - 113/64(73)} mmhg
+rr: 20 (14 - 23) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+total in:
+390 ml
+275 ml
+po:
+30 ml
+tf:
+ivf:
+10 ml
+blood products:
+350 ml
+275 ml
+total out:
+750 ml
+172 ml
+urine:
+750 ml
+172 ml
+ng:
+stool:
+drains:
+balance:
+-360 ml
+103 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ///24/
+general: nad, lying comfortably in bed
+heent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink. op
+clear, mmm
+neck: supple with jvp of 10 cm.
+cardiac: rr, normal s1, s2. no m/r/g. no thrills, lifts. no s3 or s4.
+lungs: no chest wall deformities, scoliosis or kyphosis. resp were
+unlabored, no accessory muscle use. ctab, no crackles, wheezes or
+rhonchi.
+abdomen: soft, non-tender, non-distended
+extremities: no c/c/e
+rectal: normal tone, minimal black specks of stool, guaiac positive
+142 k/ul
+11.0 g/dl
+99 mg/dl
+1.0 mg/dl
+24 meq/l
+3.8 meq/l
+29 mg/dl
+105 meq/l
+139 meq/l
+31.7 %
+4.5 k/ul
+wbc
+4.9
+4.5
+hct
+27.9
+31.7
+plt
+153
+142
+cr
+1.0
+1.0
+tropt
+1.12
+glucose
+103
+99
+other labs: pt / ptt / inr:13.0/25.9/1.1, ck / ckmb /
+troponin-t:112/16/1.12, differential-neuts:61.9 %, lymph:28.0 %,
+mono:7.5 %, eos:2.1 %, ca++:8.6 mg/dl, mg++:2.2 mg/dl, po4:5.3 mg/dl",nstemi:; ugib; htn,non st elevation myocardial infarction ; upper gastrointestinal bleeding; hypertension,"['non st elevation myocardial infarction', 'upper gastrointestinal bleeding', 'hypertension']","This is an 81 yo female with history of CAD, HTN, ?GIB in the past was
+   transferred from [**Hospital3 **] for management of melena, NSTEMI.
+   .",False,"The troponin-T level is slightly elevated at 1.12, which could indicate myocardial infarction, but it's not significantly high. The patient's ECG shows a normal sinus rhythm without any mention of ischemic changes or arrhythmias that are commonly associated with myocardial infarction. Thus, while there is a slight indication, it's not conclusive."
+78,149546.txt,"- hct 26 at midnight; received 1 unit prbc.
+- chest pain continued to improve
+altace (oral) (ramipril)
+rash;
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+rash;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2155-2-4**] 12:49 am
+other medications:
+flowsheet data as of  [**2155-2-4**] 09:36 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**57**] am
+tmax: 36.1
+c (96.9
+tcurrent: 36.1
+c (96.9
+hr: 85 (74 - 97) bpm
+bp: 102/89(92) {97/52(66) - 118/89(92)} mmhg
+rr: 24 (11 - 24) insp/min
+spo2: 99%
+heart rhythm: af (atrial fibrillation)
+total in:
+448 ml
+po:
+tf:
+ivf:
+98 ml
+blood products:
+350 ml
+total out:
+150 ml
+328 ml
+urine:
+150 ml
+328 ml
+ng:
+stool:
+drains:
+balance:
+-150 ml
+120 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///27/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+186 k/ul
+9.8 g/dl
+149 mg/dl
+1.3 mg/dl
+27 meq/l
+4.6 meq/l
+29 mg/dl
+108 meq/l
+143 meq/l
+29.6 %
+12.5 k/ul
+wbc
+12.5
+hct
+26.6
+29.6
+plt
+186
+cr
+1.3
+tropt
+0.46
+glucose
+149
+other labs: pt / ptt / inr:17.2/22.9/1.5, ck / ckmb /
+troponin-t:254/24/0.46, ca++:8.4 mg/dl, mg++:1.6 mg/dl, po4:4.7 mg/dl",hematochezia/anemia of acute blood loss; angina/nstemi; dyspnea/tachypnea; cad s/p cabg with diseased grafts; afib; htn,hematochezia anemia of acute blood loss; angina non st elevation myocardial infarction; dyspnea tachypnea; coronary artery disease status post coronary artery bypass grafting with diseased grafts; atrial fibrillation; hypertension,"['hematochezia anemia of acute blood loss', 'angina non st elevation myocardial infarction', 'dyspnea tachypnea', 'coronary artery disease status post coronary artery bypass grafting with diseased grafts', 'atrial fibrillation', 'hypertension']","79 yo female with CAD s/p CABG with only patent LIMA-LAD, COPD, HTN,
+   afib who presents with hematochezia, anemia, and angina",False,"The patient's troponin-T level is elevated at 0.46, which is a biomarker for myocardial infarction. However, the chest pain has continued to improve, and there's no clear indication of an acute MI in the provided timeframe. The elevated troponin could also be due to other causes such as atrial fibrillation or other cardiac stressors. Thus, while there is some evidence, it's not conclusive for an acute myocardial infarction."
+95,111075.txt,"n/v/abd pain
+multi lumen - start [**2187-12-17**] 09:33 pm
+dialysis catheter - start [**2187-12-17**] 09:47 pm
+ekg - at [**2187-12-18**] 12:50 am
+- tolerated small amount clears overnight.
+- total 3 mg iv dilaudid and 1 mg iv ativan since admission.
+:
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","flowsheet data as of  [**2187-12-18**] 07:13 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.4
+tcurrent: 36.3
+c (97.3
+hr: 78 (78 - 87) bpm
+bp: 128/92(101) {123/85(95) - 172/123(135)} mmhg
+rr: 11 (8 - 25) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+total in:
+240 ml
+po:
+240 ml
+tf:
+ivf:
+blood products:
+total out:
+0 ml
+0 ml
+urine:
+ng:
+stool:
+drains:
+balance:
+0 ml
+240 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: ///29/
+general: pleasant male, nad, alert, awake, cooperative
+heent: nc/at, sclera anicteric, mm slightly dry
+lungs: decreased at bases, otherwise clear
+heart: rrr s1 s2 + apical sm unchanged
+abdomen: nondistended, unchanged diffuse ttp throughout
+extrem: warm, no significant edema
+288 k/ul
+8.8 g/dl
+124 mg/dl
+10.5 mg/dl
+29 meq/l
+5.4 meq/l
+69 mg/dl
+101 meq/l
+143 meq/l
+29.2 %
+8.5 k/ul
+wbc
+8.5
+hct
+29.2
+plt
+288
+cr
+10.5
+tropt
+0.24
+0.26
+glucose
+124
+other labs: ck / ckmb / troponin-t:112/6/0.26, ca++:9.2 mg/dl, mg++:2.1
+mg/dl, po4:8.6 mg/dl
+microbiology: none","hypoxemia; abdominal pain (including abdominal tenderness); renal failure, end stage (end stage renal disease, esrd).; dm.; cad s/p stemi.",hypoxemia; abdominal pain including abdominal tenderness ; renal failure end stage end stage renal disease end stage renal disease ; diabetes mellitus ; coronary artery disease status post st elevation myocardial infarction,"['hypoxemia', 'abdominal pain including abdominal tenderness', 'renal failure end stage end stage renal disease end stage renal disease', 'diabetes mellitus', 'coronary artery disease status post st elevation myocardial infarction']","39 M with history of ESRD on HD, DM c/b gastroparesis and autonomic
+   dysfunction, CAD s/p STEMI, frequent admissions for nausea/vomiting and
+   abdominal pain; now admitted with N/V/abd pain and hypoxemia.",False,"The troponin-T level is slightly elevated at 0.26, which could indicate myocardial infarction, but it's not significantly high. The EKG was done, but the results are not provided. The patient's symptoms of abdominal pain and nausea/vomiting are non-specific and could be related to various conditions. Given the mildly elevated troponin and lack of specific cardiac symptoms or significant EKG findings, the diagnosis is uncertain but leans towards being unlikely without further evidence."
+130,186332.txt,"afib w/ rvr, s/p fall
+transthoracic echo - at [**2181-10-26**] 09:00 am
+ultrasound - at [**2181-10-26**] 10:18 am
+ekg - at [**2181-10-26**] 11:18 am
+ekg - at [**2181-10-27**] 04:42 am
+called out
+- cspine cleared, no further trauma recs
+- f/u urine culture and blood cultures: urine w/ gnr's, on cipro.
+- echo results from today: small hyperdynamic lv, moderate tr, moderate
+pulmonary htn.
+- abdominal u/s: no ascites
+- abdominal film: lots of stool, some mild distention on my read.
+- ortho recs: surgery if patient family agrees
+- has 4 units of blood cross-matched if needs it.
+- call out to floor
+- spoke at length with daughter. stated mom has been declining for long
+""   time now, last time she saw her in [**month (only) **] mom had been """"wanting to die""""""
+and life was a burden. absolutely did not want aggressive measures.
+palliative care consulted. also stated that r shoulder pain was not
+new.
+- [**first name8 (namepattern2) 376**] [**last name (namepattern1) 377**] saw patient. recommended standing tylenol and morphine if
+needed. sw will call daughter this weekend.
+- new afib this morning to 150-160s, did not convert with 5mg lopressor
+x2 or diltiazem 10mg. started diltiazem gtt at 15mg/hr with rate to
+130s. started digoxin loading.
+cephalosporins
+unknown;
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+unknown;
+iodine
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2181-10-26**] 01:00 pm
+metronidazole - [**2181-10-26**] 08:01 pm
+infusions:
+diltiazem - 15 mg/hour
+other icu medications:
+pantoprazole (protonix) - [**2181-10-26**] 08:01 pm
+enoxaparin (lovenox) - [**2181-10-26**] 08:02 pm
+metoprolol - [**2181-10-27**] 04:30 am
+diltiazem - [**2181-10-27**] 04:51 am
+other medications:
+flowsheet data as of  [**2181-10-27**] 06:41 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37
+c (98.6
+tcurrent: 36.7
+c (98
+hr: 131 (89 - 156) bpm
+bp: 77/52(58) {77/21(37) - 146/105(113)} mmhg
+rr: 29 (21 - 36) insp/min
+spo2: 99%
+heart rhythm: af (atrial fibrillation)
+total in:
+2,679 ml
+1,530 ml
+po:
+tf:
+ivf:
+2,679 ml
+1,530 ml
+blood products:
+total out:
+825 ml
+250 ml
+urine:
+825 ml
+250 ml
+ng:
+stool:
+drains:
+balance:
+1,854 ml
+1,280 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: 7.46/28/128//-1
+cachectic elderly woman with poor coloring lying in bed large
+unresponsive.  perrl, sclerae anicteric.  tachycardic with now regular
+rhythm.  lungs clear on anterior exam.  abdomen soft, apparently
+non-tender.
+/
+297 k/ul
+8.6 g/dl
+176 mg/dl
+0.7 mg/dl
+19 meq/l
+3.8 meq/l
+23 mg/dl
+105 meq/l
+135 meq/l
+24.8 %
+33.9 k/ul
+[image002.jpg]
+[**2181-10-25**]  05:00 pm
+[**2181-10-25**]  11:35 pm
+[**2181-10-26**]  04:03 am
+[**2181-10-26**]  08:12 am
+wbc
+33.9
+hct
+26.4
+25.5
+24.8
+plt
+297
+cr
+0.7
+tropt
+0.09
+0.06
+0.08
+tco2
+21
+glucose
+176
+other labs: pt / ptt / inr:14.6/36.1/1.3, ck / ckmb /
+troponin-t:74//0.08, amylase / lipase:37/, differential-neuts:93.0 %,
+lymph:3.0 %, mono:3.8 %, eos:0.0 %, lactic acid:2.1 mmol/l, ca++:7.4
+mg/dl, mg++:1.5 mg/dl, po4:2.5 mg/dl
+imaging: [**10-26**] cxr: no change w/ hiatal hernia
+microbiology: [**10-25**] urine: gnr 10-100,000
+blood cx pending
+mrsa pending",atrial fibrillation; hip fracture; abdominal pain; nstemi.; fall.  osteoporotic; uti; leukocytosis,atrial fibrillation; hip fracture; abdominal pain; non st segment elevation myocardial infarction ; fall osteoporotic; urinary tract infection; leukocytosis,"['atrial fibrillation', 'hip fracture', 'abdominal pain', 'non st segment elevation myocardial infarction', 'fall osteoporotic', 'urinary tract infection', 'leukocytosis']","ATRIAL FIBRILLATION (AFIB)
+ .H/O HIP FRACTURE (FEMORAL NECK FRACTURE, FEMUR)
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ MYOCARDIAL INFARCTION, ACUTE (AMI, STEMI, NSTEMI)
+   [**Age over 90 **]F with CAD, history of CVA, prior hip fracture; presenting s/p fall
+   with new hip fracture, UTI, elevated troponin which is now trending
+   down, also seen to have R arm/shoulder pain, and abdominal pain of
+   unknown etiology.",False,"The troponin-T level is 0.08, which is slightly elevated, but not significantly high to confirm a myocardial infarction. The patient's EKG and echocardiogram results do not specifically indicate a myocardial infarction. Therefore, the diagnosis is unlikely."
+152,193531.txt,"sore throat
+s/s of uremia, volume overload during morning rounds.  right ij pa
+catheter replaced by hd tunnelled line by ir.  pa catheter removed.
+started on cvvhdf overnight, achieving goal of 100 cc fluid removed per
+hour.  bipap overnight per outpt managment.  lue ultrasound read
+pending.  no other overnight events. this am, pt complaining of throat
+pain, occasional cough, otherwise without complaints.
+penicillins
+unknown;
+heparin agents
+positive [**last name (un) 4055**]
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+ear, nose, throat: sore throat","last dose of antibiotics:
+infusions:
+calcium gluconate (crrt) - 1.4 grams/hour
+kcl (crrt) - 2 meq./hour
+milrinone - 0.375 mcg/kg/min
+other icu medications:
+other medications:
+flowsheet data as of  [**2179-9-3**] 07:30 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.6
+c (97.8
+tcurrent: 36.4
+c (97.6
+hr: 90 (88 - 91) bpm
+bp: 91/61(69) {73/35(40) - 152/94(98)} mmhg
+rr: 15 (11 - 26) insp/min
+spo2: 96%
+heart rhythm: av paced
+wgt (current): 19.2 kg (admission): 116.8 kg
+height: 69 inch
+cvp: 25 (25 - 35)mmhg
+pap: (52 mmhg) / (32 mmhg)
+mixed venous o2% sat: 63 - 63
+total in:
+2,124 ml
+1,809 ml
+po:
+90 ml
+60 ml
+tf:
+ivf:
+2,034 ml
+1,749 ml
+blood products:
+total out:
+1,489 ml
+2,713 ml
+urine:
+100 ml
+100 ml
+ng:
+stool:
+drains:
+balance:
+635 ml
+-904 ml
+respiratory support
+o2 delivery device: cpap mask
+spo2: 96%
+abg: ///24/
+general appearance: no acute distress, overweight / obese
+head, ears, nose, throat: normocephalic, posterior oropharynx with
+erythema
+lymphatic: cervical wnl, supraclavicular wnl, no(t) cervical adenopathy
+cardiovascular: (s1: normal), (s2: normal), heave present
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (breath sounds: rhonchorous: most prominent during
+expiration at the apices)
+abdominal: soft, non-tender, obese
+extremities: right lower extremity edema: 1+, left lower extremity
+edema: 1+, dusky appearing
+skin:  not assessed
+neurologic: attentive, responds to: not assessed, oriented (to): ,
+movement: not assessed, tone: not assessed
+210 k/ul
+11.3 g/dl
+191 mg/dl
+4.5 mg/dl
+24 meq/l
+4.4 meq/l
+82 mg/dl
+93 meq/l
+133 meq/l
+35.8 %
+8.7 k/ul
+image002.jpg]
+[**2179-9-1**]  09:57 pm
+[**2179-9-1**]  10:22 pm
+[**2179-9-2**]  04:04 am
+[**2179-9-2**]  04:59 pm
+[**2179-9-2**]  10:29 pm
+[**2179-9-2**]  10:44 pm
+[**2179-9-3**]  04:24 am
+[**2179-9-3**]  04:34 am
+wbc
+7.2
+8.7
+hct
+35.8
+35.8
+plt
+206
+210
+cr
+4.6
+4.8
+5.6
+5.1
+4.5
+glucose
+187
+175
+184
+192
+[**telephone/fax (2) 10211**]91
+other labs: pt / ptt / inr:14.4/31.4/1.3, ca++:9.5 mg/dl, mg++:2.1
+mg/dl, po4:4.1 mg/dl","severe systolic chf,; cad s/p mi; nsvt; # acute on chronic renal failure:",severe systolic congestive heart failure ; coronary artery disease status post myocardial infarction; non sustained ventricular tachycardia; acute on chronic renal failure,"['severe systolic congestive heart failure', 'coronary artery disease status post myocardial infarction', 'non sustained ventricular tachycardia', 'acute on chronic renal failure']","68 yo M with severe NYHA class IV systolic CHF with EF of 20%,
+   secondary to ischemic cardiomyopathy, admitted [**2179-8-31**] for acute
+   exacerbation of CHF and transferred to CCU from [**Hospital1 2259**] service for
+   aggressive diuresis and possible RRT for acute on chronic renal
+   failure.",False,There is no direct evidence of myocardial infarction in the provided SOAP note. The patient's symptoms and lab results do not specifically indicate a myocardial infarction.
+153,189804.txt,"no events.
+- tegretel not approved by pharm (xl is not qid dose)
+dilantin (oral) (phenytoin sodium extended)
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+nitroglycerin - 1.5 mcg/kg/min
+eptifibatide (integrilin) - 2 mcg/kg/min
+other icu medications:
+other medications:
+changes to  and f
+flowsheet data as of  [**2139-12-3**] 07:17 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.4
+tcurrent: 36.3
+c (97.4
+hr: 85 (85 - 103) bpm
+bp: 103/66(74) {102/64(73) - 160/105(118)} mmhg
+rr: 21 (12 - 21) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+height: 69 inch
+total in:
+232 ml
+po:
+60 ml
+tf:
+ivf:
+172 ml
+blood products:
+total out:
+0 ml
+100 ml
+urine:
+ng:
+100 ml
+stool:
+drains:
+balance:
+0 ml
+132 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///25/
+general: wdwn nad. oriented x3. mood, affect appropriate.
+heent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no
+pallor or cyanosis of the oral mucosa. no xanthalesma.
+neck: supple with no jvd.
+cardiac: pmi located in 5th intercostal space, midclavicular line. rr,
+normal s1, s2. no m/r/g. no thrills, lifts. no s3 or s4.
+lungs: no chest wall deformities, scoliosis or kyphosis. resp were
+unlabored, no accessory muscle use. ctab, no crackles, wheezes or
+rhonchi.
+abdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by
+palpation. no abdominial bruits.
+extremities: no c/c/e. no femoral bruits.
+skin: no stasis dermatitis, ulcers, scars, or xanthomas.
+pulses:
+right: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+
+left: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+
+354 k/ul
+13.2 g/dl
+144 mg/dl
+1.2 mg/dl
+25 meq/l
+4.3 meq/l
+14 mg/dl
+108 meq/l
+138 meq/l
+39.0 %
+16.4 k/ul
+[image002.jpg]
+[**2139-12-3**]  01:04 am
+wbc
+16.4
+hct
+39.0
+plt
+354
+cr
+1.2
+glucose
+144
+other labs: ck / ckmb / troponin-t:[**numeric identifier 10020**]//, ca++:7.9 mg/dl, mg++:2.0
+mg/dl, po4:4.2 mg/dl","cp, stemi; involuntary mm movements, h/o seizure",chest pain st elevation myocardial infarction; involuntary muscle movements history of seizure,"['chest pain st elevation myocardial infarction', 'involuntary muscle movements history of seizure']","n brief this is a 62 year old man with history of seizure and CAD
+   status post MI in 99 with LAD disease who presented with chest pain
+   associated with anterior ST elevation and found to have diffuse LAD
+   disease status post PCI.",False,"The patient is on nitroglycerin and eptifibatide, which are commonly used for acute coronary syndrome. However, the troponin-T result is not provided, making it difficult to confirm myocardial infarction. The presence of these medications suggests a high suspicion for cardiac issues, but without the troponin result, the diagnosis cannot be confirmed."
+173,112212.txt,"hypotension and ?nstemi
+ekg - at [**2189-11-19**] 08:30 pm
+nasal swab - at [**2189-11-20**] 05:00 am
+ct scan negative for volvulus.
+slightly hypotensive and got a total of 1l of fluid.
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2189-11-19**] 09:00 pm
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2189-11-20**] 12:00 am
+dextrose 50% - [**2189-11-20**] 06:59 am
+other medications:
+flowsheet data as of  [**2189-11-20**] 07:21 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.8
+c (98.3
+tcurrent: 36
+c (96.8
+hr: 76 (71 - 100) bpm
+bp: 113/55(70) {74/35(47) - 137/74(86)} mmhg
+rr: 12 (11 - 19) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 62.4 kg (admission): 62.4 kg
+height: 69 inch
+total in:
+1,750 ml
+525 ml
+po:
+tf:
+ivf:
+650 ml
+500 ml
+blood products:
+total out:
+260 ml
+748 ml
+urine:
+260 ml
+298 ml
+ng:
+stool:
+450 ml
+drains:
+balance:
+1,490 ml
+-223 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: 7.32/39/130/19/-5
+alert and able to give responses.  breathing comfortably with nasal
+cannula.  heart regular, no m/r/g.  agrees to having abdominal pain,
+but abdomen soft and does not grimace with palpation.  extremities wwp
+w/ contracture of right arm and no edema.
+214 k/ul
+9.9 g/dl
+68 mg/dl
+1.2 mg/dl
+19 meq/l
+4.2 meq/l
+32 mg/dl
+117 meq/l
+145 meq/l
+31.5 %
+7.9 k/ul
+[image002.jpg]
+[**2189-11-19**]  08:03 pm
+[**2189-11-20**]  05:23 am
+wbc
+7.9
+hct
+31.5
+plt
+214
+cr
+1.2
+tropt
+0.20
+tco2
+21
+glucose
+68
+other labs: pt / ptt / inr:24.6/47.9/2.4, ck / ckmb /
+troponin-t:116/9/0.20, lactic acid:0.5 mmol/l, ca++:8.2 mg/dl, mg++:2.2
+mg/dl, po4:4.6 mg/dl
+imaging: ct (wet-read):no evidence of volvulus. unchanged appearance of
+known [**last name (un) **]
+syndrome/pseudoobstruction of sigmoid. rectal contrast almost
+completely emptied.
+microbiology: urine cx negative
+blood cx, mrsa, cdiff negative","hypotension: hypovolemia (dehydration from diarrhea) versus worsening
+   cardiac function versus sepsis.; volvulus; demand ischemia versus nstemi; aspiration",hypotension hypovolemia dehydration from diarrhea versus worsening cardiac function versus sepsis ; volvulus; demand ischemia versus non st elevation myocardial infarction; aspiration,"['hypotension hypovolemia dehydration from diarrhea versus worsening cardiac function versus sepsis', 'volvulus', 'demand ischemia versus non st elevation myocardial infarction', 'aspiration']","[**Last Name (un) **] syndrome- nausea, vomiting, diarrhea
+   77 y/o male with CAD, Ogilve's syndrome, expressive aphasia s/p likely
+   demand-ischemia in context of hypotension.",False,"The patient's troponin-T level is 0.20, which is slightly elevated, but not significantly high. The EKG showed ?nstemi, but the troponin level does not strongly support a diagnosis of myocardial infarction. However, the presence of some elevation and the EKG findings suggest that myocardial infarction cannot be completely ruled out, but it is less likely."
+176,103928.txt,"picc line - start [**2153-9-26**] 11:28 pm
+percocet (oral) (oxycodone hcl/acetaminophen)
+nausea/vomiting
+codeine
+unknown;
+demerol (oral) (meperidine hcl)
+unknown;
+nafcillin
+rash; itch;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+pantoprazole (protonix) - 8 mg/hour
+other icu medications:
+pantoprazole (protonix) - [**2153-9-27**] 12:25 am
+other medications:
+flowsheet data as of  [**2153-9-27**] 07:40 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 35.7
+c (96.2
+tcurrent: 35.7
+c (96.2
+hr: 60 (58 - 69) bpm
+bp: 120/56(71) {110/50(65) - 140/61(80)} mmhg
+rr: 11 (8 - 23) insp/min
+spo2: 99%
+total in:
+100 ml
+356 ml
+po:
+tf:
+ivf:
+82 ml
+blood products:
+100 ml
+275 ml
+total out:
+0 ml
+230 ml
+urine:
+230 ml
+ng:
+stool:
+drains:
+balance:
+100 ml
+126 ml
+respiratory support
+spo2: 99%
+abg: ///22/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+252 k/ul
+8.2 g/dl
+94 mg/dl
+5.2 mg/dl
+22 meq/l
+4.8 meq/l
+99 mg/dl
+100 meq/l
+137 meq/l
+27.0 %
+8.7 k/ul
+[image002.jpg]
+[**2153-9-26**]  11:50 pm
+[**2153-9-27**]  04:10 am
+wbc
+8.8
+8.7
+hct
+26.9
+27.0
+plt
+275
+252
+cr
+5.2
+5.2
+glucose
+123
+94
+other labs: pt / ptt / inr:16.3/45.7/1.4, lactic acid:1.4 mmol/l,
+ca++:8.4 mg/dl, mg++:2.5 mg/dl, po4:8.0 mg/dl",gib; nstemi; acute renal failure; osteomyelitis; delirium,gastrointestinal bleeding; non st elevation myocardial infarction; acute renal failure; osteomyelitis; delirium,"['gastrointestinal bleeding', 'non st elevation myocardial infarction', 'acute renal failure', 'osteomyelitis', 'delirium']","Post-Call Addendum:
+   74 y/oM with NSTEMI, right foot osteomyelitis, now with new
+   gastrointestinal bleeding.",False,"There is no direct evidence of myocardial infarction such as chest pain, ECG changes, or elevated troponin levels in the provided SOAP note."
+189,185625.txt,"nasal swab - at [**2145-1-18**] 03:03 pm
+- called for asymptomatic hypoxia.  the patient was placed on a face
+tent and o2 sat remained in the low 90's.  the patient had a difficult
+time keeping her face mask on and had subsequent episodes of
+desaturation into the low 90's high 80's
+- she then became more tachycardic and her am cxr showed worsening
+pulmonary edema.  she was restarted on metoprolol 5mg iv tid and given
+20mg of iv lasix.
+- na on admission 125, up to 130 after 2l ns
+- had many pvcs overnight, replaced k and mag
+nitroglycerin
+hypotension;
+aspirin
+unknown;
+penicillins
+unknown;
+levaquin (oral) (levofloxacin)
+diarrhea;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2145-1-18**] 04:35 pm
+other medications:
+flowsheet data as of  [**2145-1-19**] 05:15 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.6
+c (99.7
+tcurrent: 37.6
+c (99.7
+hr: 109 (80 - 109) bpm
+bp: 110/58(69) {77/36(53) - 123/60(74)} mmhg
+rr: 19 (16 - 25) insp/min
+spo2: 91%
+heart rhythm: st (sinus tachycardia)
+height: 61 inch
+total in:
+4,588 ml
+718 ml
+po:
+tf:
+ivf:
+2,588 ml
+718 ml
+blood products:
+total out:
+884 ml
+185 ml
+urine:
+634 ml
+185 ml
+ng:
+250 ml
+stool:
+drains:
+balance:
+3,704 ml
+533 ml
+respiratory support
+o2 delivery device: face tent
+spo2: 91%
+abg: ///28/
+/
+148 k/ul
+9.8 g/dl
+127 mg/dl
+0.8 mg/dl
+28 meq/l
+3.7 meq/l
+18 mg/dl
+96 meq/l
+131 meq/l
+28.1 %
+13.8 k/ul
+[image002.jpg]
+[**2145-1-18**]  12:42 pm
+[**2145-1-18**]  09:10 pm
+[**2145-1-19**]  01:58 am
+wbc
+13.8
+hct
+28.1
+plt
+148
+cr
+0.8
+0.9
+0.8
+glucose
+140
+135
+127
+other labs: pt / ptt / inr:16.6/37.3/1.5, alt / ast:13/21, alk phos / t
+bili:44/0.6, albumin:3.3 g/dl, ldh:232 iu/l, ca++:8.1 mg/dl, mg++:1.9
+mg/dl, po4:2.8 mg/dl",sbo.; hypoxia.; hypothyroidism; osteoporosis.; htn; cad s/p mi.,small bowel obstruction ; hypoxia ; hypothyroidism; osteoporosis ; hypertension; coronary artery disease status post myocardial infarction,"['small bowel obstruction', 'hypoxia', 'hypothyroidism', 'osteoporosis', 'hypertension', 'coronary artery disease status post myocardial infarction']","Leukocytosis.  Likely secondary to SBO, but will evaluate for
+   infectious sources.  Also has infiltrate on CXR, ?aspiration
+   pneumonitis versus pneumonia.
+   - f/u urine, blood, sputum cultures
+   - monitor fever curve, wbc
+   - hold off on Abx for now, but consider if febrile or has worsening
+   respiratory symptoms",False,"There is no direct evidence of myocardial infarction such as elevated troponins or ECG changes mentioned in the provided SOAP note. The patient is on metoprolol and nitroglycerin, which could be for various cardiac conditions, but without specific indicators of myocardial infarction, it's unlikely."
+193,195768.txt,"respiratory distress
+ekg - at [**2178-2-8**] 12:00 am
+- serial hct 30--->29.5--->31
+- gave iv dilt and started 30mg qid po with good effect - went back
+into nsr, then reverted back in to aflutter around 120, gave another
+5mg iv dilt and increaed to to 60mg, relapsed,got 5mg iv and increased
+po dilt to 90mg without response.  also got 250cc bolus given diuresis
+on lasix gtt, but no response.
+- cards curbside:  try iv dilt 2.5mg iv x1, if works give po.  if
+doesn't work, then increase bb to 25bid.  if doesn't work, mini dig
+load - 0.125mg, 0.125mg, then daily 0.0625mg.  then if no change, call
+cards c/s
+codeine
+unknown;
+azithromycin
+unknown;
+morphine
+hallucinations;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2178-2-6**] 06:03 pm
+infusions:
+pantoprazole (protonix) - 8 mg/hour
+other icu medications:
+diltiazem - [**2178-2-8**] 04:45 am
+other medications:
+flowsheet data as of  [**2178-2-8**] 06:39 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.5
+tcurrent: 36.4
+c (97.6
+hr: 142 (86 - 145) bpm
+bp: 129/70(89) {92/42(59) - 129/70(89)} mmhg
+rr: 19 (14 - 24) insp/min
+spo2: 97%
+heart rhythm: a flut (atrial flutter)
+height: 60 inch
+total in:
+1,836 ml
+447 ml
+po:
+1,200 ml
+120 ml
+tf:
+ivf:
+636 ml
+327 ml
+blood products:
+total out:
+1,387 ml
+957 ml
+urine:
+1,387 ml
+957 ml
+ng:
+stool:
+drains:
+balance:
+449 ml
+-510 ml
+respiratory support
+o2 delivery device: high flow nasal cannula
+spo2: 97%
+abg: ///31/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+307 k/ul
+9.7 g/dl
+109 mg/dl
+1.4 mg/dl
+31 meq/l
+3.7 meq/l
+34 mg/dl
+101 meq/l
+140 meq/l
+29.4 %
+15.3 k/ul
+mage002.jpg]
+[**2178-2-6**]  12:50 pm
+[**2178-2-6**]  03:24 pm
+[**2178-2-6**]  08:24 pm
+[**2178-2-6**]  08:30 pm
+[**2178-2-6**]  11:01 pm
+[**2178-2-7**]  12:23 am
+[**2178-2-7**]  04:44 am
+[**2178-2-7**]  12:27 pm
+[**2178-2-7**]  10:31 pm
+[**2178-2-8**]  03:46 am
+bc
+23.1
+22.4
+18.7
+15.3
+hct
+35.4
+33.2
+30.0
+29.5
+31.2
+29.4
+plt
+488
+504
+391
+307
+cr
+1.1
+1.2
+1.2
+1.5
+1.4
+tropt
+0.39
+0.38
+0.37
+0.23
+0.15
+tco2
+29
+24
+28
+glucose
+164
+117
+111
+161
+109
+other labs: pt / ptt / inr:13.1/25.4/1.1, ck / ckmb /
+troponin-t:70/3/0.15, alt / ast:32/55, alk phos / t bili:126/0.4,
+differential-neuts:87.2 %, band:0.0 %, lymph:5.3 %, mono:7.3 %, eos:0.1
+%, lactic acid:2.2 mmol/l, albumin:3.4 g/dl, ldh:383 iu/l, ca++:8.0
+mg/dl, mg++:2.1 mg/dl, po4:2.3 mg/dl","tachyarrhythmia:; # respiratory distress/copd/pna:; nstemi: likely secondary to demand from anemia, resp distress, and
+   tachycardia; gib:; cva:; hypertension; hypercholesterolemia",tachyarrhythmia ; respiratory distress chronic obstructive pulmonary disease pneumonia ; non st elevation myocardial infarction likely secondary to demand from anemia respiratory distress and tachycardia; gastrointestinal bleeding ; cerebrovascular accident ; hypertension; hypercholesterolemia,"['tachyarrhythmia', 'respiratory distress chronic obstructive pulmonary disease pneumonia', 'non st elevation myocardial infarction likely secondary to demand from anemia respiratory distress and tachycardia', 'gastrointestinal bleeding', 'cerebrovascular accident', 'hypertension', 'hypercholesterolemia']","MYOCARDIAL INFARCTION, ACUTE (AMI, STEMI, NSTEMI)
+ GASTROINTESTINAL BLEED, LOWER (HEMATOCHEZIA, BRBPR, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+   69F w/ h/o afib on coumadin, PUD, COPD, CKD, h/o CVA, HTN,
+   hyperlipidemia transferred from [**Hospital1 709**] by family request after presenting
+   with black stools, developed hypoxemia and tachyarrhythmia with RVR,
+   now with continued respiratory distress complicated by demand ischemia.",False,"The patient's troponin-T level is slightly elevated at 0.15, which could indicate myocardial infarction, but it is not significantly high. The CKMB is also not significantly elevated. Therefore, myocardial infarction is unlikely."
+195,100571.txt,"multi lumen - start [**2173-2-24**] 05:38 pm
+[**2173-2-24**] events:
+- held dilantin for elevated level, check in am and restart 360mg of
+dilantin qhs if wnl
+- getting ruled out for tb, [**1-30**] sputum cultures done
+- id approval for vanc for possible hap vs. vap vs. aspiration.
+- pt received lasix 40mg iv x 2 with good uop
+- code purple because trying to leave,agitated, received 2mg of haldol
+no known drug allergies
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2173-2-24**] 08:15 pm
+piperacillin - [**2173-2-25**] 12:15 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2173-2-24**] 08:25 pm
+other medications:
+flowsheet data as of  [**2173-2-25**] 06:43 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.3
+c (99.1
+tcurrent: 37.3
+c (99.1
+hr: 103 (78 - 103) bpm
+bp: 125/75(86) {103/36(53) - 136/89(94)} mmhg
+rr: 31 (15 - 31) insp/min
+spo2: 90%
+heart rhythm: st (sinus tachycardia)
+wgt (current): 113.8 kg (admission): 108 kg
+height: 70 inch
+total in:
+300 ml
+400 ml
+po:
+100 ml
+300 ml
+tf:
+ivf:
+200 ml
+100 ml
+blood products:
+total out:
+770 ml
+480 ml
+urine:
+770 ml
+480 ml
+ng:
+stool:
+drains:
+balance:
+-470 ml
+-80 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 90%
+abg: ///31/
+general: alert, oriented to person, but not to place or time
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple, jvp at jaw, no lad
+lungs: diffuse inspiratory and expiratory wheezes throughout improved
+from yesterday, some scarce crackles at bases
+cv: regular rate and rhythm, normal s1 + s2, no murmurs
+abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis, +trace
+edema
+267 k/ul
+12.9 g/dl
+127 mg/dl
+0.9 mg/dl
+31 meq/l
+3.1 meq/l
+7 mg/dl
+105 meq/l
+143 meq/l
+34.5 %
+6.4 k/ul
+[image002.jpg]
+[**2173-2-22**]  09:29 am
+[**2173-2-22**]  05:24 pm
+[**2173-2-22**]  05:42 pm
+[**2173-2-23**]  12:01 am
+[**2173-2-23**]  01:39 am
+[**2173-2-23**]  03:00 am
+[**2173-2-23**]  03:07 am
+[**2173-2-23**]  06:20 am
+[**2173-2-24**]  01:57 pm
+[**2173-2-25**]  02:22 am
+wbc
+7.2
+6.4
+hct
+28.5
+28.8
+32.2
+34.5
+plt
+205
+267
+cr
+0.9
+0.9
+tropt
+0.24
+0.14
+tco2
+24
+25
+27
+28
+30
+glucose
+128
+127
+other labs: pt / ptt / inr:12.9/25.4/1.1, ck / ckmb /
+troponin-t:135/3/0.14, alt / ast:18/32, alk phos / t bili:101/0.3,
+lactic acid:0.6 mmol/l, albumin:3.5 g/dl, ldh:198 iu/l, ca++:8.5 mg/dl,
+mg++:1.9 mg/dl, po4:2.7 mg/dl",resp distress; seizures:  secondary to eee; nstemi/chf,respiratory distress; seizures secondary to eastern equine encephalitis; non st elevation myocardial infarction congestive heart failure,"['respiratory distress', 'seizures secondary to eastern equine encephalitis', 'non st elevation myocardial infarction congestive heart failure']","his is a 66 y/o M hx seizures from EEE encephalitis p/w status c/b
+   aspiration PNA, intubated in NICU, and NSTEMI and extubated on [**2-21**].
+   Transferred to floor on [**2-24**] and continues to have some mild
+   respiratory distress, tachypnea.
+   .",False,"The troponin-t level is slightly elevated at 0.14, which could indicate myocardial infarction, but it is not significantly high. The CKMB is also not significantly elevated at 3. The patient's ECG shows sinus tachycardia, but there is no mention of ST-segment elevation or other signs of myocardial infarction. Therefore, the diagnosis of myocardial infarction is unlikely."
+223,104994.txt,"hypotension
+[**2155-7-23**].
+- groin ultrasound showed 6 cm groin hematoma; vascular aware
+- abx changed to vanco/unasyn
+- blood cultures sent
+- given kayexalate for hyperkalemia
+history obtained from patient, family / [**hospital 56**] medical records
+history obtained from patient, family / [**hospital 56**] medical [**name2 (ni) 4484**] known
+drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2155-7-23**] 11:23 pm
+ampicillin/sulbactam (unasyn) - [**2155-7-24**] 05:17 am
+infusions:
+other icu medications:
+other medications:
+tacrolimus 4 mg po bid
+hsq
+dilaudid
+bactrim
+amp/sulbactam d 2
+vanco d 2
+iss
+aspirin 325
+trazodone 100 prn
+tolterodine 2 mg po bid
+mmf 500 po bid
+tricor daily
+pantoprazole
+cilostazole 50 mg [**hospital1 **]
+lipitor 40 qhs
+fosamax 70 mg weekly
+flowsheet data as of  [**2155-7-24**] 06:35 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.3
+c (97.3
+tcurrent: 36.2
+c (97.1
+hr: 65 (65 - 89) bpm
+bp: 106/65(75) {104/16(44) - 152/84(89)} mmhg
+rr: 17 (12 - 23) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+total in:
+5,036 ml
+316 ml
+po:
+600 ml
+tf:
+ivf:
+436 ml
+316 ml
+blood products:
+total out:
+900 ml
+1,600 ml
+urine:
+600 ml
+1,600 ml
+ng:
+stool:
+drains:
+balance:
+4,136 ml
+-1,284 ml
+respiratory support
+o2 delivery device: none
+spo2: 97%
+abg: ///21/
+gen: nad
+heent: eomi, o/p clear
+cv: rrr, no m/r/g
+pulm: cta b/l
+abd: soft, nt, nd, bowel sounds present
+ext: r 2+ pitting edema
+217 k/ul
+8.3 g/dl
+56 mg/dl
+2.1 mg/dl
+21 meq/l
+5.3 meq/l
+30 mg/dl
+107 meq/l
+138 meq/l
+25.6 %
+5.1 k/ul
+[image002.jpg]
+[**2155-7-23**]  07:31 pm
+[**2155-7-23**]  10:44 pm
+[**2155-7-24**]  05:00 am
+wbc
+5.1
+hct
+25.6
+plt
+217
+cr
+2.2
+2.2
+2.1
+glucose
+181
+199
+56
+other labs: pt / ptt / inr:12.8/29.1/1.1, ck / ckmb / troponin-t:41//,
+alt / ast:17/17, alk phos / t bili:36/0.2, differential-neuts:66.2 %,
+lymph:26.2 %, mono:5.3 %, eos:1.8 %, lactic acid:1.2 mmol/l,
+albumin:3.4 g/dl, ldh:195 iu/l, ca++:8.6 mg/dl, mg++:2.2 mg/dl, po4:3.2
+mg/dl",hypotension; acute renal failure.; hyperkalemia; right groin wound.; s/p liver transplant.; cad s/p mi.; htn.; hyperlipidemia.; peripheral vascular disease s/p l sfa stent/angioplasty,hypotension; acute renal failure ; hyperkalemia; right groin wound ; status post liver transplant ; coronary artery disease status post myocardial infarction ; hypertension ; hyperlipidemia ; peripheral vascular disease status post left superficial femoral artery stent angioplasty,"['hypotension', 'acute renal failure', 'hyperkalemia', 'right groin wound', 'status post liver transplant', 'coronary artery disease status post myocardial infarction', 'hypertension', 'hyperlipidemia', 'peripheral vascular disease status post left superficial femoral artery stent angioplasty']","Mr. [**Known lastname **] is a 53 yo male with PVD, HTN, HL, CAD s/p MI, s/p
+   liver transplant for alcoholic cirrhosis, admitted to the MICU for
+   hyypotension which resolved with IVF boluses.
+   .",False,"The patient's troponin-T level is not significantly elevated (only mentioned as part of a panel with no specific value given, but implied to be low or not significantly elevated since it's not highlighted), which is a key marker for myocardial infarction. The patient's symptoms and lab results do not strongly suggest myocardial infarction."
+244,101194.txt,"presep catheter - start [**2189-12-4**] 06:21 pm
+paracentesis - at [**2189-12-4**] 11:00 pm
+- episodes of hypotension through the night treated with dexamethasone,
+vasopressin, pressors and blood products
+- poor uop overnight
+- paracentesis labs returned suggestive of sbp
+- s/p 6l ns
+- rij in ed with bleeding at insertion site; we placed additional
+sutures
+levaquin (oral) (levofloxacin)
+unknown;
+shellfish derived
+unknown;
+latex
+unknown;
+aranesp (injection) (darbepoetin alfa in [**first name9 (namepattern2) 10061**] [**male first name (un) **])
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+piperacillin/tazobactam (zosyn) - [**2189-12-5**] 04:00 am
+infusions:
+norepinephrine - 0.2 mcg/kg/min
+vasopressin - 1.2 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2189-12-5**] 07:40 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**91**] am
+tmax: 36.2
+c (97.2
+tcurrent: 36.1
+c (97
+hr: 103 (93 - 136) bpm
+bp: 95/54(59) {76/40(47) - 101/81(71)} mmhg
+rr: 22 (18 - 32) insp/min
+spo2: 95%
+heart rhythm: af (atrial fibrillation)
+height: 73 inch
+co/ci (fick): (6.5 l/min) / (3.1 l/min/m2)
+svo2: 59%
+total in:
+2,572 ml
+2,328 ml
+po:
+tf:
+ivf:
+2,572 ml
+2,037 ml
+blood products:
+292 ml
+total out:
+300 ml
+135 ml
+urine:
+300 ml
+135 ml
+ng:
+stool:
+drains:
+balance:
+2,272 ml
+2,193 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///21/
+general: alert and oriented; able to relate history in detail
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple
+lungs: decreased breath sounds at the right base with mild to moderate
+crackles at bases; wheezes bilaterally
+cv: rrr, somewhat distant; jvd elevated
+abdomen: mildly protuberant, soft, non-tender
+extremities: 3+ pitting edema
+neuro: wide based markedly abnormal and tentative gait
+skin: improved maculopapular rash over back/trunk/flank/lower abdomen
+33 k/ul
+8.6 g/dl
+67 mg/dl
+1.9 mg/dl
+21 meq/l
+3.6 meq/l
+41 mg/dl
+112 meq/l
+142 meq/l
+26.9 %
+23.5 k/ul
+image002.jpg]
+[**2189-12-5**]  12:54 am
+[**2189-12-5**]  02:43 am
+wbc
+20.5
+23.5
+hct
+27.2
+26.9
+plt
+28
+33
+cr
+1.9
+glucose
+67
+other labs: pt / ptt / inr:16.7/49.1/1.5, alt / ast:58/48, alk phos / t
+bili:210/1.8, amylase / lipase:/21, lactic acid:1.1 mmol/l, albumin:2.5
+g/dl, ldh:356 iu/l, ca++:7.6 mg/dl, mg++:1.7 mg/dl, po4:3.4 mg/dl
+paracentesis results
+[**12-5**], [**12-4**] cxr
+final read pending;
+[**12-4**] ct abdomen/pelvis
+final read pending; cirrhosis with moderate
+ascites","hypotension/tachycardia/hypothermia; sbp; right pleural effusion. cannot rule out right lower quadrant
+   pneumonia, likely nosocomial (mrsa/pseudomonal).; tachycardia; chest pain/recent nstemi",hypotension tachycardia hypothermia; systolic blood pressure; right pleural effusion cannot rule out right lower quadrant pneumonia likely nosocomial methicillin resistant staphylococcus aureus pseudomonal ; tachycardia; chest pain recent non st elevation myocardial infarction,"['hypotension tachycardia hypothermia', 'systolic blood pressure', 'right pleural effusion cannot rule out right lower quadrant pneumonia likely nosocomial methicillin resistant staphylococcus aureus pseudomonal', 'tachycardia', 'chest pain recent non st elevation myocardial infarction']","75 yo M hx CAD s/p recent NSTEMI, a. fib not on Coumadin, and recent
+   hospitalization for SIRS now with pneumonia on CXR and hypotension.
+   .",False,"There is no direct evidence of myocardial infarction such as elevated troponins or ECG changes mentioned in the provided SOAP note. The patient's heart rhythm is atrial fibrillation, but this alone is not sufficient to diagnose myocardial infarction."
+257,185452.txt,"dyspnea/hypoxia
+ekg - at [**2125-12-31**] 08:23 am
+-tte - to assess for new [**year (4 digits) 2270**] given elevated bnp and findings of failure
+- no new [**last name (lf) **], [**first name3 (lf) **] 55%
+-s/s evalutation - rec barium swallow to r/o esophageal pathology,
+likely reflux, re-consult if (-) scan, cont purees
+- diuresis iv lasix 40mg am - net (-)
+""   -cardiology recs - from team census - """"when sob quiets down, consider""
+""   cath"""" - maximize med tx.  spoke with cards c/s o/n, will make sure team""
+evals [**1-1**].
+- ct scan 8pm - small bil pleural effusions, smooth septal thickening,
+ggo in dependant portion of lungs, findings suggestive of pulmonary
+edema, however pattern is somewhat atypical, aspiration may be
+considered.  3v cad noted, calcification of mitral annulus and av.
+demerol (oral) (meperidine hcl)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2125-12-30**] 07:45 am
+metronidazole - [**2126-1-1**] 06:00 am
+infusions:
+heparin sodium - 1,800 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2126-1-1**] 07:52 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 36.4
+c (97.5
+hr: 65 (57 - 69) bpm
+bp: 115/31(54) {93/21(44) - 157/123(131)} mmhg
+rr: 17 (11 - 17) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+total in:
+1,078 ml
+220 ml
+po:
+480 ml
+tf:
+ivf:
+598 ml
+220 ml
+blood products:
+total out:
+2,045 ml
+260 ml
+urine:
+2,045 ml
+260 ml
+ng:
+stool:
+drains:
+balance:
+-967 ml
+-40 ml
+respiratory support
+o2 delivery device: aerosol-cool
+spo2: 92%
+abg: ///36/
+general appearance: well nourished, no acute distress, overweight /
+obese
+cardiovascular: (s1: normal), (s2: normal), (murmur: systolic)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (breath sounds: wheezes : )
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: 2+, left: 2+
+skin:  not assessed
+neurologic: attentive, responds to: not assessed, movement: not
+assessed, tone: not assessed
+250 k/ul
+9.7 g/dl
+167 mg/dl
+0.8 mg/dl
+36 meq/l
+4.2 meq/l
+26 mg/dl
+98 meq/l
+141 meq/l
+29.4 %
+8.8 k/ul
+image002.jpg]
+[**2125-12-30**]  04:27 am
+[**2125-12-30**]  11:14 am
+[**2125-12-31**]  05:20 am
+[**2125-12-31**]  04:33 pm
+[**2126-1-1**]  04:37 am
+wbc
+8.6
+9.5
+8.8
+hct
+29.3
+30.0
+29.4
+plt
+[**telephone/fax (3) 2271**]
+cr
+0.9
+0.9
+1.0
+0.8
+tropt
+2.89
+2.99
+2.61
+1.37
+0.82
+glucose
+97
+122
+223
+167
+other labs: pt / ptt / inr:13.1/76.8/1.1, ck / ckmb /
+troponin-t:110/3/0.82, alt / ast:[**12-30**], alk phos / t bili:64/0.3,
+lactic acid:0.9 mmol/l, albumin:2.9 g/dl, ldh:246 iu/l, ca++:8.2 mg/dl,
+mg++:2.0 mg/dl, po4:3.9 mg/dl",hypoxemia; # nstemi.; aspiration pneumonia; pleural effusion; copd,hypoxemia; non st elevation myocardial infarction ; aspiration pneumonia; pleural effusion; chronic obstructive pulmonary disease,"['hypoxemia', 'non st elevation myocardial infarction', 'aspiration pneumonia', 'pleural effusion', 'chronic obstructive pulmonary disease']","85 F with COPD on home O2, recent admission to hospital for post-ERCP
+   hypoxia thought related to NSTEMI and aspiration pneumonia, now
+   admitted with worsening dyspnea, elevated troponin, and pulmonary
+   edema.",False,"The troponin-t level is slightly elevated at 0.82, which could indicate myocardial infarction, but it's not significantly high. The CKMB is also not significantly elevated. The EKG and cardiac enzymes do not strongly suggest an acute myocardial infarction. Therefore, the diagnosis is unlikely."
+269,109943.txt,"- echo: 75 ef, lvh, pcwp 18
+- dialyzed, overall even
+pt complaining of neck, chest pain today.  ekg shows st depressions
+laterally and lvh.
+demerol (oral) (meperidine hcl)
+unknown;
+sulfa (sulfonamide antibiotics)
+unknown;
+promethazine
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+fentanyl - [**2173-3-31**] 06:00 am
+pantoprazole (protonix) - [**2173-3-31**] 11:15 pm
+other medications:
+flowsheet data as of  [**2173-4-1**] 05:40 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37
+c (98.6
+tcurrent: 36.6
+c (97.8
+hr: 72 (68 - 78) bpm
+bp: 125/30(54) {85/19(35) - 158/85(90)} mmhg
+rr: 16 (9 - 20) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+total in:
+311 ml
+po:
+30 ml
+tf:
+ivf:
+281 ml
+blood products:
+total out:
+0 ml
+0 ml
+urine:
+ng:
+stool:
+drains:
+balance:
+311 ml
+0 ml
+respiratory support
+o2 delivery device: none
+spo2: 98%
+abg: ///30/
+general: elderly female in nad.
+heent: ncat. sclera anicteric. conjunctiva were pink, no pallor or
+cyanosis of the oral mucosa. no xanthalesma.
+neck: supple with jvp of 7 cm.
+cardiac: rr, unable to hear clear s1. soft s2 [**1-22**] sm at rusb early
+peaking. radiating to carotids.
+lungs: ctab, no crackles, wheezes or rhonchi anteriorly
+abdomen: soft, ntnd.
+extremities: no c/c/e.
+skin: no stasis dermatitis, ulcers, scars, or xanthomas.
+neuro: lethargic but arousable.
+322 k/ul
+8.1 g/dl
+94 mg/dl
+5.2 mg/dl
+30 meq/l
+3.8 meq/l
+31 mg/dl
+99 meq/l
+142 meq/l
+25.7 %
+10.7 k/ul
+wbc
+21.0
+20.6
+10.7
+hct
+30.4
+28.7
+25.7
+plt
+366
+375
+322
+cr
+8.5
+8.9
+5.2
+glucose
+131
+104
+94
+other labs: pt / ptt / inr:17.7/32.2/1.6, ck / ckmb / troponin-t:22//,
+alt / ast:13/18, alk phos / t bili:58/0.3, differential-neuts:91.2 %,
+lymph:4.4 %, mono:2.6 %, eos:1.7 %, ca++:9.5 mg/dl, mg++:2.5 mg/dl,
+po4:3.2 mg/dl
+tee
+the left atrium and right atrium are normal in cavity size. there is
+mild symmetric left ventricular hypertrophy with normal cavity size.
+due to suboptimal technical quality, a focal wall motion abnormality
+cannot be fully excluded. left ventricular systolic function is
+hyperdynamic (ef>75%). tissue doppler imaging suggests an increased
+left ventricular filling pressure (pcwp>18mmhg). right ventricular
+chamber size and free wall motion are normal. the aortic valve leaflets
+are mildly thickened (?#). there is mild aortic valve stenosis (area
+1.2-1.9cm2). mild (1+) aortic regurgitation is seen. the mitral valve
+leaflets are mildly thickened. there is no mitral valve prolapse.
+trivial mitral regurgitation is seen. [due to acoustic shadowing, the
+severity of mitral regurgitation may be significantly underestimated.]
+the tricuspid valve leaflets are mildly thickened. the estimated
+pulmonary artery systolic pressure is normal. there is no pericardial
+effusion.
+impression: mild symmetric lvh with hyperdynamic lv systolic function.
+diastolic dysfunction with elevated filling pressures. mild aortic
+valve stenosis with mild aortic regurgitation.",s/p nstemi; htn; chronic renal failure; hl,status post non st elevation myocardial infarction; hypertension; chronic renal failure; hyperlipidemia,"['status post non st elevation myocardial infarction', 'hypertension', 'chronic renal failure', 'hyperlipidemia']","81yo F with h/o ESRD on HD, HTN, HL, acute CHF exacerbation 1 month
+   ago, admitted from OSH with NSTEMI now s/p cath with DES in LAD and
+   LMCA.",False,"The patient has chest pain and EKG shows ST depressions laterally, which could indicate myocardial infarction. However, the troponin-T level is not significantly elevated (only mentioned as '22//' without clear reference), and the left ventricular systolic function is hyperdynamic (EF > 75%). These findings do not strongly support an acute myocardial infarction. The presence of mild symmetric left ventricular hypertrophy and diastolic dysfunction with elevated filling pressures suggests other cardiac issues but does not directly indicate myocardial infarction."
+275,112750.txt,"pt denies chest pain, sob, diaphoresis.  no complaints this morning.
+minimal r groin discomfort.
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+eptifibatide (integrilin) - 2 mcg/kg/min
+other icu medications:
+other medications:
+flowsheet data as of  [**2174-1-12**] 06:19 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.7
+tcurrent: 37.1
+c (98.7
+hr: 74 (72 - 90) bpm
+bp: 126/68(82) {116/67(78) - 130/75(86)} mmhg
+rr: 21 (18 - 21) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+height: 68 inch
+total in:
+817 ml
+po:
+tf:
+ivf:
+817 ml
+blood products:
+total out:
+0 ml
+0 ml
+urine:
+ng:
+stool:
+drains:
+balance:
+0 ml
+817 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ////
+general: wdwn male in nad. oriented x3. mood, affect appropriate.
+heent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no
+pallor or cyanosis of the oral mucosa. no xanthalesma.
+neck: supple with jvp of 6 cm.
+cardiac: pmi located in 5th intercostal space, midclavicular line. rr,
+normal s1, s2. no m/r/g. no thrills, lifts. no s3 or s4.
+lungs: no chest wall deformities, scoliosis or kyphosis. resp were
+unlabored, no accessory muscle use. ctab, no crackles, wheezes or
+rhonchi.
+abdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by
+palpation. no abdominial bruits.
+extremities: no c/c/e. no femoral bruits. smal quarter size hematoma in
+right cath size with minimal tenderness.
+skin: no stasis dermatitis, ulcers, scars, or xanthomas.
+pulses:
+right: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+
+left: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+",stemi,st elevation myocardial infarction,['st elevation myocardial infarction'],"The patient is a 46 year old male with no signifant past medical
+   history who presented with chest pain, and found to have an inferior
+   myocardial infarction.
+   .",False,"The patient denies chest pain and the cardiac examination shows a normal S1 and S2 with no murmurs, which argues against myocardial infarction. The use of eptifibatide (an antiplatelet medication) could suggest a cardiovascular issue, but without chest pain or ECG findings mentioned, it's not conclusive for myocardial infarction."
+337,107452.txt,"title: chief complaint: 24 hour events: - pulm: 10d course abx, daily sputum for cytology, bronch with bal in 2 weeks if no diagnosis, goal o2 >93% allergies: codeine unknown;","last dose of antibiotics: ceftriaxone -  03:00 pm azithromycin -  03:00 pm metronidazole -  10:00 pm infusions: heparin sodium - 800 units/hour other icu medications: coumadin (warfarin) -  05:00 pm other medications: aspirin 325 mg plavix 75 mg captopril 6.25 tid atorvostatin 80mg metoprolol 25mg tid coumadin 5 mg xopenex/ ipratroprium trazadone senna/ docusate/ bisacodyl changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: feels sleepy, but denies any sob, chest pain, dizziness, abdominal discomfort , other complaints flowsheet data as of   06:39 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.5 c (97.7 tcurrent: 35.6 c (96 hr: 75 (69 - 98) bpm bp: 103/50(62) {80/41(51) - 135/67(80)} mmhg rr: 17 (10 - 20) insp/min spo2: 93% heart rhythm: sr (sinus rhythm) wgt (current): 55 kg (admission): 53 kg total in: 988 ml 119 ml po: 510 ml tf: ivf: 478 ml 119 ml blood products: total out: 1,550 ml 0 ml urine: 1,550 ml ng: stool: drains: balance: -562 ml 119 ml respiratory support o2 delivery device: face tent spo2: 93% abg: //// physical examination general: sleepy but easily arousable, in nad. oriented x3. mood, affect appropriate. heent: ncat. sclera anicteric. eomi. mmm.  facial mask in place neck: supple with jvp of 8 cm. cardiac: pmi located in 5th intercostal space, midclavicular line. rr, normal s1, s2. no m/r/g. no thrills, lifts. no s3 or s4. lungs: respirations unlabored, diffuse rhonchi bilaterally rll> lll; diminished breath sounds right base abdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by palpation. no abdominial bruits. extremities: no c/c/e. palpable pulse b/l skin: no stasis dermatitis, ulcers, scars, or xanthomas. labs / radiology 139 k/ul 9.9 g/dl 116 mg/dl 1.1 mg/dl 23 meq/l 4.5 meq/l 17 mg/dl 106 meq/l 138 meq/l 28.9 % 3.8 k/ul [image002.jpg]   05:56 pm   05:01 am   07:48 am   06:05 am   04:29 pm   04:19 am   05:46 am wbc 5.5 6.5 5.3 5.4 3.8 hct 37.9 38.2 32.0 34.0 31.8 28.9 plt 185 165 158 146 139 cr 0.9 1.2 1.2 1.1 tropt 3.99 2.65 tco2 28 glucose 95 107 106 116 other labs: pt / ptt / inr:14.2/88.7/1.2, ck / ckmb / troponin-t:91/56/2.65, ca++:8.3 mg/dl, mg++:2.1 mg/dl, po4:4.3 mg/dl sputum: afb stain, cytology pending",stemi; post-obstructive pna; chronic renal insufficiency; ,st elevation myocardial infarction; post obstructive pneumonia; chronic renal insufficiency;,"['st elevation myocardial infarction', 'post obstructive pneumonia', 'chronic renal insufficiency']","81 yo female with a history of CAD who presented
+   with an STEMI s/p cath",False,"The patient's troponin-T level is 2.65, which is elevated, indicating myocardial damage. However, the patient denies chest pain, and the ECG is not provided. Given the elevated troponin level, myocardial infarction is possible, but the absence of chest pain and lack of ECG data make the diagnosis uncertain. The patient is also on aspirin, Plavix, and metoprolol, which suggests a cardiovascular condition, but the primary diagnosis of myocardial infarction is not conclusively supported."
+380,139203.txt,"chief complaint: i saw and examined the patient, and was physically present with the icu fellow for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 68 yo male with mental retardation and seizure disorder admitted from osh ed following seizure and intubation for airway protection. extubated in  ed- noted to have new r hemiparesis. on floor at  concern for refractory hypokalemia so transferred to  yest pm for closer monitoring. 24 hour events: transfused ffp overnight. no overnight events. allergies: no known drug allergies","last dose of antibiotics: acyclovir -  10:02 pm ampicillin -  04:17 am ceftriaxone -  04:17 am vancomycin -  08:33 am infusions: other icu medications: other medications: ranitidine, riss, asa, prozac, hep tid sc, dilantin, acyclovir, ampicillin, vancomycin, ctx, colace, kcl changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   09:20 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.1 c (98.8 tcurrent: 36.6 c (97.9 hr: 110 (96 - 113) bpm bp: 143/72(87) {115/56(73) - 156/81(92)} mmhg rr: 18 (16 - 24) insp/min spo2: 93% heart rhythm: st (sinus tachycardia) total in: 690 ml 1,038 ml po: tf: ivf: 690 ml 1,038 ml blood products: total out: 250 ml 325 ml urine: 250 ml 325 ml ng: stool: drains: balance: 440 ml 713 ml respiratory support o2 delivery device: none spo2: 93% abg: ///30/ physical examination general appearance: no acute distress eyes / conjunctiva: perrl head, ears, nose, throat: normocephalic cardiovascular: (s1: normal), (s2: normal), no m/r/g peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) respiratory / chest: (expansion: symmetric), (breath sounds: clear : ) abdominal: soft, non-tender, bowel sounds present, obese extremities: right: absent, left: absent skin:  warm neurologic: responds to: verbal stimuli, movement: non -purposeful, tone: not assessed, r hemiparesis, upgoing toes r labs / radiology 12.5 g/dl 183 k/ul 129 mg/dl 0.6 mg/dl 30 meq/l 3.0 meq/l 12 mg/dl 99 meq/l 138 meq/l 34.6 % 11.0 k/ul [image002.jpg]   11:52 am   09:00 pm   05:06 am wbc 11.0 hct 34.6 plt 183 cr 0.5 0.6 tco2 22 glucose 127 129 other labs: pt / ptt / inr:21.5/35.1/2.0, alt / ast:326/243, alk phos / t bili:103/0.5, lactic acid:2.8 mmol/l, albumin:3.6 g/dl, ldh:403 iu/l, ca++:8.0 mg/dl, mg++:2.1 mg/dl, po4:1.9 mg/dl fluid analysis / other labs: dilantin level- 9.1 imaging: cxr- no parenchymal process, ? rhilar fullness head ct- prelim no mass no bleed mri brain- prelim pending","status epilepticus in the
+   setting of a fever.  differential included meningitis; r hemiparesis; positive troponin/nstemi; hypokalemia; ",status epilepticus in the setting of a fever differential included meningitis; right hemiparesis; positive troponin non st elevation myocardial infarction; hypokalemia;,"['status epilepticus in the setting of a fever differential included meningitis', 'right hemiparesis', 'positive troponin non st elevation myocardial infarction', 'hypokalemia']","68 year-old male with mental retardation who presents with fever and
+   seizures concerning for meningitis, also R hemiparesis, positive
+   troponin, and significant hypokalemia.",False,"There is no direct evidence of myocardial infarction such as chest pain, ECG changes, or elevated troponins mentioned in the provided SOAP note. The patient's presentation and lab results do not strongly suggest myocardial infarction."
+387,144187.txt,"chief complaint: hypotension i saw and examined the patient, and was physically present with the icu resident for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 24 hour events: ekg - at  04:07 am hypotensive, with previous ekg changes multi lumen - start  04:14 am admitted to micu. cardiology consult fluid boluses history obtained from medical records, icu team patient unable to provide history: encephalopathy allergies: penicillins unknown; hydralazine rash;","last dose of antibiotics: linezolid -  04:12 am meropenem -  05:08 am infusions: heparin sodium - 700 units/hour other icu medications: other medications: insulin, levothyroxine, asa, statin, mvi, ppi, heparin gtt, nebs, flagyl, chg, linezolid, meropenem, vanco (oral) changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   08:44 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.5 c (97.7 tcurrent: 36.1 c (97 hr: 83 (72 - 93) bpm bp: 99/64(73) {71/39(50) - 116/64(73)} mmhg rr: 13 (12 - 20) insp/min spo2: 96% heart rhythm: sr (sinus rhythm) total in: 2,519 ml po: tf: ivf: 2,519 ml blood products: total out: 0 ml 440 ml urine: 440 ml ng: stool: drains: balance: 0 ml 2,079 ml respiratory support o2 delivery device: nasal cannula spo2: 96% abg: ///19/ physical examination general appearance: thin; alert head, ears, nose, throat: normocephalic cardiovascular: (s1: normal), (s2: normal) peripheral vascular: (right radial pulse: present), (left radial pulse: present), (right dp pulse: not assessed), (left dp pulse: not assessed) respiratory / chest: (breath sounds: crackles : ) abdominal: soft, non-tender, peg site intact extremities: no edema skin:  not assessed neurologic: responds to: verbal stimuli, movement: purposeful, tone: increased, left sided weakness labs / radiology 9.6 g/dl 278 k/ul 95 mg/dl 0.5 mg/dl 19 meq/l 4.4 meq/l 76 mg/dl 114 meq/l 140 meq/l 30.4 % 17.5 k/ul [image002.jpg]   03:26 am wbc 17.5 hct 30.4 plt 278 cr 0.5 tropt 0.25 glucose 95 other labs: pt / ptt / inr:14.9/27.3/1.3, ck / ckmb / troponin-t:39/5/0.25, lactic acid:0.7 mmol/l, ca++:8.2 mg/dl, mg++:1.8 mg/dl, po4:3.5 mg/dl",severe sepsis; most likely sources are urine and c. diff; acute myocardial infarction; acute renal failure; anemia; ,severe sepsis; most likely sources are urine and clostridioides difficile; acute myocardial infarction; acute renal failure; anemia;,"['severe sepsis', 'most likely sources are urine and clostridioides difficile', 'acute myocardial infarction', 'acute renal failure', 'anemia']","69-year-old man with complicated prior history now with hypotension and
+   acute MI in the setting of several days of diarrhea.  The most likely
+   event is infection
+ sepsis
+ acute MI, rather than reverse causality
+   though the latter is not fully excluded.  The most likely identified
+   sources are urine and Clostridium difficile.",False,"The patient has a troponin-T level of 0.25, which is slightly elevated, indicating some cardiac damage. However, this elevation is not significantly high to conclusively diagnose a myocardial infarction without considering other clinical context. The EKG changes mentioned could support this, but the overall clinical picture, including the presence of other potential diagnoses and the lack of specific symptoms like chest pain, makes it less clear. Thus, while there is some evidence suggestive of cardiac injury, it's not definitive for myocardial infarction."
+395,150541.txt,"title: chief complaint: nstemi/afib/acute diastolic failure 24 hour events: - patient went into afib with a rate into the 100-120 with good pressures around 0030...gave po metoprolol early and 1 and a 1/2 hours later still fast. gave 5 mg iv lopressor x 2 at 0200; gave 10 mg iv diltiazem still in afib with fast rate stable bp. -this am afib fast into the 130s gave 5 mg iv lopressor.. and po 100mg lopressor dose early. - blood sugar was >400 at 1130. patient's lantus dose increased from 16 to 26 today. given 15 units humalog insulin at 1145. bs 375 at 1700, gave another 18 units of humulog still in the 300 s so started insulin gtt at ; bs s trending down overnight. - ct chest: findings are compatible with severe sarcoidosis. no definite ct evidence of superimposed acute infectious process. tiny left pleural effusion. - pulm: will f/u with pulmonologist to get old ct/pfts; comparison helpful for treatment with steroids...pulm will follow - weaning sedation this am; tube feeds stopped at 0400 for hopes of extubation today as rsbi is 42; abg this am on ps 5/5 is probably baseline 7.36/56/95 still with decreased mental status and increased secretions. - fluid overloaded: gave 20 iv lasix...put out a good bit, so gave another 20 mg at 2200 b/c she is still fluid overloaded allergies: aspirin unknown; terbutaline unknown; talwin nx (oral) (pentazocine hcl/naloxone hcl) unknown; percocet (oral) (oxycodone hcl/acetaminophen) unknown; inhalants wheezing;","last dose of antibiotics: metronidazole -  08:03 am vancomycin -  09:00 pm cefipime -  10:02 pm infusions: fentanyl (concentrate) - 25 mcg/hour midazolam (versed) - 1 mg/hour insulin - regular - 7 units/hour other icu medications: insulin - regular -  09:15 pm furosemide (lasix) -  10:29 pm metoprolol -  02:15 am diltiazem -  02:40 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:10 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.3 c (99.2 tcurrent: 36.1 c (96.9 hr: 118 (63 - 118) bpm bp: 158/63(88) {92/44(58) - 176/84(104)} mmhg rr: 14 (7 - 21) insp/min spo2: 100% heart rhythm: af (atrial fibrillation) wgt (current): 92 kg (admission): 93 kg height: 68 inch total in: 3,000 ml 450 ml po: tf: 1,596 ml 208 ml ivf: 1,104 ml 182 ml blood products: total out: 1,294 ml 680 ml urine: 1,294 ml 680 ml ng: stool: drains: balance: 1,706 ml -230 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cpap/psv vt (set): 450 (450 - 450) ml vt (spontaneous): 594 (594 - 664) ml ps : 5 cmh2o rr (set): 9 rr (spontaneous): 15 (15-23) peep: 5 cmh2o fio2: 40% rsbi: 42 pip: 11 cmh2o plateau: 18 cmh2o compliance: 45 cmh2o/ml spo2: 100% abg: 7.36/56/95.//3 ve: 9 l/min pao2 / fio2: 238 physical examination general: intubated, agitated; heent:  sclera anicteric. pupils equal reactive bilaterally but minimally, eomi. conjunctiva were pink, no pallor or cyanosis of the oral mucosa. no xanthalesma. neck: supple with jvp of difficult to estimate  habitus. cardiac: nsr, rr, normal s1, s2. no m/r/g. lungs: no chest wall deformities, scoliosis or kyphosis. breath sounds greatly improved this am. continued coarse breath sounds on the left. abdomen: soft, obese, ntnd. no hsm or tenderness. extremities: no c/c/e. left femoral line in place. right arterial line. skin: no stasis dermatitis, ulcers, scars, or xanthomas.  no sacral pitting edema appreciated pulses:  right:  dp 1+ pt 1+, left:  dp 1+ pt 1+ neuro: minimally responsive to pain, not responsive to verbal stimuli; labs / radiology 8.4 g/dl 311 k/ul 155 1.1 mg/dl 33 meq/l 4.4 61 mg/dl 110 149 meq/l 26.4 % 13.7 k/ul [image002.jpg]   11:00 pm   12:00 am   01:00 am   02:00 am   03:00 am   04:00 am   04:59 am   05:00 am   05:56 am   06:00 am wbc 13.7 hct 26.4 plt 311 tco2 33 glucose 22 232 216 178 163 other labs: pt / ptt / inr:19.7/28.7/1.8, ck / ckmb / troponin-t:63/4/0.09, alt / ast:59/38, lactic acid:1.3 mmol/l, ca++:8.4 mg/dl, mg++:2.7 mg/dl, po4:2.0 mg/dl ct chest: . findings compatible with advanced sarcoidosis.1. enlarged pulmonary artery likely reflects an element of pulmonary hypertension. tiny left pleural effusion. no ct evidence of definite active infection. 2. partially seen solid right upper pole lesion. this may represent a hyperdense renal cyst. however, targeted ultrasound of the upper pole of the right kidney is recommended for further characterization 3. delayed renal excretion sputum cx: : gram stain (final ): >25 pmns and <10 epithelial cells/100x field. 1+    (<1 per 1000x field):   in pairs. in pairs. blood cx: , ,  all pending sputum cx   both grew oropharyngeal flora","afib; respiratory failure; flash pulmonary edema; acute dchf; severe pulmonary
+   hypertension; severe sarcoid; nstemi; diabetes type 2; anemia; dyslipidemia; ",atrial fibrillation; respiratory failure; flash pulmonary edema; acute decompensated congestive heart failure; severe pulmonary hypertension; severe sarcoidosis; non st elevation myocardial infarction; diabetes type ; anemia; dyslipidemia;,"['atrial fibrillation', 'respiratory failure', 'flash pulmonary edema', 'acute decompensated congestive heart failure', 'severe pulmonary hypertension', 'severe sarcoidosis', 'non st elevation myocardial infarction', 'diabetes type', 'anemia', 'dyslipidemia']","72 yo female h/o DM, HLD, HTN, Afib with RVR, s/p pacemaker and sarcoid
+   presents with acute heart failure leading to flash pulmonary edema.
+   Patient with multiple episodes of AFib with RVR and hypotension since
+   admission. She was sent for cath and found to have 2 vessel disease,
+   s/p BMS to LAD.  She now is intubated, sedated. AFib overnight with
+   inadequate rate control.",False,"The troponin-T level is 0.09, which is slightly elevated, but not significantly high to confirm a myocardial infarction. The patient's symptoms and ECG findings are not typical for a myocardial infarction. Therefore, the diagnosis of myocardial infarction is unlikely."
+428,176122.txt,"chief complaint: 24 hour events: arterial line - start  08:00 am code status discussion: dnr but ok to intubate. went to or for im nail placement. now , pt, ortho will change dsg pod#2. hct stable post-op. thyroid ab studies pending. has bed at rehab on sunday. allergies: no known drug allergies","last dose of antibiotics: cefazolin -  03:30 am infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:07 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.8 c (98.3 tcurrent: 35.4 c (95.8 hr: 74 (66 - 92) bpm bp: 118/40(68) {108/31(56) - 157/70(103)} mmhg rr: 16 (16 - 26) insp/min spo2: 96% heart rhythm: sr (sinus rhythm) height: 62 inch total in: 1,657 ml 230 ml po: 620 ml 120 ml tf: ivf: 737 ml 110 ml blood products: 300 ml total out: 1,230 ml 200 ml urine: 830 ml 200 ml ng: stool: drains: balance: 427 ml 30 ml respiratory support o2 delivery device: none spo2: 96% abg: ///21/ physical examination general: a+ox3, nad, appropriate, alert, pleasant heent: ncat. sclerae anicteric. poor dentition. neck: supple with jvp of 8 cm. cardiac: rrr no murmurs, rubs, gallops lungs: mild right>l bibasilar crackles, otherwise clear abdomen: soft, ntnd. nabs. extremities: no edema, 2+ dp pulses.  left hip dsg c/d/i skin: no stasis dermatitis, ulcers, scars, or xanthomas. labs / radiology 233 k/ul 10.5 g/dl 157 mg/dl 0.5 mg/dl 21 meq/l 3.8 meq/l 28 mg/dl 111 meq/l 145 meq/l 30.1 % 10.4 k/ul [image002.jpg]   03:28 am   09:07 am   06:02 pm   04:24 am   10:47 am   05:02 pm   09:42 pm   04:58 am wbc 8.3 7.3 12.6 10.2 9.7 10.4 hct 26.9 27.8 27.5 29.2 31.0 31.2 30.8 30.1 plt 163 209 200  cr 0.5 0.4 0.5 glucose 99 107 157 other labs: pt / ptt / inr:20.5/29.8/1.9, alt / ast:16/28, alk phos / t bili:74/0.6, albumin:3.1 g/dl, ldh:302 iu/l, ca++:8.4 mg/dl, mg++:2.4 mg/dl, po4:3.1 mg/dl",hip fracture; nstemi; cad; hyperthyroid; chf; ,hip fracture; non st elevation myocardial infarction; coronary artery disease; hyperthyroid; congestive heart failure;,"['hip fracture', 'non st elevation myocardial infarction', 'coronary artery disease', 'hyperthyroid', 'congestive heart failure']","78yo F with no past medical history transferred from OSH after having
+   NSTEMI in setting of hip fracture from mechanical fall.",False,"There is no direct evidence of myocardial infarction such as chest pain, ECG changes, or elevated troponin levels mentioned in the provided SOAP note. The patient's cardiac examination shows a regular rhythm with no murmurs, rubs, or gallops, which does not strongly suggest an acute myocardial infarction."

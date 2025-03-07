@@ -1,0 +1,2194 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_pulmonary_embolism_pred_single,is_pulmonary_embolism_reasoning_single,is_pulmonary_embolism_pred_multi,is_pulmonary_embolism_reasoning_multi
+1,102486.txt,"pleuritic right chest pain
+- patient started on coumadin
+- [** 949**] briefly decreased (although unclear whether this was due to
+accidental foley removal), [** 949**] responded appropriately to 500 ml lr
+bolus with [** 949**] 60-70 cc
+s per hour this am
+- patient briefly developed non-gap acidosis with bicarb of 19,
+resolved with substitution of lr for ns for fluid boluses
+s: the patient is feeling well.  her chest pain has entirely resolved.
+she continues to have dry-mouth as well as her baseline amount of cough
+and shortness or breath.  she has not had n/v diarrhea.  no pain or
+swelling in her legs.
+losartan
+angioedema/lip
+lisinopril (oral)
+cough;
+penicillins
+itching;
+flagyl (oral) (metronidazole)
+wheezing;
+ultram (oral) (tramadol hcl)
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2141-7-18**] 08:00 pm
+vancomycin - [**2141-7-19**] 08:02 am
+infusions:
+heparin sodium - 850 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2141-7-20**] 07:16 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.4
+c (97.6
+hr: 80 (73 - 94) bpm
+bp: 99/55(67) {82/37(35) - 125/73(89)} mmhg
+rr: 18 (18 - 28) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+height: 63 inch
+total in:
+2,315 ml
+690 ml
+po:
+270 ml
+60 ml
+tf:
+ivf:
+2,045 ml
+630 ml
+blood products:
+total out:
+700 ml
+250 ml
+urine:
+700 ml
+250 ml
+ng:
+stool:
+drains:
+balance:
+1,615 ml
+440 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///22/
+gen: elderly woman in nad, sleeping comfortable
+heent: dry mmm, no jvd
+cv: rrr, no murmurs
+lungs: decreased breath sounds throughout, lungs otherwise clear
+abd: soft, non-tender, +bowel sounds
+ext: warm and well-perfused, no edema or tenderness
+neuro: responds appropriately to questions, grossly non-focal
+293 k/ul
+8.1 g/dl
+101 mg/dl
+0.6 mg/dl
+22 meq/l
+3.2 meq/l
+9 mg/dl
+111 meq/l
+143 meq/l
+25.0 %
+8.3 k/ul
+[image002.jpg]
+[**2141-7-18**]  08:16 pm
+[**2141-7-19**]  04:10 am
+[**2141-7-20**]  02:55 am
+wbc
+10.6
+8.3
+hct
+24.7
+25.0
+plt
+269
+293
+cr
+0.8
+0.6
+tropt
+0.01
+<0.01
+glucose
+99
+101
+other labs: pt / ptt / inr:15.3/56.2/1.3, ck / ckmb /
+troponin-t:31/3/<0.01, differential-neuts:77.2 %, lymph:17.6 %,
+mono:4.6 %, eos:0.5 %, lactic acid:1.1 mmol/l, ca++:7.3 mg/dl, mg++:2.0
+mg/dl, po4:1.7 mg/dl","pulmonary embolism; fever; hypotension; oliguria; non-gap acidosis; history of eosinophilic lung disease; deep venous thrombosis (dvt), lower extremity; h/o chronic obstructive pulmonary disease (copd, bronchitis,
+   emphysema) with acute exacerbation; heart failure (chf), diastolic, chronic",pulmonary embolism; fever; hypotension; oliguria; non gap acidosis; history of eosinophilic lung disease; deep venous thrombosis deep venous thrombosis lower extremity; history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation; heart failure congestive heart failure diastolic chronic,"['pulmonary embolism', 'fever', 'hypotension', 'oliguria', 'non gap acidosis', 'history of eosinophilic lung disease', 'deep venous thrombosis deep venous thrombosis lower extremity', 'history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation', 'heart failure congestive heart failure diastolic chronic']","81F with h/o chronic eosinophilic lung disease, COPD, diastolic CHF,
+   and recent admission for MSSA and pan-sensitive Pseudomonas PNA who
+   presents with fevers, right sided pleuritic chest pain and found to
+   have extensive R sided PE on imaging.",True,"The patient presents with pleuritic right chest pain, which is a classic symptom of pulmonary embolism. However, the chest pain has entirely resolved, and the patient is feeling well. The patient is on heparin sodium, which is a common treatment for pulmonary embolism, and has been started on coumadin, which suggests that the medical team is managing the patient for a thromboembolic event. The patient's vital signs, including heart rate, blood pressure, and oxygen saturation, are within normal limits. The labs show a slightly elevated troponin is not present, and the D-dimer is not mentioned, but the patient is on anticoagulation therapy. The resolution of symptoms and the absence of significant lab abnormalities argue against an ongoing pulmonary embolism, but the anticoagulation therapy suggests that the patient was likely diagnosed with a pulmonary embolism in the past. Given the information provided, it seems that the patient was likely diagnosed with a pulmonary embolism, but the current clinical presentation does not suggest an acute event.",False,"The patient has pleuritic chest pain, which could be suggestive of pulmonary embolism. However, the patient is on coumadin, and the chest pain has resolved. There are no other signs of pulmonary embolism, such as hypoxia or tachycardia."
+36,102047.txt,"sepsis, respiratory failure, dic
+invasive ventilation - start [**2174-9-2**] 03:00 pm
+- worsening rash, appears to be purpura fulminans.
+- on 3 pressors, weaned off neo temporarily but restarted.
+- heme/onc & renal consulted.  heme/onc felt that pt is in dic.  no e/o
+schistos on smear to suggest ttp/hus.  renal recommended bicarb.
+- anuric.
+- worsening metabolic acidosis along w/ respiratory distress (cxr w/
+bilat fluffy infiltrates) and patient intubated.
+- confused after getting ativan, requiring soft restraints.
+- decision made to give xigris (96hr) after head ct done & negative.
+- started solumedrol 1g/d per rheum & derm, who are concerned that she
+has stills, which may be driving dic.
+- family confirmed pt full code.
+- sent off numerous coag studies (atiii, prot c &s, lupus anticoag
+profile, prothrombin, adamts13)
+- per rheum, will need to check c3,4 48 hours after steroids initiated.
+- id recommended tee given bacteremia
+- fibrinogen 190, received additonal 2 units cryoprecipitate.
+- hypotensive with max dose levophed and vaso, phenylephrine restarted.
+- switched to pressure support with improvement in abg.
+ceclor (oral) (cefaclor)
+hives;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2174-9-1**] 05:00 pm
+levofloxacin - [**2174-9-2**] 02:00 am
+aztreonam - [**2174-9-2**] 03:07 am
+doxycycline - [**2174-9-2**] 12:00 pm
+meropenem - [**2174-9-2**] 02:00 pm
+clindamycin - [**2174-9-3**] 05:00 am
+infusions:
+vasopressin - 2.4 units/hour
+fentanyl - 125 mcg/hour
+norepinephrine - 0.5 mcg/kg/min
+midazolam (versed) - 8 mg/hour
+drotrecogin (xigris) - 24 mcg/kg/hour
+other icu medications:
+sodium bicarbonate 8.4% (amp) - [**2174-9-2**] 11:56 pm
+other medications:
+flowsheet data as of  [**2174-9-3**] 07:18 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.3
+c (101
+tcurrent: 38.3
+c (101
+hr: 115 (100 - 125) bpm
+bp: 91/42(52) {0/0(0) - 0/0(0)} mmhg
+rr: 18 (17 - 34) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+cvp: 16 (15 - 26)mmhg
+total in:
+6,282 ml
+2,474 ml
+po:
+tf:
+ivf:
+6,032 ml
+2,174 ml
+blood products:
+150 ml
+300 ml
+total out:
+223 ml
+60 ml
+urine:
+223 ml
+60 ml
+ng:
+stool:
+drains:
+balance:
+6,059 ml
+2,414 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cpap/psv
+vt (set): 450 (450 - 450) ml
+vt (spontaneous): 852 (771 - 852) ml
+ps : 10 cmh2o
+rr (set): 30
+rr (spontaneous): 23
+peep: 15 cmh2o
+fio2: 50%
+rsbi deferred: peep > 10
+pip: 26 cmh2o
+plateau: 11 cmh2o
+spo2: 98%
+abg: 7.26/34/150/14/-10
+ve: 13.2 l/min
+pao2 / fio2: 300
+general appearance: sedated, unresponsive
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), tacchycardic, no mgr
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: present), (left dp pulse: present)
+respiratory / chest: (expansion: symmetric), (breath sounds:
+diminished: at bases)
+abdominal: soft, non-tender, bowel sounds present
+extremities: right: absent, left: absent
+skin:  cold, rash: extremities and abdomen- nonblanching purpuric rash
+worse compared to yesterday. chest- blanching maculopapular rash
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, oriented (to): x 3, movement: not assessed, tone: not assessed
+56 k/ul
+9.7 g/dl
+228 mg/dl
+4.7 mg/dl
+14 meq/l
+4.7 meq/l
+67 mg/dl
+99 meq/l
+135 meq/l
+28.0 %
+14.4 k/ul
+[image002.jpg]
+[**2174-9-2**]  01:51 pm
+[**2174-9-2**]  03:57 pm
+[**2174-9-2**]  04:31 pm
+[**2174-9-2**]  07:56 pm
+[**2174-9-2**]  10:13 pm
+[**2174-9-2**]  10:28 pm
+[**2174-9-2**]  11:45 pm
+[**2174-9-3**]  12:48 am
+[**2174-9-3**]  05:01 am
+[**2174-9-3**]  05:29 am
+wbc
+18.1
+16.8
+14.4
+hct
+29.2
+28.7
+28.0
+plt
+60
+60
+56
+cr
+4.3
+4.7
+tco2
+12
+14
+13
+14
+15
+17
+16
+glucose
+104
+82
+228
+other labs: pt / ptt / inr:19.0/105.2/1.7, ck / ckmb /
+troponin-t:373//, alt / ast:178/301, alk phos / t bili:218/3.5, amylase
+/ lipase:29/25, differential-neuts:88.7 %, band:20.0 %, lymph:7.7 %,
+mono:2.5 %, eos:0.7 %, d-dimer:9713 ng/ml, fibrinogen:311 mg/dl, lactic
+acid:4.3 mmol/l, albumin:1.8 g/dl, ldh:2301 iu/l, ca++:6.5 mg/dl,
+mg++:2.0 mg/dl, po4:9.4 mg/dl","hypotension - likely secondary to sepsis, although source unknown at
+   this time; acute renal failure; coagulopathy/thrombocytopenia; fever/rash/arthralgias; transaminitis",hypotension likely secondary to sepsis although source unknown at this time; acute renal failure; coagulopathy thrombocytopenia; fever rash joint pains; transaminitis,"['hypotension likely secondary to sepsis although source unknown at this time', 'acute renal failure', 'coagulopathy thrombocytopenia', 'fever rash joint pains', 'transaminitis']","46 year-old female with fever, rash, arthralgias of unknown origin now
+   with sepsis, respiratory failure, and DIC.
+   .",True,"The patient presents with respiratory distress, as indicated by bilateral fluffy infiltrates on chest X-ray and the need for invasive ventilation. The presence of a high d-dimer level (9713 ng/ml) is a significant clue that suggests pulmonary embolism, although it is not specific and can be elevated in other conditions such as sepsis, which is also present in this patient. However, the combination of respiratory distress and elevated d-dimer in the context of a critically ill patient with multiple organ dysfunction syndrome (MODS) and disseminated intravascular coagulation (DIC) makes pulmonary embolism a plausible diagnosis. Other findings such as sinus tachycardia, hypotension requiring multiple pressors, and decreased platelet count further support the complexity of the patient's condition but do not directly argue against pulmonary embolism. Given the high clinical suspicion based on these clues, despite the absence of a definitive diagnostic test like CT pulmonary angiography in the provided information, the most likely conclusion leans towards the presence of pulmonary embolism.",False,"While the patient has respiratory distress and is intubated, there is no specific evidence provided that directly suggests a pulmonary embolism, such as a positive D-dimer in the appropriate clinical context or imaging findings. The D-dimer is elevated at 9713 ng/ml, but this is non-specific and can be elevated in many conditions, including sepsis and DIC."
+69,194108.txt,"mr. [**known lastname 9586**] is a 87 year old gentleman with a pmh
+significant for afib with rvr, htn, gerd, dm 2, cva admitted on [**2160-9-11**]
+from [**hospital1 747**] for orthostatic hypotension, dizziness and emesis found to
+have ugib, developed afib with rvr on flood with worsening dyspnea and
+transferred to micu.
+rate controlled throughout night without issues
+relatively hypotensive for htn baseline
+o2 saturations stable  - 4-5l nc
+ekg - at [**2160-9-12**] 04:27 pm
+nasal swab - at [**2160-9-12**] 04:27 pm
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2160-9-12**] 05:43 pm
+cefipime - [**2160-9-12**] 10:06 pm
+metronidazole - [**2160-9-13**] 12:04 am
+infusions:
+other icu medications:
+furosemide (lasix) - [**2160-9-12**] 05:30 pm
+pantoprazole (protonix) - [**2160-9-12**] 08:19 pm
+other medications:
+flowsheet data as of  [**2160-9-13**] 06:19 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.3
+tcurrent: 36.9
+c (98.4
+hr: 94 (88 - 122) bpm
+bp: 104/48(62) {87/42(56) - 119/71(76)} mmhg
+rr: 21 (14 - 26) insp/min
+spo2: 94%
+heart rhythm: af (atrial fibrillation)
+total in:
+441 ml
+159 ml
+po:
+tf:
+ivf:
+441 ml
+159 ml
+blood products:
+total out:
+1,480 ml
+170 ml
+urine:
+1,480 ml
+170 ml
+ng:
+stool:
+drains:
+balance:
+-1,039 ml
+-12 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///31/
+neuro: appropriate, alert
+cv: rrr, without rubs, gallops, murmurs, no jvd appreciated
+resp: clear to auscultation anterior exam
+abd: soft, nontender, mild distention, + bs
+ext: warm, without edema, 2+ pulses
+145 k/ul
+11.6 g/dl
+148 mg/dl
+1.1 mg/dl
+31 meq/l
+3.8 meq/l
+17 mg/dl
+102 meq/l
+141 meq/l
+34.2 %
+11.4 k/ul
+image002.jpg]
+[**2160-9-12**]  02:55 pm
+[**2160-9-13**]  03:49 am
+wbc
+17.7
+11.4
+hct
+37.5
+34.2
+plt
+139
+145
+cr
+0.9
+1.1
+tropt
+<0.01
+<0.01
+glucose
+154
+148
+other labs: pt / ptt / inr:12.2/26.9/1.0, ck / ckmb /
+troponin-t:90/4/<0.01, differential-neuts:86.9 %, lymph:8.2 %, mono:4.6
+%, eos:0.2 %, lactic acid:1.7 mmol/l, ca++:8.8 mg/dl, mg++:1.8 mg/dl,
+po4:3.4 mg/dl
+maging: [**9-12**] pm pro-bnp 1627
+[**9-12**] am pro-bnp 590
+[**9-12**] am d-dimer 2035
+microbiology: urine cx pending",hypoxia:; hematemesis; atrial fibrillation:; lvef<55% with lvh and dchf; cva; leukocytosis; # dm 2:,hypoxia ; hematemesis; atrial fibrillation ; left ventricular ejection fraction<% with left ventricular hypertrophy and decompensated congestive heart failure; cerebrovascular accident; leukocytosis; number diabetes mellitus,"['hypoxia', 'hematemesis', 'atrial fibrillation', 'left ventricular ejection fraction<% with left ventricular hypertrophy and decompensated congestive heart failure', 'cerebrovascular accident', 'leukocytosis', 'number diabetes mellitus']","Mr. [**Known lastname 9586**] is a 87 year old gentleman with a PMH significant for afib
+   with RVR, HTN, GERD, DM 2, CVA admitted on [**2160-9-11**] from [**Hospital1 747**] for
+   orthostatic hypotension, dizziness and emesis, likely source is GIB
+   subsequently developed afib with rvr, dyspnea and relative hypotension
+   and was transferred to the MICU.",True,"The patient presents with worsening dyspnea, which is a key symptom of pulmonary embolism (PE). Additionally, the patient has a history of atrial fibrillation (AFib) with rapid ventricular response (RVR), which increases the risk of PE. The elevated D-dimer level of 2035 also supports the diagnosis of PE, as D-dimer is a sensitive marker for thrombus formation. Furthermore, the significant decrease in pro-BNP from 1627 to 590 over a short period may indicate an acute event such as a PE. However, the absence of specific imaging results (e.g., CT pulmonary angiography) and the fact that the patient's oxygen saturation is stable on 4-5L NC, with clear lungs to auscultation, introduces some uncertainty. Nonetheless, considering the combination of clinical presentation, laboratory findings, and risk factors, the evidence leans towards the presence of a pulmonary embolism.",False,"The patient has an elevated D-dimer (2035), which could suggest pulmonary embolism, but D-dimer can also be elevated in other conditions such as sepsis, heart failure, or recent surgery. There's no specific mention of symptoms typically associated with pulmonary embolism like sudden onset chest pain or significant desaturation. The diagnosis of pulmonary embolism cannot be confirmed without further imaging like a CT pulmonary angiogram."
+86,199605.txt,"- ivig given
+- picc placed at bedside into ij; repositioned by ir
+- episode of desaturation during trip to ir as patient became briefly
+detached from vent.  returned on fio2 100%.
+- weaned to peep 14, fio2 50%, rr 24
+- tpn initiated and d10w gtt discontinued
+- hematology consult placed; recommended hit ab, iron studies,
+cryoglobulin
+- + dic labs: elevated inr, low fibrinogen, elevated fdp
+- spoke to blood bank resident regarding cryoglobulin who said
+indication for cryoglobulin transfusion is fibrinogen < 100, but okay
+to give
+- weaned of vasopressin briefly, but restarted in effort to maximize
+negative fluid balance
+- resumed caspofungin given positive beta-glucan (conflicting
+recommendations from liver vs. id)
+- vitamin k 1 mg iv given
+- hypotensive this am to 80/50, map ~50, restarted low dose levophed
+aspirin
+rectal bleeding
+penicillins
+rash; hives;
+sulfonamides
+aseptic menigi
+biaxin (oral) (clarithromycin)
+diarrhea;
+levaquin (oral) (levofloxacin)
+rash;
+cefzil (oral) (cefprozil)
+rash;
+motrin (oral) (ibuprofen)
+aseptic meningi
+erythromycin base
+rash;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+eyes: conjunctival edema
+ear, nose, throat: og / ng tube
+nutritional support: no(t) tube feeds, parenteral nutrition
+gastrointestinal: diarrhea
+endocrine: hyperglycemia","ast dose of antibiotics:
+vancomycin - [**2189-2-18**] 03:00 pm
+meropenem - [**2189-2-19**] 04:30 pm
+caspofungin - [**2189-2-21**] 01:00 am
+metronidazole - [**2189-2-21**] 04:00 am
+infusions:
+insulin - regular - 3 units/hour
+vasopressin - 2.4 units/hour
+midazolam (versed) - 12 mg/hour
+fentanyl - 350 mcg/hour
+calcium gluconate (crrt) - 1.4 grams/hour
+kcl (crrt) - 2 meq./hour
+cisatracurium - 0.2 mg/kg/hour
+norepinephrine - 0.25 mcg/kg/min
+other icu medications:
+pantoprazole (protonix) - [**2189-2-20**] 08:00 am
+other medications:
+flowsheet data as of  [**2189-2-21**] 08:09 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.2
+c (97.2
+tcurrent: 36.2
+c (97.2
+hr: 90 (59 - 90) bpm
+bp: 90/46(59) {89/42(56) - 128/64(87)} mmhg
+rr: 7 (7 - 28) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 64 inch
+cvp: 11 (11 - 17)mmhg
+total in:
+10,219 ml
+3,137 ml
+po:
+tf:
+ivf:
+9,537 ml
+2,796 ml
+blood products:
+531 ml
+total out:
+12,883 ml
+2,932 ml
+urine:
+931 ml
+113 ml
+ng:
+600 ml
+150 ml
+stool:
+drains:
+balance:
+-2,664 ml
+205 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist
+vt (set): 350 (350 - 350) ml
+rr (set): 24
+rr (spontaneous): 0
+peep: 14 cmh2o
+fio2: 50%
+rsbi deferred: peep > 10
+pip: 39 cmh2o
+plateau: 34 cmh2o
+compliance: 20.1 cmh2o/ml
+spo2: 97%
+abg: 7.30/46/95.[**numeric identifier 253**]/22/-3
+ve: 7.9 l/min
+pao2 / fio2: 192
+
+general appearance: overweight / obese, generalized anasarca
+head, ears, nose, throat: normocephalic, endotracheal tube, og tube
+cardiovascular: (s1: normal), (s2: normal)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+extremities: right: 3+, left: 3+
+skin:  warm
+neurologic: responds to: not assessed, movement: not assessed, sedated,
+paralyzed, tone: not assessed
+21 k/ul
+10.2 g/dl
+147 mg/dl
+0.3 mg/dl
+22 meq/l
+3.9 meq/l
+14 mg/dl
+104 meq/l
+135 meq/l
+28.7 %
+4.4 k/ul
+[image002.jpg]
+[**2189-2-20**]  04:54 pm
+[**2189-2-20**]  06:48 pm
+[**2189-2-20**]  09:20 pm
+[**2189-2-20**]  09:53 pm
+[**2189-2-20**]  10:00 pm
+[**2189-2-20**]  11:00 pm
+[**2189-2-20**]  11:28 pm
+[**2189-2-21**]  04:43 am
+[**2189-2-21**]  04:45 am
+[**2189-2-21**]  07:39 am
+wbc
+4.4
+hct
+28.7
+plt
+21
+cr
+0.4
+0.3
+tco2
+25
+24
+24
+23
+25
+24
+glucose
+117
+129
+146
+167
+176
+147
+other labs: pt / ptt / inr:25.2/51.3/2.5, alt / ast:71/91, alk phos / t
+bili:113/22.2, amylase / lipase:[**10-30**], differential-neuts:69.3 %,
+band:1.0 %, lymph:14.4 %, mono:4.8 %, eos:11.1 %, d-dimer:6342 ng/ml,
+fibrinogen:105 mg/dl, lactic acid:3.1 mmol/l, albumin:2.5 g/dl, ldh:363
+iu/l, ca++:8.6 mg/dl, mg++:2.0 mg/dl, po4:2.4 mg/dl
+fluid analysis / other labs: [**2189-2-21**] 12:17 am sputum     site:
+endotracheal
+source: endotracheal.
+gram stain (final [**2189-2-21**]):
+[**10-18**] pmns and >10 epithelial cells/100x field.
+2+   (1-5 per 1000x field):   budding yeast.
+fibrinogen: 105
+fdp 80-160
+retic 0.4
+imaging: peripheral smear: no schistocytes, + burr cells
+microbiology: urine - negative for eos",# sepsis:  presumed source is clostridium difficile infection; # arf:  possibly secondary to atn given sepsis; # metabolic acidosis:  secondary to dka vs. sepsis vs. arf.; # thrombocytopenia; # anemia; # dm type i:; # eosinophilia:,sepsis presumed source is clostridium difficile infection; acute renal failure possibly secondary to acute tubular necrosis given sepsis; metabolic acidosis secondary to diabetic ketoacidosis versus sepsis versus acute renal failure ; thrombocytopenia; anemia; diabetes mellitus type i ; eosinophilia,"['sepsis presumed source is clostridium difficile infection', 'acute renal failure possibly secondary to acute tubular necrosis given sepsis', 'metabolic acidosis secondary to diabetic ketoacidosis versus sepsis versus acute renal failure', 'thrombocytopenia', 'anemia', 'diabetes mellitus type i', 'eosinophilia']","42 y/o lady with CVID, HepC, Type 1 DM, distant IBD > 20 yrs ago, last
+   flare, recent cryptospordial infection presented to OSH with worsening
+   abdominal pain, nausea and vomitting.",True,"The patient presents with several risk factors and clinical findings that could suggest pulmonary embolism (PE), such as desaturation episodes, the need for high levels of oxygen support (FIO2 50% on mechanical ventilation), and significant hemodynamic instability (hypotension requiring vasopressors). Additionally, laboratory findings including an elevated D-dimer (6342 ng/ml) and signs of coagulopathy (elevated INR, low fibrinogen, elevated FDP) could support the diagnosis of PE. However, the presence of other critical conditions such as sepsis (indicated by the use of broad-spectrum antibiotics, positive beta-glucan, and signs of organ dysfunction) and significant fluid balance issues complicates the clinical picture. Despite these complexities, the combination of desaturation, need for high oxygen support, hemodynamic instability, and particularly the significantly elevated D-dimer in the context of critical illness, leans towards the possibility of pulmonary embolism. Nonetheless, without a definitive imaging study (like a CT pulmonary angiogram) mentioned, the diagnosis remains uncertain based solely on the provided SOAP note sections. Given the information available and the context of a critically ill patient with multiple organ dysfunctions, the elevated D-dimer, and clinical instability, there is a strong suggestion towards pulmonary embolism, but ideally, imaging confirmation would be necessary for a definitive diagnosis.",False,"The patient has a high D-dimer level (6342 ng/ml), which could suggest a pulmonary embolism, but this is not specific and can be elevated in other conditions. There is no mention of a CT pulmonary angiogram or ventilation-perfusion scan to confirm the diagnosis."
+115,192967.txt,"ekg - at [**2131-12-30**] 01:03 am
+large amt ectopy, irregular supraventricular rhythm w/ new twi in i,
+ii, avf and v4 while pt. asleep.
+potassium repleted
+was desatting on bipap while asleep, rt increased ipap and epap and she
+responded well.
+yelling in farsi, per daughter this is normal
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2131-12-30**] 04:00 am
+other medications:
+flowsheet data as of  [**2131-12-30**] 05:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.7
+c (98.1
+tcurrent: 36.3
+c (97.3
+hr: 63 (50 - 79) bpm
+bp: 110/35(55) {90/28(45) - 126/74(84)} mmhg
+rr: 22 (17 - 26) insp/min
+spo2: 86%
+heart rhythm: sr (sinus rhythm)
+height: 65 inch
+total in:
+743 ml
+54 ml
+po:
+490 ml
+30 ml
+tf:
+ivf:
+253 ml
+24 ml
+blood products:
+total out:
+1,123 ml
+173 ml
+urine:
+1,123 ml
+173 ml
+ng:
+stool:
+drains:
+balance:
+-380 ml
+-119 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 86%
+abg: ///45/
+a/ox2
+heent: tender in paraspinal muscles of neck, nontender scalp, no jvd
+lungs: crackles in l lung base>r, breathing comfortably
+heart: rrr, ii/vi systolic murmur
+abd: soft, nt, nd, bs+
+ext: no peripheral edema
+206 k/ul
+9.5 g/dl
+115 mg/dl
+1.1 mg/dl
+45 meq/l
+3.4 meq/l
+37 mg/dl
+95 meq/l
+143 meq/l
+27.3 %
+7.3 k/ul
+image002.jpg]
+[**2131-12-29**]  12:21 am
+[**2131-12-29**]  03:22 am
+[**2131-12-29**]  02:44 pm
+[**2131-12-29**]  05:00 pm
+[**2131-12-29**]  06:00 pm
+[**2131-12-29**]  07:00 pm
+[**2131-12-30**]  01:00 am
+wbc
+4.7
+7.3
+hct
+30.2
+27.3
+plt
+225
+206
+cr
+1.2
+1.2
+1.1
+tropt
+<0.01
+tco2
+48
+glucose
+232
+201
+431
+370
+296
+306
+115
+other labs: ck / ckmb / troponin-t:29//<0.01, d-dimer:1023 ng/ml,
+lactic acid:0.8 mmol/l, ca++:9.3 mg/dl, mg++:2.4 mg/dl, po4:3.2 mg/dl",dyspnea; altered mental status/somnolence; cad:; chronic diastolic chf,dyspnea; altered mental status somnolence; coronary artery disease ; chronic diastolic congestive heart failure,"['dyspnea', 'altered mental status somnolence', 'coronary artery disease', 'chronic diastolic congestive heart failure']","Pt is a 72 yo female with PMHx of CAD, COPD, CHF EF 40% here with
+   altered mental status and dyspnea",True,"The patient presents with several signs and symptoms that could suggest pulmonary embolism (PE), such as desaturation on BiPAP, which improved with increased IPAP and EPAP, and crackles in the lung base, indicating potential respiratory involvement. Additionally, the patient has been on heparin sodium for prophylaxis, which is commonly used to prevent thromboembolic events. The most compelling evidence, however, is the significantly elevated D-dimer level of 1023 ng/ml, which, while not specific, is highly sensitive for thrombotic events like PE when interpreted in the context of clinical suspicion. Other lab values, such as the slightly elevated troponin and the presence of ectopy and irregular supraventricular rhythm, could also be indicative of cardiac strain, which might be seen in the setting of a PE. Despite these findings, the absence of explicit symptoms like chest pain or explicit diagnostic imaging results (e.g., CT pulmonary angiogram) in the provided sections introduces some uncertainty. Nonetheless, the combination of clinical presentation, response to oxygen therapy adjustments, and particularly the elevated D-dimer in the context of prophylactic heparin use, leans towards a diagnosis of pulmonary embolism.",False,"The patient has a high D-dimer level (1023 ng/ml), which could indicate a pulmonary embolism. However, the patient is also on heparin prophylaxis, which could affect the D-dimer level. There are no other clear indications of pulmonary embolism, such as hypoxia or tachycardia, that are not explained by other conditions."
+122,111846.txt,"transthoracic echo - at [**2115-7-2**] 10:25 am
+- tte: mild symmetric lvh.  lvef >55%.  no ar or as.  trivial mr.
+- i/o: -1.5l
+- vascular agreed to provide care for left foot and will likely place a
+wound vac on foot tomorrow.
+- pt states that he receives methadone from [**hospital 5172**] clinic in [**location (un) 5414**].  attempted to call both metadone clinics, but they were closed
+at 3 pm.
+- requested picc placement, as patient will need long term abx.
+- overnight, patient was placed on cpap and co2 increased to 70.
+penicillins
+anaphylaxis;
+doxycycline
+unknown;
+codeine
+unknown;
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2115-7-2**] 09:00 pm
+cefipime - [**2115-7-2**] 11:00 pm
+infusions:
+other icu medications:
+ranitidine (prophylaxis) - [**2115-7-2**] 08:15 pm
+heparin sodium (prophylaxis) - [**2115-7-2**] 08:15 pm
+fentanyl - [**2115-7-3**] 02:00 am
+furosemide (lasix) - [**2115-7-3**] 06:02 am
+other medications:
+flowsheet data as of  [**2115-7-3**] 07:11 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.7
+tcurrent: 36.1
+c (97
+hr: 84 (68 - 85) bpm
+bp: 147/69(98) {92/41(57) - 147/69(98)} mmhg
+rr: 17 (11 - 29) insp/min
+spo2: 89%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 0 kg (admission): 238.6 kg
+height: 68 inch
+cvp: 16 (6 - 17)mmhg
+total in:
+1,540 ml
+1,092 ml
+po:
+300 ml
+920 ml
+tf:
+ivf:
+1,240 ml
+172 ml
+blood products:
+total out:
+3,120 ml
+1,605 ml
+urine:
+3,120 ml
+1,605 ml
+ng:
+stool:
+drains:
+balance:
+-1,580 ml
+-513 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 89%
+abg: 7.32/70/71/34/6
+general: alert, oriented self, place but not date, sleepy
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple, jvp not elevated, no lad
+lungs: coarse breath sounds, poor effort, cannot rotate to listen to
+his back
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen:  obese, soft non tender
+gu: foley in place
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema;
+bka lle, no strikethrough, drain in place: ss d/c
+neuro: responds to commands, symmetric facial mm, perrla, symetric
+squize hand
+182 k/ul
+7.8 g/dl
+104 mg/dl
+1.1 mg/dl
+34 meq/l
+4.4 meq/l
+22 mg/dl
+103 meq/l
+140 meq/l
+25.6 %
+8.7 k/ul
+wbc
+9.6
+8.7
+hct
+26.6
+26.0
+26.0
+25.6
+plt
+174
+157
+182
+cr
+1.2
+1.1
+1.1
+tco2
+35
+37
+35
+38
+38
+glucose
+115
+104
+other labs: pt / ptt / inr:26.9/33.5/2.6, alt / ast:12/37, alk phos / t
+bili:106/1.2, amylase / lipase:26/24, differential-neuts:88.1 %,
+lymph:9.3 %, mono:2.0 %, eos:0.2 %, d-dimer:1236 ng/ml, fibrinogen:430
+mg/dl, lactic acid:0.9 mmol/l, albumin:2.1 g/dl, ldh:144 iu/l, ca++:8.4
+mg/dl, mg++:2.0 mg/dl, po4:3.3 mg/dl
+tte (complete) done [**2115-7-2**] at 12:13:56 pm      final
+the left atrium is moderately dilated. there is mild symmetric left
+ventricular hypertrophy with normal cavity size. there is mild
+symmetric left ventricular hypertrophy. the left ventricular cavity is
+moderately dilated. due to suboptimal technical quality, a focal wall
+motion abnormality cannot be fully excluded. overall left ventricular
+systolic function is probably normal (lvef~55%). right ventricular free
+wall motion is probably well visualized although not well visualized.
+the ascending aorta is mildly dilated. the aortic valve leaflets are
+mildly to moderately thickened with probably no significant aortic
+stenosis (aortic velocity measurements were technically limited). no
+aortic regurgitation is seen. the mitral valve leaflets are mildly
+thickened. trivial mitral regurgitation is seen. [due to acoustic
+shadowing, the severity of mitral regurgitation may be significantly
+underestimated.] there is at least moderate pulmonary artery systolic
+hypertension.",cellulitis c/b sepsis s/p bka; hypercarbia/hypoxia; r. bka; l. leg grade 4 ulcer:,cellulitis complicated by sepsis status post below knee amputation; hypercarbia hypoxia; right below knee amputation; left leg grade ulcer,"['cellulitis complicated by sepsis status post below knee amputation', 'hypercarbia hypoxia', 'right below knee amputation', 'left leg grade ulcer']","This is a 55M with COPD/CO2 retainer, VTE,  bilateral chronic
+   lymphedema and multiple ulcers who was admited for LE cellulitis/sepsis
+   and who underwent BKA three days ago is transferred to MICU for medical
+   management",True,"The patient's presentation includes several clues that suggest pulmonary embolism (PE). The elevated D-dimer level of 1236 ng/ml is a significant indicator, as D-dimer is often elevated in the setting of PE. Additionally, the patient has at least moderate pulmonary artery systolic hypertension, as indicated by the transthoracic echocardiogram (TTE), which can be a consequence of PE. The TTE also mentions that right ventricular free wall motion is probably well visualized, but the technical quality is suboptimal, which might hint at but does not conclusively show right ventricular strain, a common finding in significant PE. The patient's low oxygen saturation (SpO2 of 89% on nasal cannula) and the need for respiratory support could also be consistent with a diagnosis of PE. However, the absence of more specific symptoms such as sudden onset chest pain or dyspnea, and the lack of a clear alternative explanation for the patient's hypoxemia and other findings, means that while these clues are suggestive, they are not definitive on their own. Nonetheless, considering the combination of an elevated D-dimer, pulmonary hypertension, and the clinical context, the evidence leans towards the presence of a pulmonary embolism.",False,"The patient's D-dimer level is elevated at 1236 ng/ml, which could be indicative of pulmonary embolism. However, the patient is also receiving anticoagulation therapy, which may affect D-dimer levels. There is no clear evidence of pulmonary embolism, such as a positive CT scan or clinical symptoms like sudden onset dyspnea or chest pain."
+123,102999.txt,"thrombolysed with alteplase
+started on iv heparin
+spiked a fever, pan cultured
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 1,400 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2136-11-15**] 06:05 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.3
+c (101
+tcurrent: 37.4
+c (99.4
+hr: 67 (67 - 102) bpm
+bp: 119/71(81) {119/57(77) - 139/74(89)} mmhg
+rr: 13 (12 - 27) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 71 inch
+total in:
+2,367 ml
+145 ml
+po:
+720 ml
+60 ml
+tf:
+ivf:
+147 ml
+85 ml
+blood products:
+total out:
+0 ml
+0 ml
+urine:
+ng:
+stool:
+drains:
+balance:
+2,367 ml
+145 ml
+respiratory support
+o2 delivery device: none
+spo2: 97%
+abg: ///26/
+general appearance: well nourished
+cardiovascular: (s1: normal), (s2: normal)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: not assessed), (left dp pulse: not assessed)
+respiratory / chest: (breath sounds: clear : )
+abdominal: soft, no(t) distended, no(t) tender:
+extremities: right: absent, left: trace, no(t) cyanosis, no(t) clubbing
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+173 k/ul
+11.6 g/dl
+97 mg/dl
+0.8 mg/dl
+26 meq/l
+3.3 meq/l
+16 mg/dl
+103 meq/l
+136 meq/l
+33.3 %
+7.2 k/ul
+[image002.jpg]
+[**2136-11-14**]  06:58 pm
+[**2136-11-15**]  02:52 am
+wbc
+7.2
+hct
+32.8
+33.3
+plt
+173
+cr
+0.8
+glucose
+97
+other labs: pt / ptt / inr:19.6/60.6/1.8",dvt/pe; ulcerative colitis,deep vein thrombosis pulmonary embolism; ulcerative colitis,"['deep vein thrombosis pulmonary embolism', 'ulcerative colitis']","This is a 57 year old with a history of ulcerative colitis admitted
+   with left lower extremity DVT, extensive bilateral PE, and large RA
+   thrombus prolapsing into IVC.
+   .",True,"The patient has been thrombolysed with alteplase and started on iv heparin, which suggests a high suspicion of pulmonary embolism. The presence of a fever and the initiation of antibiotics could indicate a complication or an alternative diagnosis, but the anticoagulation therapy is a strong indicator for pulmonary embolism. Additionally, the patient's vital signs, such as heart rate, blood pressure, and respiratory rate, are within relatively normal limits, but the fact that they are being closely monitored in the ICU and receiving heparin suggests that the clinical team is managing a condition that requires anticoagulation, such as pulmonary embolism. The laboratory results, including a slightly elevated white blood cell count and coagulation studies (PT/PTT/INR), also support the diagnosis and management of pulmonary embolism. Given this information, it is reasonable to conclude that the diagnosis of pulmonary embolism is likely true.",False,"The patient is on heparin, which could be for pulmonary embolism or deep vein thrombosis prophylaxis or treatment. However, without specific symptoms like sudden onset dyspnea, chest pain, or a positive D-dimer, it's difficult to confirm. The clear breath sounds and normal oxygen saturation also do not strongly support this diagnosis."
+165,148647.txt,"called out to omed
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 1,100 units/hour
+other icu medications:
+metoprolol - [**2171-12-27**] 03:21 pm
+other medications:
+flowsheet data as of  [**2171-12-28**] 07:32 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.3
+c (99.1
+tcurrent: 36.8
+c (98.2
+hr: 89 (89 - 105) bpm
+bp: 120/89(97) {107/60(72) - 122/89(97)} mmhg
+rr: 20 (19 - 34) insp/min
+spo2: 96%
+heart rhythm: sr (sinus rhythm)
+total in:
+3,176 ml
+83 ml
+po:
+950 ml
+tf:
+ivf:
+2,226 ml
+83 ml
+blood products:
+total out:
+1,900 ml
+0 ml
+urine:
+1,900 ml
+ng:
+stool:
+drains:
+balance:
+1,276 ml
+83 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 96%
+abg: ///25/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+269 k/ul
+10.5 g/dl
+183 mg/dl
+0.5 mg/dl
+25 meq/l
+3.2 meq/l
+14 mg/dl
+93 meq/l
+139 meq/l
+30.9 %
+9.5 k/ul
+wbc
+13.2
+13.2
+13.7
+9.5
+hct
+39.2
+36.4
+36.1
+30.9
+plt
+280
+297
+316
+269
+cr
+0.6
+0.6
+0.5
+0.5
+tropt
+<0.01
+glucose
+183
+178
+176
+183
+other labs: pt / ptt / inr:14.9/93.6/1.3, ck / ckmb /
+troponin-t:23//<0.01, ca++:8.1 mg/dl, mg++:2.0 mg/dl, po4:3.5 mg/dl
+pleural fluid:
+pleural analysis
+wbc
+rbc
+polys
+lymphs
+monos
+eos
+macro
+other
+[1][**2171-12-26**] 04:16pm
+230*
+[**numeric identifier 9305**]*
+11*
+49*
+8*
+1*
+9*
+22*[1]
+more than 12hrs old, was rec'd today at 11:36 am
+pleural chemistry
+totprot
+glucose
+ld(ldh)
+albumin
+[2][**2171-12-26**] 04:16pm
+4.5
+131
+403
+3.0","dyspnea:  likely multifactorial secondary to large right sided
+   pulmonary embolism, large right sided pleural effusion, right lung
+   collapse; anemia; non-small cell lung cancer; anxiety:; hypertension:; diabetes:",dyspnea likely multifactorial secondary to large right sided pulmonary embolism large right sided pleural effusion right lung collapse; anemia; non small cell lung cancer; anxiety ; hypertension ; diabetes,"['dyspnea likely multifactorial secondary to large right sided pulmonary embolism large right sided pleural effusion right lung collapse', 'anemia', 'non small cell lung cancer', 'anxiety', 'hypertension', 'diabetes']","61 year old female with a history of type II diabetes, hypertension and
+   recently diagnosed stage IIIb to IV non-small cell lung cancer who
+   presents with three days of progressive dyspnea found to have large
+   right sided pulmonary embolism, pleural effusion and right sided
+   collapse.
+   .",True,"The patient is on heparin sodium, which is a common treatment for pulmonary embolism, suggesting that the medical team suspects or has diagnosed a thrombotic event. The presence of pleural fluid analysis with elevated white blood cell count (WBC) and red blood cell count (RBC) could indicate an inflammatory or hemorrhagic process, which might be seen in pulmonary embolism, especially if the embolism has caused infarction of lung tissue. However, the pleural fluid analysis alone is not definitive for pulmonary embolism. The patient's vital signs, including heart rate (hr: 89 bpm), blood pressure (bp: 120/89 mmHg), respiratory rate (rr: 20 insp/min), and oxygen saturation (spo2: 96% on nasal cannula), do not strongly indicate acute right heart strain or hypoxemia typically seen in significant pulmonary embolism. The troponin-t level is <0.01, which does not support the diagnosis of myocardial infarction but also does not rule out pulmonary embolism. Given the administration of heparin and the presence of pleural fluid, there is a suggestion of thrombotic disease, but without more direct evidence such as imaging results (e.g., CT pulmonary angiogram) or more specific clinical indicators of pulmonary embolism (e.g., acute onset of chest pain, syncope, or significant hypoxia), the diagnosis remains uncertain based on the provided information. However, the use of heparin and the context suggest that pulmonary embolism is being considered and possibly treated, leaning towards a likely diagnosis.",False,"The patient is on heparin, which could suggest a thrombotic condition like pulmonary embolism. However, without specific imaging results (e.g., CT pulmonary angiogram) or more detailed clinical symptoms (e.g., sudden onset dyspnea, chest pain), it's difficult to confirm. The pleural fluid analysis does not strongly support this diagnosis."
+190,189180.txt,"increased o2 requirement: requested nonrebreather because quieter.  on
+100% nrb, o2 sat 96-97%.  drops to 84% on ra
+non productive [** **]. no sob.
+concern about nutrition -intentionally doesn't eat much because of
+diabetes.
+altered mental status: waxes and wanes -at times doesn't know where he
+is overnight. this morning, much clearer
+abg on nonrebreather  ph 7.44/ pco2 50/ po2 85/ hco3 35
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2146-8-13**] 12:27 pm
+piperacillin/tazobactam (zosyn) - [**2146-8-14**] 04:31 am
+infusions:
+other icu medications:
+coumadin (warfarin) - [**2146-8-13**] 11:00 am
+other medications:
+flowsheet data as of  [**2146-8-14**] 06:27 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.8
+c (100.1
+tcurrent: 35.9
+c (96.6
+hr: 106 (91 - 109) bpm
+bp: 122/67(81) {120/53(74) - 149/81(142)} mmhg
+rr: 33 (14 - 33) insp/min
+spo2: 97%
+heart rhythm: af (atrial fibrillation)
+height: 68 inch
+total in:
+1,216 ml
+163 ml
+po:
+700 ml
+tf:
+ivf:
+516 ml
+163 ml
+blood products:
+total out:
+2,540 ml
+500 ml
+urine:
+2,040 ml
+500 ml
+ng:
+stool:
+drains:
+balance:
+-1,325 ml
+-337 ml
+respiratory support
+o2 delivery device: non-rebreather
+spo2: 97%
+abg: 7.44/50/85.[**numeric identifier 299**]/29/7
+pao2 / fio2: 85
+gen: well appearing, nad.
+lungs: decreased sounds at r lung base. occasional expiratory wheezes.
+cv: rrr. 3/6 sem loudest at lusb.
+abdomen: soft, nt, nd.
+extremities: warm, well perfused. no edema
+neuro: a+o x3. able to move all extremities. non focal.
+/
+240 k/ul
+14.9 g/dl
+106 mg/dl
+1.0 mg/dl
+29 meq/l
+3.6 meq/l
+18 mg/dl
+100 meq/l
+137 meq/l
+43.1 %
+6.4 k/ul
+[image002.jpg]
+[**2146-8-13**]  06:02 am
+[**2146-8-13**]  08:28 pm
+[**2146-8-14**]  04:00 am
+wbc
+5.7
+6.4
+hct
+43.4
+43.1
+plt
+187
+240
+cr
+1.2
+1.0
+tco2
+35
+glucose
+145
+106
+other labs: pt / ptt / inr:32.0/48.2/3.3, differential-neuts:78.4 %,
+band:0.0 %, lymph:12.2 %, mono:7.0 %, eos:0.5 %, lactic acid:0.9
+mmol/l, albumin:3.4 g/dl, ca++:8.4 mg/dl, mg++:2.1 mg/dl, po4:2.5 mg/dl",hypoxia/pna:; htn; # h/o chf; # a fib/tachycardia,hypoxia pneumonia ; hypertension; history of congestive heart failure; atrial fibrillation tachycardia,"['hypoxia pneumonia', 'hypertension', 'history of congestive heart failure', 'atrial fibrillation tachycardia']","Active 84yo M with HTN, AFib, CHF, Type 2 [**Hospital **] transferred to [**Hospital Unit Name 4**] with
+   left lower lobe PNA and increasing oxygen requirements",True,"The patient presents with increased oxygen requirements, as evidenced by a request for a non-rebreather mask and a significant drop in oxygen saturation from 96-97% on 100% non-rebreather to 84% on room air. This suggests hypoxemia, a common finding in pulmonary embolism. Additionally, the patient has atrial fibrillation, which is a known risk factor for pulmonary embolism. The arterial blood gas (ABG) results show a pH of 7.44, PCO2 of 50, and PO2 of 85 on a non-rebreather, indicating some degree of respiratory compromise. The decreased sounds at the right lung base and occasional expiratory wheezes could be indicative of a pulmonary embolism, although these findings are not specific. The patient's altered mental status, which waxes and wanes, could be due to hypoxia. However, the absence of overt symptoms such as sudden onset dyspnea or chest pain, and the lack of a clear D-dimer result or imaging findings in the provided information, introduces some uncertainty. Despite these considerations, the combination of hypoxemia, atrial fibrillation, and respiratory findings leans towards a possible pulmonary embolism, especially in the context of a patient with multiple risk factors and clinical signs suggestive of embolic events. Therefore, based on the available information, the diagnosis of pulmonary embolism is considered likely.",False,"There are no specific indicators for pulmonary embolism such as sudden onset dyspnea, chest pain, or a significant D-dimer elevation mentioned in the SOAP note. The patient's respiratory issues, such as decreased sounds at the right lung base and the need for a non-rebreather, could be suggestive but are not specific enough to diagnose pulmonary embolism without further testing like a CT pulmonary angiogram."
+218,109444.txt,"67f with complicated pulmonary history which began
+with prolonged post op course of intubation in [**1-27**] after total hip
+replacement with associated pseudomonas pna, trach/peg with resultant
+supraglottic stenosis and tracheomalacia.  had laser treatment of
+granulation tissue in trachea in [**11-28**] and trach decannulation in
+[**3-29**].  past year has been complicated by multiple admissions for both
+pna and flash pulm edema.  hospitalized late [**8-/2138**] for take down of
+tracheocutaneous fistula ([**9-12**]), had postop mrsa pna/bacteremia treated
+with vanc. discharged home on [**9-20**] on po bactrim, represented in acute
+respiratory distress in [**9-22**] despite home bipap. working ddx was mucous
+plug vs recurrent pna.  has received iv decadron x 3 for slight airway
+swelling seen on laryngoscope on admission.
+picc line - start [**2138-9-23**] 09:34 am
+non-invasive ventilation - stop [**2138-9-23**] 09:48 am
+sputum culture - at [**2138-9-23**] 09:58 am
+pt. expectorated tan colored sputum. culture sent to the lab.
+fluocopy - at [**2138-9-23**] 02:22 pm
+pt. transported down for both a barium and video swallow study. -- no
+evidence overt aspiration
+invasive ventilation - start [**2138-9-24**] 05:10 am
+ekg - at [**2138-9-24**] 05:20 am
+blood cultured - at [**2138-9-24**] 05:30 am
+respiratory arrest - at [**2138-9-24**] 04:45 am
+pt in acute distress, desat to 50's, diaphoretic and mottled; intubated
+pt did well all day off bipap, reported feeling back to baseline. was
+on her bipap at night (uses this at home) when became acutely short of
+breath at 4am. given chest pt, lasix 40mg iv and morphine.  pulse 0x
+[**location (un) 308**] in high 40s.  emergently intubated. position confirmed
+fiberoptically. continued to oxygenate poorly.  tachycardic to
+130-140s, lots of ectopy, ecg didn't show overt ischemia, ces
+negative.  blood cultures drawn. cxr c/w pulmonary edema. vbg with ph
+6.98, lactate 6.6. peep increased to 12.  given 80mg iv lasix and
+started on nitro gtt. became hypotensive to 70s, nitro gtt held.
+neosynephrine started.  called husband and left message, called and
+spoke to son and informed him of events, he will relay to his father.
+heparin agents
+thrombocytopeni
+percocet (oral) (oxycodone hcl/acetaminophen)
+nausea/vomiting
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2138-9-22**] 10:05 am
+vancomycin - [**2138-9-22**] 12:55 pm
+piperacillin/tazobactam (zosyn) - [**2138-9-24**] 06:00 am
+infusions:
+propofol - 10 mcg/kg/min
+phenylephrine - 1 mcg/kg/min
+other icu medications:
+morphine sulfate - [**2138-9-24**] 04:45 am
+furosemide (lasix) - [**2138-9-24**] 05:38 am
+other medications:
+flowsheet data as of  [**2138-9-24**] 08:20 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.6
+c (99.6
+tcurrent: 36.6
+c (97.9
+hr: 75 (46 - 134) bpm
+bp: 99/42(58) {70/32(44) - 156/84(100)} mmhg
+rr: 22 (12 - 29) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+mixed venous o2% sat: 80 - 80
+total in:
+567 ml
+594 ml
+po:
+tf:
+ivf:
+567 ml
+594 ml
+blood products:
+total out:
+1,125 ml
+940 ml
+urine:
+1,125 ml
+940 ml
+ng:
+stool:
+drains:
+balance:
+-559 ml
+-346 ml
+respiratory support
+o2 delivery device: other
+ventilator mode: cmv/assist
+vt (set): 550 (500 - 550) ml
+vt (spontaneous): 580 (400 - 580) ml
+ps : 6 cmh2o
+rr (set): 22
+rr (spontaneous): 0
+peep: 12 cmh2o
+fio2: 80%
+rsbi deferred: peep > 10, fio2 > 60%, hemodynamic instability, agitated
+pip: 35 cmh2o
+plateau: 26 cmh2o
+spo2: 100%
+abg: ///31/
+ve: 11.9 l/min
+general: intubated woman, alert and able to answer questions, in no
+acute distress
+head, ears, nose, throat: normocephalic, trach site healing, tiny
+fistula still present
+pulmonary: no crackles.  decreased with rhonchi at right base.
+cardiac: distant. rr, nl s1 s2, no murmurs, rubs or gallops appreciated
+abdomen: soft, nt, nd, normoactive bowel sounds, no masses or
+organomegaly noted
+extremities: no edema, 2+ radial, dp pulses b/l
+neurologic: alert, able to follow simple commands and express wishes
+380 k/ul
+9.5 g/dl
+120 mg/dl
+1.2 mg/dl
+31 meq/l
+4.0 meq/l
+16 mg/dl
+105 meq/l
+143 meq/l
+27.7 %
+8.0 k/ul
+wbc
+13.1
+10.3
+8.0
+hct
+32.3
+30.5
+27.7
+plt
+[**telephone/fax (3) 5002**]
+cr
+1.3
+1.3
+1.2
+tropt
+0.03
+<0.01
+0.03
+glucose
+70
+168
+120
+other labs: pt / ptt / inr:15.2/31.1/1.3, ck / ckmb /
+troponin-t:67/6/0.03, differential-neuts:89.8 %, band:0.0 %, lymph:6.9
+%, mono:2.4 %, eos:0.7 %, lactic acid:6.6 mmol/l, ca++:9.3 mg/dl,
+mg++:2.2 mg/dl, po4:3.3 mg/dl
+imaging
+barium swallow [**2138-9-23**]: prelim report - no evidence for gastroesophageal
+reflux. small-to-moderate hiatal hernia.
+video swallow [**2138-9-23**]: preliminary result of no overt aspiration",acute respiratory failure; hypotension:; cad; chf; arf; copd; h/o bacteremia; leukocytosis:,acute respiratory failure; hypotension ; coronary artery disease; congestive heart failure; acute renal failure; chronic obstructive pulmonary disease; history of bacteremia; leukocytosis,"['acute respiratory failure', 'hypotension', 'coronary artery disease', 'congestive heart failure', 'acute renal failure', 'chronic obstructive pulmonary disease', 'history of bacteremia', 'leukocytosis']","67F with CAD s/p CABG, CHF, COPD and complicated pulmonary history with
+   prolonged tracheostomy with recent decannulation and subsequent fistula
+   closure (on ENT service at [**Hospital1 54**] on [**9-12**]) with complicated MRSA PNA
+   presented with worsened respiratory distress. Patient with acute event
+   of respiratory failure overnight requiring intubation.
+   .",True,"The patient presents with acute respiratory distress, desaturation to 50's, diaphoresis, and mottling, which are concerning symptoms for pulmonary embolism. The patient's history of recent surgery (total hip replacement), prolonged intubation, and multiple admissions for pneumonia and pulmonary edema increase the risk for pulmonary embolism. The patient's sudden deterioration, tachycardia to 130-140s, and hypotension also suggest a possible pulmonary embolism. However, the chest X-ray is consistent with pulmonary edema, and the patient has been treated for pneumonia and sepsis, which could also explain the symptoms. The lack of a clear D-dimer result or CT pulmonary angiogram (CTPA) makes it difficult to confirm the diagnosis. Nevertheless, given the patient's high-risk profile and acute presentation, pulmonary embolism should be considered a possible diagnosis. The presence of thrombocytopenia and the mention of heparin agents also hint at a possible thrombotic event. Therefore, based on the available information, it seems plausible that the patient could have a pulmonary embolism, but a definitive diagnosis would require further testing.",False,There is no clear evidence of pulmonary embolism in the provided information. The patient's symptoms of acute distress and desaturation could be attributed to other causes such as pulmonary edema or sepsis. A definitive diagnosis of pulmonary embolism would require further testing such as a CT scan or ventilation-perfusion scan.
+222,189330.txt,"septic shock, respiratory failure
+invasive ventilation - stop [**2109-3-31**] 11:30 am
+sulfa (sulfonamides)
+unknown;
+verapamil
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2109-3-29**] 08:29 am
+cefipime - [**2109-3-29**] 03:30 pm
+piperacillin/tazobactam (zosyn) - [**2109-4-1**] 04:19 am
+infusions:
+heparin sodium - 550 units/hour
+other icu medications:
+furosemide (lasix) - [**2109-3-31**] 01:41 pm
+fentanyl - [**2109-3-31**] 08:23 pm
+heparin sodium - [**2109-3-31**] 08:56 pm
+other medications:
+flowsheet data as of  [**2109-4-1**] 07:18 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.6
+c (97.9
+tcurrent: 36.1
+c (96.9
+hr: 92 (87 - 136) bpm
+bp: 92/74(79) {82/43(25) - 130/97(103)} mmhg
+rr: 19 (11 - 29) insp/min
+spo2: 92%
+heart rhythm: af (atrial fibrillation)
+wgt (current): 74 kg (admission): 71.1 kg
+height: 62 inch
+total in:
+1,371 ml
+248 ml
+po:
+tf:
+155 ml
+ivf:
+1,015 ml
+248 ml
+blood products:
+total out:
+2,175 ml
+400 ml
+urine:
+2,175 ml
+400 ml
+ng:
+stool:
+drains:
+balance:
+-804 ml
+-152 ml
+respiratory support
+o2 delivery device: aerosol-cool
+ventilator mode: cpap/psv
+vt (spontaneous): 472 (360 - 472) ml
+ps : 8 cmh2o
+rr (spontaneous): 16
+peep: 5 cmh2o
+fio2: 50%
+spo2: 92%
+abg: 7.46/41/86//4
+ve: 5 l/min
+pao2 / fio2: 172
+general appearance: no acute distress
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), irreg irregular
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+respiratory / chest: (breath sounds: wheezes : , rhonchorous: )
+extremities: right: 2+, left: 2+
+skin:  not assessed
+neurologic: attentive, follows simple commands, responds to: not
+assessed, oriented (to): x3, movement: not assessed, tone: not assessed
+243 k/ul
+7.8 g/dl
+119 mg/dl
+1.5 mg/dl
+29 meq/l
+4.3 meq/l
+19 mg/dl
+105 meq/l
+140 meq/l
+23.6 %
+14.7 k/ul
+image002.jpg]
+[**2109-3-29**]  05:27 am
+[**2109-3-29**]  07:27 am
+[**2109-3-29**]  09:30 am
+[**2109-3-29**]  03:01 pm
+[**2109-3-29**]  03:23 pm
+[**2109-3-30**]  04:33 am
+[**2109-3-30**]  04:00 pm
+[**2109-3-31**]  04:21 am
+[**2109-3-31**]  10:34 am
+[**2109-4-1**]  04:40 am
+wbc
+9.1
+12.7
+19.5
+14.5
+14.2
+14.7
+hct
+23.4
+27.8
+27.1
+25.0
+24.2
+23.6
+plt
+[**telephone/fax (3) 2656**]
+cr
+1.1
+1.1
+1.3
+1.4
+1.5
+tco2
+25
+25
+25
+30
+glucose
+100
+100
+125
+92
+119
+other labs: pt / ptt / inr:14.8/93.2/1.3, ck / ckmb /
+troponin-t:103/9/0.09, alt / ast:31/24, alk phos / t bili:163/0.3,
+differential-neuts:94.0 %, band:3.0 %, lymph:3.0 %, mono:0.0 %, eos:0.0
+%, d-dimer:1470 ng/ml, fibrinogen:413 mg/dl, lactic acid:0.7 mmol/l,
+albumin:2.8 g/dl, ldh:239 iu/l, ca++:8.7 mg/dl, mg++:1.9 mg/dl, po4:2.6
+mg/dl
+imaging: [**2-28**] ct neck showed resolved sq emphysema, no hematoma, [**month (only) 38**]
+swelling
+microbiology: none new","respiratory failure
+ likely resulting from septic shock (below) with
+   component of chf; klebsiella uti: c/b by septic shock t; cad; a fib; anemia",respiratory failure likely resulting from septic shock below with component of congestive heart failure; klebsiella urinary tract infection complicated by septic shock t; coronary artery disease; atrial fibrillation; anemia,"['respiratory failure likely resulting from septic shock below with component of congestive heart failure', 'klebsiella urinary tract infection complicated by septic shock t', 'coronary artery disease', 'atrial fibrillation', 'anemia']","79F with COPD, CAD, a fib, lung cancer, now with respiratory distress
+   and septic shock now with clear evidence of recent cardiac event",True,"The patient's presentation includes septic shock and respiratory failure, which can be associated with pulmonary embolism (PE), but are not specific for it. The use of heparin sodium at 550 units/hour suggests that the patient is being treated for a thrombotic condition, which could include PE. However, heparin is also used for other conditions. The elevated D-dimer level of 1470 ng/ml is a significant clue, as D-dimer is often elevated in the setting of PE, although it is not specific and can be elevated in other conditions such as sepsis, which this patient has. The patient's atrial fibrillation (AF) is a risk factor for thromboembolic events, including PE. Despite these clues, the definitive diagnosis of PE typically requires imaging studies such as a CT pulmonary angiogram, which is not mentioned in the provided information. Given the clinical context, including the use of heparin and elevated D-dimer in a patient with risk factors for thromboembolism, there is a suggestion of PE, but without explicit imaging confirmation, the diagnosis remains uncertain. However, considering the patient's critical condition and the presence of several risk factors and suggestive lab findings, it is reasonable to lean towards the possibility of PE, especially in the absence of explicit evidence against it.",False,"The D-dimer is elevated at 1470 ng/ml, which can indicate a pulmonary embolism but is not specific. There's no mention of a CT pulmonary angiogram or ventilation-perfusion scan, which are diagnostic tests for pulmonary embolism. The patient's respiratory symptoms and need for oxygen could be consistent with a pulmonary embolism, but without definitive imaging, this diagnosis remains uncertain. Given the lack of specific diagnostic evidence, pulmonary embolism is possible but not confirmed."
+247,103146.txt,"- blood cultures speciated - mssa. d'c ed vanco and started naficillin
+- had diuresed >3.5l at 1500 with map's in high 50-60's and was unable
+to wean off levophed. held lasix gtt and gave 250cc ivf. gave another
+250cc ivf at [**2104**], 500cc @ 2300
+- liver recs - likely [**year (4 digits) 1613**] liver, rec: abdominal u/s with dopplers,
+trend lft's and supportive care
+- had trouble weaning levophed, likely [**1-22**] intravascular volume
+depletion from overdiuresis
+pa pressure increasing
+negative yesterday, gave fluids and held lasix (look up totals in i/o)
+got nearly 3l since 1500 yesterday
+maps were low, need 60-65 goal, levophed went up (try to wean by
+increasing fluids)
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2114-4-24**] 08:00 pm
+metronidazole - [**2114-4-25**] 06:14 am
+vancomycin - [**2114-4-26**] 08:29 am
+nafcillin - [**2114-4-27**] 04:30 am
+infusions:
+norepinephrine - 0.05 mcg/kg/min
+dobutamine - 4 mcg/kg/min
+other icu medications:
+heparin sodium (prophylaxis) - [**2114-4-26**] 11:29 pm
+other medications:
+flowsheet data as of  [**2114-4-27**] 05:46 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.4
+c (97.5
+hr: 86 (81 - 96) bpm
+bp: 97/56(66) {69/16(41) - 109/67(74)} mmhg
+rr: 20 (13 - 27) insp/min
+spo2: 95%
+heart rhythm: af (atrial fibrillation)
+wgt (current): 121.1 kg (admission): 119.3 kg
+height: 69 inch
+cvp: 11 (1 - 13)mmhg
+pap: (86 mmhg) / (36 mmhg)
+pcwp: 0 (0 - 0) mmhg
+co/ci (fick): (4.7 l/min) / (2 l/min/m2)
+svo2: 49%
+mixed venous o2% sat: 40 - 57
+total in:
+4,429 ml
+876 ml
+po:
+660 ml
+360 ml
+tf:
+ivf:
+3,769 ml
+516 ml
+blood products:
+total out:
+5,905 ml
+475 ml
+urine:
+5,905 ml
+475 ml
+ng:
+stool:
+drains:
+balance:
+-1,476 ml
+401 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ///22/
+gen: nad. awake, alert
+heent: ncat perrl
+cv: irregularly irregular nl s1s2 harsh systolic murmur at base
+pulm: fine crackles at the bases, no wheezes or rhonchi appreciated
+abd: obese, soft non-distended, non-tender, normal bs
+ext:  warm, dry; trace edema, palpable dp/pt pulses bilat; no splinter
+hemorrhages, osler
+s nodes
+neuro: a&ox3, responds to questions appropriately
+105 k/ul
+9.9 g/dl
+182 mg/dl
+1.4 mg/dl
+22 meq/l
+3.6 meq/l
+50 mg/dl
+104 meq/l
+134 meq/l
+30
+12.6 k/ul
+[image002.jpg]
+[**2114-4-25**]  01:34 pm
+[**2114-4-25**]  08:22 pm
+[**2114-4-25**]  10:40 pm
+[**2114-4-26**]  04:30 am
+[**2114-4-26**]  04:55 am
+[**2114-4-26**]  01:54 pm
+[**2114-4-26**]  10:16 pm
+[**2114-4-26**]  10:23 pm
+[**2114-4-27**]  04:39 am
+[**2114-4-27**]  04:54 am
+wbc
+18.7
+14.4
+12.9
+12.6
+hct
+32.1
+29
+28
+30.1
+29
+29
+31.3
+31.2
+30
+plt
+148
+118
+105
+105
+cr
+2.4
+2.0
+1.7
+1.4
+glucose
+175
+156
+158
+182
+other labs: pt / ptt / inr:18.5/37.4/1.7, ck / ckmb /
+troponin-t:196/6/0.11, alt / ast:1434/1699, alk phos / t bili:74/3.1,
+amylase / lipase:22/27, differential-neuts:89.9 %, band:7.0 %,
+lymph:6.3 %, mono:3.7 %, eos:0.0 %, d-dimer:[**numeric identifier 5835**] ng/ml, fibrinogen:392
+mg/dl, lactic acid:1.4 mmol/l, albumin:3.7 g/dl, ldh:730 iu/l, ca++:7.8
+mg/dl, mg++:1.8 mg/dl, po4:2.6 mg/dl",septic [**numeric identifier 1613**]: [**1-22**] mssa bacteremia.; liver failure; as; acute on chronic systolic heart failure; dyspnea; arf; thrombocytopenia; afib; dm,septic numeric identifier methicillin sensitive staphylococcus aureus bacteremia ; liver failure; aortic stenosis; acute on chronic systolic heart failure; dyspnea; acute renal failure; thrombocytopenia; atrial fibrillation; diabetes mellitus,"['septic numeric identifier methicillin sensitive staphylococcus aureus bacteremia', 'liver failure', 'aortic stenosis', 'acute on chronic systolic heart failure', 'dyspnea', 'acute renal failure', 'thrombocytopenia', 'atrial fibrillation', 'diabetes mellitus']","64 M w/ nonischemic dilated cardiomyopathy (EF 25%), severe AS,
+   rheumatic MS, DM, COPD, OSA & pulm HTN admitted to OSH with DOE,
+   transferred for further evaluation of AS, now with GPC bacteremia and
+   septic [**Numeric Identifier 1613**].
+   .",True,"The patient's presentation includes several factors that could suggest pulmonary embolism (PE), such as the need for increased oxygen delivery (though not explicitly stated, the patient has a low Spo2 of 95% on room air), tachycardia (hr: 86 bpm), and signs of right heart strain (elevated PA pressure, low Svo2, and mixed venous o2% sat). Additionally, the patient has been experiencing significant hemodynamic instability, as evidenced by the requirement for vasopressor support (norepinephrine) and difficulty weaning off levophed, which could be indicative of a severe pulmonary embolism causing hemodynamic compromise. The elevated d-dimer level ([**numeric identifier 5835**] ng/ml) is also a significant clue, as d-dimer is often elevated in the setting of pulmonary embolism, although it is not specific. However, the presence of atrial fibrillation and the patient's overall clinical picture, including signs of heart failure (fine crackles at the bases, elevated PA pressure), could also explain some of these findings without a PE. Despite these considerations, the combination of hemodynamic instability, elevated d-dimer, and signs suggestive of right heart strain in the context of a critically ill patient lean towards the possibility of a pulmonary embolism. Therefore, based on the provided information, the diagnosis of pulmonary embolism is considered likely.",False,"There is no direct evidence of pulmonary embolism, such as a positive D-dimer or imaging findings. The D-dimer is not provided in a standard unit of measurement, making interpretation difficult. However, the clinical context does not strongly suggest pulmonary embolism."
+264,103226.txt,"sputum culture - at [**2100-11-1**] 04:20 am
+fever - 102.9
+f - [**2100-10-31**] 02:00 pm
+- continues on levophed
+- id recs: add micafungin 100mg daily
+- gave 1l ns bolus for low uop, lowish bp (sbp 90), then another 500cc
+- cvo2sat: 76
+repeat hct 25.1, stable
+- at pm, tf had high residuals, so tamiflu po may not have been
+absorbed.  tfs held.
+- spiked temp to 102 -> sent cultures
+- ordered cvo2sat for am
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+tobramycin - [**2100-10-30**] 03:37 pm
+metronidazole - [**2100-10-31**] 08:30 pm
+cefipime - [**2100-11-1**] 12:00 am
+azithromycin - [**2100-11-1**] 03:30 am
+vancomycin - [**2100-11-1**] 04:00 am
+infusions:
+midazolam (versed) - 1.5 mg/hour
+norepinephrine - 0.15 mcg/kg/min
+fentanyl (concentrate) - 55 mcg/hour
+other icu medications:
+pantoprazole (protonix) - [**2100-10-31**] 12:00 pm
+other medications:
+flowsheet data as of  [**2100-11-1**] 07:37 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 39.4
+c (102.9
+tcurrent: 37.5
+c (99.5
+hr: 84 (80 - 121) bpm
+bp: 99/50(68) {88/49(63) - 119/59(80)} mmhg
+rr: 20 (6 - 27) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 43.4 kg (admission): 48.8 kg
+height: 61 inch
+co/ci (fick): (9.4 l/min) / (6.5 l/min/m2)
+mixed venous o2% sat: 76 - 81
+total in:
+5,044 ml
+762 ml
+po:
+tf:
+41 ml
+21 ml
+ivf:
+4,808 ml
+741 ml
+blood products:
+total out:
+1,980 ml
+640 ml
+urine:
+1,510 ml
+640 ml
+ng:
+470 ml
+stool:
+drains:
+balance:
+3,064 ml
+123 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist
+vt (set): 400 (400 - 400) ml
+rr (set): 20
+rr (spontaneous): 0
+peep: 10 cmh2o
+fio2: 70%
+rsbi deferred: peep > 10
+pip: 28 cmh2o
+plateau: 26 cmh2o
+compliance: 25 cmh2o/ml
+spo2: 98%
+abg: 7.30/55/127/24/0
+ve: 8.2 l/min
+pao2 / fio2: 181
+general: alert, oriented, in moderate respiratory distress
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple, jvp not elevated, no lad
+lungs: bronchial bs throughout
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen:  thin, soft, non-tender, non-distended, bowel sounds present,
+no rebound tenderness or guarding, no organomegaly
+gu: no foley
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+310 k/ul
+8.5 g/dl
+110 mg/dl
+0.5 mg/dl
+24 meq/l
+4.1 meq/l
+8 mg/dl
+107 meq/l
+138 meq/l
+26.4 %
+13.9 k/ul
+[image002.jpg]
+[**2100-10-30**]  09:19 pm
+[**2100-10-30**]  11:55 pm
+[**2100-10-31**]  04:08 am
+[**2100-10-31**]  04:43 am
+[**2100-10-31**]  07:24 am
+[**2100-10-31**]  01:29 pm
+[**2100-10-31**]  03:30 pm
+[**2100-11-1**]  03:01 am
+[**2100-11-1**]  03:18 am
+[**2100-11-1**]  07:18 am
+wbc
+17.7
+12.1
+13.9
+hct
+26.1
+25.5
+25.1
+26.4
+plt
+333
+299
+310
+cr
+0.6
+0.5
+tco2
+23
+23
+23
+23
+27
+28
+glucose
+112
+110
+other labs: pt / ptt / inr:25.1/38.9/2.4, ck / ckmb /
+troponin-t:62/4/<0.01, alt / ast:[**10-6**], alk phos / t bili:52/0.2,
+differential-neuts:91.7 %, lymph:4.6 %, mono:3.2 %, eos:0.3 %,
+d-dimer:1547 ng/ml, fibrinogen:653 mg/dl, lactic acid:1.0 mmol/l,
+albumin:2.6 g/dl, ldh:276 iu/l, ca++:8.3 mg/dl, mg++:1.8 mg/dl, po4:2.7
+mg/dl","hypoxic respiratory distress: likely secondary to [**doctor first name **] superinfected
+   with bacterial pneumonia.; sepsis: likely from pneumonia.; coagulopathy",hypoxic respiratory distress likely secondary to doctor first name superinfected with bacterial pneumonia ; sepsis likely from pneumonia ; coagulopathy,"['hypoxic respiratory distress likely secondary to doctor first name superinfected with bacterial pneumonia', 'sepsis likely from pneumonia', 'coagulopathy']","67 yo F with longstanding hx of [**Hospital **] transferred to ICU presenting with
+   hypoxia most likely due to bacterial left pneumonia  causes with known
+   L PNA and chronic [**Doctor First Name **] (MDR) with future plan for R pneumonectomy.",False,"The patient presents with symptoms and lab results that could suggest a pulmonary embolism, such as moderate respiratory distress, low oxygen saturation (though currently Spo2 is 98% on ventilator support), and significantly elevated D-dimer levels (1547 ng/ml). However, the clinical context provided is complex, with the patient being in the ICU, on multiple antibiotics, and having a fever, which could indicate an infectious process. The patient's hemodynamic status is also being supported with norepinephrine, indicating potential shock. While the elevated D-dimer is a significant clue towards thrombotic events like pulmonary embolism, it is also nonspecific and can be elevated in various conditions including infections, inflammation, and malignancy. The absence of specific symptoms such as sudden onset chest pain or dyspnea, and the lack of direct imaging evidence (like a CT pulmonary angiogram) in the provided information makes it difficult to conclusively diagnose a pulmonary embolism. Given the complexity of the patient's condition and the information provided, it's challenging to definitively diagnose pulmonary embolism without further diagnostic testing.",True,"The patient has a high D-dimer level (1547 ng/ml), which could suggest pulmonary embolism, but this test is not specific. The clinical context, including the patient's respiratory distress and need for oxygen therapy, could be consistent with pulmonary embolism, but definitive diagnostic tests (e.g., CT pulmonary angiogram) are not mentioned. Given the information, it's uncertain but possible."
+281,105027.txt,"- urologist needs clotting expert dr. [**first name4 (namepattern1) 84**] [**last name (namepattern1) 10937**] clearance before
+surgical removal of kidney
+- we need father's hx of clotting disorder for dr. [**last name (stitle) **] (urology) as
+well
+- pt spiked to [**age over 90 516**]f 8:30pm, tachycardia into 130s ; was in more pain to
+right side but given iv morphine 2mg and felt better but still
+tachycardic 130s
+- no need for lasix as patient is diuresing > 150cc/hr
+sulfa (sulfonamide antibiotics)
+rash; itching p
+codeine
+rash; itching p
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+cefipime - [**2125-9-20**] 10:07 am
+vancomycin - [**2125-9-20**] 08:04 pm
+metronidazole - [**2125-9-20**] 11:48 pm
+infusions:
+other icu medications:
+morphine sulfate - [**2125-9-21**] 02:02 am
+other medications:
+flowsheet data as of  [**2125-9-21**] 07:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.8
+c (101.8
+f) ([**2115**])
+tcurrent: 37.8
+c (100
+hr: 114 (102 - 133) bpm
+bp: 129/76(89) {98/39(55) - 153/80(93)} mmhg
+rr: 20 (13 - 29) insp/min
+spo2: 98%
+heart rhythm: st (sinus tachycardia)
+height: 59 inch
+cvp: 11 (11 - 11)mmhg
+total in:
+2,980 ml
+311 ml
+po:
+540 ml
+240 ml
+tf:
+ivf:
+2,440 ml
+71 ml
+blood products:
+total out:
+3,670 ml
+1,270 ml
+urine:
+3,670 ml
+1,270 ml
+ng:
+stool:
+drains:
+balance:
+-690 ml
+-959 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///17/
+general appearance: well nourished
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic, mmm
+cardiovascular: regular rhythm, 1/6 sem, tachycardic but improving
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: present), (left dp pulse:
+present)
+respiratory / chest: (expansion: symmetric), breath sounds: crackles :
+r > l base and decreased bilateral bases
+abdominal: soft, bowel sounds present, tender: ruq > luq, left cva
+tenderness
+extremities: right lower extremity edema: absent, left lower extremity
+edema: absent
+skin:  not assessed, rash: 1mm erthyematous macules at sites of
+follicules on bl shins. no ecchymoses.
+neurologic: attentive, responds to: not assessed, oriented (to): x3,
+movement: purposeful, tone: not assessed
+39 k/ul
+9.1 g/dl
+91 mg/dl
+0.9 mg/dl
+17 meq/l
+3.5 meq/l
+13 mg/dl
+113 meq/l
+138 meq/l
+28.9 %
+9.7 k/ul
+[image002.jpg]
+[**2125-9-18**]  10:23 am
+[**2125-9-18**]  12:52 pm
+[**2125-9-18**]  08:30 pm
+[**2125-9-19**]  03:25 pm
+[**2125-9-20**]  03:42 am
+[**2125-9-20**]  02:51 pm
+[**2125-9-21**]  05:02 am
+wbc
+2.8
+2.5
+3.3
+4.5
+9.7
+hct
+28.5
+29.9
+30.4
+26.7
+28.9
+plt
+55
+38
+43
+56
+48
+39
+cr
+1.0
+1.0
+1.0
+1.0
+0.9
+glucose
+97
+53
+99
+164
+91
+other labs: pt / ptt / inr:17.3/28.8/1.5, alt / ast:17/15, alk phos / t
+bili:98/0.7, differential-neuts:82.1 %, band:0.0 %, lymph:13.1 %,
+mono:3.8 %, eos:0.9 %, d-dimer:[**numeric identifier 10938**] ng/ml, fibrinogen:808 mg/dl,
+lactic acid:1.2 mmol/l, ldh:361(294) iu/l, ca++:7.9 mg/dl, mg++:1.7
+mg/dl, po4:3.1 mg/dl
+peripheral smear: no shistocytes
+anca: negative
+micro: ucx [**9-18**] and [**9-19**] no growth; bcx: [**9-18**] and [**9-19**] ngtd
+: none",sepsis: secondary to pyelonephritis;; sinus tachycardia; pancytopenia; arf,sepsis secondary to pyelonephritis;; sinus tachycardia; pancytopenia; acute renal failure,"['sepsis secondary to pyelonephritis', 'sinus tachycardia', 'pancytopenia', 'acute renal failure']","37 year old female with acute sepsis secondary to pyelonephritis with
+   evolving pancytopenia and radiological evidence of necrotic
+   pyelonephritis
+   .",True,"The patient presents with tachycardia (heart rate in the 130s), which is a common symptom of pulmonary embolism. Additionally, the patient has crackles in the lungs, more prominent on the right side, and decreased breath sounds at the bases, suggesting a possible pulmonary issue. The patient also experienced pain on the right side, which could be indicative of a pulmonary embolism. However, the d-dimer level is not explicitly provided, which is a crucial test for diagnosing pulmonary embolism. Despite this, the combination of tachycardia, respiratory symptoms, and the need for a clotting expert's clearance for surgery suggest a high suspicion for a thrombotic event. Given the information available and the clinical presentation, it is reasonable to lean towards a diagnosis of pulmonary embolism, although the absence of a clear d-dimer result introduces some uncertainty.",False,"The patient's tachycardia and tachypnea could be suggestive of a pulmonary embolism, but the absence of a clear D-dimer result (due to redaction) and lack of specific imaging findings make it difficult to confirm. However, the presence of crackles in the lungs, particularly more pronounced on the right side, could be indicative of a pulmonary issue, but it's not conclusive for PE without further evidence."
+291,184837.txt,"urine culture - at [**2141-2-9**] 10:22 pm
+nasal swab - at [**2141-2-9**] 10:22 pm
+ekg - at [**2141-2-9**] 10:46 pm
+-weaned off nitro drip
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 800 units/hour
+other icu medications:
+furosemide (lasix) - [**2141-2-10**] 01:17 am
+other medications:
+flowsheet data as of  [**2141-2-10**] 07:03 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**42**] am
+tmax: 36.7
+c (98
+tcurrent: 36.7
+c (98
+hr: 75 (75 - 97) bpm
+bp: 103/46(60) {103/46(60) - 147/75(90)} mmhg
+rr: 23 (18 - 30) insp/min
+spo2: 94%
+heart rhythm: sr (sinus rhythm)
+height: 62 inch
+total in:
+65 ml
+80 ml
+po:
+tf:
+ivf:
+65 ml
+80 ml
+blood products:
+total out:
+470 ml
+1,190 ml
+urine:
+470 ml
+1,190 ml
+ng:
+stool:
+drains:
+balance:
+-405 ml
+-1,110 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///20/
+general: wdwn female in nad.
+cardiac: jvp not elevated. rrr, normal s1, s2. no m/r/g.
+lungs: normal respiratory effort. bibasilar rales.
+abdomen: soft, ntnd. no hsm or tenderness.
+extremities: no c/c/e.
+pulses:
+right: radial 2+ dp 2+ pt 2+
+left: radial 2+ dp 2+ pt 2+
+228 k/ul
+11.2 g/dl
+160 mg/dl
+2.1 mg/dl
+20 meq/l
+4.5 meq/l
+47 mg/dl
+103 meq/l
+137 meq/l
+32.9 %
+14.6 k/ul
+image002.jpg]
+[**2141-2-9**]  09:13 pm
+[**2141-2-10**]  04:55 am
+wbc
+14.6
+hct
+32.9
+plt
+228
+cr
+2.1
+tropt
+6.65
+5.95
+glucose
+160
+other labs: pt / ptt / inr:12.6/82.3/1.1, ck / ckmb /
+troponin-t:838/80/5.95, differential-neuts:71.4 %, lymph:22.6 %,
+mono:5.4 %, eos:0.3 %, ca++:9.6 mg/dl, mg++:2.0 mg/dl, po4:4.0 mg/dl",nstemi; acute diastolic heart failure; diabetes mellitis:; hypertension,non st elevation myocardial infarction; acute diastolic heart failure; diabetes mellitus ; hypertension,"['non st elevation myocardial infarction', 'acute diastolic heart failure', 'diabetes mellitus', 'hypertension']","89 yo F with HTN, DM, and dyslipidemia p/w shortness of breath, found
+   to have NSTEMI.",True,"The patient is on heparin sodium, which is an anticoagulant often used to treat pulmonary embolism, suggesting that the medical team suspects or has diagnosed a thrombotic event. The presence of bibasilar rales on lung examination could indicate pulmonary edema or infarction, which can be associated with pulmonary embolism. Additionally, the patient's elevated troponin-t level (5.95) and slightly elevated white blood cell count (14.6 k/ul) could suggest cardiac strain or a pulmonary embolism. However, the heart rhythm is sinus rhythm, and there's no explicit mention of symptoms like sudden onset dyspnea, chest pain, or syncope that are commonly associated with pulmonary embolism. Despite these mixed findings, the use of heparin and the presence of some suggestive signs (like bibasilar rales and elevated troponin) lean towards the possibility of pulmonary embolism, but without definitive diagnostic evidence like a CT pulmonary angiogram or ventilation-perfusion scan mentioned, the diagnosis relies on clinical suspicion and indirect evidence.",False,"There is no direct evidence of pulmonary embolism, such as a positive D-dimer or imaging results. The patient's respiratory symptoms could be attributed to other causes."
+294,193351.txt,"-patient extubated and doing well
+-r trapezius pain with some numbness of fingertips, patient refusing ct
+scan of neck
+-echo with moderate rv dilation and moderate rv hypokinesis
+-hct stable
+-cefepime discontinued, on vanc/cipro
+-40mg iv lasix given x 2, with very brisk diuresis
+-seroquel discontinued
+-percocet ordered for pain
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+cefipime - [**2161-3-13**] 12:08 am
+vancomycin - [**2161-3-13**] 08:02 am
+ciprofloxacin - [**2161-3-14**] 02:26 am
+infusions:
+other icu medications:
+furosemide (lasix) - [**2161-3-13**] 03:00 pm
+labetalol - [**2161-3-13**] 03:26 pm
+morphine sulfate - [**2161-3-13**] 07:53 pm
+hydromorphone (dilaudid) - [**2161-3-13**] 10:00 pm
+other medications:
+flowsheet data as of  [**2161-3-14**] 08:13 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**62**] am
+tmax: 38
+c (100.4
+tcurrent: 37.3
+c (99.2
+hr: 74 (70 - 105) bpm
+bp: 149/62(87) {106/48(65) - 182/79(110)} mmhg
+rr: 24 (19 - 30) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 122 kg (admission): 117.5 kg
+height: 71 inch
+cvp: 10 (4 - 12)mmhg
+total in:
+2,149 ml
+329 ml
+po:
+120 ml
+tf:
+ivf:
+1,869 ml
+329 ml
+blood products:
+total out:
+6,200 ml
+480 ml
+urine:
+6,200 ml
+480 ml
+ng:
+stool:
+drains:
+balance:
+-4,051 ml
+-151 ml
+respiratory support
+o2 delivery device: nasal cannula
+ventilator mode: standby
+vt (spontaneous): 481 (481 - 537) ml
+ps : 5 cmh2o
+rr (spontaneous): 26
+peep: 0 cmh2o
+fio2: 100%
+pip: 11 cmh2o
+spo2: 95%
+abg: ///24/
+ve: 12.9 l/min
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+102 k/ul
+8.9 g/dl
+105 mg/dl
+0.8 mg/dl
+24 meq/l
+3.3 meq/l
+18 mg/dl
+107 meq/l
+138 meq/l
+25.8 %
+8.4 k/ul
+wbc
+10.3
+9.2
+7.2
+10.5
+8.4
+hct
+33.8
+31.2
+26.9
+28.0
+25.8
+plt
+151
+107
+105
+122
+102
+cr
+1.0
+0.9
+0.8
+0.8
+tropt
+0.01
+tco2
+18
+18
+18
+22
+24
+glucose
+104
+107
+94
+105
+other labs: pt / ptt / inr:15.2/35.8/1.3, ck / ckmb /
+troponin-t:428/9/0.01, alt / ast:27/43, alk phos / t bili:51/0.9,
+differential-neuts:61.0 %, band:18.0 %, lymph:13.0 %, mono:3.0 %,
+eos:0.0 %, lactic acid:2.0 mmol/l, albumin:2.8 g/dl, ldh:332 iu/l,
+ca++:7.7 mg/dl, mg++:1.9 mg/dl, po4:2.1 mg/dl
+maging: echo [**3-13**]:
+suboptimal image quality. right ventricular cavity enlargement with
+free wall hypokinesis. preserved global left ventricular systolic
+function. no definite valvular dysfunction identified.
+compared with the prior study (images reviewed) of [**2161-3-11**], the right
+ventricular cavity is now smaller and free wall motion is slightly
+improved",# massive hemoptysis / pes; respiratory failure; # htn,massive hemoptysis pulmonary embolisms; respiratory failure; hypertension,"['massive hemoptysis pulmonary embolisms', 'respiratory failure', 'hypertension']","This is a 58 yo male with history of morbid obesity, s/p gastric
+   bypass, h/o DVT presenting with massive hemoptysis and found to have
+   bilateral PEs.",True,"The patient's echo showing moderate RV dilation and moderate RV hypokinesis is a significant clue that suggests pulmonary embolism, as these findings are indicative of right ventricular strain, a common consequence of pulmonary embolism. Additionally, the improvement in right ventricular cavity size and free wall motion compared to a prior study could indicate resolution or improvement of the condition causing the strain, which could be consistent with treatment of a pulmonary embolism. However, the absence of a definitive diagnosis from imaging (e.g., CT scan) due to the patient's refusal and the lack of explicit mention of pulmonary embolism symptoms such as sudden onset dyspnea, chest pain, or syncope in the provided sections introduces uncertainty. Despite this, the echocardiographic findings and the clinical context (e.g., the need for oxygen therapy as indicated by the use of a nasal cannula and the presence of tachypnea) lean towards the possibility of pulmonary embolism. Thus, considering the available information, the diagnosis of pulmonary embolism seems plausible.",False,"The patient has right ventricular cavity enlargement with free wall hypokinesis on the echo, which could be suggestive of a pulmonary embolism. However, there is no clear mention of symptoms such as sudden onset dyspnea, chest pain, or syncope. The patient's oxygen saturation is 95% on room air, which is relatively normal. Without more definitive symptoms or imaging (e.g., CT pulmonary angiogram), the diagnosis of pulmonary embolism is uncertain but possible."
+334,103662.txt,"chief complaint: 24 hour events: -- cxr did not show any improvement, although has remained stable on 3l nc throughout day -- has been coughing alot up now with aggressive chest pt allergies: ampicillin rash; codeine nausea/vomiting tetracyclines unknown;","last dose of antibiotics: ceftriaxone -  12:32 am infusions: other icu medications: heparin sodium (prophylaxis) -  08:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:16 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 36.3 c (97.3 tcurrent: 35.5 c (95.9 hr: 72 (63 - 80) bpm bp: 140/57(77) {92/36(47) - 159/86(90)} mmhg rr: 22 (15 - 30) insp/min spo2: 91% heart rhythm: sr (sinus rhythm) total in: 480 ml 50 ml po: 480 ml tf: ivf: 50 ml blood products: total out: 633 ml 315 ml urine: 463 ml 315 ml ng: stool: drains: balance: -153 ml -265 ml respiratory support o2 delivery device: face tent spo2: 91% abg: ///21/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 410 k/ul 9.6 g/dl 87 mg/dl 4.0 mg/dl 21 meq/l 3.5 meq/l 43 mg/dl 108 meq/l 140 meq/l 29.6 % 9.0 k/ul [image002.jpg]   04:20 am wbc 9.0 hct 29.6 plt 410 cr 4.0 glucose 87 other labs: ca++:7.3 mg/dl, mg++:1.9 mg/dl, po4:4.3 mg/dl imaging: cxr: there remains complete collapse of the left lung with associated abrupt termination of the distal left bronchus, not appreciably changed since the recent study of earlier today, with findings discussed at that time with dr. . right lung is overexpanded but remains clear. persistent blunting of right costophrenic sulcus may reflect small effusion or pleural thickening.",mucous plugging from secetions; lll pneumonia; atn; hypertension; hyperlipidemia; ,mucous plugging from secretions; left lower lobe pneumonia; acute tubular necrosis; hypertension; hyperlipidemia;,"['mucous plugging from secretions', 'left lower lobe pneumonia', 'acute tubular necrosis', 'hypertension', 'hyperlipidemia']","85 yo female with HTN, HLP, CKD stage 4, admitted with cough and
+   pleuritic CP, found to have LLL pneumonia, now admitted to MICU with
+   acute hypoxia and respiratory distress found to have complete
+   opacification of her Left lung which is new",True,"The patient's symptoms and objective findings suggest a high likelihood of pulmonary embolism. The patient has been experiencing aggressive coughing and has a history of incomplete lung expansion, as evidenced by the complete collapse of the left lung with associated abrupt termination of the distal left bronchus on chest X-ray (CXR). The persistent blunting of the right costophrenic sulcus may indicate a small effusion or pleural thickening, which can be associated with pulmonary embolism. Additionally, the patient is on heparin sodium for prophylaxis, which is commonly used to prevent deep vein thrombosis and pulmonary embolism. The patient's oxygen saturation (SpO2) is 91% on a face tent, indicating some degree of respiratory compromise. While the patient's vital signs are relatively stable, the combination of these findings and the lack of significant improvement on CXR despite stability on 3L NC (nasal cannula) suggests that pulmonary embolism should be considered. The presence of tachypnea (respiratory rate of 22) and a relatively low SpO2 also support this diagnosis. Therefore, based on the provided information, the diagnosis of pulmonary embolism is likely.",False,"The patient's symptoms and imaging do not directly suggest pulmonary embolism. The chest X-ray shows complete collapse of the left lung and overexpansion of the right lung, which could be due to several conditions, but there's no specific mention of findings typical for pulmonary embolism like Hampton's hump or Westermark sign."
+356,124017.txt,"24 hour events:  - pt was called out to floor, looking well. became tachy to 140s and hypertensive to 200s systolic without clear precipitant. maintained 02 sats, did not complain of chest pain. did complain of shortness of breath, although rr and o2 sats were normal. was given 0.5 ativan, 5 iv lopressor x 2, 10 iv dilt, 10 iv lasix, and rate and pressure eventually normalized. pt was noted to be tremulous, anxious appearing, and then appeared as if he was going to vomit but did not. pt sent for cta chest/pelvis, ordered for troponins, lactate noted to rise to 6.0. pt noted to have no oral temp, but rectal temp to 104. -- had cta of abd/pelvis, concerning for caudate liver mass, w/ invasion to ivc. final read pending. - pt hypotensive upon return to floor w/ sbp 70s-80s, giving boluses fluids - surgery consulted, no intervention tonight, and unlikely given pt's age. dr.  will review images in am and surgical team will staff. - discussed case w/ daughter, granddaughter who are at bedside. - overnight, pt resting comfortably bp stable high 80s-100s systolic allergies: no known drug allergies","last dose of antibiotics: metronidazole -  09:00 pm cefipime -  11:15 pm infusions: other icu medications: metoprolol -  04:10 pm diltiazem -  04:20 pm furosemide (lasix) -  05:00 pm heparin sodium (prophylaxis) -  10:00 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   05:32 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 40.1 c (104.2 tcurrent: 36.8 c (98.2 hr: 73 (66 - 139) bpm bp: 98/63(72) {59/36(40) - 192/111(130)} mmhg rr: 17 (9 - 28) insp/min spo2: 95% heart rhythm: sr (sinus rhythm) total in: 3,020 ml 415 ml po: 300 ml tf: ivf: 2,720 ml 415 ml blood products: total out: 970 ml 175 ml urine: 870 ml 175 ml ng: stool: drains: balance: 2,050 ml 240 ml respiratory support o2 delivery device: none spo2: 95% abg: 7.39/38/75/22/-1 physical examination gen: comfortable, nad, partially oriented to place: (  . when asked what type of place this is he says apartment, .) oriented to person: (recognizes that i am a doctor). partially oriented to time (oriented to year of . not oriented to month. oriented to season) heent: mmm, sclera anicteric neck: jvp 5cm resp: ctab cards: rrr, no m/r/g abd: soft, nt/nd, +bs, no organomegaly ext: wwp, no c/c/e labs / radiology 151 k/ul 11.9 g/dl 108 mg/dl 1.4 mg/dl 22 meq/l 3.9 meq/l 21 mg/dl 107 meq/l 138 meq/l 35.1 % 22.6 k/ul [image002.jpg]   02:20 pm   04:45 pm   04:58 pm   08:59 pm   11:26 pm   04:47 am wbc 17.0 17.9 22.6 hct 36.8 37.1 35.1 plt 194 151 151 cr 1.2 1.4 tropt <0.01 0.07 tco2 23 24 glucose 147 108 other labs: pt / ptt / inr:13.9/30.3/1.2, ck / ckmb / troponin-t:239/5/0.07, alt / ast:25/39, alk phos / t bili:56/0.9, differential-neuts:90.3 %, lymph:6.7 %, mono:2.6 %, eos:0.2 %, lactic acid:2.2 mmol/l, albumin:3.2 g/dl, ldh:203 iu/l, ca++:7.6 mg/dl, mg++:1.7 mg/dl, po4:2.1 mg/dl",sepsis; liver mass; hypotension; acute renal failure; cad; ,sepsis; liver mass; hypotension; acute renal failure; coronary artery disease;,"['sepsis', 'liver mass', 'hypotension', 'acute renal failure', 'coronary artery disease']","[**Age over 90 **] year old man with history of CAD, colectomy for
+   colon CA in [**2115**], melanoma, HTN who presents with fever and relative
+   hypotension, yesterday found to have liver mass concerning for
+   malignancy with possible IVC invasion.",True,"The patient presents with tachycardia to 140s, hypertension to 200s systolic, shortness of breath, and a lactate level rising to 6.0, which could suggest a pulmonary embolism. However, the patient maintained normal oxygen saturation and did not complain of chest pain, which are common symptoms of pulmonary embolism. The patient also had a CTA of the abdomen and pelvis, which showed a concerning liver mass with invasion to the IVC, and was noted to be hypotensive upon return to the floor. The patient's symptoms and lab results, including an elevated white blood cell count and troponin level, could be indicative of a pulmonary embolism, but the presence of a liver mass and hypotension suggest a more complex clinical picture. Given the patient's overall presentation and the fact that a CTA chest/pelvis was ordered, it is possible that the patient may have a pulmonary embolism, but the evidence is not conclusive. However, considering the patient's risk factors, such as the liver mass with IVC invasion, which could increase the risk of thromboembolism, and the patient's symptoms, a pulmonary embolism cannot be ruled out. Therefore, based on the available information, the diagnosis of pulmonary embolism is likely but not definitive without further imaging results.",False,"The patient underwent a CTA of the chest and pelvis, but the results are not provided. However, the patient's symptoms of shortness of breath and tachycardia could be consistent with pulmonary embolism. Without the CTA results, it's difficult to confirm this diagnosis."
+365,128904.txt,"title: chief complaint: respiratory failure 24 hour events: -- given clean cath on , plavix d/c'd, asa decreased to 81mg, statin decreased to 20mg - i/os +150cc this even, goal to be even today - pulm consult: mvxhrs -->5/5ps--0/5ps @5am w/ plan to extubate and start immediately on bipap tomorrow - ativan 0.5-1.0mg prn today w/o issues - last abg 7.41/50/108 this am - tte:there is very mild regional left ventricular systolic dysfunction with distal apical hypokinesis. overall left ventricular systolic function is normal (lvef>55%). the right ventricular free wall is hypertrophied. the right ventricular cavity is mildly dilated with normal free wall contractility. the ascending aorta is mildly dilated. the aortic valve leaflets (3) are mildly thickened but aortic stenosis is not present. the mitral valve leaflets are mildly thickened. there is no mitral valve prolapse. trivial mitral regurgitation is seen. there is severe pulmonary artery systolic hypertension. there is a trivial/physiologic pericardial effusion. compared with the prior study (images reviewed) of , the left ventricular has significantly improved with very minor residue apical hypokinesis. severe pulmonary artery systolic hypertension is now detected. allergies: no known drug allergies","last dose of antibiotics: levofloxacin -  08:00 am infusions: fentanyl (concentrate) - 25 mcg/hour midazolam (versed) - 2 mg/hour nitroglycerin - 1 mcg/kg/min other icu medications: midazolam (versed) -  03:00 pm heparin sodium (prophylaxis) -  11:45 pm lorazepam (ativan) -  05:45 am other medications: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:12 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.9 c (100.2 tcurrent: 36.7 c (98.1 hr: 87 (59 - 114) bpm bp: 124/58(76) {90/47(58) - 196/90(129)} mmhg rr: 26 (8 - 27) insp/min spo2: 97% heart rhythm: sr (sinus rhythm) wgt (current): 57.6 kg (admission): 57.5 kg height: 70 inch total in: 1,002 ml 99 ml po: tf: 315 ml ivf: 257 ml 39 ml blood products: total out: 1,340 ml 245 ml urine: 1,340 ml 245 ml ng: stool: drains: balance: -338 ml -146 ml respiratory support o2 delivery device: endotracheal tube, other ventilator mode: cpap/psv vt (set): 400 (400 - 400) ml vt (spontaneous): 409 (409 - 860) ml ps : 5 cmh2o rr (set): 14 rr (spontaneous): 15 peep: 5 cmh2o fio2: 30% rsbi: 71 pip: 11 cmh2o spo2: 97% abg: 7.41/50/108/33/5 ve: 5.5 l/min pao2 / fio2: 360 physical examination general: thin, intubated, lightly sedated heent: ncat. sclera anicteric. perrl 1mm, eom not assessed. conjunctiva were pink, no pallor or cyanosis of the oral mucosa. mm dry. no xanthalesma. neck: supple with jvp <10, no hjr cardiac: distant heart sounds, no rubs/gallops/murmurs lungs: ctab with poor/moderate air movement. no wheezes or crackles auscultated abdomen: soft, ntnd.  no hsm or tenderness. abd aorta not enlarged by palpation. no abdominial bruits.  bs present. extremities: no c/c/e. no femoral bruits. dressing on l groin post-cath. warm, cap refill 2 sec skin: pink area beneath coccyx, no skin breakdown. pulses: right:dp 2+ pt 2+ left: dp 2+ pt 2+ labs / radiology 146 k/ul 10.4 g/dl 107 mg/dl 0.8 mg/dl 33 meq/l 4.1 meq/l 23 mg/dl 105 meq/l 142 meq/l 30.8 % 10.1 k/ul [image002.jpg]  3pm: 7.4/ 48/ 100  4am  7.43/ 50/100 6am 7.41/50/108   06:41 pm   10:06 pm   04:22 am   04:44 am   03:09 pm   05:03 pm   11:28 pm   04:05 am   04:33 am   06:23 am wbc 9.5 10.7 10.1 hct 33.3 33.8 34.7 30.8 plt 155 204 146 cr 0.8 0.9 0.8 tco2 33 34 33 32 34 33 glucose 159 154 150 107 other labs: pt / ptt / inr:13.8/73.4/1.2, [ck / ckmb / troponin-t:66/11/0.04, alt / ast:22/43, alk phos / t bili:77/0.5, differential-neuts:94.4 %, lymph:2.9 %, mono:2.1 %, eos:0.4 %, lactic acid:1.0 mmol/l, albumin:3.5 g/dl, ldh:344 iu/l], ca++:8.4 mg/dl, mg++:2.5 mg/dl, po4:2.8 mg/dl","respiratory failure/copd; rvh and severe pulmonary
+   htn; hypertension; ",respiratory failure chronic obstructive pulmonary disease; right ventricular hypertrophy and severe pulmonary hypertension; hypertension;,"['respiratory failure chronic obstructive pulmonary disease', 'right ventricular hypertrophy and severe pulmonary hypertension', 'hypertension']","74 yo M w/ with systolic heart failure and respiratory failure who
+   failed extubation 2 days ago; will go to cath lab today.",True,"The patient presents with severe pulmonary artery systolic hypertension, which is a key indicator of pulmonary embolism. Additionally, the patient has a history of recent catheterization and has been on anticoagulation therapy, which was discontinued, increasing the risk for thromboembolic events. The transthoracic echocardiogram (TTE) findings of right ventricular free wall hypertrophy and mild dilation with normal contractility also support the diagnosis of pulmonary embolism, as these are signs of increased pressure on the right ventricle. The presence of distal apical hypokinesis and significantly improved left ventricular function compared to a prior study further suggests that the right ventricular strain is likely due to an acute event such as a pulmonary embolism rather than chronic left ventricular dysfunction. While the patient's current oxygenation status is stable on mechanical ventilation, the overall clinical picture and laboratory findings point towards a high likelihood of pulmonary embolism.",False,"There is no direct evidence of pulmonary embolism, such as a positive D-dimer or imaging studies. The patient's respiratory failure and severe pulmonary artery systolic hypertension could be due to other causes. Therefore, pulmonary embolism is unlikely."
+422,173815.txt,title: chief complaint: 24 hour events: picc line - start  04:36 pm - ultrasound neck to check fluid status: flat needs fluids - gave 2 liters over course of day - re-address bp later; on lots of bp meds at home - cxr: picc ok - pm lytes...na 147. free water deficit: 2.2 liters; started 1 liter of d5w at 125 cc/hr for now. - vanc level 13.6; had been dosing by level allergies: no known drug allergies,"last dose of antibiotics: vancomycin -  09:00 pm cefipime -  06:00 pm metronidazole -  09:22 pm infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:01 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.4 c (97.6 tcurrent: 36.4 c (97.6 hr: 114 (111 - 119) bpm bp: 182/107(124) {129/80(91) - 183/115(130)} mmhg rr: 14 (8 - 19) insp/min spo2: 96% heart rhythm: st (sinus tachycardia) wgt (current): 90.2 kg (admission): 86.7 kg height: 65 inch total in: 2,515 ml 825 ml po: 100 ml tf: ivf: 2,415 ml 825 ml blood products: total out: 1,515 ml 560 ml urine: 1,515 ml 560 ml ng: stool: drains: balance: 1,000 ml 265 ml respiratory support o2 delivery device: nasal cannula spo2: 96% abg: ///23/ physical examination gen: overweight female in nad heent: ncat,  slightly dry mucus membranes neck: could not appreciate jvp cv: rrr, +s1/s2 lungs:  basilar crackles, slightly diminished sounds in right base abdomen: +bs, soft, obese, non-tender, 4-5cm abdominal wall mass in the rlq ext: no edema skin: yellow tint, also with patches of hypopigmentation neuro: awake, alert, oriented to hospital and month but didn t know year or president labs / radiology 37 k/ul 13.4 g/dl 168 mg/dl 7.5 mg/dl 23 meq/l 3.9 meq/l 115 mg/dl 104 meq/l 144 meq/l 41.9 % 14.0 k/ul [image002.jpg]   09:12 pm   10:04 pm   12:44 am   02:30 am   05:31 am   12:30 pm   09:11 pm   06:05 am   06:00 pm   03:24 am wbc 10.0 12.2 13.4 14.0 hct 39.7 40.8 43.8 41.9 plt 63 67 89 58 37 cr 9.4 9.3 8.8 9.0 8.9 9.3 8.0 7.5 tco2 18 23 glucose 193 261 273 81 89 91 139 168 other labs: pt / ptt / inr:15.0/33.1/1.3, alt / ast:12/33, alk phos / t bili:52/0.3, differential-neuts:88.0 %, band:0.0 %, lymph:5.0 %, mono:1.0 %, eos:1.0 %, d-dimer:6341 ng/ml, fibrinogen:156 mg/dl, lactic acid:3.2 mmol/l, ldh:323 iu/l, ca++:9.3 mg/dl, mg++:1.8 mg/dl, po4:5.6 mg/dl",acute renal failure; hyperkalemia; bandemia: suggestive of infection in setting of lactic acidosis; thrombocytopenia; ,acute renal failure; hyperkalemia; bandemia suggestive of infection in setting of lactic acidosis; thrombocytopenia;,"['acute renal failure', 'hyperkalemia', 'bandemia suggestive of infection in setting of lactic acidosis', 'thrombocytopenia']","57 y/o with metastatic renal cell CA presents with N/V, ARF,
+   hyperkalemia, and lactic acidosis.
+   --Patient
+s multiple metabolic derangements likely started with sutent
+   administration, which led to nausea/vomiting, decreased po intake and
+   with continued administration of metformin all led to global decreased
+   perfusion and increased lactate production.  Her decreased intake and
+   hypoperfusion worsened her renal function, which was also likely
+   worsened by IV contrast administration, leading to all of her
+   electrolyte abnormalities.",True,"The patient presents with several signs and symptoms that could be indicative of pulmonary embolism (PE), such as sinus tachycardia (heart rate of 114 bpm), which is a common finding in PE. Additionally, the patient has basilar crackles and slightly diminished sounds in the right base of the lungs, which could suggest a pulmonary issue. However, these findings are not specific to PE and could be seen in other conditions as well. The most compelling evidence for PE is the significantly elevated D-dimer level of 6341 ng/ml, which, while not definitive on its own due to its low specificity, in the context of other clinical findings, raises the suspicion of thrombotic events. The patient's oxygen saturation is maintained at 96% on a nasal cannula, which does not strongly argue for or against PE. Given the combination of tachycardia, respiratory findings, and particularly the elevated D-dimer, there is a reasonable suspicion for pulmonary embolism, although imaging studies (like a CT pulmonary angiogram) would be necessary for a definitive diagnosis. Without explicit imaging results provided in the SOAP note, the diagnosis leans towards possible based on the available clinical and laboratory evidence.",False,"The high d-dimer level (6341 ng/ml) could suggest pulmonary embolism, but d-dimer can also be elevated in other conditions such as sepsis or recent surgery. Without imaging studies like a CT pulmonary angiogram, the diagnosis cannot be confirmed. The patient's symptoms and other lab results do not strongly point towards pulmonary embolism."
+435,181315.txt,"chief complaint: i saw and examined the patient, and was physically present with the icu resident and fellow for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 47 y o man with esrd, pvd, recent le arterial emoblism, admitted with gib 24 hour events: 1.  gib: had maroon stools yesterday morning, last bm brown, guaiac positive tagged rbc scan negative cta of the abdomen done, read pending in nsr since 10pm gi saw today, want to hold off on re-scopes 2. fevers: 101.2 yest pm, cxr with new rll infiltrate, pan-cultures, started on abx 3. hd yesterday history obtained from patient allergies: sulfonamides rash;","last dose of antibiotics: fluconazole -  02:00 pm piperacillin/tazobactam (zosyn) -  05:08 am infusions: amiodarone - 0.5 mg/min other icu medications: lorazepam (ativan) -  06:42 pm pantoprazole (protonix) -  08:55 pm morphine sulfate -  05:54 am other medications: vancomycin 1 gm x 1 p hd zosyn x 1 p hd sevelamer 800 tid w meals (on hold) gabapentin 200 tid nephrocaps atorvastatin plavix (held yest + tod) asa 81 pantoprazole iv prednisone 10 mg qod sirolimus 2 mg daily nystatin s/s fluconazole 200 po daily + prn morphine changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   08:24 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 38.4 c (101.2 tcurrent: 36.6 c (97.8 hr: 76 (76 - 137) bpm bp: 148/57(80) {109/44(70) - 197/132(137)} mmhg rr: 14 (12 - 23) insp/min spo2: 93% heart rhythm: sr (sinus rhythm) wgt (current): 62.6 kg (admission): 60 kg height: 70 inch total in: 2,300 ml 344 ml po: 540 ml tf: ivf: 1,010 ml 344 ml blood products: 750 ml total out: 2,927 ml 395 ml urine: 327 ml 145 ml ng: stool: 600 ml 250 ml drains: balance: -627 ml -51 ml respiratory support o2 delivery device: nasal cannula spo2: 93% abg: ///28/ physical examination gen:  nad, awake in bed chest: rales at b bses, no egophony cv: rrr, soft hsm at lsb abd: soft, nt/nd extr:  warm, l foot with erythema, 2  black toes, and labs / radiology 10.7 g/dl 155 k/ul 157 mg/dl 4.7 mg/dl 28 meq/l 3.8 meq/l 25 mg/dl 98 meq/l 137 meq/l 30.7 % 8.6 k/ul [image002.jpg]   05:38 pm   12:21 am   03:49 am   10:26 am   04:50 pm   10:36 pm   04:13 am   01:44 pm   09:44 pm   04:08 am wbc 10.2 7.3 9.3 8.6 hct 24.1 25.6 28.9 27.0 28.2 27.1 25.8 31.5 30.5 30.7 plt 55 cr 8.1 4.6 6.4 4.7 glucose 71 84 104 157 other labs: pt / ptt / inr:14.6/26.5/1.3, fibrinogen:696 mg/dl, ca++:7.8 mg/dl, mg++:1.8 mg/dl, po4:3.3 mg/dl micro: h pylori pending blood cx pending sputum cx: upper resp secretions urine cx: pending cxr : one ap upright view. comparison with . there is hazy density at the lung bases and the costophrenic sulci are blunted consistent with development of small pleural effusions. the left hemidiaphragm is indistinct and the left basilar infiltrate cannot be excluded. the heart and mediastinal structures are unchanged. the bony thorax is grossly intact. impression: development of small pleural effusions on the right. a lateral view may be helpful for further evaluation.","fevers; possible etiologies include pneumonia, transudated gi flora, foot
+   source; gi bleed; vasculopathy; esrd; ",fevers; possible etiologies include pneumonia transudated gastrointestinal flora foot source; gastrointestinal bleed; vasculopathy; end stage renal disease;,"['fevers', 'possible etiologies include pneumonia transudated gastrointestinal flora foot source', 'gastrointestinal bleed', 'vasculopathy', 'end stage renal disease']","46 yo M w/ vasculopathy, ESRD and GIB on ASA/plavix/coumadin, fevers",True,"The patient has a history of recent lower extremity arterial embolism and peripheral vascular disease (PVD), which increases the risk for pulmonary embolism (PE). Additionally, the patient presents with fever (101.2°F), new right lower lobe (RLL) infiltrate on chest X-ray (CXR), and is on oxygen with a saturation of 93% on nasal cannula. The presence of tachycardia (hr: 76 bpm) and the development of small pleural effusions as noted on the CXR are also concerning for PE. However, the absence of explicit symptoms such as sudden onset dyspnea, chest pain, or hemoptysis in the provided text makes the diagnosis less straightforward. Despite this, the combination of risk factors, new infiltrate, and pleural effusions, in the context of recent embolic event, leans towards a possible pulmonary embolism. Further diagnostic testing such as a CT pulmonary angiogram (CTPA) would be necessary to confirm the diagnosis, but based on the information provided, there is sufficient suspicion to consider PE as a potential diagnosis.",False,"There is no direct evidence of pulmonary embolism in the provided SOAP note. The patient's symptoms, such as fevers and a new infiltrate on the chest X-ray, could be related to pneumonia or other conditions. While the patient has risk factors for pulmonary embolism (e.g., recent immobilization, history of PVD), there is no specific indication of a pulmonary embolism."

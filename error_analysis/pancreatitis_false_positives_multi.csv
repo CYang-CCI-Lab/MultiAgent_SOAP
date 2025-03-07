@@ -1,0 +1,167 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_pancreatitis_pred_multi,is_pancreatitis_reasoning_multi
+225,183637.txt,"hief complaint: diarrhea
+extubated
+""   """"passed"""" [**last name (un) 402**] stim test""
+urine- + for benzos and opiates
+codeine
+unknown;
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2200-4-10**] 08:30 pm
+metronidazole - [**2200-4-10**] 11:02 pm
+infusions:
+other icu medications:
+famotidine (pepcid) - [**2200-4-10**] 08:30 pm
+heparin sodium (prophylaxis) - [**2200-4-10**] 11:02 pm
+other medications:
+flowsheet data as of  [**2200-4-11**] 06:54 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.4
+tcurrent: 37.1
+c (98.8
+hr: 86 (83 - 111) bpm
+bp: 99/69(76) {95/64(74) - 106/71(77)} mmhg
+rr: 19 (0 - 28) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+height: 63 inch
+cvp: 8 (-7 - 312)mmhg
+total in:
+11,259 ml
+69 ml
+po:
+tf:
+ivf:
+6,062 ml
+69 ml
+blood products:
+197 ml
+total out:
+5,390 ml
+760 ml
+urine:
+5,390 ml
+760 ml
+ng:
+stool:
+drains:
+balance:
+5,869 ml
+-691 ml
+respiratory support
+o2 delivery device: nasal cannula
+ventilator mode: cpap/psv
+vt (set): 550 (550 - 550) ml
+vt (spontaneous): 1,585 (404 - 1,585) ml
+ps : 5 cmh2o
+rr (set): 14
+rr (spontaneous): 25
+peep: 0 cmh2o
+fio2: 40%
+pip: 5 cmh2o
+spo2: 100%
+abg: 7.37/37/173/25/-3
+ve: 8.8 l/min
+pao2 / fio2: 433
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+285 k/ul
+9.7 g/dl
+80 mg/dl
+0.7 mg/dl
+25 meq/l
+3.6 meq/l
+7 mg/dl
+111 meq/l
+142 meq/l
+28.5 %
+8.8 k/ul
+image002.jpg]
+[**2200-4-10**]  03:46 am
+[**2200-4-10**]  05:38 am
+[**2200-4-10**]  11:29 am
+[**2200-4-10**]  11:59 am
+[**2200-4-10**]  02:22 pm
+[**2200-4-10**]  02:40 pm
+[**2200-4-11**]  05:26 am
+wbc
+4.8
+8.8
+hct
+29.5
+28.5
+plt
+293
+285
+cr
+0.7
+0.6
+0.7
+tropt
+<0.01
+<0.01
+tco2
+20
+21
+22
+glucose
+108
+89
+80
+other labs: pt / ptt / inr:14.1/26.4/1.2, ck / ckmb /
+troponin-t:114/4/<0.01, alt / ast:25/33, alk phos / t bili:61/0.9,
+amylase / lipase:194/160, differential-neuts:84.0 %, band:8.0 %,
+lymph:5.0 %, mono:2.0 %, eos:1.0 %, lactic acid:0.8 mmol/l, albumin:3.3
+g/dl, ldh:121 iu/l, ca++:8.8 mg/dl, mg++:2.0 mg/dl, po4:1.5 mg/dl
+micro
+fecal culture (pending):
+campylobacter culture (pending):
+fecal culture - r/o e.coli 0157:h7 (pending):
+fecal culture - r/o yersinia (pending):
+fecal culture - r/o vibrio (pending):
+clostridium difficile toxin assay (final [**2200-4-10**]):
+feces negative for c. difficile toxin by eia.
+(reference range-negative).
+ova + parasites (final [**2200-4-10**]):
+no ova and parasites seen.
+tte
+the left atrium is elongated. left ventricular wall thickness, cavity
+size and regional/global systolic function are normal (lvef 70%) there
+is no ventricular septal defect. right ventricular chamber size and
+free wall motion are normal. the aortic valve leaflets (3) appear
+structurally normal with good leaflet excursion and no aortic
+regurgitation. the mitral valve appears structurally normal with
+trivial mitral regurgitation. there is no mitral valve prolapse. the
+pulmonary artery systolic pressure could not be determined. there is no
+pericardial effusion.",hypotension:; n/v/diarrhea; syncope; hiv; hcv,hypotension ; nausea vomiting diarrhea; syncope; human immunodeficiency virus; hepatitis c virus,"['hypotension', 'nausea vomiting diarrhea', 'syncope', 'human immunodeficiency virus', 'hepatitis c virus']","47F h/o HIV/HCV, otherwise unknown med history, admitted with
+   n/v/diarrhea, syncope, continues on decreased norepinephrine gtt after
+   fluid resuscitation, likely [**2-8**] endotoxin or viral gastroenteritis.",True,"The amylase and lipase levels are elevated (194 and 160, respectively), which could suggest pancreatitis. However, these elevations need to be interpreted in the context of clinical symptoms (e.g., abdominal pain) and other diagnostic criteria. Without clear symptoms or further diagnostic evidence, it's difficult to conclusively diagnose pancreatitis, but the lab findings are suggestive."
+377,137771.txt,title: chief complaint: shock nos 24 hour events: - pt decided on home with hospice care not cmo following meeting with dr.  and dr.  - sidenafil increased to 100mg tid - bactrim changed to po from iv - zosyn iv d/c'd history obtained from patient allergies: history obtained from patientno known drug allergies,"last dose of antibiotics: vancomycin -  06:00 pm piperacillin/tazobactam (zosyn) -  01:48 am metronidazole -  04:15 am infusions: other icu medications: other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:04 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.2 c (97.2 tcurrent: 36.1 c (97 hr: 94 (93 - 108) bpm bp: 85/45(54) {83/43(52) - 111/74(81)} mmhg rr: 13 (12 - 24) insp/min spo2: 99% heart rhythm: af (atrial fibrillation) height: 74 inch total in: 1,048 ml 400 ml po: 600 ml 400 ml tf: ivf: 448 ml blood products: total out: 1,650 ml 500 ml urine: 1,650 ml 500 ml ng: stool: drains: balance: -602 ml -100 ml respiratory support o2 delivery device: nasal cannula spo2: 99% abg: ///22/ physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 228 k/ul 8.6 g/dl 65 mg/dl 2.2 mg/dl 22 meq/l 3.7 meq/l 58 mg/dl 116 meq/l 145 meq/l 26.1 % 13.6 k/ul [image002.jpg]   02:20 am   08:28 am   10:29 am   05:40 pm   04:36 am   04:33 pm   03:53 am   08:30 pm   04:21 am wbc 14.3 18.4 18.7 18.2 13.6 hct 33.7 30.3 27.7 26.7 26.1 plt 389 337 311 248 228 cr 4.0 4.1 3.7 3.3 3.0 2.9 2.4 2.2 tropt 0.06 glucose 67 152 107 88 121 111 132 65 other labs: pt / ptt / inr:24.7/37.1/2.4, ck / ckmb / troponin-t:32/8/0.06, alt / ast:92/67, alk phos / t bili:167/0.6, amylase / lipase:182/171, differential-neuts:94.9 %, band:0.0 %, lymph:2.1 %, mono:2.8 %, eos:0.1 %, lactic acid:1.1 mmol/l, albumin:3.6 g/dl, ldh:346 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:2.5 mg/dl fluid analysis / other labs: inr: 2.4 microbiology: c diff negative urine culture negative blood cultures pending influenza dfa negative","shock nos:  likely [**2-28**] to rv failure (chronic) and sub-optimally
+   treated pulmonary hypertension; r tkr with chronic infection; ",shock not otherwise specified likely to right ventricle failure chronic and sub optimally treated pulmonary hypertension; right total knee replacement with chronic infection;,"['shock not otherwise specified likely to right ventricle failure chronic and sub optimally treated pulmonary hypertension', 'right total knee replacement with chronic infection']","This is a 78 year-old male with a history of PEs, pulmonary
+   hypertension, COP, chronic knee infection, afib/flutter and
+   hypothyroidism who is transferred from [**Hospital1 7**] [**Location (un) 250**] with shock and acute
+   renal failure.   Family meeting held to address goals of care
+ goal to
+   wean patient off pressors in order to transition him to home for
+   hospice.  Plan to d/c home with hospice today.",True,"The patient's amylase and lipase levels are elevated (182 and 171, respectively), which suggests pancreatitis. The patient also has abdominal pain, which is a common symptom of pancreatitis. Therefore, the evidence strongly supports a diagnosis of pancreatitis."
+385,143753.txt,chief complaint: respiratory failure 24 hour events: family decided to make dnr/dni allergies: aspirin unknown; penicillins unknown; bactrim (oral) (sulfamethoxazole/trimethoprim) rash;,"last dose of antibiotics: levofloxacin -  06:10 pm metronidazole -  04:10 am vancomycin -  08:00 am amikacin -  09:03 am infusions: other icu medications: lansoprazole (prevacid) -  08:00 am heparin sodium (prophylaxis) -  08:00 am furosemide (lasix) -  09:35 am other medications: changes to medical and family history: none review of systems is unchanged from admission except as noted below review of systems: none flowsheet data as of   12:19 pm vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 38.1 c (100.5 tcurrent: 37.7 c (99.9 hr: 75 (68 - 93) bpm bp: 157/66(88) {127/57(73) - 164/72(93)} mmhg rr: 18 (15 - 38) insp/min spo2: 95% heart rhythm: sr (sinus rhythm) wgt (current): 77 kg (admission): 66.5 kg height: 66 inch total in: 1,987 ml 545 ml po: tf: 1,187 ml 10 ml ivf: 540 ml 455 ml blood products: total out: 1,115 ml 395 ml urine: 1,115 ml 395 ml ng: stool: drains: balance: 872 ml 150 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist vt (set): 450 (450 - 450) ml vt (spontaneous): 293 (293 - 293) ml ps : 20 cmh2o rr (set): 12 rr (spontaneous): 37 peep: 5 cmh2o fio2: 40% rsbi deferred: rr >35 pip: 22 cmh2o plateau: 17 cmh2o spo2: 95% abg: ///34/ ve: 7.7 l/min physical examination peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) skin:  not assessed neurologic: responds to: not assessed, movement: not assessed, tone: not assessed labs / radiology 875 k/ul 8.7 g/dl 102 mg/dl 1.0 mg/dl 34 meq/l 3.5 meq/l 19 mg/dl 97 meq/l 138 meq/l 27.0 % 20.2 k/ul [image002.jpg]   04:35 am   05:32 am   04:12 am   08:43 am   02:53 pm   05:54 am   04:28 pm   04:00 am   05:08 am   05:41 am wbc 16.1 15.7 15.4 18.4 20.2 hct 22.5 23.4 24.9 25.9 27.0 plt 583 548 666 781 875 cr 1.1 1.1 1.0 1.1 1.0 1.0 1.0 tropt 0.10 tco2 28 35 glucose 2 150 148 102 other labs: pt / ptt / inr:15.4/28.9/1.4, ck / ckmb / troponin-t:37/3/0.10, alt / ast:, alk phos / t bili:79/0.3, amylase / lipase:153/139, differential-neuts:88.3 %, band:3.0 %, lymph:7.9 %, mono:3.0 %, eos:0.7 %, fibrinogen:661 mg/dl, lactic acid:1.2 mmol/l, albumin:2.6 g/dl, ldh:256 iu/l, ca++:7.5 mg/dl, mg++:1.8 mg/dl, po4:3.0 mg/dl","respiratory failure; hap/aspiration pna/sepsis; urosepsis: e.coli bacteremia, and e.coli/providencia uti.; hypertension; ",respiratory failure; hospital acquired pneumonia aspiration pneumonia sepsis; urosepsis escherichia coli bacteremia and escherichia coli providencia urinary tract infection ; hypertension;,"['respiratory failure', 'hospital acquired pneumonia aspiration pneumonia sepsis', 'urosepsis escherichia coli bacteremia and escherichia coli providencia urinary tract infection', 'hypertension']","82 year old female with a history of breast cancer, CVA, hypertension
+   with recent MICU stay for E.coli urosepsis, providencia UTI, and RLL
+   aspiration PNA presents from medical floor after likely PEA arrest now
+   with worsening mental status than on previous transfer now 48 hours
+   after the event.",True,"The patient has elevated amylase (153) and lipase (139) levels, which are indicative of pancreatitis. This, combined with the clinical context, supports the diagnosis of pancreatitis."
+398,153621.txt,"title: chief complaint: 24 hour events: - lue us is without dvt, picc placed. - on  ns ivf for maintenance. - f/u on bcx, sputum cx, and urine cx. - ip will place a trach and peg next week, need to get another service to get it done earlier. - family was code purpled (sister), unable to address the code status. - ep: continue dronedarone, d/c heparin gtt, give heparin sc ppx. - has ventricular bigeminy over the night started around 4:40am, which comes and goes. allergies: no known drug allergies","last dose of antibiotics: cefipime -  08:34 pm ampicillin -  04:34 am infusions: other icu medications: pantoprazole (protonix) -  08:34 pm metoprolol -  04:35 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:26 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.7 c (99.8 tcurrent: 37.5 c (99.5 hr: 84 (62 - 96) bpm bp: 123/78(93) {93/48(62) - 134/81,102(101)} mmhg rr: 20 (13 - 27) insp/min spo2: 100% heart rhythm: sr (sinus rhythm) wgt (current): 78 kg (admission): 76.9 kg height: 67 inch total in: 3,536 ml 1,097 ml po: tf: 555 ml 364 ml ivf: 2,321 ml 583 ml blood products: total out: 1,755 ml 400 ml urine: 1,255 ml 400 ml ng: stool: drains: balance: 1,781 ml 697 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: mmv/psv/autoflow vt (set): 400 (400 - 400) ml vt (spontaneous): 474 (436 - 569) ml ps : 5 cmh2o rr (set): 10 rr (spontaneous): 17 peep: 5 cmh2o fio2: 40% rsbi: 40 pip: 11 cmh2o spo2: 100% abg: ///21/ ve: 8 l/min physical examination gen: intubated, nad heent: perrl 3-4mm 1-2 mm, brisk cv: rrr, no m/r/g pulm: ctab, equal bs anteriorly abd: +bs, soft, distention unchanged extr: 1+ pedal edema at ankles b/l neuro: no response to sternal rub, pressure to nailbed labs / radiology 269 k/ul 9.4 g/dl 158 mg/dl 2.6 mg/dl 21 meq/l 3.9 meq/l 50 mg/dl 119 meq/l 150 meq/l 29.2 % 15.6 k/ul [image002.jpg]   04:16 am   05:05 pm   05:27 pm   04:30 am   04:39 am   04:50 pm   05:04 pm   03:14 am   03:22 am   04:19 am wbc 10.9 13.8 15.6 hct 30.7 29.3 29.2 plt  cr 4.8 4.3 3.7 3.3 2.6 tco2 21 23 20 22 19 glucose 98 120 148 156 158 other labs: pt / ptt / inr:25.2/37.3/2.4, ck / ckmb / troponin-t:77/8/0.49, alt / ast:1828/1272, alk phos / t bili:198/5.1, amylase / lipase:240/850, differential-neuts:88.8 %, lymph:6.2 %, mono:3.9 %, eos:0.8 %, lactic acid:1.3 mmol/l, albumin:3.4 g/dl, ldh:690 iu/l, ca++:8.6 mg/dl, mg++:1.7 mg/dl, po4:1.7 mg/dl","vt; transaminitis: elevated transaminases, ldh concerning for medication
+   toxicity (amiodarone) versus viral etiology versus shock liver; acute renal failure; hypernatremia; ",ventricular tachycardia; transaminitis elevated transaminases lactate dehydrogenase concerning for medication toxicity amiodarone versus viral etiology versus shock liver; acute renal failure; hypernatremia;,"['ventricular tachycardia', 'transaminitis elevated transaminases lactate dehydrogenase concerning for medication toxicity amiodarone versus viral etiology versus shock liver', 'acute renal failure', 'hypernatremia']","43 y/o M w/ h/o Ischemic Dilated Cardiomyopathy (EF 20%) s/p ICD
+   placement who presents with VT Storm.",True,"The patient has significantly elevated lipase (850) and amylase (240) levels, which are key indicators of pancreatitis. These findings, in the context of the patient's critical illness, strongly suggest pancreatitis."

@@ -1,0 +1,196 @@
+,File ID,Subjective,Objective,Summary,cleaned_expanded_Summary,terms,Assessment,is_meningitis_pred_single,is_meningitis_reasoning_single
+76,101264.txt,"studies done yesterday:
+echo, ct torso and head, bronch.
+needed levophed throughout the night for bp support.
+became agitated and attempted to pull out et tube x 3, thus sedation
+(fentanyl and versed) were increased.
+also needed bear-hugger intermittently for hypothermia to 94f
+received about 2l of ivf
+ultrasound - at [**2178-2-9**] 08:30 am
+cardiac echo
+ekg - at [**2178-2-9**] 10:30 am
+bronchoscopy - at [**2178-2-9**] 01:50 pm
+sulfonamides
+unknown;
+a.c.e inhibitors
+angioedema;
+angiotensin receptor antagonist
+angioedema;
+keflex (oral) (cephalexin monohydrate)
+nausea/vomiting
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ceftriaxone - [**2178-2-9**] 10:30 pm
+vancomycin - [**2178-2-9**] 11:00 pm
+metronidazole - [**2178-2-10**] 12:00 am
+ampicillin - [**2178-2-10**] 04:00 am
+acyclovir - [**2178-2-10**] 06:00 am
+infusions:
+midazolam (versed) - 0.5 mg/hour
+fentanyl - 75 mcg/hour
+norepinephrine - 0.12 mcg/kg/min
+other icu medications:
+famotidine (pepcid) - [**2178-2-9**] 02:05 pm
+other medications:
+flowsheet data as of  [**2178-2-10**] 06:45 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.1
+c (97
+tcurrent: 36.1
+c (97
+hr: 90 (86 - 93) bpm
+bp: 146/76(103) {83/51(64) - 146/76(103)} mmhg
+rr: 25 (11 - 25) insp/min
+spo2: 100%
+heart rhythm: v paced
+cvp: 9 (5 - 12)mmhg
+total in:
+8,567 ml
+543 ml
+po:
+tf:
+ivf:
+7,667 ml
+543 ml
+blood products:
+total out:
+2,920 ml
+500 ml
+urine:
+2,685 ml
+500 ml
+ng:
+200 ml
+stool:
+drains:
+balance:
+5,647 ml
+43 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 500 (500 - 500) ml
+rr (set): 25
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 50%
+rsbi deferred: no spon resp
+pip: 18 cmh2o
+plateau: 15 cmh2o
+compliance: 50 cmh2o/ml
+spo2: 100%
+abg: 7.38/37/171/22/-2 (at 7am)
+ve: 11.9 l/min
+pao2 / fio2: 342
+general appearance: intubated. opens eyes to verbal stimuli, following
+simple commands. in restraints due to agitation.
+eyes / conjunctiva: perrl
+head, ears, nose, throat: poor dentition
+cardiovascular: (s1: normal), (s2: normal), (murmur: systolic)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: diminished), (left dp pulse: diminished)
+respiratory / chest: diminished at bases bilaterally. blood oozing out
+of rij line site.
+abdominal: soft, bowel sounds present, distended, tenderness not
+assessed
+extremities: right: absent, left: absent, no(t) cyanosis, no(t)
+clubbing
+neurologic: responds to: not assessed, oriented (to): self and place,
+movement: not assessed, tone: not assessed
+369 k/ul
+10.5 g/dl
+117 mg/dl
+1.3 mg/dl
+22 meq/l
+4.2 meq/l
+27 mg/dl
+109 meq/l
+140 meq/l
+34.5 %
+27.0 k/ul
+[image002.jpg]
+[**2178-2-9**]  03:45 am
+[**2178-2-9**]  04:59 am
+[**2178-2-9**]  06:08 am
+[**2178-2-9**]  12:34 pm
+[**2178-2-9**]  04:54 pm
+[**2178-2-9**]  06:33 pm
+[**2178-2-9**]  06:56 pm
+[**2178-2-9**]  10:28 pm
+[**2178-2-10**]  01:56 am
+[**2178-2-10**]  06:32 am
+wbc
+38.6
+25.9
+27.0
+hct
+36.6
+34.2
+34.5
+plt
+400
+303
+369
+cr
+1.4
+1.4
+1.3
+tropt
+0.31
+0.26
+tco2
+19
+19
+19
+20
+20
+23
+23
+glucose
+[**telephone/fax (3) 6209**]
+other labs: pt / ptt / inr:19.8/36.9/1.8, ck / ckmb /
+troponin-t:247/12/0.26, alt / ast:60/171, alk phos / t bili:204/1.2,
+amylase / lipase:129/9, differential-neuts:84.0 %, band:1.0 %,
+lymph:3.0 %, mono:7.0 %, eos:0.0 %, fibrinogen:229 mg/dl, lactic
+acid:2.4 mmol/l, albumin:3.1 g/dl, ldh:534 iu/l, ca++:8.2 mg/dl,
+mg++:2.4 mg/dl, po4:4.8 mg/dl
+- legionella urinary ag - neg.
+- [**last name (un) **] stim: 14.6 -> 19.1
+cxr [**2178-2-10**] (my read) blossoming pleural effusions r>l
+- echo: mod dilated la. mild lvh. mildly dilated lv cavity w/ mild
+global hypokinesis. lvef = 40 %. increased lv filling pressure
+(pcwp>18mmhg). normal rv size/motion. mild as. no ar. mild mr.
+mild->mod pulm htn. small circumferential effusion.
+- ct abd: 1.large r pleural effusion. 2.new mod l pleural effusion 3.
+cecal and ascending colonic wall thickening, consistent with colitis.
+4. colonic diverticulosis, no diverticulitis. 5.unchanged ascites.
+- ct head:
+there is no intracranial hemorrhage. there is no mass, mass
+effect, edema, or evidence of vascular territorial infarction. no acute
+intracranial process
+- bronchoscopy: scant secretions, normal anatomy. bal of superior seg
+rll -> gram stain neg for pmns/organisms. no viral antigens detected.","respiratory failure; septic shock/ fever: unclear source. top differentials include
+   recurrent c. diff, ischemic bowel sounds, pna, endocarditis; change in mental status; chf (ef of 45%); coagulopathy; meningitis (esp.
+   pneumococcal)",respiratory failure; septic shock fever unclear source top differentials include recurrent clostridioides difficile ischemic bowel sounds pneumonia endocarditis; change in mental status; congestive heart failure ejection fraction of % ; coagulopathy; meningitis especially pneumococcal,"['respiratory failure', 'septic shock fever unclear source top differentials include recurrent clostridioides difficile ischemic bowel sounds pneumonia endocarditis', 'change in mental status', 'congestive heart failure ejection fraction of %', 'coagulopathy', 'meningitis especially pneumococcal']","This is a 72M with septic shock and respiratory failure.
+   .",False,"The patient's presentation includes agitation, fever (tmax: 36.1 C, which is not significantly elevated but could be suppressed due to the administration of broad-spectrum antibiotics), and a high white blood cell count (WBC) with a left shift (neutrophils: 84.0%, band: 1.0%), indicating an infectious or inflammatory process. However, specific signs of meningitis such as headache, stiff neck (nuchal rigidity), or photophobia are not explicitly mentioned in the provided SOAP note. The CT head scan did not show any evidence of intracranial hemorrhage, mass effect, edema, or vascular territorial infarction, which could argue against meningitis. The patient is on broad-spectrum antibiotics (ceftriaxone, vancomycin, metronidazole, ampicillin, and acyclovir), which would be appropriate for treating bacterial meningitis among other infections. Given the lack of direct evidence for meningitis (e.g., cerebrospinal fluid analysis results are not provided) and the presence of other potential sources of infection (e.g., pleural effusions, colitis), it's challenging to conclusively diagnose meningitis based solely on the provided information. The absence of specific neurologic signs and the CT head findings that do not support an acute intracranial process, including meningitis, lead towards a conclusion that meningitis is less likely."
+333,102963.txt,"title: chief complaint: fever, altered mental status, respiratory distress 24 hour events: - neurology recs: lp, eeg tomorrow, narcan. - lp: opening pressure: 16 tp: 76 glucose:80 wbc: 7 rbc: 1 - agitated overnight with survey xrays, moving all extremities, re sedated. - aline placed. - bronchoscopy performed: right lower lobe with purulent material - bolused one liter to maintain map >60. allergies: penicillins rash; morphine anxiety diapho","last dose of antibiotics: ceftriaxone -  01:45 am acyclovir -  02:01 am metronidazole -  03:55 am infusions: midazolam (versed) - 2 mg/hour fentanyl - 40 mcg/hour other icu medications: midazolam (versed) -  04:45 am fentanyl -  04:45 am other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   06:44 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 38.2 c (100.7 tcurrent: 37.3 c (99.2 hr: 69 (69 - 119) bpm bp: 84/44(58) {84/44(58) - 137/75(98)} mmhg rr: 22 (10 - 27) insp/min spo2: 97% heart rhythm: sr (sinus rhythm) total in: 4,132 ml 1,224 ml po: tf: ivf: 1,932 ml 984 ml blood products: total out: 575 ml 525 ml urine: 275 ml 525 ml ng: stool: drains: balance: 3,557 ml 699 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cmv/assist vt (set): 500 (500 - 500) ml rr (set): 16 peep: 5 cmh2o fio2: 50% rsbi deferred: agitated pip: 15 cmh2o plateau: 14 cmh2o spo2: 97% abg: 7.37/40/113/22/-1 ve: 11.1 l/min pao2 / fio2: 226 physical examination general: intubated and sedated heent: sclera anicteric, mmm. pinpoint pupils. neck: supple, no meningismus. jvp not elevated, no lad lungs: clear to auscultation bilaterally on anterior exam, no wheezes, rales, ronchi cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops abdomen:  soft, non-tender, non-distended, bowel sounds present, no rebound tenderness or guarding, no organomegaly gu: foley present ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema neuro: does not respond to deep nailbed pressure or sternal rub. labs / radiology 193 k/ul 12.7 g/dl 138 mg/dl 0.8 mg/dl 22 meq/l 3.6 meq/l 10 mg/dl 110 meq/l 140 meq/l 37.9 % 15.5 k/ul [image002.jpg]   12:18 am   04:23 am wbc 15.5 hct 37.9 plt 193 cr 0.8 tropt <0.01 <0.01 tco2 24 glucose 138 other labs: pt / ptt / inr:16.0/31.7/1.4, ck / ckmb / troponin-t:72//<0.01, alt / ast:, alk phos / t bili:59/1.1, lactic acid:1.2 mmol/l, ldh:114 iu/l, ca++:8.3 mg/dl, mg++:1.5 mg/dl, po4:1.8 mg/dl fluid analysis / other labs: csf protein  76 glucose  80 tube #4 wbc  7    rbc  1 poly  0 lymph  92 mono  8 eos comments: csf wbc: clear and colorless tube #1 wbc  2 rbc  1 poly  0 lymph  92 mono  8 eos opening pressure: 15 imaging: mri head: to be performed xray survey: pending microbiology: cryptococcal antigen serology: not detected cryptococcal antigen csf: not detected csf (viral, fungal, bacterial) culture: pending hsv pcr: pending blood cx: pending bal culture: pending respiratory viral screen: pending","seizure disorder; differential includes
+   bacterial meningitis, viral meningitis, toxoplasmosis (especially given
+   history of toxo), bacterial abscess, cryptococcal infection, cns
+   lymphoma; hiv; hx of seizure; ",seizure disorder; differential includes bacterial meningitis viral meningitis toxoplasmosis especially given history of toxoplasmosis bacterial abscess cryptococcal infection central nervous system lymphoma; human immunodeficiency virus; history of seizure;,"['seizure disorder', 'differential includes bacterial meningitis viral meningitis toxoplasmosis especially given history of toxoplasmosis bacterial abscess cryptococcal infection central nervous system lymphoma', 'human immunodeficiency virus', 'history of seizure']","51yo M with HIV (CD4 152) on HAART, history of bacterial meningitis,
+   toxoplasmosis, seizure disorder, who presents after being found
+   unresponsive.",False,"The patient presents with fever, altered mental status, and respiratory distress, which are concerning symptoms for meningitis. However, the cerebrospinal fluid (CSF) analysis shows a relatively low white blood cell count (WBC) of 7, with a lymphocytic predominance (92% lymphocytes), and normal glucose levels, which does not strongly support bacterial meningitis. The opening pressure is slightly elevated at 16, but not significantly so. Additionally, the patient's neck is supple with no meningismus, which is a clinical sign often associated with meningitis. The patient is also being treated with antibiotics, including ceftriaxone, which suggests a suspicion of bacterial infection, but the lack of clear CSF findings and clinical signs of meningismus makes the diagnosis uncertain. Given the information, while there are some suggestive symptoms, the objective findings do not strongly support a diagnosis of meningitis, especially with the absence of significant CSF pleocytosis and the presence of other potential sources of infection (e.g., the purulent material found in the right lower lobe during bronchoscopy)."
+339,109381.txt,chief complaint: altered mental status 24 hour events: - stable on vent settings off sedation - recurrent seizure activity r eye twitching allergies: nadolol hypotension; propranolol hypotension; lidocaine hcl/epinephrine (injection) palpitations;,"last dose of antibiotics: bactrim (smx/tmp) -  10:00 pm ampicillin -  02:00 am infusions: calcium gluconate (crrt) - 1.2 grams/hour norepinephrine - 0.07 mcg/kg/min kcl (crrt) - 3 meq./hour other icu medications: lansoprazole (prevacid) -  08:00 am heparin sodium (prophylaxis) -  10:00 pm other medications: changes to medical and family history: none review of systems is unchanged from admission except as noted below review of systems: unobtainable flowsheet data as of   07:57 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 36.6 c (97.8 tcurrent: 36.6 c (97.8 hr: 81 (69 - 81) bpm bp: 115/57(73) {90/45(58) - 143/80(92)} mmhg rr: 23 (17 - 34) insp/min spo2: 99% heart rhythm: sr (sinus rhythm) height: 70 inch total in: 8,341 ml 2,755 ml po: tf: 753 ml 242 ml ivf: 6,797 ml 2,173 ml blood products: total out: 8,450 ml 3,041 ml urine: 291 ml 75 ml ng: stool: 700 ml 400 ml drains: 150 ml balance: -109 ml -286 ml respiratory support o2 delivery device: endotracheal tube ventilator mode: cpap/psv vt (spontaneous): 514 (411 - 547) ml ps : 10 cmh2o rr (spontaneous): 23 peep: 8 cmh2o fio2: 30% rsbi: 65 pip: 19 cmh2o spo2: 99% abg: 7.41/42/122/23/2 ve: 10.4 l/min pao2 / fio2: 407 physical examination intubated and sedated pearl regular s1 s2 no m/r/g lungs clear on anterior exam, no rales or wheezing abd soft +bowel sounds +fluid wave serous fluid draining l inguinal crease extrem warm palpable pulses +anasarca not responsive to voice or noxious stimuli labs / radiology 138 k/ul 8.3 g/dl 168 mg/dl 1.4 mg/dl 23 meq/l 3.8 meq/l 19 mg/dl 97 meq/l 134 meq/l 25.7 % 8.4 k/ul [image002.jpg]   04:00 am   04:11 am   10:34 am   10:39 am   04:49 pm   04:58 pm   09:37 pm   10:13 pm   04:30 am   04:39 am wbc 8.1 9.2 8.4 hct 25.9 26.0 25.7 plt 130 138 138 cr 1.5 1.6 1.4 tco2 27 26 28 27 28 glucose 167 132 126 113 168 other labs: pt / ptt / inr:18.6/42.4/1.7, ck / ckmb / troponin-t:66/7/0.65, alt / ast:72/74, alk phos / t bili:125/4.0, differential-neuts:87.0 %, lymph:8.3 %, mono:3.9 %, eos:0.7 %, fibrinogen:172 mg/dl, lactic acid:1.8 mmol/l, albumin:5.4 g/dl, ldh:301 iu/l, ca++:9.3 mg/dl, mg++:1.8 mg/dl, po4:2.5 mg/dl micro  stool c diff negative 5/25, blood cx ngtd  sputum yeast other micro negative cxr clear","altered mental status; cns listerial infection, seizures, hepatic
+   encephalopathy; septic shock; meningitis; cirrhosis; anemia; thrombocytopenia; dm; ",altered mental status; central nervous system listerial infection seizures hepatic encephalopathy; septic shock; meningitis; cirrhosis; anemia; thrombocytopenia; diabetes mellitus;,"['altered mental status', 'central nervous system listerial infection seizures hepatic encephalopathy', 'septic shock', 'meningitis', 'cirrhosis', 'anemia', 'thrombocytopenia', 'diabetes mellitus']","76M with DM and cirrhosis presented to an OSH in septic shock, likely
+   secondary to listeriosis now w/ multiorgansystem failure and presumed
+   meningitis/cerebritis and difficult to control seizures.",False,"The patient presents with altered mental status and recurrent seizure activity, which could be indicative of meningitis. However, the provided information lacks specific cerebrospinal fluid (CSF) analysis or imaging studies that are typically crucial for diagnosing meningitis. The patient is on antibiotics (Bactrim and ampicillin), which might suggest a suspicion of infection, but the absence of fever (temperature is 36.6°C or 97.8°F) and the lack of specific meningeal signs (such as nuchal rigidity) in the physical examination make meningitis less likely. The patient's condition seems complex, with multiple organ systems involved, as indicated by the need for ventilatory support, vasopressors (norepinephrine), and other ICU interventions. While the altered mental status and seizures could be consistent with meningitis, the overall clinical picture and the absence of direct evidence pointing towards meningitis (e.g., CSF findings, specific imaging results) make it less probable. Therefore, based on the information provided, meningitis is not strongly supported."
+380,139203.txt,"chief complaint: i saw and examined the patient, and was physically present with the icu fellow for key portions of the services provided.  i agree with his / her note above, including assessment and plan. hpi: 68 yo male with mental retardation and seizure disorder admitted from osh ed following seizure and intubation for airway protection. extubated in  ed- noted to have new r hemiparesis. on floor at  concern for refractory hypokalemia so transferred to  yest pm for closer monitoring. 24 hour events: transfused ffp overnight. no overnight events. allergies: no known drug allergies","last dose of antibiotics: acyclovir -  10:02 pm ampicillin -  04:17 am ceftriaxone -  04:17 am vancomycin -  08:33 am infusions: other icu medications: other medications: ranitidine, riss, asa, prozac, hep tid sc, dilantin, acyclovir, ampicillin, vancomycin, ctx, colace, kcl changes to medical and family history: pmh, sh, fh and ros are unchanged from admission except where noted above and below review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   09:20 am vital signs hemodynamic monitoring fluid balance 24 hours since 12 am tmax: 37.1 c (98.8 tcurrent: 36.6 c (97.9 hr: 110 (96 - 113) bpm bp: 143/72(87) {115/56(73) - 156/81(92)} mmhg rr: 18 (16 - 24) insp/min spo2: 93% heart rhythm: st (sinus tachycardia) total in: 690 ml 1,038 ml po: tf: ivf: 690 ml 1,038 ml blood products: total out: 250 ml 325 ml urine: 250 ml 325 ml ng: stool: drains: balance: 440 ml 713 ml respiratory support o2 delivery device: none spo2: 93% abg: ///30/ physical examination general appearance: no acute distress eyes / conjunctiva: perrl head, ears, nose, throat: normocephalic cardiovascular: (s1: normal), (s2: normal), no m/r/g peripheral vascular: (right radial pulse: not assessed), (left radial pulse: not assessed), (right dp pulse: not assessed), (left dp pulse: not assessed) respiratory / chest: (expansion: symmetric), (breath sounds: clear : ) abdominal: soft, non-tender, bowel sounds present, obese extremities: right: absent, left: absent skin:  warm neurologic: responds to: verbal stimuli, movement: non -purposeful, tone: not assessed, r hemiparesis, upgoing toes r labs / radiology 12.5 g/dl 183 k/ul 129 mg/dl 0.6 mg/dl 30 meq/l 3.0 meq/l 12 mg/dl 99 meq/l 138 meq/l 34.6 % 11.0 k/ul [image002.jpg]   11:52 am   09:00 pm   05:06 am wbc 11.0 hct 34.6 plt 183 cr 0.5 0.6 tco2 22 glucose 127 129 other labs: pt / ptt / inr:21.5/35.1/2.0, alt / ast:326/243, alk phos / t bili:103/0.5, lactic acid:2.8 mmol/l, albumin:3.6 g/dl, ldh:403 iu/l, ca++:8.0 mg/dl, mg++:2.1 mg/dl, po4:1.9 mg/dl fluid analysis / other labs: dilantin level- 9.1 imaging: cxr- no parenchymal process, ? rhilar fullness head ct- prelim no mass no bleed mri brain- prelim pending","status epilepticus in the
+   setting of a fever.  differential included meningitis; r hemiparesis; positive troponin/nstemi; hypokalemia; ",status epilepticus in the setting of a fever differential included meningitis; right hemiparesis; positive troponin non st elevation myocardial infarction; hypokalemia;,"['status epilepticus in the setting of a fever differential included meningitis', 'right hemiparesis', 'positive troponin non st elevation myocardial infarction', 'hypokalemia']","68 year-old male with mental retardation who presents with fever and
+   seizures concerning for meningitis, also R hemiparesis, positive
+   troponin, and significant hypokalemia.",False,"The patient presents with a complex clinical picture, including a history of seizure disorder, mental retardation, and recent seizure requiring intubation, followed by extubation and development of new right hemiparesis. The administration of antibiotics such as acyclovir, ampicillin, ceftriaxone, and vancomycin suggests a concern for a potential infectious process. However, the provided information does not directly indicate symptoms classically associated with meningitis, such as fever, headache, stiff neck (nuchal rigidity), or photophobia. The patient's temperature is within normal limits (Tmax: 37.1 C, Tcurrent: 36.6 C), which does not strongly support an acute infectious process like meningitis. The neurologic examination shows the patient responds to verbal stimuli with non-purposeful movement and has right hemiparesis, but these findings could be attributed to the patient's seizure disorder and recent neurological event rather than meningitis. The laboratory results, including a slightly elevated white blood cell count (WBC 11.0 k/ul), could suggest an infectious or inflammatory process, but are not specific for meningitis. Imaging studies, such as the head CT and pending MRI brain, may provide more insight into the patient's neurological status but are not conclusive for meningitis based on the preliminary information provided. Given the lack of specific symptoms and signs directly indicative of meningitis, such as cerebrospinal fluid (CSF) analysis results which are crucial for diagnosing meningitis, the diagnosis of meningitis cannot be conclusively made based on the provided information."
+430,176274.txt,"title: chief complaint: - received meropenem without incident - received 3 u platelets, attempted lp 24 hour events: blood cultured - at  09:00 pm 1 of 2 urine culture - at  11:54 pm lumbar puncture - at  12:41 am allergies: penicillins anaphylaxis;","last dose of antibiotics: vancomycin -  08:05 pm infusions: other icu medications: hydromorphone (dilaudid) -  08:47 pm heparin sodium (prophylaxis) -  09:04 pm other medications: changes to medical and family history: review of systems is unchanged from admission except as noted below review of systems: flowsheet data as of   07:31 am vital signs hemodynamic monitoring fluid balance 24 hours since  am tmax: 38.1 c (100.6 tcurrent: 36.6 c (97.8 hr: 97 (95 - 112) bpm bp: 119/77(87) {90/48(58) - 138/77(90)} mmhg rr: 14 (14 - 18) insp/min spo2: 95% heart rhythm: sr (sinus rhythm) height: 72 inch total in: 3,029 ml 1,743 ml po: 480 ml 240 ml tf: ivf: 1,753 ml 1,455 ml blood products: 796 ml 49 ml total out: 600 ml 850 ml urine: 600 ml 850 ml ng: stool: drains: balance: 2,429 ml 893 ml respiratory support o2 delivery device: none spo2: 95% abg: ///22/ physical examination physical exam general: pleasant, well appearing in nad, lying in a dark room heent: normocephalic, atraumatic. no conjunctival pallor. no scleral icterus. mild bilateral cheek swelling r>l.  right cheek mild ttp.  a few sores in his oral mucosa, but no frank mucositis.  perrla/eomi. mmm. op clear. neck supple, no lad, no thyromegaly. cardiac: regular rhythm, normal rate. normal s1, s2. no murmurs, rubs or . no jvd. lungs: ctab, good air movement biaterally. abdomen: nabs. soft, nt, nd. no hsm extremities: no edema or calf pain, 2+ dorsalis pedis/ posterior tibial pulses. skin: no rashes/lesions, ecchymoses. neuro: a&ox3. appropriate. cn 2-12 grossly intact. preserved sensation throughout. 5/5 strength throughout. + reflexes, equal bl. normal coordination. gait assessment deferred psych: listens and responds to questions appropriately, pleasant labs / radiology 53 k/ul 7.0 g/dl 91 mg/dl 0.7 mg/dl 22 meq/l 3.0 meq/l 8 mg/dl 110 meq/l 140 meq/l 18.9 % 0.1 k/ul [image002.jpg]   04:56 am wbc 0.1 hct 18.9 plt 53 cr 0.7 glucose 91 other labs: pt / ptt / inr:16.0/35.4/1.4, differential-neuts:10.0 %, band:0.0 %, lymph:90.0 %, mono:0.0 %, eos:0.0 %, fibrinogen:575 mg/dl, ca++:6.7 mg/dl, mg++:1.5 mg/dl, po4:2.9 mg/dl",neutropenic fever; meningits/cns source; anemia/thrombocytopenia/neutropenia: likely from recent chemotherapy; lymphoma; hiv; ,neutropenic fever; meningitis central nervous system source; anemia thrombocytopenia neutropenia likely from recent chemotherapy; lymphoma; human immunodeficiency virus;,"['neutropenic fever', 'meningitis central nervous system source', 'anemia thrombocytopenia neutropenia likely from recent chemotherapy', 'lymphoma', 'human immunodeficiency virus']","48 yo M c h/o AIDS-related Burkitt's lymphoma (last CD4=479 [**11-12**]),
+   transferred from the floor to the ICU with neutrapenic fevers, HA, and
+   need for meropenem desensitization for broadening of CNS coverage.",False,"The patient's report does not strongly suggest meningitis. Key indicators for meningitis include severe headache, fever, stiff neck, and confusion. While the patient has a fever (tmax: 38.1 C or 100.6 F), which could be indicative of an infection, the neck is described as 'supple, no lad, no thyromegaly' in the physical examination, suggesting no stiffness. The neurological examination shows the patient is 'a&ox3' (alert and oriented to person, place, and time), with cranial nerves 2-12 grossly intact, preserved sensation, 5/5 strength throughout, and normal coordination, which does not indicate the confusion or severe neurological deficits often seen in meningitis. The patient's vital signs and laboratory results do not specifically point towards meningitis either. The attempt at a lumbar puncture (LP) is noted, which is a diagnostic procedure for meningitis, but the results of the LP are not provided. Without more direct evidence such as cerebrospinal fluid analysis results from the LP or more specific symptoms, it's difficult to conclude meningitis. Therefore, based on the information given, the diagnosis of meningitis seems unlikely."

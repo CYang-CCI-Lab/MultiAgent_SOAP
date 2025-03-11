@@ -210,7 +210,7 @@ if __name__ == "__main__":
 
         df = df[df['File ID'].isin(ids)]
         # diag_df = df.reset_index(drop=True)[137:]
-        diag_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/MA_results/diag_0302.csv')
+        diag_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/MA_results/diag_0307_missing_2.csv')
 
 
         print("Let's start the diagnosis process...")
@@ -232,4 +232,4 @@ if __name__ == "__main__":
                 diag_df.at[i, f"reasoning_{problem}"] = result['reasoning']
                 print(f"Report {i+1} - Does the patient have {problem}? {result['choice']}")
                 print(f"Reasoning: {result['reasoning']}")
-                diag_df.to_csv(f"/home/yl3427/cylab/SOAP_MA/MA_results/diag_0307_missing.csv", index=False)
+                diag_df.to_csv(f"/home/yl3427/cylab/SOAP_MA/MA_results/diag_0307_missing_2.csv", index=False)

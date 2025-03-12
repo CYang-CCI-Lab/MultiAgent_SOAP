@@ -12,16 +12,6 @@ from pydantic import BaseModel, Field, create_model
 import math
 import demjson3
 
-
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-        handlers=[
-        logging.FileHandler('0310_MA_MedicalQA_step2_async.log', mode='w'),  # Write to file
-        logging.StreamHandler()                     # Print to console
-    ]
-)
 logger = logging.getLogger(__name__)
 
 # ------------------------
@@ -75,22 +65,33 @@ class LLMAgent:
 
         response = await self.client.chat.completions.create(**params)
 
-        while response.choices[0].message.tool_calls:
-            logger.info("Tool calls detected in response.")
-            self.messages.append({"role": "assistant", "tool_calls": response.choices[0].message.tool_calls})
+        iter_count = 0
+        while True:
+            if response.choices[0].message.tool_calls:
+                logger.info("Tool calls detected in response.")
+                self.messages.append({"role": "assistant", "tool_calls": response.choices[0].message.tool_calls})
 
-            for call in response.choices[0].message.tool_calls:
-                logger.debug(f"Tool call: {call}")
-                args = safe_json_load(call.function.arguments)
-                if call.function.name == "provide_final_prediction":
-                    return args
-                result = available_tools[call.function.name](**args)
-                self.messages.append({
-                "role": "tool",
-                "content": result,
-                "tool_call_id": call.id,
-                "name": call.function.name,
-                })
+                for call in response.choices[0].message.tool_calls:
+                    logger.debug(f"Tool call: {call}")
+                    if call.function.name == "provide_final_prediction":
+                        return call.function.arguments
+                    
+                    args = safe_json_load(call.function.arguments)
+                    result = available_tools[call.function.name](**args)
+                    self.messages.append({
+                    "role": "tool",
+                    "content": result,
+                    "tool_call_id": call.id,
+                    "name": call.function.name,
+                    })
+            else:
+                self.messages.append({"role": "assistant", "content": response.choices[0].message.content})
+                self.messages.append({"role": "user", "content": "Please call a tool."})
+                iter_count += 1
+                if iter_count > 3:
+                    logger.error("Exceeded maximum iterations for tool calls.")
+                    break
+                    
             response = await self.client.chat.completions.create(**params)
 
         return response.choices[0].message.content
@@ -124,7 +125,7 @@ class InitializerAgent(LLMAgent):
             f"<Query>\n{query}\n</Query>\n\n"
             "Based on the above query, identify the most suitable specialists."
         )
-        response = await self.llm_call(user_prompt, guided_={"guided_json": SpecialistPanel.schema()})
+        response = await self.llm_call(user_prompt, guided_={"guided_json": SpecialistPanel.model_json_schema()})
         self.append_message(content=response)
         logger.debug(f"InitializerAgent response: {response}")
         return safe_json_load(response)
@@ -419,7 +420,7 @@ async def main():
     logger.info("===== MAIN START =====")
 
     # Example CSV loading
-    df_path = "/home/yl3427/cylab/llm_reasoning/reasoning/data/step2_ALL.csv"
+    df_path = "/home/yl3427/cylab/llm_reasoning/reasoning/data/step1_ALL.csv"
     qa_df = pd.read_csv(df_path, encoding="latin-1")  # columns: idx, question, choice, ground_truth, qn_num
     # qa_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems.csv')
     logger.info("Loaded dataframe with %d rows.", len(qa_df))
@@ -430,6 +431,8 @@ async def main():
     for idx, row in qa_df.iterrows():
         # if idx <= 10:
         #     continue
+        if row["qn_num"] not in [2, 8, 13, 16, 29, 30, 49, 58, 72, 79, 85, 87, 88, 108, 109, 110, 114, 116, 117]:
+            continue
         logger.info(f"Processing row index {idx}")
         question_text = row["question"] + "\n" + str(row["choice"])
         ground_truth = str(row["ground_truth"])
@@ -457,15 +460,15 @@ async def main():
         # Store result for later evaluation
         results.append(result_dict)
 
-        if idx % 10 == 0:
-            output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step2_{idx}.json"
-            with open(output_json_path, "w", encoding="utf-8") as f:
-                json.dump(results, f, indent=2, ensure_ascii=False)
-            logger.info(f"Saved aggregated results to {output_json_path}")
+        # if idx % 10 == 0:
+        #     output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step3_{idx}.json"
+        #     with open(output_json_path, "w", encoding="utf-8") as f:
+        #         json.dump(results, f, indent=2, ensure_ascii=False)
+        #     logger.info(f"Saved aggregated results to {output_json_path}")
 
     # OPTIONAL: Save results to JSON
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step2_final.json"
-    with open(output_json_path, "w", encoding="utf-8") as f:
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step1_final_missing.json"
+    with open(output_json_path, "a", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     logger.info(f"Saved aggregated results to {output_json_path}")
 
@@ -492,4 +495,15 @@ async def main():
 
 # If you're in a script, you can do:
 if __name__ == "__main__":
+
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+            handlers=[
+            logging.FileHandler('0312_MA_MedicalQA_step1_missing_async.log', mode='a'),  # Write to file
+            logging.StreamHandler()                     # Print to console
+        ]
+    )
+
     asyncio.run(main())

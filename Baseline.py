@@ -104,40 +104,42 @@ async def process_single_query_baseline(
         "BaselineChoice": final_choice
     }
 
-sem = asyncio.Semaphore(10)
-async def process_with_semaphore(question_text, choices):
-    async with sem:
-        return await process_single_query_baseline(question_text, choices)
-    
-async def process_multiple_queries_baseline(
-    qa_data: List[Dict[str, Any]],
-    choices: List[str]
-) -> List[Dict[str, Any]]:
-    tasks = []
-
-    processed_idx = []
-    for idx, item in enumerate(qa_data):
-        if "Question" not in item:
-            logger.warning(f"Skipping item {idx} because it does not have a 'Question' field.")
-            continue
-
-        logger.info(f"Processing item {idx}...")
-        processed_idx.append(idx)
-        question_text = item["Question"]
-
-        tasks.append(process_with_semaphore(question_text, choices))
-    
-    all_results = await asyncio.gather(*tasks)
-
-    for idx, result in zip(processed_idx, all_results):
-        qa_data[idx].update(result)
-        
-    return qa_data
-
 
 async def main():
-    # Suppose you have data like:
-    input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step2_final.json"
+
+    sem = asyncio.Semaphore(10)
+    async def process_with_semaphore(question_text, choices):
+        async with sem:
+            return await process_single_query_baseline(question_text, choices)
+        
+
+    async def process_multiple_queries_baseline(
+        qa_data: List[Dict[str, Any]],
+        choices: List[str]
+    ) -> List[Dict[str, Any]]:
+        tasks = []
+
+        processed_idx = []
+        for idx, item in enumerate(qa_data):
+            if "Question" not in item:
+                logger.warning(f"Skipping item {idx} because it does not have a 'Question' field.")
+                continue
+
+            logger.info(f"Processing item {idx}...")
+            processed_idx.append(idx)
+            question_text = item["Question"]
+
+            tasks.append(process_with_semaphore(question_text, choices))
+        
+        all_results = await asyncio.gather(*tasks)
+
+        for idx, result in zip(processed_idx, all_results):
+            qa_data[idx].update(result)
+            
+        return qa_data
+
+
+    input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_final.json"
     with open(input_json_path, "r") as f:
         sample_data = json.load(f)
     # sample_data = [
@@ -148,10 +150,28 @@ async def main():
     # ]
 
     # The multiple-choice labels might be the same for all or differ per question:
-    choice_labels = ["A", "B", "C", "D", "E"]
+    # choice_labels = ["A", "B", "C", "D", "E"]
+    choice_labels = ["Yes", "No"]
 
     new_data = await process_multiple_queries_baseline(sample_data, choice_labels)
-    with open(f"{input_json_path.split('.')[0]}_with_baseline.json", "w") as f:
+    
+    unknown_indices = [i for i, entry in enumerate(new_data) if entry.get("BaselineChoice") == "Unknown"]
+    if unknown_indices:
+        logger.info(f"Found {len(unknown_indices)} items with 'Unknown' result. Re-running those...")
+        unknown_tasks = []
+        for idx in unknown_indices:
+            question_text = new_data[idx]["Question"]
+            unknown_tasks.append(process_with_semaphore(question_text, choice_labels))
+        unknown_results = await asyncio.gather(*unknown_tasks)
+
+        # 4) Overwrite the "Unknown" results with the new results
+        for idx, result in zip(unknown_indices, unknown_results):
+            new_data[idx].update(result)
+
+
+
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_final_with_baseline.json"
+    with open(output_json_path, "w") as f:
         json.dump(new_data, f, indent=2, ensure_ascii=False)
     logger.info("Finished processing all items.")
 
@@ -163,7 +183,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
             handlers=[
-            logging.FileHandler('0311_Baseline_MedicalQA_step2_async.log', mode='w'),  # Write to file
+            logging.FileHandler('0313_Baseline_SOAP_sepsis_async.log', mode='w'),  # Write to file
             logging.StreamHandler()                     # Print to console
         ]
     )

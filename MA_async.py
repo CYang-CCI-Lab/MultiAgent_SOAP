@@ -66,33 +66,34 @@ class LLMAgent:
         response = await self.client.chat.completions.create(**params)
 
         iter_count = 0
-        while True:
-            if response.choices[0].message.tool_calls:
-                logger.info("Tool calls detected in response.")
-                self.messages.append({"role": "assistant", "tool_calls": response.choices[0].message.tool_calls})
+        if tools_descript:
+            while True:
+                if response.choices[0].message.tool_calls:
+                    logger.info("Tool calls detected in response.")
+                    self.messages.append({"role": "assistant", "tool_calls": response.choices[0].message.tool_calls})
 
-                for call in response.choices[0].message.tool_calls:
-                    logger.debug(f"Tool call: {call}")
-                    if call.function.name == "provide_final_prediction":
-                        return call.function.arguments
+                    for call in response.choices[0].message.tool_calls:
+                        logger.debug(f"Tool call: {call}")
+                        if call.function.name == "provide_final_prediction":
+                            return call.function.arguments
+                        
+                        args = safe_json_load(call.function.arguments)
+                        result = available_tools[call.function.name](**args)
+                        self.messages.append({
+                        "role": "tool",
+                        "content": result,
+                        "tool_call_id": call.id,
+                        "name": call.function.name,
+                        })
+                else:
+                    self.messages.append({"role": "assistant", "content": response.choices[0].message.content})
+                    self.messages.append({"role": "system", "content": "WARNING! Remember to call a tool."})
+                    iter_count += 1
+                    if iter_count > 3:
+                        logger.error("Exceeded maximum iterations for tool calls.")
+                        break
                     
-                    args = safe_json_load(call.function.arguments)
-                    result = available_tools[call.function.name](**args)
-                    self.messages.append({
-                    "role": "tool",
-                    "content": result,
-                    "tool_call_id": call.id,
-                    "name": call.function.name,
-                    })
-            else:
-                self.messages.append({"role": "assistant", "content": response.choices[0].message.content})
-                self.messages.append({"role": "user", "content": "Please call a tool."})
-                iter_count += 1
-                if iter_count > 3:
-                    logger.error("Exceeded maximum iterations for tool calls.")
-                    break
-                    
-            response = await self.client.chat.completions.create(**params)
+                response = await self.client.chat.completions.create(**params)
 
         return response.choices[0].message.content
     
@@ -420,55 +421,55 @@ async def main():
     logger.info("===== MAIN START =====")
 
     # Example CSV loading
-    df_path = "/home/yl3427/cylab/llm_reasoning/reasoning/data/step1_ALL.csv"
-    qa_df = pd.read_csv(df_path, encoding="latin-1")  # columns: idx, question, choice, ground_truth, qn_num
-    # qa_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems.csv')
+    # df_path = "/home/yl3427/cylab/SOAP_MA/Input/step3_ALL.csv"
+    # qa_df = pd.read_csv(df_path, encoding="latin-1")  # columns: idx, question, choice, ground_truth, qn_num
+    qa_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems.csv')
     logger.info("Loaded dataframe with %d rows.", len(qa_df))
 
 
     ################# 'process_single_query' Example usage #################
     results = []
     for idx, row in qa_df.iterrows():
-        # if idx <= 10:
-        #     continue
-        if row["qn_num"] not in [2, 8, 13, 16, 29, 30, 49, 58, 72, 79, 85, 87, 88, 108, 109, 110, 114, 116, 117]:
+        # if row["qn_num"] not in [13, 42]:
+        if row["File ID"] not in ['110458.txt', '121860.txt', '126165.txt', '139318.txt', '167352.txt']:
             continue
+
         logger.info(f"Processing row index {idx}")
-        question_text = row["question"] + "\n" + str(row["choice"])
-        ground_truth = str(row["ground_truth"])
 
-        # patient_info = str(row["Subjective"]) + "\n" + str(row['Objective'])
-        # question_text = f"""
-        # Based on the following patient report, does the patient have sepsis?
+        # question_text = row["question"] + "\n" + str(row["choice"])
+        # ground_truth = str(row["ground_truth"])
+        patient_info = str(row["Subjective"]) + "\n" + str(row['Objective'])
+        question_text = f"""
+        Based on the following patient report, does the patient have sepsis?
 
-        # {patient_info}
-        # """
-        # ground_truth = str(row["terms"])
+        {patient_info}
+        """
+        ground_truth = str(row["terms"])
         
 
         # Run the multi-agent system for this single query
         result_dict = await process_single_query(
             question_text=question_text,
             ground_truth=ground_truth,
-            choices=["A", "B", "C", "D", "E"],
-            # choices=["Yes", "No"],
+            # choices=["A", "B", "C", "D", "E"],
+            choices=["Yes", "No"],
             n_specialists=5
         )
-        # result_dict["File ID"] = row["File ID"]
-        result_dict["qn_num"] = row["qn_num"]
+        result_dict["File ID"] = row["File ID"]
+        # result_dict["qn_num"] = row["qn_num"]
 
         # Store result for later evaluation
         results.append(result_dict)
 
-        # if idx % 10 == 0:
-        #     output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step3_{idx}.json"
-        #     with open(output_json_path, "w", encoding="utf-8") as f:
-        #         json.dump(results, f, indent=2, ensure_ascii=False)
-        #     logger.info(f"Saved aggregated results to {output_json_path}")
+        if idx % 50 == 0:
+            output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_missing_{idx}.json"
+            with open(output_json_path, "w", encoding="utf-8") as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            logger.info(f"Saved aggregated results to {output_json_path}")
 
     # OPTIONAL: Save results to JSON
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/step1_final_missing.json"
-    with open(output_json_path, "a", encoding="utf-8") as f:
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_missing_final.json"
+    with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     logger.info(f"Saved aggregated results to {output_json_path}")
 
@@ -501,7 +502,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
             handlers=[
-            logging.FileHandler('0312_MA_MedicalQA_step1_missing_async.log', mode='a'),  # Write to file
+            logging.FileHandler('0313_MA_SOAP_sepsis_missing.log', mode='a'),  # Write to file
             logging.StreamHandler()                     # Print to console
         ]
     )

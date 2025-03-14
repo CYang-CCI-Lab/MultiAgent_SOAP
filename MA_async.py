@@ -431,8 +431,8 @@ async def main():
     results = []
     for idx, row in qa_df.iterrows():
         # if row["qn_num"] not in [13, 42]:
-        if row["File ID"] not in ['110458.txt', '121860.txt', '126165.txt', '139318.txt', '167352.txt']:
-            continue
+        # if row["File ID"] not in ['110458.txt', '121860.txt', '126165.txt', '139318.txt', '167352.txt']:
+        #     continue
 
         logger.info(f"Processing row index {idx}")
 

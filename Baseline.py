@@ -5,6 +5,7 @@ from typing import List, Dict, Any, Literal
 from pydantic import BaseModel, Field, create_model
 from openai import AsyncOpenAI
 import demjson3
+import pandas as pd
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -139,19 +140,45 @@ async def main():
         return qa_data
 
 
-    input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_final.json"
-    with open(input_json_path, "r") as f:
-        sample_data = json.load(f)
-    # sample_data = [
-    #     {"Question": "What is the best initial therapy for pneumonia?\nA) Antibiotics\nB) Surgery\nC) Radiation\nD) Physical therapy\nE) Do nothing", 
-    #      "ground_truth": "A"},
-    #     {"Question": "A patient with a headache might have:\nA) Migraine\nB) Stubbed toe\nC) Carpal tunnel\nD) Cirrhosis\nE) Diabetes",
-    #      "ground_truth": "A"},
-    # ]
+    # input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_final.json"
+    # with open(input_json_path, "r") as f:
+    #     sample_data = json.load(f)
+    # # sample_data = [
+    # #     {"Question": "What is the best initial therapy for pneumonia?\nA) Antibiotics\nB) Surgery\nC) Radiation\nD) Physical therapy\nE) Do nothing", 
+    # #      "ground_truth": "A"},
+    # #     {"Question": "A patient with a headache might have:\nA) Migraine\nB) Stubbed toe\nC) Carpal tunnel\nD) Cirrhosis\nE) Diabetes",
+    # #      "ground_truth": "A"},
+    # # ]
 
-    # The multiple-choice labels might be the same for all or differ per question:
-    # choice_labels = ["A", "B", "C", "D", "E"]
-    choice_labels = ["Yes", "No"]
+    # # The multiple-choice labels might be the same for all or differ per question:
+    # # choice_labels = ["A", "B", "C", "D", "E"]
+    # choice_labels = ["Yes", "No"]
+
+
+    #### TNM ####
+    df = pd.read_csv('/secure/shared_data/rag_tnm_results/summary/5_folds_summary/brca_df.csv')
+
+    data_lst = []
+    for i, row in df.iterrows():
+        pathology_report = row["text"]
+        ground_truth = row["t"]
+        filename = row["patient_filename"]
+
+        question_text = f"""
+        Based on the following pathology report for a breast cancer patient, determine the pathologic T stage (T1, T2, T3, or T4) for breast cancer, according to the AJCC Cancer Staging Manual (7th edition). 
+        Choose from T1, T2, T3, T4.
+
+        {pathology_report}
+        """
+        data = {"Question": question_text, "Answer": ground_truth, "Filename": filename}
+        data_lst.append(data)
+
+    #############
+    sample_data = data_lst
+    choice_labels = ["T1", "T2", "T3", "T4"]
+    #############
+
+
 
     new_data = await process_multiple_queries_baseline(sample_data, choice_labels)
     
@@ -170,7 +197,7 @@ async def main():
 
 
 
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_final_with_baseline.json"
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/TNM/brca_only_with_baseline.json"
     with open(output_json_path, "w") as f:
         json.dump(new_data, f, indent=2, ensure_ascii=False)
     logger.info("Finished processing all items.")
@@ -183,7 +210,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
             handlers=[
-            logging.FileHandler('0313_Baseline_SOAP_sepsis_async.log', mode='w'),  # Write to file
+            logging.FileHandler('log/0313_Baseline_TNM_brca_async.log', mode='w'),  # Write to file
             logging.StreamHandler()                     # Print to console
         ]
     )

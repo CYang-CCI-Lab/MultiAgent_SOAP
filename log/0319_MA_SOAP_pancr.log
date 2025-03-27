@@ -1,0 +1,40 @@
+2025-03-20 01:17:51 - INFO - ===== MAIN START =====
+2025-03-20 01:17:51 - INFO - Loaded dataframe with 351 rows.
+2025-03-20 01:17:51 - INFO - Processing row index 260
+2025-03-20 01:17:51 - INFO - InitializerAgent: Identifying specialists.
+2025-03-20 01:18:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:18:09 - INFO - [Gastroenterologist] Analyzing query...
+2025-03-20 01:18:09 - INFO - [Critical Care Specialist] Analyzing query...
+2025-03-20 01:18:09 - INFO - [Nephrologist] Analyzing query...
+2025-03-20 01:18:09 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-20 01:18:09 - INFO - [General Surgeon] Analyzing query...
+2025-03-20 01:19:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:19:07 - INFO - [Critical Care Specialist] Completed analyze_query.
+2025-03-20 01:19:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:19:21 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-20 01:19:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:19:21 - INFO - [Gastroenterologist] Completed analyze_query.
+2025-03-20 01:19:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:19:31 - INFO - [General Surgeon] Completed analyze_query.
+2025-03-20 01:19:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:19:37 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-20 01:19:37 - INFO - [Gastroenterologist] Debating with other specialists.
+2025-03-20 01:19:37 - INFO - [Critical Care Specialist] Debating with other specialists.
+2025-03-20 01:19:37 - INFO - [Nephrologist] Debating with other specialists.
+2025-03-20 01:19:37 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-20 01:19:37 - INFO - [General Surgeon] Debating with other specialists.
+2025-03-20 01:20:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:20:40 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-20 01:20:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:20:43 - INFO - [Gastroenterologist] Completed debate.
+2025-03-20 01:20:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:20:45 - INFO - [General Surgeon] Completed debate.
+2025-03-20 01:20:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:20:51 - INFO - [Critical Care Specialist] Completed debate.
+2025-03-20 01:20:52 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:20:52 - INFO - [Nephrologist] Completed debate.
+2025-03-20 01:20:52 - INFO - Checking for consensus among specialists.
+2025-03-20 01:20:52 - INFO - Consensus found on choice 'No' with 5/5 specialists.
+2025-03-20 01:20:52 - INFO - Consensus reached: No
+2025-03-20 01:20:52 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/SOAP/pancr_final.json
+2025-03-20 01:20:52 - INFO - ===== MAIN END =====

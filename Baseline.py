@@ -140,48 +140,53 @@ async def main():
         return qa_data
 
 
-    # input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_final.json"
-    # with open(input_json_path, "r") as f:
-    #     sample_data = json.load(f)
-    # # sample_data = [
-    # #     {"Question": "What is the best initial therapy for pneumonia?\nA) Antibiotics\nB) Surgery\nC) Radiation\nD) Physical therapy\nE) Do nothing", 
-    # #      "ground_truth": "A"},
-    # #     {"Question": "A patient with a headache might have:\nA) Migraine\nB) Stubbed toe\nC) Carpal tunnel\nD) Cirrhosis\nE) Diabetes",
-    # #      "ground_truth": "A"},
-    # # ]
+    input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/chf_final.json"
+    with open(input_json_path, "r") as f:
+        sample_data = json.load(f)
+    # sample_data = [
+    #     {"Question": "What is the best initial therapy for pneumonia?\nA) Antibiotics\nB) Surgery\nC) Radiation\nD) Physical therapy\nE) Do nothing", 
+    #      "ground_truth": "A"},
+    #     {"Question": "A patient with a headache might have:\nA) Migraine\nB) Stubbed toe\nC) Carpal tunnel\nD) Cirrhosis\nE) Diabetes",
+    #      "ground_truth": "A"},
+    # ]
 
-    # # The multiple-choice labels might be the same for all or differ per question:
-    # # choice_labels = ["A", "B", "C", "D", "E"]
-    # choice_labels = ["Yes", "No"]
+    # The multiple-choice labels might be the same for all or differ per question:
+    # choice_labels = ["A", "B", "C", "D", "E"]
+    choice_labels = ["Yes", "No"]
 
 
-    #### TNM ####
-    df = pd.read_csv('/secure/shared_data/rag_tnm_results/summary/5_folds_summary/brca_df.csv')
+    # #### TNM ####
+    # df = pd.read_csv('/secure/shared_data/rag_tnm_results/summary/5_folds_summary/brca_df.csv')
 
-    data_lst = []
-    for i, row in df.iterrows():
-        pathology_report = row["text"]
-        ground_truth = row["t"]
-        filename = row["patient_filename"]
+    # data_lst = []
+    # for i, row in df.iterrows():
+    #     pathology_report = row["text"]
+    #     ground_truth = row["t"]
+    #     filename = row["patient_filename"]
 
-        question_text = f"""
-        Based on the following pathology report for a breast cancer patient, determine the pathologic T stage (T1, T2, T3, or T4) for breast cancer, according to the AJCC Cancer Staging Manual (7th edition). 
-        Choose from T1, T2, T3, T4.
+    #     question_text = f"""
+    #     Based on the following pathology report for a breast cancer patient, determine the pathologic T stage (T1, T2, T3, or T4) for breast cancer, according to the AJCC Cancer Staging Manual (7th edition). 
+    #     Choose from T1, T2, T3, T4.
 
-        {pathology_report}
-        """
-        data = {"Question": question_text, "Answer": ground_truth, "Filename": filename}
-        data_lst.append(data)
+    #     {pathology_report}
+    #     """
+    #     data = {"Question": question_text, "Answer": ground_truth, "Filename": filename}
+    #     data_lst.append(data)
 
-    #############
-    sample_data = data_lst
-    choice_labels = ["T1", "T2", "T3", "T4"]
-    #############
+    # #############
+    # sample_data = data_lst
+    # choice_labels = ["T1", "T2", "T3", "T4"]
+    # #############
 
 
 
     new_data = await process_multiple_queries_baseline(sample_data, choice_labels)
-    
+
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/chf_final_with_baseline.json"
+    with open(output_json_path, "w") as f:
+        json.dump(new_data, f, indent=2, ensure_ascii=False)
+    logger.info("Saving intermediate results to %s.", output_json_path)
+
     unknown_indices = [i for i, entry in enumerate(new_data) if entry.get("BaselineChoice") == "Unknown"]
     if unknown_indices:
         logger.info(f"Found {len(unknown_indices)} items with 'Unknown' result. Re-running those...")
@@ -195,12 +200,47 @@ async def main():
         for idx, result in zip(unknown_indices, unknown_results):
             new_data[idx].update(result)
 
-
-
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/TNM/brca_only_with_baseline.json"
     with open(output_json_path, "w") as f:
         json.dump(new_data, f, indent=2, ensure_ascii=False)
     logger.info("Finished processing all items.")
+
+
+async def reprocess_failed_cases(file_path: str, missing_ids: list, choice_labels: list):
+    # Load the full dataset from the output JSON file.
+    with open(file_path, "r") as f:
+        full_data = json.load(f)
+
+    # Get the indices of items whose "File ID" is in the missing_ids list.
+    failed_indices = [
+        idx for idx, item in enumerate(full_data) 
+        if item.get("File ID") in missing_ids
+    ]
+    logger.info("Found %d failed items.", len(failed_indices))
+    
+    # Set up an async semaphore to limit concurrency.
+    sem = asyncio.Semaphore(10)
+    async def process_with_semaphore(question_text, choices):
+        async with sem:
+            return await process_single_query_baseline(question_text, choices)
+    
+    # Create tasks for the failed items.
+    tasks = []
+    for idx in failed_indices:
+        question_text = full_data[idx]["Question"]
+        tasks.append(process_with_semaphore(question_text, choice_labels))
+    
+    # Run the tasks asynchronously.
+    results = await asyncio.gather(*tasks)
+    
+    # Update the full dataset with the new results for failed items.
+    for idx, result in zip(failed_indices, results):
+        full_data[idx].update(result)
+    
+    # Write the updated data back to the JSON file.
+    with open(file_path, "w") as f:
+        json.dump(full_data, f, indent=2, ensure_ascii=False)
+    logger.info("Re-run for failed cases complete. Updated file saved at %s", file_path)
+
 
 
 if __name__ == "__main__":
@@ -210,9 +250,16 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
             handlers=[
-            logging.FileHandler('log/0313_Baseline_TNM_brca_async.log', mode='w'),  # Write to file
+            logging.FileHandler('log/0327_Baseline_SOAP_chf_async.log', mode='a'),  # Write to file
             logging.StreamHandler()                     # Print to console
         ]
     )
 
     asyncio.run(main())
+
+    # # Example usage of reprocess_failed_cases
+    # file_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/pancr_final_with_baseline.json"
+    # missing_ids = ['111312.txt', '171971.txt']  # Your list of failed File IDs.
+    # choice_labels = ["Yes", "No"]
+    
+    # asyncio.run(reprocess_failed_cases(file_path, missing_ids, choice_labels))

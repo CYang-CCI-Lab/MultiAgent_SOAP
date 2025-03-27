@@ -35,6 +35,7 @@ def safe_json_load(s: str) -> Any:
             return result
         except Exception as e2:
             logger.error("Fallback parsing with demjson3 also failed: %s. Returning original input.", e2)
+            logger.error("Original input: %s", s)
             return s
 
 
@@ -50,7 +51,8 @@ class LLMAgent:
         logger.debug(f"LLMAgent.llm_call() - user_prompt[:60]: {user_prompt[:60]}...")
         self.messages.append({"role": "user", "content": user_prompt})
         params = {
-            "model": "meta-llama/Llama-3.3-70B-Instruct",
+            # "model": "meta-llama/Llama-3.3-70B-Instruct",
+            "model": "google/gemma-3-27b-it",
             "messages": self.messages,
             "temperature": 0.5,
         }
@@ -421,9 +423,10 @@ async def main():
     logger.info("===== MAIN START =====")
 
     # Example CSV loading
-    # df_path = "/home/yl3427/cylab/SOAP_MA/Input/step3_ALL.csv"
-    # qa_df = pd.read_csv(df_path, encoding="latin-1")  # columns: idx, question, choice, ground_truth, qn_num
-    qa_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems.csv')
+    df_path = "/home/yl3427/cylab/SOAP_MA/Input/filtered_merged_QA.csv"
+    qa_df = pd.read_csv(df_path, encoding="latin-1")  # columns: idx, question, choice, ground_truth, qn_num
+
+    # qa_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems.csv')
     logger.info("Loaded dataframe with %d rows.", len(qa_df))
 
 
@@ -431,44 +434,44 @@ async def main():
     results = []
     for idx, row in qa_df.iterrows():
         # if row["qn_num"] not in [13, 42]:
-        # if row["File ID"] not in ['110458.txt', '121860.txt', '126165.txt', '139318.txt', '167352.txt']:
+        # if row["File ID"] not in ['123147.txt']:
         #     continue
 
         logger.info(f"Processing row index {idx}")
 
-        # question_text = row["question"] + "\n" + str(row["choice"])
-        # ground_truth = str(row["ground_truth"])
-        patient_info = str(row["Subjective"]) + "\n" + str(row['Objective'])
-        question_text = f"""
-        Based on the following patient report, does the patient have sepsis?
+        question_text = row["question"] + "\n" + str(row["choice"])
+        ground_truth = str(row["ground_truth"])
+        # patient_info = str(row["Subjective"]) + "\n" + str(row['Objective'])
+        # question_text = f"""
+        # Based on the following patient report, does the patient have congestive heart failure?"
 
-        {patient_info}
-        """
-        ground_truth = str(row["terms"])
+        # {patient_info}
+        # """
+        # ground_truth = str(row["terms"])
         
 
         # Run the multi-agent system for this single query
         result_dict = await process_single_query(
             question_text=question_text,
             ground_truth=ground_truth,
-            # choices=["A", "B", "C", "D", "E"],
-            choices=["Yes", "No"],
+            choices=["A", "B", "C", "D", "E"],
+            # choices=["Yes", "No"],
             n_specialists=5
         )
-        result_dict["File ID"] = row["File ID"]
-        # result_dict["qn_num"] = row["qn_num"]
+        # result_dict["File ID"] = row["File ID"]
+        result_dict["qn_num"] = row["qn_num"]
 
         # Store result for later evaluation
         results.append(result_dict)
 
         if idx % 50 == 0:
-            output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_missing_{idx}.json"
+            output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_{idx}_mistral.json"
             with open(output_json_path, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
             logger.info(f"Saved aggregated results to {output_json_path}")
 
     # OPTIONAL: Save results to JSON
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/sepsis_missing_final.json"
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_final_mistral.json"
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     logger.info(f"Saved aggregated results to {output_json_path}")
@@ -498,11 +501,11 @@ async def main():
 if __name__ == "__main__":
 
     logging.basicConfig(
-        level=logging.DEBUG,
+        level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
             handlers=[
-            logging.FileHandler('0313_MA_SOAP_sepsis_missing.log', mode='a'),  # Write to file
+            logging.FileHandler('log/0327_MA_MedicalQA_mistral_merged.log', mode='a'),  # Write to file
             logging.StreamHandler()                     # Print to console
         ]
     )

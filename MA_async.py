@@ -52,9 +52,9 @@ class LLMAgent:
         self.messages.append({"role": "user", "content": user_prompt})
         params = {
             # "model": "meta-llama/Llama-3.3-70B-Instruct",
-            "model": "google/gemma-3-27b-it",
+            "model": '/secure_net/hf_model_cache/models--mistralai--Mistral-Small-24B-Instruct-2501/snapshots/20b2ed1c4e9af44b9ad125f79f713301e27737e2',
             "messages": self.messages,
-            "temperature": 0.5,
+            "temperature": 0.3,
         }
         if guided_:
             logger.debug(f"Guided JSON/choice detected: {guided_}")
@@ -423,8 +423,9 @@ async def main():
     logger.info("===== MAIN START =====")
 
     # Example CSV loading
+    # df_path = "/home/yl3427/cylab/SOAP_MA/Input/step1_ALL.csv"
     df_path = "/home/yl3427/cylab/SOAP_MA/Input/filtered_merged_QA.csv"
-    qa_df = pd.read_csv(df_path, encoding="latin-1")  # columns: idx, question, choice, ground_truth, qn_num
+    qa_df = pd.read_csv(df_path, lineterminator='\n')  # columns: idx, question, choice, ground_truth, qn_num
 
     # qa_df = pd.read_csv('/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems.csv')
     logger.info("Loaded dataframe with %d rows.", len(qa_df))
@@ -464,7 +465,7 @@ async def main():
         # Store result for later evaluation
         results.append(result_dict)
 
-        if idx % 50 == 0:
+        if idx % 10 == 0:
             output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_{idx}_mistral.json"
             with open(output_json_path, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)

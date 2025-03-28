@@ -1,0 +1,1703 @@
+2025-03-27 19:54:46 - INFO - ===== MAIN START =====
+2025-03-27 20:02:39 - INFO - ===== MAIN START =====
+2025-03-27 20:04:30 - INFO - ===== MAIN START =====
+2025-03-27 20:06:26 - INFO - ===== MAIN START =====
+2025-03-27 20:06:26 - INFO - Loaded dataframe with 119 rows.
+2025-03-27 20:06:26 - INFO - Processing row index 0
+2025-03-27 20:06:26 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 20:06:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-27 20:07:18 - INFO - ===== MAIN START =====
+2025-03-27 20:07:18 - INFO - Loaded dataframe with 119 rows.
+2025-03-27 20:07:18 - INFO - Processing row index 0
+2025-03-27 20:07:18 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 20:07:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-27 20:10:49 - INFO - ===== MAIN START =====
+2025-03-27 20:10:49 - INFO - Loaded dataframe with 119 rows.
+2025-03-27 20:10:49 - INFO - Processing row index 0
+2025-03-27 20:10:49 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 20:11:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:11:00 - INFO - [Biostatistician] Analyzing query...
+2025-03-27 20:11:00 - INFO - [Epidemiologist] Analyzing query...
+2025-03-27 20:11:00 - INFO - [Clinical Chemist] Analyzing query...
+2025-03-27 20:11:00 - INFO - [Medical Statistician] Analyzing query...
+2025-03-27 20:11:00 - INFO - [Cardiologist] Analyzing query...
+2025-03-27 20:11:55 - INFO - ===== MAIN START =====
+2025-03-27 20:13:19 - INFO - ===== MAIN START =====
+2025-03-27 20:15:03 - INFO - ===== MAIN START =====
+2025-03-27 20:19:40 - INFO - ===== MAIN START =====
+2025-03-27 20:32:58 - INFO - ===== MAIN START =====
+2025-03-27 20:35:30 - INFO - ===== MAIN START =====
+2025-03-27 20:35:30 - INFO - Loaded dataframe with 284 rows.
+2025-03-27 20:35:30 - INFO - Processing row index 0
+2025-03-27 20:35:30 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 20:35:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:35:38 - INFO - [Biostatistician] Analyzing query...
+2025-03-27 20:35:38 - INFO - [Clinical Chemist] Analyzing query...
+2025-03-27 20:35:38 - INFO - [Epidemiologist] Analyzing query...
+2025-03-27 20:35:38 - INFO - [Medical Laboratory Scientist] Analyzing query...
+2025-03-27 20:35:38 - INFO - [Cardiologist] Analyzing query...
+2025-03-27 20:50:08 - INFO - ===== MAIN START =====
+2025-03-27 20:50:45 - INFO - ===== MAIN START =====
+2025-03-27 20:50:45 - INFO - Loaded dataframe with 284 rows.
+2025-03-27 20:50:45 - INFO - Processing row index 0
+2025-03-27 20:50:45 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 20:50:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:50:57 - INFO - [Biostatistician] Analyzing query...
+2025-03-27 20:50:57 - INFO - [Epidemiologist] Analyzing query...
+2025-03-27 20:50:57 - INFO - [Clinical Chemist] Analyzing query...
+2025-03-27 20:50:57 - INFO - [Medical Statistician] Analyzing query...
+2025-03-27 20:50:57 - INFO - [Cardiologist] Analyzing query...
+2025-03-27 20:51:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:51:37 - INFO - [Clinical Chemist] Completed analyze_query.
+2025-03-27 20:51:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:51:38 - INFO - [Cardiologist] Completed analyze_query.
+2025-03-27 20:51:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:51:41 - INFO - [Medical Statistician] Completed analyze_query.
+2025-03-27 20:51:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:51:42 - INFO - [Epidemiologist] Completed analyze_query.
+2025-03-27 20:51:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:51:45 - INFO - [Biostatistician] Completed analyze_query.
+2025-03-27 20:51:45 - INFO - [Biostatistician] Debating with other specialists.
+2025-03-27 20:51:45 - INFO - [Epidemiologist] Debating with other specialists.
+2025-03-27 20:51:45 - INFO - [Clinical Chemist] Debating with other specialists.
+2025-03-27 20:51:45 - INFO - [Medical Statistician] Debating with other specialists.
+2025-03-27 20:51:45 - INFO - [Cardiologist] Debating with other specialists.
+2025-03-27 20:52:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:52:12 - INFO - [Epidemiologist] Completed debate.
+2025-03-27 20:52:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:52:13 - INFO - [Biostatistician] Completed debate.
+2025-03-27 20:52:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:52:14 - INFO - [Clinical Chemist] Completed debate.
+2025-03-27 20:52:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:52:14 - INFO - [Medical Statistician] Completed debate.
+2025-03-27 20:52:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:52:18 - INFO - [Cardiologist] Completed debate.
+2025-03-27 20:52:18 - INFO - Checking for consensus among specialists.
+2025-03-27 20:52:18 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-27 20:52:18 - INFO - Consensus reached: B
+2025-03-27 20:52:18 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_0_mistral.json
+2025-03-27 20:52:18 - INFO - Processing row index 1
+2025-03-27 20:52:18 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 20:52:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:52:31 - INFO - [Cardiologist] Analyzing query...
+2025-03-27 20:52:31 - INFO - [Nephrologist] Analyzing query...
+2025-03-27 20:52:31 - INFO - [Pathologist] Analyzing query...
+2025-03-27 20:52:31 - INFO - [Intensivist] Analyzing query...
+2025-03-27 20:52:31 - INFO - [Forensic Pathologist] Analyzing query...
+2025-03-27 20:53:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:53:21 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-27 20:53:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:53:23 - INFO - [Pathologist] Completed analyze_query.
+2025-03-27 20:53:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 20:53:24 - INFO - [Forensic Pathologist] Completed analyze_query.
+2025-03-27 21:02:31 - INFO - Retrying request to /chat/completions in 0.456446 seconds
+2025-03-27 21:02:31 - INFO - Retrying request to /chat/completions in 0.410857 seconds
+2025-03-27 21:02:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:02:47 - INFO - [Intensivist] Completed analyze_query.
+2025-03-27 21:12:32 - INFO - Retrying request to /chat/completions in 0.774993 seconds
+2025-03-27 21:49:14 - INFO - ===== MAIN START =====
+2025-03-27 21:49:14 - INFO - Loaded dataframe with 284 rows.
+2025-03-27 21:49:14 - INFO - Processing row index 0
+2025-03-27 21:49:14 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 21:49:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:49:22 - INFO - [Biostatistician] Analyzing query...
+2025-03-27 21:49:22 - INFO - [Epidemiologist] Analyzing query...
+2025-03-27 21:49:22 - INFO - [Clinical Chemist] Analyzing query...
+2025-03-27 21:49:22 - INFO - [Medical Statistician] Analyzing query...
+2025-03-27 21:49:22 - INFO - [Health Data Scientist] Analyzing query...
+2025-03-27 21:49:55 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:49:55 - INFO - [Clinical Chemist] Completed analyze_query.
+2025-03-27 21:49:59 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:49:59 - INFO - [Medical Statistician] Completed analyze_query.
+2025-03-27 21:50:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:00 - INFO - [Health Data Scientist] Completed analyze_query.
+2025-03-27 21:50:01 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:01 - INFO - [Epidemiologist] Completed analyze_query.
+2025-03-27 21:50:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:02 - INFO - [Biostatistician] Completed analyze_query.
+2025-03-27 21:50:02 - INFO - [Biostatistician] Debating with other specialists.
+2025-03-27 21:50:02 - INFO - [Epidemiologist] Debating with other specialists.
+2025-03-27 21:50:02 - INFO - [Clinical Chemist] Debating with other specialists.
+2025-03-27 21:50:02 - INFO - [Medical Statistician] Debating with other specialists.
+2025-03-27 21:50:02 - INFO - [Health Data Scientist] Debating with other specialists.
+2025-03-27 21:50:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:25 - INFO - [Health Data Scientist] Completed debate.
+2025-03-27 21:50:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:26 - INFO - [Clinical Chemist] Completed debate.
+2025-03-27 21:50:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:26 - INFO - [Medical Statistician] Completed debate.
+2025-03-27 21:50:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:27 - INFO - [Epidemiologist] Completed debate.
+2025-03-27 21:50:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:32 - INFO - [Biostatistician] Completed debate.
+2025-03-27 21:50:32 - INFO - Checking for consensus among specialists.
+2025-03-27 21:50:32 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-27 21:50:32 - INFO - Consensus reached: B
+2025-03-27 21:50:32 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_0_mistral.json
+2025-03-27 21:50:32 - INFO - Processing row index 1
+2025-03-27 21:50:32 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 21:50:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:50:40 - INFO - [Cardiologist] Analyzing query...
+2025-03-27 21:50:40 - INFO - [Nephrologist] Analyzing query...
+2025-03-27 21:50:40 - INFO - [Pathologist] Analyzing query...
+2025-03-27 21:50:40 - INFO - [Intensivist] Analyzing query...
+2025-03-27 21:50:40 - INFO - [Forensic Pathologist] Analyzing query...
+2025-03-27 21:51:08 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:08 - INFO - [Forensic Pathologist] Completed analyze_query.
+2025-03-27 21:51:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:13 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-27 21:51:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:13 - INFO - [Pathologist] Completed analyze_query.
+2025-03-27 21:51:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:14 - INFO - [Cardiologist] Completed analyze_query.
+2025-03-27 21:51:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:14 - INFO - [Intensivist] Completed analyze_query.
+2025-03-27 21:51:14 - INFO - [Cardiologist] Debating with other specialists.
+2025-03-27 21:51:14 - INFO - [Nephrologist] Debating with other specialists.
+2025-03-27 21:51:14 - INFO - [Pathologist] Debating with other specialists.
+2025-03-27 21:51:14 - INFO - [Intensivist] Debating with other specialists.
+2025-03-27 21:51:14 - INFO - [Forensic Pathologist] Debating with other specialists.
+2025-03-27 21:51:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:53 - INFO - [Nephrologist] Completed debate.
+2025-03-27 21:51:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:54 - INFO - [Pathologist] Completed debate.
+2025-03-27 21:51:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:54 - INFO - [Forensic Pathologist] Completed debate.
+2025-03-27 21:51:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:56 - INFO - [Cardiologist] Completed debate.
+2025-03-27 21:51:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:51:57 - INFO - [Intensivist] Completed debate.
+2025-03-27 21:51:57 - INFO - Checking for consensus among specialists.
+2025-03-27 21:51:57 - INFO - Consensus found on choice 'E' with 4/5 specialists.
+2025-03-27 21:51:57 - INFO - Consensus reached: E
+2025-03-27 21:51:57 - INFO - Processing row index 2
+2025-03-27 21:51:57 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 21:52:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:05 - INFO - [Hematologist] Analyzing query...
+2025-03-27 21:52:05 - INFO - [Medical Statistician] Analyzing query...
+2025-03-27 21:52:05 - INFO - [Clinical Pathologist] Analyzing query...
+2025-03-27 21:52:05 - INFO - [Biostatistician] Analyzing query...
+2025-03-27 21:52:05 - INFO - [Epidemiologist] Analyzing query...
+2025-03-27 21:52:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:18 - INFO - [Clinical Pathologist] Completed analyze_query.
+2025-03-27 21:52:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:19 - INFO - [Epidemiologist] Completed analyze_query.
+2025-03-27 21:52:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:20 - INFO - [Hematologist] Completed analyze_query.
+2025-03-27 21:52:20 - INFO - [Medical Statistician] Completed analyze_query.
+2025-03-27 21:52:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:23 - INFO - [Biostatistician] Completed analyze_query.
+2025-03-27 21:52:23 - INFO - [Hematologist] Debating with other specialists.
+2025-03-27 21:52:23 - INFO - [Medical Statistician] Debating with other specialists.
+2025-03-27 21:52:23 - INFO - [Clinical Pathologist] Debating with other specialists.
+2025-03-27 21:52:23 - INFO - [Biostatistician] Debating with other specialists.
+2025-03-27 21:52:23 - INFO - [Epidemiologist] Debating with other specialists.
+2025-03-27 21:52:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:41 - INFO - [Hematologist] Completed debate.
+2025-03-27 21:52:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:43 - INFO - [Medical Statistician] Completed debate.
+2025-03-27 21:52:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:43 - INFO - [Biostatistician] Completed debate.
+2025-03-27 21:52:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:43 - INFO - [Epidemiologist] Completed debate.
+2025-03-27 21:52:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:45 - INFO - [Clinical Pathologist] Completed debate.
+2025-03-27 21:52:45 - INFO - Checking for consensus among specialists.
+2025-03-27 21:52:45 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-27 21:52:45 - INFO - Consensus reached: D
+2025-03-27 21:52:45 - INFO - Processing row index 3
+2025-03-27 21:52:45 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 21:52:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:52:53 - INFO - [Gynecologist] Analyzing query...
+2025-03-27 21:52:53 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-27 21:52:53 - INFO - [Endocrinologist] Analyzing query...
+2025-03-27 21:52:53 - INFO - [Sexual Health Specialist] Analyzing query...
+2025-03-27 21:52:53 - INFO - [Pathologist] Analyzing query...
+2025-03-27 21:53:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:53:37 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-27 21:53:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:53:40 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-27 21:53:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 21:53:43 - INFO - [Pathologist] Completed analyze_query.
+2025-03-27 22:02:53 - INFO - Retrying request to /chat/completions in 0.429258 seconds
+2025-03-27 22:02:53 - INFO - Retrying request to /chat/completions in 0.424155 seconds
+2025-03-27 22:02:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:02:56 - INFO - [Gynecologist] Completed analyze_query.
+2025-03-27 22:03:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:03:07 - INFO - [Sexual Health Specialist] Completed analyze_query.
+2025-03-27 22:03:07 - INFO - [Gynecologist] Debating with other specialists.
+2025-03-27 22:03:07 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-27 22:03:07 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-27 22:03:07 - INFO - [Sexual Health Specialist] Debating with other specialists.
+2025-03-27 22:03:07 - INFO - [Pathologist] Debating with other specialists.
+2025-03-27 22:03:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:03:41 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-27 22:03:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:03:47 - INFO - [Endocrinologist] Completed debate.
+2025-03-27 22:03:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:03:47 - INFO - [Sexual Health Specialist] Completed debate.
+2025-03-27 22:03:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:03:47 - INFO - [Gynecologist] Completed debate.
+2025-03-27 22:03:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:03:51 - INFO - [Pathologist] Completed debate.
+2025-03-27 22:03:51 - INFO - Checking for consensus among specialists.
+2025-03-27 22:03:51 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-27 22:03:51 - INFO - Consensus reached: A
+2025-03-27 22:03:51 - INFO - Processing row index 4
+2025-03-27 22:03:51 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 22:04:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:04:00 - INFO - [Pulmonologist] Analyzing query...
+2025-03-27 22:04:00 - INFO - [Respiratory Therapist] Analyzing query...
+2025-03-27 22:04:00 - INFO - [Radiologist] Analyzing query...
+2025-03-27 22:04:00 - INFO - [Thoracic Surgeon] Analyzing query...
+2025-03-27 22:04:00 - INFO - [Allergist/Immunologist] Analyzing query...
+2025-03-27 22:04:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:04:44 - INFO - [Radiologist] Completed analyze_query.
+2025-03-27 22:04:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:04:50 - INFO - [Pulmonologist] Completed analyze_query.
+2025-03-27 22:14:00 - INFO - Retrying request to /chat/completions in 0.390136 seconds
+2025-03-27 22:14:00 - INFO - Retrying request to /chat/completions in 0.475590 seconds
+2025-03-27 22:14:00 - INFO - Retrying request to /chat/completions in 0.390103 seconds
+2025-03-27 22:14:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:14:31 - INFO - [Allergist/Immunologist] Completed analyze_query.
+2025-03-27 22:14:33 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:14:33 - INFO - [Thoracic Surgeon] Completed analyze_query.
+2025-03-27 22:24:01 - INFO - Retrying request to /chat/completions in 0.806767 seconds
+2025-03-27 22:24:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:24:18 - INFO - [Respiratory Therapist] Completed analyze_query.
+2025-03-27 22:24:18 - INFO - [Pulmonologist] Debating with other specialists.
+2025-03-27 22:24:18 - INFO - [Respiratory Therapist] Debating with other specialists.
+2025-03-27 22:24:18 - INFO - [Radiologist] Debating with other specialists.
+2025-03-27 22:24:18 - INFO - [Thoracic Surgeon] Debating with other specialists.
+2025-03-27 22:24:18 - INFO - [Allergist/Immunologist] Debating with other specialists.
+2025-03-27 22:25:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:25:13 - INFO - [Radiologist] Completed debate.
+2025-03-27 22:25:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:25:14 - INFO - [Pulmonologist] Completed debate.
+2025-03-27 22:25:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:25:19 - INFO - [Respiratory Therapist] Completed debate.
+2025-03-27 22:25:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:25:20 - INFO - [Allergist/Immunologist] Completed debate.
+2025-03-27 22:25:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:25:22 - INFO - [Thoracic Surgeon] Completed debate.
+2025-03-27 22:25:22 - INFO - Checking for consensus among specialists.
+2025-03-27 22:25:22 - INFO - Consensus found on choice 'E' with 5/5 specialists.
+2025-03-27 22:25:22 - INFO - Consensus reached: E
+2025-03-27 22:25:22 - INFO - Processing row index 5
+2025-03-27 22:25:22 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 22:25:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:25:30 - INFO - [Psychiatrist] Analyzing query...
+2025-03-27 22:25:30 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-27 22:25:30 - INFO - [Psychologist] Analyzing query...
+2025-03-27 22:25:30 - INFO - [Forensic Psychiatrist] Analyzing query...
+2025-03-27 22:25:30 - INFO - [Neurologist] Analyzing query...
+2025-03-27 22:26:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:26:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:26:17 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-27 22:26:17 - INFO - [Forensic Psychiatrist] Completed analyze_query.
+2025-03-27 22:26:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:26:19 - INFO - [Psychiatrist] Completed analyze_query.
+2025-03-27 22:26:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:26:26 - INFO - [Psychologist] Completed analyze_query.
+2025-03-27 22:35:30 - INFO - Retrying request to /chat/completions in 0.419481 seconds
+2025-03-27 22:45:31 - INFO - Retrying request to /chat/completions in 0.830059 seconds
+2025-03-27 22:45:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:45:46 - INFO - [Neurologist] Completed analyze_query.
+2025-03-27 22:45:46 - INFO - [Psychiatrist] Debating with other specialists.
+2025-03-27 22:45:46 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-27 22:45:46 - INFO - [Psychologist] Debating with other specialists.
+2025-03-27 22:45:46 - INFO - [Forensic Psychiatrist] Debating with other specialists.
+2025-03-27 22:45:46 - INFO - [Neurologist] Debating with other specialists.
+2025-03-27 22:46:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:46:37 - INFO - [Forensic Psychiatrist] Completed debate.
+2025-03-27 22:46:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:46:43 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-27 22:46:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:46:46 - INFO - [Neurologist] Completed debate.
+2025-03-27 22:46:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:46:51 - INFO - [Psychiatrist] Completed debate.
+2025-03-27 22:46:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:46:54 - INFO - [Psychologist] Completed debate.
+2025-03-27 22:46:54 - INFO - Checking for consensus among specialists.
+2025-03-27 22:46:54 - INFO - No consensus found.
+2025-03-27 22:46:54 - INFO - No consensus reached; enabling aggregator path...
+2025-03-27 22:46:54 - INFO - AggregatorAgent: Aggregating final answer from all specialists' chat history.
+2025-03-27 22:47:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:47:22 - INFO - Aggregator final choice: E
+2025-03-27 22:47:22 - INFO - Aggregator reasoning: To determine the most likely diagnosis, we need to carefully evaluate the reasoning provided by each specialist and identify the most compelling arguments. Here's a step-by-step analysis of the specialists' reasoning and the evidence supporting each diagnosis:"\n\n1. **Duration of Symptoms**: All specialists agree that the symptoms have been present for 2 months. This duration rules out Brief Psychotic Disorder (B), which typically lasts less than 1 month.\n\n2. **Presence of Psychotic Features**: The patient exhibits delusions and hallucinations, which are psychotic features. All specialists acknowledge these symptoms.\n\n3. **Mood and Speech**: The patient's rapid speech, loose associations, and reported lack of sleep suggest a manic episode. The Psychiatrist, Emergency Medicine Physician, and Neurologist highlight these symptoms as indicative of a manic episode.\n\n4. **Content of Delusions**: The delusions are bizarre and involve themes of persecution and grandeur. The Forensic Psychiatrist and Psychologist emphasize that these are more consistent with schizophrenia.\n\n5. **Hallucinations**: The patient reports auditory hallucinations, which are more commonly associated with schizophrenia or a manic episode with psychotic features.\n\n6. **Substance Use**: The patient denies substance use and refuses testing. While this makes substance-induced psychosis less likely, it cannot be ruled out completely.\n\n7. **General Medical Condition**: There is no evidence to suggest a general medical condition causing the psychotic symptoms.\n\n8. **Functional Impairment**: The patient's behavior (stalking the president) indicates significant functional impairment, which is consistent with both schizophrenia and a manic episode with psychotic features.\n\n9. **Differential Diagnosis**:\n   - **Bipolar Disorder, Manic, with Psychotic Features (A)**: The Psychiatrist and Emergency Medicine Physician strongly support this diagnosis based on the manic symptoms and psychotic features. The Neurologist also considers this but ultimately leans towards schizophrenia.\n   - **Brief Psychotic Disorder (B)**: The Neurologist initially suggests this diagnosis but later acknowledges that the duration of symptoms makes it less likely.\n   - **Delusional Disorder (C)**: All specialists agree that this is less likely because delusional disorder typically does not involve other psychotic symptoms like hallucinations or disorganized thinking.\n   - **Psychotic Disorder due to General Medical Condition (D)**: All specialists agree that this is less likely because there is no evidence of a general medical condition causing the symptoms.\n   - **Schizophrenia (E)**: The Psychologist, Forensic Psychiatrist, and Neurologist (after debate) support this diagnosis based on the presence of delusions, hallucinations, disorganized thinking, and the duration of symptoms.\n\n10. **Conflict Resolution**: The primary conflict is between Bipolar Disorder, Manic, with Psychotic Features (A) and Schizophrenia (E). The Psychiatrist and Emergency Medicine Physician argue that the manic symptoms (pressured speech, decreased need for sleep) are key indicators of a manic episode. The Psychologist, Forensic Psychiatrist, and Neurologist (after debate) argue that the presence of disorganized thinking, bizarre delusions, and hallucinations are more consistent with schizophrenia.\n\n11. **Final Consideration**: The presence of mood symptoms (pressured speech, grandiose delusions, sleep disturbance) is a key differentiator. However, the duration of symptoms (2 months) and the presence of disorganized thinking, bizarre delusions, and hallucinations make schizophrenia a strong contender. The manic symptoms could be a result of the psychotic process itself, rather than a separate mood disorder.\n\nGiven the evidence and reasoning provided by the specialists, the most likely diagnosis is Schizophrenia (E). The presence of delusions, hallucinations, disorganized thinking, and the duration of symptoms (more than 1 month) are most consistent with this diagnosis. The manic symptoms could be a result of the psychotic process itself, rather than a separate mood disorder.\n\nFinal Answer: E
+2025-03-27 22:47:22 - INFO - Processing row index 6
+2025-03-27 22:47:22 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 22:47:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:47:28 - INFO - [Immunologist] Analyzing query...
+2025-03-27 22:47:28 - INFO - [Microbiologist] Analyzing query...
+2025-03-27 22:47:28 - INFO - [Cell Biologist] Analyzing query...
+2025-03-27 22:47:28 - INFO - [Molecular Biologist] Analyzing query...
+2025-03-27 22:47:28 - INFO - [Vaccinologist] Analyzing query...
+2025-03-27 22:48:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:48:13 - INFO - [Cell Biologist] Completed analyze_query.
+2025-03-27 22:48:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:48:13 - INFO - [Molecular Biologist] Completed analyze_query.
+2025-03-27 22:48:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:48:19 - INFO - [Vaccinologist] Completed analyze_query.
+2025-03-27 22:48:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:48:20 - INFO - [Immunologist] Completed analyze_query.
+2025-03-27 22:57:28 - INFO - Retrying request to /chat/completions in 0.444016 seconds
+2025-03-27 22:57:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:57:44 - INFO - [Microbiologist] Completed analyze_query.
+2025-03-27 22:57:44 - INFO - [Immunologist] Debating with other specialists.
+2025-03-27 22:57:44 - INFO - [Microbiologist] Debating with other specialists.
+2025-03-27 22:57:44 - INFO - [Cell Biologist] Debating with other specialists.
+2025-03-27 22:57:44 - INFO - [Molecular Biologist] Debating with other specialists.
+2025-03-27 22:57:44 - INFO - [Vaccinologist] Debating with other specialists.
+2025-03-27 22:58:29 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:58:29 - INFO - [Immunologist] Completed debate.
+2025-03-27 22:58:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:58:34 - INFO - [Microbiologist] Completed debate.
+2025-03-27 22:58:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:58:36 - INFO - [Molecular Biologist] Completed debate.
+2025-03-27 22:58:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:58:36 - INFO - [Cell Biologist] Completed debate.
+2025-03-27 22:58:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:58:36 - INFO - [Vaccinologist] Completed debate.
+2025-03-27 22:58:36 - INFO - Checking for consensus among specialists.
+2025-03-27 22:58:36 - INFO - No consensus found.
+2025-03-27 22:58:36 - INFO - No consensus reached; enabling aggregator path...
+2025-03-27 22:58:36 - INFO - AggregatorAgent: Aggregating final answer from all specialists' chat history.
+2025-03-27 22:58:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:58:57 - INFO - Aggregator final choice: C
+2025-03-27 22:58:57 - INFO - Aggregator reasoning: To determine the definitive answer, we need to analyze the reasoning provided by each specialist and identify the most supported and logically consistent explanation for the phase represented by the asterisk in the graph. Here's a step-by-step breakdown of the specialists' reasoning and the conflicts between their perspectives:"1. **Immunologist's Perspective**: The Immunologist's original and refined reasoning both point to B-lymphocyte expansion (C) as the key process during the transition phase between the primary and secondary immune responses. This perspective is well-supported by the typical dynamics of the immune response to vaccination, where B-lymphocytes proliferate and differentiate into plasma cells and memory cells in preparation for the secondary response. The Immunologist's reasoning is comprehensive and aligns well with the data presented in the graph."2. **Microbiologist's Perspective**: The Microbiologist's original reasoning focused on T-lymphocyte activation (E) as the closest relevant process to the phase represented by the asterisk. However, after reviewing the other specialists' reasoning, the Microbiologist revised their choice to B-lymphocyte expansion (C), acknowledging that this process is more relevant to the transition phase between the primary and secondary responses. The Microbiologist's refined reasoning aligns with the Immunologist's perspective."3. **Cell Biologist's Perspective**: The Cell Biologist's original and refined reasoning both point to the apoptosis of activated lymphocytes (B) as the process represented by the asterisk. However, this perspective is based on the assumption that the asterisk represents the resolution phase of the immune response, which is not supported by the data. The Cell Biologist's reasoning does not align with the typical immune response dynamics during the transition phase between the primary and secondary responses."4. **Molecular Biologist's Perspective**: The Molecular Biologist's original and refined reasoning both point to the apoptosis of activated lymphocytes (B) as the process represented by the asterisk. Similar to the Cell Biologist, the Molecular Biologist's reasoning is based on the assumption that the asterisk represents the resolution phase of the immune response. This perspective is not supported by the data and does not align with the typical immune response dynamics during the transition phase."5. **Vaccinologist's Perspective**: The Vaccinologist's original and refined reasoning both point to B-lymphocyte expansion (C) as the key process during the transition phase between the primary and secondary immune responses. The Vaccinologist's reasoning is well-supported by the data and aligns with the Immunologist's perspective."6. **Conflict Resolution**: The primary conflict lies between the specialists who support B-lymphocyte expansion (C) and those who support apoptosis of activated lymphocytes (B). The specialists supporting B-lymphocyte expansion (Immunologist, Microbiologist, and Vaccinologist) provide a more comprehensive and data-supported explanation for the phase represented by the asterisk. Their reasoning aligns with the typical immune response dynamics during the transition phase between the primary and secondary responses."7. **Final Recommendation**: Based on the majority support and the well-reasoned explanations provided by the Immunologist, Microbiologist, and Vaccinologist, the phase represented by the asterisk is most likely the direct result of B-lymphocyte expansion. This process is crucial for the enhanced antibody response seen in Peak B and is the most relevant process during the transition phase between the primary and secondary responses."Therefore, the final recommended answer is C: B-lymphocyte expansion."
+2025-03-27 22:58:57 - INFO - Processing row index 7
+2025-03-27 22:58:57 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 22:59:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:59:03 - INFO - [Dermatologist] Analyzing query...
+2025-03-27 22:59:03 - INFO - [Gastroenterologist] Analyzing query...
+2025-03-27 22:59:03 - INFO - [Endocrinologist] Analyzing query...
+2025-03-27 22:59:03 - INFO - [Nutritionist] Analyzing query...
+2025-03-27 22:59:03 - INFO - [General Practitioner] Analyzing query...
+2025-03-27 22:59:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:59:42 - INFO - [General Practitioner] Completed analyze_query.
+2025-03-27 22:59:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:59:44 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-27 22:59:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:59:45 - INFO - [Dermatologist] Completed analyze_query.
+2025-03-27 22:59:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:59:47 - INFO - [Nutritionist] Completed analyze_query.
+2025-03-27 22:59:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 22:59:47 - INFO - [Gastroenterologist] Completed analyze_query.
+2025-03-27 22:59:47 - INFO - [Dermatologist] Debating with other specialists.
+2025-03-27 22:59:47 - INFO - [Gastroenterologist] Debating with other specialists.
+2025-03-27 22:59:47 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-27 22:59:47 - INFO - [Nutritionist] Debating with other specialists.
+2025-03-27 22:59:47 - INFO - [General Practitioner] Debating with other specialists.
+2025-03-27 23:00:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:00:27 - INFO - [Dermatologist] Completed debate.
+2025-03-27 23:00:29 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:00:29 - INFO - [Nutritionist] Completed debate.
+2025-03-27 23:00:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:00:31 - INFO - [Endocrinologist] Completed debate.
+2025-03-27 23:00:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:00:32 - INFO - [Gastroenterologist] Completed debate.
+2025-03-27 23:00:33 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:00:33 - INFO - [General Practitioner] Completed debate.
+2025-03-27 23:00:33 - INFO - Checking for consensus among specialists.
+2025-03-27 23:00:33 - INFO - Consensus found on choice 'E' with 5/5 specialists.
+2025-03-27 23:00:33 - INFO - Consensus reached: E
+2025-03-27 23:00:33 - INFO - Processing row index 8
+2025-03-27 23:00:33 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 23:00:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:00:40 - INFO - [Pediatrician] Analyzing query...
+2025-03-27 23:00:40 - INFO - [Medical Geneticist] Analyzing query...
+2025-03-27 23:00:40 - INFO - [Neonatologist] Analyzing query...
+2025-03-27 23:00:40 - INFO - [Psychologist] Analyzing query...
+2025-03-27 23:00:40 - INFO - [Ethicist] Analyzing query...
+2025-03-27 23:01:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:01:26 - INFO - [Neonatologist] Completed analyze_query.
+2025-03-27 23:01:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:01:27 - INFO - [Medical Geneticist] Completed analyze_query.
+2025-03-27 23:01:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:01:40 - INFO - [Ethicist] Completed analyze_query.
+2025-03-27 23:01:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:01:42 - INFO - [Psychologist] Completed analyze_query.
+2025-03-27 23:10:40 - INFO - Retrying request to /chat/completions in 0.382826 seconds
+2025-03-27 23:20:41 - INFO - Retrying request to /chat/completions in 0.873719 seconds
+2025-03-27 23:20:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:20:56 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-27 23:20:56 - INFO - [Pediatrician] Debating with other specialists.
+2025-03-27 23:20:56 - INFO - [Medical Geneticist] Debating with other specialists.
+2025-03-27 23:20:56 - INFO - [Neonatologist] Debating with other specialists.
+2025-03-27 23:20:56 - INFO - [Psychologist] Debating with other specialists.
+2025-03-27 23:20:56 - INFO - [Ethicist] Debating with other specialists.
+2025-03-27 23:21:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:21:54 - INFO - [Medical Geneticist] Completed debate.
+2025-03-27 23:21:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:21:58 - INFO - [Neonatologist] Completed debate.
+2025-03-27 23:22:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:10 - INFO - [Psychologist] Completed debate.
+2025-03-27 23:22:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:12 - INFO - [Ethicist] Completed debate.
+2025-03-27 23:22:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:12 - INFO - [Pediatrician] Completed debate.
+2025-03-27 23:22:12 - INFO - Checking for consensus among specialists.
+2025-03-27 23:22:12 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-27 23:22:12 - INFO - Consensus reached: D
+2025-03-27 23:22:12 - INFO - Processing row index 9
+2025-03-27 23:22:12 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 23:22:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:20 - INFO - [Urologist] Analyzing query...
+2025-03-27 23:22:20 - INFO - [Endocrinologist] Analyzing query...
+2025-03-27 23:22:20 - INFO - [Geriatrician] Analyzing query...
+2025-03-27 23:22:20 - INFO - [Pharmacologist] Analyzing query...
+2025-03-27 23:22:20 - INFO - [Pathologist] Analyzing query...
+2025-03-27 23:22:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:38 - INFO - [Geriatrician] Completed analyze_query.
+2025-03-27 23:22:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:45 - INFO - [Urologist] Completed analyze_query.
+2025-03-27 23:22:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:50 - INFO - [Pathologist] Completed analyze_query.
+2025-03-27 23:22:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:22:54 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-27 23:32:20 - INFO - Retrying request to /chat/completions in 0.470690 seconds
+2025-03-27 23:32:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:32:32 - INFO - [Pharmacologist] Completed analyze_query.
+2025-03-27 23:32:32 - INFO - [Urologist] Debating with other specialists.
+2025-03-27 23:32:32 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-27 23:32:32 - INFO - [Geriatrician] Debating with other specialists.
+2025-03-27 23:32:32 - INFO - [Pharmacologist] Debating with other specialists.
+2025-03-27 23:32:32 - INFO - [Pathologist] Debating with other specialists.
+2025-03-27 23:33:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:33:09 - INFO - [Pathologist] Completed debate.
+2025-03-27 23:33:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:33:10 - INFO - [Pharmacologist] Completed debate.
+2025-03-27 23:33:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:33:11 - INFO - [Endocrinologist] Completed debate.
+2025-03-27 23:33:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:33:11 - INFO - [Geriatrician] Completed debate.
+2025-03-27 23:33:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:33:11 - INFO - [Urologist] Completed debate.
+2025-03-27 23:33:11 - INFO - Checking for consensus among specialists.
+2025-03-27 23:33:11 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-27 23:33:11 - INFO - Consensus reached: B
+2025-03-27 23:33:11 - INFO - Processing row index 10
+2025-03-27 23:33:11 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 23:33:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:33:20 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-27 23:33:20 - INFO - [Hematologist] Analyzing query...
+2025-03-27 23:33:20 - INFO - [Gastroenterologist] Analyzing query...
+2025-03-27 23:33:20 - INFO - [Radiologist] Analyzing query...
+2025-03-27 23:33:20 - INFO - [Pediatrician] Analyzing query...
+2025-03-27 23:34:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:34:16 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-27 23:34:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:34:17 - INFO - [Hematologist] Completed analyze_query.
+2025-03-27 23:34:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:34:40 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-27 23:43:20 - INFO - Retrying request to /chat/completions in 0.467569 seconds
+2025-03-27 23:43:20 - INFO - Retrying request to /chat/completions in 0.387362 seconds
+2025-03-27 23:43:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:43:46 - INFO - [Gastroenterologist] Completed analyze_query.
+2025-03-27 23:53:20 - INFO - Retrying request to /chat/completions in 0.883055 seconds
+2025-03-27 23:53:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:53:32 - INFO - [Radiologist] Completed analyze_query.
+2025-03-27 23:53:32 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-27 23:53:32 - INFO - [Hematologist] Debating with other specialists.
+2025-03-27 23:53:32 - INFO - [Gastroenterologist] Debating with other specialists.
+2025-03-27 23:53:32 - INFO - [Radiologist] Debating with other specialists.
+2025-03-27 23:53:32 - INFO - [Pediatrician] Debating with other specialists.
+2025-03-27 23:54:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:54:32 - INFO - [Radiologist] Completed debate.
+2025-03-27 23:54:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:54:34 - INFO - [Pediatrician] Completed debate.
+2025-03-27 23:54:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:54:42 - INFO - [Hematologist] Completed debate.
+2025-03-27 23:54:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:54:43 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-27 23:54:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:54:46 - INFO - [Gastroenterologist] Completed debate.
+2025-03-27 23:54:46 - INFO - Checking for consensus among specialists.
+2025-03-27 23:54:46 - INFO - Consensus found on choice 'C' with 4/5 specialists.
+2025-03-27 23:54:46 - INFO - Consensus reached: C
+2025-03-27 23:54:46 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_10_mistral.json
+2025-03-27 23:54:46 - INFO - Processing row index 11
+2025-03-27 23:54:46 - INFO - InitializerAgent: Identifying specialists.
+2025-03-27 23:54:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:54:54 - INFO - [Cardiologist] Analyzing query...
+2025-03-27 23:54:54 - INFO - [Endocrinologist] Analyzing query...
+2025-03-27 23:54:54 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-27 23:54:54 - INFO - [Geneticist] Analyzing query...
+2025-03-27 23:54:54 - INFO - [Lipidologist] Analyzing query...
+2025-03-27 23:55:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:55:32 - INFO - [Cardiologist] Completed analyze_query.
+2025-03-27 23:55:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:55:34 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-27 23:55:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:55:37 - INFO - [Geneticist] Completed analyze_query.
+2025-03-27 23:58:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 23:58:36 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 00:04:54 - INFO - Retrying request to /chat/completions in 0.475750 seconds
+2025-03-28 00:05:08 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:05:08 - INFO - [Lipidologist] Completed analyze_query.
+2025-03-28 00:05:08 - INFO - [Cardiologist] Debating with other specialists.
+2025-03-28 00:05:08 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-28 00:05:08 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 00:05:08 - INFO - [Geneticist] Debating with other specialists.
+2025-03-28 00:05:08 - INFO - [Lipidologist] Debating with other specialists.
+2025-03-28 00:05:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:05:54 - INFO - [Endocrinologist] Completed debate.
+2025-03-28 00:05:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:05:57 - INFO - [Geneticist] Completed debate.
+2025-03-28 00:06:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:00 - INFO - [Cardiologist] Completed debate.
+2025-03-28 00:06:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:02 - INFO - [Lipidologist] Completed debate.
+2025-03-28 00:06:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:05 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 00:06:05 - INFO - Checking for consensus among specialists.
+2025-03-28 00:06:05 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-28 00:06:05 - INFO - Consensus reached: D
+2025-03-28 00:06:05 - INFO - Processing row index 12
+2025-03-28 00:06:05 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 00:06:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:14 - INFO - [Immunologist] Analyzing query...
+2025-03-28 00:06:14 - INFO - [Pathologist] Analyzing query...
+2025-03-28 00:06:14 - INFO - [Cell Biologist] Analyzing query...
+2025-03-28 00:06:14 - INFO - [Molecular Biologist] Analyzing query...
+2025-03-28 00:06:14 - INFO - [Biochemist] Analyzing query...
+2025-03-28 00:06:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:21 - INFO - [Cell Biologist] Completed analyze_query.
+2025-03-28 00:06:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:43 - INFO - [Molecular Biologist] Completed analyze_query.
+2025-03-28 00:06:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:45 - INFO - [Immunologist] Completed analyze_query.
+2025-03-28 00:06:48 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:06:48 - INFO - [Pathologist] Completed analyze_query.
+2025-03-28 00:16:14 - INFO - Retrying request to /chat/completions in 0.382350 seconds
+2025-03-28 00:16:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:16:26 - INFO - [Biochemist] Completed analyze_query.
+2025-03-28 00:16:26 - INFO - [Immunologist] Debating with other specialists.
+2025-03-28 00:16:26 - INFO - [Pathologist] Debating with other specialists.
+2025-03-28 00:16:26 - INFO - [Cell Biologist] Debating with other specialists.
+2025-03-28 00:16:26 - INFO - [Molecular Biologist] Debating with other specialists.
+2025-03-28 00:16:26 - INFO - [Biochemist] Debating with other specialists.
+2025-03-28 00:16:39 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:16:39 - INFO - [Cell Biologist] Completed debate.
+2025-03-28 00:17:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:02 - INFO - [Immunologist] Completed debate.
+2025-03-28 00:17:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:03 - INFO - [Pathologist] Completed debate.
+2025-03-28 00:17:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:06 - INFO - [Biochemist] Completed debate.
+2025-03-28 00:17:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:06 - INFO - [Molecular Biologist] Completed debate.
+2025-03-28 00:17:06 - INFO - Checking for consensus among specialists.
+2025-03-28 00:17:06 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 00:17:06 - INFO - Consensus reached: A
+2025-03-28 00:17:06 - INFO - Processing row index 13
+2025-03-28 00:17:06 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 00:17:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:15 - INFO - [Biostatistician] Analyzing query...
+2025-03-28 00:17:15 - INFO - [Clinical Research Coordinator] Analyzing query...
+2025-03-28 00:17:15 - INFO - [Urologist] Analyzing query...
+2025-03-28 00:17:15 - INFO - [Oncologist] Analyzing query...
+2025-03-28 00:17:15 - INFO - [Epidemiologist] Analyzing query...
+2025-03-28 00:17:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:41 - INFO - [Epidemiologist] Completed analyze_query.
+2025-03-28 00:17:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:44 - INFO - [Oncologist] Completed analyze_query.
+2025-03-28 00:17:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:47 - INFO - [Clinical Research Coordinator] Completed analyze_query.
+2025-03-28 00:17:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:50 - INFO - [Biostatistician] Completed analyze_query.
+2025-03-28 00:17:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:17:50 - INFO - [Urologist] Completed analyze_query.
+2025-03-28 00:17:50 - INFO - [Biostatistician] Debating with other specialists.
+2025-03-28 00:17:50 - INFO - [Clinical Research Coordinator] Debating with other specialists.
+2025-03-28 00:17:50 - INFO - [Urologist] Debating with other specialists.
+2025-03-28 00:17:50 - INFO - [Oncologist] Debating with other specialists.
+2025-03-28 00:17:50 - INFO - [Epidemiologist] Debating with other specialists.
+2025-03-28 00:18:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:16 - INFO - [Epidemiologist] Completed debate.
+2025-03-28 00:18:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:16 - INFO - [Oncologist] Completed debate.
+2025-03-28 00:18:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:18 - INFO - [Clinical Research Coordinator] Completed debate.
+2025-03-28 00:18:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:21 - INFO - [Urologist] Completed debate.
+2025-03-28 00:18:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:22 - INFO - [Biostatistician] Completed debate.
+2025-03-28 00:18:22 - INFO - Checking for consensus among specialists.
+2025-03-28 00:18:22 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-28 00:18:22 - INFO - Consensus reached: D
+2025-03-28 00:18:22 - INFO - Processing row index 14
+2025-03-28 00:18:22 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 00:18:29 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:29 - INFO - [Neurologist] Analyzing query...
+2025-03-28 00:18:29 - INFO - [Neuropathologist] Analyzing query...
+2025-03-28 00:18:29 - INFO - [Geriatrician] Analyzing query...
+2025-03-28 00:18:29 - INFO - [Pathologist] Analyzing query...
+2025-03-28 00:18:29 - INFO - [Vascular Neurologist] Analyzing query...
+2025-03-28 00:18:55 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:18:55 - INFO - [Vascular Neurologist] Completed analyze_query.
+2025-03-28 00:19:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:19:02 - INFO - [Neurologist] Completed analyze_query.
+2025-03-28 00:19:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:19:02 - INFO - [Pathologist] Completed analyze_query.
+2025-03-28 00:19:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:19:03 - INFO - [Neuropathologist] Completed analyze_query.
+2025-03-28 00:28:30 - INFO - Retrying request to /chat/completions in 0.406915 seconds
+2025-03-28 00:28:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:28:38 - INFO - [Geriatrician] Completed analyze_query.
+2025-03-28 00:28:38 - INFO - [Neurologist] Debating with other specialists.
+2025-03-28 00:28:38 - INFO - [Neuropathologist] Debating with other specialists.
+2025-03-28 00:28:38 - INFO - [Geriatrician] Debating with other specialists.
+2025-03-28 00:28:38 - INFO - [Pathologist] Debating with other specialists.
+2025-03-28 00:28:38 - INFO - [Vascular Neurologist] Debating with other specialists.
+2025-03-28 00:28:59 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:28:59 - INFO - [Vascular Neurologist] Completed debate.
+2025-03-28 00:29:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:09 - INFO - [Geriatrician] Completed debate.
+2025-03-28 00:29:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:12 - INFO - [Neuropathologist] Completed debate.
+2025-03-28 00:29:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:13 - INFO - [Neurologist] Completed debate.
+2025-03-28 00:29:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:16 - INFO - [Pathologist] Completed debate.
+2025-03-28 00:29:16 - INFO - Checking for consensus among specialists.
+2025-03-28 00:29:16 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 00:29:16 - INFO - Consensus reached: A
+2025-03-28 00:29:16 - INFO - Processing row index 15
+2025-03-28 00:29:16 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 00:29:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:21 - INFO - [Endocrinologist] Analyzing query...
+2025-03-28 00:29:21 - INFO - [Pulmonologist] Analyzing query...
+2025-03-28 00:29:21 - INFO - [Oncologist] Analyzing query...
+2025-03-28 00:29:21 - INFO - [Rheumatologist] Analyzing query...
+2025-03-28 00:29:21 - INFO - [Internist] Analyzing query...
+2025-03-28 00:29:52 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:52 - INFO - [Pulmonologist] Completed analyze_query.
+2025-03-28 00:29:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:29:58 - INFO - [Rheumatologist] Completed analyze_query.
+2025-03-28 00:30:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:30:07 - INFO - [Oncologist] Completed analyze_query.
+2025-03-28 00:39:22 - INFO - Retrying request to /chat/completions in 0.489810 seconds
+2025-03-28 00:39:22 - INFO - Retrying request to /chat/completions in 0.392194 seconds
+2025-03-28 00:39:48 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:39:48 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-28 00:49:22 - INFO - Retrying request to /chat/completions in 0.932897 seconds
+2025-03-28 00:49:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:49:36 - INFO - [Internist] Completed analyze_query.
+2025-03-28 00:49:36 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-28 00:49:36 - INFO - [Pulmonologist] Debating with other specialists.
+2025-03-28 00:49:36 - INFO - [Oncologist] Debating with other specialists.
+2025-03-28 00:49:36 - INFO - [Rheumatologist] Debating with other specialists.
+2025-03-28 00:49:36 - INFO - [Internist] Debating with other specialists.
+2025-03-28 00:50:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:10 - INFO - [Endocrinologist] Completed debate.
+2025-03-28 00:50:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:12 - INFO - [Internist] Completed debate.
+2025-03-28 00:50:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:14 - INFO - [Oncologist] Completed debate.
+2025-03-28 00:50:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:14 - INFO - [Pulmonologist] Completed debate.
+2025-03-28 00:50:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:17 - INFO - [Rheumatologist] Completed debate.
+2025-03-28 00:50:17 - INFO - Checking for consensus among specialists.
+2025-03-28 00:50:17 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 00:50:17 - INFO - Consensus reached: A
+2025-03-28 00:50:17 - INFO - Processing row index 16
+2025-03-28 00:50:17 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 00:50:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:26 - INFO - [Neurologist] Analyzing query...
+2025-03-28 00:50:26 - INFO - [Geriatrician] Analyzing query...
+2025-03-28 00:50:26 - INFO - [Pharmacologist] Analyzing query...
+2025-03-28 00:50:26 - INFO - [Movement Disorder Specialist] Analyzing query...
+2025-03-28 00:50:26 - INFO - [Physiatrist] Analyzing query...
+2025-03-28 00:50:59 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:50:59 - INFO - [Geriatrician] Completed analyze_query.
+2025-03-28 00:51:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:51:03 - INFO - [Physiatrist] Completed analyze_query.
+2025-03-28 00:51:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:51:07 - INFO - [Neurologist] Completed analyze_query.
+2025-03-28 00:51:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 00:51:09 - INFO - [Pharmacologist] Completed analyze_query.
+2025-03-28 01:00:26 - INFO - Retrying request to /chat/completions in 0.480940 seconds
+2025-03-28 01:00:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:00:35 - INFO - [Movement Disorder Specialist] Completed analyze_query.
+2025-03-28 01:00:35 - INFO - [Neurologist] Debating with other specialists.
+2025-03-28 01:00:35 - INFO - [Geriatrician] Debating with other specialists.
+2025-03-28 01:00:35 - INFO - [Pharmacologist] Debating with other specialists.
+2025-03-28 01:00:35 - INFO - [Movement Disorder Specialist] Debating with other specialists.
+2025-03-28 01:00:35 - INFO - [Physiatrist] Debating with other specialists.
+2025-03-28 01:01:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:01:15 - INFO - [Neurologist] Completed debate.
+2025-03-28 01:01:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:01:16 - INFO - [Pharmacologist] Completed debate.
+2025-03-28 01:01:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:01:16 - INFO - [Physiatrist] Completed debate.
+2025-03-28 01:01:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:01:18 - INFO - [Geriatrician] Completed debate.
+2025-03-28 01:01:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:01:20 - INFO - [Movement Disorder Specialist] Completed debate.
+2025-03-28 01:01:20 - INFO - Checking for consensus among specialists.
+2025-03-28 01:01:20 - INFO - Consensus found on choice 'C' with 5/5 specialists.
+2025-03-28 01:01:20 - INFO - Consensus reached: C
+2025-03-28 01:01:20 - INFO - Processing row index 17
+2025-03-28 01:01:20 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 01:01:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:01:28 - INFO - [Dermatologist] Analyzing query...
+2025-03-28 01:01:28 - INFO - [Occupational Medicine Specialist] Analyzing query...
+2025-03-28 01:01:28 - INFO - [Allergist/Immunologist] Analyzing query...
+2025-03-28 01:01:28 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-28 01:01:28 - INFO - [Environmental Medicine Specialist] Analyzing query...
+2025-03-28 01:02:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:02:10 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-28 01:02:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:02:18 - INFO - [Occupational Medicine Specialist] Completed analyze_query.
+2025-03-28 01:11:28 - INFO - Retrying request to /chat/completions in 0.460326 seconds
+2025-03-28 01:11:28 - INFO - Retrying request to /chat/completions in 0.442423 seconds
+2025-03-28 01:11:28 - INFO - Retrying request to /chat/completions in 0.452329 seconds
+2025-03-28 01:12:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:12:00 - INFO - [Environmental Medicine Specialist] Completed analyze_query.
+2025-03-28 01:12:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:12:02 - INFO - [Dermatologist] Completed analyze_query.
+2025-03-28 01:21:29 - INFO - Retrying request to /chat/completions in 0.900047 seconds
+2025-03-28 01:21:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:21:42 - INFO - [Allergist/Immunologist] Completed analyze_query.
+2025-03-28 01:21:42 - INFO - [Dermatologist] Debating with other specialists.
+2025-03-28 01:21:42 - INFO - [Occupational Medicine Specialist] Debating with other specialists.
+2025-03-28 01:21:42 - INFO - [Allergist/Immunologist] Debating with other specialists.
+2025-03-28 01:21:42 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-28 01:21:42 - INFO - [Environmental Medicine Specialist] Debating with other specialists.
+2025-03-28 01:22:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:22:18 - INFO - [Dermatologist] Completed debate.
+2025-03-28 01:22:29 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:22:29 - INFO - [Occupational Medicine Specialist] Completed debate.
+2025-03-28 01:22:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:22:30 - INFO - [Environmental Medicine Specialist] Completed debate.
+2025-03-28 01:22:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:22:34 - INFO - [Allergist/Immunologist] Completed debate.
+2025-03-28 01:22:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:22:36 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-28 01:22:36 - INFO - Checking for consensus among specialists.
+2025-03-28 01:22:36 - INFO - Consensus found on choice 'D' with 4/5 specialists.
+2025-03-28 01:22:36 - INFO - Consensus reached: D
+2025-03-28 01:22:36 - INFO - Processing row index 18
+2025-03-28 01:22:36 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 01:22:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:22:41 - INFO - [Pediatrician] Analyzing query...
+2025-03-28 01:22:41 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-28 01:22:41 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-28 01:22:41 - INFO - [Neurologist] Analyzing query...
+2025-03-28 01:22:41 - INFO - [Microbiologist] Analyzing query...
+2025-03-28 01:23:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:23:23 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-28 01:23:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:23:25 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-28 01:23:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:23:26 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 01:23:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:23:28 - INFO - [Neurologist] Completed analyze_query.
+2025-03-28 01:23:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:23:30 - INFO - [Microbiologist] Completed analyze_query.
+2025-03-28 01:23:30 - INFO - [Pediatrician] Debating with other specialists.
+2025-03-28 01:23:30 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-28 01:23:30 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 01:23:30 - INFO - [Neurologist] Debating with other specialists.
+2025-03-28 01:23:30 - INFO - [Microbiologist] Debating with other specialists.
+2025-03-28 01:24:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:12 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 01:24:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:12 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-28 01:24:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:13 - INFO - [Neurologist] Completed debate.
+2025-03-28 01:24:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:13 - INFO - [Microbiologist] Completed debate.
+2025-03-28 01:24:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:14 - INFO - [Pediatrician] Completed debate.
+2025-03-28 01:24:14 - INFO - Checking for consensus among specialists.
+2025-03-28 01:24:14 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-28 01:24:14 - INFO - Consensus reached: B
+2025-03-28 01:24:14 - INFO - Processing row index 19
+2025-03-28 01:24:14 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 01:24:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:20 - INFO - [Primary Care Physician] Analyzing query...
+2025-03-28 01:24:20 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-28 01:24:20 - INFO - [Rheumatologist] Analyzing query...
+2025-03-28 01:24:20 - INFO - [Psychiatrist] Analyzing query...
+2025-03-28 01:24:20 - INFO - [Endocrinologist] Analyzing query...
+2025-03-28 01:24:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:43 - INFO - [Rheumatologist] Completed analyze_query.
+2025-03-28 01:24:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:44 - INFO - [Primary Care Physician] Completed analyze_query.
+2025-03-28 01:24:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:44 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-28 01:24:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:24:45 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-28 01:34:20 - INFO - Retrying request to /chat/completions in 0.426704 seconds
+2025-03-28 01:34:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:34:28 - INFO - [Psychiatrist] Completed analyze_query.
+2025-03-28 01:34:28 - INFO - [Primary Care Physician] Debating with other specialists.
+2025-03-28 01:34:28 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-28 01:34:28 - INFO - [Rheumatologist] Debating with other specialists.
+2025-03-28 01:34:28 - INFO - [Psychiatrist] Debating with other specialists.
+2025-03-28 01:34:28 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-28 01:35:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:35:03 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-28 01:35:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:35:09 - INFO - [Psychiatrist] Completed debate.
+2025-03-28 01:35:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:35:09 - INFO - [Endocrinologist] Completed debate.
+2025-03-28 01:35:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:35:09 - INFO - [Primary Care Physician] Completed debate.
+2025-03-28 01:35:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:35:10 - INFO - [Rheumatologist] Completed debate.
+2025-03-28 01:35:10 - INFO - Checking for consensus among specialists.
+2025-03-28 01:35:10 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-28 01:35:10 - INFO - Consensus reached: B
+2025-03-28 01:35:10 - INFO - Processing row index 20
+2025-03-28 01:35:10 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 01:35:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:35:17 - INFO - [Pediatric Gastroenterologist] Analyzing query...
+2025-03-28 01:35:17 - INFO - [Pediatrician] Analyzing query...
+2025-03-28 01:35:17 - INFO - [Neonatologist] Analyzing query...
+2025-03-28 01:35:17 - INFO - [Hematologist] Analyzing query...
+2025-03-28 01:35:17 - INFO - [Medical Geneticist] Analyzing query...
+2025-03-28 01:36:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:36:05 - INFO - [Neonatologist] Completed analyze_query.
+2025-03-28 01:36:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:36:06 - INFO - [Medical Geneticist] Completed analyze_query.
+2025-03-28 01:36:08 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:36:08 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-28 01:36:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:36:16 - INFO - [Hematologist] Completed analyze_query.
+2025-03-28 01:45:17 - INFO - Retrying request to /chat/completions in 0.440617 seconds
+2025-03-28 01:55:18 - INFO - Retrying request to /chat/completions in 0.904112 seconds
+2025-03-28 01:55:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:55:31 - INFO - [Pediatric Gastroenterologist] Completed analyze_query.
+2025-03-28 01:55:31 - INFO - [Pediatric Gastroenterologist] Debating with other specialists.
+2025-03-28 01:55:31 - INFO - [Pediatrician] Debating with other specialists.
+2025-03-28 01:55:31 - INFO - [Neonatologist] Debating with other specialists.
+2025-03-28 01:55:31 - INFO - [Hematologist] Debating with other specialists.
+2025-03-28 01:55:31 - INFO - [Medical Geneticist] Debating with other specialists.
+2025-03-28 01:56:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:56:16 - INFO - [Neonatologist] Completed debate.
+2025-03-28 01:56:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:56:19 - INFO - [Hematologist] Completed debate.
+2025-03-28 01:56:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:56:24 - INFO - [Pediatric Gastroenterologist] Completed debate.
+2025-03-28 01:56:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:56:25 - INFO - [Pediatrician] Completed debate.
+2025-03-28 01:56:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:56:25 - INFO - [Medical Geneticist] Completed debate.
+2025-03-28 01:56:25 - INFO - Checking for consensus among specialists.
+2025-03-28 01:56:25 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 01:56:25 - INFO - Consensus reached: A
+2025-03-28 01:56:25 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_20_mistral.json
+2025-03-28 01:56:25 - INFO - Processing row index 21
+2025-03-28 01:56:25 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 01:56:33 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:56:33 - INFO - [Cardiologist] Analyzing query...
+2025-03-28 01:56:33 - INFO - [Nephrologist] Analyzing query...
+2025-03-28 01:56:33 - INFO - [Vascular Surgeon] Analyzing query...
+2025-03-28 01:56:33 - INFO - [Endocrinologist] Analyzing query...
+2025-03-28 01:56:33 - INFO - [Radiologist] Analyzing query...
+2025-03-28 01:57:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:57:04 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-28 01:57:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:57:07 - INFO - [Cardiologist] Completed analyze_query.
+2025-03-28 01:57:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:57:15 - INFO - [Radiologist] Completed analyze_query.
+2025-03-28 01:57:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 01:57:15 - INFO - [Vascular Surgeon] Completed analyze_query.
+2025-03-28 02:06:33 - INFO - Retrying request to /chat/completions in 0.417530 seconds
+2025-03-28 02:06:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:06:50 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-28 02:06:50 - INFO - [Cardiologist] Debating with other specialists.
+2025-03-28 02:06:50 - INFO - [Nephrologist] Debating with other specialists.
+2025-03-28 02:06:50 - INFO - [Vascular Surgeon] Debating with other specialists.
+2025-03-28 02:06:50 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-28 02:06:50 - INFO - [Radiologist] Debating with other specialists.
+2025-03-28 02:07:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:07:22 - INFO - [Endocrinologist] Completed debate.
+2025-03-28 02:07:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:07:25 - INFO - [Cardiologist] Completed debate.
+2025-03-28 02:07:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:07:27 - INFO - [Radiologist] Completed debate.
+2025-03-28 02:07:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:07:35 - INFO - [Vascular Surgeon] Completed debate.
+2025-03-28 02:07:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:07:35 - INFO - [Nephrologist] Completed debate.
+2025-03-28 02:07:35 - INFO - Checking for consensus among specialists.
+2025-03-28 02:07:35 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 02:07:35 - INFO - Consensus reached: A
+2025-03-28 02:07:35 - INFO - Processing row index 22
+2025-03-28 02:07:35 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 02:07:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:07:44 - INFO - [Hematologist] Analyzing query...
+2025-03-28 02:07:44 - INFO - [Medical Geneticist] Analyzing query...
+2025-03-28 02:07:44 - INFO - [Pathologist] Analyzing query...
+2025-03-28 02:07:44 - INFO - [Oncologist] Analyzing query...
+2025-03-28 02:07:44 - INFO - [Internal Medicine Physician] Analyzing query...
+2025-03-28 02:08:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:08:22 - INFO - [Pathologist] Completed analyze_query.
+2025-03-28 02:08:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:08:22 - INFO - [Internal Medicine Physician] Completed analyze_query.
+2025-03-28 02:08:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:08:22 - INFO - [Hematologist] Completed analyze_query.
+2025-03-28 02:08:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:08:27 - INFO - [Oncologist] Completed analyze_query.
+2025-03-28 02:08:29 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:08:29 - INFO - [Medical Geneticist] Completed analyze_query.
+2025-03-28 02:08:29 - INFO - [Hematologist] Debating with other specialists.
+2025-03-28 02:08:29 - INFO - [Medical Geneticist] Debating with other specialists.
+2025-03-28 02:08:29 - INFO - [Pathologist] Debating with other specialists.
+2025-03-28 02:08:29 - INFO - [Oncologist] Debating with other specialists.
+2025-03-28 02:08:29 - INFO - [Internal Medicine Physician] Debating with other specialists.
+2025-03-28 02:08:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:08:50 - INFO - [Medical Geneticist] Completed debate.
+2025-03-28 02:09:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:09:02 - INFO - [Pathologist] Completed debate.
+2025-03-28 02:09:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:09:09 - INFO - [Internal Medicine Physician] Completed debate.
+2025-03-28 02:09:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:09:13 - INFO - [Oncologist] Completed debate.
+2025-03-28 02:09:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:09:14 - INFO - [Hematologist] Completed debate.
+2025-03-28 02:09:14 - INFO - Checking for consensus among specialists.
+2025-03-28 02:09:14 - INFO - Consensus found on choice 'E' with 4/5 specialists.
+2025-03-28 02:09:14 - INFO - Consensus reached: E
+2025-03-28 02:09:14 - INFO - Processing row index 23
+2025-03-28 02:09:14 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 02:09:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:09:21 - INFO - [Gastroenterologist] Analyzing query...
+2025-03-28 02:09:21 - INFO - [Gastroenterology Nurse Practitioner] Analyzing query...
+2025-03-28 02:09:21 - INFO - [Gastroenterology Physician Assistant] Analyzing query...
+2025-03-28 02:09:21 - INFO - [General Surgeon] Analyzing query...
+2025-03-28 02:09:21 - INFO - [Pathologist] Analyzing query...
+2025-03-28 02:10:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:10:02 - INFO - [General Surgeon] Completed analyze_query.
+2025-03-28 02:10:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:10:09 - INFO - [Pathologist] Completed analyze_query.
+2025-03-28 02:10:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:10:12 - INFO - [Gastroenterology Nurse Practitioner] Completed analyze_query.
+2025-03-28 02:10:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:10:14 - INFO - [Gastroenterologist] Completed analyze_query.
+2025-03-28 02:19:21 - INFO - Retrying request to /chat/completions in 0.378466 seconds
+2025-03-28 02:19:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:19:34 - INFO - [Gastroenterology Physician Assistant] Completed analyze_query.
+2025-03-28 02:19:34 - INFO - [Gastroenterologist] Debating with other specialists.
+2025-03-28 02:19:34 - INFO - [Gastroenterology Nurse Practitioner] Debating with other specialists.
+2025-03-28 02:19:34 - INFO - [Gastroenterology Physician Assistant] Debating with other specialists.
+2025-03-28 02:19:34 - INFO - [General Surgeon] Debating with other specialists.
+2025-03-28 02:19:34 - INFO - [Pathologist] Debating with other specialists.
+2025-03-28 02:20:22 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:20:22 - INFO - [Gastroenterology Physician Assistant] Completed debate.
+2025-03-28 02:20:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:20:26 - INFO - [General Surgeon] Completed debate.
+2025-03-28 02:20:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:20:31 - INFO - [Gastroenterologist] Completed debate.
+2025-03-28 02:20:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:20:31 - INFO - [Gastroenterology Nurse Practitioner] Completed debate.
+2025-03-28 02:20:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:20:31 - INFO - [Pathologist] Completed debate.
+2025-03-28 02:20:31 - INFO - Checking for consensus among specialists.
+2025-03-28 02:20:31 - INFO - Consensus found on choice 'C' with 5/5 specialists.
+2025-03-28 02:20:31 - INFO - Consensus reached: C
+2025-03-28 02:20:31 - INFO - Processing row index 24
+2025-03-28 02:20:31 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 02:20:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:20:40 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-28 02:20:40 - INFO - [Toxicologist] Analyzing query...
+2025-03-28 02:20:40 - INFO - [Neurologist] Analyzing query...
+2025-03-28 02:20:40 - INFO - [Occupational Health Specialist] Analyzing query...
+2025-03-28 02:20:40 - INFO - [Pulmonologist] Analyzing query...
+2025-03-28 02:21:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:21:11 - INFO - [Neurologist] Completed analyze_query.
+2025-03-28 02:21:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:21:15 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 02:21:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:21:18 - INFO - [Occupational Health Specialist] Completed analyze_query.
+2025-03-28 02:30:40 - INFO - Retrying request to /chat/completions in 0.416494 seconds
+2025-03-28 02:30:40 - INFO - Retrying request to /chat/completions in 0.439996 seconds
+2025-03-28 02:30:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:30:51 - INFO - [Pulmonologist] Completed analyze_query.
+2025-03-28 02:40:41 - INFO - Retrying request to /chat/completions in 0.841556 seconds
+2025-03-28 02:40:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:40:51 - INFO - [Toxicologist] Completed analyze_query.
+2025-03-28 02:40:51 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 02:40:51 - INFO - [Toxicologist] Debating with other specialists.
+2025-03-28 02:40:51 - INFO - [Neurologist] Debating with other specialists.
+2025-03-28 02:40:51 - INFO - [Occupational Health Specialist] Debating with other specialists.
+2025-03-28 02:40:51 - INFO - [Pulmonologist] Debating with other specialists.
+2025-03-28 02:41:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:41:17 - INFO - [Neurologist] Completed debate.
+2025-03-28 02:41:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:41:24 - INFO - [Occupational Health Specialist] Completed debate.
+2025-03-28 02:41:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:41:26 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 02:41:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:41:27 - INFO - [Pulmonologist] Completed debate.
+2025-03-28 02:41:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:41:28 - INFO - [Toxicologist] Completed debate.
+2025-03-28 02:41:28 - INFO - Checking for consensus among specialists.
+2025-03-28 02:41:28 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-28 02:41:28 - INFO - Consensus reached: D
+2025-03-28 02:41:28 - INFO - Processing row index 25
+2025-03-28 02:41:28 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 02:41:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:41:35 - INFO - [Urologist] Analyzing query...
+2025-03-28 02:41:35 - INFO - [Radiologist] Analyzing query...
+2025-03-28 02:41:35 - INFO - [Nephrologist] Analyzing query...
+2025-03-28 02:41:35 - INFO - [Internist] Analyzing query...
+2025-03-28 02:41:35 - INFO - [Gynecologist] Analyzing query...
+2025-03-28 02:42:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:42:09 - INFO - [Radiologist] Completed analyze_query.
+2025-03-28 02:42:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:42:13 - INFO - [Gynecologist] Completed analyze_query.
+2025-03-28 02:42:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:42:15 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-28 02:42:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:42:17 - INFO - [Internist] Completed analyze_query.
+2025-03-28 02:42:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:42:17 - INFO - [Urologist] Completed analyze_query.
+2025-03-28 02:42:17 - INFO - [Urologist] Debating with other specialists.
+2025-03-28 02:42:17 - INFO - [Radiologist] Debating with other specialists.
+2025-03-28 02:42:17 - INFO - [Nephrologist] Debating with other specialists.
+2025-03-28 02:42:17 - INFO - [Internist] Debating with other specialists.
+2025-03-28 02:42:17 - INFO - [Gynecologist] Debating with other specialists.
+2025-03-28 02:42:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:42:54 - INFO - [Nephrologist] Completed debate.
+2025-03-28 02:43:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:02 - INFO - [Urologist] Completed debate.
+2025-03-28 02:43:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:03 - INFO - [Gynecologist] Completed debate.
+2025-03-28 02:43:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:03 - INFO - [Internist] Completed debate.
+2025-03-28 02:43:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:03 - INFO - [Radiologist] Completed debate.
+2025-03-28 02:43:03 - INFO - Checking for consensus among specialists.
+2025-03-28 02:43:03 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-28 02:43:03 - INFO - Consensus reached: D
+2025-03-28 02:43:03 - INFO - Processing row index 26
+2025-03-28 02:43:03 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 02:43:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:12 - INFO - [Gynecologist] Analyzing query...
+2025-03-28 02:43:12 - INFO - [Obstetrician] Analyzing query...
+2025-03-28 02:43:12 - INFO - [Pain Management Specialist] Analyzing query...
+2025-03-28 02:43:13 - INFO - [Endocrinologist] Analyzing query...
+2025-03-28 02:43:13 - INFO - [Pharmacologist] Analyzing query...
+2025-03-28 02:43:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:31 - INFO - [Obstetrician] Completed analyze_query.
+2025-03-28 02:43:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:38 - INFO - [Gynecologist] Completed analyze_query.
+2025-03-28 02:43:39 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:39 - INFO - [Pharmacologist] Completed analyze_query.
+2025-03-28 02:43:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:43:41 - INFO - [Pain Management Specialist] Completed analyze_query.
+2025-03-28 02:53:13 - INFO - Retrying request to /chat/completions in 0.466247 seconds
+2025-03-28 02:53:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:53:26 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-28 02:53:26 - INFO - [Gynecologist] Debating with other specialists.
+2025-03-28 02:53:26 - INFO - [Obstetrician] Debating with other specialists.
+2025-03-28 02:53:26 - INFO - [Pain Management Specialist] Debating with other specialists.
+2025-03-28 02:53:26 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-28 02:53:26 - INFO - [Pharmacologist] Debating with other specialists.
+2025-03-28 02:53:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:53:49 - INFO - [Obstetrician] Completed debate.
+2025-03-28 02:53:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:53:50 - INFO - [Pharmacologist] Completed debate.
+2025-03-28 02:53:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:53:51 - INFO - [Pain Management Specialist] Completed debate.
+2025-03-28 02:53:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:53:54 - INFO - [Gynecologist] Completed debate.
+2025-03-28 02:53:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:53:56 - INFO - [Endocrinologist] Completed debate.
+2025-03-28 02:53:56 - INFO - Checking for consensus among specialists.
+2025-03-28 02:53:56 - INFO - Consensus found on choice 'C' with 5/5 specialists.
+2025-03-28 02:53:56 - INFO - Consensus reached: C
+2025-03-28 02:53:56 - INFO - Processing row index 27
+2025-03-28 02:53:56 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 02:54:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:54:03 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-28 02:54:03 - INFO - [Hematologist] Analyzing query...
+2025-03-28 02:54:03 - INFO - [General Surgeon] Analyzing query...
+2025-03-28 02:54:03 - INFO - [Gastroenterologist] Analyzing query...
+2025-03-28 02:54:03 - INFO - [Addiction Medicine Specialist] Analyzing query...
+2025-03-28 02:54:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:54:45 - INFO - [Addiction Medicine Specialist] Completed analyze_query.
+2025-03-28 02:54:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:54:46 - INFO - [Gastroenterologist] Completed analyze_query.
+2025-03-28 02:54:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:54:47 - INFO - [General Surgeon] Completed analyze_query.
+2025-03-28 02:55:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 02:55:02 - INFO - [Hematologist] Completed analyze_query.
+2025-03-28 03:04:03 - INFO - Retrying request to /chat/completions in 0.457225 seconds
+2025-03-28 03:04:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:04:17 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 03:04:17 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 03:04:17 - INFO - [Hematologist] Debating with other specialists.
+2025-03-28 03:04:17 - INFO - [General Surgeon] Debating with other specialists.
+2025-03-28 03:04:17 - INFO - [Gastroenterologist] Debating with other specialists.
+2025-03-28 03:04:17 - INFO - [Addiction Medicine Specialist] Debating with other specialists.
+2025-03-28 03:04:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:04:58 - INFO - [General Surgeon] Completed debate.
+2025-03-28 03:05:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:05:04 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 03:05:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:05:10 - INFO - [Addiction Medicine Specialist] Completed debate.
+2025-03-28 03:05:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:05:12 - INFO - [Gastroenterologist] Completed debate.
+2025-03-28 03:05:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:05:15 - INFO - [Hematologist] Completed debate.
+2025-03-28 03:05:15 - INFO - Checking for consensus among specialists.
+2025-03-28 03:05:15 - INFO - Consensus found on choice 'A' with 4/5 specialists.
+2025-03-28 03:05:15 - INFO - Consensus reached: A
+2025-03-28 03:05:15 - INFO - Processing row index 28
+2025-03-28 03:05:15 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:05:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:05:23 - INFO - [Pediatric Endocrinologist] Analyzing query...
+2025-03-28 03:05:23 - INFO - [Pediatric Urologist] Analyzing query...
+2025-03-28 03:05:23 - INFO - [Medical Geneticist] Analyzing query...
+2025-03-28 03:05:23 - INFO - [Neonatologist] Analyzing query...
+2025-03-28 03:05:23 - INFO - [Pediatric Gynecologist] Analyzing query...
+2025-03-28 03:06:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:06:09 - INFO - [Neonatologist] Completed analyze_query.
+2025-03-28 03:06:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:06:09 - INFO - [Pediatric Endocrinologist] Completed analyze_query.
+2025-03-28 03:06:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:06:12 - INFO - [Pediatric Urologist] Completed analyze_query.
+2025-03-28 03:06:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:06:17 - INFO - [Medical Geneticist] Completed analyze_query.
+2025-03-28 03:15:23 - INFO - Retrying request to /chat/completions in 0.385510 seconds
+2025-03-28 03:15:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:15:40 - INFO - [Pediatric Gynecologist] Completed analyze_query.
+2025-03-28 03:15:40 - INFO - [Pediatric Endocrinologist] Debating with other specialists.
+2025-03-28 03:15:40 - INFO - [Pediatric Urologist] Debating with other specialists.
+2025-03-28 03:15:40 - INFO - [Medical Geneticist] Debating with other specialists.
+2025-03-28 03:15:40 - INFO - [Neonatologist] Debating with other specialists.
+2025-03-28 03:15:40 - INFO - [Pediatric Gynecologist] Debating with other specialists.
+2025-03-28 03:16:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:16:26 - INFO - [Neonatologist] Completed debate.
+2025-03-28 03:16:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:16:35 - INFO - [Pediatric Urologist] Completed debate.
+2025-03-28 03:16:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:16:35 - INFO - [Medical Geneticist] Completed debate.
+2025-03-28 03:16:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:16:40 - INFO - [Pediatric Endocrinologist] Completed debate.
+2025-03-28 03:16:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:16:42 - INFO - [Pediatric Gynecologist] Completed debate.
+2025-03-28 03:16:42 - INFO - Checking for consensus among specialists.
+2025-03-28 03:16:42 - INFO - No consensus found.
+2025-03-28 03:16:42 - INFO - No consensus reached; enabling aggregator path...
+2025-03-28 03:16:42 - INFO - AggregatorAgent: Aggregating final answer from all specialists' chat history.
+2025-03-28 03:17:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:03 - INFO - Aggregator final choice: E
+2025-03-28 03:17:03 - INFO - Aggregator reasoning: To determine the most likely cause of the intersex findings in this 46,XX newborn, we need to carefully evaluate the reasoning and choices provided by each specialist. Here's a summary of their perspectives and the key points that support or contradict each option:"1. **17α-Hydroxyprogesterone deficiency (A)**: This option is consistently ruled out by all specialists. It is not associated with virilization and is typically linked to a different enzymatic deficiency (21-hydroxylase) that causes congenital adrenal hyperplasia (CAH)."2. **Increased concentration of mullerian-inhibiting substance (B)**: This option is also ruled out by all specialists. Mullerian-inhibiting substance is responsible for the regression of mullerian ducts in males and does not cause virilization in a 46,XX individual."3. **Maternal androgen exposure (C)**: This option is supported by the Pediatric Endocrinologist, Neonatologist, and Pediatric Gynecologist. They argue that exposure to maternal androgens can cause virilization of a female fetus, leading to ambiguous genitalia. However, the Pediatric Urologist and Medical Geneticist point out that this condition is less likely to result in the specific phenotype described (a structure that appears to be a penis with the urethra located at the base near the vagina)."4. **Presence of the sex-determining region Y gene (D)**: This option is ruled out by all specialists. The SRY gene is typically found in males (46,XY) and is responsible for male sex determination. Its presence would not be expected in a 46,XX individual."5. **5α-Reductase deficiency (E)**: This option is supported by the Pediatric Urologist and Medical Geneticist. They argue that this condition can lead to partial masculinization due to the presence of androgens, resulting in a phenotype similar to the one described. However, the Neonatologist and Pediatric Gynecologist point out that this condition typically results in a 46,XY karyotype with undervirilized external genitalia at birth, which can be mistaken for female genitalia. It does not typically cause virilization in a 46,XX individual."After carefully evaluating the reasoning provided by each specialist, the most likely cause of the intersex findings in this 46,XX newborn is **5α-Reductase deficiency (E)**. While maternal androgen exposure (C) is a plausible explanation for virilization in a genetic female, the specific phenotype described (a structure that appears to be a penis with the urethra located at the base near the vagina) is more consistent with 5α-reductase deficiency. This condition can lead to partial masculinization due to the presence of androgens, resulting in a phenotype similar to the one described. The Pediatric Urologist and Medical Geneticist provide the most compelling arguments for this choice, and their expertise in urogenital anomalies and genetic disorders lends credibility to their reasoning. The Neonatologist and Pediatric Gynecologist's concerns about the typical karyotype associated with 5α-reductase deficiency are valid, but the specific phenotype described in this case is more consistent with this condition than with maternal androgen exposure."Final Answer: E: 5α-Reductase deficiency.
+2025-03-28 03:17:03 - INFO - Processing row index 29
+2025-03-28 03:17:03 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:17:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:10 - INFO - [Biostatistician] Analyzing query...
+2025-03-28 03:17:10 - INFO - [Epidemiologist] Analyzing query...
+2025-03-28 03:17:10 - INFO - [Obstetrician] Analyzing query...
+2025-03-28 03:17:10 - INFO - [Surgeon] Analyzing query...
+2025-03-28 03:17:10 - INFO - [Clinical Research Coordinator] Analyzing query...
+2025-03-28 03:17:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:35 - INFO - [Epidemiologist] Completed analyze_query.
+2025-03-28 03:17:42 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:42 - INFO - [Surgeon] Completed analyze_query.
+2025-03-28 03:17:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:43 - INFO - [Obstetrician] Completed analyze_query.
+2025-03-28 03:17:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:44 - INFO - [Clinical Research Coordinator] Completed analyze_query.
+2025-03-28 03:17:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:17:47 - INFO - [Biostatistician] Completed analyze_query.
+2025-03-28 03:17:47 - INFO - [Biostatistician] Debating with other specialists.
+2025-03-28 03:17:47 - INFO - [Epidemiologist] Debating with other specialists.
+2025-03-28 03:17:47 - INFO - [Obstetrician] Debating with other specialists.
+2025-03-28 03:17:47 - INFO - [Surgeon] Debating with other specialists.
+2025-03-28 03:17:47 - INFO - [Clinical Research Coordinator] Debating with other specialists.
+2025-03-28 03:18:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:18:15 - INFO - [Clinical Research Coordinator] Completed debate.
+2025-03-28 03:18:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:18:16 - INFO - [Obstetrician] Completed debate.
+2025-03-28 03:18:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:18:19 - INFO - [Surgeon] Completed debate.
+2025-03-28 03:18:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:18:20 - INFO - [Epidemiologist] Completed debate.
+2025-03-28 03:18:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:18:21 - INFO - [Biostatistician] Completed debate.
+2025-03-28 03:18:21 - INFO - Checking for consensus among specialists.
+2025-03-28 03:18:21 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 03:18:21 - INFO - Consensus reached: A
+2025-03-28 03:18:21 - INFO - Processing row index 30
+2025-03-28 03:18:21 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:18:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:18:27 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-28 03:18:27 - INFO - [Neurosurgeon] Analyzing query...
+2025-03-28 03:18:27 - INFO - [Neurologist] Analyzing query...
+2025-03-28 03:18:27 - INFO - [Orthopedic Surgeon] Analyzing query...
+2025-03-28 03:18:27 - INFO - [Radiologist] Analyzing query...
+2025-03-28 03:19:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:00 - INFO - [Neurosurgeon] Completed analyze_query.
+2025-03-28 03:19:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:00 - INFO - [Radiologist] Completed analyze_query.
+2025-03-28 03:19:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:05 - INFO - [Orthopedic Surgeon] Completed analyze_query.
+2025-03-28 03:19:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:06 - INFO - [Neurologist] Completed analyze_query.
+2025-03-28 03:19:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:07 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 03:19:07 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 03:19:08 - INFO - [Neurosurgeon] Debating with other specialists.
+2025-03-28 03:19:08 - INFO - [Neurologist] Debating with other specialists.
+2025-03-28 03:19:08 - INFO - [Orthopedic Surgeon] Debating with other specialists.
+2025-03-28 03:19:08 - INFO - [Radiologist] Debating with other specialists.
+2025-03-28 03:19:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:54 - INFO - [Radiologist] Completed debate.
+2025-03-28 03:19:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:19:58 - INFO - [Neurologist] Completed debate.
+2025-03-28 03:20:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:20:05 - INFO - [Neurosurgeon] Completed debate.
+2025-03-28 03:20:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:20:06 - INFO - [Orthopedic Surgeon] Completed debate.
+2025-03-28 03:20:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:20:09 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 03:20:09 - INFO - Checking for consensus among specialists.
+2025-03-28 03:20:09 - INFO - No consensus found.
+2025-03-28 03:20:09 - INFO - No consensus reached; enabling aggregator path...
+2025-03-28 03:20:09 - INFO - AggregatorAgent: Aggregating final answer from all specialists' chat history.
+2025-03-28 03:20:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:20:28 - INFO - Aggregator final choice: D
+2025-03-28 03:20:28 - INFO - Aggregator reasoning: To determine the most likely spared function in this patient, we need to carefully analyze the reasoning provided by each specialist and resolve any conflicts. Here's a step-by-step breakdown:"1. **Mechanism of Injury**: All specialists agree that the mechanism of injury (diving into shallow water and striking the forehead) suggests a hyperflexion injury of the cervical spine, which is common in diving accidents."2. **Level of Injury**: The patient's symptoms (immediate neck pain followed by loss of motor and sensory function in the legs) indicate a spinal cord injury, likely at the cervical level. The preservation of muscle function above the level of the injury suggests that the injury is below the level of the cervical enlargement (C4-T1), where the nerve roots innervating the upper extremities exit the spinal cord."3. **Muscle Innervation**: The innervation of the muscles involved is as follows:"   - Elbow extension (Triceps): Innervated by the radial nerve (C6, C7, C8)."   - Elbow flexion (Biceps): Innervated by the musculocutaneous nerve (C5, C6)."   - Finger abduction (Interossei): Innervated by the ulnar nerve (C8, T1)."   - Thumb abduction (Abductor pollicis longus): Innervated by the radial nerve (C7, C8)."   - Wrist flexion (Flexor carpi radialis): Innervated by the median nerve (C6, C7, C8)."4. **Conflict Resolution**: There is a conflict among the specialists regarding the most likely spared function. The Emergency Medicine Physician, Neurosurgeon, and Orthopedic Surgeon all conclude that thumb abduction (D) is the most likely spared function. The Neurologist and Radiologist, however, conclude that elbow flexion (B) is the most likely spared function."5. **Critical Evaluation**: The Neurologist and Radiologist's conclusions are based on the assumption that the injury is at or below C5, which might be too low given the mechanism of injury and the typical level of injury in such cases. The Emergency Medicine Physician, Neurosurgeon, and Orthopedic Surgeon's conclusions are based on the assumption that the injury is at the C5-C6 level, which is more consistent with the mechanism of injury and the symptoms."6. **Final Conclusion**: Given the level of injury and the innervation of the muscles, thumb abduction is the function most likely to be spared. This conclusion is supported by the Emergency Medicine Physician, Neurosurgeon, and Orthopedic Surgeon, who provide a more consistent and detailed analysis of the injury level and muscle innervation."7. **Final Answer**: The most likely spared function is Thumb abduction, which corresponds to option D."
+2025-03-28 03:20:28 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_30_mistral.json
+2025-03-28 03:20:28 - INFO - Processing row index 31
+2025-03-28 03:20:28 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:20:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:20:35 - INFO - [Cardiologist] Analyzing query...
+2025-03-28 03:20:35 - INFO - [Cardiac Surgeon] Analyzing query...
+2025-03-28 03:20:35 - INFO - [Cardiac Pathologist] Analyzing query...
+2025-03-28 03:20:35 - INFO - [Electrophysiologist] Analyzing query...
+2025-03-28 03:20:35 - INFO - [Geriatric Cardiologist] Analyzing query...
+2025-03-28 03:21:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:21:07 - INFO - [Cardiac Surgeon] Completed analyze_query.
+2025-03-28 03:21:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:21:11 - INFO - [Cardiologist] Completed analyze_query.
+2025-03-28 03:21:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:21:17 - INFO - [Geriatric Cardiologist] Completed analyze_query.
+2025-03-28 03:30:35 - INFO - Retrying request to /chat/completions in 0.463096 seconds
+2025-03-28 03:30:35 - INFO - Retrying request to /chat/completions in 0.480657 seconds
+2025-03-28 03:30:48 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:30:48 - INFO - [Electrophysiologist] Completed analyze_query.
+2025-03-28 03:30:50 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:30:50 - INFO - [Cardiac Pathologist] Completed analyze_query.
+2025-03-28 03:30:50 - INFO - [Cardiologist] Debating with other specialists.
+2025-03-28 03:30:50 - INFO - [Cardiac Surgeon] Debating with other specialists.
+2025-03-28 03:30:50 - INFO - [Cardiac Pathologist] Debating with other specialists.
+2025-03-28 03:30:50 - INFO - [Electrophysiologist] Debating with other specialists.
+2025-03-28 03:30:50 - INFO - [Geriatric Cardiologist] Debating with other specialists.
+2025-03-28 03:31:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:31:32 - INFO - [Cardiologist] Completed debate.
+2025-03-28 03:31:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:31:35 - INFO - [Cardiac Pathologist] Completed debate.
+2025-03-28 03:31:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:31:38 - INFO - [Electrophysiologist] Completed debate.
+2025-03-28 03:31:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:31:40 - INFO - [Cardiac Surgeon] Completed debate.
+2025-03-28 03:31:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:31:40 - INFO - [Geriatric Cardiologist] Completed debate.
+2025-03-28 03:31:40 - INFO - Checking for consensus among specialists.
+2025-03-28 03:31:40 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-28 03:31:40 - INFO - Consensus reached: B
+2025-03-28 03:31:40 - INFO - Processing row index 32
+2025-03-28 03:31:40 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:31:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:31:46 - INFO - [Geneticist] Analyzing query...
+2025-03-28 03:31:46 - INFO - [Pediatrician] Analyzing query...
+2025-03-28 03:31:46 - INFO - [Nephrologist] Analyzing query...
+2025-03-28 03:31:46 - INFO - [Pathologist] Analyzing query...
+2025-03-28 03:31:46 - INFO - [Medical Genetic Counselor] Analyzing query...
+2025-03-28 03:32:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:32:24 - INFO - [Medical Genetic Counselor] Completed analyze_query.
+2025-03-28 03:32:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:32:31 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-28 03:32:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:32:36 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-28 03:32:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:32:43 - INFO - [Geneticist] Completed analyze_query.
+2025-03-28 03:41:46 - INFO - Retrying request to /chat/completions in 0.433815 seconds
+2025-03-28 03:41:55 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:41:55 - INFO - [Pathologist] Completed analyze_query.
+2025-03-28 03:41:55 - INFO - [Geneticist] Debating with other specialists.
+2025-03-28 03:41:55 - INFO - [Pediatrician] Debating with other specialists.
+2025-03-28 03:41:55 - INFO - [Nephrologist] Debating with other specialists.
+2025-03-28 03:41:55 - INFO - [Pathologist] Debating with other specialists.
+2025-03-28 03:41:55 - INFO - [Medical Genetic Counselor] Debating with other specialists.
+2025-03-28 03:42:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:42:47 - INFO - [Pathologist] Completed debate.
+2025-03-28 03:42:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:42:51 - INFO - [Pediatrician] Completed debate.
+2025-03-28 03:42:52 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:42:52 - INFO - [Nephrologist] Completed debate.
+2025-03-28 03:42:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:42:53 - INFO - [Geneticist] Completed debate.
+2025-03-28 03:42:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:42:54 - INFO - [Medical Genetic Counselor] Completed debate.
+2025-03-28 03:42:54 - INFO - Checking for consensus among specialists.
+2025-03-28 03:42:54 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-28 03:42:54 - INFO - Consensus reached: B
+2025-03-28 03:42:54 - INFO - Processing row index 33
+2025-03-28 03:42:54 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:43:01 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:43:01 - INFO - [Rheumatologist] Analyzing query...
+2025-03-28 03:43:01 - INFO - [Orthopedic Surgeon] Analyzing query...
+2025-03-28 03:43:01 - INFO - [Geriatrician] Analyzing query...
+2025-03-28 03:43:01 - INFO - [Physical Therapist] Analyzing query...
+2025-03-28 03:43:01 - INFO - [Radiologist] Analyzing query...
+2025-03-28 03:43:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:43:40 - INFO - [Orthopedic Surgeon] Completed analyze_query.
+2025-03-28 03:43:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:43:49 - INFO - [Geriatrician] Completed analyze_query.
+2025-03-28 03:43:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:43:51 - INFO - [Rheumatologist] Completed analyze_query.
+2025-03-28 03:43:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:43:53 - INFO - [Physical Therapist] Completed analyze_query.
+2025-03-28 03:53:01 - INFO - Retrying request to /chat/completions in 0.402121 seconds
+2025-03-28 03:53:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:53:14 - INFO - [Radiologist] Completed analyze_query.
+2025-03-28 03:53:14 - INFO - [Rheumatologist] Debating with other specialists.
+2025-03-28 03:53:14 - INFO - [Orthopedic Surgeon] Debating with other specialists.
+2025-03-28 03:53:14 - INFO - [Geriatrician] Debating with other specialists.
+2025-03-28 03:53:14 - INFO - [Physical Therapist] Debating with other specialists.
+2025-03-28 03:53:14 - INFO - [Radiologist] Debating with other specialists.
+2025-03-28 03:53:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:53:54 - INFO - [Rheumatologist] Completed debate.
+2025-03-28 03:53:55 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:53:55 - INFO - [Physical Therapist] Completed debate.
+2025-03-28 03:53:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:53:56 - INFO - [Orthopedic Surgeon] Completed debate.
+2025-03-28 03:53:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:53:56 - INFO - [Geriatrician] Completed debate.
+2025-03-28 03:53:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:53:56 - INFO - [Radiologist] Completed debate.
+2025-03-28 03:53:56 - INFO - Checking for consensus among specialists.
+2025-03-28 03:53:56 - INFO - Consensus found on choice 'E' with 5/5 specialists.
+2025-03-28 03:53:56 - INFO - Consensus reached: E
+2025-03-28 03:53:56 - INFO - Processing row index 34
+2025-03-28 03:53:56 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 03:54:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:54:05 - INFO - [Urologist] Analyzing query...
+2025-03-28 03:54:05 - INFO - [Nephrologist] Analyzing query...
+2025-03-28 03:54:05 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-28 03:54:05 - INFO - [Radiologist] Analyzing query...
+2025-03-28 03:54:05 - INFO - [Endocrinologist] Analyzing query...
+2025-03-28 03:54:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:54:34 - INFO - [Nephrologist] Completed analyze_query.
+2025-03-28 03:54:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:54:36 - INFO - [Radiologist] Completed analyze_query.
+2025-03-28 03:54:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 03:54:37 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 04:04:05 - INFO - Retrying request to /chat/completions in 0.487007 seconds
+2025-03-28 04:04:05 - INFO - Retrying request to /chat/completions in 0.385083 seconds
+2025-03-28 04:14:06 - INFO - Retrying request to /chat/completions in 0.968508 seconds
+2025-03-28 04:14:06 - INFO - Retrying request to /chat/completions in 0.989964 seconds
+2025-03-28 04:14:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:14:23 - INFO - [Urologist] Completed analyze_query.
+2025-03-28 04:14:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:14:25 - INFO - [Endocrinologist] Completed analyze_query.
+2025-03-28 04:14:25 - INFO - [Urologist] Debating with other specialists.
+2025-03-28 04:14:25 - INFO - [Nephrologist] Debating with other specialists.
+2025-03-28 04:14:25 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 04:14:25 - INFO - [Radiologist] Debating with other specialists.
+2025-03-28 04:14:25 - INFO - [Endocrinologist] Debating with other specialists.
+2025-03-28 04:15:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:02 - INFO - [Endocrinologist] Completed debate.
+2025-03-28 04:15:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:02 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 04:15:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:03 - INFO - [Radiologist] Completed debate.
+2025-03-28 04:15:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:04 - INFO - [Nephrologist] Completed debate.
+2025-03-28 04:15:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:06 - INFO - [Urologist] Completed debate.
+2025-03-28 04:15:06 - INFO - Checking for consensus among specialists.
+2025-03-28 04:15:06 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-28 04:15:06 - INFO - Consensus reached: D
+2025-03-28 04:15:06 - INFO - Processing row index 35
+2025-03-28 04:15:06 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 04:15:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:14 - INFO - [Dermatologist] Analyzing query...
+2025-03-28 04:15:14 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-28 04:15:14 - INFO - [Immunologist] Analyzing query...
+2025-03-28 04:15:14 - INFO - [Geriatrician] Analyzing query...
+2025-03-28 04:15:14 - INFO - [Pain Management Specialist] Analyzing query...
+2025-03-28 04:15:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:36 - INFO - [Immunologist] Completed analyze_query.
+2025-03-28 04:15:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:44 - INFO - [Dermatologist] Completed analyze_query.
+2025-03-28 04:15:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:45 - INFO - [Pain Management Specialist] Completed analyze_query.
+2025-03-28 04:15:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:46 - INFO - [Geriatrician] Completed analyze_query.
+2025-03-28 04:15:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:15:47 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-28 04:15:47 - INFO - [Dermatologist] Debating with other specialists.
+2025-03-28 04:15:47 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-28 04:15:47 - INFO - [Immunologist] Debating with other specialists.
+2025-03-28 04:15:47 - INFO - [Geriatrician] Debating with other specialists.
+2025-03-28 04:15:47 - INFO - [Pain Management Specialist] Debating with other specialists.
+2025-03-28 04:16:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:12 - INFO - [Immunologist] Completed debate.
+2025-03-28 04:16:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:16 - INFO - [Pain Management Specialist] Completed debate.
+2025-03-28 04:16:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:18 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-28 04:16:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:21 - INFO - [Geriatrician] Completed debate.
+2025-03-28 04:16:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:21 - INFO - [Dermatologist] Completed debate.
+2025-03-28 04:16:21 - INFO - Checking for consensus among specialists.
+2025-03-28 04:16:21 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 04:16:21 - INFO - Consensus reached: A
+2025-03-28 04:16:21 - INFO - Processing row index 36
+2025-03-28 04:16:21 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 04:16:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:27 - INFO - [General Surgeon] Analyzing query...
+2025-03-28 04:16:27 - INFO - [Trauma Surgeon] Analyzing query...
+2025-03-28 04:16:27 - INFO - [Gastroenterologist] Analyzing query...
+2025-03-28 04:16:27 - INFO - [Pediatric Surgeon] Analyzing query...
+2025-03-28 04:16:27 - INFO - [Embryologist] Analyzing query...
+2025-03-28 04:16:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:47 - INFO - [Gastroenterologist] Completed analyze_query.
+2025-03-28 04:16:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:49 - INFO - [Trauma Surgeon] Completed analyze_query.
+2025-03-28 04:16:52 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:52 - INFO - [Pediatric Surgeon] Completed analyze_query.
+2025-03-28 04:16:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:53 - INFO - [Embryologist] Completed analyze_query.
+2025-03-28 04:16:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:16:53 - INFO - [General Surgeon] Completed analyze_query.
+2025-03-28 04:16:53 - INFO - [General Surgeon] Debating with other specialists.
+2025-03-28 04:16:53 - INFO - [Trauma Surgeon] Debating with other specialists.
+2025-03-28 04:16:53 - INFO - [Gastroenterologist] Debating with other specialists.
+2025-03-28 04:16:53 - INFO - [Pediatric Surgeon] Debating with other specialists.
+2025-03-28 04:16:53 - INFO - [Embryologist] Debating with other specialists.
+2025-03-28 04:17:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:17:11 - INFO - [General Surgeon] Completed debate.
+2025-03-28 04:17:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:17:15 - INFO - [Trauma Surgeon] Completed debate.
+2025-03-28 04:17:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:17:15 - INFO - [Gastroenterologist] Completed debate.
+2025-03-28 04:17:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:17:16 - INFO - [Pediatric Surgeon] Completed debate.
+2025-03-28 04:17:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:17:16 - INFO - [Embryologist] Completed debate.
+2025-03-28 04:17:16 - INFO - Checking for consensus among specialists.
+2025-03-28 04:17:16 - INFO - Consensus found on choice 'E' with 5/5 specialists.
+2025-03-28 04:17:16 - INFO - Consensus reached: E
+2025-03-28 04:17:16 - INFO - Processing row index 37
+2025-03-28 04:17:16 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 04:17:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:17:24 - INFO - [Infectious Disease Specialist] Analyzing query...
+2025-03-28 04:17:24 - INFO - [Epidemiologist] Analyzing query...
+2025-03-28 04:17:24 - INFO - [Pediatrician] Analyzing query...
+2025-03-28 04:17:24 - INFO - [Otolaryngologist] Analyzing query...
+2025-03-28 04:17:24 - INFO - [Microbiologist] Analyzing query...
+2025-03-28 04:18:01 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:18:01 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-28 04:18:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:18:03 - INFO - [Microbiologist] Completed analyze_query.
+2025-03-28 04:18:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:18:04 - INFO - [Infectious Disease Specialist] Completed analyze_query.
+2025-03-28 04:27:24 - INFO - Retrying request to /chat/completions in 0.422709 seconds
+2025-03-28 04:27:24 - INFO - Retrying request to /chat/completions in 0.460682 seconds
+2025-03-28 04:27:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:27:44 - INFO - [Otolaryngologist] Completed analyze_query.
+2025-03-28 04:27:44 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:27:44 - INFO - [Epidemiologist] Completed analyze_query.
+2025-03-28 04:27:44 - INFO - [Infectious Disease Specialist] Debating with other specialists.
+2025-03-28 04:27:44 - INFO - [Epidemiologist] Debating with other specialists.
+2025-03-28 04:27:44 - INFO - [Pediatrician] Debating with other specialists.
+2025-03-28 04:27:44 - INFO - [Otolaryngologist] Debating with other specialists.
+2025-03-28 04:27:44 - INFO - [Microbiologist] Debating with other specialists.
+2025-03-28 04:28:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:28:16 - INFO - [Microbiologist] Completed debate.
+2025-03-28 04:28:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:28:24 - INFO - [Epidemiologist] Completed debate.
+2025-03-28 04:28:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:28:24 - INFO - [Infectious Disease Specialist] Completed debate.
+2025-03-28 04:28:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:28:25 - INFO - [Pediatrician] Completed debate.
+2025-03-28 04:28:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:28:26 - INFO - [Otolaryngologist] Completed debate.
+2025-03-28 04:28:26 - INFO - Checking for consensus among specialists.
+2025-03-28 04:28:26 - INFO - Consensus found on choice 'D' with 5/5 specialists.
+2025-03-28 04:28:26 - INFO - Consensus reached: D
+2025-03-28 04:28:26 - INFO - Processing row index 38
+2025-03-28 04:28:26 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 04:28:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:28:35 - INFO - [Emergency Medicine Specialist] Analyzing query...
+2025-03-28 04:28:35 - INFO - [Allergist/Immunologist] Analyzing query...
+2025-03-28 04:28:35 - INFO - [Cardiologist] Analyzing query...
+2025-03-28 04:28:35 - INFO - [Pharmacologist] Analyzing query...
+2025-03-28 04:28:35 - INFO - [Veterans Health Specialist] Analyzing query...
+2025-03-28 04:29:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:29:06 - INFO - [Veterans Health Specialist] Completed analyze_query.
+2025-03-28 04:29:08 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:29:08 - INFO - [Emergency Medicine Specialist] Completed analyze_query.
+2025-03-28 04:29:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:29:15 - INFO - [Pharmacologist] Completed analyze_query.
+2025-03-28 04:29:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:29:15 - INFO - [Allergist/Immunologist] Completed analyze_query.
+2025-03-28 04:38:35 - INFO - Retrying request to /chat/completions in 0.424010 seconds
+2025-03-28 04:38:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:38:47 - INFO - [Cardiologist] Completed analyze_query.
+2025-03-28 04:38:47 - INFO - [Emergency Medicine Specialist] Debating with other specialists.
+2025-03-28 04:38:47 - INFO - [Allergist/Immunologist] Debating with other specialists.
+2025-03-28 04:38:47 - INFO - [Cardiologist] Debating with other specialists.
+2025-03-28 04:38:47 - INFO - [Pharmacologist] Debating with other specialists.
+2025-03-28 04:38:47 - INFO - [Veterans Health Specialist] Debating with other specialists.
+2025-03-28 04:39:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:39:23 - INFO - [Veterans Health Specialist] Completed debate.
+2025-03-28 04:39:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:39:23 - INFO - [Emergency Medicine Specialist] Completed debate.
+2025-03-28 04:39:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:39:28 - INFO - [Pharmacologist] Completed debate.
+2025-03-28 04:39:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:39:31 - INFO - [Cardiologist] Completed debate.
+2025-03-28 04:39:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:39:31 - INFO - [Allergist/Immunologist] Completed debate.
+2025-03-28 04:39:31 - INFO - Checking for consensus among specialists.
+2025-03-28 04:39:31 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 04:39:31 - INFO - Consensus reached: A
+2025-03-28 04:39:31 - INFO - Processing row index 39
+2025-03-28 04:39:31 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 04:39:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:39:40 - INFO - [Hematologist] Analyzing query...
+2025-03-28 04:39:40 - INFO - [Oncologist] Analyzing query...
+2025-03-28 04:39:40 - INFO - [Medical Geneticist] Analyzing query...
+2025-03-28 04:39:40 - INFO - [Pathologist] Analyzing query...
+2025-03-28 04:39:40 - INFO - [Internal Medicine Physician] Analyzing query...
+2025-03-28 04:40:07 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:40:07 - INFO - [Medical Geneticist] Completed analyze_query.
+2025-03-28 04:40:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:40:17 - INFO - [Internal Medicine Physician] Completed analyze_query.
+2025-03-28 04:40:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:40:24 - INFO - [Pathologist] Completed analyze_query.
+2025-03-28 04:49:40 - INFO - Retrying request to /chat/completions in 0.397807 seconds
+2025-03-28 04:49:40 - INFO - Retrying request to /chat/completions in 0.393116 seconds
+2025-03-28 04:49:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:49:57 - INFO - [Oncologist] Completed analyze_query.
+2025-03-28 04:49:59 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:49:59 - INFO - [Hematologist] Completed analyze_query.
+2025-03-28 04:49:59 - INFO - [Hematologist] Debating with other specialists.
+2025-03-28 04:49:59 - INFO - [Oncologist] Debating with other specialists.
+2025-03-28 04:49:59 - INFO - [Medical Geneticist] Debating with other specialists.
+2025-03-28 04:49:59 - INFO - [Pathologist] Debating with other specialists.
+2025-03-28 04:49:59 - INFO - [Internal Medicine Physician] Debating with other specialists.
+2025-03-28 04:50:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:50:31 - INFO - [Oncologist] Completed debate.
+2025-03-28 04:50:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:50:36 - INFO - [Hematologist] Completed debate.
+2025-03-28 04:50:40 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:50:40 - INFO - [Internal Medicine Physician] Completed debate.
+2025-03-28 04:50:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:50:41 - INFO - [Medical Geneticist] Completed debate.
+2025-03-28 04:50:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:50:45 - INFO - [Pathologist] Completed debate.
+2025-03-28 04:50:45 - INFO - Checking for consensus among specialists.
+2025-03-28 04:50:45 - INFO - Consensus found on choice 'B' with 5/5 specialists.
+2025-03-28 04:50:45 - INFO - Consensus reached: B
+2025-03-28 04:50:45 - INFO - Processing row index 40
+2025-03-28 04:50:45 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 04:50:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:50:53 - INFO - [Pediatric Gastroenterologist] Analyzing query...
+2025-03-28 04:50:53 - INFO - [Pediatric Pulmonologist] Analyzing query...
+2025-03-28 04:50:53 - INFO - [Pediatric Endocrinologist] Analyzing query...
+2025-03-28 04:50:53 - INFO - [Pediatric Infectious Disease Specialist] Analyzing query...
+2025-03-28 04:50:53 - INFO - [Pediatric Geneticist] Analyzing query...
+2025-03-28 04:51:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:51:21 - INFO - [Pediatric Gastroenterologist] Completed analyze_query.
+2025-03-28 04:51:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:51:36 - INFO - [Pediatric Pulmonologist] Completed analyze_query.
+2025-03-28 04:51:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 04:51:38 - INFO - [Pediatric Endocrinologist] Completed analyze_query.
+2025-03-28 05:00:53 - INFO - Retrying request to /chat/completions in 0.382091 seconds
+2025-03-28 05:00:53 - INFO - Retrying request to /chat/completions in 0.377785 seconds
+2025-03-28 05:01:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:01:12 - INFO - [Pediatric Geneticist] Completed analyze_query.
+2025-03-28 05:01:14 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:01:14 - INFO - [Pediatric Infectious Disease Specialist] Completed analyze_query.
+2025-03-28 05:01:14 - INFO - [Pediatric Gastroenterologist] Debating with other specialists.
+2025-03-28 05:01:14 - INFO - [Pediatric Pulmonologist] Debating with other specialists.
+2025-03-28 05:01:14 - INFO - [Pediatric Endocrinologist] Debating with other specialists.
+2025-03-28 05:01:14 - INFO - [Pediatric Infectious Disease Specialist] Debating with other specialists.
+2025-03-28 05:01:14 - INFO - [Pediatric Geneticist] Debating with other specialists.
+2025-03-28 05:01:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:01:57 - INFO - [Pediatric Infectious Disease Specialist] Completed debate.
+2025-03-28 05:01:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:01:57 - INFO - [Pediatric Geneticist] Completed debate.
+2025-03-28 05:02:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:02 - INFO - [Pediatric Gastroenterologist] Completed debate.
+2025-03-28 05:02:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:03 - INFO - [Pediatric Pulmonologist] Completed debate.
+2025-03-28 05:02:03 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:03 - INFO - [Pediatric Endocrinologist] Completed debate.
+2025-03-28 05:02:03 - INFO - Checking for consensus among specialists.
+2025-03-28 05:02:03 - INFO - Consensus found on choice 'A' with 5/5 specialists.
+2025-03-28 05:02:03 - INFO - Consensus reached: A
+2025-03-28 05:02:03 - INFO - Saved aggregated results to /home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_40_mistral.json
+2025-03-28 05:02:03 - INFO - Processing row index 41
+2025-03-28 05:02:03 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 05:02:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:11 - INFO - [Trauma Surgeon] Analyzing query...
+2025-03-28 05:02:11 - INFO - [Orthopedic Surgeon] Analyzing query...
+2025-03-28 05:02:11 - INFO - [Neurologist] Analyzing query...
+2025-03-28 05:02:11 - INFO - [Physical Medicine and Rehabilitation Physician] Analyzing query...
+2025-03-28 05:02:11 - INFO - [Emergency Medicine Physician] Analyzing query...
+2025-03-28 05:02:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:41 - INFO - [Orthopedic Surgeon] Completed analyze_query.
+2025-03-28 05:02:47 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:47 - INFO - [Emergency Medicine Physician] Completed analyze_query.
+2025-03-28 05:02:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:49 - INFO - [Physical Medicine and Rehabilitation Physician] Completed analyze_query.
+2025-03-28 05:02:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:49 - INFO - [Trauma Surgeon] Completed analyze_query.
+2025-03-28 05:02:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:02:51 - INFO - [Neurologist] Completed analyze_query.
+2025-03-28 05:02:51 - INFO - [Trauma Surgeon] Debating with other specialists.
+2025-03-28 05:02:51 - INFO - [Orthopedic Surgeon] Debating with other specialists.
+2025-03-28 05:02:51 - INFO - [Neurologist] Debating with other specialists.
+2025-03-28 05:02:51 - INFO - [Physical Medicine and Rehabilitation Physician] Debating with other specialists.
+2025-03-28 05:02:51 - INFO - [Emergency Medicine Physician] Debating with other specialists.
+2025-03-28 05:03:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:03:12 - INFO - [Orthopedic Surgeon] Completed debate.
+2025-03-28 05:03:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:03:16 - INFO - [Emergency Medicine Physician] Completed debate.
+2025-03-28 05:03:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:03:19 - INFO - [Neurologist] Completed debate.
+2025-03-28 05:03:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:03:21 - INFO - [Physical Medicine and Rehabilitation Physician] Completed debate.
+2025-03-28 05:03:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:03:21 - INFO - [Trauma Surgeon] Completed debate.
+2025-03-28 05:03:21 - INFO - Checking for consensus among specialists.
+2025-03-28 05:03:21 - INFO - Consensus found on choice 'C' with 5/5 specialists.
+2025-03-28 05:03:21 - INFO - Consensus reached: C
+2025-03-28 05:03:21 - INFO - Processing row index 42
+2025-03-28 05:03:21 - INFO - InitializerAgent: Identifying specialists.
+2025-03-28 05:03:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:03:30 - INFO - [Hematologist] Analyzing query...
+2025-03-28 05:03:30 - INFO - [Pediatric Hematologist] Analyzing query...
+2025-03-28 05:03:30 - INFO - [Pediatrician] Analyzing query...
+2025-03-28 05:03:30 - INFO - [Clinical Pathologist] Analyzing query...
+2025-03-28 05:03:30 - INFO - [Geneticist] Analyzing query...
+2025-03-28 05:04:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:04:12 - INFO - [Pediatric Hematologist] Completed analyze_query.
+2025-03-28 05:04:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:04:15 - INFO - [Hematologist] Completed analyze_query.
+2025-03-28 05:04:20 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:04:20 - INFO - [Pediatrician] Completed analyze_query.
+2025-03-28 05:13:30 - INFO - Retrying request to /chat/completions in 0.447750 seconds
+2025-03-28 05:13:30 - INFO - Retrying request to /chat/completions in 0.397551 seconds
+2025-03-28 05:13:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-28 05:13:56 - INFO - [Geneticist] Completed analyze_query.
+2025-03-28 05:23:31 - INFO - Retrying request to /chat/completions in 0.883117 seconds

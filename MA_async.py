@@ -14,16 +14,7 @@ import demjson3
 
 logger = logging.getLogger(__name__)
 
-# ------------------------
-# AGENTS & HELPERS
-# ------------------------
 def safe_json_load(s: str) -> Any:
-    """
-    Attempts to parse a JSON string using the standard json.loads.
-    If that fails (e.g. due to an unterminated string), it will try using
-    a more forgiving parser (demjson3). If both attempts fail,
-    the original string is returned.
-    """
     try:
         return json.loads(s)
     except json.JSONDecodeError as e:

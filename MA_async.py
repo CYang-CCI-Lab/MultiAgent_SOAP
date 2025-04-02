@@ -42,8 +42,8 @@ class LLMAgent:
         logger.debug(f"LLMAgent.llm_call() - user_prompt[:60]: {user_prompt[:60]}...")
         self.messages.append({"role": "user", "content": user_prompt})
         params = {
-            # "model": "meta-llama/Llama-3.3-70B-Instruct",
-            "model": '/secure_net/hf_model_cache/models--mistralai--Mistral-Small-24B-Instruct-2501/snapshots/20b2ed1c4e9af44b9ad125f79f713301e27737e2',
+            "model": "meta-llama/Llama-3.3-70B-Instruct",
+            # "model": '/secure_net/hf_model_cache/models--mistralai--Mistral-Small-24B-Instruct-2501/snapshots/20b2ed1c4e9af44b9ad125f79f713301e27737e2',
             "messages": self.messages,
             "temperature": 0.3,
         }
@@ -457,13 +457,13 @@ async def main():
         results.append(result_dict)
 
         if idx % 10 == 0:
-            output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_{idx}_mistral.json"
+            output_json_path = f"/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/test{idx}_mistral.json"
             with open(output_json_path, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
             logger.info(f"Saved aggregated results to {output_json_path}")
 
     # OPTIONAL: Save results to JSON
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/merged_final_mistral.json"
+    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/MedicalQA/test.json"
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     logger.info(f"Saved aggregated results to {output_json_path}")

@@ -1701,3 +1701,42 @@
 2025-03-28 05:13:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
 2025-03-28 05:13:56 - INFO - [Geneticist] Completed analyze_query.
 2025-03-28 05:23:31 - INFO - Retrying request to /chat/completions in 0.883117 seconds
+2025-04-01 00:04:51 - INFO - ===== MAIN START =====
+2025-04-01 00:04:51 - INFO - Loaded dataframe with 284 rows.
+2025-04-01 00:04:51 - INFO - Processing row index 0
+2025-04-01 00:04:51 - INFO - InitializerAgent: Identifying specialists.
+2025-04-01 00:05:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:05:10 - INFO - [Biostatistician] Analyzing query...
+2025-04-01 00:05:10 - INFO - [Epidemiologist] Analyzing query...
+2025-04-01 00:05:10 - INFO - [Clinical Chemist] Analyzing query...
+2025-04-01 00:05:10 - INFO - [Public Health Specialist] Analyzing query...
+2025-04-01 00:05:10 - INFO - [Mathematical Modeler] Analyzing query...
+2025-04-01 00:05:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-01 00:05:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-01 00:05:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-01 00:05:10 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-01 00:15:28 - INFO - ===== MAIN START =====
+2025-04-01 00:15:28 - INFO - Loaded dataframe with 284 rows.
+2025-04-01 00:15:28 - INFO - Processing row index 0
+2025-04-01 00:15:28 - INFO - InitializerAgent: Identifying specialists.
+2025-04-01 00:15:51 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:15:51 - INFO - [Biostatistician] Analyzing query...
+2025-04-01 00:15:51 - INFO - [Epidemiologist] Analyzing query...
+2025-04-01 00:15:51 - INFO - [Clinical Chemist] Analyzing query...
+2025-04-01 00:15:51 - INFO - [Cardiologist] Analyzing query...
+2025-04-01 00:15:51 - INFO - [Public Health Specialist] Analyzing query...
+2025-04-01 00:16:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:18 - INFO - [Epidemiologist] Completed analyze_query.
+2025-04-01 00:16:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:18 - INFO - [Public Health Specialist] Completed analyze_query.
+2025-04-01 00:16:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:24 - INFO - [Clinical Chemist] Completed analyze_query.
+2025-04-01 00:16:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:26 - INFO - [Biostatistician] Completed analyze_query.
+2025-04-01 00:16:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:28 - INFO - [Cardiologist] Completed analyze_query.
+2025-04-01 00:16:28 - INFO - [Biostatistician] Debating with other specialists.
+2025-04-01 00:16:28 - INFO - [Epidemiologist] Debating with other specialists.
+2025-04-01 00:16:28 - INFO - [Clinical Chemist] Debating with other specialists.
+2025-04-01 00:16:28 - INFO - [Cardiologist] Debating with other specialists.
+2025-04-01 00:16:28 - INFO - [Public Health Specialist] Debating with other specialists.

@@ -1,0 +1,715 @@
+File ID,Assessment,Summary,Subjective,Objective,Summary_lemma,Summary_expanded,Summary_umls,Summary_lemma_umls,Summary_expanded_umls,cleaned_expanded_Summary,terms,hypertension,acute renal failure,atrial fibrillation,anemia,coronary artery disease,hypotension,altered mental status,respiratory failure,diabetes mellitus,leukocytosis,is_anemia_baseline,is_anemia_baseline_reasoning,is_anemia_ltm,is_anemia_ltm_reasoning
+101616.txt,"67 y/o M CAD s/[**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Last Name (Prefixes) **] stent [**2169-11-15**] with recent cecum polypectomy
+   who presents with bright red blood per rectum and hypotension following
+   prep.
+   .",Lower GI bleed; Hypotension; CAD,"COLONOSCOPY - At [**2171-1-25**] 12:31 PM
+- Colonoscopy: ulceration with 2 visible vessels at prior polypectomy
+site. 2 clips placed for hemostasis; small rectal ulcers; grade 2
+internal hemorrhoids
+- GI recs: c/w clear liquids x 1 day; no plavix/ASA x 48 hrs; c/w
+following Hcts
+- Hct: 34.4 -> 34.1 -> 33.7
+- Plt: 127 -> 122 -> 115
+- [**Hospital 1303**] Hosp records obtained to clarify iodine allergy:
+""   Only mentions lumbar myelogram on [**2155-9-19**]: """"the patient tolerated the""
+""   procedure well.""""""
+History obtained from Patient
+History obtained from PatientIodine; Iodine Containing
+severe leg pain
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Infusions:
+Other ICU medications:
+Midazolam (Versed) - [**2171-1-25**] 01:40 PM
+Fentanyl - [**2171-1-25**] 01:45 PM
+Other medications:
+Flowsheet Data as of  [**2171-1-26**] 07:17 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since [**72**] AM
+Tmax: 37
+C (98.6
+Tcurrent: 35.8
+C (96.5
+HR: 53 (45 - 88) bpm
+BP: 157/65(85) {120/55(71) - 157/96(103)} mmHg
+RR: 17 (8 - 22) insp/min
+SpO2: 93%
+Heart rhythm: SB (Sinus Bradycardia)
+Height: 68 Inch
+Total In:
+1,861 mL
+PO:
+1,150 mL
+TF:
+IVF:
+40 mL
+Blood products:
+671 mL
+Total out:
+1,000 mL
+800 mL
+Urine:
+1,000 mL
+800 mL
+NG:
+Stool:
+Drains:
+Balance:
+861 mL
+-800 mL
+Respiratory support
+O2 Delivery Device: None
+SpO2: 93%
+ABG: ///25/
+General Appearance: Well nourished, No acute distress
+Cardiovascular: (PMI Normal), (S1: Normal), (S2: Normal)
+Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+Present), (Right DP pulse: Present), (Left DP pulse: Present)
+Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+Abdominal: Soft, Non-tender, Bowel sounds present
+Extremities: Right lower extremity edema: Absent, Left lower extremity
+edema: Absent
+Skin:  Warm
+Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+stimuli, Oriented (to): x3, Movement: Purposeful, Tone: Normal
+111 K/uL
+11.8 g/dL
+95 mg/dL
+0.9 mg/dL
+25 mEq/L
+3.8 mEq/L
+10 mg/dL
+113 mEq/L
+143 mEq/L
+34.0 %
+5.8 K/uL
+[image002.jpg]
+[**2171-1-25**]  04:23 AM
+[**2171-1-25**]  07:44 AM
+[**2171-1-25**]  01:29 PM
+[**2171-1-25**]  09:14 PM
+[**2171-1-26**]  05:30 AM
+WBC
+9.4
+6.3
+6.4
+5.8
+Hct
+35.7
+34.4
+34.1
+33.7
+34.0
+Plt
+127
+122
+115
+111
+Cr
+1.0
+0.9
+Glucose
+102
+95
+Other labs: PT / PTT / INR:12.6/25.6/1.1, ALT / AST:16/25, Alk Phos / T
+Bili:43/2.5, LDH:297 IU/L, Ca++:7.9 mg/dL, Mg++:2.1 mg/dL, PO4:2.4
+mg/dL
+Imaging: [**1-25**] Colonoscopy: Ulcer in the colon (endoclip)
+Ulcers in the rectum
+Grade 2 internal hemorrhoids
+Otherwise normal colonoscopy to cecum",low gi bleed ; hypotension ; cad,Lower Gastrointestinal bleed; Hypotension; Coronary Artery Disease,Lower GI bleeding;Hypotension NEC,hypotensive;gi bleed,Coronary Artery Disease;Gastrointestinal bleed,lower gastrointestinal bleed; hypotension; coronary artery disease,"['lower gastrointestinal bleed', 'hypotension', 'coronary artery disease']",False,False,False,False,True,True,False,False,False,False,True,"To determine if the patient is diagnosed with anemia, we need to analyze the provided subjective and objective information. Anemia is typically characterized by a decrease in the number of red blood cells or the amount of hemoglobin in the blood. The patient's history and recent colonoscopy results show ulceration with visible vessels at a prior polypectomy site, which could indicate a source of bleeding. The patient's hemoglobin (Hct) levels have been monitored and show a trend: 34.4 -> 34.1 -> 33.7, which indicates a decrease in hemoglobin levels over time. Additionally, the platelet count (Plt) has also decreased: 127 -> 122 -> 115. The most recent hemoglobin level is 34.0%, which is below the normal range for adults (typically, the normal range for men is approximately 40.7% to 50.3%, and for women, it's about 36.1% to 48.3%). The patient's symptoms and laboratory results, including the decrease in hemoglobin and platelet count, suggest a diagnosis of anemia. Furthermore, the patient's recent procedure and the presence of ulcers and internal hemorrhoids could be contributing to blood loss, which supports the diagnosis of anemia.",True,"To diagnose anemia, we need to consider the patient's symptoms, medical history, laboratory results, and other relevant information. The patient's colonoscopy results show ulceration with 2 visible vessels at the prior polypectomy site, and 2 clips were placed for hemostasis. The patient also has a history of severe leg pain and is being treated with clear liquids and no Plavix/ASA for 48 hours. The laboratory results show a decrease in hematocrit (Hct) levels over time (34.4 -> 34.1 -> 33.7) and a decrease in platelet (Plt) count (127 -> 122 -> 115). The patient's vital signs are mostly within normal limits, but the heart rate is slightly low (53 bpm). The patient's hemoglobin level is 11.8 g/dL, which is below the normal range. According to the long-term memory, a low hemoglobin level is a key indicator of anemia. Additionally, the patient's Hct levels are decreasing over time, which may indicate anemia due to blood loss. The presence of blood clots and the need for hemostasis may also suggest underlying bleeding vessels contributing to anemia. Considering these factors, it is likely that the patient is experiencing anemia due to blood loss from the colonoscopy procedure and underlying gastrointestinal bleeding."
+102486.txt,"81F with h/o chronic eosinophilic lung disease, COPD, diastolic CHF,
+   and recent admission for MSSA and pan-sensitive Pseudomonas PNA who
+   presents with fevers, right sided pleuritic chest pain and found to
+   have extensive R sided PE on imaging.","PULMONARY EMBOLISM; FEVER; HYPOTENSION; OLIGURIA; NON-GAP ACIDOSIS; HISTORY OF EOSINOPHILIC LUNG DISEASE; DEEP VENOUS THROMBOSIS (DVT), LOWER EXTREMITY; H/O CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD, BRONCHITIS,
+   EMPHYSEMA) WITH ACUTE EXACERBATION; HEART FAILURE (CHF), DIASTOLIC, CHRONIC","Pleuritic right chest pain
+- patient started on coumadin
+- [** 949**] briefly decreased (although unclear whether this was due to
+accidental foley removal), [** 949**] responded appropriately to 500 ml LR
+bolus with [** 949**] 60-70 cc
+s per hour this am
+- patient briefly developed non-gap acidosis with bicarb of 19,
+resolved with substitution of LR for NS for fluid boluses
+S: The patient is feeling well.  Her chest pain has entirely resolved.
+She continues to have dry-mouth as well as her baseline amount of cough
+and shortness or breath.  She has not had N/V diarrhea.  No pain or
+swelling in her legs.
+Losartan
+angioedema/lip
+Lisinopril (Oral)
+Cough;
+Penicillins
+itching;
+Flagyl (Oral) (Metronidazole)
+Wheezing;
+Ultram (Oral) (Tramadol Hcl)
+Rash;
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Ciprofloxacin - [**2141-7-18**] 08:00 PM
+Vancomycin - [**2141-7-19**] 08:02 AM
+Infusions:
+Heparin Sodium - 850 units/hour
+Other ICU medications:
+Other medications:
+Flowsheet Data as of  [**2141-7-20**] 07:16 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.9
+C (98.4
+Tcurrent: 36.4
+C (97.6
+HR: 80 (73 - 94) bpm
+BP: 99/55(67) {82/37(35) - 125/73(89)} mmHg
+RR: 18 (18 - 28) insp/min
+SpO2: 98%
+Heart rhythm: SR (Sinus Rhythm)
+Height: 63 Inch
+Total In:
+2,315 mL
+690 mL
+PO:
+270 mL
+60 mL
+TF:
+IVF:
+2,045 mL
+630 mL
+Blood products:
+Total out:
+700 mL
+250 mL
+Urine:
+700 mL
+250 mL
+NG:
+Stool:
+Drains:
+Balance:
+1,615 mL
+440 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 98%
+ABG: ///22/
+Gen: Elderly woman in NAD, sleeping comfortable
+HEENT: dry MMM, no JVD
+CV: RRR, no murmurs
+Lungs: Decreased breath sounds throughout, lungs otherwise clear
+Abd: Soft, non-tender, +bowel sounds
+Ext: Warm and well-perfused, no edema or tenderness
+Neuro: Responds appropriately to questions, grossly non-focal
+293 K/uL
+8.1 g/dL
+101 mg/dL
+0.6 mg/dL
+22 mEq/L
+3.2 mEq/L
+9 mg/dL
+111 mEq/L
+143 mEq/L
+25.0 %
+8.3 K/uL
+[image002.jpg]
+[**2141-7-18**]  08:16 PM
+[**2141-7-19**]  04:10 AM
+[**2141-7-20**]  02:55 AM
+WBC
+10.6
+8.3
+Hct
+24.7
+25.0
+Plt
+269
+293
+Cr
+0.8
+0.6
+TropT
+0.01
+<0.01
+Glucose
+99
+101
+Other labs: PT / PTT / INR:15.3/56.2/1.3, CK / CKMB /
+Troponin-T:31/3/<0.01, Differential-Neuts:77.2 %, Lymph:17.6 %,
+Mono:4.6 %, Eos:0.5 %, Lactic Acid:1.1 mmol/L, Ca++:7.3 mg/dL, Mg++:2.0
+mg/dL, PO4:1.7 mg/dL","pulmonary embolism ; fever ; hypotension ; oliguria ; non-gap acidosis ; history of eosinophilic lung disease ; deep venous thrombosis ( dvt ) , low extremity ; h/o chronic obstructive pulmonary disease ( copd , bronchitis , emphysema ) with acute exacerbation ; heart failure ( chf ) , diastolic , chronic","PULMONARY EMBOLISM; FEVER; HYPOTENSION; OLIGURIA; NON-GAP ACIDOSIS; HISTORY OF EOSINOPHILIC LUNG DISEASE; DEEP VENOUS THROMBOSIS (DEEP VENOUS THROMBOSIS), LOWER EXTREMITY; HISTORY OF CHRONIC OBSTRUCTIVE PULMONARY DISEASE (CHRONIC OBSTRUCTIVE PULMONARY DISEASE, BRONCHITIS, EMPHYSEMA) WITH ACUTE EXACERBATION; HEART FAILURE (CONGESTIVE HEART FAILURE), DIASTOLIC, CHRONIC",chronic uti;eosinophilic lung;Non-gap acidosis;Chr pulmonary embolism;oliguria;edema lower extremity;deep venous thrombosis;Acute exacerbation of chronic heart failure;bronchitis emphysema;chronic obstructive pulmonary disease;hypotensive,extremity edema;chronic uti;eosinophilic lung;Non-gap acidosis;Chr pulmonary embolism;oliguria;deep venous thrombosis;Acute exacerbation of chronic heart failure;bronchitis emphysema;chronic obstructive pulmonary disease;hypotensive,chronic uti;chronic disease;acute exacerbation copd;eosinophilic lung;Non-gap acidosis;Chr pulmonary embolism;oliguria;lower extremity ulcer;congestive heart failure (CHF);deep venous thrombosis;Obstructive pulmonary disease;emphysema;disease;chronic obstructive pulmonary disease;hypotensive,pulmonary embolism; fever; hypotension; oliguria; non gap acidosis; history of eosinophilic lung disease; deep venous thrombosis deep venous thrombosis lower extremity; history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation; heart failure congestive heart failure diastolic chronic,"['pulmonary embolism', 'fever', 'hypotension', 'oliguria', 'non gap acidosis', 'history of eosinophilic lung disease', 'deep venous thrombosis deep venous thrombosis lower extremity', 'history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation', 'heart failure congestive heart failure diastolic chronic']",False,False,False,False,False,True,False,False,False,False,True,"To determine if the patient is diagnosed with anemia, we need to analyze the provided patient report, focusing on key indicators of anemia such as hemoglobin (Hb) levels, hematocrit (Hct) levels, and any symptoms or signs that could be associated with anemia. Anemia is typically defined by low hemoglobin or hematocrit levels, which can lead to symptoms like fatigue, shortness of breath, and dry mouth, among others. From the patient report, we see that the patient's hemoglobin (Hb) level is 8.1 g/dL, which is below the normal range for adults (approximately 13.5-17.5 g/dL for men and 12-16 g/dL for women). The hematocrit (Hct) level is 24.7% and 25.0% at different times, also below the normal range (approximately 40-54% for men and 37-48% for women). These laboratory values are strong indicators of anemia. Additionally, the patient reports dry mouth and baseline cough and shortness of breath, which could be related to anemia, although these symptoms can also be attributed to other conditions. Given the low hemoglobin and hematocrit levels, along with symptoms that could be consistent with anemia, we can conclude that the patient is likely diagnosed with anemia.",True,"To diagnose anemia, we need to consider the patient's symptoms, medical history, laboratory results, and other relevant information. The patient report provides both subjective and objective information. Subjectively, the patient is feeling well, with resolved chest pain, but continues to experience dry mouth, cough, and shortness of breath. Objectively, the patient's vital signs are within relatively normal limits, but there are notable laboratory findings. The patient's hemoglobin (Hgb) level is 8.1 g/dL, which is below the normal range for adults, indicating potential anemia. Additionally, the patient's hematocrit (Hct) level is 24.7%, which is also lower than the normal range, further supporting the possibility of anemia. The patient is on coumadin, which can increase the risk of bleeding, and there's a mention of brief non-gap acidosis and the use of fluids, which might suggest some instability in the patient's condition. However, the key indicators for anemia diagnosis are the low hemoglobin and hematocrit levels. According to the long-term memory patterns for anemia diagnosis, a low hemoglobin level ( '/anemia/diagnosis/patterns/hemoglobin_level/low_Hb' ) and a low hematocrit level ( '/anemia/diagnosis/patterns/hematocrit_level/low_Hct' ) are both indicative of anemia. Given these findings, it appears the patient is experiencing anemia."
+198989.txt,"79 yo F w/ a h/o CHF (EF of 20-30%), carotid stenosis, no CAD from cath
+   [**2-1**], and h/o LBBB s/p BiV pacer presents as OSH transfer with ?Sepsis
+   [**1-25**] UTI, atrial fibrillation w/ RVR and demand ischemia.","Sepsis; Altered/Depressed MS
+ thought to be [**1-25**] to ativan yesterday,; # Acute on Chronic Renal Failure; supertherapeutic INR; Afib, now rate controlled - likely worsened by underlying
+   sepsis; s/p BiV placement [**8-31**].; demand ischemia","- ID: rec bedside echo
+- continued fluid bolus
+- BB downtitrated from Q6 to [**Hospital1 **]
+- FeNa of 0.17, random cortisol was normal.
+Morphine
+Rash;
+Demerol (Oral) (Meperidine Hcl)
+Confusion/Delir
+Levaquin (Oral) (Levofloxacin)
+Unknown;
+Benadryl (Injection) (Diphenhydramine Hcl)
+Confusion/Delir
+Cymbalta (Oral) (Duloxetine Hcl)
+Unknown;
+Celexa (Oral) (Citalopram Hydrobromide)
+Unknown;
+Remeron (Oral) (Mirtazapine)
+Unknown;
+Sulfa (Sulfonamide Antibiotics)
+Unknown;
+Quinolones
+Unknown;
+Vancomycin
+Rash;
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Metronidazole - [**2168-11-8**] 08:00 AM
+Meropenem - [**2168-11-9**] 12:00 AM
+Infusions:
+Other ICU medications:
+Other medications:
+Changes to
+Flowsheet Data as of  [**2168-11-10**] 07:26 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.9
+C (98.4
+Tcurrent: 36.9
+C (98.4
+HR: 75 (70 - 79) bpm
+BP: 102/68(74) {89/31(46) - 119/68(74)} mmHg
+RR: 17 (15 - 33) insp/min
+SpO2: 99%
+Heart rhythm: V Paced
+Wgt (current): 75 kg (admission): 63 kg
+Height: 64 Inch
+CVP: 14 (9 - 14)mmHg
+Total In:
+2,713 mL
+409 mL
+PO:
+TF:
+1,073 mL
+335 mL
+IVF:
+840 mL
+74 mL
+Blood products:
+Total out:
+680 mL
+310 mL
+Urine:
+680 mL
+310 mL
+NG:
+Stool:
+Drains:
+Balance:
+2,033 mL
+99 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 99%
+ABG: ///19/
+Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+Not assessed)
+Skin:  Not assessed
+Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+Not assessed
+200 K/uL
+8.5 g/dL
+146 mg/dL
+2.1 mg/dL
+19 mEq/L
+4.3 mEq/L
+90 mg/dL
+111 mEq/L
+139 mEq/L
+26.0 %
+22.4 K/uL
+[image002.jpg]
+[**2168-11-5**]  09:14 PM
+[**2168-11-6**]  04:57 AM
+[**2168-11-7**]  04:41 AM
+[**2168-11-7**]  12:00 PM
+[**2168-11-7**]  05:00 PM
+[**2168-11-8**]  03:20 AM
+[**2168-11-8**]  04:57 PM
+[**2168-11-8**]  10:55 PM
+[**2168-11-9**]  03:29 AM
+[**2168-11-10**]  04:27 AM
+WBC
+14.5
+21.9
+24.5
+20.4
+22.5
+22.4
+Hct
+27.4
+28.3
+26.2
+26.4
+23.0
+25.3
+24.5
+26.0
+Plt
+101
+124
+129
+135
+149
+200
+Cr
+2.3
+2.6
+2.9
+2.6
+2.5
+2.4
+2.3
+2.1
+Glucose
+175
+169
+76
+90
+106
+87
+97
+96
+114
+146
+Other labs: PT / PTT / INR:54.6/44.0/6.1, ALT / AST:44/41, Alk Phos / T
+Bili:101/0.6, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:5.0 %,
+Mono:1.0 %, Eos:0.0 %, Fibrinogen:622 mg/dL, Lactic Acid:2.0 mmol/L,
+Albumin:2.3 g/dL, LDH:194 IU/L, Ca++:8.2 mg/dL, Mg++:2.7 mg/dL, PO4:3.9
+mg/dL
+TE: The left atrium is mildly dilated. Left ventricular wall
+thicknesses are normal. The left ventricular cavity is moderately
+dilated. There is severe global left ventricular hypokinesis (LVEF =
+20-25 %). [Intrinsic left ventricular systolic function is likely more
+depressed given the severity of valvular regurgitation.] Right
+ventricular chamber size is normal. with focal hypokinesis of the
+apical free wall. The aortic valve leaflets (3) are mildly thickened.
+There is mild aortic valve stenosis (valve area 1.2-1.9cm2). Mild (1+)
+aortic regurgitation is seen. The mitral valve leaflets are mildly
+thickened. Moderate to severe (3+) mitral regurgitation is seen. [Due
+to acoustic shadowing, the severity of mitral regurgitation may be
+significantly UNDERestimated.] Moderate [2+] tricuspid regurgitation is
+seen. There is moderate pulmonary artery systolic hypertension. The
+pulmonic valve leaflets are thickened. There is no pericardial
+effusion.
+Compared with the prior study (images reviewed) of [**2168-4-20**], the left
+ventricular cavity appears dilated on the current study. The degree of
+mitral regurgitation has increased significantly. The degree of aortic
+stenosis has incrased slightly. LV systolic function remains severely
+depressed, although the ventricle does not appear as dyssynchronous as
+on the prior study.
+CXR: Improved pulmonary edema which is now mild with stable left
+perihilar opacity, worsened since [**2168-11-6**] and is most likely
+consolidation, probably pneumonia,less likely asymmetrical pulmonary
+edema.","sepsis ; altered/depressed m thought to be [ * * 1-25 * * ] to ativan yesterday , ; # acute on chronic renal failure ; supertherapeutic inr ; afib , now rate control - likely worsen by underlie sepsis ; s/p biv placement [ * * 8-31 * * ] . ; demand ischemia","Sepsis; Altered/Depressed Mental Status thought to be [**1-25**] to ativan yesterday,; # Acute on Chronic Renal Failure; supertherapeutic International Normalized Ratio; Atrial fibrillation, now rate controlled - likely worsened by underlying sepsis; status post Biventricular placement [**8-31**].; demand ischemia",Depressed Mood;Sepsis;Demand ischemia;sepsis;Acute on Chronic Right Heart Failure,acute on chronic renal failure;Demand ischemia;afib;depressed;sepsis,Altered Mental Status;Sepsis;Demand ischemia;alternation;Biventricular failure;Atrial fibrillation;sepsis;Acute on Chronic Right Heart Failure,sepsis; altered depressed mental status thought to be to ativan yesterday ; acute on chronic renal failure; supertherapeutic international normalized ratio; atrial fibrillation now rate controlled likely worsened by underlying sepsis; status post biventricular placement ; demand ischemia,"['sepsis', 'altered depressed mental status thought to be to ativan yesterday', 'acute on chronic renal failure', 'supertherapeutic international normalized ratio', 'atrial fibrillation now rate controlled likely worsened by underlying sepsis', 'status post biventricular placement', 'demand ischemia']",False,False,True,False,False,False,False,False,False,False,True,"To determine if the patient is diagnosed with anemia, we need to analyze the provided patient report, focusing on key indicators of anemia. Anemia is typically characterized by a decrease in the number of red blood cells or the amount of hemoglobin in the blood. Key laboratory values to consider include Hematocrit (Hct), Hemoglobin (Hb), and Red Blood Cell (RBC) count. In the Objective section of the report, we find the following relevant laboratory results: Hct values ranging from 23.0 to 28.3, and a Hemoglobin level of 8.5 g/dL. Normal Hemoglobin levels for adults are generally considered to be approximately 13.5 to 17.5 g/dL for men and 12 to 16 g/dL for women. The patient's Hemoglobin level of 8.5 g/dL is below these normal ranges, indicating anemia. Additionally, the patient's Hct values are also lower than the normal range (approximately 40-54% for men and 37-48% for women), further supporting the diagnosis of anemia. Given these laboratory findings, it is clear that the patient has a reduced amount of hemoglobin in their blood, which is a direct indicator of anemia.",True,"To diagnose anemia, we need to consider the patient's symptoms, medical history, laboratory results, and other relevant information. The patient's report includes a low hemoglobin level of 8.5 g/dL, which is a key indicator of anemia. Additionally, the patient has a low hematocrit level of 27.4%, which is also consistent with anemia. The patient's vital signs, such as heart rate and blood pressure, are within normal limits, but the patient is experiencing confusion and delirium, which could be related to anemia. The patient is also taking medications that may contribute to anemia, such as sulfonamide antibiotics. The laboratory results show elevated white blood cell counts and low platelet counts, which could be indicative of an underlying infection or inflammation contributing to anemia. The patient's medical history, including a history of fever, nausea, and vomiting, could also be relevant to the diagnosis of anemia. Considering all these factors, it appears that the patient is likely experiencing anemia. "
+193604.txt,"Mr. [**Known firstname 1908**] [**Known lastname 9824**] is a 74 yo Russian-speaking male with h/o ESRD on
+   HD, HTN, HL, and CAD who presented with asymptomatic bradycardia.",# Bradycardia / Rhythm; #. Hypertension; # CAD; #. Chronic Kidney Disease Stage V on HD; . Peripheral Vascular Disease,"High-grade AV nodal block
+- Had successful [**Company 2375**] VDD implant yesterday via axillary access.
+Follow-up CXR showed no pneumothorax.
+- He had lots of bleeding during procedure. Post procedure HCT = 33 .
+White count elevated. [**Month (only) 60**] represent hemoconcentration s/p HD.
+- Simvastatin increased to 40mg daily
+- Started albuterol nebs
+- Episode of chest pain yesterday morning. Rated [**5-21**] in the left
+anterior chest wall and moved to the left scapula. No shortness of
+breath, no diaphoresis, no nausea. No EKG changes. Lasted 30 minutes.
+Nitro given x2 and improved. CK/Troponin flat. Later in afternoon had
+intermittent pain associated with left scapula that was on and off for
+a few hours. Again, EKG unchanged.
+No Known Drug Allergies
+Changes to  and f
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Infusions:
+Other ICU medications:
+Other medications:
+Flowsheet Data as of  [**2169-8-12**] 06:44 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.7
+C (98.1
+Tcurrent: 35.9
+C (96.7
+HR: 62 (30 - 83) bpm
+BP: 150/50(77) {129/47(77) - 213/151(159)} mmHg
+RR: 11 (9 - 17) insp/min
+SpO2: 99%
+Heart rhythm: V Paced
+Wgt (current): 61.6 kg (admission): 62 kg
+Height: 69 Inch
+Total In:
+PO:
+TF:
+IVF:
+Blood products:
+Total out:
+3,000 mL
+0 mL
+Urine:
+NG:
+Stool:
+Drains:
+Balance:
+-3,000 mL
+0 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 99%
+ABG: ///29/
+GENERAL - well-appearing man in NAD, Oriented x3, comfortable, Mood,
+affect appropriate.
+HEENT - NC/AT, PERRLA, EOMI, sclerae anicteric, MMM, OP clear,
+Conjunctiva were pink, no pallor or cyanosis of the oral mucosa. No
+xanthalesma.
+CHEST: No pain on palpation of the right subclavian site sp PPM
+attempt. No pain on palpation of the chest wall.  Dialysis catheter in
+left chest wall.
+NECK - supple, no thyromegaly, no JVD, no carotid bruits
+LUNGS - Diffuse wheezing throughout lung fields, specifically in right
+posterior lungs, resp unlabored, no accessory muscle use.  No
+rales/rhonchi/crackles
+HEART - PMI located in 5th intercostal space, midclavicular line.
+Bradycardic normal S1, S2. No m/r/g auscultated, although difficult to
+hear due to diffuse wheezing.  No thrills, lifts. No S3 or S4.
+ABDOMEN - NABS, slightly distended with large kidneys palpable
+bilaterally, liver palpable in center of the abdomen as likely shifted
+due to kidney size, no rebound/guarding. Abd aorta not enlarged by
+palpation. No abdominial bruits.
+EXTREMITIES - WWP, no c/c/e, 2+ peripheral pulses (radials, DPs), No
+c/c/e. No femoral bruits.  Lower legs both newly wrapped by home nurse
+due to stasis ulcers, not unwrapped at this time.  Both legs tender to
+palpation.
+LYMPH - no cervical, axillary, or inguinal LAD
+NEURO - awake, A&Ox3, CNs II-XII grossly intact, muscle strength 5/5
+throughout, sensation grossly intact throughout, DTRs 2+ and symmetric,
+cerebellar exam intact, gait not assessed
+PULSES:  Right: Carotid 2+ Femoral 2+ Popliteal Left: Carotid 2+
+Femoral 2+ Popliteal 2+ (DP and PT not assessed due to wrapping)
+170 K/uL
+9.3 g/dL
+79 mg/dL
+5.6 mg/dL
+29 mEq/L
+4.3 mEq/L
+30 mg/dL
+101 mEq/L
+141 mEq/L
+29.6 %
+8.1 K/uL
+[image002.jpg]
+[**2169-8-10**]  05:22 AM
+[**2169-8-11**]  06:14 AM
+[**2169-8-11**]  12:17 PM
+[**2169-8-11**]  07:40 PM
+[**2169-8-12**]  03:53 AM
+WBC
+6.9
+7.1
+13.3
+8.1
+Hct
+31.1
+31.2
+33.5
+29.6
+Plt
+188
+171
+206
+170
+Cr
+5.2
+7.5
+5.6
+TropT
+0.27
+0.34
+Glucose
+68
+72
+79
+Other labs: PT / PTT / INR:17.2/30.6/1.5, CK / CKMB /
+Troponin-T:91//0.34, Ca++:8.5 mg/dL, Mg++:1.9 mg/dL, PO4:5.0 mg/dL",# bradycardia / rhythm ; # . hypertension ; # cad ; # . chronic kidney disease stage v on hd ; . peripheral vascular disease,# Bradycardia / Rhythm; #. Hypertension; # Coronary Artery Disease; #. Chronic Kidney Disease Stage V on Hemodialysis; . Peripheral Vascular Disease,"Other Specified Peripheral Vascular Diseases;Sinus Bradycardia;Hypertension;Chronic Kidney Disease, Stage 1",Reflex bradycardia;hypertension;PVD-peripheral vascular disease;Chronic kidney disease stage 1,"Other Specified Peripheral Vascular Diseases;Sinus Bradycardia;Hypertension NOS;Coronary Disease;Chronic Kidney Disease, Stage 1",bradycardia rhythm; hypertension; coronary artery disease; chronic kidney disease stage v on hemodialysis; peripheral vascular disease,"['bradycardia rhythm', 'hypertension', 'coronary artery disease', 'chronic kidney disease stage v on hemodialysis', 'peripheral vascular disease']",True,False,False,False,True,False,False,False,False,False,True,"To determine if the patient is diagnosed with anemia, we need to analyze the provided subjective and objective information. Anemia is typically characterized by a decrease in the number of red blood cells or the amount of hemoglobin in the blood. The patient's report includes several key pieces of information: the patient had a high-grade AV nodal block and underwent a VDD implant procedure with significant bleeding, resulting in a post-procedure hematocrit (HCT) of 33. The patient also experienced an episode of chest pain and was given nitroglycerin, but there were no EKG changes, and CK/Troponin levels were flat. In the objective section, vital signs, hemodynamic monitoring, and laboratory results are provided. Notably, the laboratory results include hemoglobin (Hgb) and hematocrit (Hct) levels over time. On the day of the report, the Hgb was 9.3 g/dL, and the Hct was 29.6%. These values are lower than the normal range for adults (approximately 13.5-17.5 g/dL for Hgb and 40-54% for Hct in men, and 12-16 g/dL for Hgb and 37-48% for Hct in women), indicating a decrease in red blood cells or hemoglobin. Given this information, the patient's low hemoglobin and hematocrit levels, in conjunction with the recent significant bleeding during the procedure, support the diagnosis of anemia.",True,"To diagnose anemia, we need to consider the patient's symptoms, medical history, laboratory results, and physical examination findings. The patient's report mentions a high-grade AV nodal block, recent VDD implant, and lots of bleeding during the procedure, which could indicate potential blood loss. The post-procedure HCT (hematocrit) level was 33, and the white count was elevated. The patient also experienced an episode of chest pain, but no shortness of breath, diaphoresis, or nausea. The laboratory results show a low hemoglobin level of 9.3 g/dL, low hematocrit levels (31.1, 31.2, 33.5, and 29.6), and a low red blood cell count. The patient's vital signs, including heart rate, blood pressure, and oxygen saturation, are within normal limits. However, the patient has a history of bleeding during the procedure, which could contribute to anemia. The physical examination findings, including no pallor or cyanosis of the oral mucosa, do not strongly indicate anemia. Considering the laboratory results, particularly the low hemoglobin and hematocrit levels, and the patient's history of bleeding, anemia is a possible diagnosis. According to the long-term memory, a low hemoglobin level ( '/anemia/diagnosis/patterns/hemoglobin_level/low_Hb' ) and low hematocrit level ( '/anemia/diagnosis/patterns/hematocrit_level/low_Hct' ) can indicate anemia. Additionally, the patient's symptoms, such as fatigue and weakness, are not explicitly mentioned but can be inferred from the context. Therefore, based on the patient's report and the long-term memory, anemia is a likely diagnosis."
+195261.txt,"Assessment and Plan
+ CONSTIPATION (OBSTIPATION, FOS)
+ IMPAIRED SKIN INTEGRITY
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ .H/O LYMPHOMA (CANCER, MALIGNANT NEOPLASM, LYMPHOID)
+ .H/O PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+ HYPOTENSION (NOT SHOCK)
+ NEUTROPENIA
+   .
+   52 yoF with Lymphoplasmacytic lymphoma, Waldenstrom's
+   macroglobulinemia, hepatitis C, h/o hepatitis B, and cryoglobulinemia
+   admitted with new onset rash and transferred to the [**Hospital Unit Name 44**] for
+   hypotension in the setting of neutropenia.",Hypotension:; # Rash:; Pancytopenia:; lymphoplasmocytic lymphoma:,"PHERESIS CATHETER - START [**2123-7-30**] 04:34 PM
+.
+- pheresis catheter placed by IR and completed one round of pheresis,
+next one Sunday AM
+- blood cx grew cornyebacterium
+- newly requiring 2L O2 by nasal canula
+Codeine
+Hives;
+Latex
+Rash;
+Changes to
+f
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Vancomycin - [**2123-7-30**] 08:45 PM
+Cefipime - [**2123-7-31**] 12:08 AM
+Infusions:
+Other ICU medications:
+Other medications:
+Flowsheet Data as of  [**2123-7-31**] 07:53 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.3
+C (97.3
+Tcurrent: 35.9
+C (96.6
+HR: 85 (72 - 88) bpm
+BP: 92/52(69) {92/52(69) - 146/89(108)} mmHg
+RR: 19 (12 - 28) insp/min
+SpO2: 95%
+Heart rhythm: SR (Sinus Rhythm)
+Total In:
+2,451 mL
+179 mL
+PO:
+200 mL
+TF:
+IVF:
+2,016 mL
+179 mL
+Blood products:
+235 mL
+Total out:
+765 mL
+316 mL
+Urine:
+765 mL
+316 mL
+NG:
+Stool:
+Drains:
+Balance:
+1,686 mL
+-137 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 95%
+ABG: 7.44/26/62/23/-4 (respiratory alkalosis)
+Gen: Pleasant, well appearing, NAD
+HEENT: No conjunctival lesions. No icterus. MMM. OP clear without
+mucosal ulcers or other lesions.
+NECK: Supple, palpable mass in L submandibular region which patient
+states is clogged salivary gland. JVP low.
+CV: RRR. nl S1, S2. No murmurs, rubs or [**Last Name (un) 1792**]
+LUNGS: CTAB. Diffuse wheezes. No rhonchi or rales.
+ABD: NABS. Soft, NT, ND. No palpable HSM.
+EXT: WWP, NO CCE. Full distal pulses bilaterally.
+SKIN: Diffuse/ extensive non-blanching rash over her lower ext
+extending to her buttock. Blanching, red/pink rash extending to
+abdomen.
+NEURO: A&Ox3. Appropriate. CN 2-12 grossly intact sensation throughout.
+5/5 strength throughout. Non-focal exam
+69 K/uL
+8.1 g/dL
+106 mg/dL
+1.2 mg/dL
+23 mEq/L
+4.3 mEq/L
+35 mg/dL
+107 mEq/L
+138 mEq/L
+25.3 %
+1.2 K/uL
+[image002.jpg]
+[**2123-7-31**] 4:13AM
+[**2123-7-29**]  04:50 AM
+[**2123-7-29**]  08:23 AM
+[**2123-7-29**]  08:34 AM
+[**2123-7-29**]  12:56 PM
+[**2123-7-29**]  03:45 PM
+[**2123-7-29**]  11:46 PM
+[**2123-7-30**]  03:09 AM
+[**2123-7-30**]  09:55 AM
+[**2123-7-30**]  04:03 PM
+[**2123-7-31**]  04:13 AM
+WBC
+0.5
+0.4
+0.3
+0.3
+1.2
+Hct
+31.8
+26.5
+27.4
+28.4
+25.3
+Plt
+48
+30
+31
+27
+73
+69
+Cr
+1.6
+1.3
+1.0
+0.9
+1.2
+TCO2
+22
+20
+19
+18
+Glucose
+79
+86
+100
+112
+106
+Other labs: PT / PTT / INR:15.1/35.0/1.3, ALT / AST:39/54, Alk Phos / T
+Bili:52/1.1, Differential-Neuts:61.0 %, Band:8.0 %, Lymph:19.0 %,
+Mono:3.0 %, Eos:5.0 %, D-dimer:2153 ng/mL, Fibrinogen:395 mg/dL, Lactic
+Acid:3.6 mmol/L, Albumin:2.7 g/dL, LDH:129 IU/L, Ca++:9.3 mg/dL,
+Mg++:2.5 mg/dL, PO4:3.9 mg/dL
+.
+CXR [**2123-7-31**]: pending
+.
+BCx [**7-29**]: one with GPC, one with CORYNEBACTERIUM OR propionibacterium
+BCx [**7-30**]: NGTD
+Ucx: positive for yeast
+MRSA pending",hypotension : ; # rash : ; pancytopenia : ; lymphoplasmocytic lymphoma :,Hypotension:; Number Rash:; Pancytopenia:; lymphoplasmocytic lymphoma:,clasmotocytic lymphoma;Hypotension NEC;Rash,clasmotocytic lymphoma;hypotensive,clasmotocytic lymphoma;Hypotension NEC;Rash,hypotension ; number rash ; pancytopenia ; lymphoplasmocytic lymphoma,"['hypotension', 'number rash', 'pancytopenia', 'lymphoplasmocytic lymphoma']",False,False,False,False,False,True,False,False,False,False,True,"To determine if the patient is diagnosed with anemia, we need to analyze the provided subjective and objective data. Anemia is typically characterized by a decrease in the number of red blood cells or the amount of hemoglobin in the blood. Key indicators of anemia include low hemoglobin (Hb) levels, low hematocrit (Hct) levels, and symptoms such as fatigue, shortness of breath, and pale skin. From the objective data, the patient's hemoglobin (Hb) level is 8.1 g/dL, which is below the normal range for adults (approximately 13.5-17.5 g/dL for men and 12-16 g/dL for women). The hematocrit (Hct) level is 25.3%, also below the normal range (approximately 40-54% for men and 37-48% for women). These laboratory values are strong indicators of anemia. Additionally, the patient is requiring 2L of oxygen by nasal canula, which could be related to the decreased oxygen-carrying capacity of the blood due to anemia. The presence of a non-blanching rash and other symptoms could be related to the underlying cause of the anemia or to other concurrent conditions. Given the low hemoglobin and hematocrit levels, it is reasonable to conclude that the patient is indeed anemic.",True,"To diagnose anemia, we need to analyze the patient's symptoms, medical history, and laboratory results. The patient's report includes a low hemoglobin level of 8.1 g/dL, which is a key indicator of anemia. Additionally, the patient has a low hematocrit level of 25.3%, which is also consistent with anemia. The patient's symptoms, such as fatigue and weakness, are not explicitly mentioned but can be inferred from the need for 2L O2 by nasal canula and the presence of a non-blanching rash. The patient's medical history, including the presence of a pheresis catheter and recent blood cultures, may also be relevant to the diagnosis. The laboratory results show a low red blood cell count, low platelet count, and abnormal coagulation studies, which can be associated with anemia. Based on these findings, it appears that the patient is likely suffering from anemia. The patient's low hemoglobin and hematocrit levels, combined with the other laboratory results and medical history, support this diagnosis."

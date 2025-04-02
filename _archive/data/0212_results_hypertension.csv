@@ -1,0 +1,584 @@
+File ID,Assessment,Summary,Subjective,Objective,Summary_lemma,Summary_expanded,Summary_umls,Summary_lemma_umls,Summary_expanded_umls,cleaned_expanded_Summary,terms,hypertension,acute renal failure,atrial fibrillation,anemia,coronary artery disease,hypotension,altered mental status,respiratory failure,diabetes mellitus,leukocytosis,is_hypertension_baseline,is_hypertension_baseline_reasoning,is_hypertension_ltm,is_hypertension_ltm_reasoning
+101616.txt,"67 y/o M CAD s/[**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Last Name (Prefixes) **] stent [**2169-11-15**] with recent cecum polypectomy
+   who presents with bright red blood per rectum and hypotension following
+   prep.
+   .",Lower GI bleed; Hypotension; CAD,"COLONOSCOPY - At [**2171-1-25**] 12:31 PM
+- Colonoscopy: ulceration with 2 visible vessels at prior polypectomy
+site. 2 clips placed for hemostasis; small rectal ulcers; grade 2
+internal hemorrhoids
+- GI recs: c/w clear liquids x 1 day; no plavix/ASA x 48 hrs; c/w
+following Hcts
+- Hct: 34.4 -> 34.1 -> 33.7
+- Plt: 127 -> 122 -> 115
+- [**Hospital 1303**] Hosp records obtained to clarify iodine allergy:
+""   Only mentions lumbar myelogram on [**2155-9-19**]: """"the patient tolerated the""
+""   procedure well.""""""
+History obtained from Patient
+History obtained from PatientIodine; Iodine Containing
+severe leg pain
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Infusions:
+Other ICU medications:
+Midazolam (Versed) - [**2171-1-25**] 01:40 PM
+Fentanyl - [**2171-1-25**] 01:45 PM
+Other medications:
+Flowsheet Data as of  [**2171-1-26**] 07:17 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since [**72**] AM
+Tmax: 37
+C (98.6
+Tcurrent: 35.8
+C (96.5
+HR: 53 (45 - 88) bpm
+BP: 157/65(85) {120/55(71) - 157/96(103)} mmHg
+RR: 17 (8 - 22) insp/min
+SpO2: 93%
+Heart rhythm: SB (Sinus Bradycardia)
+Height: 68 Inch
+Total In:
+1,861 mL
+PO:
+1,150 mL
+TF:
+IVF:
+40 mL
+Blood products:
+671 mL
+Total out:
+1,000 mL
+800 mL
+Urine:
+1,000 mL
+800 mL
+NG:
+Stool:
+Drains:
+Balance:
+861 mL
+-800 mL
+Respiratory support
+O2 Delivery Device: None
+SpO2: 93%
+ABG: ///25/
+General Appearance: Well nourished, No acute distress
+Cardiovascular: (PMI Normal), (S1: Normal), (S2: Normal)
+Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+Present), (Right DP pulse: Present), (Left DP pulse: Present)
+Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+Abdominal: Soft, Non-tender, Bowel sounds present
+Extremities: Right lower extremity edema: Absent, Left lower extremity
+edema: Absent
+Skin:  Warm
+Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+stimuli, Oriented (to): x3, Movement: Purposeful, Tone: Normal
+111 K/uL
+11.8 g/dL
+95 mg/dL
+0.9 mg/dL
+25 mEq/L
+3.8 mEq/L
+10 mg/dL
+113 mEq/L
+143 mEq/L
+34.0 %
+5.8 K/uL
+[image002.jpg]
+[**2171-1-25**]  04:23 AM
+[**2171-1-25**]  07:44 AM
+[**2171-1-25**]  01:29 PM
+[**2171-1-25**]  09:14 PM
+[**2171-1-26**]  05:30 AM
+WBC
+9.4
+6.3
+6.4
+5.8
+Hct
+35.7
+34.4
+34.1
+33.7
+34.0
+Plt
+127
+122
+115
+111
+Cr
+1.0
+0.9
+Glucose
+102
+95
+Other labs: PT / PTT / INR:12.6/25.6/1.1, ALT / AST:16/25, Alk Phos / T
+Bili:43/2.5, LDH:297 IU/L, Ca++:7.9 mg/dL, Mg++:2.1 mg/dL, PO4:2.4
+mg/dL
+Imaging: [**1-25**] Colonoscopy: Ulcer in the colon (endoclip)
+Ulcers in the rectum
+Grade 2 internal hemorrhoids
+Otherwise normal colonoscopy to cecum",low gi bleed ; hypotension ; cad,Lower Gastrointestinal bleed; Hypotension; Coronary Artery Disease,Lower GI bleeding;Hypotension NEC,hypotensive;gi bleed,Coronary Artery Disease;Gastrointestinal bleed,lower gastrointestinal bleed; hypotension; coronary artery disease,"['lower gastrointestinal bleed', 'hypotension', 'coronary artery disease']",False,False,False,False,True,True,False,False,False,False,True,"To determine if the patient is diagnosed with hypertension, we need to analyze the provided patient report, focusing on the blood pressure readings and other relevant clinical information. The patient's blood pressure is recorded as 157/65(85) {120/55(71) - 157/96(103)} mmHg. Hypertension is typically defined as a systolic blood pressure of 130 mmHg or higher, or a diastolic blood pressure of 80 mmHg or higher, based on the 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline. The patient's systolic blood pressure reaches up to 157 mmHg, which exceeds the threshold for hypertension. However, it's also important to consider the context of these readings, including any potential acute causes or factors that might be influencing the blood pressure, such as pain, anxiety, or the effects of certain medications. The report mentions severe leg pain and the patient underwent a colonoscopy, which could potentially impact blood pressure readings due to stress or discomfort. Despite these considerations, the blood pressure readings provided do indicate levels that are consistent with a diagnosis of hypertension. Therefore, based on the information given, the patient's blood pressure readings support a diagnosis of hypertension.",True,"To diagnose hypertension, we need to analyze the patient's blood pressure readings and other relevant information from the provided report. According to the long-term memory, hypertension can be diagnosed based on elevated blood pressure readings, with systolic blood pressure greater than 140 mmHg and diastolic blood pressure greater than 90 mmHg. From the patient's report, specifically the Objective section, we find the blood pressure reading: BP: 157/65(85) {120/55(71) - 157/96(103)} mmHg. Here, the systolic blood pressure is 157 mmHg, which is greater than 140 mmHg, meeting one of the criteria for hypertension. However, the diastolic blood pressure is 65 mmHg, which is less than 90 mmHg. Despite this, the presence of elevated systolic blood pressure is a significant indicator. Additionally, the patient's history and other symptoms, such as the mention of severe leg pain and the presence of other comorbidities, could be relevant but are not directly indicative of hypertension without further context. Given the information provided, the primary focus is on the blood pressure readings. The long-term memory also mentions that patients with hypertension may exhibit other symptoms or comorbidities, but the key diagnostic factor here is the blood pressure. Therefore, based on the elevated systolic blood pressure reading of 157 mmHg, which exceeds the threshold for hypertension, we can conclude that the patient is likely diagnosed with hypertension."
+102486.txt,"81F with h/o chronic eosinophilic lung disease, COPD, diastolic CHF,
+   and recent admission for MSSA and pan-sensitive Pseudomonas PNA who
+   presents with fevers, right sided pleuritic chest pain and found to
+   have extensive R sided PE on imaging.","PULMONARY EMBOLISM; FEVER; HYPOTENSION; OLIGURIA; NON-GAP ACIDOSIS; HISTORY OF EOSINOPHILIC LUNG DISEASE; DEEP VENOUS THROMBOSIS (DVT), LOWER EXTREMITY; H/O CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD, BRONCHITIS,
+   EMPHYSEMA) WITH ACUTE EXACERBATION; HEART FAILURE (CHF), DIASTOLIC, CHRONIC","Pleuritic right chest pain
+- patient started on coumadin
+- [** 949**] briefly decreased (although unclear whether this was due to
+accidental foley removal), [** 949**] responded appropriately to 500 ml LR
+bolus with [** 949**] 60-70 cc
+s per hour this am
+- patient briefly developed non-gap acidosis with bicarb of 19,
+resolved with substitution of LR for NS for fluid boluses
+S: The patient is feeling well.  Her chest pain has entirely resolved.
+She continues to have dry-mouth as well as her baseline amount of cough
+and shortness or breath.  She has not had N/V diarrhea.  No pain or
+swelling in her legs.
+Losartan
+angioedema/lip
+Lisinopril (Oral)
+Cough;
+Penicillins
+itching;
+Flagyl (Oral) (Metronidazole)
+Wheezing;
+Ultram (Oral) (Tramadol Hcl)
+Rash;
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Ciprofloxacin - [**2141-7-18**] 08:00 PM
+Vancomycin - [**2141-7-19**] 08:02 AM
+Infusions:
+Heparin Sodium - 850 units/hour
+Other ICU medications:
+Other medications:
+Flowsheet Data as of  [**2141-7-20**] 07:16 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.9
+C (98.4
+Tcurrent: 36.4
+C (97.6
+HR: 80 (73 - 94) bpm
+BP: 99/55(67) {82/37(35) - 125/73(89)} mmHg
+RR: 18 (18 - 28) insp/min
+SpO2: 98%
+Heart rhythm: SR (Sinus Rhythm)
+Height: 63 Inch
+Total In:
+2,315 mL
+690 mL
+PO:
+270 mL
+60 mL
+TF:
+IVF:
+2,045 mL
+630 mL
+Blood products:
+Total out:
+700 mL
+250 mL
+Urine:
+700 mL
+250 mL
+NG:
+Stool:
+Drains:
+Balance:
+1,615 mL
+440 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 98%
+ABG: ///22/
+Gen: Elderly woman in NAD, sleeping comfortable
+HEENT: dry MMM, no JVD
+CV: RRR, no murmurs
+Lungs: Decreased breath sounds throughout, lungs otherwise clear
+Abd: Soft, non-tender, +bowel sounds
+Ext: Warm and well-perfused, no edema or tenderness
+Neuro: Responds appropriately to questions, grossly non-focal
+293 K/uL
+8.1 g/dL
+101 mg/dL
+0.6 mg/dL
+22 mEq/L
+3.2 mEq/L
+9 mg/dL
+111 mEq/L
+143 mEq/L
+25.0 %
+8.3 K/uL
+[image002.jpg]
+[**2141-7-18**]  08:16 PM
+[**2141-7-19**]  04:10 AM
+[**2141-7-20**]  02:55 AM
+WBC
+10.6
+8.3
+Hct
+24.7
+25.0
+Plt
+269
+293
+Cr
+0.8
+0.6
+TropT
+0.01
+<0.01
+Glucose
+99
+101
+Other labs: PT / PTT / INR:15.3/56.2/1.3, CK / CKMB /
+Troponin-T:31/3/<0.01, Differential-Neuts:77.2 %, Lymph:17.6 %,
+Mono:4.6 %, Eos:0.5 %, Lactic Acid:1.1 mmol/L, Ca++:7.3 mg/dL, Mg++:2.0
+mg/dL, PO4:1.7 mg/dL","pulmonary embolism ; fever ; hypotension ; oliguria ; non-gap acidosis ; history of eosinophilic lung disease ; deep venous thrombosis ( dvt ) , low extremity ; h/o chronic obstructive pulmonary disease ( copd , bronchitis , emphysema ) with acute exacerbation ; heart failure ( chf ) , diastolic , chronic","PULMONARY EMBOLISM; FEVER; HYPOTENSION; OLIGURIA; NON-GAP ACIDOSIS; HISTORY OF EOSINOPHILIC LUNG DISEASE; DEEP VENOUS THROMBOSIS (DEEP VENOUS THROMBOSIS), LOWER EXTREMITY; HISTORY OF CHRONIC OBSTRUCTIVE PULMONARY DISEASE (CHRONIC OBSTRUCTIVE PULMONARY DISEASE, BRONCHITIS, EMPHYSEMA) WITH ACUTE EXACERBATION; HEART FAILURE (CONGESTIVE HEART FAILURE), DIASTOLIC, CHRONIC",chronic uti;eosinophilic lung;Non-gap acidosis;Chr pulmonary embolism;oliguria;edema lower extremity;deep venous thrombosis;Acute exacerbation of chronic heart failure;bronchitis emphysema;chronic obstructive pulmonary disease;hypotensive,extremity edema;chronic uti;eosinophilic lung;Non-gap acidosis;Chr pulmonary embolism;oliguria;deep venous thrombosis;Acute exacerbation of chronic heart failure;bronchitis emphysema;chronic obstructive pulmonary disease;hypotensive,chronic uti;chronic disease;acute exacerbation copd;eosinophilic lung;Non-gap acidosis;Chr pulmonary embolism;oliguria;lower extremity ulcer;congestive heart failure (CHF);deep venous thrombosis;Obstructive pulmonary disease;emphysema;disease;chronic obstructive pulmonary disease;hypotensive,pulmonary embolism; fever; hypotension; oliguria; non gap acidosis; history of eosinophilic lung disease; deep venous thrombosis deep venous thrombosis lower extremity; history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation; heart failure congestive heart failure diastolic chronic,"['pulmonary embolism', 'fever', 'hypotension', 'oliguria', 'non gap acidosis', 'history of eosinophilic lung disease', 'deep venous thrombosis deep venous thrombosis lower extremity', 'history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation', 'heart failure congestive heart failure diastolic chronic']",False,False,False,False,False,True,False,False,False,False,False,"To determine if the patient is diagnosed with hypertension, we need to analyze the provided subjective and objective data. Hypertension is typically defined as elevated blood pressure, with thresholds often considered at or above 130/80 mmHg for adults. Looking at the objective data, the patient's blood pressure (BP) is listed as 99/55 mmHg, with a range provided as {82/37(35) - 125/73(89)} mmHg. This indicates that the patient's current blood pressure is below the typical threshold for hypertension. Furthermore, there is no mention in the subjective report of the patient experiencing symptoms commonly associated with hypertension, such as headache, dizziness, or nosebleeds, although the patient does report pleuritic right chest pain, which has resolved. The patient's medications include Losartan, which is an angiotensin II receptor antagonist used to treat high blood pressure, but its presence does not necessarily indicate current hypertension, especially since the patient's blood pressure readings are not elevated. Given the information provided, the patient's current blood pressure readings do not meet the criteria for hypertension, and there are no other clear indicators of the condition in the report.",False,"To determine if the patient is diagnosed with hypertension, we need to analyze the provided patient report, focusing on both the subjective and objective sections, and correlate the findings with the information stored in the long-term memory about hypertension. The patient report mentions pleuritic right chest pain, which has resolved, and the patient is feeling well. However, the presence of dry mouth, cough, and shortness of breath could be indicative of various conditions, including potential cardiovascular issues. The patient is on several medications, including Losartan, which is an angiotensin II receptor antagonist used to treat high blood pressure, and Lisinopril, an ACE inhibitor also used for hypertension, suggesting that hypertension might be a concern. The objective section provides vital signs, including blood pressure readings. The blood pressure is listed as 99/55 mmHg with a range of 82/37 to 125/73 mmHg. These readings do not clearly indicate hypertension, as they are mostly within normal limits or even on the lower side for systolic blood pressure in some readings. Hypertension is typically diagnosed with systolic blood pressure greater than 140 mmHg and diastolic blood pressure greater than 90 mmHg. The patient's current medications and the fact that she has been started on Coumadin (an anticoagulant) suggest a complex medical history that might include cardiovascular disease, but the blood pressure readings provided do not support a diagnosis of hypertension at this time. Other laboratory results and vital signs do not strongly indicate uncontrolled hypertension. Therefore, based on the information provided and the criteria for diagnosing hypertension, the patient does not appear to have hypertension at this moment."
+198989.txt,"79 yo F w/ a h/o CHF (EF of 20-30%), carotid stenosis, no CAD from cath
+   [**2-1**], and h/o LBBB s/p BiV pacer presents as OSH transfer with ?Sepsis
+   [**1-25**] UTI, atrial fibrillation w/ RVR and demand ischemia.","Sepsis; Altered/Depressed MS
+ thought to be [**1-25**] to ativan yesterday,; # Acute on Chronic Renal Failure; supertherapeutic INR; Afib, now rate controlled - likely worsened by underlying
+   sepsis; s/p BiV placement [**8-31**].; demand ischemia","- ID: rec bedside echo
+- continued fluid bolus
+- BB downtitrated from Q6 to [**Hospital1 **]
+- FeNa of 0.17, random cortisol was normal.
+Morphine
+Rash;
+Demerol (Oral) (Meperidine Hcl)
+Confusion/Delir
+Levaquin (Oral) (Levofloxacin)
+Unknown;
+Benadryl (Injection) (Diphenhydramine Hcl)
+Confusion/Delir
+Cymbalta (Oral) (Duloxetine Hcl)
+Unknown;
+Celexa (Oral) (Citalopram Hydrobromide)
+Unknown;
+Remeron (Oral) (Mirtazapine)
+Unknown;
+Sulfa (Sulfonamide Antibiotics)
+Unknown;
+Quinolones
+Unknown;
+Vancomycin
+Rash;
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Metronidazole - [**2168-11-8**] 08:00 AM
+Meropenem - [**2168-11-9**] 12:00 AM
+Infusions:
+Other ICU medications:
+Other medications:
+Changes to
+Flowsheet Data as of  [**2168-11-10**] 07:26 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.9
+C (98.4
+Tcurrent: 36.9
+C (98.4
+HR: 75 (70 - 79) bpm
+BP: 102/68(74) {89/31(46) - 119/68(74)} mmHg
+RR: 17 (15 - 33) insp/min
+SpO2: 99%
+Heart rhythm: V Paced
+Wgt (current): 75 kg (admission): 63 kg
+Height: 64 Inch
+CVP: 14 (9 - 14)mmHg
+Total In:
+2,713 mL
+409 mL
+PO:
+TF:
+1,073 mL
+335 mL
+IVF:
+840 mL
+74 mL
+Blood products:
+Total out:
+680 mL
+310 mL
+Urine:
+680 mL
+310 mL
+NG:
+Stool:
+Drains:
+Balance:
+2,033 mL
+99 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 99%
+ABG: ///19/
+Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+Not assessed)
+Skin:  Not assessed
+Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+Not assessed
+200 K/uL
+8.5 g/dL
+146 mg/dL
+2.1 mg/dL
+19 mEq/L
+4.3 mEq/L
+90 mg/dL
+111 mEq/L
+139 mEq/L
+26.0 %
+22.4 K/uL
+[image002.jpg]
+[**2168-11-5**]  09:14 PM
+[**2168-11-6**]  04:57 AM
+[**2168-11-7**]  04:41 AM
+[**2168-11-7**]  12:00 PM
+[**2168-11-7**]  05:00 PM
+[**2168-11-8**]  03:20 AM
+[**2168-11-8**]  04:57 PM
+[**2168-11-8**]  10:55 PM
+[**2168-11-9**]  03:29 AM
+[**2168-11-10**]  04:27 AM
+WBC
+14.5
+21.9
+24.5
+20.4
+22.5
+22.4
+Hct
+27.4
+28.3
+26.2
+26.4
+23.0
+25.3
+24.5
+26.0
+Plt
+101
+124
+129
+135
+149
+200
+Cr
+2.3
+2.6
+2.9
+2.6
+2.5
+2.4
+2.3
+2.1
+Glucose
+175
+169
+76
+90
+106
+87
+97
+96
+114
+146
+Other labs: PT / PTT / INR:54.6/44.0/6.1, ALT / AST:44/41, Alk Phos / T
+Bili:101/0.6, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:5.0 %,
+Mono:1.0 %, Eos:0.0 %, Fibrinogen:622 mg/dL, Lactic Acid:2.0 mmol/L,
+Albumin:2.3 g/dL, LDH:194 IU/L, Ca++:8.2 mg/dL, Mg++:2.7 mg/dL, PO4:3.9
+mg/dL
+TE: The left atrium is mildly dilated. Left ventricular wall
+thicknesses are normal. The left ventricular cavity is moderately
+dilated. There is severe global left ventricular hypokinesis (LVEF =
+20-25 %). [Intrinsic left ventricular systolic function is likely more
+depressed given the severity of valvular regurgitation.] Right
+ventricular chamber size is normal. with focal hypokinesis of the
+apical free wall. The aortic valve leaflets (3) are mildly thickened.
+There is mild aortic valve stenosis (valve area 1.2-1.9cm2). Mild (1+)
+aortic regurgitation is seen. The mitral valve leaflets are mildly
+thickened. Moderate to severe (3+) mitral regurgitation is seen. [Due
+to acoustic shadowing, the severity of mitral regurgitation may be
+significantly UNDERestimated.] Moderate [2+] tricuspid regurgitation is
+seen. There is moderate pulmonary artery systolic hypertension. The
+pulmonic valve leaflets are thickened. There is no pericardial
+effusion.
+Compared with the prior study (images reviewed) of [**2168-4-20**], the left
+ventricular cavity appears dilated on the current study. The degree of
+mitral regurgitation has increased significantly. The degree of aortic
+stenosis has incrased slightly. LV systolic function remains severely
+depressed, although the ventricle does not appear as dyssynchronous as
+on the prior study.
+CXR: Improved pulmonary edema which is now mild with stable left
+perihilar opacity, worsened since [**2168-11-6**] and is most likely
+consolidation, probably pneumonia,less likely asymmetrical pulmonary
+edema.","sepsis ; altered/depressed m thought to be [ * * 1-25 * * ] to ativan yesterday , ; # acute on chronic renal failure ; supertherapeutic inr ; afib , now rate control - likely worsen by underlie sepsis ; s/p biv placement [ * * 8-31 * * ] . ; demand ischemia","Sepsis; Altered/Depressed Mental Status thought to be [**1-25**] to ativan yesterday,; # Acute on Chronic Renal Failure; supertherapeutic International Normalized Ratio; Atrial fibrillation, now rate controlled - likely worsened by underlying sepsis; status post Biventricular placement [**8-31**].; demand ischemia",Depressed Mood;Sepsis;Demand ischemia;sepsis;Acute on Chronic Right Heart Failure,acute on chronic renal failure;Demand ischemia;afib;depressed;sepsis,Altered Mental Status;Sepsis;Demand ischemia;alternation;Biventricular failure;Atrial fibrillation;sepsis;Acute on Chronic Right Heart Failure,sepsis; altered depressed mental status thought to be to ativan yesterday ; acute on chronic renal failure; supertherapeutic international normalized ratio; atrial fibrillation now rate controlled likely worsened by underlying sepsis; status post biventricular placement ; demand ischemia,"['sepsis', 'altered depressed mental status thought to be to ativan yesterday', 'acute on chronic renal failure', 'supertherapeutic international normalized ratio', 'atrial fibrillation now rate controlled likely worsened by underlying sepsis', 'status post biventricular placement', 'demand ischemia']",False,False,True,False,False,False,False,False,False,False,False,"To determine if the patient is diagnosed with hypertension, we need to analyze the provided patient report, focusing on the subjective and objective sections. The subjective section mentions various medications and their potential side effects but does not directly mention hypertension. The objective section provides vital signs, including blood pressure (BP), which is a critical indicator for diagnosing hypertension. The blood pressure readings are given as BP: 102/68(74) {89/31(46) - 119/68(74)} mmHg. These readings indicate the systolic and diastolic blood pressures, with the numbers in parentheses representing the mean arterial pressure (MAP) and possibly other readings or targets. The provided blood pressure readings do not exceed the typical threshold for hypertension, which is generally considered to be above 130/80 mmHg according to many current guidelines. Additionally, the report includes results from an echocardiogram (echo) that describes left ventricular dysfunction and valvular issues, which could be related to or exacerbated by hypertension, but the echo findings alone do not diagnose hypertension. The patient's condition, as described, involves significant cardiac issues, including severe global left ventricular hypokinesis and valvular regurgitation, which could be indicative of heart failure or other cardiac conditions. However, based solely on the blood pressure readings provided, the patient does not appear to have hypertension at the time of measurement. It's also important to consider that a single blood pressure reading is not sufficient for a diagnosis of hypertension; multiple readings over time are typically required. Given the information provided and focusing on the blood pressure readings as the key indicator for hypertension, we can conclude that the patient is not diagnosed with hypertension based on the current data.",True,"To diagnose hypertension in the given patient, we must analyze both the subjective and objective sections of the patient's report. The subjective section provides information about the patient's symptoms, medical history, and current medications, while the objective section offers quantitative data from tests and examinations. Hypertension is typically characterized by elevated blood pressure readings, which can be associated with various symptoms and complications, including cardiovascular diseases, kidney problems, and other comorbidities. From the objective section, we see the patient's blood pressure is recorded as 102/68 mmHg, which falls within a relatively normal range. However, the presence of severe global left ventricular hypokinesis (LVEF = 20-25%), moderate to severe mitral regurgitation, and moderate pulmonary artery systolic hypertension, as indicated by the echocardiogram, suggests significant cardiac dysfunction. These findings, along with the patient's complex medical history and the presence of other potential risk factors for hypertension (such as confusion/delirium possibly related to medication, rash, and the use of various medications that could influence blood pressure), necessitate a careful consideration of hypertension as part of the differential diagnosis. Furthermore, the patient's weight gain (from 63 kg to 75 kg), which could indicate fluid retention, and the laboratory results showing elevated creatinine levels (indicating potential kidney stress), are also relevant when assessing for hypertension. Despite the current blood pressure reading being within a normal range, the comprehensive analysis of the patient's condition, including signs of cardiac dysfunction, potential fluid retention, and kidney stress, supports the consideration of hypertension in the diagnostic process. Given the complexity of the patient's presentation and the presence of multiple risk factors and complications associated with hypertension, a thorough evaluation is necessary to determine the presence of hypertension."
+195261.txt,"Assessment and Plan
+ CONSTIPATION (OBSTIPATION, FOS)
+ IMPAIRED SKIN INTEGRITY
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ .H/O LYMPHOMA (CANCER, MALIGNANT NEOPLASM, LYMPHOID)
+ .H/O PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+ HYPOTENSION (NOT SHOCK)
+ NEUTROPENIA
+   .
+   52 yoF with Lymphoplasmacytic lymphoma, Waldenstrom's
+   macroglobulinemia, hepatitis C, h/o hepatitis B, and cryoglobulinemia
+   admitted with new onset rash and transferred to the [**Hospital Unit Name 44**] for
+   hypotension in the setting of neutropenia.",Hypotension:; # Rash:; Pancytopenia:; lymphoplasmocytic lymphoma:,"PHERESIS CATHETER - START [**2123-7-30**] 04:34 PM
+.
+- pheresis catheter placed by IR and completed one round of pheresis,
+next one Sunday AM
+- blood cx grew cornyebacterium
+- newly requiring 2L O2 by nasal canula
+Codeine
+Hives;
+Latex
+Rash;
+Changes to
+f
+Review of systems is unchanged from admission except as noted below
+Review of systems:","Last dose of Antibiotics:
+Vancomycin - [**2123-7-30**] 08:45 PM
+Cefipime - [**2123-7-31**] 12:08 AM
+Infusions:
+Other ICU medications:
+Other medications:
+Flowsheet Data as of  [**2123-7-31**] 07:53 AM
+Vital signs
+Hemodynamic monitoring
+Fluid balance
+24 hours
+Since 12 AM
+Tmax: 36.3
+C (97.3
+Tcurrent: 35.9
+C (96.6
+HR: 85 (72 - 88) bpm
+BP: 92/52(69) {92/52(69) - 146/89(108)} mmHg
+RR: 19 (12 - 28) insp/min
+SpO2: 95%
+Heart rhythm: SR (Sinus Rhythm)
+Total In:
+2,451 mL
+179 mL
+PO:
+200 mL
+TF:
+IVF:
+2,016 mL
+179 mL
+Blood products:
+235 mL
+Total out:
+765 mL
+316 mL
+Urine:
+765 mL
+316 mL
+NG:
+Stool:
+Drains:
+Balance:
+1,686 mL
+-137 mL
+Respiratory support
+O2 Delivery Device: Nasal cannula
+SpO2: 95%
+ABG: 7.44/26/62/23/-4 (respiratory alkalosis)
+Gen: Pleasant, well appearing, NAD
+HEENT: No conjunctival lesions. No icterus. MMM. OP clear without
+mucosal ulcers or other lesions.
+NECK: Supple, palpable mass in L submandibular region which patient
+states is clogged salivary gland. JVP low.
+CV: RRR. nl S1, S2. No murmurs, rubs or [**Last Name (un) 1792**]
+LUNGS: CTAB. Diffuse wheezes. No rhonchi or rales.
+ABD: NABS. Soft, NT, ND. No palpable HSM.
+EXT: WWP, NO CCE. Full distal pulses bilaterally.
+SKIN: Diffuse/ extensive non-blanching rash over her lower ext
+extending to her buttock. Blanching, red/pink rash extending to
+abdomen.
+NEURO: A&Ox3. Appropriate. CN 2-12 grossly intact sensation throughout.
+5/5 strength throughout. Non-focal exam
+69 K/uL
+8.1 g/dL
+106 mg/dL
+1.2 mg/dL
+23 mEq/L
+4.3 mEq/L
+35 mg/dL
+107 mEq/L
+138 mEq/L
+25.3 %
+1.2 K/uL
+[image002.jpg]
+[**2123-7-31**] 4:13AM
+[**2123-7-29**]  04:50 AM
+[**2123-7-29**]  08:23 AM
+[**2123-7-29**]  08:34 AM
+[**2123-7-29**]  12:56 PM
+[**2123-7-29**]  03:45 PM
+[**2123-7-29**]  11:46 PM
+[**2123-7-30**]  03:09 AM
+[**2123-7-30**]  09:55 AM
+[**2123-7-30**]  04:03 PM
+[**2123-7-31**]  04:13 AM
+WBC
+0.5
+0.4
+0.3
+0.3
+1.2
+Hct
+31.8
+26.5
+27.4
+28.4
+25.3
+Plt
+48
+30
+31
+27
+73
+69
+Cr
+1.6
+1.3
+1.0
+0.9
+1.2
+TCO2
+22
+20
+19
+18
+Glucose
+79
+86
+100
+112
+106
+Other labs: PT / PTT / INR:15.1/35.0/1.3, ALT / AST:39/54, Alk Phos / T
+Bili:52/1.1, Differential-Neuts:61.0 %, Band:8.0 %, Lymph:19.0 %,
+Mono:3.0 %, Eos:5.0 %, D-dimer:2153 ng/mL, Fibrinogen:395 mg/dL, Lactic
+Acid:3.6 mmol/L, Albumin:2.7 g/dL, LDH:129 IU/L, Ca++:9.3 mg/dL,
+Mg++:2.5 mg/dL, PO4:3.9 mg/dL
+.
+CXR [**2123-7-31**]: pending
+.
+BCx [**7-29**]: one with GPC, one with CORYNEBACTERIUM OR propionibacterium
+BCx [**7-30**]: NGTD
+Ucx: positive for yeast
+MRSA pending",hypotension : ; # rash : ; pancytopenia : ; lymphoplasmocytic lymphoma :,Hypotension:; Number Rash:; Pancytopenia:; lymphoplasmocytic lymphoma:,clasmotocytic lymphoma;Hypotension NEC;Rash,clasmotocytic lymphoma;hypotensive,clasmotocytic lymphoma;Hypotension NEC;Rash,hypotension ; number rash ; pancytopenia ; lymphoplasmocytic lymphoma,"['hypotension', 'number rash', 'pancytopenia', 'lymphoplasmocytic lymphoma']",False,False,False,False,False,True,False,False,False,False,False,"To determine if the patient is diagnosed with hypertension, we need to analyze the provided patient report, focusing on the subjective and objective sections. Hypertension is typically characterized by elevated blood pressure readings. In the objective section, the patient's vital signs are reported, including blood pressure (BP). The BP is given as 92/52(69) {92/52(69) - 146/89(108)} mmHg. This indicates a range of blood pressure readings, with the highest systolic pressure being 146 mmHg and the highest diastolic pressure being 89 mmHg. However, the majority of the readings provided in the context, such as 92/52, do not indicate hypertension, as they are within or below the normal range (typically considered below 120/80 mmHg). The single higher reading of 146/89 mmHg could suggest hypertension, but in the context of the entire report, it seems more like an isolated reading rather than a consistent pattern of elevated blood pressure. Furthermore, the report does not mention any symptoms or concerns directly related to hypertension. Given the information, the diagnosis of hypertension does not seem to be the primary focus of the patient's current condition, which includes concerns such as a rash, respiratory issues (requiring 2L O2), and various infections (indicated by blood cultures and antibiotic treatments).",True,"To determine if the patient is diagnosed with hypertension, we need to analyze the provided patient report, focusing on the subjective and objective sections, and correlate it with the knowledge from long-term memory about hypertension. Hypertension is often associated with elevated blood pressure readings, with systolic blood pressure greater than 140 mmHg and diastolic blood pressure greater than 90 mmHg. The patient's report includes vital signs, specifically blood pressure readings, which are crucial for diagnosing hypertension. The blood pressure reading provided is 92/52(69) {92/52(69) - 146/89(108)} mmHg. This reading indicates that the patient's blood pressure has fluctuated, with the highest reading being 146/89 mmHg, which falls within the range that could be considered hypertensive. However, the presence of hypertension is not solely determined by a single elevated reading but by consistently high readings over time. Additionally, the patient's clinical presentation, including symptoms and other vital signs, should be considered. The patient is also experiencing other health issues, such as a non-blanching rash, diffuse wheezes, and a history of recent pheresis, which could complicate the diagnosis. Furthermore, the patient's medication regimen, including antibiotics like Vancomycin and Cefipime, and the presence of comorbid conditions or risk factors for hypertension, should be taken into account. Given the complexity of the patient's condition and the information provided, the diagnosis of hypertension would depend on the interpretation of the blood pressure readings in the context of the patient's overall clinical picture. Since the highest blood pressure reading provided (146/89 mmHg) does indeed suggest hypertension, and considering the patient's complex medical condition which might include factors contributing to or resulting from hypertension, it is reasonable to consider hypertension as part of the patient's diagnosis."

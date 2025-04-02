@@ -1,0 +1,2449 @@
+Term,Frequency
+anemia,75
+hypotension,59
+acute renal failure,59
+hypertension,49
+htn,49
+cad,46
+altered mental status,40
+arf,40
+afib,39
+atrial fibrillation,39
+respiratory failure,38
+copd,34
+leukocytosis,33
+thrombocytopenia,32
+sepsis,31
+dm,28
+hypoxia,25
+dm2,21
+acute on chronic renal failure,20
+diabetes,20
+esrd,20
+gi bleed,19
+pneumonia,19
+coronary artery disease,19
+hypoxic respiratory failure,18
+renal failure,16
+hyperlipidemia,16
+chf,16
+hiv,16
+hyperkalemia,15
+hypothyroidism,14
+tachycardia,14
+hypernatremia,14
+htn:,13
+nstemi,12
+cirrhosis,12
+hyponatremia,12
+pna,12
+respiratory distress,11
+transaminitis,11
+fever,10
+pancytopenia,10
+seizure,10
+gib,10
+dyspnea,10
+chest pain,10
+esrd on hd,10
+pain,10
+hypotension:,9
+hematemesis,9
+ugib,9
+coagulopathy,9
+septic shock,9
+hypertension:,8
+pvd,8
+ams,8
+pulmonary embolism,7
+delirium,7
+fever:,7
+metabolic acidosis,7
+uti,7
+hypoglycemia,7
+fevers,7
+dka,7
+pancreatitis,7
+hypertensive urgency,7
+ards,7
+# cad,6
+cholangitis,6
+osa,6
+nsclc,6
+depression,6
+esld,6
+diastolic heart failure,6
+hypercarbic respiratory failure,6
+stemi,6
+atrial fibrillation with rvr,6
+hypothermia,6
+diastolic chf,6
+etoh abuse,6
+altered mental status:,6
+pleural effusion,6
+dementia,6
+pericardial effusion,6
+etoh withdrawal,6
+asthma,6
+pe,5
+acute on chronic systolic heart failure,5
+hypoxemic respiratory failure,5
+aspiration pna,5
+respiratory failure:,5
+syncope,5
+hepatic encephalopathy,5
+cardiomyopathy,5
+cellulitis,5
+alcohol abuse,5
+aml,5
+hypoxia:,5
+hyperlipidemia:,5
+abdominal pain,5
+hypoxemia,5
+sinus tachycardia,5
+gerd,5
+ckd,5
+seizure disorder,5
+lymphoma,5
+vap,5
+anemia:,4
+# htn,4
+sbp,4
+cll,4
+cad:,4
+dyslipidemia,4
+bacteremia,4
+acute on chronic systolic chf,4
+hiv/aids,4
+alcohol withdrawal:,4
+# anemia,4
+# hypotension,4
+leukocytosis:,4
+hyponatremia:,4
+bipolar disorder,4
+atrial fibrillation:,4
+dm:,4
+# respiratory failure,4
+# arf,4
+bph,4
+sle,4
+"renal failure, acute (acute renal failure, arf)",4
+af,4
+chronic systolic chf,4
+shock,4
+atrial flutter,4
+a fib with rvr,4
+congestive heart failure,4
+as,4
+chronic renal failure,4
+mds,4
+diabetes mellitus,4
+diarrhea,4
+lower gi bleed,3
+demand ischemia,3
+thrombocytopenia:,3
+bleeding,3
+heart failure,3
+type ii diabetes,3
+a fib,3
+type 2 dm,3
+bronchiectasis,3
+transaminitis:,3
+pulmonary hypertension,3
+acute renal failure:,3
+endocarditis,3
+# respiratory distress,3
+chronic atrial fibrillation,3
+chronic diastolic chf,3
+respiratory failure.,3
+acute blood loss anemia,3
+hemoptysis,3
+hypercholesterolemia,3
+agitation,3
+alcoholism,3
+# thrombocytopenia,3
+elevated troponin,3
+stemi:,3
+# altered mental status,3
+hypotension (not shock),3
+chronic back pain,3
+adrenal insufficiency,3
+seizures,3
+# acute renal failure:,3
+dka:,3
+subdural hematoma,3
+anxiety:,3
+resp distress,3
+stroke,3
+acute respiratory failure,3
+ileus,3
+htn.,3
+volume overload,3
+peripheral vascular disease,3
+cardiogenic shock,3
+aspiration pneumonia,3
+diabetic ketoacidosis,3
+aortic stenosis,3
+h/o cva,3
+febrile neutropenia,3
+# hypoxia:,2
+oliguria,2
+# acute on chronic renal failure,2
+# etoh abuse,2
+cad s/p cabg,2
+. anemia:,2
+hypotension.,2
+pud,2
+rp bleed,2
+type 2 diabetes,2
+) atrial fibrillation,2
+hypoxemic respiratory failure:,2
+seizure:,2
+chronic respiratory failure,2
+rhabdomyolysis,2
+paroxysmal atrial fibrillation,2
+history of hypertension,2
+etoh,2
+gi bleeding,2
+coagulopathy:,2
+pea arrest,2
+# leukocytosis,2
+# chest pain,2
+#. cad,2
+fevers:,2
+arf on ckd,2
+anxiety/depression,2
+chronic renal insufficiency,2
+severe mr,2
+asthma:,2
+anion gap acidosis,2
+hypoxia/hypercarbia,2
+nsvt,2
+dic,2
+pulmonary fibrosis,2
+hypertensive emergency,2
+ventricular tachycardia,2
+# cad:,2
+h/o breast cancer,2
+cva,2
+"altered mental status, unresponsiveness",2
+ischemic cardiomyopathy,2
+# s/p pea arrest,2
+hypercarbic respiratory failure:,2
+hcv,2
+upper gi bleed,2
+multivessel cad,2
+t cell lymphoma,2
+diastolic congestive heart failure,2
+acute on chronic renal insufficiency,2
+renal failure:,2
+chronic pain,2
+#hypertension,2
+pulmonary edema,2
+diabetes:,2
+elevated lactate,2
+respiratory distress:,2
+# hypertension,2
+acute respiratory distress,2
+h/o etoh abuse,2
+angioedema,2
+# dm:,2
+# hyperkalemia,2
+dchf,2
+type 2 diabetes mellitus,2
+# dm,2
+bradycardia,2
+hip fracture,2
+atrial fibrillation (afib),2
+schizophrenia,2
+# leukocytosis:,2
+. leukocytosis,2
+thrombocytosis,2
+mental status changes,2
+coffee ground emesis,2
+cad s/p mi,2
+# hyperlipidemia,2
+# fevers,2
+afib/aflutter,2
+h/o pe,2
+sob,2
+nausea/vomiting,2
+metastatic breast cancer,2
+aspiration,2
+acute on chornic renal failure,2
+nausea,2
+# esrd,2
+arf:,2
+# altered mental status:,2
+cad s/p mi.,2
+gib:,2
+gvhd,2
+flank pain,2
+pancreatic cancer,2
+gi bleed:,2
+brbpr,2
+# diarrhea,2
+polysubstance abuse,2
+uti:,2
+fall:,2
+substance abuse,2
+iddm,2
+gout,2
+esophageal ca,2
+cri,2
+sdh,2
+esrd:,2
+acute on chronic renal failure:,2
+headache,2
+dm 2,2
+als,2
+lethargy,2
+# arf:,2
+lung cancer,2
+coronary artery disease s/p cabg,2
+anoxic brain injury,2
+hyperglycemia/diabetes,2
+metastatic melanoma,2
+elevated inr,2
+toxic ingestion,2
+hl,2
+acute systolic congestive heart failure,2
+pleural effusions,2
+hypoxic resp failure,2
+# cirrhosis,2
+svt,2
+svc syndrome,2
+etoh intoxication,2
+delerium,2
+parkinsons,2
+alcoholic hepatitis,2
+chronic systolic heart failure,2
+gallstone pancreatitis,2
+copd exacerbation,2
+breast ca,2
+hypothyroid,2
+vt,2
+afib with rvr,2
+hypokalemia,2
+c. diff,2
+sah,2
+cad/chf,2
+hap,2
+heart failure (chf),2
+sbo,2
+non-gap acidosis,1
+history of eosinophilic lung disease,1
+"deep venous thrombosis (dvt), lower extremity",1
+"h/o chronic obstructive pulmonary disease (copd, bronchitis,
+   emphysema) with acute exacerbation",1
+"heart failure (chf), diastolic, chronic",1
+"altered/depressed ms
+ thought to be [**1-25**] to ativan yesterday,",1
+supertherapeutic inr,1
+"afib, now rate controlled - likely worsened by underlying
+   sepsis",1
+s/p biv placement [**8-31**].,1
+# bradycardia / rhythm,1
+#. hypertension,1
+#. chronic kidney disease stage v on hd,1
+. peripheral vascular disease,1
+# rash:,1
+pancytopenia:,1
+lymphoplasmocytic lymphoma:,1
+sob: most likely explanation currently is aspiration,1
+gnr bacteremia,1
+3rd degree heart block,1
+# fevers:,1
+likely lymphoma,1
+leukopenia,1
+altered mentals status,1
+# abd pain:,1
+anemia and thrombocytopenia,1
+# alcoholic cirrhosis:,1
+"shock- likely hypovolemic from gi bleed, but may have septic
+   component as well given uti,",1
+gib bleed,1
+possible sepsis- ? urosepsis,1
+lle dvt,1
+complete heart block:,1
+nfluenza like illness:,1
+"hypothermia: could be secondary to infection, adrenal
+   insufficiency, hypothyroidism",1
+ms,1
+coffee grounds per ng tube,1
+acute heptatitis,1
+drug overdose,1
+acute on chronic systolic and diastolic hf:,1
+abd pain,1
+hcv cirrhosis/esrl,1
+hiv.,1
+myopathy.,1
+s/p total thyroidectomy,1
+likely urosepsis.,1
+acute renal failure: likely atn in the setting of hypotension,1
+acute on chronic resp failure,1
+respiratory failure-hypoxia and hypercarbia,1
+pulmonary htn:,1
+"fever: given fevers, hypotension and recent infection most conering
+   etiology is sepsis.  cxr stable but with report of pna on past
+   admission most likely source.",1
+acute decompensated diastolic heart failure,1
+"pulmonary infectious processes such as bacterial pneumonia,
+   (especially w/ encapsulated organisms like strep pneumo) pcp pneumonia
+   or influenza are highly likely,",1
+v-tach/v-fib,1
+hiv/aids:,1
+ntubation/respiratory failure,1
+acute etoh pancreatitis,1
+dyspnea/hypoxia,1
+chest discomfort,1
+squamous cell lung carcinoma,1
+# septic shock:,1
+#. lethargy:,1
+"diabetes mellitus, type ii",1
+hyponatremia: likely hypovolemic hyponatremia,1
+#hypotension:,1
+cirrhosis with hcc,1
+c. diff.,1
+metabolic acidosis.,1
+hyponatremia.,1
+elevated troponins,1
+newly worsened mr,1
+"hypotension: acutely hypotensive, concern was for ischemia/infarct
+   versus oversedation",1
+respiratory distress: repeat cxr showed stable ll opacity. also chf,1
+dyspnea/lll collapse,1
+hypoxia: differential includes worsening pna,1
+"hypotension: baseline blood pressures are 130s-140s and patient was
+   hypertensive at rehab.  concern is for septic shock vs. cardiogenic
+   shock",1
+hx of pancreatitis:,1
+dm type ii,1
+fevers/leukocytosis - most likely secondary to pna,1
+s/p r radical nephrectomy and removal of large renal mass,1
+continued intubation/respiratory failure,1
+known ascending aortic dissection s/p st jude's valve,1
+# dyspnea:,1
+lower extremity edema:,1
+cad s/p avr-,1
+. dm:,1
+hypoxemia and hypotension,1
+# le swelling,1
+cad s/p stemi 2,1
+h/o dvt/pe s/p ivc filter,1
+leukocytosis/fever,1
+atrial fibrillation with rvr:,1
+hypercarbic/hypoxic respiratory failure,1
+hypoglycemia/type ii dm,1
+right breast mass and skin changes,1
+delirium on dementia/depression/anxiety,1
+influenza like illness,1
+two vessel cabg,1
+1)ulcerative colitis,1
+)leukocytosis:,1
+5)primary biliary cirrhosis,1
+#  abdominal pain/surgical abdomen: most likely [**12-21**] crohn's flare,1
+sinus tachycardia: in the setting of intravascular depletion,1
+cloudy urine: in setting of intravascular depletion,1
+# overdose / altered mental status,1
+# acute renal failure on ckd,1
+"# hyperkalemia:  likely was due to acute renal failure,",1
+pneumoperitoneum,1
+acute blood loss anemia due to upper gi bleed,1
+pelvic hematoma,1
+pvi for atrial fibrillation,1
+hypervolemic,1
+# acute renal failure,1
+possible uti,1
+ag metabolic acidosis,1
+complete heart block,1
+recent dvt/likely pe,1
+acute kidney injury/ oliguria,1
+left subdural hematoma,1
+"h/o gerd, pud",1
+#. etoh w/drawal,1
+#. abd pain,1
+. hematemesis/melena,1
+. anion gap metabolic acidosis,1
+. respirator alkalosis:,1
+chf.,1
+cirrhosis:  due to etoh,1
+cirrhosis:,1
+) htn,1
+dm ii,1
+bmd,1
+bilateral hip fracture: s/p fixation on,1
+biliary sepsis,1
+stage iv chronic kidney disease,1
+critical as.,1
+ventral hernia complicated by sbo.,1
+"hx of cri,",1
+gi bleeding/hypotension:,1
+dchf/htn:,1
+chest pain/coronaries: now s/p cath which revealed 3vd,1
+"vt lasting 3min.  vt likely
+   reactive to ongoing ischemia.",1
+# depression,1
+"stemi,",1
+"hypotension - likely secondary to sepsis, although source unknown at
+   this time",1
+coagulopathy/thrombocytopenia,1
+fever/rash/arthralgias,1
+hypotension: appearance is most consistent with a septic,1
+malignancy - presumptive pancreatic cancer,1
+"gastrointestinal bleed, other (gi bleed, gib)",1
+cirrhosis/liver failure,1
+. anemia,1
+ascites,1
+hypoalbuminemia,1
+# metastatic breast cancer:,1
+"hypoxia:  resolving.  ddx includes infection, hypervolemia, chf
+   exacterbation.",1
+hypotension: likely sirs physiology with uti,1
+crf,1
+lupus:,1
+ag acidosis,1
+episodes of afib and svt,1
+unstable angina,1
+elevated end lv pressure (44mmhg) and pulm edema,1
+nsr,1
+acute on chonic rf,1
+pancreatitis:,1
+# leukocytosis: likely [**2-24**] uti.,1
+# gi bleed: n,1
+"pt noted to be hypotensive in ed, w/ sbp 89 on arrival.",1
+#. line infection,1
+"#. septic pulmonary emboli - pt also p/w respiratory complaints
+   including right-sided chest pain, doe, and cough",1
+s/p thoracotomy,1
+h/o gerd.,1
+h/o dm,1
+"hypotension, transient",1
+leg pains,1
+recent bms to rca,1
+respiratory distress/copd,1
+# delirum,1
+hypoxic respiratory distress,1
+hiatal hernia,1
+shoulder pain,1
+cad s/p inferior mi,1
+gastritis/gerd:  likely related to large hiatal hernia.,1
+witnessed apneas,1
+pain in hands and feet:,1
+chronic abdominal pain:,1
+hepatitis b and c,1
+s/p arrest:,1
+a.fib,1
+infection,1
+"sepsis, severe (with organ dysfunction)
+   : worsening acidosis with rising lactate. most likely source is liver.",1
+cad with chronic systolic chf,1
+l ureteral stones,1
+pyelonephritis/peri-urosepsis,1
+"severe sepsis - bands up to 32 this morning with signs of developing
+   dic, unclear [**name2 (ni) 10137**] although most likely seems to be gi",1
+#developing dic,1
+aphasia/r sided weakness:,1
+"known history of
+   cad,",1
+afib.,1
+wide complex tachycardia,1
+subcutaneous emyphysema/mediastinitis,1
+hyperthyroidism,1
+right groin bleeding,1
+# right chest/back hematoma,1
+lead fracture/heart block,1
+"chronic systolic heartfailure w/o acute exacerbation/dilated
+   ischemic cardiomyopathy: c",1
+icd s/p ablation for ventricular arrhythmia,1
+# systolic heart failure,1
+# fever/bacteremia:,1
+septic arthritis / gout,1
+# arf: likely pre-renal,1
+a. fib with rv,1
+colon ca:,1
+fever/chills/malaise/cp.,1
+# unstable angina,1
+sbp > 160,1
+hyperkalemai,1
+"dm i,",1
+nausea and vomiting,1
+stage iv pancreatic cancer,1
+recent thrush,1
+constipation,1
+hypoglycemia/dm,1
+cad s/p recent cabg:,1
+urinary retension,1
+bilateral pneumonia,1
+"arrest
+   likely secondary to hypoxia from narcotics",1
+# respiratory failure: with hypoxia,1
+# afib,1
+# dm2:,1
+.  hyperglycemia.,1
+bipolar disorde,1
+acute hypercarbic respiratory failure,1
+fluid overload,1
+afib:,1
+# respiratory failure:,1
+# spine fracture:,1
+obtundation.,1
+tracheal/esophageal perforation vs. allergic reaction,1
+hcv cirrhosis and ascites,1
+diastolic hf,1
+atrial fibrillation/flutter,1
+hypovolemic hypotension,1
+hemothorax,1
+# hypoxia,1
+hepatitis c,1
+"sepsis - the patient meets sirs criteria with tachycardia,
+   leukocytosis and hypotension. likely source is l dorsal foot wound",1
+# left foot ulceration,1
+severe 3 vd,1
+chf w/ ef,1
+#dm ii,1
+cad s/p inferior stemi,1
+"sepsis - on admission meets sepsis/sirs criteria with diff for
+   infection being pulmonary, uti, hepato-biliary, gastroenteritis,
+   influenza.  likely pneumonia or hepatitis,",1
+metastatic esophageal adenocarcinoma,1
+r-sided pleuritic chest pain,1
+cki,1
+acute heart failure,1
+hypercalcemia,1
+non-small cell ca,1
+altered ms,1
+# cough/chest congestion:,1
+# htn: hypertensive urgency,1
+possible sepsis-source suspected pulmonary.,1
+hyperglycemia,1
+lvef<55% with lvh and dchf,1
+# dm 2:,1
+uti/urosepsis,1
+emesis with fever,1
+elevated ck,1
+pvd/carotid stent:,1
+fever/rsv,1
+ghvd,1
+hx afib,1
+cholangitis:,1
+"dchf, acute on chronic vs infection",1
+episode of prolonged pause,1
+nstemi:,1
+# pericarditis/ tamponade,1
+"acute exacerbation of her diastolic heart
+   failure",1
+# history of venous thomboembolic disease,1
+# sepsis from lll pneumonia-,1
+# hemochromatosis:,1
+duodenal ulcer,1
+# ingestion,1
+"septic shock/ fever: unclear source. top differentials include
+   recurrent c. diff, ischemic bowel sounds, pna, endocarditis",1
+change in mental status,1
+chf (ef of 45%),1
+"meningitis (esp.
+   pneumococcal)",1
+septic shock/hypotension:,1
+pvd s/p tma debridement:,1
+hematochezia/anemia of acute blood loss,1
+angina/nstemi,1
+dyspnea/tachypnea,1
+cad s/p cabg with diseased grafts,1
+gastroparesis,1
+dm type 1,1
+.lithium toxicity:,1
+.alcohol use,1
+ha,1
+"h/o afib s/p ablation,",1
+shock/pea arrest:,1
+gram negative bacteremia,1
+mental status,1
+resolved renal failure:,1
+hypoxia:  secondary to very large mucus plugs,1
+# ams,1
+recurrent dvts,1
+recurrent sdh:,1
+seizures/ams,1
+hypoxia/pneumonia,1
+#bradycardia:,1
+myelodysplastic syndrome:,1
+"bilat pleural effusion/rll opacity - likely transudative effusions in
+   the setting of decompensated chf,",1
+n/v/d,1
+st depressions,1
+melanoma s/p parotidectomy and node dissection,1
+pump/chronic diastolic heart failure,1
+"normal sinus rhythm with occasional
+   tachycardia",1
+change in mental status/agitation,1
+fever and leukocytosis,1
+staph aureus bacteremia,1
+acute bacterial cystitis,1
+# hemodynamics s/p pea arrest:,1
+# saddle pulmonary emboli,1
+# acute respiratory failure,1
+# arf: atn secondary to hypotensive event,1
+# shock liver: secondary to hypoperfusion,1
+troponin bump: likely secondary to demand ischemia,1
+hypoglycvemia:,1
+"hypotension: could be secondary to early sepsis etiology,",1
+mild pulmonary edema,1
+avr with severe stenosis,1
+pulmonary fibrosis/hypoxia,1
+acute on chronic hypercapneic respiratory acidosis,1
+history of asthma,1
+history of recurrent dvt,1
+# upper gi bleed,1
+# liver cirrhosis:,1
+#shortness of breath,1
+# thrombocytopenia:,1
+# sepsis:  presumed source is clostridium difficile infection,1
+# arf:  possibly secondary to atn given sepsis,1
+# metabolic acidosis:  secondary to dka vs. sepsis vs. arf.,1
+# dm type i:,1
+# eosinophilia:,1
+acute on chronic hypercarbic repiratory failure,1
+restless leg syndrome,1
+"res failure
+   ddx: lung collapse w/ hilar mass, post obstructive pna, non obstructive
+   infection including tb, pseudomonas, mrsa, ards.",1
+"shock
+   likely sepsis, from post pneumonia",1
+# b/l ptx: unclear etiology for new onset bilateral ptx,1
+cp: dyspnea and cp likely secondary to ptx,1
+# cirrhosis: [**3-15**] hep c acquired,1
+#  hypoxic respiratory failure,1
+#  pulmonary hypertension/right heart failure:,1
+# diabetes mellitus type ii:,1
+hyperglycemia/metabolic acidosis,1
+"septic shock: significant leukocytosis. fever. bilateral pneumonia,
+   urinary tract infection.",1
+cardiogenic shock/ nstemi/ known cad,1
+sepsis: cholangitis vs urosepsis are most likely sources.,1
+. seizure disorder:,1
+meningioma,1
+. ams,1
+pulmonary embolism.,1
+tachycardia/palpitations,1
+# gib:,1
+hypercarbic and hypoxic respiratory distress,1
+"acute
+   respiratory acidosis",1
+c1/c2 meningioma,1
+h/o of afib and htn,1
+"pulmonary: difficult intubation secondary to cervical
+   compression.remains",1
+right foot ulcer,1
+"sepsis/hypotension:  meets sirs criteria with fever, leuckocytosis
+   (particularly in setting of chemo) and lungs as likely infectious
+   source.",1
+abdominal pain (including abdominal tenderness),1
+"renal failure, end stage (end stage renal disease, esrd).",1
+dm.,1
+cad s/p stemi.,1
+oliguric renal failure,1
+"patient s/p loa, proctocolectomy with
+   ileoanal anastamosis",1
+diabetic foot ulcer,1
+peripheral neuropathy,1
+1.  hematuria.,1
+2.  hypoxia.,1
+".  anemia.
+   likely secondary to chronic disease and hematuria",1
+"sepsis: patient
+s blood and urine from [**hospital1 **] [**location (un) 250**] came back today
+   for gram negative cocci.",1
+tachycardia/svt,1
+myelodysplastic syndrome,1
+"chf,",1
+?copd,1
+"acidosis, metabolic (gap)",1
+"acute on chronic renal failure, chronic kidney disease stage v",1
+increased ostomy output,1
+confusion/altered mental status,1
+lymphadenopathy,1
+tumor lysis syndrome,1
+pulmonary tb,1
+hiv:,1
+#  atrial fibrillation,1
+"new respiratory failure: originally ards/sepsis combined w/ fluid
+   overload and possible bacterial pneumonia.",1
+#fevers/leukocytosis:,1
+tachycardia:,1
+rash,1
+abdominal distension,1
+rle dry gangrene,1
+rectus sheath hematoma,1
+cardiomyopathy [**3-12**] prior arrest:,1
+#withdrawal/pain/delirum,1
+#  hypoxemia:  likely secondary to hap,1
+s/p ex-plant,1
+acute hypoxemic respiratory failure,1
+hep c cirrhosis,1
+# anemia:,1
+# s/p fall:,1
+"seizure disorder combined
+   with sdh",1
+hx of esrd,1
+h/o hypercoagulability,1
+"sepsis, severe (with organ dysfunction):",1
+aspiration pna with respiratory failure,1
+coagulopathy: most c/w dic,1
+"cancer (malignant neoplasm), pancreas",1
+hypoxia / unresponsiveness,1
+shortness of breath and cough: most likely pneumonia,1
+# alkalemic respiratory failure,1
+) hypercarbic respiratory failure,1
+# psyche issues/ bipolar / borderline personality disorder:,1
+"syncope:  secondary to av block versus seizures with increased vagal
+   tone",1
+#hematemasis,1
+#pancreatitis,1
+"#cirrhosis, portal hypertension, ascites, pancytopenia, coagulopathy",1
+#etoh abuse,1
+possible food impaction,1
+"c6 posterior ligamentous
+   injury,",1
+t7 acute compression fracture,1
+etoh w/d,1
+multiple facial fractures:,1
+facial trauma,1
+syncope/fall,1
+"resp failure
+ intubated in setting of altered ms. [**name13 (stitle) **] acute pulmonary
+   issue",1
+dyspnea:,1
+obstructive sleep apnea,1
+s/p caesarean delivery [,1
+.  ams.,1
+. alcoholic cirrhosis,1
+exfoliative dermatitis.,1
+"hypotension
+   -          secondary to blood loss in setting hematemesis",1
+"leukocytosis
+   -          likely stress response",1
+alzheimer's dementia,1
+dm2:,1
+tachycardia: likely [**2-6**] multifactorial-,1
+chf/vol overload:,1
+cad s/p cabg:,1
+stroke with aphasia,1
+"cva, including a large cerebellar infarction.",1
+apnea,1
+neuro status,1
+vfib arrest,1
+# pericardial effusion:,1
+# pleural effusions:,1
+esophageal ca - pt s/p chemo-xrt and esophagectomy.,1
+# dyslipidemia -,1
+acute diastolic heart failur,1
+acute on chronic kidney injury,1
+"hypotension/sepsis: currently under treatment for pna with untyped
+   gnr in sputum",1
+acidosis,1
+tongue twitching,1
+chronic pancreatitis:,1
+etoh cirrhosis: e,1
+"persistent hypotension possibly due
+   to sepsis",1
+stool ball and impaction,1
+skin ulceration,1
+hypotension/syncope,1
+hypotension/tachycardia,1
+mitral stenosis:,1
+pump,1
+wt loss:,1
+# hx b-cell lymphoma:,1
+multiple allergies:,1
+hypoglycemia / diabetes:,1
+# sepsis,1
+# chronic systolic chf,1
+"hypotension:  most likely related to unstable rhythm of atrial
+   fibrillation with rapid ventricular response",1
+"history of afib,",1
+istory of cad s/p 5 vessel cabg,1
+hyperkalemia:,1
+"infection, cellulitis",1
+hypotension/fever,1
+"sinus tachycardia:  unclear cause, likely multifactorial from pain,
+   sepsis, bb withdrawal",1
+chronic osteo,1
+history lle dvt ([**12-20**]): found after presenting with lle swelling,1
+mechanical valve:,1
+altered mental status/somnolence,1
+resp distress/pna,1
+uti: + ua,1
+dmii,1
+left lobectomy of liver for cystic mass,1
+sepsis/altered mental status,1
+# fever/leukocytosis,1
+altered [**month/year (2) 7446**] status:,1
+#hyperglycemia,1
+#cough/sob,1
+hepatitis c:,1
+leukocytosis/c diff +:,1
+concern for sepsis,1
+myasthenia,1
+s/p colostomy takedow,1
+mast cell degranulation,1
+#asthma exacerbation,1
+af with rvr,1
+pneumonia / leukocytosis and fevers,1
+"ams.   ms was improving as of  this morning but worsened during
+   dialysis with ?seizure.",1
+diarrhea with increasing wbcs,1
+h/o dvt/svc syndrome,1
+infected pacemaker,1
+complete heart block (rhythm)/ s/p pacemaker placement,1
+# hemoptysis:,1
+cellulitis c/b sepsis s/p bka,1
+hypercarbia/hypoxia,1
+r. bka,1
+l. leg grade 4 ulcer:,1
+#pancytopenia:,1
+#fever:,1
+dvt/pe,1
+ulcerative colitis,1
+hepatic failure,1
+obtundation,1
+"bilateral clonus w/o other
+   neurologic abnormalities",1
+# dyspnea,1
+# honk,1
+dehydration/hypernatremia,1
+poor po intake,1
+squamous cell lung ca,1
+#. respiratory distress: likely secondary to cap,1
+. hypotension,1
+"thrombocytopenia: likely secondary to splenic sequestration in the
+   setting of hypothermia",1
+atrial fibrillation / flutter:,1
+alzheimer and [**last name (un) 3610**] body dementia,1
+pain not well controlled,1
+hypertensive,1
+hypotension and mental status change:,1
+s/p chole,1
+depression.,1
+uri sx,1
+"l intracerebral
+   hemorrhage",1
+3 vessel disease,1
+nstemi.,1
+fall.  osteoporotic,1
+obstructive cholangitis s/p ercp with stenting:,1
+tachypnea,1
+metastatic lung cancer:,1
+#  leukocytosis:,1
+"sub-optimal zenker
+s repair and a poorly
+   identified peri-esophageal soft tissue mass",1
+"hyponatremia (low sodium, hyposmolality):",1
+hemorrhagic brain mets,1
+# vt,1
+chest wall pain:,1
+# chronic systolic heart failure:,1
+# hyperkalemia/hyponatremia,1
+hypercarbic respiratory distress / copd,1
+agitation/confusion: likely secondary to hypercarbia and narcotics,1
+s/p posterior stemi,1
+chronic diastolic heart failure and pulmonary hypertension.,1
+respiratory failure/pna,1
+[**last name (un) 2406**],1
+obstructive shock,1
+massive pe,1
+anion gap metabolic acidosis,1
+nsclc: stage iv,1
+presumed adrenal insufficiency,1
+hematuria,1
+dvt and pe,1
+leg pain,1
+mwmc w/ acute systolic chf,1
+hypovolemic shock,1
+status epilepticus,1
+v fibrillation.,1
+left pleural effusion,1
+metastatic scc,1
+first degree av block:,1
+carotid stenosis s/p left sided endarterectomy,1
+adrenal insufficiency:,1
+"chf, systolic",1
+dilated cardiomyopathy,1
+new chb,1
+"# svt with hypotension: this occured in setting of having ra/rv
+   manipulated with wire",1
+etoh cirrhosis:,1
+a-fib w/ rvr,1
+cp,1
+grade ii dchf,1
+severe as,1
+. uti:,1
+doe,1
+history of stroke,1
+l knee hematoma,1
+aortic aneurysm s/p repair:,1
+unresponsiveness,1
+catheter infection,1
+"twi
+   precordially",1
+syncope:,1
+pansinusitis,1
+hypernatremia:,1
+history of cva,1
+type 2 diabete,1
+"# acute hypoxic, hypercarbic respiratory failure:",1
+"fever: spiked temp overnight, and was pan-cultured.  has positive
+   urine culture with e.coli from three days previous on [**2-23**].",1
+new murmur,1
+rectal prolapse -,1
+hypoxia/respiratory distress,1
+stage iv endometrial cancer endometrial ca,1
+hypotension/fever: likely septic shock,1
+acute systolic chf exacerbation,1
+h/o cad s/p cabg,1
+acute pneumonia and respiratory failure.,1
+ethanol abuse,1
+.       pulmonary embolism,1
+hypoxia: due to hospital acquired pneumonia,1
+cml s/p transplant and gvhd,1
+cholodocholithiasis.,1
+"shock, likely septic",1
+paraplegia s/p spinal artery infarct:,1
+sacral decubitus ulcers:,1
+abdominal distension/nausea,1
+respiratory failure:  [**2-2**] to pna,1
+"sepsis: pt meets the criteria for sepsis. the source of infection is
+   most likely pulmonary given his pneumonia seen on cxr",1
+# stage iii squamous cell throat ca,1
+hypercapnia,1
+end stage renal disease,1
+"#  leukocytosis/fever - +bacteremia at osh (k. pna, coag(-) staph) and
+   now growing k. pna from [**9-24**] f",1
+"hypotension
+ initially, likely from septic shock",1
+esophageal varices,1
+mrsa sepsis,1
+"hypoxia: [**month (only) 51**] be a combination of mrsa pneumonia and plural
+   effusions",1
+early sbo,1
+"severe systolic chf,",1
+# acute on chronic renal failure:,1
+rul mass,1
+bph:,1
+pulmonary embolism:,1
+"fever: unclear source but very high fever. ?pulmonary with lll
+   infiltrates on cxr",1
+symptomatic bradycardia/rhythm,1
+# hypothyroidism,1
+hypoxemic respiratory failure -,1
+#aphasia/altered mental status:,1
+"cp, stemi",1
+"involuntary mm movements, h/o seizure",1
+# possible infection,1
+# shock,1
+encephalopathy,1
+?spinal process,1
+#hiv,1
+widely metastatic disease,1
+# hcv cirrhosis,1
+right femoral hematoma,1
+arvc and h/o sustained vt s/p icd,1
+borderline hypotension,1
+# svt,1
+#hcc,1
+#hyponatremia,1
+#ivc clot,1
+# pain control,1
+vent dependence,1
+acute respiratory failure (hypoxic and hypercarbic),1
+h/o pulmonary embolus,1
+acute on chronic chf exacerbation:,1
+sirs/hypotension,1
+"abdominal pain / left groin pain
+   ddx infectious [**1-7**] epidydimitis or prostatitis",1
+concerning for sepsis,1
+low grade fever,1
+encephalopathy.,1
+cirrhosis.,1
+hypertensive urgenc,1
+"fever/leukocytosis: potential sources: urinary (u/a with few wbcs),
+   pulm - possible aspiration pna or health-care associated pna",1
+paf.,1
+urinary retention.,1
+sepsis: most likely source is hd catheter,1
+"anemia, acute, secondary to blood loss (hemorrhage, bleeding)",1
+"respiratory failure:
+   pt not extubated after surgery out of concern for volume overload i",1
+fluid overload on cxr,1
+"acute hypercarbic respiratory distress/cough:  etiology likely
+   secondary to copd exacerbation,",1
+c. difficile infection,1
+atrial flutter (aflutter)/atrial fibrillation:,1
+h/o pe:,1
+chronic obstructive pulmonary disease,1
+cholestasis,1
+synthetic liver failure,1
+sarcoid,1
+"dyspnea:  likely multifactorial secondary to large right sided
+   pulmonary embolism, large right sided pleural effusion, right lung
+   collapse",1
+non-small cell lung cancer,1
+metastatic rcc,1
+history of cad,1
+ecg changes: possibly related to demand in setting of bleed.,1
+hld,1
+l frontal hemorrhage,1
+hypoxia/fevers.,1
+hypotension/ hypothermia,1
+history of burkitt-like lymphoma,1
+febrile illness,1
+"bladder rupture, peritonitis, sepsis, hypotension",1
+depressed ef,1
+vfib,1
+hypercarbic respiratory failur,1
+"t6 to l4 fusion, t12-l2 laminectomy",1
+s/p pea arrest:,1
+# gi bleed,1
+# crohn's,1
+hemetemesis:,1
+s/p kidney transplant,1
+"respiratory failure, acute (not ards/",1
+rij and svc clot:,1
+"cancer (malignant neoplasm), lung nsclc",1
+superior vena cava syndrome (svc),1
+black stools / ugib?,1
+#. anemia,1
+pvd/aaa,1
+diverticulosis,1
+bradycardia:,1
+bradycardia.,1
+"non-ischemic cardiomyopathy with an ef of
+   15%.",1
+currently in afib with v-paced rhythm.,1
+elevated wbc ct,1
+"hypotension: hypovolemia (dehydration from diarrhea) versus worsening
+   cardiac function versus sepsis.",1
+volvulus,1
+demand ischemia versus nstemi,1
+"renal cell carcinoma with liver mets, s/p il-2 treatment",1
+sepsis: bandemia.  likely from pneumonia,1
+"respiratory failure: sedation and ventilation.  underlying etiology
+   likely pna vs aspiration pneumonitis",1
+chf/as,1
+osteomyelitis,1
+. s/p right adrenalectomy,1
+renal cell carcinoma,1
+lip swelling,1
+# lgib,1
+# hyponatremia:,1
+"sepsis--blood cultures from [**1-15**] positive for gpc in chains in [**12-20**]
+   anaerobic culture. likely etiology is streptococcal cellulities",1
+etoh withdrawa,1
+sdh/intraventricular bleed/headache,1
+sepsis/pneumonia,1
+bacturia,1
+"sepsis - fevers, leukocytosis, tachycardia, and tachypnea. lll
+   infiltrate",1
+"acute ms changes: etiology unclear, though concerning for [**name (ni) 8017**]
+   toxicity given recent completion of chemo regimen with known
+   neurotoxicity",1
+# rll infiltrate,1
+follicular cell lymphoma,1
+alcoholic liver disease,1
+anion gap,1
+l knee swelling:,1
+cad/perforation/stent,1
+"htn, hl",1
+gi bleed /blood loss anemia,1
+avr,1
+depression:,1
+# hypotention:,1
+# anion gap acidosis:,1
+# cervical ca/nsclc,1
+fevers/elevated wbc,1
+hyperglycemia:,1
+seizure do,1
+stes,1
+h/o of atrial fibrillation,1
+aortic valve replacement,1
+possible chronic lung disease,1
+#. gi bleed,1
+afib on coumadin,1
+s/p infected prosthetic knee replacement in right knee,1
+c. diff sepsis,1
+volume overoad,1
+pain control/sedation,1
+line sepsis,1
+# pvd/cad:,1
+# esrd on hd,1
+hypotension/septic shock,1
+"renal
+   failure (anuric, cr of 12)",1
+sbo.,1
+hypoxia.,1
+osteoporosis.,1
+hypoxia/pna:,1
+# h/o chf,1
+# a fib/tachycardia,1
+"febrile neutropenia.  most likely source pna given rll lobar
+   infiltrate",1
+"hypoxia: occurred in setting of aggressive fluid rescusitation for
+   hypotension,",1
+neck pain,1
+respiratory status,1
+s/p cardiac arrest,1
+dmii:,1
+"hypotension is likely due to sepsis secondary to
+   bacteremia after instrumentation during ercp.",1
+choledocholithiasis/cholangitis,1
+esbl e coli uti:,1
+left clavicular fx,1
+left humeral fracture,1
+anion gap metabolic acidosis and metabolic alkalosis,1
+tachyarrhythmia:,1
+# respiratory distress/copd/pna:,1
+"nstemi: likely secondary to demand from anemia, resp distress, and
+   tachycardia",1
+cva:,1
+lower gastrointestinal bleeding:,1
+left lower extremity dvt,1
+vulvar cancer,1
+seizures:  secondary to eee,1
+nstemi/chf,1
+"septic shock - patient with new rlll consolidation concerning for
+   pneumonia and strep pneumo in blood - > pneumococcal pneumonia w/
+   septic shock.",1
+"sinus tachycardia from fever, sepsis,
+   hypovolemia",1
+sarcoidosis,1
+bacterial peritonitis,1
+esrd on pd,1
+cml,1
+stage 5 ckd:,1
+"respiratory failure, acute",1
+urinary tract infection (uti),1
+"hemorrhage/hematoma, procedure-related (e.g., cath, pacemaker, icd
+   bleed)",1
+diffuse alveolar hemmorhage (dah),1
+"h/o dementia (including alzheimer's, multi infarct)",1
+"hypoxic and hypercarbic respiratory failure:  cxr, low p/f ratio and
+   lack of evidence of chf make this picture highly suspicious for ards -
+   highest on the ddx is influenza",1
+high grade av block,1
+"hypotension:  given prominent hct drop, clearly concern for active
+   groin bleed w/ visible groin hematoma.",1
+systolic congestive heart failure,1
+diabetes type ii,1
+# seizures,1
+# type 2 dm,1
+#cad:,1
+"pain control (acute pain, chronic pain)",1
+"cancer (malignant neoplasm), other",1
+"h/o lymphoma (cancer, malignant neoplasm, lymphoid)",1
+hypoxic respiratory failue,1
+tachycardia/afib,1
+lower extremity weakness,1
+# prostate cancer,1
+# transaminitis,1
+schizophrenia:,1
+#. hypoxia:,1
+#. hypercarbia:,1
+#. probable rll pna,1
+. b/l pe/dvt:,1
+#. nausea/vomiting:,1
+#. htn,1
+. t2dm:,1
+dvt:,1
+# esld,1
+met acidosis,1
+# portal vein thrombosis:,1
+thombocytopenia:,1
+likely [**1-4**] liver disease and coagulopathy,1
+vaginal bleeding:,1
+psychiatric disorder/post-traumatic stress disorder,1
+acetaminophen overdose.,1
+hematemesis.,1
+# substance abuse.,1
+anion gap metabolic acidosis.,1
+respiratory failure/pneumonia:,1
+# acute pancreatitis- likely [**2-13**] etoh,1
+"aspiration
+   pneumonitis/pneumonia in addition to pleural effusions.",1
+alcohol abuse/withdrawal:,1
+left shoulder pain,1
+"sepsis
+ hd stable, never required pressors",1
+"gnr bacteremia, spec/[**last name (un) **]
+   pending. concern for obstructing pyelo from left-sided stone. also has
+   possible lll pna",1
+#arf,1
+#cad,1
+tachypnea/hypoxia,1
+hemopericardium,1
+respiratory acidosis,1
+acute pe/resp failure,1
+septic from ischemic colon,1
+# stage iv colon cancer:,1
+acute systolic heart failure with severe as,1
+etoh withdrawal/agitation,1
+elevated lfts:,1
+gib/anemia,1
+right groin hematoma,1
+"sepsis: likely source is propofol self injection from non-sterile
+   vial.",1
+bipolar disorder:,1
+copd exascerbation: likely precipitated by acute pneumonia,1
+diffuse large b cell lymphoma,1
+) lle swelling and weakness,1
+#) anemia,1
+gnr sepsis,1
+diastolic chf: ef 60%,1
+osteoporosis:,1
+anemia/hct drop,1
+thigh hematoma,1
+t3 burst fracture,1
+cirrhosis: secondary to etoh and hcv.,1
+r parietal/occipital ich,1
+"chest pain, sob",1
+. gnr bacteremia,1
+. cholangitis,1
+#. leukocytosis,1
+c2 fracture,1
+worsening edema surrounding cerebellar infarct,1
+heart rate control due to h/o afib,1
+# etoh intoxication:,1
+# elevated lipase,1
+f chf,1
+#) pna,1
+tbm:,1
+hypotension / hypothermia,1
+acute on chronic hypercarbic respiratory failure,1
+"colitis, psbo, mass, hernia, illeus or constipation",1
+report of cp:,1
+concern for ams:,1
+hematemasis,1
+alcohol withdrawal,1
+transmanitis,1
+multiple myeloma:,1
+liver transplant,1
+chronic dchf,1
+hypoxia: likely [**1-14**] pulmonary edema from worsening diastolic chf,1
+h/o bacteremia,1
+torsades de pointes,1
+cardiomyopathy: chronic systolic heart failure,1
+"sepsis: patient transferred with fevers, tachycardia and hypotension,
+   likely sepsis from a cellulitis.",1
+# vtach,1
+cellulitis:,1
+# rcc,1
+afib/flutter,1
+hypoxic resp failure: unclear precipitant.  asp pneumonitis likely,1
+bladder ca s/p end colectomy and c/b mets:,1
+shock:  likely septic,1
+"respiratory failure:  cause of respiratory failure is likely
+   multifactorial including evidence for multifocal pna on ct,",1
+chb,1
+s/p stenting to svg-om x 2 and lmca,1
+airway management-pt with h.o severe osa,1
+# hematochezia,1
+altered mental status s/p pea arrest:,1
+respiratory failure.  intubated in setting of arrest,1
+uti.,1
+dm type ii.,1
+partial gastric outlet obstruction,1
+pancreatic ca,1
+right hip fracture s/p fall,1
+pain control:,1
+fatigue/pancytopenia,1
+"respiratory failure
+ likely resulting from septic shock (below) with
+   component of chf",1
+klebsiella uti: c/b by septic shock t,1
+chronic paroxysmal a.fib:,1
+acute cholecystitis and cholangitis,1
+stable anemia,1
+abd pain/nausea/vomiting,1
+coagulopathy:  secondary to esld,1
+sinus pauses/arrhythmia,1
+acute renal failure.,1
+right groin wound.,1
+s/p liver transplant.,1
+hyperlipidemia.,1
+peripheral vascular disease s/p l sfa stent/angioplasty,1
+seizure disorder:,1
+hepatitis c treatment,1
+n/v/diarrhea,1
+ams: precipitated by hypoglycemia,1
+atrial fibrillation w rvr,1
+septic shock/pneumonia,1
+"ckd, stage v",1
+ekg changes: cp on presentation,1
+dropping hct: likely [**12-26**] continued oozing from femoral line insertion,1
+# sepsis/fever:,1
+ventricular tachycardia and symptomatic ns vt,1
+# fevers -,1
+# acute pancreatitis,1
+# pe,1
+# chronic alcohol abuse,1
+unresponsiveness:,1
+"recurrent chest pain consistent with known
+   3vd",1
+systolic lv dysfunction,1
+#. pancreatitis,1
+aspirin allergy,1
+"ecg changes mildly concerning for possible
+   lvh",1
+stemi c/b cardiogenic shock,1
+prostate ca,1
+"atrial fibrillation s/p av
+   ablation and is pacemaker dependent.",1
+. atrial fibrillation:,1
+. cad:,1
+# hypoxic respiratory failure:,1
+# hypotension/sepsis:,1
+"cml s/p allo sct,",1
+carotid stenosis,1
+"hypotension
+    - likely baroreceptor stretch + hypovolemia",1
+acute right-sided heart failure,1
+confusion/lethargy,1
+sdh s/p evacuation,1
+hx chf,1
+hx cad,1
+bronchiectasis:,1
+"right dominant system and early
+   onset 1v cad in the lad",1
+"diastolic dysfunction as well as systolic
+   dysfunction,",1
+tobacco abuse,1
+acute hematocrit drop,1
+s/p thr.,1
+osteopenia,1
+1.  sob,1
+5.  hl.,1
+type 2 dm.,1
+#  generalized weakness.,1
+post-operative hypotension,1
+altered mental status: secondary to ketamine infusion,1
+chronic pelvic and rectal pain:,1
+sickle crisis,1
+flu-like illness,1
+mental status/seizures,1
+"rrc, metastatic",1
+oligo-/anuria,1
+upper gi bleed [,1
+# ? free air in pelvis,1
+# dm -,1
+# osa,1
+# htn -,1
+# hep c cirrhosis,1
+# chronic leg pain,1
+# acute blood loss anemia:,1
+hypotension/tachycardia/hypothermia,1
+"right pleural effusion. cannot rule out right lower quadrant
+   pneumonia, likely nosocomial (mrsa/pseudomonal).",1
+chest pain/recent nstemi,1
+somnolence:,1
+hydropneumothorax:,1
+hypoxic resp failure:,1
+s/p craniotomy,1
+"acute
+   findings of r eye blindness",1
+biliary obstruction secondary to malignancy:,1
+b cell lymphoma,1
+anemia/coffee ground emesis:,1
+cri:,1
+. vf arrest,1
+heart failure and ef,1
+"hypotension: likely multifactorial, including intubation, propofol,
+   intravascular depletion, possible acs, heart failure",1
+s/p 4 vessel cabg,1
+) hip fx,1
+septic [**numeric identifier 1613**]: [**1-22**] mssa bacteremia.,1
+liver failure,1
+ammonium nitrate ingestion,1
+pain management,1
+post-obstructive pna.,1
+sclc,1
+abd pain:,1
+afib with rvr/hypotension,1
+parapneumonic effusion/hypoxia,1
+"# dyspnea, tachycardia, and chest pain",1
+respiratory alkalosis / metabolic alkalosis,1
+"delirium, pain",1
+"metastatic lung cancer with spinal mets, cauda equina",1
+hypotension - likely related to overdiuresis,1
+"3 vessel disease and numerous cad risk
+   factors",1
+ef 30% on echo from this admission.,1
+hypoxia/respiratory failure,1
+low uop,1
+# hypercapneic respiratory failure,1
+pulmonary infiltrates- likely pna vs. lyphangetic spread of sclc,1
+"hypotension
+ occurred in the setting of intubation. possibly volume
+   depleted",1
+#copd:,1
+small cell lung cancer:,1
+upward supratentorial herniation,1
+icp,1
+evaluate residual tumor,1
+hypotension/hypothermia/pea arrest:,1
+diarrhea:,1
+hepc cirrhosis,1
+dyspnea/cough,1
+stemi/rv infarct,1
+# sirs: low-grade fever overnight,1
+"# tachycardia: anxiety vs. beta-blocker withdrawal vs. pe vs.
+   hyperthyroidism vs. hypoxia.",1
+"# transaminitis: improving. likely related to volume depletion and
+   sepsis.",1
+# pancreatic cancer,1
+"occluded lad. mid rca
+   occlusion",1
+"ischemic
+   cardiomyopathy.",1
+h/o dilated cardiomyopathy,1
+h/o post-op afib,1
+"septic shock :
+   older right ij central line placed on [**6-17**] have been likely source
+   of infection",1
+cva / new hemorrhagic bleed:,1
+fever/leukocytosis/tachycardia,1
+"cad, chest pain",1
+acute aml s/p induction,1
+acute anemia,1
+"severe systolic and diastolic chf and cardiomyopathy
+   with lvef of 10.",1
+lv thrombus:,1
+elevated liver enzymes:,1
+elevated cr,1
+arf/hydronephrosis,1
+acute on chronic rf,1
+anxiety,1
+admission cxr consistent with pna,1
+"gallstone
+   pancreatitis",1
+"vre
+   growing from drains, c-diff",1
+acute mitral regurgitation:,1
+# acute renal failure/ s/p renal transplant,1
+recent septic arthritis of her left ankle:,1
+# nstemi.,1
+"diabetes mellitus, type i",1
+dyspnea and cough,1
+"leukocytosis and fever
+   likely a respiratory infection",1
+cardiac arrest,1
+"dilated heart in echocardiogram in pt with preserved ef,
+   bicuspid as and mixomatous degeneration of mitral valve",1
+left to right shunt,1
+shock liver or ischemic hepatitis,1
+"polymorphic, monomorphic vt
+   as well as vf",1
+"patency of
+   rca des",1
+severe pvd/dry gangrene,1
+respiratory failure/copd:,1
+"atrial flutter previously, now s/p
+   ablation and in sinus rhythm.",1
+diabetes type ii:,1
+cervical fractures,1
+hap w/ moraxella,1
+"inferior wall
+   stemi",1
+takotsubos cardiomyopathy,1
+metastatic rcc to brain,1
+sz ppx,1
+sepsis: likely urinary source given ct findings and positive ua,1
+hypotension: in the setting of infection/sepsis.,1
+# pancreatic mass,1
+type ii dm:,1
+hypercapneic respiratory failure: pt with severe copd,1
+cardiac ischemia,1
+diastolic chf (ef >55%),1
+h/o atrial fibrillation,1
+respiratory distress/tachypnea/hypoxia,1
+diarrhea/nausea.,1
+asthma.,1
+cholecystitis:,1
+"hypoxic respiratory distress: likely secondary to [**doctor first name **] superinfected
+   with bacterial pneumonia.",1
+sepsis: likely from pneumonia.,1
+fever/leukocytosis,1
+abdominal fluid collections,1
+vf arrest,1
+cabg,1
+severe chf,1
+gap acidosis,1
+bile peritonitis,1
+"respiratory failure (hypoxia, hypercapnia)",1
+influenza exposure,1
+fever.  pneumonia as above,1
+"also consider other infectious sources
+   (urine, c.diff/stool, flu, other abdominal)",1
+# cellulitis,1
+cns vre,1
+all,1
+"intermittent, post-op hypotension",1
+infiltrate on cxr,1
+cyrptogenic cirrhosis c/b variceal bleed:,1
+atrial & ventricular ectopy,1
+l hilar mass/brain mass,1
+weakness over right ue/le,1
+schizoaffective disorder,1
+recent right thalamic hemorrhagic cva,1
+# hypertensive emergency,1
+pleuritic cp,1
+non-small cell lung ca,1
+hx cri,1
+"hct drop:  hct trending down from 30 to 24 today.  most likely source
+   is known rp hematoma",1
+resistant pulmonary pseudomonas vap,1
+inferior stemi,1
+acetaminophen toxicity:,1
+suicide attempt,1
+possible hip dislocation,1
+lle edema,1
+large gluteal hematoma,1
+"acute on chronic systolic heart failure [**1-25**]
+   ischemic cardiomyopathy",1
+history of cad s/p cabg x2,1
+h/o vt with icd firing,1
+hematocrit drop,1
+"h/o cva, left sided weakness",1
+"dementia, parkinsons",1
+#hypoxic/hypercarbic respiratory failure,1
+#copd,1
+#osa,1
+epistaxsis,1
+#chest pain-,1
+s/p nstemi,1
+chest pain:,1
+three vessel disease,1
+atrial flutter:,1
+"aortic
+   regurg",1
+copd:,1
+volatile blood pressure,1
+ckd on hd:,1
+subarachnoid hemorrhages:,1
+uncontrolled type 2 dm,1
+h/o htn,1
+vertebral artery occlusion & cerebellar infarct,1
+vertigo,1
+n/v,1
+embolic stroke,1
+antiphospholipid syndrome,1
+hx c.diff colitis,1
+hypotension: sepsis vs cardiogenic.,1
+femur fx:,1
+hypothermia:,1
+.  non-gap metabolic acidosis,1
+#.  chronic kidney disease:,1
+#.  pad,1
+#.  coagulopathy,1
+.  anemia,1
+anastomotic leak,1
+rectosigmoid cancer,1
+chronic pain/sedation/withdrawal,1
+asthma/copd,1
+"sepsis - on initial admit, febrile, tachycardic, and had
+   leukocytosis.  potential likely sources include lll pneumonia with
+   infiltrate on cxr",1
+hypotension: likely component of dehydration and infection.,1
+parkinson's disease-,1
+a fib with rvr.,1
+cad / st,1
+"trigeminal
+   neuralgia",1
+venous thrombosis,1
+"rash on back, abdomen, thighs",1
+tachycardia/ afib,1
+mild lft elevation,1
+# gib/brbpr,1
+# fungemia,1
+# sepsis/strep pneumo bacteremia,1
+# respiratory failure/pleural effusion,1
+transaminitis/hyperbilirubinemia,1
+abdominal rash,1
+rib fractures/trauma,1
+cirrhosis / abdominal pain,1
+.  hypotension,1
+etoh intoxication:,1
+lll infiltrate,1
+# hiv/aids,1
+dysphagia,1
+# hyperkalemia:,1
+# ag metabolic acidosis: likely secondary to worsening renal failure,1
+weakness/numbness: most likely secondary to hyperkalemia.,1
+"# anemia: chronic, normo to macrocytic.",1
+sle:,1
+# apl syndrome,1
+# esrd:,1
+hypotension - suspect secondary to volume loss,1
+"coronary artery
+   disease",1
+diabetes-,1
+hyperbilirubinemia,1
+diabetic foot infection,1
+sepsis/ hypoension/ fevers: likely line sepsis i,1
+# leukopenia/thrombocytopenia,1
+overdose,1
+"? aspiration
+   versus other underlying pulmonary process",1
+bipolar/schizoaffective disorders,1
+asa desensitization,1
+cad/chest pain:,1
+sinus tach overnigh,1
+#abd distension,1
+sepsis: secondary to pyelonephritis,1
+urethral mass,1
+right sdh,1
+hx of etoh withdrawal seizures,1
+a-fib w/rvr,1
+stemi [**3-18**] to 100% mid lad occluion and 3vd,1
+# htn:,1
+hpld:,1
+etoh abuse/withdrawal,1
+tachycardia/ekg changes,1
+ag,1
+cad s/p bypass:,1
+"renal failure, end stage (end stage renal disease, esrd)
+   esrd:",1
+sepsis/empyema,1
+cluster a (schizoid) personality disorder,1
+afib/flutter on coumadin,1
+# diabete,1
+poor ms,1
+pafib/flutter,1
+esrd on hd mwf,1
+lymphocytic interstitial pneumonitis,1
+acute kidney injury,1
+acute hct drop,1
+transient hypotension,1
+pyleonephritis,1
+right hemiparesis,1
+"hypertensive, a-fib",1
+lad w/ 3 sequential stents widely patient,1
+esrd w/ hd on mwf,1
+congenital deafness,1
+chf:,1
+"hypoxic respiratory failure: unclear what the precipitant was, but
+   acute decompensation appears to be a result of aspiration",1
+oliguric acute renal failur,1
+delirium:,1
+c diff. colitis:,1
+"leukocytosis.  etiologies include infection, vs, stress response, vs
+   malignancy.",1
+h/o dvt,1
+adeno ca of unknown primary,1
+hypothyroid.,1
+#respiratory distress,1
+#afib,1
+pulmonary embolism s/p ivc filter,1
+acute diastolic heart failure,1
+diabetes mellitis:,1
+"hypotension
+   in the setting of bradycardia, intubation induction as well as atenolol
+   delayed metabolism with arf, and likely urosepsis",1
+bradycardia:  likely secondary to hyperkalemia,1
+"sepsis:  ua w/ frank pus, and ua c/w uti",1
+urosepsis,1
+"tachycardia, atrial fibrillation (afib",1
+brbpr:,1
+# massive hemoptysis / pes,1
+#dyspnea/hypoxia,1
+#leukocytosis,1
+spinal surgery,1
+anemia - likely secondary to menstrual bleeding,1
+seizure d/o,1
+s/p right colectomy for colon ca,1
+cerebrovascular disease:,1
+medication non-complianc,1
+small cell lung carcinoma,1
+pneumothorax:,1
+pericardial effusion:,1
+. altered mental status:,1
+"gastrointestinal bleed, upper (melena, gi bleed, gib):",1
+"sepsis: patient has re-developed fevers on [**9-2**] on a regimen of
+   vancomycin/ceftriaxone.  possible sources include:
+   1. intra-abdominal source",1
+esophageal cancer,1
+pancreatitis/cholecystitis,1
+ischemic left limb following femoral artery dissection,1
+"cardiogenic shock secondary to cardiac
+   arrest and stemi.",1
+pea and v tach s/p temp wire. was in afib,1
+cardiac arrest:,1
+"pneumonia, sepsis",1
+2.  respiratory distress:,1
+"ckd. esrd, on hd",1
+# asthma,1
+shortness of breath: patient is hypervolemic,1
+"cardiac etiology of
+   chest pain/acs.",1
+hyponatremi,1
+smoking cessation,1
+intermittent hypoxia,1
+pvd / left lower extremity prosthetic graft,1
+lle pain,1
+"copd/reactive
+   airways disease in context of potential uri,",1
+# h/o pulmonary embolism:,1
+# panniliculitis:,1
+s/p seizure:,1
+"inability to drain pleural effusions effectively and/or accumulation of
+   existing effusions",1
+chronic uremic pleurisy/pleural effusions,1
+epistaxis,1
+h/o copd,1
+# food impaction,1
+aspiration pneumonitis.,1
+hypertension.,1
+ckd v on hemodialysis,1
+heel ulcer/pvd,1
+# cholangitis,1
+aocrf,1
+s/p mvr,1
+s/p l hernia repair,1
+r pleural effusion,1
+dm/hypoglycemia,1
+melena,1
+nash,1
+hypoxemic respiratory distress-,1
+afib/flutter in rvr,1
+chronic cough,1
+l facial droop,1
+pea arrest likely [**3-10**] to hypovolemia from sphincterotomy bleed,1
+# ecg changes: pt with wide complex ventricular rhythm during arrest.,1
+af-,1
+#. cm:,1
+acute metabolic acidosis,1
+history of chf exacerbation,1
+"afib,",1
+elevated liver function tests,1
+emesis,1
+hypotension--likely septic,1
+acute renal failure--likely contrast-induced atn,1
+elevated bilirubin,1
+autoimmune hepatitis s/p liver transplant with recurrence,1
+s/p liver transplant with chronic rejection,1
+"respiratory failure, acute (not ards",1
+bacteremia:,1
+"shock, other",1
+"thrombocytopenia, acute",1
+"fevers / leukocytosis:
+   pulmonary source i",1
+"hypotension:
+   likely sepsis physiology",1
+laryngeal mass s/p trac,1
+rml consolidation,1
+obstructing ureteral stone,1
+urinary retention,1
+"cavitation seen on ct concerning for possible tb vs. an
+   anaerobic abscess",1
+oliguric acute on chronic ckd,1
+acute diastolic chf exacerbation,1
+cad/unstable angina,1
+sinus rhythm.,1
+fevers/leukocytosis,1
+#) congestive heart failure,1
+#) afib with rvr,1
+#) hypoxic and hypercarbic respiratory failure:,1
+) gout:,1
+) hypotension,1
+) left and right wrist fractures,1
+) dens fracture:,1
+) chronic kidney disease,1
+) anemia,1
+#) copd:,1
+uc flare,1
+renal cell carcinoma and prostate cancer,1
+caustic injury to the oropharynx / esophagus,1
+# hiv -,1
+chest pain/wma,1
+"mild symmetric left
+   ventricular hypertrophy with preserved global and regional
+   biventricular systolic function",1
+#. hypoxia,1
+hx of cva,1
+hand cellulitis,1
+bradycardia/prolonged qtc,1
+pyometrium/ endometritis,1
+uterine atony,1
+"right knee pain
+   with suspsician for gout.",1
+hypoxia due to  fluid overload,1
+alcohol withdrawal/hypertension,1
+"lmca 50% ostial
+   lesions, lad with mid subtotal occlusion.",1
+acute systolic heart failure.  nhya class ii-iii.,1
+tachycardiac in sinus rhythm,1
+sepsis: multifocal pneumonia and uti likely sources.,1
+"hypoxia: due to pneumonia,",1
+"hypokalemia/hypomag: as above, likely related to thiazide use",1
+renal insufficiency,1
+"sob/dyspnea. improved and stable. likely secondary to fluid overload,",1
+"upper gi bleed. egd revealed antral ulcers, most consistent with h.
+   pylori infection.",1
+hypernatremia.,1
+s/p left total hip replacement,1
+4. confusion,1
+. hypernatremia,1
+upper airway obstruction,1
+cellulitis/soft tissue infection,1
+decubitus ulcer,1
+possible pna:,1
+dementia/deprssion,1
+"respiratory failure: multifactorial from pulmonary
+   edema/acute-on-chronic chf (?systolic vs diastolic) and likely
+   aspiration/hospital-acquired pneumonia",1
+fevers: likely due to aspiration pneumonia,1
+hypernatremia: lkikely from poor free water intake,1
+esrd: s/p failed transplant w/ fsgs but not rejection,1
+anterior stemi,1
+hx of htn.,1
+cbi,1
+"altered mental status: likely multifactorial, related to hypoglycemia
+   and urinary tract infection",1
+urinary tract infection/leukocytosis/elevated lactate,1
+macular degeneration,1
+digoxin toxicity,1
+"neuropathic pain, feet",1
+a. fib:,1
+# chf:,1
+# diabetes,1
+ms change,1
+new afib - developed in setting of sepsis,1
+lower gi bleeding,1
+hyperbilirubinemia / elevated transaminases,1
+hyperthyroidism:,1
+septic shock:  the most likely source is uti,1
+# diarrhea:,1
+"gpc in
+ bottles",1
+"sepsis: given wbc of 3.3, hypotension, tachycardia, and tachypnea.
+   possible source includes pulmonary source of infection",1
+pneumonia.,1
+hodgkin's lymphoma,1
+1)       lue dvt:,1
+3)       stage iii b colon ca:,1
+4)       chronic normocytic anemia,1
+"hypotension: likely vascular permeability and
+   decreased svr from sepsis,",1
+small bowel obstruction,1
+prerenal arf rifle class i,1
+"?aspiration
+   pna vs. enteric bacterial translocation",1
+hypoxic and hypercarbic respiratory failure,1
+# metastatic prostate adenocarcinoma,1
+s/p fall:,1
+ventricular escape,1
+schizoaffective disorder:,1
+cough/shortness of breath,1
+lung cancer:,1
+urosepsis: proteus,1
+afib rvr,1
+"fever: possible etiologies include neutropenia, pulmonary infection
+   (? viral infection on ct ggo), typhlitis, diverticulitis (both seen on
+   ct abdomen), drug fever, leukemia",1
+thrombocytopenia:  secondary to recent induction chemo,1
+anemia: likely secondary to leukemia and recent chemotherapy,1
+gpc bacteremia,1
+abscess,1
+"hd line
+   infection",1
+"differential includes
+   bacterial meningitis, viral meningitis, toxoplasmosis (especially given
+   history of toxo), bacterial abscess, cryptococcal infection, cns
+   lymphoma",1
+hx of seizure,1
+mucous plugging from secetions,1
+lll pneumonia,1
+atn,1
+alcohol intoxication,1
+midline protrusion of the intervertebral disk,1
+"hypoxic respiratory distress:  likely from pneumonia with  a possible
+   component of chf",1
+atrial fibrilation,1
+diffuse ulceration from the esophagus through the duodenum,1
+rectal ca,1
+"concern for infection given wbc count, fever, and elevated
+   lactate. likely pulmonary source",1
+post-obstructive pna,1
+"respiratory distress:
+   most likely multifactorial.  patient with known obstructive sleep
+   apnea, asthma, obesity hypoventilation syndrome as well as diastolic
+   heart failure",1
+respiratory failure: likely represents worsening copd,1
+"cns listerial infection, seizures, hepatic
+   encephalopathy",1
+meningitis,1
+"hap pna, large effusion and
+   diastolic chf",1
+rheumatoid arthritis,1
+shock:  likely due to sepsis/hemorrhagic pancreatitis,1
+sepsis. presumed urosepsis,1
+"hypoxia. etiology possibly due to aspiration, infecftious pna, or
+   pulmonary edema",1
+schizophrenia and dementia,1
+chf exacerbation,1
+acute on chronic systolic and diastolic congestive heart failure,1
+respiratory distress: likely [**3-5**] multifocal pneumonia,1
+anemia: has history of sideroblastic anemia and mds,1
+"neutropenic fever.
+   -pna",1
+"altered mental status: likely [**3-6**] hyponatermia, hepatorenal
+   derangement, and hepatic encephalopathy",1
+hypervolemic hyponatremia,1
+placenta accreta/percreta s/p c-section/hysterectomy,1
+volume depletion,1
+coronary artery disease: pt with cad s/p cabg x 3,1
+si,1
+metastatic cancer,1
+small cell lung cancer,1
+acute subarachnoid hemorrhage,1
+septic shock likely [**1-20**] endocarditis,1
+arf: likely due to sepsis,1
+decompensated liver disease,1
+etoh cirrhosis,1
+post-abdominal surgery,1
+crohns flare,1
+hypotension: multiple possibilities including infection (sepsis),1
+fever: likely gi source,1
+crohns,1
+ileus vs partial sbo,1
+resp failure,1
+peripheral vascular disease (pvd),1
+"hypoxemia: likely secondary to aspiration pneumonia versus
+   pneumonitis",1
+dyspnea on exertion,1
+"septic shock
+   presumably urinary source",1
+avr/chb pacer dependent,1
+multifocal pna,1
+"pna
+   and ards",1
+septic or distributive shock,1
+acute renal failure: likely atn,1
+transaminitis: likely secondary to shock liver,1
+"septic shock
+presumed secondary to duodenal perforation",1
+hemicolectomy and duodenal perforation,1
+aml/leukemia cutis,1
+anterior wall stemi,1
+pericardial effusion with tamponade,1
+h/o breast ca,1
+"etoh
+   cirrhosis, hepatitis c,",1
+right heart failure,1
+end -stage cirrhosis of transplanted liver,1
+sepsis - most likely [**2-26**] thumb abscess/septic arthritis,1
+l knee septic arthritis s/p l knee replacement,1
+thumb abscess,1
+severe persistent asthma,1
+heroin abuse,1
+liver mass,1
+deconditioned,1
+chronic schf,1
+sirs/sepsis,1
+likely source gu,1
+"proteus and
+   enterococcus",1
+"abdominal pain, nausea, vomiting, and diarrhea
+   ddx
+ infectious vs ischemic",1
+"respiratory
+   alkalosis",1
+rhabdomyolysis/acute renal failure,1
+"pea arrest: his arrest was felt to likely be a combination of
+   hyperkalemia, hypoxia, hypercarbia, and/or acidemia.",1
+uvula swelling,1
+avnrt,1
+aspiration pneumonitis vs hap,1
+severe tracheobronchial malacia,1
+s/p tumor rsxn,1
+acute hypoxemic resp failure,1
+"crohns, short-gut",1
+brbpr: likely lower gi bleed,1
+choledocholithiasis,1
+sepsis - atn,1
+uremic,1
+sah/sdh.,1
+"mrsa/group c strep
+   pneumonia",1
+s/p traumatic spine injury,1
+pea arrest: etiology is likely aspiration pna,1
+hepatomegaly/anasarca/abdominal pain,1
+"hepatic
+   encephalopathy, uremia",1
+hypotension/shock.  most likely septic shock,1
+"hypoxic/hypercarbic respiratory failure: likely related to
+   bronchoscopy",1
+chronic systoic heart failure,1
+prostate cancer,1
+bipolar disorder and ptsd,1
+non-epileptic psychogenic events,1
+respiratory failure/copd,1
+"rvh and severe pulmonary
+   htn",1
+"copd
+   exacerbation",1
+atr flutter,1
+"necrotic
+   esophageal fistula",1
+multifocal chronic glomerulonephritis,1
+mediastinitis from necrotic esophagus,1
+adenoca of the esophagus,1
+"hypoxia: multifactorial
+ pulmonary edema, ards, pna",1
+possible aspiration pneumonitis,1
+gastaut,1
+urinary tract infection,1
+cecal mass,1
+low grade b cell lymphoma,1
+influenza a,1
+hypophosphatemia,1
+"dizziness/syncope includes orthostatic hypotension, vasovagal
+   syncope, cardiogenic syncope, and psychogenic syncope",1
+pvd: s/p rle bypass graft and wound infection,1
+"respiratory failure: complex etiology including ards , parainfluenza
+   type 3 pneumonia, possible altered mental status, possible pe",1
+sepsis/ e. coli bacteremia,1
+myeloma,1
+sob/hypoxemia,1
+likely pna vs reactive airway disease,1
+"respiratory distress--most likely due to flash pulmonary edema due
+   to severe as",1
+myocardial ischemia,1
+pulmonary embolus,1
+"acute change in baseline renal function associated with
+   significant uremia",1
+idiopathic pulmonary fibrosis,1
+respiratory failure: multilobar pneumonia & copd,1
+shock: septic from pna,1
+influenza,1
+pulmonary htn,1
+"severe pancreatitis c/b ards & requiring
+   splenectomy and distal pancreatectomy",1
+"shock - wide differential includes septic, cardiogenic",1
+shock liver,1
+altered mental status:  [**month (only) 11**] have been related to dka,1
+tachycardia:  likely related to his pulmonary thrombus,1
+nslc,1
+metastatic hcc,1
+"hypotension,",1
+"portal
+   vein thrombosis.",1
+hx vre,1
+tia,1
+hypoxemia- resolved,1
+cocaine abuse,1
+bleeding varix,1
+cryptogenic cirrhosis,1
+acute refractory ugib,1
+ams: likely related with hepatic encephalopathy,1
+cirrhosis: likely secondary to alcohol and hepatitis c,1
+"diarrhea- etiology likely  [**2-6**] to recurrence/relapse of c.diff
+   colitis",1
+"acute
+   intraabdominal process",1
+sigmoid colectomy,1
+ccy/umbilical hernia repair,1
+marrow hypo-production from med effect vs consumptive process,1
+multifocal pneumonia/respiratory failure,1
+atrial fibrillation / atrial flutter,1
+severe copd,1
+mitral valve endocarditis,1
+critical as,1
+"shock nos:  likely [**2-28**] to rv failure (chronic) and sub-optimally
+   treated pulmonary hypertension",1
+r tkr with chronic infection,1
+hypoxia resp failure,1
+ild,1
+"acute diastolic chf
+   vs copd exacerbation",1
+moderate aortic stenosis,1
+"pna, influenza or
+   possibly pcp given his hi",1
+"mild
+   pancreatitis",1
+hypercarbia,1
+"severe
+   restrictive lung disease from polio",1
+gi inf.,1
+"status epilepticus in the
+   setting of a fever.  differential included meningitis",1
+r hemiparesis,1
+positive troponin/nstemi,1
+alcohol withdrawl,1
+hypoxia/ mucus plugging,1
+metastastic renal ca,1
+right hip metastasis,1
+cocaine overdose,1
+rll infiltrate concerning for aspiration,1
+"multifocal
+   pneumonia",1
+hypercarbic repiratory failure,1
+"toxic metabolic
+   encephalopathy",1
+ards/hypercarbic respiratory failure,1
+"aspiration
+   pneumonitis, viral or atypical pneumonia, or inhalation in the
+   environment",1
+acute on chronic diastolic congestive heart failure,1
+diff incl sepsis,1
+and most likely dehydration,1
+hap/aspiration pna/sepsis,1
+"urosepsis: e.coli bacteremia, and e.coli/providencia uti.",1
+sepsis with septic emboli,1
+head and neck cancer,1
+acute on chronic diastolic heart failure,1
+severe sepsis,1
+most likely sources are urine and c. diff,1
+acute myocardial infarction,1
+diabetic ketoacidosis (dka),1
+bronchiolitis obliterans,1
+nhl s/p allo bmt c/b gvhd,1
+bacterial endocarditis,1
+chf/htn,1
+mechical avr,1
+ischemic bowel,1
+lll mass,1
+anemia/thrombocytopenia,1
+metastatic breast ca to lung and brain,1
+peritonitis,1
+hepatitis c cirrhosis,1
+"doe/hypoxia: likely multifactorial with chf, copd, possible lll
+   infiltrate",1
+flash pulmonary edema,1
+acute dchf,1
+"severe pulmonary
+   hypertension",1
+severe sarcoid,1
+diabetes type 2,1
+hypoxia:  pt with evidence of volume overload,1
+mucus plugging,1
+c. diff colitis,1
+"fever, sinus tachycardia:  most likely infectious in etiology",1
+hypoxia: most likely due to volume overload,1
+aids,1
+myopericarditis,1
+"multifactorial shock
+ now off pressors",1
+"attributed to sepsis (with
+   likely sources being nonhealing skin wounds and pneumonia",1
+pvd with bilateral le cellulitis/ulcers,1
+dvt,1
+airway compromise/anterior neck collection: h/o subglottic stenosis,1
+chf/cardiomyopathy,1
+afib/cva,1
+anemia: pt with drop in hct s/p debulking of necrotic mets,1
+ovarian cancer,1
+"pericardial effusion: possible etiologies include malignant (given
+   history of pancreatic ca), infectious (viral vs. tb), or idiopathic",1
+"transaminitis: elevated transaminases, ldh concerning for medication
+   toxicity (amiodarone) versus viral etiology versus shock liver",1
+hypoxic respiratory failure: etiology ards [**1-13**] flu.,1
+r ankle fracture s/p orif,1
+bradycardia from likely bb or ccb toxicity,1
+gib-likely secondary to recurrence of ca,1
+"soft tissue mass causing renal
+   obstruction and hydronephrosis",1
+metastatic cancer- history of colon and breast ca,1
+dka and newly diagnosed diabetes,1
+lactic acidosis,1
+s/p orif,1
+acute on chronic systolic chf: secondary to ischemic cardiomyopathy,1
+"hypotension
+   concerning for sepsis without a clear source",1
+transaminitis:  acute viral hepatitis is a possibility,1
+"possible
+   high output right heart failure from prolonged anemia",1
+mrsa pna,1
+sinusisitis v mastoiditis,1
+metastatic breast cancer s/p craniotomy,1
+rhythm - paient with afib/flutter with rvr,1
+respiratory failure - patient with acute pulmonary edema,1
+"subclinical thyrotoxicosis or tsh
+   artifact",1
+embolism,1
+alzheimer's disease,1
+"hypotensive: ddx sepsis versus hypovolemia versus
+   cardiogenic shock",1
+gi bleed/elevated inr,1
+afib s/p cva,1
+neurologic deterioration:,1
+respiratory failure: [**1-4**] neuromuscular weakness and overlying pna,1
+systemic lupus erythematosus (sle),1
+colostomy,1
+oligura,1
+atn secondary to hypotension,1
+chronic diastolic heart failure,1
+"ventricular tachycardia: likely result of scarring from ebstein
+   anomaly/repairs",1
+"possible drug fever given
+   persistent fever with no pos. cx data",1
+"transaminitis: multifactorial from shock liver, chf and amiodarone",1
+labial cellulitis/abscess,1
+mantle cell lymphoma,1
+"dens fx, nondisplaced c1/c2/c6 fx, left c3 trans process fx",1
+facial laceration/right lower eye lid laceration,1
+idiopathic pneumonitis,1
+liver failure:  alcoholic hepatitis and cirrhosis,1
+respiratory failure:  known hap,1
+history of dvt,1
+history of lung cancer (nsclc),1
+dyspnea: differential includes copd exacerbation,1
+hypercapnic hypoxemic respiratory failure,1
+mssa pneumonia,1
+sigmoid abscess,1
+multi-organism bacteremia:,1
+pauci-immune pulmonary vasculitis,1
+pna vs. pulmonary edema,1
+atelectasis with small bilateral pulmonary effusions,1
+s/p stemi,1
+appears to be in failure,1
+post op ileus,1
+"shock: with components of sepsis and hypovolmia. has known lingular
+   pna",1
+gnr bactermia,1
+neutropenic fever/sepsis,1
+aplastic anemia,1
+lymphoplastmocytic lymphoma,1
+cardiac arrest (pea or ?bradycardic),1
+"altered mental status/unresponsiveness
+ most likely hypoxic brain
+   injury",1
+respiratory distress: secondary to copd exacerbation,1
+"rll opacity possible effusion, collapse, pna",1
+c. difficile colitis,1
+cryptococcal meningitis,1
+hypoxia. meets criteria for ards,1
+"heart failure secondary to ischemic event or
+   pulmonary infection",1
+bradycardia/heart block: new weinkeboch,1
+diabetes mellitis,1
+"hypercarbic respiratory failure - likely multifactorial [**1-26**] to gvhd,
+   bronchiolitis obliterans",1
+"non-hodgkin's lymphoma s/p allo bmt, gvhd",1
+atrial fibrillation with rvr.,1
+unresponsive episode:,1
+"hypoxia
+   multifactorial: combination of post-op atelectasis, emphysema, and pna",1
+bowel ileus,1
+scrotal hematoma,1
+acetabular fx,1
+post-op afib,1
+hematuria:,1
+hypoxia: likely secondary to pneumonia,1
+"respiratory failure: etiology likely multifactorial [**12-27**] ards s/p
+   induction chemotherapy, volume overload",1
+cns lymphoma,1
+vascular dementia,1
+cerebral pasy,1
+bandemia: suggestive of infection in setting of lactic acidosis,1
+"right hip wound growing strep arginosus and secondary
+   bacteremia",1
+decubitous ulcer,1
+paraplegia,1
+svc thrombosis,1
+asystolic/pea arrest,1
+insulin od,1
+altered mental status. primarily due to lyme encephalitis,1
+hypotension: etiology hypovolemia [**1-17**] over ultrfiltration vs sepsis,1
+plasma cell dyscrasia,1
+hypoxia:  most likely copd flare,1
+dchf.,1
+acute hepatitis,1
+sinus node dysfunction,1
+acute on chronic systolic and diastolic hf,1
+hyperthyroid,1
+fungating mass,1
+neutropenic fever,1
+meningits/cns source,1
+anemia/thrombocytopenia/neutropenia: likely from recent chemotherapy,1
+"crohn
+s disease",1
+anoxic brain injury/seizures,1
+pseudocyst,1
+smv thrombus,1
+orthostatic hypotension,1
+sepsis: source likely pneumonia and mrsa bacteremia,1
+syncope and hypotension,1
+ef 20% with severe lv dilation and severe mr,1
+"toxic/metabolic encephalopathy
+   from liver failure and/or uremia",1
+hepatic failure:,1
+oliguric arf:,1
+follicular lymphoma,1
+sepsis-   source most likely to be from urinary tract,1
+hep b (chronic),1
+"shortness of breath, hypoxia",1
+acute on chronic kidney disease,1
+myoclonic jerks may be manifestation of hypercarbia,1
+subtotal colectomy,1
+"etoh
+   hepatitis",1
+wernicke-korsakoff,1
+chronic liver disease,1
+"possible etiologies include pneumonia, transudated gi flora, foot
+   source",1
+vasculopathy,1
+mssa bacteremia:,1
+c.diff,1
+non-ischemic cardiomyopathy: acutely decompensated,1
+e. coli uti,1
+mitral/tricuspid regurgitation,1
+cryptosporidium,1
+etoh withdrawl,1
+hypercarbic respiratory distress,1
+copd exacerbation and multilobar pna,1
+respiratory distress/volume overload,1
+anemia/,1
+"oliguric renal failure secondary to hepatic renal
+   syndrome",1
+hep c cirrhosis with ascites,1
+hypotension:  cardiogenic v. hypovolemic v. distributive,1
+a-fib with rvr,1
+likely shock liver with transaminitis,1
+"likely upper gi source in setting of
+   supra-therapeutic inr",1
+acute renal failure: likely atn due to hypotension,1
+"hypoxic respiratory failure:
+   likely multifactorial, from post-obstructive pna, ptx, and underlying
+   lung disease (copd)",1
+pneumothorax,1
+small cell lung ca,1
+hypothyroidsm,1
+metastatic prostate cancer,1
+thromboyctopenia,1
+liver metastases,1
+chf and new mr,1
+r hip bleed.,1
+hip surgery,1
+"most likely etiology is acute pulmonary edema although
+   exacerbation of her underlying copd may also be worsening",1
+source to be tunnelled catheter line,1
+mssa,1
+back pain,1
+non-ichemic cmy,1
+seizure d.o.,1
+breast cancer,1
+osa/tracheobroncial malacia,1
+neck swelling s/p fistula takedown,1
+subcutaneous emphysema,1
+recurrent asp pna/pneumonitis,1
+"fever: most likely infectious with either pulmonary or urinary
+   infection",1
+diastolic dysfunction,1
+critical aortic stenosis,1
+decompensated heart failure/cardiogenic shock,1
+"mucous plugging
+   and gnr pneumonia",1
+mrsa septic prosthetic joint,1
+"hyponatremia: likely acute on chronic hyponatremia attributed to
+   siadh",1
+chronic bronchitis,1
+chf: likely contribution of known as,1

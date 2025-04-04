@@ -1,0 +1,1882 @@
+File ID,Assessment,Summary,Subjective,Objective,cleaned_expanded_Summary,terms,combined_summary,myocardial infarction,congestive heart failure,pulmonary embolism,pulmonary hypertension,sepsis,urosepsis,meningitis,acute kidney injury,acute tubular necrosis,pancreatitis,gastrointestinal bleed,hepatitis,cholangitis,aspiration pneumonia
+102486.txt,"81f with h/o chronic eosinophilic lung disease, copd, diastolic chf,
+   and recent admission for mssa and pan-sensitive pseudomonas pna who
+   presents with fevers, right sided pleuritic chest pain and found to
+   have extensive r sided pe on imaging.","pulmonary embolism; fever; hypotension; oliguria; non-gap acidosis; history of eosinophilic lung disease; deep venous thrombosis (dvt), lower extremity; h/o chronic obstructive pulmonary disease (copd, bronchitis,
+   emphysema) with acute exacerbation; heart failure (chf), diastolic, chronic","pleuritic right chest pain
+- patient started on coumadin
+- [** 949**] briefly decreased (although unclear whether this was due to
+accidental foley removal), [** 949**] responded appropriately to 500 ml lr
+bolus with [** 949**] 60-70 cc
+s per hour this am
+- patient briefly developed non-gap acidosis with bicarb of 19,
+resolved with substitution of lr for ns for fluid boluses
+s: the patient is feeling well.  her chest pain has entirely resolved.
+she continues to have dry-mouth as well as her baseline amount of cough
+and shortness or breath.  she has not had n/v diarrhea.  no pain or
+swelling in her legs.
+losartan
+angioedema/lip
+lisinopril (oral)
+cough;
+penicillins
+itching;
+flagyl (oral) (metronidazole)
+wheezing;
+ultram (oral) (tramadol hcl)
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+ciprofloxacin - [**2141-7-18**] 08:00 pm
+vancomycin - [**2141-7-19**] 08:02 am
+infusions:
+heparin sodium - 850 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2141-7-20**] 07:16 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.4
+c (97.6
+hr: 80 (73 - 94) bpm
+bp: 99/55(67) {82/37(35) - 125/73(89)} mmhg
+rr: 18 (18 - 28) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+height: 63 inch
+total in:
+2,315 ml
+690 ml
+po:
+270 ml
+60 ml
+tf:
+ivf:
+2,045 ml
+630 ml
+blood products:
+total out:
+700 ml
+250 ml
+urine:
+700 ml
+250 ml
+ng:
+stool:
+drains:
+balance:
+1,615 ml
+440 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 98%
+abg: ///22/
+gen: elderly woman in nad, sleeping comfortable
+heent: dry mmm, no jvd
+cv: rrr, no murmurs
+lungs: decreased breath sounds throughout, lungs otherwise clear
+abd: soft, non-tender, +bowel sounds
+ext: warm and well-perfused, no edema or tenderness
+neuro: responds appropriately to questions, grossly non-focal
+293 k/ul
+8.1 g/dl
+101 mg/dl
+0.6 mg/dl
+22 meq/l
+3.2 meq/l
+9 mg/dl
+111 meq/l
+143 meq/l
+25.0 %
+8.3 k/ul
+[image002.jpg]
+[**2141-7-18**]  08:16 pm
+[**2141-7-19**]  04:10 am
+[**2141-7-20**]  02:55 am
+wbc
+10.6
+8.3
+hct
+24.7
+25.0
+plt
+269
+293
+cr
+0.8
+0.6
+tropt
+0.01
+<0.01
+glucose
+99
+101
+other labs: pt / ptt / inr:15.3/56.2/1.3, ck / ckmb /
+troponin-t:31/3/<0.01, differential-neuts:77.2 %, lymph:17.6 %,
+mono:4.6 %, eos:0.5 %, lactic acid:1.1 mmol/l, ca++:7.3 mg/dl, mg++:2.0
+mg/dl, po4:1.7 mg/dl",pulmonary embolism; fever; hypotension; oliguria; non gap acidosis; history of eosinophilic lung disease; deep venous thrombosis deep venous thrombosis lower extremity; history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation; heart failure congestive heart failure diastolic chronic,"['pulmonary embolism', 'fever', 'hypotension', 'oliguria', 'non gap acidosis', 'history of eosinophilic lung disease', 'deep venous thrombosis deep venous thrombosis lower extremity', 'history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation', 'heart failure congestive heart failure diastolic chronic']","pulmonary embolism; fever; hypotension; oliguria; non-gap acidosis; history of eosinophilic lung disease; deep venous thrombosis (dvt), lower extremity; h/o chronic obstructive pulmonary disease (copd, bronchitis,
+   emphysema) with acute exacerbation; heart failure (chf), diastolic, chronicpulmonary embolism; fever; hypotension; oliguria; non gap acidosis; history of eosinophilic lung disease; deep venous thrombosis deep venous thrombosis lower extremity; history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation; heart failure congestive heart failure diastolic chronic['pulmonary embolism', 'fever', 'hypotension', 'oliguria', 'non gap acidosis', 'history of eosinophilic lung disease', 'deep venous thrombosis deep venous thrombosis lower extremity', 'history of chronic obstructive pulmonary disease chronic obstructive pulmonary disease bronchitis emphysema with acute exacerbation', 'heart failure congestive heart failure diastolic chronic']",False,True,True,False,False,False,False,False,False,False,False,False,False,False
+193820.txt,"myocardial infarction, acute (ami, stemi, nstemi)
+ [**last name 9**] problem - enter description in comments
+ respiratory failure, acute (not ards/[**doctor last name 76**])
+ sepsis without organ dysfunction
+   assessment and plan: 82 y/o woman s/p hip replacement now intubated for
+   respiratory distress with ? pna, noted on echo to have acutely worsened
+   mr. etiology of mr could be ischemic. has echo showing new antero
+   apical wall motion abnormality which would suggest plaque in lad. has
+   poor r wave progression which would be consistent with anterior
+   ischemia but her st depressions are in v5-v6 more consistent with
+   ischemia involving lcx -this may suggest diffuse disease. also has ?
+   pna, endocarditis a possibility although no evidence of this on echo.
+   ischemia does not seem to be just demand related.","nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct
+   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleed","overnight hypotensive to map 47 from 72 about 1 hour after receiving
+metoprolol 12.5 tid. ekg at that time unchanged. started on levophed,
+sedation weaned, with bp returning to maps in 60s to 70s.
+febrile on admit, urine, sputum blood cx sent, defervesced, continued
+added levofloxacin to abx coverage.
+abg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with
+improvement 02 on abg, peep now at 5.
+invasive ventilation - start [**2170-2-15**] 02:00 pm
+multi lumen - start [**2170-2-15**] 02:09 pm
+blood cultured - at [**2170-2-15**] 02:45 pm
+nasal swab - at [**2170-2-15**] 02:45 pm
+urine culture - at [**2170-2-15**] 02:50 pm
+blood cultured - at [**2170-2-15**] 03:00 pm
+sputum culture - at [**2170-2-15**] 07:30 pm
+arterial line - start [**2170-2-15**] 08:46 pm
+ekg - at [**2170-2-15**] 09:00 pm
+fever - 101.3
+f - [**2170-2-15**] 03:18 pm
+no known drug allergies
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+levofloxacin - [**2170-2-15**] 04:03 pm
+vancomycin - [**2170-2-15**] 08:30 pm
+piperacillin - [**2170-2-16**] 04:00 am
+infusions:
+midazolam (versed) - 2 mg/hour
+norepinephrine - 0.2 mcg/kg/min
+other icu medications:
+midazolam (versed) - [**2170-2-15**] 07:30 pm
+other medications:
+flowsheet data as of  [**2170-2-16**] 06:35 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**71**] am
+tmax: 38.5
+c (101.3
+tcurrent: 36.7
+c (98
+hr: 60 (55 - 79) bpm
+bp: 113/42(67) {71/28(44) - 144/66(93)} mmhg
+rr: 18 (18 - 25) insp/min
+spo2: 98%
+heart rhythm: sr (sinus rhythm)
+height: 64 inch
+total in:
+874 ml
+239 ml
+po:
+tf:
+ivf:
+834 ml
+239 ml
+blood products:
+total out:
+750 ml
+720 ml
+urine:
+750 ml
+720 ml
+ng:
+stool:
+drains:
+balance:
+124 ml
+-481 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist
+vt (set): 400 (400 - 400) ml
+rr (set): 14
+rr (spontaneous): 0
+peep: 8 cmh2o
+fio2: 40%
+rsbi: 56
+pip: 18 cmh2o
+spo2: 98%
+abg: 7.40/38/80.[**numeric identifier 20**]/21/0
+ve: 7.4 l/min
+pao2 / fio2: 200
+pe: intubated, responds to voice, follows command.
+cvs: murmur heard best at base, radiates to apex
+cta bilateral anterior chest.
+abd: +bs, soft, nt, nd, girdle in place
+pulses:doppelerable
+ext: cool but pink, cap refill wnl, rle all other extremities warm.
+no edema
+173 k/ul
+10.4 g/dl
+116 mg/dl
+0.9 mg/dl
+21 meq/l
+3.9 meq/l
+21 mg/dl
+106 meq/l
+134 meq/l
+29.7 %
+10.1 k/ul
+image002.jpg]
+[**2170-2-15**]  02:48 pm
+[**2170-2-15**]  03:20 pm
+[**2170-2-15**]  09:28 pm
+[**2170-2-15**]  11:00 pm
+[**2170-2-15**]  11:15 pm
+[**2170-2-16**]  05:11 am
+[**2170-2-16**]  05:23 am
+wbc
+12.6
+10.1
+hct
+32.2
+31.0
+29.7
+plt
+188
+173
+cr
+0.9
+0.9
+tropt
+4.99
+4.84
+tco2
+24
+24
+23
+24
+glucose
+126
+116
+other labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /
+troponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,
+differential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic
+acid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl
+gram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr
+cxr:
+there is improvement in the prior severe pulmonary edema, however a
+left upper
+lobe opacity appears similar. cardiomediastinal silhouette and hilar
+contours
+are normal. there are small bilateral pleural effusions. an et tube
+terminates 3 cm above the carina in appropriate position. an ng tube
+terminates below the diaphragm in appropriate position.",non st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed,"['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']","nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct
+   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",True,True,False,False,False,False,False,False,False,False,False,False,False,False
+192874.txt,"mr. [**known lastname 2367**] is a 61 yo m with pmh of recent stemi s/p bms to lad, chf,
+   and dvt/pe s/p ivc filter who was just discharged from an osh, now
+   referred in for evaluation of bilateral le edema. pt. was transferred
+   to micu for hypoxia and hypotension which resolved quickly after
+   admission to the unit.",hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filter,"admitted to unit with hypotension and hypoxia, both had resolved by the
+time he arrived in unit
+cxr w/ ? pna
+cardiac enzymes negative x1
+lft's normal
+repeat ekg this a.m. was unchanged
+compazine (injection) (prochlorperazine edisylate)
+unknown;
+codeine
+unknown;
+atenolol
+bradycardia;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+heparin sodium - 1,000 units/hour
+other icu medications:
+other medications:
+flowsheet data as of  [**2108-12-20**] 06:23 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.8
+c (100
+tcurrent: 36.9
+c (98.4
+hr: 71 (71 - 86) bpm
+bp: 107/69(77) {103/67(75) - 129/96(102)} mmhg
+rr: 10 (10 - 21) insp/min
+spo2: 94%
+total in:
+160 ml
+123 ml
+po:
+tf:
+ivf:
+160 ml
+123 ml
+blood products:
+total out:
+0 ml
+700 ml
+urine:
+700 ml
+ng:
+stool:
+drains:
+balance:
+160 ml
+-577 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 94%
+abg: ///28/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+164 k/ul
+9.1 g/dl
+78 mg/dl
+1.3 mg/dl
+28 meq/l
+4.4 meq/l
+21 mg/dl
+103 meq/l
+138 meq/l
+26.2 %
+4.5 k/ul
+[image002.jpg]
+[**2108-12-19**]  05:01 pm
+[**2108-12-20**]  04:35 am
+wbc
+4.4
+4.5
+hct
+28.3
+26.2
+plt
+158
+164
+cr
+1.3
+1.3
+tropt
+<0.01
+glucose
+93
+78
+other labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /
+troponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,
+amylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7
+%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3
+mg/dl",hypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter,"['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']","hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",True,True,True,False,False,False,False,False,False,False,False,False,False,False
+103771.txt,"a/p: 80 yo f with a bronchiectasis and chf admitted with fevers and
+   shortness of breath concerning for pulmonary infection.
+   .",respiratory distress; bronchiectasis; chf.,"#required continuous overnight o2 supplementation with non-rebreather.
+nurse attempted to wean to nasal cannula
+#abx: single [**doctor last name **] therapy with meropenem.
+#negative cardiac enzymes x 2. third set pending.
+aspirin
+unknown;
+bactrim (oral) (sulfamethoxazole/trimethoprim)
+hives;
+nsaids
+avoid secondary
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+constitutional: no(t) fever
+ear, nose, throat: dry mouth
+cardiovascular: no(t) chest pain, no(t) edema
+respiratory: cough, dyspnea, tachypnea
+gastrointestinal: no(t) abdominal pain, nausea, no(t) emesis, no(t)
+diarrhea, no(t) constipation
+genitourinary: no(t) dysuria","last dose of antibiotics:
+ciprofloxacin - [**2137-6-9**] 10:00 pm
+meropenem - [**2137-6-9**] 10:50 pm
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2137-6-9**] 10:00 pm
+other medications:
+flowsheet data as of  [**2137-6-10**] 07:19 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.1
+c (98.8
+tcurrent: 36.4
+c (97.6
+hr: 81 (80 - 81) bpm
+bp: 94/46(59) {94/42(59) - 115/56(72)} mmhg
+rr: 26 (25 - 33) insp/min
+spo2: 100%
+heart rhythm: v paced
+total in:
+127 ml
+189 ml
+po:
+120 ml
+tf:
+ivf:
+127 ml
+69 ml
+blood products:
+total out:
+0 ml
+180 ml
+urine:
+180 ml
+ng:
+stool:
+drains:
+balance:
+127 ml
+9 ml
+respiratory support
+o2 delivery device: non-rebreather
+spo2: 100%
+abg: ///30/
+general appearance: no acute distress, thin
+eyes / conjunctiva: no(t) pupils dilated, no(t) sclera edema
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), no(t) s3, no(t) s4, no(t)
+rub, (murmur: no(t) systolic, no(t) diastolic)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (right dp pulse: not assessed), (left dp pulse: not assessed)
+respiratory / chest: (breath sounds: crackles : inspiratory crackles
+heard over all lung fields and loudest at the bases.)
+abdominal: soft, bowel sounds present
+extremities: right: absent, left: absent, no(t) cyanosis
+skin:  warm
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, movement: not assessed, tone: not assessed
+234 k/ul
+12.8 g/dl
+88 mg/dl
+0.7 mg/dl
+30 meq/l
+4.2 meq/l
+18 mg/dl
+99 meq/l
+134 meq/l
+38.4 %
+10.6 k/ul
+[image002.jpg]
+[**2137-6-9**]  10:00 pm
+[**2137-6-10**]  04:48 am
+wbc
+10.6
+hct
+38.4
+plt
+234
+cr
+0.7
+tropt
+<0.01
+glucose
+88
+other labs: pt / ptt / inr:27.9/32.2/2.8, ck / ckmb /
+troponin-t:28/2/<0.01
+microbiology: blood, urine, and sputum cultures pending with no growth
+to date.",respiratory distress; bronchiectasis; congestive heart failure,"['respiratory distress', 'bronchiectasis', 'congestive heart failure']","respiratory distress; bronchiectasis; chf.respiratory distress; bronchiectasis; congestive heart failure['respiratory distress', 'bronchiectasis', 'congestive heart failure']",False,True,False,False,False,False,False,False,False,False,False,False,False,False
+195298.txt,"gastrointestinal bleed, lower (hematochezia, brbpr, gi bleed, gib)
+   assessment/plan: this is a [**age over 90 **] year-old female with a history of chf,
+   cad, hypertension, diverticuli who presented [**12-23**] with bleeding.",gi bleeding/hypotension:; dchf/htn:,"gib
+- [**doctor first name 4534**]- 2 large episodes brpr @ 0600 and 1000 - hd stable, 1u prbc (with
+lasix); trbc scan if active bleeding ; goal hct 25-30 ; changed ppi
+from iv to po; 500 cc d5 for hypernatremia ; deferred surgery consult
+- 2 u prbc today
+- hct 29.3 > post-transfusion 1 u 30.1 > 31.5 post transfusion 1 u (4 u
+total) > 30.4> 5a 27.3
+- hypernatremia - 147 > s/p 500 cc d5w > 144
+- refused colonoscopy
+- gi - favor tagged rbc scan;
+- 500 cc bolus for cr 1.1 > 1.3
+lisinopril
+angioedema of l
+aspirin
+gi bleeding;
+diovan (oral) (valsartan)
+angioedema;
+ultram (oral) (tramadol hcl)
+angioedema ;
+nsaids
+gib and angioed
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:
+constitutional: no(t) fatigue, no(t) fever
+cardiovascular: no(t) chest pain, no(t) edema, no(t) tachycardia
+respiratory: no(t) cough, no(t) dyspnea
+gastrointestinal: no(t) abdominal pain, no(t) nausea, no(t) emesis,
+no(t) diarrhea, no(t) constipation
+integumentary (skin): no(t) rash
+neurologic: no(t) headache
+psychiatric / sleep: no(t) agitated, no(t) delirious, no(t) daytime
+somnolence","last dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+flowsheet data as of  [**2114-12-25**] 07:28 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.5
+c (99.5
+tcurrent: 37.5
+c (99.5
+hr: 72 (58 - 97) bpm
+bp: 117/41(59) {97/31(50) - 154/70(91)} mmhg
+rr: 17 (13 - 19) insp/min
+spo2: 99%
+heart rhythm: sr (sinus rhythm)
+total in:
+2,380 ml
+312 ml
+po:
+1,140 ml
+240 ml
+tf:
+ivf:
+540 ml
+72 ml
+blood products:
+700 ml
+total out:
+1,643 ml
+205 ml
+urine:
+1,423 ml
+205 ml
+ng:
+100 ml
+stool:
+120 ml
+drains:
+balance:
+737 ml
+107 ml
+respiratory support
+o2 delivery device: none
+spo2: 99%
+abg: ///25/
+general appearance: well nourished, no acute distress
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal), (murmur: systolic)
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: present), (left dp pulse:
+present)
+respiratory / chest: (expansion: symmetric), (breath sounds: clear : ,
+no(t) crackles : , no(t) wheezes : , no(t) rhonchorous: )
+abdominal: soft, non-tender, bowel sounds present, no(t) distended
+extremities: right: absent, left: absent, no(t) cyanosis, no(t)
+clubbing
+skin:  warm, no(t) rash: , no(t) jaundice
+neurologic: attentive, follows simple commands, responds to: verbal
+stimuli, oriented (to): x2- does not know date, movement: purposeful,
+tone: normal
+106 k/ul
+10.0 g/dl
+100 mg/dl
+1.1 mg/dl
+25 meq/l
+3.8 meq/l
+31 mg/dl
+113 meq/l
+144 meq/l
+27.3 %
+9.9 k/ul
+image002.jpg]
+[**2114-12-23**]  10:14 am
+[**2114-12-23**]  06:17 pm
+[**2114-12-24**]  12:00 am
+[**2114-12-24**]  12:16 am
+[**2114-12-24**]  05:00 am
+[**2114-12-24**]  10:26 am
+[**2114-12-24**]  02:25 pm
+[**2114-12-24**]  07:31 pm
+[**2114-12-25**]  05:34 am
+wbc
+9.4
+9.9
+hct
+24.8
+33.6
+31.3
+29.3
+30.1
+31.5
+30.4
+27.3
+plt
+132
+106
+cr
+1.1
+1.3
+1.3
+1.1
+tco2
+28
+glucose
+112
+126
+164
+100
+other labs: ca++:9.0 mg/dl, mg++:2.0 mg/dl, po4:2.5 mg/dl",gastrointestinal bleeding hypotension ; decompensated congestive heart failure hypertension,"['gastrointestinal bleeding hypotension', 'decompensated congestive heart failure hypertension']","gi bleeding/hypotension:; dchf/htn:gastrointestinal bleeding hypotension ; decompensated congestive heart failure hypertension['gastrointestinal bleeding hypotension', 'decompensated congestive heart failure hypertension']",False,True,False,False,False,False,False,False,False,False,False,False,False,False
+198989.txt,"79 yo f w/ a h/o chf (ef of 20-30%), carotid stenosis, no cad from cath
+   [**2-1**], and h/o lbbb s/p biv pacer presents as osh transfer with ?sepsis
+   [**1-25**] uti, atrial fibrillation w/ rvr and demand ischemia.","sepsis; altered/depressed ms
+ thought to be [**1-25**] to ativan yesterday,; # acute on chronic renal failure; supertherapeutic inr; afib, now rate controlled - likely worsened by underlying
+   sepsis; s/p biv placement [**8-31**].; demand ischemia","- id: rec bedside echo
+- continued fluid bolus
+- bb downtitrated from q6 to [**hospital1 **]
+- fena of 0.17, random cortisol was normal.
+morphine
+rash;
+demerol (oral) (meperidine hcl)
+confusion/delir
+levaquin (oral) (levofloxacin)
+unknown;
+benadryl (injection) (diphenhydramine hcl)
+confusion/delir
+cymbalta (oral) (duloxetine hcl)
+unknown;
+celexa (oral) (citalopram hydrobromide)
+unknown;
+remeron (oral) (mirtazapine)
+unknown;
+sulfa (sulfonamide antibiotics)
+unknown;
+quinolones
+unknown;
+vancomycin
+rash;
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+metronidazole - [**2168-11-8**] 08:00 am
+meropenem - [**2168-11-9**] 12:00 am
+infusions:
+other icu medications:
+other medications:
+changes to
+flowsheet data as of  [**2168-11-10**] 07:26 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.4
+tcurrent: 36.9
+c (98.4
+hr: 75 (70 - 79) bpm
+bp: 102/68(74) {89/31(46) - 119/68(74)} mmhg
+rr: 17 (15 - 33) insp/min
+spo2: 99%
+heart rhythm: v paced
+wgt (current): 75 kg (admission): 63 kg
+height: 64 inch
+cvp: 14 (9 - 14)mmhg
+total in:
+2,713 ml
+409 ml
+po:
+tf:
+1,073 ml
+335 ml
+ivf:
+840 ml
+74 ml
+blood products:
+total out:
+680 ml
+310 ml
+urine:
+680 ml
+310 ml
+ng:
+stool:
+drains:
+balance:
+2,033 ml
+99 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///19/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+200 k/ul
+8.5 g/dl
+146 mg/dl
+2.1 mg/dl
+19 meq/l
+4.3 meq/l
+90 mg/dl
+111 meq/l
+139 meq/l
+26.0 %
+22.4 k/ul
+[image002.jpg]
+[**2168-11-5**]  09:14 pm
+[**2168-11-6**]  04:57 am
+[**2168-11-7**]  04:41 am
+[**2168-11-7**]  12:00 pm
+[**2168-11-7**]  05:00 pm
+[**2168-11-8**]  03:20 am
+[**2168-11-8**]  04:57 pm
+[**2168-11-8**]  10:55 pm
+[**2168-11-9**]  03:29 am
+[**2168-11-10**]  04:27 am
+wbc
+14.5
+21.9
+24.5
+20.4
+22.5
+22.4
+hct
+27.4
+28.3
+26.2
+26.4
+23.0
+25.3
+24.5
+26.0
+plt
+101
+124
+129
+135
+149
+200
+cr
+2.3
+2.6
+2.9
+2.6
+2.5
+2.4
+2.3
+2.1
+glucose
+175
+169
+76
+90
+106
+87
+97
+96
+114
+146
+other labs: pt / ptt / inr:54.6/44.0/6.1, alt / ast:44/41, alk phos / t
+bili:101/0.6, differential-neuts:93.0 %, band:0.0 %, lymph:5.0 %,
+mono:1.0 %, eos:0.0 %, fibrinogen:622 mg/dl, lactic acid:2.0 mmol/l,
+albumin:2.3 g/dl, ldh:194 iu/l, ca++:8.2 mg/dl, mg++:2.7 mg/dl, po4:3.9
+mg/dl
+te: the left atrium is mildly dilated. left ventricular wall
+thicknesses are normal. the left ventricular cavity is moderately
+dilated. there is severe global left ventricular hypokinesis (lvef =
+20-25 %). [intrinsic left ventricular systolic function is likely more
+depressed given the severity of valvular regurgitation.] right
+ventricular chamber size is normal. with focal hypokinesis of the
+apical free wall. the aortic valve leaflets (3) are mildly thickened.
+there is mild aortic valve stenosis (valve area 1.2-1.9cm2). mild (1+)
+aortic regurgitation is seen. the mitral valve leaflets are mildly
+thickened. moderate to severe (3+) mitral regurgitation is seen. [due
+to acoustic shadowing, the severity of mitral regurgitation may be
+significantly underestimated.] moderate [2+] tricuspid regurgitation is
+seen. there is moderate pulmonary artery systolic hypertension. the
+pulmonic valve leaflets are thickened. there is no pericardial
+effusion.
+compared with the prior study (images reviewed) of [**2168-4-20**], the left
+ventricular cavity appears dilated on the current study. the degree of
+mitral regurgitation has increased significantly. the degree of aortic
+stenosis has incrased slightly. lv systolic function remains severely
+depressed, although the ventricle does not appear as dyssynchronous as
+on the prior study.
+cxr: improved pulmonary edema which is now mild with stable left
+perihilar opacity, worsened since [**2168-11-6**] and is most likely
+consolidation, probably pneumonia,less likely asymmetrical pulmonary
+edema.",sepsis; altered depressed mental status thought to be to ativan yesterday ; acute on chronic renal failure; supertherapeutic international normalized ratio; atrial fibrillation now rate controlled likely worsened by underlying sepsis; status post biventricular placement ; demand ischemia,"['sepsis', 'altered depressed mental status thought to be to ativan yesterday', 'acute on chronic renal failure', 'supertherapeutic international normalized ratio', 'atrial fibrillation now rate controlled likely worsened by underlying sepsis', 'status post biventricular placement', 'demand ischemia']","sepsis; altered/depressed ms
+ thought to be [**1-25**] to ativan yesterday,; # acute on chronic renal failure; supertherapeutic inr; afib, now rate controlled - likely worsened by underlying
+   sepsis; s/p biv placement [**8-31**].; demand ischemiasepsis; altered depressed mental status thought to be to ativan yesterday ; acute on chronic renal failure; supertherapeutic international normalized ratio; atrial fibrillation now rate controlled likely worsened by underlying sepsis; status post biventricular placement ; demand ischemia['sepsis', 'altered depressed mental status thought to be to ativan yesterday', 'acute on chronic renal failure', 'supertherapeutic international normalized ratio', 'atrial fibrillation now rate controlled likely worsened by underlying sepsis', 'status post biventricular placement', 'demand ischemia']",False,False,False,False,True,False,False,False,False,False,False,False,False,False
+100326.txt,"[**age over 90 382**]f presents with history of gerd, dementia, mrsa uti presents from [**hospital1 169**]
+   with shock, uti and gi bleed.
+   .","shock- likely hypovolemic from gi bleed, but may have septic
+   component as well given uti,; gib bleed; possible sepsis- ? urosepsis; hyperkalemia; anemia","multi lumen - start [**2159-8-12**] 01:36 pm
+transfused a total of 4 units prbcs
+gi and surgery consulted
+developed cool blue foot; vascular surgery consulted.
+had agitation/delerium overnight--no response to haldol 0.5 mg x 2.
+pneumococcal vaccine
+unknown;
+influenza virus vaccine
+unknown;
+sulfa (sulfonamides)
+unknown;
+penicillins
+unknown;
+review of systems is unchanged from admission except as noted below
+review of systems:
+denies any pain","last dose of antibiotics:
+metronidazole - [**2159-8-13**] 04:33 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2159-8-12**] 09:09 pm
+heparin sodium (prophylaxis) - [**2159-8-12**] 09:09 pm
+other medications:
+flowsheet data as of  [**2159-8-13**] 07:57 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36
+c (96.8
+tcurrent: 35.8
+c (96.4
+hr: 113 (102 - 125) bpm
+bp: 124/60(76) {74/33(47) - 136/99(106)} mmhg
+rr: 11 (11 - 27) insp/min
+spo2: 95%
+heart rhythm: st (sinus tachycardia)
+height: 60 inch
+cvp: 9 (4 - 12)mmhg
+total in:
+2,641 ml
+258 ml
+po:
+tf:
+ivf:
+1,891 ml
+258 ml
+blood products:
+750 ml
+total out:
+425 ml
+710 ml
+urine:
+425 ml
+710 ml
+ng:
+stool:
+drains:
+balance:
+2,216 ml
+-452 ml
+respiratory support
+o2 delivery device: none
+spo2: 95%
+abg: ///21/
+general appearance: thin, anxious
+eyes / conjunctiva: perrl
+head, ears, nose, throat: normocephalic
+cardiovascular: (s1: normal), (s2: normal)
+peripheral vascular: (right radial pulse: present), (left radial pulse:
+present), (left dp pulse: diminished), r dp- dopplerable
+respiratory / chest: (breath sounds: clear : )
+abdominal: soft, mildly distended, non-tender, +ecchymosis
+skin:  not assessed
+neurologic: follows simple commands, responds to: not assessed,
+oriented (to): self, movement: not assessed, tone: not assessed
+196 k/ul
+12.3 g/dl
+177 mg/dl
+1.6 mg/dl
+21 meq/l
+5.8 meq/l
+62 mg/dl
+109 meq/l
+136 meq/l
+35.7 %
+15.4 k/ul
+[image002.jpg]
+[**2159-8-12**]  02:32 pm
+[**2159-8-13**]  12:02 am
+[**2159-8-13**]  05:56 am
+wbc
+14.9
+15.4
+hct
+27.2
+36.1
+35.7
+plt
+222
+196
+cr
+1.7
+1.6
+glucose
+251
+177
+other labs: pt / ptt / inr:13.8/33.1/1.2, lactic acid:1.5 mmol/l,
+ca++:8.0 mg/dl, mg++:2.5 mg/dl, po4:3.9 mg/dl",shock likely hypovolemic from gastrointestinal bleed but may have septic component as well given urinary tract infection ; gastrointestinal bleed bleed; possible sepsis urosepsis; hyperkalemia; anemia,"['shock likely hypovolemic from gastrointestinal bleed but may have septic component as well given urinary tract infection', 'gastrointestinal bleed bleed', 'possible sepsis urosepsis', 'hyperkalemia', 'anemia']","shock- likely hypovolemic from gi bleed, but may have septic
+   component as well given uti,; gib bleed; possible sepsis- ? urosepsis; hyperkalemia; anemiashock likely hypovolemic from gastrointestinal bleed but may have septic component as well given urinary tract infection ; gastrointestinal bleed bleed; possible sepsis urosepsis; hyperkalemia; anemia['shock likely hypovolemic from gastrointestinal bleed but may have septic component as well given urinary tract infection', 'gastrointestinal bleed bleed', 'possible sepsis urosepsis', 'hyperkalemia', 'anemia']",False,False,False,False,True,True,False,False,False,False,True,False,False,False
+188769.txt,"bacteremia
+ atrial fibrillation (afib)
+ fever, unknown origin (fuo, hyperthermia, pyrexia)","fever: given fevers, hypotension and recent infection most conering
+   etiology is sepsis.  cxr stable but with report of pna on past
+   admission most likely source.; afib","picc line - start [**2202-6-5**] 02:13 am
+changes to  and
+review of systems is unchanged from admission except as noted below
+review of systems:","ast dose of antibiotics:
+infusions:
+other icu medications:
+other medications:
+allopurinol 3. aspirin 4. clotrimazole cream 5. docusate sodium 6.
+insulin 7. ipratropium bromide neb
+8. lansoprazole oral disintegrating tab 9. latanoprost 0.005% ophth.
+soln. 10. levothyroxine sodium
+11. piperacillin-tazobactam 12. piperacillin-tazobactam 13.
+pneumococcal vac polyvalent 14. senna
+15. simvastatin 16. sodium chloride 0.9% flush 17. warfarin
+flowsheet data as of  [**2202-6-5**] 08:04 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.4
+c (97.6
+tcurrent: 36.4
+c (97.6
+hr: 57 (53 - 70) bpm
+bp: 105/32(52) {88/30(47) - 111/79(85)} mmhg
+rr: 19 (17 - 23) insp/min
+spo2: 99%
+heart rhythm: af (atrial fibrillation)
+total in:
+1,091 ml
+po:
+tf:
+ivf:
+1,091 ml
+blood products:
+total out:
+0 ml
+88 ml
+urine:
+88 ml
+ng:
+stool:
+drains:
+balance:
+0 ml
+1,003 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 99%
+abg: ///21/
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+264 k/ul
+9.9 g/dl
+60 mg/dl
+1.3 mg/dl
+21 meq/l
+3.5 meq/l
+13 mg/dl
+111 meq/l
+137 meq/l
+31.8 %
+7.9 k/ul
+wbc
+7.9
+hct
+31.8
+plt
+264
+cr
+1.3
+tropt
+0.23
+0.21
+0.21
+glucose
+60
+other labs: pt / ptt / inr:26.5/38.1/2.6, ck / ckmb /
+troponin-t:64//0.21, alt / ast:[**5-5**], alk phos / t bili:69/0.8,
+differential-neuts:67.8 %, lymph:20.6 %, mono:3.9 %, eos:7.1 %, ldh:181
+iu/l, ca++:7.3 mg/dl, mg++:1.7 mg/dl, po4:2.5 mg/dl
+microbiology: blood and urine ctx [**6-4**] pending",fever given fevers hypotension and recent infection most concerning etiology is sepsis chest x ray stable but with report of pneumonia on past admission most likely source ; atrial fibrillation,"['fever given fevers hypotension and recent infection most concerning etiology is sepsis chest x ray stable but with report of pneumonia on past admission most likely source', 'atrial fibrillation']","fever: given fevers, hypotension and recent infection most conering
+   etiology is sepsis.  cxr stable but with report of pna on past
+   admission most likely source.; afibfever given fevers hypotension and recent infection most concerning etiology is sepsis chest x ray stable but with report of pneumonia on past admission most likely source ; atrial fibrillation['fever given fevers hypotension and recent infection most concerning etiology is sepsis chest x ray stable but with report of pneumonia on past admission most likely source', 'atrial fibrillation']",False,False,False,False,True,False,False,False,False,False,False,False,False,False
+199699.txt,"68f ventilator-dependent secondary to [**last name (un) 9456**]-[**location (un) **] vs cipd,
+   insulin-dependent diabetes mellitus, recurrent urinary tract infections
+   with chronic indwelling foley catheter, recent c difficile infection on
+   vancomycin po admitted from [**hospital 328**] rehab for fever x1 week, diarrhea,
+   and lethargy x1 days","# septic shock:; #. lethargy:; . anemia:; diabetes mellitus, type ii","picc line - stop [**2177-7-16**] 01:30 pm
+arterial line - stop [**2177-7-16**] 03:00 pm
+- to be transferred back to [**hospital 328**] rehab once bed is available
+- very anxious, started on ativan prn
+codeine
+swelling;
+tetanus
+unknown;
+meropenem
+rash;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+meropenem - [**2177-7-15**] 10:31 am
+vancomycin - [**2177-7-16**] 06:00 pm
+cefipime - [**2177-7-17**] 05:30 am
+infusions:
+other icu medications:
+lorazepam (ativan) - [**2177-7-16**] 04:00 pm
+heparin sodium (prophylaxis) - [**2177-7-17**] 05:30 am
+other medications:
+flowsheet data as of  [**2177-7-17**] 07:10 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 38.1
+c (100.5
+tcurrent: 37.2
+c (98.9
+hr: 86 (75 - 97) bpm
+bp: 90/44(55) {90/33(50) - 116/60(71)} mmhg
+rr: 20 (19 - 28) insp/min
+spo2: 93%
+heart rhythm: 1st av (first degree av block)
+wgt (current): 150.8 kg (admission): 122.5 kg
+height: 67 inch
+total in:
+2,916 ml
+808 ml
+po:
+tf:
+1,827 ml
+466 ml
+ivf:
+484 ml
+172 ml
+blood products:
+total out:
+1,955 ml
+880 ml
+urine:
+1,915 ml
+880 ml
+ng:
+stool:
+drains:
+balance:
+961 ml
+-72 ml
+respiratory support
+o2 delivery device: tracheostomy tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 500 (500 - 500) ml
+vt (spontaneous): 234 (234 - 234) ml
+rr (set): 12
+rr (spontaneous): 0
+peep: 5 cmh2o
+fio2: 40%
+rsbi: 111
+pip: 26 cmh2o
+plateau: 18 cmh2o
+spo2: 93%
+abg: ///31/
+ve: 10.6 l/min
+
+general:  alert, appears anxious, unable to vocalize
+lungs: improved rhonchi b/l, limited secondary to anterior exam and
+body habitus and sounds from mechanical ventilator
+cv: soft heart sounds, regular rate and rhythm, normal s1/s2
+abdomen:  obese, umbilical hernia (reducible), active bowel sounds, peg
+tube in place, denies pain with palpation
+skin: diffuse, erythematous, macular rash across chest and arms
+ext:  warm, well perfused, 2+ pulses; upper extremity edema, 1+
+502 k/ul
+8.9 g/dl
+138 mg/dl
+0.3 mg/dl
+31 meq/l
+3.6 meq/l
+7 mg/dl
+101 meq/l
+139 meq/l
+28.0 %
+10.2 k/ul
+image002.jpg]
+[**2177-7-14**]  03:29 am
+[**2177-7-14**]  03:41 pm
+[**2177-7-14**]  04:00 pm
+[**2177-7-14**]  09:10 pm
+[**2177-7-15**]  04:01 am
+[**2177-7-15**]  04:22 am
+[**2177-7-15**]  05:10 pm
+[**2177-7-16**]  03:08 am
+[**2177-7-16**]  03:21 am
+[**2177-7-17**]  04:19 am
+wbc
+7.5
+7.4
+7.8
+9.2
+10.2
+hct
+26.3
+25.9
+25.9
+25.8
+28.0
+plt
+474
+448
+460
+501
+502
+cr
+0.3
+0.3
+0.2
+0.3
+tco2
+30
+30
+32
+32
+34
+glucose
+136
+147
+148
+138
+other labs: pt / ptt / inr:14.4/26.5/1.2, alt / ast:14/13, alk phos / t
+bili:124/0.3, differential-neuts:70.8 %, band:0.0 %, lymph:20.2 %,
+mono:3.3 %, eos:4.8 %, lactic acid:0.7 mmol/l, albumin:2.2 g/dl,
+ldh:183 iu/l, ca++:8.4 mg/dl, mg++:2.1 mg/dl, po4:2.4 mg/dl
+.
+iron 40, tibc 146, ferritin 699, transferrin 112
+[**7-15**] blood cx pending
+urine cx: yeast
+[**7-14**] sputum gram stain: no microorg seen; cx pending",septic shock ; lethargy ; anemia ; diabetes mellitus type ii,"['septic shock', 'lethargy', 'anemia', 'diabetes mellitus type ii']","# septic shock:; #. lethargy:; . anemia:; diabetes mellitus, type iiseptic shock ; lethargy ; anemia ; diabetes mellitus type ii['septic shock', 'lethargy', 'anemia', 'diabetes mellitus type ii']",False,False,False,False,True,False,False,False,False,False,False,False,False,False
+185887.txt,"ms. [**known lastname 12640**] is a [**age over 90 **] year old woman with hx of sick sinus syndrome s/p
+   pacer as well as recent admission for pna, transaminitis, pancreatitis,
+   ms changes, who presents from rehab with hypoxia, lethargy and was
+   found to be hypotensive, likely early sepsis vs. chf.","hypoxia: differential includes worsening pna; hypotension: baseline blood pressures are 130s-140s and patient was
+   hypertensive at rehab.  concern is for septic shock vs. cardiogenic
+   shock; hx of pancreatitis:","transthoracic echo - at [**2186-5-11**] 03:00 pm
+- impression: severe diastolic left ventricular failure and secondary
+right ventricular failure. compared with the findings of the prior
+study (images reviewed) of [**2185-10-12**], severe tricuspid
+regurgitation and pulmonary hypertension are now evident.
+- patient too somnolent for s&s evaluation on first attempt
+- hypoglyecemic to 59 in afternoon; received [**1-28**] amp dextrose
+- > 1 l negative today already so no pm lasix
+heparin agents
+hypersensitivit
+changes to  and
+f
+unchanged
+review of systems is unchanged from admission except as noted below
+review of systems:
+unchanged","last dose of antibiotics:
+ciprofloxacin - [**2186-5-11**] 06:13 am
+vancomycin - [**2186-5-11**] 08:00 am
+piperacillin/tazobactam (zosyn) - [**2186-5-11**] 09:00 am
+infusions:
+other icu medications:
+furosemide (lasix) - [**2186-5-11**] 12:00 pm
+dextrose 50% - [**2186-5-11**] 04:15 pm
+other medications:
+flowsheet data as of  [**2186-5-12**] 06:52 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**88**] am
+tmax: 36.1
+c (96.9
+tcurrent: 35.9
+c (96.6
+hr: 76 (65 - 84) bpm
+bp: 131/58(78) {98/41(53) - 153/79(89)} mmhg
+rr: 22 (13 - 33) insp/min
+spo2: 90%
+heart rhythm: av paced
+total in:
+696 ml
+po:
+tf:
+ivf:
+646 ml
+blood products:
+total out:
+2,800 ml
+810 ml
+urine:
+2,800 ml
+810 ml
+ng:
+stool:
+drains:
+balance:
+-2,105 ml
+-810 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 90%
+abg: ///31/
+general: alert, oriented, no acute distress
+heent: sclera anicteric, mmm, oropharynx clear
+neck: supple, jvp not elevated, no lad
+lungs: bilateral crackles anteriorly with coarse breath sounds
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs, gallops
+abdomen:  soft, mildly distended, non-tender, bowel sounds present, no
+rebound tenderness or guarding, no organomegaly
+gu: no foley
+ext: warm, well perfused, 2+ pulses, 2+ edema to knees bilaterally
+341 k/ul
+7.8 g/dl
+49 mg/dl
+1.0 mg/dl
+31 meq/l
+3.7 meq/l
+9 mg/dl
+101 meq/l
+139 meq/l
+25.2 %
+5.4 k/ul
+image002.jpg]
+[**2186-5-11**]  02:10 am
+[**2186-5-11**]  12:04 pm
+[**2186-5-12**]  04:26 am
+wbc
+5.4
+hct
+25.2
+plt
+341
+cr
+0.9
+1.0
+tropt
+<0.01
+<0.01
+glucose
+46
+49
+other labs: pt / ptt / inr:12.9/36.8/1.1, ck / ckmb /
+troponin-t:53//<0.01, alt / ast:35/33, alk phos / t bili:229/0.6,
+amylase / lipase:/119, differential-neuts:79.8 %, lymph:13.9 %,
+mono:4.6 %, eos:1.6 %, lactic acid:0.8 mmol/l, albumin:2.5 g/dl,
+ldh:285 iu/l, ca++:8.4 mg/dl, mg++:2.2 mg/dl, po4:3.8 mg/dl",hypoxia differential includes worsening pneumonia; hypotension baseline blood pressures are s s and patient was hypertensive at rehabilitation concern is for septic shock versus cardiogenic shock; history of pancreatitis,"['hypoxia differential includes worsening pneumonia', 'hypotension baseline blood pressures are s s and patient was hypertensive at rehabilitation concern is for septic shock versus cardiogenic shock', 'history of pancreatitis']","hypoxia: differential includes worsening pna; hypotension: baseline blood pressures are 130s-140s and patient was
+   hypertensive at rehab.  concern is for septic shock vs. cardiogenic
+   shock; hx of pancreatitis:hypoxia differential includes worsening pneumonia; hypotension baseline blood pressures are s s and patient was hypertensive at rehabilitation concern is for septic shock versus cardiogenic shock; history of pancreatitis['hypoxia differential includes worsening pneumonia', 'hypotension baseline blood pressures are s s and patient was hypertensive at rehabilitation concern is for septic shock versus cardiogenic shock', 'history of pancreatitis']",False,False,False,False,True,False,False,False,False,True,False,False,False,False
+191238.txt,"this is a 67 yom with hx of cad s/p cabg x 4 in [**2098**], diastolic chf
+   with biventricular failure with nyhf class iii symptoms, moderate
+   pulmonary hypertension, afib on coumadin, dm2, cri who presents with
+   worsening sob for the past 3 days, transferred to icu for respiratory
+   distress",respiratory failure-hypoxia and hypercarbia; acute renal failure; pulmonary htn:; anemia; afib; dm,"nasal swab - at [**2103-5-11**] 04:11 pm
+ekg - at [**2103-5-11**] 05:53 pm
+given lasix 80 mg iv x 1 upon arrival to unit
+weaned to 2.5  l o2 nc
+sulfa (sulfonamides)
+unknown;
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+furosemide (lasix) - [**2103-5-11**] 05:30 pm
+other medications:
+flowsheet data as of  [**2103-5-12**] 06:28 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 36.9
+c (98.5
+tcurrent: 36.1
+c (96.9
+hr: 50 (44 - 72) bpm
+bp: 127/42(63) {103/32(51) - 161/90(102)} mmhg
+rr: 26 (11 - 26) insp/min
+spo2: 97%
+heart rhythm: sb (sinus bradycardia)
+total in:
+240 ml
+180 ml
+po:
+240 ml
+180 ml
+tf:
+ivf:
+blood products:
+total out:
+770 ml
+450 ml
+urine:
+770 ml
+450 ml
+ng:
+stool:
+drains:
+balance:
+-530 ml
+-270 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 97%
+abg: 3l
+general - tired, able to speak in ~5word sentences
+heent - sclera anicteric, mmm, oropharynx clear
+neck - supple, jvp at the thyroid cartilage, no lad
+pulm - decreased breath sound midway up right posterior lung field,
+poor airmovement. basilar crackles.
+cv - normal s1/s2; ii/vi sem lusb, +bradycardia, irregular rhythm
+abdomen - normoactive bowel sounds; soft, non-tender, non-distended,
++epigastric hernia which is reducible, no ttp of hernia
+back - +ecchymoses over right flank
+ext - +2 bilateral pedal edema, dp pulses 2+; no clubbing, cyanosis
+neuro: aaox3
+/
+117 k/ul
+8.7 g/dl
+78 mg/dl
+3.4 mg/dl
+31 meq/l
+4.2 meq/l
+99 mg/dl
+100 meq/l
+142 meq/l
+26.3 %
+6.1 k/ul
+image002.jpg]
+[**2103-5-11**]  04:42 pm
+[**2103-5-12**]  02:51 am
+wbc
+8.2
+6.1
+hct
+26.9
+26.3
+plt
+119
+117
+cr
+3.3
+3.4
+tropt
+0.02
+glucose
+60
+78
+other labs: pt / ptt / inr:33.8/32.2/3.5, ck / ckmb /
+troponin-t:37//0.02, alt / ast:36/17, alk phos / t bili:135/0.5,
+differential-neuts:82.2 %, lymph:9.9 %, mono:6.5 %, eos:1.0 %,
+albumin:3.7 g/dl, ldh:249 iu/l, ca++:8.5 mg/dl, mg++:2.8 mg/dl, po4:6.1
+mg/dl",respiratory failure hypoxia and hypercarbia; acute renal failure; pulmonary hypertension ; anemia; atrial fibrillation; diabetes mellitus,"['respiratory failure hypoxia and hypercarbia', 'acute renal failure', 'pulmonary hypertension', 'anemia', 'atrial fibrillation', 'diabetes mellitus']","respiratory failure-hypoxia and hypercarbia; acute renal failure; pulmonary htn:; anemia; afib; dmrespiratory failure hypoxia and hypercarbia; acute renal failure; pulmonary hypertension ; anemia; atrial fibrillation; diabetes mellitus['respiratory failure hypoxia and hypercarbia', 'acute renal failure', 'pulmonary hypertension', 'anemia', 'atrial fibrillation', 'diabetes mellitus']",False,False,False,True,False,False,False,True,False,False,False,False,False,False
+110692.txt,"cancer (malignant neoplasm), breast
+ hypoxemia
+ depression
+ delirium / confusion
+ hypertension, benign
+ hypoglycemia
+   78 yo f with h/o copd, lung ca s/p lobectomy, breast ca s/p lumpectomy
+   who presents with altered mental status and new hypercarbic/hypoxic
+   respiratory failure.",hypercarbic/hypoxic respiratory failure; hypoglycemia/type ii dm; right breast mass and skin changes; delirium on dementia/depression/anxiety; hypertension:; arf,"- ct head: no acute icp, e/o moderate chronic microvascular disease
+- cta:
+1. no pe or acute aortic pathology.
+2. large r pleural effusion. small l pleural effusion.
+3. dense material in the consolidated/collapsed rll, ? aspiration vs
+pna.
+- had episode of respiratory distress, pulling off mask, desats to 70s,
+improved with nebs
+- sugars stable, stopped q1h checks
+- agitated overnight and pulled out foley
+no known drug allergies
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2189-1-24**] 08:18 pm
+cefipime - [**2189-1-25**] 05:00 am
+infusions:
+other icu medications:
+heparin sodium (prophylaxis) - [**2189-1-25**] 12:22 am
+morphine sulfate - [**2189-1-25**] 01:06 am
+other medications:
+flowsheet data as of  [**2189-1-25**] 07:06 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since [**90**] am
+tmax: 36.4
+c (97.5
+tcurrent: 36.3
+c (97.3
+hr: 95 (87 - 110) bpm
+bp: 128/94(101) {85/28(40) - 169/6,237(112)} mmhg
+rr: 25 (13 - 35) insp/min
+spo2: 100%
+heart rhythm: sr (sinus rhythm)
+wgt (current): 78.8 kg (admission): 79 kg
+height: 60 inch
+total in:
+367 ml
+120 ml
+po:
+tf:
+ivf:
+367 ml
+120 ml
+blood products:
+total out:
+1,740 ml
+160 ml
+urine:
+1,740 ml
+160 ml
+ng:
+stool:
+drains:
+balance:
+-1,373 ml
+-40 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 100%
+abg: ///39/
+shallow breaths, clear; rr no murmurs; no edema
+225 k/ul
+10.0 g/dl
+246 mg/dl
+1.4 mg/dl
+39 meq/l
+4.3 meq/l
+27 mg/dl
+102 meq/l
+146 meq/l
+33.5 %
+9.9 k/ul
+wbc
+9.2
+9.9
+hct
+33.0
+33.5
+plt
+220
+225
+cr
+1.1
+1.2
+1.0
+1.4
+tropt
+0.09
+glucose
+65
+130
+146
+246
+other labs: ck / ckmb / troponin-t:45/3/0.09, differential-neuts:84.9
+%, lymph:7.4 %, mono:5.6 %, eos:2.1 %, ca++:9.7 mg/dl, mg++:2.1 mg/dl,
+po4:3.6 mg/dl
+imaging: ct head:
+no acute intracranial process. moderate chronic microvascular ischemic
+disease.
+cta chest:
+1. no pe or acute aortic pathology.
+2. large r pleural effusion. small l pleural effusion.
+3. dense material in the consolidated/collapsed rll, ? aspiration vs
+pna.
+cxr:
+there is continued evidence of
+pulmonary vascular congestion and a small right effusion. there is
+increased
+streaky density at the right base consistent with subsegmental
+atelectasis.
+the heart appears enlarged as before. the aorta is tortuous and
+calcified.
+compared with the previous study there is little interval change.
+us abdomen:
+direct son[**name (ni) 330**] examinations were performed on the four abdominal
+quadrants. there is a small pocket of ascites in the right lower
+quadrant,
+measuring approximately 3.8 x 2.6 cm (ap x trv). a trace amount of
+fluid is
+noted in the deep pelvis. limited views of the kidneys demonstrate no
+evidence of hydronephrosis.
+echo:
+moderately dilated and mildly hypokinetic right ventricle. moderate to
+severe tricuspid regurgitation. severe pulmonary hypertension.
+preserved left ventricular global systolic function. elevated estimated
+filling pressures.
+microbiology:    urine culture (final [**2189-1-24**]):
+gram positive bacteria.    10,000-100,000 organisms/ml..
+alpha hemolytic colonies consistent with alpha streptococcus
+or
+lactobacillus sp.",hypercarbic hypoxic respiratory failure; hypoglycemia type ii diabetes mellitus; right breast mass and skin changes; delirium on dementia depression anxiety; hypertension ; acute renal failure,"['hypercarbic hypoxic respiratory failure', 'hypoglycemia type ii diabetes mellitus', 'right breast mass and skin changes', 'delirium on dementia depression anxiety', 'hypertension', 'acute renal failure']","hypercarbic/hypoxic respiratory failure; hypoglycemia/type ii dm; right breast mass and skin changes; delirium on dementia/depression/anxiety; hypertension:; arfhypercarbic hypoxic respiratory failure; hypoglycemia type ii diabetes mellitus; right breast mass and skin changes; delirium on dementia depression anxiety; hypertension ; acute renal failure['hypercarbic hypoxic respiratory failure', 'hypoglycemia type ii diabetes mellitus', 'right breast mass and skin changes', 'delirium on dementia depression anxiety', 'hypertension', 'acute renal failure']",False,False,False,False,False,False,False,True,False,False,False,False,False,False
+193955.txt,"59yo gentleman with h/o depression admitted with somnolence and
+   respiratory depression in the setting of ingestion of multiple
+   medications.","# overdose / altered mental status; depression; # acute renal failure on ckd; # hyperkalemia:  likely was due to acute renal failure,; leukocytosis","overdose
+- had episode of hypotension to sbp 70
+s, given 1l ns bolus over 1
+hour, responded to 112/60
+- this morning is able to wake up and answer questions.  has no
+complaints, states that he took vicodin and percocet because
+he was
+afraid
+and was having money problems
+ciprofloxacin hcl
+rash;
+changes to
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+infusions:
+other icu medications:
+naloxone (narcan) - [**2159-11-8**] 02:24 am
+other medications:
+flowsheet data as of  [**2159-11-8**] 06:26 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 35.8
+c (96.4
+tcurrent: 35.8
+c (96.4
+hr: 96 (74 - 96) bpm
+bp: 87/51(60) {87/50(60) - 103/65(74)} mmhg
+rr: 15 (8 - 15) insp/min
+spo2: 92%
+heart rhythm: sr (sinus rhythm)
+total in:
+3,285 ml
+po:
+tf:
+ivf:
+1,285 ml
+blood products:
+total out:
+0 ml
+1,055 ml
+urine:
+705 ml
+ng:
+stool:
+drains:
+balance:
+0 ml
+2,230 ml
+respiratory support
+o2 delivery device: none
+spo2: 92% ra
+abg: 7.35/48/248/27/0
+pao2 / fio2: 261
+general: somnolent male, snoring but arousable.
+heent: normocephalic, atraumatic, wearing [**location (un) 1083**] j. no conjunctival
+pallor. no scleral icterus. pupils constricted but equally round and
+reactive to light.  no nystagmus.  eomi.  mm dry.
+cardiac: regular rhythm, normal rate. normal s1, s2. no murmurs, rubs
+or [**last name (un) 1011**].
+lungs: equal and good air movement bilaterally.
+abdomen: nabs. soft, nt, nd. no hsm
+extremities: no edema or calf pain, 2+ dorsalis pedis.
+skin:  abrasion on right elbow.
+neuro:  responds appropriately to yes/no questions, follows simple
+commands.  moves all 4 extremities spontaneously and to commands.
+brisk reflexes bilaterally, with 3+ biceps reflex.
+341 k/ul
+13.4 g/dl
+110 mg/dl
+3.3 mg/dl
+27 meq/l
+4.4 meq/l
+49 mg/dl
+98 meq/l
+140 meq/l
+41.2 %
+10.9 k/ul
+[image002.jpg]
+[**2159-11-8**]  01:36 am
+[**2159-11-8**]  03:22 am
+[**2159-11-8**]  04:12 am
+wbc
+10.9
+hct
+41.2
+plt
+341
+cr
+3.3
+tropt
+<0.01
+tco2
+27
+28
+glucose
+110
+other labs: pt / ptt / inr:14.0/20.3/1.2, ck / ckmb /
+troponin-t:/27/<0.01, alt / ast:25/39, alk phos / t bili:41/, lactic
+acid:0.8 mmol/l, ca++:9.0 mg/dl, mg++:2.6 mg/dl, po4:5.3 mg/dl",overdose altered mental status; depression; acute renal failure on chronic kidney disease; hyperkalemia likely was due to acute renal failure ; leukocytosis,"['overdose altered mental status', 'depression', 'acute renal failure on chronic kidney disease', 'hyperkalemia likely was due to acute renal failure', 'leukocytosis']","# overdose / altered mental status; depression; # acute renal failure on ckd; # hyperkalemia:  likely was due to acute renal failure,; leukocytosisoverdose altered mental status; depression; acute renal failure on chronic kidney disease; hyperkalemia likely was due to acute renal failure ; leukocytosis['overdose altered mental status', 'depression', 'acute renal failure on chronic kidney disease', 'hyperkalemia likely was due to acute renal failure', 'leukocytosis']",False,False,False,False,False,False,False,True,False,False,False,False,False,False
+110484.txt,"49 yo man with presumed cad, dm who presents w/ resp
+   distress found to be profoundly hypertensive, evidence of aspiration on
+   ct chest and rising ces",hypoxia; aspiration pna; acute renal failure; dm,"-cardiac enzymes rising:  0.27 -> 0.63 -> 1.07 ; ck 1200 -> 1800
+-started iv heparin
+-ekg shows lbbb (unclear if old or new)
+-cardiology aware ? cath today
+-chest ct suggests sequlae of massive aspiration event leading to
+bilateral lower lobe consolidations/ground glass opacities
+-creatinine improved from 1.3 to 1.1
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+vancomycin - [**2121-10-27**] 08:32 pm
+ciprofloxacin - [**2121-10-27**] 10:10 pm
+cefipime - [**2121-10-28**] 06:14 am
+infusions:
+heparin sodium - 1,100 units/hour
+fentanyl - 100 mcg/hour
+midazolam (versed) - 8 mg/hour
+other icu medications:
+heparin sodium - [**2121-10-27**] 05:58 pm
+other medications:
+flowsheet data as of  [**2121-10-28**] 08:04 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.4
+c (99.3
+tcurrent: 36.1
+c (97
+hr: 81 (80 - 110) bpm
+bp: 101/49(60) {91/49(13) - 122/86(142)} mmhg
+rr: 20 (18 - 24) insp/min
+spo2: 97%
+heart rhythm: sr (sinus rhythm)
+height: 66 inch
+total in:
+2,618 ml
+1,026 ml
+po:
+tf:
+ivf:
+2,618 ml
+1,026 ml
+blood products:
+total out:
+1,475 ml
+825 ml
+urine:
+1,475 ml
+625 ml
+ng:
+200 ml
+stool:
+drains:
+balance:
+1,143 ml
+201 ml
+respiratory support
+o2 delivery device: endotracheal tube
+ventilator mode: cmv/assist/autoflow
+vt (set): 550 (550 - 550) ml
+vt (spontaneous): 498 (498 - 498) ml
+rr (set): 20
+rr (spontaneous): 0
+peep: 10 cmh2o
+fio2: 50%
+rsbi deferred: peep > 10
+pip: 33 cmh2o
+plateau: 22 cmh2o
+compliance: 61.1 cmh2o/ml
+spo2: 97%
+abg: 7.39/35/110/22/-2
+ve: 11.1 l/min
+pao2 / fio2: 220
+peripheral vascular: (right radial pulse: not assessed), (left radial
+pulse: not assessed), (right dp pulse: not assessed), (left dp pulse:
+not assessed)
+skin:  not assessed
+neurologic: responds to: not assessed, movement: not assessed, tone:
+not assessed
+160 k/ul
+10.8 g/dl
+210 mg/dl
+0.9 mg/dl
+22 meq/l
+4.0 meq/l
+16 mg/dl
+113 meq/l
+143 meq/l
+31.1 %
+15.3 k/ul
+wbc
+18.6
+15.3
+hct
+36.7
+31.1
+plt
+208
+160
+cr
+1.1
+0.9
+0.9
+tropt
+0.63
+1.07
+1.05
+tco2
+18
+21
+22
+glucose
+[**telephone/fax (3) 9221**]
+other labs: pt / ptt / inr:13.8/51.4/1.2, ck / ckmb /
+troponin-t:2146/110/1.05, alt / ast:52/188, alk phos / t bili:52/0.2,
+differential-neuts:95.5 %, lymph:2.7 %, mono:1.2 %, eos:0.5 %, lactic
+acid:2.2 mmol/l, ca++:7.5 mg/dl, mg++:2.4 mg/dl, po4:3.1 mg/dl",hypoxia; aspiration pneumonia; acute renal failure; diabetes mellitus,"['hypoxia', 'aspiration pneumonia', 'acute renal failure', 'diabetes mellitus']","hypoxia; aspiration pna; acute renal failure; dmhypoxia; aspiration pneumonia; acute renal failure; diabetes mellitus['hypoxia', 'aspiration pneumonia', 'acute renal failure', 'diabetes mellitus']",False,False,False,False,False,False,False,True,False,False,False,False,False,True
+187707.txt,"assesment: this is a 76 year-old female with a history of diabetes who
+   presents with pneumoperitoneum of unclear aetiology, complicated by
+   coagulopathy and rhabdomyolysis.",pneumoperitoneum; rhabdomyolysis; acute renal failure,"ct repeated: pneumoperitoneum confirmed without free fluid, fat
+stranding, or contrast leakage
+placed on subq heparin per surgery despite pe diagnosis in [**2198-7-8**]
+wound/skin nurse consulted for skin care on buttocks. vascular surgery
+to assess leg ulcers also.
+social work has seen her.
+no known drug allergies
+changes to  and
+f
+review of systems is unchanged from admission except as noted below
+review of systems:","last dose of antibiotics:
+fluconazole - [**2198-9-17**] 05:30 pm
+piperacillin/tazobactam (zosyn) - [**2198-9-17**] 11:45 pm
+metronidazole - [**2198-9-18**] 12:16 am
+infusions:
+other icu medications:
+pantoprazole (protonix) - [**2198-9-17**] 02:00 pm
+heparin sodium - [**2198-9-17**] 11:46 pm
+other medications:
+flowsheet data as of  [**2198-9-18**] 07:17 am
+vital signs
+hemodynamic monitoring
+fluid balance
+24 hours
+since 12 am
+tmax: 37.7
+c (99.8
+tcurrent: 37.7
+c (99.8
+hr: 81 (62 - 90) bpm
+bp: 123/56(72) {104/43(58) - 160/86(95)} mmhg
+rr: 24 (13 - 25) insp/min
+spo2: 95%
+heart rhythm: sr (sinus rhythm)
+height: 63 inch
+total in:
+2,810 ml
+1,273 ml
+po:
+900 ml
+tf:
+ivf:
+1,910 ml
+1,273 ml
+blood products:
+total out:
+3,040 ml
+665 ml
+urine:
+3,040 ml
+615 ml
+ng:
+stool:
+50 ml
+drains:
+balance:
+-230 ml
+608 ml
+respiratory support
+o2 delivery device: nasal cannula
+spo2: 95%
+abg: ///31/
+151 k/ul
+8.6 g/dl
+90 mg/dl
+1.3 mg/dl
+31 meq/l
+3.8 meq/l
+48 mg/dl
+112 meq/l
+147 meq/l
+26.8 %
+7.8 k/ul
+[image002.jpg]
+[**2198-9-17**]  12:15 pm
+[**2198-9-18**]  04:23 am
+wbc
+7.5
+7.8
+hct
+29.5
+26.8
+plt
+167
+151
+cr
+1.7
+1.3
+glucose
+142
+90
+other labs: pt / ptt / inr:15.9/40.2/1.4, ck / ckmb /
+troponin-t:1318/14/, alt / ast:19/39, alk phos / t bili:56/0.5, amylase
+/ lipase:82/21, differential-neuts:73.5 %, lymph:19.0 %, mono:6.0 %,
+eos:1.4 %, albumin:2.5 g/dl, ldh:220 iu/l, ca++:7.6 mg/dl, mg++:1.6
+mg/dl, po4:1.9 mg/dl
+maging: ct abdomen: free air in the abdomen without evidence of
+contrast leakage.
+microbiology: fecal culture, c diff, campylobacter stool cultures
+pending
+ucx and blood cx pending.",pneumoperitoneum; rhabdomyolysis; acute renal failure,"['pneumoperitoneum', 'rhabdomyolysis', 'acute renal failure']","pneumoperitoneum; rhabdomyolysis; acute renal failurepneumoperitoneum; rhabdomyolysis; acute renal failure['pneumoperitoneum', 'rhabdomyolysis', 'acute renal failure']",False,False,False,False,False,False,False,True,False,False,False,False,False,False

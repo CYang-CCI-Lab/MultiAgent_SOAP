@@ -9,86 +9,15 @@ import logging
 import pandas as pd
 from pydantic import BaseModel, Field, create_model
 import math
+from utils import safe_json_load, count_llama_tokens
 
 logger = logging.getLogger(__name__)
 
-
-def safe_json_load(s: str) -> any:
-    """
-    Attempts to parse a JSON string using multiple parsers.
-    Order:
-    1. json.loads (strict)
-    2. demjson3.decode (tolerant)
-    3. json5.loads (allows single quotes, unquoted keys, etc.)
-    4. dirtyjson.loads (for messy JSON)
-    5. jsom (if available)
-    6. json_repair (attempt to repair the JSON and parse it)
-    
-    If all attempts fail, returns None.
-    """
-    # 1. Try standard JSON
-    try:
-        return json.loads(s)
-    except json.JSONDecodeError as e:
-        logger.error("Standard json.loads failed: %s", e)
-    
-    # 2. Try demjson3
-    try:
-        import demjson3
-        logger.info("Attempting to parse with demjson3 as fallback.")
-        result = demjson3.decode(s)
-        logger.info("demjson3 successfully parsed the JSON.")
-        return result
-    except Exception as e2:
-        logger.error("demjson3 fallback failed: %s", e2)
-    
-    # 3. Try json5
-    try:
-        import json5
-        logger.info("Attempting to parse with json5 as fallback.")
-        result = json5.loads(s)
-        logger.info("json5 successfully parsed the JSON.")
-        return result
-    except Exception as e3:
-        logger.error("json5 fallback failed: %s", e3)
-    
-    # 4. Try dirtyjson
-    try:
-        import dirtyjson
-        logger.info("Attempting to parse with dirtyjson as fallback.")
-        result = dirtyjson.loads(s)
-        logger.info("dirtyjson successfully parsed the JSON.")
-        return result
-    except Exception as e4:
-        logger.error("dirtyjson fallback failed: %s", e4)
-    
-    # 5. Try jsom
-    try:
-        import jsom
-        logger.info("Attempting to parse with jsom as fallback.")
-        parser = jsom.JsomParser()
-        result = parser.loads(s)
-        logger.info("jsom successfully parsed the JSON.")
-        return result
-    except Exception as e5:
-        logger.error("jsom fallback failed: %s", e5)
-    
-    # 6. Try json_repair (attempt to fix the JSON and then load it)
-    try:
-        import json_repair
-        logger.info("Attempting to repair JSON with json_repair as fallback.")
-        repaired = json_repair.repair_json(s)
-        result = json.loads(repaired)
-        logger.info("json_repair successfully parsed the JSON.")
-        return result
-    except Exception as e6:
-        logger.error("json_repair fallback failed: %s", e6)
-    
-    # All attempts failed; return None
-    logger.error("All JSON parsing attempts failed. Returning None.")
-    logger.error("Original input: %s", s)
-    return None
-
+selected_problems = [
+    'congestive heart failure',
+    'sepsis',
+    'acute kidney injury',
+]
 
 class LLMAgent:
     def __init__(
@@ -100,7 +29,7 @@ class LLMAgent:
         self.model_name = model_name
         self.client = client
         self.messages = [{"role": "system", "content": system_prompt}]
-        logger.info(f"[{self.__class__.__name__}] Initialized with memory length: {len(self.messages)}")  # <-- Logging initial memory size
+        logger.info(f"[{self.__class__.__name__}] Initialized with memory token length: {count_llama_tokens(self.messages)}")  # <-- Logging initial memory size
     
     async def __llm_call_with_tools(self, params: dict, available_tools: dict) -> Any:
         iter_count = 0
@@ -117,11 +46,11 @@ class LLMAgent:
             logger.info("No tool calls detected in response.")
       
             self.messages.append({"role": "assistant", "content": message.content})
-            logger.info(f"[{self.__class__.__name__}] memory length after append: {len(self.messages)}")  # <-- Logging memory size
+            logger.info(f"[{self.__class__.__name__}] memory token length after append: {count_llama_tokens(self.messages)}")  # <-- Logging memory size
             
             # Provide a hint/warning
             self.messages.append({"role": "system", "content": "WARNING! Remember to call a tool."})
-            logger.info(f"[{self.__class__.__name__}] memory length after append: {len(self.messages)}")  # <-- Logging memory size
+            logger.info(f"[{self.__class__.__name__}] memory token length after append: {count_llama_tokens(self.messages)}")  # <-- Logging memory size
 
             iter_count += 1
             if iter_count > 3:
@@ -138,7 +67,7 @@ class LLMAgent:
 
         logger.info("Tool calls detected in response.")
         self.messages.append({"role": "assistant", "tool_calls": message.tool_calls})
-        logger.info(f"[{self.__class__.__name__}] memory length after append: {len(self.messages)}")  # <-- Logging memory size
+        logger.info(f"[{self.__class__.__name__}] memory token length after append: {count_llama_tokens(self.messages)}")  # <-- Logging memory size
         
         # Iterate over each detected tool call
         for call in message.tool_calls:
@@ -167,7 +96,7 @@ class LLMAgent:
                 "tool_call_id": call.id,
                 "name": call.function.name,
             })
-            logger.info(f"[{self.__class__.__name__}] memory length after append: {len(self.messages)}")  # <-- Logging memory size
+            logger.info(f"[{self.__class__.__name__}] memory token length after append: {count_llama_tokens(self.messages)}")  # <-- Logging memory size
         
         try:
             response = await self.client.chat.completions.create(**params)
@@ -180,14 +109,14 @@ class LLMAgent:
     async def llm_call(
         self, 
         user_prompt: str, 
-        temperature: float = 0.3,
+        temperature: float = 0.5,
         guided_: dict = None,
         tools_descript: List[dict] = None, 
         available_tools: dict = None
     ) -> Any:
         logger.debug(f"LLMAgent.llm_call() - user_prompt[:60]: {user_prompt[:60]}...")
         self.messages.append({"role": "user", "content": user_prompt})
-        logger.info(f"[{self.__class__.__name__}] memory length after append: {len(self.messages)}")  # <-- Logging memory size
+        logger.info(f"[{self.__class__.__name__}] memory token length after append: {count_llama_tokens(self.messages)}")  # <-- Logging memory size
         
         params = {
             "model": self.model_name,
@@ -219,7 +148,7 @@ class LLMAgent:
         logger.debug(f"Appending message with role='{role}' to conversation.")
         self.messages.append({"role": role, "content": content})
         # Log how large the conversation is now:
-        logger.info(f"[{self.__class__.__name__}] memory length after append: {len(self.messages)}")
+        logger.info(f"[{self.__class__.__name__}] memory token length after append: {count_llama_tokens(self.messages)}")
 
 
 class Manager(LLMAgent):
@@ -333,15 +262,14 @@ class Manager(LLMAgent):
 
         # Request a panel of specialists for each identified specialty
         user_prompt = (
-            "Based on the list of specialties you provided:\n"
+            "Based on the list of specialties you provided: "
             f"{specialties_lst}\n\n"
-            f"Please assemble a panel of {self.n_specialists} specialists. Assign each specialist to exactly one "
-            "of the above specialties. For each specialist, please provide:\n"
-            "1) Their official title (role)\n"
-            "2) A list of relevant expertise areas for this case.\n"
+            f"Please assemble a panel of {self.n_specialists} specialists. Assign each specialist to exactly one of the above specialties.\n"
+            "For each specialist, specify their role (not their personal name) and list the relevant expertise areas related to this case."
         )
+
         class Specialist(BaseModel):
-            specialist: str = Field(..., description="Official job title.")
+            specialist: str = Field(..., description="Official job title. No personal names.")
             expertise: List[str] = Field(..., description="Their main areas of expertise relevant to this case.")
 
         panel_dict = {f"specialist_{i+1}": (Specialist, ...) for i in range(self.n_specialists)}
@@ -371,6 +299,7 @@ class Manager(LLMAgent):
         return self.status_dict
     
     def _check_consensus(self, panel_id: int, round_id: int) -> Optional[str]:
+        logger.info(f"Checking for consensus among specialists in panel_{panel_id}, round_{round_id}.")
         choice_counts = {}
         majority_count = math.ceil(self.n_specialists * self.consensus_threshold)
 
@@ -402,11 +331,11 @@ class Manager(LLMAgent):
             "You now have access to the entire conversation histories for all specialists.\n"
             "Please analyze each specialist's reasoning and final choice, then provide a single, definitive answer.\n"
             "Your answer should be the one best supported by their collective reasoning.\n\n"
-            "Here is the complete conversation history for each specialist:\n\n"
+            "Below is the complete conversation history for each specialist:\n\n"
             f"{specialists_str}\n\n"
             "After reviewing this material, please provide:\n"
             "1) A concise summary of the reasoning behind your final decision\n"
-            "2) A single recommended choice: 'Yes' or 'No'\n"
+            "2) A single recommended choice: 'Yes' or 'No' "
             f"(indicating whether the patient has {self.problem})."
         )
 
@@ -455,6 +384,7 @@ class Manager(LLMAgent):
             
             # Attempt debate if no initial consensus
             while self.consensus_attempts < self.max_consensus_attempts:
+                logger.info(f"Debate attempt #{self.consensus_attempts + 1} started.")
                 debate_tasks = [
                     asyncio.create_task(
                         specialist.debate(self.status_dict[f"panel_{self.assignment_attempts}"]["Collected Specialists"])
@@ -493,12 +423,15 @@ class DynamicSpecialist(LLMAgent):
         self.expertise = status["expertise"]
         self.answer_history = status["answer_history"]
         self.round_id = 0
+        self.schema = None
         system_prompt = (
             f"You are a {self.specialist}. "
             f"Your areas of expertise include:\n{self.expertise}\n"
             "Please analyze the patient's condition from the viewpoint of your specialty."
         )
         super().__init__(system_prompt)
+        
+        logger.info(f"[{self.specialist}] Initialized...")
 
     async def analyze_note(self, note: str, problem: str):
         self.round_id += 1
@@ -509,12 +442,13 @@ class DynamicSpecialist(LLMAgent):
         self.schema = Response.model_json_schema()
 
         user_prompt = (
-            "Below are the Subjective (S) and Objective (O) sections from a SOAP note:\n\n"
+            "Here are the Subjective (S) and Objective (O) parts of a SOAP note:\n\n"
             f"<SOAP>\n{note}\n</SOAP>\n\n"
-            f"We need to determine if the patient has the following problem:\n\n<Problem>\n{problem}\n</Problem>\n\n"
-            f"As a {self.specialist}, please provide:\n"
-            "1) Your step-by-step reasoning\n"
-            "2) A clear final answer: 'Yes' or 'No'\n"
+            "Based on this information, does the patient have the following problem?\n\n"
+            f"<Problem>\n{problem}\n</Problem>\n\n"
+            f"Acting as a {self.specialist}, please provide:\n"
+            "1. Your step-by-step reasoning.\n"
+            "2. Your choice: 'Yes' or 'No'."
         )
 
         # ADDED: try-except around LLM call
@@ -547,10 +481,12 @@ class DynamicSpecialist(LLMAgent):
 
         formatted_other_specialists = json.dumps(other_specialists, indent=4)
         user_prompt = (
-            "You now have additional information from other specialists. Here are their choices and reasoning:\n\n"
+            "You have received opinions from other specialists:\n\n"
             f"{formatted_other_specialists}\n\n"
-            "Please critique the reasoning of these other specialists and refine your own response if needed.\n"
-            "You may change your final choice or keep your original conclusion.\n"
+            "Please review the reasoning of the other specialists. Based on their input and your own analysis, reconsider your initial assessment. You can either stick with your original conclusion or change it.\n\n"
+            "Provide the following:\n"
+            "1. Your final reasoning.\n"
+            "2. Your final choice: 'Yes' or 'No'."
         )
 
         try:
@@ -569,20 +505,19 @@ class DynamicSpecialist(LLMAgent):
             logger.error(f"[{self.specialist}] Failed to parse debate response: {response}")
             return None
 
-
-async def main():
-# 실행블록 (example usage)
-    df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_5_problems_mini.csv"
-    df = pd.read_csv(df_path, lineterminator='\n')
-    logger.info("Loaded dataframe with %d rows.", len(df))
-
+async def process_problem(df: pd.DataFrame, problem: str):
+    """
+    Runs the Manager workflow for every row in `df`, using the specified `problem`.
+    Saves JSON results to a file that includes the problem name.
+    """
+    logger.info(f"Processing problem '{problem}' for {len(df)} rows.")
     results = []
+
     for idx, row in df.iterrows():
-        logger.info(f"Processing row index {idx}")
+        logger.info(f"[{problem}] Processing row index {idx}")
 
         note_text = str(row["Subjective"]) + "\n" + str(row['Objective'])
         hadm_id = row["File ID"]
-        problem = "sepsis"
         label = row["combined_summary"]
 
         manager = Manager(
@@ -590,26 +525,76 @@ async def main():
             hadm_id=hadm_id,
             problem=problem,
             label=label,
-            n_specialists="auto",            # or "auto"
+            n_specialists="auto",  # or an integer
             consensus_threshold=0.8,
             max_consensus_attempts=3,
             max_assignment_attempts=2,
-            static_specialists=None,    
+            static_specialists=None,
             summarizer=None
         )
 
-
         # Run the manager's workflow
         result = await manager.run()
-        print("Final Manager Result:")
-        print(result)
         results.append(result)
-    
-    # Save results to a JSON file
-    output_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/ma_test_mini.json"
+
+    # Save results for this problem
+    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_{problem}.json"
     with open(output_path, "w") as f:
         json.dump(results, f, indent=4)
-    logger.info("Results saved to %s", output_path)
+    logger.info(f"[{problem}] Results saved to: {output_path}")
+
+async def main():
+    df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_3_problems.csv"
+    df = pd.read_csv(df_path, lineterminator='\n')
+    logger.info("Loaded dataframe with %d rows.", len(df))
+
+    # Create an asyncio Task for each problem
+    tasks = []
+    for problem in selected_problems:
+        tasks.append(asyncio.create_task(process_problem(df, problem)))
+
+    # Run them concurrently
+    await asyncio.gather(*tasks)
+
+# async def main():
+#     df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_3_problems.csv"
+#     df = pd.read_csv(df_path, lineterminator='\n')
+#     logger.info("Loaded dataframe with %d rows.", len(df))
+
+#     results = []
+#     for idx, row in df.iterrows():
+#         logger.info(f"Processing row index {idx}")
+
+#         note_text = str(row["Subjective"]) + "\n" + str(row['Objective'])
+#         hadm_id = row["File ID"]
+#         problem = "sepsis"
+#         label = row["combined_summary"]
+
+#         manager = Manager(
+#             note=note_text,
+#             hadm_id=hadm_id,
+#             problem=problem,
+#             label=label,
+#             n_specialists="auto",            # or "auto"
+#             consensus_threshold=0.8,
+#             max_consensus_attempts=3,
+#             max_assignment_attempts=2,
+#             static_specialists=None,    
+#             summarizer=None
+#         )
+
+
+#         # Run the manager's workflow
+#         result = await manager.run()
+#         print("Final Manager Result:")
+#         print(result)
+#         results.append(result)
+    
+#     # Save results to a JSON file
+#     output_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems.json"
+#     with open(output_path, "w") as f:
+#         json.dump(results, f, indent=4)
+#     logger.info("Results saved to %s", output_path)
 
 if __name__ == "__main__":
     logging.basicConfig(
@@ -617,7 +602,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0403_MA_mini.log', mode='a'), # Save to file
+            logging.FileHandler('log/0408_MA_3_probs_parallel.log', mode='w'), # Save to file
             logging.StreamHandler()  # Print to console
         ]
     )

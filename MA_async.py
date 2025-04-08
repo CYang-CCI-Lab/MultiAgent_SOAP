@@ -109,7 +109,7 @@ class InitializerAgent(LLMAgent):
     async def identify_specialists(self, query: str):
         logger.info("InitializerAgent: Identifying specialists.")
         class Specialist(BaseModel):
-            specialist: str = Field(..., description="Role of the specialist")
+            specialist: str = Field(..., description="Official job title. No personal names.")
             expertise: List[str] = Field(..., description="Areas of expertise for the specialist.")
         panel_dict = {f"Specialist_{i+1}": (Specialist, ...) for i in range(self.n_specialists)}
         SpecialistPanel = create_model("SpecialistPanel", **panel_dict)

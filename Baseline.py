@@ -1,265 +1,176 @@
 import asyncio
 import json
 import logging
-from typing import List, Dict, Any, Literal
-from pydantic import BaseModel, Field, create_model
-from openai import AsyncOpenAI
-import demjson3
+from typing import List, Dict, Any, Literal, Optional
 import pandas as pd
+from pydantic import BaseModel, Field
+from openai import AsyncOpenAI
+from utils import safe_json_load
 
-# Set up logging
 logger = logging.getLogger(__name__)
 
-def safe_json_load(s: str) -> Any:
-    try:
-        return json.loads(s)
-    except json.JSONDecodeError as e:
-        logger.error("Standard json.loads failed: %s", e)
-        try:
-            logger.info("Attempting to parse with demjson3 as fallback.")
-            result = demjson3.decode(s)
-            logger.info("demjson3 successfully parsed the JSON.")
-            return result
-        except Exception as e2:
-            logger.error("Fallback parsing with demjson3 also failed: %s. Returning original input.", e2)
-            return s
-
 class BaselineLLMAgent:
-
     def __init__(
         self,
         system_prompt: str,
-        client = AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
+        client=AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
         model_name: str = "meta-llama/Llama-3.3-70B-Instruct"
     ):
         self.client = client
         self.model_name = model_name
         self.messages = [{"role": "system", "content": system_prompt}]
 
-    async def ask(self, user_prompt: str, guided_schema: Dict[str, Any] = None) -> Any:
-        """
-        Sends a single query to the LLM and returns the raw response or JSON (if `guided_schema` is provided).
-        """
+    async def ask(self, user_prompt: str, guided_schema: Optional[Dict[str, Any]] = None) -> Optional[str]:
         self.messages.append({"role": "user", "content": user_prompt})
         params = {
             "model": self.model_name,
             "messages": self.messages,
-            "temperature": 0.5,
+            "temperature": 0.5
         }
-        if guided_schema is not None:
-            # e.g. pydantic style schema instructions
+        if guided_schema:
             params["extra_body"] = guided_schema
 
-        response = await self.client.chat.completions.create(**params)
-        content = response.choices[0].message.content
-        return content
+        try:
+            response = await self.client.chat.completions.create(**params)
+            return response.choices[0].message.content
+        except Exception as e:
+            logger.error("Error while calling LLM: %s", e)
+            return None
 
-#
-# A convenience function that runs the "baseline" query for one question.
-#
-async def process_single_query_baseline(
-    question_text: str,
-    choices: List[str]
-) -> Dict[str, Any]:
-
+async def process_single_query_baseline(note: str, problem: str) -> Optional[Dict[str, Any]]:
     system_prompt = "You are a medical question-answering system."
 
-    # 2) We use a pydantic model to “guide” the LLM to produce a structured response.
     class BaselineResponse(BaseModel):
-        reasoning: str = Field(..., description="Step-by-step reasoning leading to the final choice")
-        choice: Literal[tuple(choices)] = Field(..., description="Final choice")
-
-    # 3) Build the user prompt:
-    choices_str = ", ".join(choices)
+        reasoning: str = Field(..., description="Step-by-step reasoning leading to the final choice.")
+        choice: Literal["Yes", "No"] = Field(
+            ...,
+            description=f"Final choice indicating whether the patient has {problem}."
+        )
 
     user_prompt = (
-        "Here is the query:\n\n"
-        f"<Query>\n{question_text}\n</Query>\n\n"
-        f"The possible answers are: {choices_str}.\n"
-        f"First provide step-by-step reasoning (rationale), "
-        "and then clearly state your final answer.\n\n"
+        "Here are the Subjective (S) and Objective (O) parts of a SOAP note:\n\n"
+        f"<SOAP>\n{note}\n</SOAP>\n\n"
+        "Based on this information, does the patient have the following problem?\n\n"
+        f"<Problem>\n{problem}\n</Problem>\n\n"
+        "Please provide:\n"
+        "1. Your step-by-step reasoning.\n"
+        "2. Your choice: 'Yes' or 'No'."
     )
 
-    # 4) Initialize the baseline LLM agent
     agent = BaselineLLMAgent(system_prompt=system_prompt)
+    schema = {"guided_json": BaselineResponse.model_json_schema()}
+    raw_output = await agent.ask(user_prompt, guided_schema=schema)
 
-    # 5) Call the LLM once and parse JSON
-    raw_output = await agent.ask(
-        user_prompt,
-        guided_schema={"guided_json": BaselineResponse.model_json_schema()}
-    )
     parsed = safe_json_load(raw_output)
-    
-    # 6) If parsing fails or is not properly formatted, you can do fallback
-    if not isinstance(parsed, dict):
-        logger.warning("LLM response is not valid JSON or missing expected fields. Returning raw text.")
-        final_choice = "Unknown"
-        rationale = str(raw_output)
+    if parsed:
+        return {
+            "BaselineRationale": parsed["reasoning"],
+            "BaselineChoice": parsed["choice"]
+        }
     else:
-        final_choice = parsed["choice"]
-        rationale = parsed["reasoning"]
+        logger.error("Failed to parse the response as JSON: %s", raw_output)
+        return {"BaselineRationale": "Unknown", "BaselineChoice": "Unknown"}
 
-    # 7) Return a dictionary that you can compare to the multi-agent approach
-    return {
-        "BaselineRationale": rationale,
-        "BaselineChoice": final_choice
-    }
+async def process_multiple_queries_baseline(
+    data_entries: List[Dict[str, Any]],
+    concurrency: int = 10
+) -> List[Dict[str, Any]]:
+    sem = asyncio.Semaphore(concurrency)
 
+    async def process_with_semaphore(note_text: str, problem_text: str) -> Optional[Dict[str, Any]]:
+        async with sem:
+            return await process_single_query_baseline(note_text, problem_text)
+
+    tasks = []
+    processed_indices = []
+
+    for idx, entry in enumerate(data_entries):
+        # dict_keys(['note', 'hadm_id', 'problem', 'label', 'panel_1', 'final'])
+        logger.info("Processing item %d...", idx)
+        processed_indices.append(idx)
+        tasks.append(process_with_semaphore(entry["note"], entry["problem"]))
+
+    all_results = await asyncio.gather(*tasks)
+    
+    for idx, result in zip(processed_indices, all_results):
+        if result:
+            data_entries[idx].update(result)
+
+    return data_entries
+
+async def process_file_baseline(input_json: str, output_json: str) -> None:
+
+    logger.info(f"Loading file {input_json}")
+    with open(input_json, "r") as f:
+        data = json.load(f)
+
+    # Process
+    logger.info("Processing baseline queries for %d items.", len(data))
+    new_data = await process_multiple_queries_baseline(data, concurrency=10)
+
+    # Write partial results
+    with open(output_json, "w") as f:
+        json.dump(new_data, f, indent=2, ensure_ascii=False)
+    logger.info("Saved baseline results to %s.", output_json)
+
+    # Optionally re-run items with "Unknown" results
+    unknown_indices = [
+        i for i, entry in enumerate(new_data) 
+        if entry.get("BaselineChoice") == "Unknown"
+    ]
+    if unknown_indices:
+        logger.info("Found %d items with 'Unknown' results. Re-running those...", len(unknown_indices))
+
+        sem = asyncio.Semaphore(10)
+        async def process_unknown(idx: int) -> Optional[Dict[str, Any]]:
+            async with sem:
+                return await process_single_query_baseline(
+                    new_data[idx]["note"], new_data[idx]["problem"]
+                )
+
+        tasks = [process_unknown(i) for i in unknown_indices]
+        unknown_results = await asyncio.gather(*tasks)
+
+        for idx, result in zip(unknown_indices, unknown_results):
+            if result:
+                new_data[idx].update(result)
+
+        # Save again
+        with open(output_json, "w") as f:
+            json.dump(new_data, f, indent=2, ensure_ascii=False)
+        logger.info("Finished reprocessing 'Unknown' items for %s.", input_json)
 
 async def main():
-
-    sem = asyncio.Semaphore(10)
-    async def process_with_semaphore(question_text, choices):
-        async with sem:
-            return await process_single_query_baseline(question_text, choices)
-        
-
-    async def process_multiple_queries_baseline(
-        qa_data: List[Dict[str, Any]],
-        choices: List[str]
-    ) -> List[Dict[str, Any]]:
-        tasks = []
-
-        processed_idx = []
-        for idx, item in enumerate(qa_data):
-            if "Question" not in item:
-                logger.warning(f"Skipping item {idx} because it does not have a 'Question' field.")
-                continue
-
-            logger.info(f"Processing item {idx}...")
-            processed_idx.append(idx)
-            question_text = item["Question"]
-
-            tasks.append(process_with_semaphore(question_text, choices))
-        
-        all_results = await asyncio.gather(*tasks)
-
-        for idx, result in zip(processed_idx, all_results):
-            qa_data[idx].update(result)
-            
-        return qa_data
-
-
-    input_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/chf_final.json"
-    with open(input_json_path, "r") as f:
-        sample_data = json.load(f)
-    # sample_data = [
-    #     {"Question": "What is the best initial therapy for pneumonia?\nA) Antibiotics\nB) Surgery\nC) Radiation\nD) Physical therapy\nE) Do nothing", 
-    #      "ground_truth": "A"},
-    #     {"Question": "A patient with a headache might have:\nA) Migraine\nB) Stubbed toe\nC) Carpal tunnel\nD) Cirrhosis\nE) Diabetes",
-    #      "ground_truth": "A"},
-    # ]
-
-    # The multiple-choice labels might be the same for all or differ per question:
-    # choice_labels = ["A", "B", "C", "D", "E"]
-    choice_labels = ["Yes", "No"]
-
-
-    # #### TNM ####
-    # df = pd.read_csv('/secure/shared_data/rag_tnm_results/summary/5_folds_summary/brca_df.csv')
-
-    # data_lst = []
-    # for i, row in df.iterrows():
-    #     pathology_report = row["text"]
-    #     ground_truth = row["t"]
-    #     filename = row["patient_filename"]
-
-    #     question_text = f"""
-    #     Based on the following pathology report for a breast cancer patient, determine the pathologic T stage (T1, T2, T3, or T4) for breast cancer, according to the AJCC Cancer Staging Manual (7th edition). 
-    #     Choose from T1, T2, T3, T4.
-
-    #     {pathology_report}
-    #     """
-    #     data = {"Question": question_text, "Answer": ground_truth, "Filename": filename}
-    #     data_lst.append(data)
-
-    # #############
-    # sample_data = data_lst
-    # choice_labels = ["T1", "T2", "T3", "T4"]
-    # #############
-
-
-
-    new_data = await process_multiple_queries_baseline(sample_data, choice_labels)
-
-    output_json_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/chf_final_with_baseline.json"
-    with open(output_json_path, "w") as f:
-        json.dump(new_data, f, indent=2, ensure_ascii=False)
-    logger.info("Saving intermediate results to %s.", output_json_path)
-
-    unknown_indices = [i for i, entry in enumerate(new_data) if entry.get("BaselineChoice") == "Unknown"]
-    if unknown_indices:
-        logger.info(f"Found {len(unknown_indices)} items with 'Unknown' result. Re-running those...")
-        unknown_tasks = []
-        for idx in unknown_indices:
-            question_text = new_data[idx]["Question"]
-            unknown_tasks.append(process_with_semaphore(question_text, choice_labels))
-        unknown_results = await asyncio.gather(*unknown_tasks)
-
-        # 4) Overwrite the "Unknown" results with the new results
-        for idx, result in zip(unknown_indices, unknown_results):
-            new_data[idx].update(result)
-
-    with open(output_json_path, "w") as f:
-        json.dump(new_data, f, indent=2, ensure_ascii=False)
-    logger.info("Finished processing all items.")
-
-
-async def reprocess_failed_cases(file_path: str, missing_ids: list, choice_labels: list):
-    # Load the full dataset from the output JSON file.
-    with open(file_path, "r") as f:
-        full_data = json.load(f)
-
-    # Get the indices of items whose "File ID" is in the missing_ids list.
-    failed_indices = [
-        idx for idx, item in enumerate(full_data) 
-        if item.get("File ID") in missing_ids
+    # Input -> Output files
+    file_pairs = [
+        (
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_acute_kidney_injury.json",
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_acute_kidney_injury_baseline.json"
+        ),
+        (
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_sepsis.json",
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_sepsis_baseline.json"
+        ),
+        (
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_congestive_heart_failure.json",
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_congestive_heart_failure_baseline.json"
+        ),
     ]
-    logger.info("Found %d failed items.", len(failed_indices))
-    
-    # Set up an async semaphore to limit concurrency.
-    sem = asyncio.Semaphore(10)
-    async def process_with_semaphore(question_text, choices):
-        async with sem:
-            return await process_single_query_baseline(question_text, choices)
-    
-    # Create tasks for the failed items.
+
     tasks = []
-    for idx in failed_indices:
-        question_text = full_data[idx]["Question"]
-        tasks.append(process_with_semaphore(question_text, choice_labels))
-    
-    # Run the tasks asynchronously.
-    results = await asyncio.gather(*tasks)
-    
-    # Update the full dataset with the new results for failed items.
-    for idx, result in zip(failed_indices, results):
-        full_data[idx].update(result)
-    
-    # Write the updated data back to the JSON file.
-    with open(file_path, "w") as f:
-        json.dump(full_data, f, indent=2, ensure_ascii=False)
-    logger.info("Re-run for failed cases complete. Updated file saved at %s", file_path)
+    for (input_json_path, output_json_path) in file_pairs:
+        tasks.append(asyncio.create_task(process_file_baseline(input_json_path, output_json_path)))
 
-
+    await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
-
     logging.basicConfig(
-        level=logging.DEBUG,
+        level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
-            handlers=[
-            logging.FileHandler('log/0327_Baseline_SOAP_chf_async.log', mode='a'),  # Write to file
-            logging.StreamHandler()                     # Print to console
+        handlers=[
+            logging.FileHandler('log/0408_baseline_parallel_run.log', mode='a'),
+            logging.StreamHandler()
         ]
     )
-
     asyncio.run(main())
-
-    # # Example usage of reprocess_failed_cases
-    # file_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/pancr_final_with_baseline.json"
-    # missing_ids = ['111312.txt', '171971.txt']  # Your list of failed File IDs.
-    # choice_labels = ["Yes", "No"]
-    
-    # asyncio.run(reprocess_failed_cases(file_path, missing_ids, choice_labels))

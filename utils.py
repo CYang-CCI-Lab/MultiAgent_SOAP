@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer
 import json
 import logging
+from typing import Any
 
 logger = logging.getLogger(__name__)
 def safe_json_load(s: str) -> any:
@@ -82,28 +83,20 @@ def safe_json_load(s: str) -> any:
 model_path = "/secure_net/hf_model_cache"
 llama_tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.3-70B-Instruct", trust_remote_code=True, cache_dir=model_path)
 
-def count_llama_tokens(messages: list[dict], tokenizer=llama_tokenizer) -> int:
-    """
-    Roughly estimate the total number of tokens in 'messages' 
-    when using a LLaMA-based tokenizer from Hugging Face.
+def count_llama_tokens(messages: Any, tokenizer=llama_tokenizer) -> int:
+    tokens = tokenizer.encode(str(messages), add_special_tokens=False)
+    return len(tokens)
+
+# def count_llama_tokens(messages: list[dict], tokenizer=llama_tokenizer) -> int:
+#     total_tokens = 0
+#     for msg in messages:
+#         role = msg.get("role", "")
+#         content = msg.get("content", "")
+#         text_for_tokenization = f"{role}: {content}"
+#         tokens = tokenizer.encode(text_for_tokenization, add_special_tokens=False)
+#         total_tokens += len(tokens)
     
-    messages is a list of dicts with the format:
-    [
-      {"role": "system", "content": "..."},
-      {"role": "user", "content": "..."},
-      {"role": "assistant", "content": "..."},
-      ...
-    ]
-    """
-    total_tokens = 0
-    for msg in messages:
-        role = msg.get("role", "")
-        content = msg.get("content", "")
-        text_for_tokenization = f"{role}: {content}"
-        tokens = tokenizer.encode(text_for_tokenization, add_special_tokens=False)
-        total_tokens += len(tokens)
-    
-    return total_tokens
+#     return total_tokens
 
 if __name__ == "__main__":
     # Example usage

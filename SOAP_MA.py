@@ -8,8 +8,18 @@ import json
 import logging
 import pandas as pd
 from pydantic import BaseModel, Field, create_model
+import torch
+from dotenv import load_dotenv, find_dotenv
+from transformers import AutoTokenizer, AutoModel
+from langchain_community.retrievers import BM25Retriever
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.docstore.document import Document
+import chromadb
+from chromadb.config import Settings
 import math
 from utils import safe_json_load, count_llama_tokens
+from rag_retrieve import create_documents, hybrid_query
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -182,7 +192,8 @@ class Manager(LLMAgent):
             "note": note, 
             "hadm_id": hadm_id, 
             "problem": problem, 
-            "label": label
+            "label": label,
+            "cached_messages": [],
         }
         self.n_specialists = n_specialists
         self.consensus_threshold = consensus_threshold
@@ -200,6 +211,10 @@ class Manager(LLMAgent):
         self.assignment_attempts += 1
         logger.info(f"Starting assignment attempt #{self.assignment_attempts}.")
         self.status_dict[f"panel_{self.assignment_attempts}"] = {}
+
+        if self.assignment_attempts > 1:
+            self._cache_and_clear_memory()
+            logger.info(f"Cleared memory and cached messages for the previous assignment attempt.")
 
         if self.n_specialists == "auto":
             user_prompt = (
@@ -320,11 +335,13 @@ class Manager(LLMAgent):
         return None
     
     async def _aggregate(self):
-        specialists_chat_history = dict(self.status_dict)
-        for field_to_remove in ["label", "hadm_id", "problem"]:
+        specialists_chat_history = self.status_dict.copy()
+        for field_to_remove in ["label", "hadm_id", "problem", "cached_messages"]:
             specialists_chat_history.pop(field_to_remove, None)
 
         specialists_str = json.dumps(specialists_chat_history, indent=4)
+ 
+        logger.info(f"Token count for specialists' chat history: {count_llama_tokens(specialists_str)}")
 
         user_prompt = (
             "No consensus has been reached among the specialists.\n"
@@ -346,12 +363,17 @@ class Manager(LLMAgent):
             )
         
         response = await self.llm_call(user_prompt, guided_={"guided_json": AggregatedResponse.model_json_schema()})
-
-        data = safe_json_load(response)
-        if not data:
-            logger.error(f"Failed to parse aggregated response: {response}")
-            return None
+        try:
+            data = safe_json_load(response)
+        except Exception as e:
+            logger.error(f"Failed to parse aggregator response: {e}")
+            data = {}
         return data
+    
+    def _cache_and_clear_memory(self):
+        self.status_dict["cached_messages"].extend(self.messages.copy())
+        self.messages = [self.messages[0]]  # Keep only the system message
+        logger.info(f"[{self.__class__.__name__}] Cached messages and cleared memory. Current token length: {count_llama_tokens(self.messages)}")  # <-- Logging memory size
     
     async def run(self):
         while self.assignment_attempts < self.max_assignment_attempts:
@@ -505,6 +527,132 @@ class DynamicSpecialist(LLMAgent):
             logger.error(f"[{self.specialist}] Failed to parse debate response: {response}")
             return None
 
+
+class CaseBasedAgent(LLMAgent):
+    def __init__(self, status_dict: dict):
+        self.status_dict = status_dict
+        system_prompt = (
+            "You are a Case-based RAG specialist. "
+            "Your role is to compare the current patient's note against a large collection of clinical notes,\n"
+            "retrieve similar cases and their discharge diagnoses, and then infer whether the patient likely\n"
+            "has the specified problem. Provide a final choice ('Yes' or 'No') and your reasoning."
+        )
+        super().__init__(system_prompt)
+
+        os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
+        os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            "nvidia/NV-Embed-v2",
+            trust_remote_code=True,
+            cache_dir="/secure/shared_data/rag_embedding_model"
+        )
+        self.embedding_model = AutoModel.from_pretrained(
+            "nvidia/NV-Embed-v2",
+            trust_remote_code=True,
+            cache_dir="/secure/shared_data/rag_embedding_model",
+            device_map="auto"
+        )
+
+        with open("/secure/shared_data/SOAP/MIMIC/cases_base.json", "r") as f:
+            self.cases = json.load(f)
+        self.docs = create_documents(self.cases, self.tokenizer, max_length=512) # Text chunking
+
+        self.db_client = chromadb.PersistentClient(
+            path="/secure/shared_data/rag_embedding_model/chroma_db",
+            settings=Settings(allow_reset=True)
+        )
+
+        logger.info("[CaseBasedAgent] Initialized.")
+
+    def _retrieve_cases(self, query_note: str, collection_name: str = "mimic_notes_full"):
+        collection = self.db_client.get_collection(name=collection_name, metadata={"hnsw:space": "cosine"})
+        query_prefix = (
+        "Given the following clinical note, retrieve the most similar clinical case. "
+        "The clinical note is:\n\n"
+        )
+        retrieved = hybrid_query(
+            cases=self.cases,
+            docs=self.docs,
+            collection=collection,
+            embedding_model=self.embedding_model,
+            query_text=query_note,
+            query_prefix=query_prefix,
+            max_length=512,
+            semantic_k=5,
+            bm25_k=5,
+            bm25_weight=0.5
+        )
+        
+        return retrieved
+
+    async def analyze_note(self, note: str, problem: str):
+  
+        retrieved_cases = self._retrieve_cases(note)
+
+        retrieved_text = ""
+        for i, case in enumerate(retrieved_cases, start=1):
+            case_str = (
+                f"<<<START RETRIEVED CASE #{i}>>>\n"
+                f"Excerpt: {case['text']}\n"
+                f"Discharge Diagnosis: {case['diagnosis']}\n"
+                f"Similarity Score: {case['score']}\n"
+                f"<<<END RETRIEVED CASE #{i}>>>\n\n"
+            )
+            if count_llama_tokens(note + retrieved_text + case_str) < 18000:  # Adjust the token limit as needed
+                retrieved_text += case_str
+            else:
+                logger.warning("[CaseBasedAgent] Retrieved text exceeds token limit, truncating.")
+                break
+
+        # 3. Build the prompt to the LLM 
+        user_prompt = (
+            "Please read the following patient note:\n\n"
+            "<<<START NOTE>>>\n"
+            f"{note}\n"
+            "<<<END NOTE>>>\n\n"
+            "We compared this note against a large knowledge base of clinical notes.\n"
+            "Here are some retrieved examples:\n\n"
+            "<<<START RETRIEVED EXCERPTS>>>\n"
+            f"{retrieved_text}"
+            "<<<END RETRIEVED EXCERPTS>>>\n\n"
+            "Now, you must decide if the patient likely has the following problem:\n\n"
+            f"<<<PROBLEM>>>\n{problem}\n<<<END PROBLEM>>>\n\n"
+            "### Your Task ###\n"
+            "1) Summarize any relevant similarities and differences between the retrieved cases and the current note.\n"
+            "2) Provide your reasoning for the final choice.\n"
+            "3) Provide your final choice ('Yes' or 'No') and a short explanation.\n"
+        )
+
+        # 4. We can again define a Pydantic schema for the guided JSON output
+        class Response(BaseModel):
+            summary: str = Field(..., description="Summary of similarities and differences.")
+            reasoning: str = Field(..., description="Step-by-step reasoning leading to the final choice.")
+            choice: Literal["Yes", "No"] = Field(..., description=f"Final choice indicating whether the patient has {problem}.")
+
+        guided_schema = Response.model_json_schema()
+
+        try:
+            response = await self.llm_call(
+                user_prompt, 
+                guided_={"guided_json": guided_schema}
+            )
+        except Exception as e:
+            logger.error(f"[CaseBasedAgent] analyze_note() LLM call failed: {e}")
+            return None
+
+        self.append_message(content=response)
+        # 6. Parse and store the result
+        parsed_response = safe_json_load(response)
+        if parsed_response:
+            summary = parsed_response.get("summary", "")
+            reasoning = parsed_response.get("reasoning", "")
+            choice = parsed_response.get("choice", "Error in choice.")
+            self.status_dict.update({"CaseBasedAgent": {"retrieved cases": retrieved_text, "summary": summary, "reasoning": reasoning, "choice": choice}})
+        # Return it in a format consistent with other specialists
+        return parsed_response
+
+
 async def process_problem(df: pd.DataFrame, problem: str):
     """
     Runs the Manager workflow for every row in `df`, using the specified `problem`.
@@ -525,7 +673,7 @@ async def process_problem(df: pd.DataFrame, problem: str):
             hadm_id=hadm_id,
             problem=problem,
             label=label,
-            n_specialists="auto",  # or an integer
+            n_specialists=5,  # or an integer
             consensus_threshold=0.8,
             max_consensus_attempts=3,
             max_assignment_attempts=2,
@@ -538,7 +686,7 @@ async def process_problem(df: pd.DataFrame, problem: str):
         results.append(result)
 
     # Save results for this problem
-    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_{problem.replace(' ', '_')}_new_temp.json"
+    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_temp_ma3_3problems_static5/3_problems_{problem.replace(' ', '_')}_new_temp.json"
     with open(output_path, "w") as f:
         json.dump(results, f, indent=4)
     logger.info(f"[{problem}] Results saved to: {output_path}")
@@ -556,45 +704,8 @@ async def main():
     # Run them concurrently
     await asyncio.gather(*tasks)
 
-# async def main():
-#     df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_3_problems.csv"
-#     df = pd.read_csv(df_path, lineterminator='\n')
-#     logger.info("Loaded dataframe with %d rows.", len(df))
+    logger.info("All tasks completed.")
 
-#     results = []
-#     for idx, row in df.iterrows():
-#         logger.info(f"Processing row index {idx}")
-
-#         note_text = str(row["Subjective"]) + "\n" + str(row['Objective'])
-#         hadm_id = row["File ID"]
-#         problem = "sepsis"
-#         label = row["combined_summary"]
-
-#         manager = Manager(
-#             note=note_text,
-#             hadm_id=hadm_id,
-#             problem=problem,
-#             label=label,
-#             n_specialists="auto",            # or "auto"
-#             consensus_threshold=0.8,
-#             max_consensus_attempts=3,
-#             max_assignment_attempts=2,
-#             static_specialists=None,    
-#             summarizer=None
-#         )
-
-
-#         # Run the manager's workflow
-#         result = await manager.run()
-#         print("Final Manager Result:")
-#         print(result)
-#         results.append(result)
-    
-#     # Save results to a JSON file
-#     output_path = "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems.json"
-#     with open(output_path, "w") as f:
-#         json.dump(results, f, indent=4)
-#     logger.info("Results saved to %s", output_path)
 
 if __name__ == "__main__":
     logging.basicConfig(
@@ -602,7 +713,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0409_MA_3_probs_parallel.log', mode='w'), # Save to file
+            logging.FileHandler('log/0410_MA_3_probs_parallel_static.log', mode='w'), # Save to file
             logging.StreamHandler()  # Print to console
         ]
     )

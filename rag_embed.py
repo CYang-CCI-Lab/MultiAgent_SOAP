@@ -1,7 +1,7 @@
 import os
 import json
+import pickle
 import logging
-import asyncio
 
 import torch
 from tqdm import tqdm
@@ -33,8 +33,9 @@ def setup_environment() -> None:
     if not load_dotenv(env_path):
         raise Exception("Failed to load .env file")
 
+    # Adjust GPU environment as needed
     os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,4,5"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
     logger.info("Environment setup complete.")
 
 # --------------------
@@ -50,7 +51,7 @@ def load_cases(json_path: str) -> Dict[str, Any]:
     return cases
 
 # --------------------
-# Text Splitting
+# Text Splitting (Chunking)
 # --------------------
 def create_documents(
     cases: Dict[str, Any],
@@ -85,7 +86,7 @@ def create_documents(
                 "diagnosis": data["after_diagnosis"]
             }]
         )
-        # Deduplicate based on text content.
+        # Deduplicate documents based on text content
         for d in docs:
             if d.page_content not in unique_texts:
                 unique_texts.add(d.page_content)
@@ -95,40 +96,21 @@ def create_documents(
     return all_docs
 
 # --------------------
-# Offline Documents Save / Load Helpers
+# Embedding in Chroma with Checkpointing (Batched Saving)
 # --------------------
-def save_documents(docs: List[Document], file_path: str) -> None:
-    """
-    Saves the list of Documents to a JSON file.
-    Each document is saved as a dict with keys: 'page_content' and 'metadata'.
-    """
-    docs_list = [{"page_content": doc.page_content, "metadata": doc.metadata} for doc in docs]
-    with open(file_path, "w") as f:
-        json.dump(docs_list, f)
-    logger.info(f"Saved {len(docs_list)} documents to {file_path}.")
-
-
-def load_documents(file_path: str) -> List[Document]:
-    """
-    Loads a list of Documents saved as JSON (produced by save_documents).
-    """
-    with open(file_path, "r") as f:
-        docs_list = json.load(f)
-    logger.info(f"Loaded {len(docs_list)} documents from {file_path}.")
-    return [Document(page_content=d["page_content"], metadata=d["metadata"]) for d in docs_list]
-
-# --------------------
-# Async Embedding in Chroma
-# --------------------
-async def embed_docs_in_chroma(
+def embed_docs_in_chroma(
     docs: List[Document],
     embedding_model,
     collection,
     max_length: int = 512,
     checkpoint_file: str = "checkpoint_progress.json",
-    checkpoint_batch_size: int = 10,
-    concurrency: int = 5  # adjust as needed
+    checkpoint_batch_size: int = 10
 ) -> None:
+    """
+    Embeds documents into the Chroma collection with checkpointing.
+    It saves progress to a checkpoint file every `checkpoint_batch_size` documents.
+    """
+    # Load checkpoint if it exists
     if os.path.exists(checkpoint_file):
         with open(checkpoint_file, "r") as f:
             completed_docs = set(json.load(f))
@@ -136,65 +118,61 @@ async def embed_docs_in_chroma(
     else:
         completed_docs = set()
 
-    semaphore = asyncio.Semaphore(concurrency)
+    batch_counter = 0  # Counts docs processed since last save
     pbar = tqdm(total=len(docs), desc="Embedding Documents")
+    for doc in docs:
+        doc_text = doc.page_content
+        doc_meta = doc.metadata
+        doc_id = f"{doc_meta['hadm_id']}_{doc_meta['start_index']}"
 
-    async def process_doc(doc: Document):
-        async with semaphore:
-            doc_text = doc.page_content
-            doc_meta = doc.metadata
-            doc_id = f"{doc_meta['hadm_id']}_{doc_meta['start_index']}"
-            
-            if doc_id in completed_docs:
-                pbar.update(1)
-                return doc_id
+        if doc_id in completed_docs:
+            pbar.update(1)
+            continue
 
-            logger.info(f"Embedding doc_id={doc_id}...")
-            # Run encoding in a separate thread to avoid blocking the event loop.
-            embeddings = await asyncio.to_thread(
-                embedding_model.encode,
+        logger.info(f"Embedding doc_id={doc_id}...")
+        with torch.no_grad():
+            embeddings = embedding_model.encode(
                 [doc_text],
                 instruction="",
                 max_length=max_length
             )
             embeddings = embeddings.cpu().numpy().tolist()
 
-            collection.add(
-                embeddings=embeddings,
-                documents=[doc_text],
-                metadatas=[doc_meta],
-                ids=[doc_id],
-            )
+        collection.add(
+            embeddings=embeddings,
+            documents=[doc_text],
+            metadatas=[doc_meta],
+            ids=[doc_id],
+        )
 
-            torch.cuda.empty_cache()
-            pbar.update(1)
-            return doc_id
+        completed_docs.add(doc_id)
+        batch_counter += 1
 
-    tasks = [asyncio.create_task(process_doc(doc)) for doc in docs]
-    processed_count = 0
+        # Save checkpoint after processing a batch
+        if batch_counter >= checkpoint_batch_size:
+            with open(checkpoint_file, "w") as f:
+                json.dump(list(completed_docs), f)
+            logger.info(f"Checkpoint saved with {len(completed_docs)} docs processed.")
+            batch_counter = 0
 
-    for future in asyncio.as_completed(tasks):
-        doc_id = await future
-        if doc_id not in completed_docs:
-            completed_docs.add(doc_id)
-            processed_count += 1
-            if processed_count % checkpoint_batch_size == 0:
-                with open(checkpoint_file, "w") as f:
-                    json.dump(list(completed_docs), f)
-                logger.info(f"Checkpoint saved with {len(completed_docs)} documents processed.")
+        pbar.update(1)
+        torch.cuda.empty_cache()
 
-    # Final checkpoint save.
-    with open(checkpoint_file, "w") as f:
-        json.dump(list(completed_docs), f)
-    logger.info(f"Final checkpoint saved with {len(completed_docs)} documents processed.")
+    # Save any remaining progress
+    if batch_counter > 0:
+        with open(checkpoint_file, "w") as f:
+            json.dump(list(completed_docs), f)
+        logger.info(f"Final checkpoint saved with {len(completed_docs)} docs processed.")
+
     pbar.close()
     logger.info("All documents embedded and added to Chroma.")
 
 # --------------------
-# Main Async Embedding Flow
+# Main Embedding Flow
 # --------------------
-async def async_main():
+def main():
     os.makedirs("log", exist_ok=True)
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
@@ -207,30 +185,32 @@ async def async_main():
 
     setup_environment()
 
-    # 1) Paths and file locations.
+    # 1) Paths and Model Settings
     json_path = "/secure/shared_data/SOAP/MIMIC/full_cases_base.json"
     chroma_db_path = "/secure/shared_data/rag_embedding_model/chroma_db"
     model_cache_dir = "/secure/shared_data/rag_embedding_model"
     model_name = "nvidia/NV-Embed-v2"
-    docs_file = "docs_processed.json"  # File to store pre-processed documents
 
     # 2) Load Cases
     cases = load_cases(json_path)
 
-    # 3) Load or Create Documents (offline pre-processing)
+    # 3) Create Documents (Chunking)
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
         trust_remote_code=True,
         cache_dir=model_cache_dir
     )
-    if os.path.exists(docs_file):
-        logger.info("Loading pre-processed documents from file...")
-        docs_processed = load_documents(docs_file)
+    # Check if chunked documents have already been saved
+    chunked_doc_file = "chunked_documents.pkl"
+    if os.path.exists(chunked_doc_file):
+        with open(chunked_doc_file, "rb") as f:
+            docs_processed = pickle.load(f)
+        logger.info(f"Loaded pre-chunked documents from {chunked_doc_file}")
     else:
-        logger.info("Processing documents (this may take time)...")
         docs_processed = create_documents(cases, tokenizer, max_length=512)
-        logger.info("Saving processed documents to file for future runs...")
-        save_documents(docs_processed, docs_file)
+        with open(chunked_doc_file, "wb") as f:
+            pickle.dump(docs_processed, f)
+        logger.info(f"Created and saved {len(docs_processed)} chunked documents to {chunked_doc_file}")
 
     # 4) Connect to Chroma
     client = chromadb.PersistentClient(
@@ -242,21 +222,17 @@ async def async_main():
         metadata={"hnsw:space": "cosine"}
     )
 
-    # 5) Load Embedding Model & Embed Documents
+    # 5) Load Embedding Model & Embed Docs
     embedding_model = AutoModel.from_pretrained(
         model_name,
         trust_remote_code=True,
         cache_dir=model_cache_dir,
         device_map="auto"
     )
-    await embed_docs_in_chroma(
-        docs_processed,
-        embedding_model,
-        mimic_collection,
-        max_length=512
-    )
+    embed_docs_in_chroma(docs_processed, embedding_model, mimic_collection, max_length=512)
 
     logger.info("Embedding script completed successfully.")
 
+
 if __name__ == "__main__":
-    asyncio.run(async_main())
+    main()

@@ -1,183 +1,232 @@
-import asyncio
+import os
 import json
 import logging
-from typing import List, Dict, Any, Literal, Optional
-import pandas as pd
-from pydantic import BaseModel, Field
-from openai import AsyncOpenAI
-from utils import safe_json_load
+import asyncio
 
+import torch
+from tqdm import tqdm
+from dotenv import load_dotenv, find_dotenv
+from transformers import AutoTokenizer, AutoModel
+
+from typing import List, Dict, Any
+
+from langchain.docstore.document import Document
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+import chromadb
+from chromadb.config import Settings
+
+# ------------------
+# Logging Setup
+# ------------------
 logger = logging.getLogger(__name__)
 
-# Reuse BaselineLLMAgent class
-class BaselineLLMAgent:
-    def __init__(
-        self,
-        system_prompt: str,
-        client=AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
-        model_name: str = "meta-llama/Llama-3.3-70B-Instruct"
-    ):
-        self.client = client
-        self.model_name = model_name
-        self.messages = [{"role": "system", "content": system_prompt}]
+# ------------------
+# Environment Setup
+# ------------------
+def setup_environment() -> None:
+    """
+    Loads environment variables and configures CUDA usage.
+    """
+    env_path = find_dotenv()
+    if not env_path:
+        env_path = "/home/yl3427/.env"  # fallback path
+    if not load_dotenv(env_path):
+        raise Exception("Failed to load .env file")
 
-    async def ask(self, user_prompt: str, guided_schema: Optional[Dict[str, Any]] = None) -> Optional[str]:
-        self.messages.append({"role": "user", "content": user_prompt})
-        params = {
-            "model": self.model_name,
-            "messages": self.messages,
-            "temperature": 0.5
-        }
-        if guided_schema:
-            params["extra_body"] = guided_schema
+    os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
+    os.environ["CUDA_VISIBLE_DEVICES"] = "2,3,4,5"
+    logger.info("Environment setup complete.")
 
-        try:
-            response = await self.client.chat.completions.create(**params)
-            return response.choices[0].message.content
-        except Exception as e:
-            logger.error("Error while calling LLM: %s", e)
-            return None
+# --------------------
+# Data Loading
+# --------------------
+def load_cases(json_path: str) -> Dict[str, Any]:
+    """
+    Loads case data from a JSON file, returning {hadm_id: {before_diagnosis, after_diagnosis}}
+    """
+    with open(json_path, "r") as f:
+        cases = json.load(f)
+    logger.info(f"Loaded {len(cases)} cases from {json_path}")
+    return cases
 
-# Reuse process_single_query_baseline
-async def process_single_query_baseline(note: str, problem: str) -> Optional[Dict[str, Any]]:
-    system_prompt = "You are a medical question-answering system."
-
-    class BaselineResponse(BaseModel):
-        reasoning: str = Field(..., description="Step-by-step reasoning leading to the final choice.")
-        choice: Literal["Yes", "No"] = Field(
-            ...,
-            description=f"Final choice indicating whether the patient has {problem}."
-        )
-
-    user_prompt = (
-        "Here are the Subjective (S) and Objective (O) parts of a SOAP note:\n\n"
-        f"<SOAP>\n{note}\n</SOAP>\n\n"
-        "Based on this information, does the patient have the following problem?\n\n"
-        f"<Problem>\n{problem}\n</Problem>\n\n"
-        "Please provide:\n"
-        "1. Your step-by-step reasoning.\n"
-        "2. Your choice: 'Yes' or 'No'."
+# --------------------
+# Text Splitting
+# --------------------
+def create_documents(
+    cases: Dict[str, Any],
+    tokenizer,
+    max_length: int = 512
+) -> List[Document]:
+    """
+    Splits clinical text into smaller chunks using a tokenizer-based splitter.
+    """
+    text_splitter = RecursiveCharacterTextSplitter.from_huggingface_tokenizer(
+        separators=[
+            "\n\n", "\n", r'(?<=[.?"\s])\s+', " ", ".", ","
+        ],
+        tokenizer=tokenizer,
+        chunk_size=max_length,
+        chunk_overlap=20,
+        add_start_index=True,
+        strip_whitespace=True,
+        is_separator_regex=True
     )
 
-    agent = BaselineLLMAgent(system_prompt=system_prompt)
-    schema = {"guided_json": BaselineResponse.model_json_schema()}
-    raw_output = await agent.ask(user_prompt, guided_schema=schema)
+    all_docs = []
+    unique_texts = set()
 
-    parsed = safe_json_load(raw_output)
-    if parsed:
-        return {
-            "BaselineRationale": parsed["reasoning"],
-            "BaselineChoice": parsed["choice"]
-        }
+    for hadm_id, data in cases.items():
+        full_text = data["before_diagnosis"]
+        docs = text_splitter.create_documents(
+            texts=[full_text],
+            metadatas=[{
+                "hadm_id": hadm_id,
+                "full_text": full_text,
+                "diagnosis": data["after_diagnosis"]
+            }]
+        )
+        # Deduplicate
+        for d in docs:
+            if d.page_content not in unique_texts:
+                unique_texts.add(d.page_content)
+                all_docs.append(d)
+
+    logger.info(f"Created {len(all_docs)} total chunks (docs) from the original cases.")
+    return all_docs
+
+# --------------------
+# Async Embedding in Chroma
+# --------------------
+async def embed_docs_in_chroma(
+    docs: List[Document],
+    embedding_model,
+    collection,
+    max_length: int = 512,
+    checkpoint_file: str = "checkpoint_progress.json",
+    checkpoint_batch_size: int = 10,
+    concurrency: int = 5  # limit for concurrent tasks; adjust as needed
+) -> None:
+    if os.path.exists(checkpoint_file):
+        with open(checkpoint_file, "r") as f:
+            completed_docs = set(json.load(f))
+        logger.info(f"Resuming from checkpoint. {len(completed_docs)} docs already processed.")
     else:
-        logger.error("Failed to parse the response as JSON: %s", raw_output)
-        return {"BaselineRationale": "Unknown", "BaselineChoice": "Unknown"}
+        completed_docs = set()
 
-# Reuse process_multiple_queries_baseline
-async def process_multiple_queries_baseline(
-    data_entries: List[Dict[str, Any]],
-    concurrency: int = 10
-) -> List[Dict[str, Any]]:
-    sem = asyncio.Semaphore(concurrency)
+    semaphore = asyncio.Semaphore(concurrency)
+    pbar = tqdm(total=len(docs), desc="Embedding Documents")
 
-    async def process_with_semaphore(note_text: str, problem_text: str) -> Optional[Dict[str, Any]]:
-        async with sem:
-            return await process_single_query_baseline(note_text, problem_text)
+    async def process_doc(doc: Document):
+        async with semaphore:
+            doc_text = doc.page_content
+            doc_meta = doc.metadata
+            doc_id = f"{doc_meta['hadm_id']}_{doc_meta['start_index']}"
+            
+            if doc_id in completed_docs:
+                pbar.update(1)
+                return doc_id
 
-    tasks = []
-    processed_indices = []
+            logger.info(f"Embedding doc_id={doc_id}...")
+            # Run encoding in a separate thread to avoid blocking the event loop.
+            embeddings = await asyncio.to_thread(
+                embedding_model.encode,
+                [doc_text],
+                instruction="",
+                max_length=max_length
+            )
+            embeddings = embeddings.cpu().numpy().tolist()
 
-    for idx, entry in enumerate(data_entries):
-        # dict_keys(['note', 'hadm_id', 'problem', 'label', 'panel_1', 'final'])
-        logger.info("Processing item %d...", idx)
-        processed_indices.append(idx)
-        tasks.append(process_with_semaphore(entry["note"], entry["problem"]))
+            collection.add(
+                embeddings=embeddings,
+                documents=[doc_text],
+                metadatas=[doc_meta],
+                ids=[doc_id],
+            )
 
-    all_results = await asyncio.gather(*tasks)
-    
-    for idx, result in zip(processed_indices, all_results):
-        if result:
-            data_entries[idx].update(result)
+            torch.cuda.empty_cache()
+            pbar.update(1)
+            return doc_id
 
-    return data_entries
+    tasks = [asyncio.create_task(process_doc(doc)) for doc in docs]
+    processed_count = 0
 
-# 1) Our new function that processes a single JSON file
-async def process_file_baseline(input_json: str, output_json: str) -> None:
-    # Load input data
-    logger.info(f"Loading file {input_json}")
-    with open(input_json, "r") as f:
-        data = json.load(f)
+    for future in asyncio.as_completed(tasks):
+        doc_id = await future
+        if doc_id not in completed_docs:
+            completed_docs.add(doc_id)
+            processed_count += 1
+            if processed_count % checkpoint_batch_size == 0:
+                with open(checkpoint_file, "w") as f:
+                    json.dump(list(completed_docs), f)
+                logger.info(f"Checkpoint saved with {len(completed_docs)} documents processed.")
 
-    # Process
-    logger.info("Processing baseline queries for %d items.", len(data))
-    new_data = await process_multiple_queries_baseline(data, concurrency=10)
+    # Final checkpoint save.
+    with open(checkpoint_file, "w") as f:
+        json.dump(list(completed_docs), f)
+    logger.info(f"Final checkpoint saved with {len(completed_docs)} documents processed.")
+    pbar.close()
+    logger.info("All documents embedded and added to Chroma.")
 
-    # Write partial results
-    with open(output_json, "w") as f:
-        json.dump(new_data, f, indent=2, ensure_ascii=False)
-    logger.info("Saved baseline results to %s.", output_json)
-
-    # Optionally re-run items with "Unknown" results
-    unknown_indices = [
-        i for i, entry in enumerate(new_data) 
-        if entry.get("BaselineChoice") == "Unknown"
-    ]
-    if unknown_indices:
-        logger.info("Found %d items with 'Unknown' results. Re-running those...", len(unknown_indices))
-
-        sem = asyncio.Semaphore(10)
-        async def process_unknown(idx: int) -> Optional[Dict[str, Any]]:
-            async with sem:
-                return await process_single_query_baseline(
-                    new_data[idx]["note"], new_data[idx]["problem"]
-                )
-
-        tasks = [process_unknown(i) for i in unknown_indices]
-        unknown_results = await asyncio.gather(*tasks)
-
-        for idx, result in zip(unknown_indices, unknown_results):
-            if result:
-                new_data[idx].update(result)
-
-        # Save again
-        with open(output_json, "w") as f:
-            json.dump(new_data, f, indent=2, ensure_ascii=False)
-        logger.info("Finished reprocessing 'Unknown' items for %s.", input_json)
-
-# 2) main() that runs the baseline for multiple files in parallel
-async def main():
-    # Input -> Output files
-    file_pairs = [
-        (
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_acute_kidney_injury.json",
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_acute_kidney_injury_baseline.json"
-        ),
-        (
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_sepsis.json",
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_sepsis_baseline.json"
-        ),
-        (
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_congestive_heart_failure.json",
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_congestive_heart_failure_baseline.json"
-        ),
-    ]
-
-    # Create tasks for each input-output pair
-    tasks = []
-    for (input_json_path, output_json_path) in file_pairs:
-        tasks.append(asyncio.create_task(process_file_baseline(input_json_path, output_json_path)))
-
-    # Run all tasks concurrently
-    await asyncio.gather(*tasks)
-
-if __name__ == "__main__":
+# --------------------
+# Main Async Embedding Flow
+# --------------------
+async def async_main():
+    os.makedirs("log", exist_ok=True)
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0408_baseline_parallel_run.log', mode='a'),
+            logging.FileHandler('log/0412_rag_embed', mode='w'),
             logging.StreamHandler()
         ]
     )
-    asyncio.run(main())
+
+    setup_environment()
+
+    # 1) Paths
+    json_path = "/secure/shared_data/SOAP/MIMIC/full_cases_base.json"
+    chroma_db_path = "/secure/shared_data/rag_embedding_model/chroma_db"
+    model_cache_dir = "/secure/shared_data/rag_embedding_model"
+    model_name = "nvidia/NV-Embed-v2"
+
+    # 2) Load Cases
+    cases = load_cases(json_path)
+
+    # 3) Create Documents
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name,
+        trust_remote_code=True,
+        cache_dir=model_cache_dir
+    )
+    docs_processed = create_documents(cases, tokenizer, max_length=512)
+    # docs_processed = docs_processed[:10]  # Uncomment for testing with a limited set
+
+    # 4) Connect to Chroma
+    client = chromadb.PersistentClient(
+        path=chroma_db_path,
+        settings=Settings(allow_reset=True)
+    )
+    mimic_collection = client.get_or_create_collection(
+        name="mimic_notes_full",
+        metadata={"hnsw:space": "cosine"}
+    )
+
+    # 5) Load Embedding Model & Embed Docs
+    embedding_model = AutoModel.from_pretrained(
+        model_name,
+        trust_remote_code=True,
+        cache_dir=model_cache_dir,
+        device_map="auto"
+    )
+    await embed_docs_in_chroma(
+        docs_processed,
+        embedding_model,
+        mimic_collection,
+        max_length=512
+    )
+
+    logger.info("Embedding script completed successfully.")
+
+if __name__ == "__main__":
+    asyncio.run(async_main())

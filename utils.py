@@ -5,22 +5,10 @@ from typing import Any
 
 logger = logging.getLogger(__name__)
 def safe_json_load(s: str) -> any:
-    """
-    Attempts to parse a JSON string using multiple parsers.
-    Order:
-    1. json.loads (strict)
-    2. demjson3.decode (tolerant)
-    3. json5.loads (allows single quotes, unquoted keys, etc.)
-    4. dirtyjson.loads (for messy JSON)
-    5. jsom (if available)
-    6. json_repair (attempt to repair the JSON and parse it)
-    
-    If all attempts fail, returns None.
-    """
     # 1. Try standard JSON
     try:
         return json.loads(s)
-    except json.JSONDecodeError as e:
+    except Exception as e:
         logger.error("Standard json.loads failed: %s", e)
     
     # 2. Try demjson3

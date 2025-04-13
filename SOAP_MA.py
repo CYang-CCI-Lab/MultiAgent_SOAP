@@ -119,7 +119,7 @@ class LLMAgent:
     async def llm_call(
         self, 
         user_prompt: str, 
-        temperature: float = 0.3,
+        temperature: float = 0.5,
         guided_: dict = None,
         tools_descript: List[dict] = None, 
         available_tools: dict = None
@@ -167,7 +167,7 @@ class Manager(LLMAgent):
         note: str, 
         hadm_id: str, 
         problem: str, 
-        label: str,  # Updated from Literal["Yes", "No"] to str
+        label: str, 
         n_specialists: Union[int, Literal["auto"]] = 'auto',  
         consensus_threshold: float = 0.8,
         max_consensus_attempts=3, 
@@ -688,7 +688,7 @@ async def process_problem(df: pd.DataFrame, problem: str):
         results.append(result)
 
     # Save results for this problem
-    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction/3_problems_{problem.replace(' ', '_')}_new_temp.json"
+    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction2/3_problems_{problem.replace(' ', '_')}_new_temp.json"
     with open(output_path, "w") as f:
         json.dump(results, f, indent=4)
     logger.info(f"[{problem}] Results saved to: {output_path}")
@@ -715,7 +715,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0412_MA_3_probs_parallel_corrected.log', mode='w'), # Save to file
+            logging.FileHandler('log/0413_MA_3_probs_parallel_corrected.log', mode='w'), # Save to file
             logging.StreamHandler()  # Print to console
         ]
     )

@@ -25,7 +25,7 @@ class BaselineLLMAgent:
         params = {
             "model": self.model_name,
             "messages": self.messages,
-            "temperature": 0.5
+            "temperature": 0.1
         }
         if guided_schema:
             params["extra_body"] = guided_schema
@@ -144,16 +144,16 @@ async def main():
     # Input -> Output files
     file_pairs = [
         (
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_acute_kidney_injury.json",
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_acute_kidney_injury_baseline.json"
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all/3_problems_acute_kidney_injury_new_temp.json",
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all/3_problems_acute_kidney_injury_new_temp_baseline.json"
         ),
         (
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_sepsis.json",
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_sepsis_baseline.json"
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all/3_problems_sepsis_new_temp.json",
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all/3_problems_sepsis_new_temp_baseline.json"
         ),
         (
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_congestive_heart_failure.json",
-            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/3_problems_congestive_heart_failure_baseline.json"
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all/3_problems_congestive_heart_failure_new_temp.json",
+            "/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all/3_problems_congestive_heart_failure_new_temp_baseline.json"
         ),
     ]
 
@@ -169,7 +169,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0408_baseline_parallel_run.log', mode='a'),
+            logging.FileHandler('log/0415_baseline_parallel_run.log', mode='a'),
             logging.StreamHandler()
         ]
     )

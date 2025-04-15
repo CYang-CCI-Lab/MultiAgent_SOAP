@@ -362,7 +362,7 @@ class Manager(LLMAgent):
                 ..., description=f"Single recommended choice for whether the patient has {self.problem}."
             )
         
-        response = await self.llm_call(user_prompt, guided_={"guided_json": AggregatedResponse.model_json_schema()})
+        response = await self.llm_call(user_prompt, temperature=0.1, guided_={"guided_json": AggregatedResponse.model_json_schema()})
         try:
             data = safe_json_load(response)
         except Exception as e:
@@ -477,7 +477,7 @@ class DynamicSpecialist(LLMAgent):
 
         # ADDED: try-except around LLM call
         try:
-            response = await self.llm_call(user_prompt, guided_={"guided_json": self.schema})
+            response = await self.llm_call(user_prompt, temperature=0.1, guided_={"guided_json": self.schema})
         except Exception as e:
             logger.error(f"[{self.specialist}] analyze_note() LLM call failed: {e}")
             return None
@@ -514,7 +514,7 @@ class DynamicSpecialist(LLMAgent):
         )
 
         try:
-            response = await self.llm_call(user_prompt, guided_={"guided_json": self.schema})
+            response = await self.llm_call(user_prompt, temperature=0.3, guided_={"guided_json": self.schema})
         except Exception as e:
             logger.error(f"[{self.specialist}] debate() LLM call failed: {e}")
             return None
@@ -688,13 +688,13 @@ async def process_problem(df: pd.DataFrame, problem: str):
         results.append(result)
 
     # Save results for this problem
-    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction2/3_problems_{problem.replace(' ', '_')}_new_temp.json"
+    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all_2/3_problems_{problem.replace(' ', '_')}_new_temp.json"
     with open(output_path, "w") as f:
         json.dump(results, f, indent=4)
     logger.info(f"[{problem}] Results saved to: {output_path}")
 
 async def main():
-    df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_3_problems.csv"
+    df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_all_problems.csv"
     df = pd.read_csv(df_path, lineterminator='\n')
     logger.info("Loaded dataframe with %d rows.", len(df))
 
@@ -715,7 +715,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0413_MA_3_probs_parallel_corrected.log', mode='w'), # Save to file
+            logging.FileHandler('log/0415_MA_3_probs_outof_all_corrected.log', mode='w'), # Save to file
             logging.StreamHandler()  # Print to console
         ]
     )

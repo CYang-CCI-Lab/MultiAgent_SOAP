@@ -38,7 +38,7 @@ class LLMAgent:
         model_name: str = "meta-llama/Llama-3.3-70B-Instruct",
         client=AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
         max_tokens: int = LLAMA3_70B_MAX_TOKENS,
-        summarization_threshold: float = 0.7
+        summarization_threshold: float = 0.75
     ):
         self.model_name = model_name
         self.client = client
@@ -263,7 +263,8 @@ class Manager(LLMAgent):
         hadm_id: str, 
         problem: str, 
         label: str, 
-        n_specialists: Union[int, Literal["auto"]] = 'auto',  
+        n_specialists: Union[int, Literal["auto"]] = 'auto',
+        static_agents: Optional[List[str]] = None,     # NEW: list of system prompts
         consensus_threshold: float = 0.8,
         max_consensus_attempts=3, 
         max_assignment_attempts=2,
@@ -761,7 +762,7 @@ async def process_problem(df: pd.DataFrame, problem: str):
             hadm_id=hadm_id,
             problem=problem,
             label=label,
-            n_specialists=5,  # or an integer
+            n_specialists='auto',  # or an integer
             consensus_threshold=0.8,
             max_consensus_attempts=4,
             max_assignment_attempts=3,

@@ -1,5 +1,5 @@
 # ──────────────── multi_agent_generic.py ────────────────
-from typing import List, Literal, Dict, Any, Optional
+from typing import List, Literal, Dict, Any, Optional, Union
 import json, math, asyncio, logging
 from pydantic import BaseModel, Field
 
@@ -8,41 +8,30 @@ from multi_agent_original import LLMAgent, Manager, safe_json_load   # path = yo
 
 logger = logging.getLogger(__name__)
 
-
-# ────────────────────────────────
-# 1) A role‑free sub–agent
-# ────────────────────────────────
 class GenericAgent(LLMAgent):
-    """
-    An LLM agent with *no* pre‑assigned medical specialty.
-    Every instance receives the same generic instruction set.
-    """
+    def __init__(self, agent_id: Union[str, int], state: dict):
+        self.agent_id = str(agent_id)
+        self.state = state
+        self.state["static agents"][self.agent_id] = {} 
 
-    def __init__(self, name: str = "Agent"):
-        self.name = name            # e.g. “Agent_1”
-        self.answer_history: Dict[str, Any] = {}
         self.round_id: int = 0
-        self.schema: Optional[Dict[str, Any]] = None
+        self.schema = None
+        system_prompt = "You are a collaborating diagnostic agent in a multi‑agent AI system designed to handle medical questions."
 
-        system_prompt = (
-            f"You are {self.name}, one of several peer LLMs jointly analysing a patient note.\n"
-            "You have broad, general medical knowledge (but no specific specialty).\n"
-            "• Work *independently* first, then debate with peers.\n"
-            "• Always return JSON that follows the given schema."
-        )
         super().__init__(system_prompt)
 
-    # ---------- phase 1 : individual analysis ----------
+        logger.info(f"[GenericAgent '{self.agent_id}'] Initialized...")
+
     async def analyse_note(self, note: str, problem: str):
         self.round_id += 1
 
         class Response(BaseModel):
-            reasoning: str = Field(..., description="Step‑by‑step reasoning.")
-            choice: Literal["Yes", "No"] = Field(..., description=f"Does the patient have {problem}?")
-
+            reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
+            choice: Literal["Yes", "No"] = Field(..., description=f"Your choice indicating whether the patient has {problem}.")
         self.schema = Response.model_json_schema()
 
         user_prompt = (
+            " Read the patient note and decide whether the patient has the specified problem.\n"
             f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
             f"Question: Does this patient have {problem}?\n"
             "Please give your reasoning, then the choice ('Yes' or 'No')."
@@ -56,29 +45,27 @@ class GenericAgent(LLMAgent):
             )
             parsed = safe_json_load(raw)
             self.append_message(raw)
-            self.answer_history[f"round_{self.round_id}"] = parsed
+            self.state["static agents"][self.agent_id][f"round_{self.round_id}"] = parsed
             return parsed
         except Exception as e:
-            logger.error("[%s] analyse_note() failed: %s", self.name, e)
+            logger.error("[%s] analyse_note() failed: %s", self.agent_id, e)
             return None
 
-    # ---------- phase 2 : debate ----------
-    async def debate(self, panel_state: Dict[str, Any]):
+    async def debate(self, panel_state: Dict[str, Any]): # panel_state : state["panel_1"]["Static Agents]
         self.round_id += 1
-
-        # Collect last‑round answers from *other* agents
         peers = {
-            agent: info["answer_history"][f"round_{self.round_id-1}"]
+            agent: info[f"round_{self.round_id-1}"]
             for agent, info in panel_state.items()
-            if agent != self.name
+            if agent != self.agent_id
         }
 
         user_prompt = (
-            "Here are your peers’ previous answers:\n"
-            f"{json.dumps(peers, indent=2)}\n\n"
-            "Re‑evaluate your own reasoning. "
-            "You may keep or change your answer, but justify it briefly."
-        )
+                    "Here are your peers’ previous answers:\n"
+                    f"{json.dumps(peers, indent=2)}\n\n"
+                    "Please review your peers' reasoning and final choices. Based on their input and your own analysis, reconsider your initial assessment. "
+                    "You may either keep your original conclusion or change it.\n\n"
+                    "Please give your refined reasoning and final choice ('Yes' or 'No')."
+                    )
 
         try:
             raw = await self.llm_call(
@@ -88,10 +75,10 @@ class GenericAgent(LLMAgent):
             )
             parsed = safe_json_load(raw)
             self.append_message(raw)
-            self.answer_history[f"round_{self.round_id}"] = parsed
+            self.state["static agents"][self.agent_id][f"round_{self.round_id}"] = parsed
             return parsed
         except Exception as e:
-            logger.error("[%s] debate() failed: %s", self.name, e)
+            logger.error("[%s] debate() failed: %s", self.agent_id, e)
             return None
 
 
@@ -192,3 +179,4 @@ class ManagerGeneric(Manager):
         }
         return self.state_dict
 # ─────────────────────────────────────────────────────────
+

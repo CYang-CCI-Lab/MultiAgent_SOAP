@@ -45,7 +45,7 @@ class LLMAgent:
             "model": "meta-llama/Llama-3.3-70B-Instruct",
             # "model": '/secure_net/hf_model_cache/models--mistralai--Mistral-Small-24B-Instruct-2501/snapshots/20b2ed1c4e9af44b9ad125f79f713301e27737e2',
             "messages": self.messages,
-            "temperature": 0.3,
+            "temperature": 0.1,
         }
         if guided_:
             logger.debug(f"Guided JSON/choice detected: {guided_}")

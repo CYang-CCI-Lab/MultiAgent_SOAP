@@ -26,8 +26,8 @@ LLAMA3_70B_MAX_TOKENS = 24000
 logger = logging.getLogger(__name__)
 
 selected_problems = [
-    'congestive heart failure',
-    'sepsis',
+    # 'congestive heart failure',
+    # 'sepsis',
     'acute kidney injury',
 ]
 
@@ -38,7 +38,7 @@ class LLMAgent:
         model_name: str = "meta-llama/Llama-3.3-70B-Instruct",
         client=AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
         max_tokens: int = LLAMA3_70B_MAX_TOKENS,
-        summarization_threshold: float = 0.75
+        summarization_threshold: float = 0.8
     ):
         self.model_name = model_name
         self.client = client
@@ -46,79 +46,94 @@ class LLMAgent:
         self.max_tokens = max_tokens
         self.token_threshold = int(self.max_tokens * summarization_threshold)
         logger.info(f"[{self.__class__.__name__}] Initialized. Token limit: {self.max_tokens}, Summarization threshold: {self.token_threshold}")
-        self._log_memory_size("Initialization")
-    
-    def _log_memory_size(self, context_message: str):
-        """Helper to log current token count."""
-        current_tokens = count_llama_tokens(self.messages)
-        logger.info(f"[{self.__class__.__name__}] Memory: {current_tokens} tokens. (at: {context_message})")
-        if current_tokens > self.token_threshold:
-             logger.warning(f"[{self.__class__.__name__}] Token count ({current_tokens}) exceeds threshold ({self.token_threshold})!")
-        if current_tokens > self.max_tokens:
-             logger.error(f"[{self.__class__.__name__}] CRITICAL: Token count ({current_tokens}) exceeds model limit ({self.max_tokens})!")
 
-    async def _summarize_history(self) -> bool: # inplace
-        logger.warning("[%s] Starting iterative summarisation …", self.__class__.__name__)
+    async def _summarize_history(self, inplace: bool = True, message: str = "") -> Union[bool, str]:
+        logger.warning("[%s] Starting iterative summarization …", self.__class__.__name__)
 
-        # helper -----------------------------------------------------------
-        def longest_msg_idx() -> int:
-            lengths = [
-                (i, count_llama_tokens([msg]))    # token count of single msg
-                for i, msg in enumerate(self.messages)
-                if msg["role"] != "system"        # never summarise system prompt(s)
-            ]
-            return max(lengths, key=lambda t: t[1])[0]
-
-        # guard — if there is only the system prompt + 1 msg, bail ----------
-        if len(self.messages) < 3:
-            logger.warning("Not enough messages to summarise.")
-            return False
-
-        any_change = False
-        while count_llama_tokens(self.messages) >= self.token_threshold:
-            idx = longest_msg_idx()
-            target_msg = self.messages[idx]["content"]
-
+        async def _summarize_once(text: str) -> Union[str, None]:
             summary_prompt = (
-                "Summarise the following message as concisely as possible, "
+                "Summarize the following message concisely, "
                 "preserving all key facts and reasoning steps. "
-                "Use no more than 1000 words.\n\n"
+                "Do not exceed 1000 words.\n\n"
                 "<<<MESSAGE_START>>>\n"
-                f"{target_msg}\n"
+                f"{text}\n"
                 "<<<MESSAGE_END>>>"
             )
-
             try:
                 resp = await self.client.chat.completions.create(
                     model=self.model_name,
                     messages=[
-                        {"role": "system", "content": "You are a summarisation assistant."},
+                        {"role": "system", "content": "You are a summarization assistant."},
                         {"role": "user",   "content": summary_prompt},
                     ],
                     temperature=0.1,
                     max_tokens=1500,
                 )
-                new_text = resp.choices[0].message.content.strip()
-
+                return resp.choices[0].message.content.strip()
             except Exception as e:
-                logger.error("Summarisation call failed: %s", e)
+                logger.error("Summarization call failed: %s", e)
+                return None
+
+        if inplace:  
+            if len(self.messages) < 3:
+                logger.warning("Not enough messages to summarise.")
                 return False
 
-            # if the summary is *longer* (unlikely but possible), abort loop
-            if count_llama_tokens([{"role": "assistant", "content": new_text}]) >= \
-            count_llama_tokens([self.messages[idx]]):
-                logger.warning("Summary did not reduce length; aborting.")
-                break
+            def longest_idx() -> int:
+                return max(
+                    (
+                        (i, count_llama_tokens([m]))
+                        for i, m in enumerate(self.messages)
+                        if m["role"] != "system"
+                    ),
+                    key=lambda t: t[1],
+                )[0]
 
-            # replace the message ------------------------------------------
-            self.messages[idx]["content"] = f"[Summary] {new_text}"
-            any_change = True
-            logger.info("Replaced longest message with summary (%d tokens now).",
-                        count_llama_tokens(self.messages))
+            failures = 0
+            while count_llama_tokens(self.messages) >= self.token_threshold:
+                idx = longest_idx()
+                summary = await _summarize_once(self.messages[idx]["content"])
+                if summary is None:
+                    return False
 
-        if any_change:
-            self._log_memory_size("After iterative summarisation")
-        return any_change
+                # sanity‑check: summary must be shorter
+                if count_llama_tokens([{"role": "assistant", "content": summary}]) >= \
+                count_llama_tokens([self.messages[idx]]):
+                    failures += 1
+                    if failures > 3:
+                        logger.error("Summarization failed repeatedly. Aborting.")
+                        return False
+                    continue
+
+                self.messages[idx]["content"] = f"[Summary] {summary}"
+                logger.info("Replaced longest message with summary (%d tokens total).",
+                            count_llama_tokens(self.messages))
+            return True
+
+        # ── summarise an external `message` string ───────────────────────────────────────────
+        if not message:
+            logger.warning("No message provided for summarization.")
+            return False
+        
+        summary = await _summarize_once(message)
+        if summary is None:
+            return False
+        message = summary
+
+        failures = 0
+        while count_llama_tokens(message) >= self.token_threshold:
+            summary = await _summarize_once(message)
+            if summary is None:
+                return False
+            if count_llama_tokens(summary) >= count_llama_tokens(message):
+                failures += 1
+                if failures > 3:
+                    logger.error("Summarization failed repeatedly. Aborting.")
+                    return False
+                continue
+            message = summary     
+
+        return message
 
 
     async def _llm_call_with_tools(self, params: dict, available_tools: dict) -> Any:
@@ -214,9 +229,7 @@ class LLMAgent:
         tools_descript: List[dict] = None, 
         available_tools: dict = None
     ) -> Any:
-        logger.debug(f"LLMAgent.llm_call() - user_prompt[:60]: {user_prompt[:60]}...")
 
-        # Check BEFORE appending the new user prompt
         potential_new_length = count_llama_tokens(self.messages + [{"role": "user", "content": user_prompt}])
         if potential_new_length > self.token_threshold:
              summarized = await self._summarize_history()
@@ -225,7 +238,6 @@ class LLMAgent:
                   raise ValueError("Context limit exceeded even after summarization attempt.")
         
         self.messages.append({"role": "user", "content": user_prompt})
-        self._log_memory_size("After appending user prompt")
 
         params = {
             "model": self.model_name,
@@ -233,7 +245,6 @@ class LLMAgent:
             "temperature": temperature,
         }
         if guided_:
-            logger.debug(f"Guided JSON/choice detected: {guided_}")
             params["extra_body"] = guided_
 
         if tools_descript:
@@ -252,9 +263,34 @@ class LLMAgent:
     def append_message(self, content: Any, role='assistant'): # inplace
         logger.debug(f"Appending message with role='{role}' to conversation.")
         self.messages.append({"role": role, "content": str(content)})
-        self._log_memory_size(f"After explicit append_message (role={role})")
         # We won't trigger summarization here, but rely on checks before LLM calls.
         # If append causes it to exceed max_tokens, the next LLM call will fail/summarize.
+
+
+class BaselineZS(LLMAgent):
+    """One‑shot classifier: no multi‑agent coordination, no debate."""
+    def __init__(self):
+        super().__init__("You are a clinical reasoning assistant.")
+        self.schema = None   # filled lazily
+
+    async def classify(self, note: str, problem: str):
+        if self.schema is None:                   # build schema once
+            class Resp(BaseModel):
+                reasoning: str
+                choice: Literal["Yes", "No"]
+            self.schema = Resp.model_json_schema()
+
+        prompt = (
+            "Read the patient note and decide whether the patient has the specified problem.\n"
+            f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
+            f"Question: Does this patient have {problem}? "
+            "Give your reasoning, then 'Yes' or 'No'."
+        )
+        raw = await self.llm_call(prompt, temperature=0.1,
+                                  guided_={"guided_json": self.schema})
+        return safe_json_load(raw)
+
+
 
 class Manager(LLMAgent):
     def __init__(
@@ -264,17 +300,14 @@ class Manager(LLMAgent):
         problem: str, 
         label: str, 
         n_specialists: Union[int, Literal["auto"]] = 'auto',
-        n_static_agents: int = 0, 
+        n_generic_agents: int = 0, 
         consensus_threshold: float = 0.8,
         max_consensus_attempts=3, 
         max_assignment_attempts=2,
     ):
-
-
-        system_prompt = (
-            "You are a Manager agent in a multi-agent AI system designed to handle medical questions.\n"
-            "Your job is to choose a set of medical specialists whose expertise is relevant to the user's query\n"
-            "and then ensure they reach a consensus on the correct answer.\n"
+        system_prompt = (          
+                "You are the manager of a multi‐agent diagnostic system. "
+                "Your job is to coordinate sub‐agents to decide if the patient has the problem."
         )
         super().__init__(system_prompt)
 
@@ -293,7 +326,7 @@ class Manager(LLMAgent):
             "final": {}
         }
         self.n_specialists = n_specialists
-        self.n_static_agents = n_static_agents
+        self.n_generic_agents = n_generic_agents
 
         self.consensus_threshold = consensus_threshold
     
@@ -309,11 +342,22 @@ class Manager(LLMAgent):
         self.state[f"panel_{self.assignment_attempts}"] = {}
 
         if self.assignment_attempts > 1:
-            previous_panel = self.state[f"panel_{self.assignment_attempts - 1}"]["Initially Identified Specialties"]
-            self._cache_and_clear_memory(initial_message=(f"The previous panel of specialists {previous_panel} couldn’t reach consensus, "
-                                                          f"so we’re now assembling a new panel."
-                                                          ))
-            logger.info(f"Cleared memory and cached messages for the previous assignment attempt.")
+            previous_panel_history = json.dumps(self.state[f"panel_{self.assignment_attempts - 1}"]["Collected Specialists"], indent=4)
+            summary = self._summarize_history(inplace=False, message=previous_panel_history)
+            if isinstance(summary, str):
+                message=(f"The previous panel of specialists couldn’t reach consensus. "
+                                                            f"Summary so far: \n{summary}\n\n"
+                                                            f"So we’re now assembling a new panel."
+                                                            )
+            else:
+                logger.warning("Failed to summarize previous panel history.")
+                previous_panel = self.state[f"panel_{self.assignment_attempts - 1}"]["Collected Specialists"].keys()
+                message = (
+                    f"The previous panel of specialists ({previous_panel}) couldn’t reach consensus. "
+                    f"So we’re now assembling a new panel."
+                )
+            self.append_message(content=message, role='system')
+
 
         specialties_lst = []
 
@@ -324,47 +368,40 @@ class Manager(LLMAgent):
                     "Below are the Subjective (S) and Objective (O) sections from a SOAP note:\n\n"
                     f"<SOAP>\n{self.note}\n</SOAP>\n\n"
                     f"We need to determine if this patient has {self.problem}.\n\n"
-                    "Please list the medical specialties that should be consulted to make a reliable diagnosis."
+                    "Please provide a list of medical specialties that should be involved."
                 )
                 class Specialties(BaseModel):
-                    specialties: List[str] = Field(..., description="List of medical specialties needed to address the case.")
+                    specialties: List[str] = Field(..., description="List of medical specialties.")
                 try:
                     response = await self.llm_call(user_prompt, guided_={"guided_json": Specialties.model_json_schema()})
                     self.append_message(content=response)
-                    data = safe_json_load(response)
-                    specialties_lst = data["specialties"]
+                    parsed = safe_json_load(response)
+                    specialties_lst = parsed["specialties"]
                 except Exception as e:
                     logger.error(f"Failed to parse 'specialties' from LLM response: {e}")
-
-                logger.debug(f"{len(specialties_lst)} specialties identified via 'auto': {specialties_lst}")
                 self.n_specialists = len(specialties_lst)
 
             else:
                 user_prompt = (
                     "Below are the Subjective (S) and Objective (O) sections from a SOAP note:\n\n"
                     f"<SOAP>\n{self.note}\n</SOAP>\n\n"
-                    f"We need to evaluate whether the patient has {self.problem}.\n\n"
-                    f"Please provide a list of {self.n_specialists} medical specialties that should be involved.\n"
-                    "These specialties must collectively cover all aspects needed to diagnose this case."
+                    f"We need to determine if this patient has {self.problem}.\n\n"
+                    f"Please provide a list of {self.n_specialists} medical specialties that should be involved."
                 )
                 class Specialty(BaseModel):
-                    name: str = Field(..., description="Name of the medical specialty required.")
+                    specialty_name: str = Field(..., description="Name of the medical specialty.")
                 specialties_dict = {f"specialty_{i+1}": (Specialty, ...) for i in range(self.n_specialists)}
                 Specialties_N = create_model("Specialties_N", **specialties_dict)
                 try:
                     response = await self.llm_call(user_prompt, guided_={"guided_json": Specialties_N.model_json_schema()})
                     self.append_message(content=response)
                     parsed = safe_json_load(response)
-                except Exception as e:
-                    logger.error(f"Failed to parse specialties from LLM response: {e}")
-                    parsed = {}
-                try:
                     for i in range(self.n_specialists):
                         # Potential KeyError if "specialty_i" or 'name' is missing
-                        name = parsed[f"specialty_{i+1}"]["name"]
+                        name = parsed[f"specialty_{i+1}"]["specialty_name"]
                         specialties_lst.append(name)
                 except Exception as e:
-                    logger.error(f"Failed to parse specialty from LLM response: {e}")
+                    logger.error(f"Failed to parse specialties from LLM response: {e}")
             
             trial_n += 1
 
@@ -376,11 +413,11 @@ class Manager(LLMAgent):
             "Based on the list of specialties you provided: "
             f"{specialties_lst}\n\n"
             f"Please assemble a panel of {self.n_specialists} specialists. Assign each specialist to exactly one of the above specialties.\n"
-            "For each specialist, specify their role (not their personal name) and list the relevant expertise areas related to this case."
+            "For each specialist, specify their job title (not their personal name) and list the relevant expertise areas related to this case."
         )
 
         class Specialist(BaseModel):
-            specialist: str = Field(..., description="Official job title. No personal names.")
+            specialist: str = Field(..., description="Official job title.")
             expertise: List[str] = Field(..., description="Their main areas of expertise relevant to this case.")
 
         panel_dict = {f"specialist_{i+1}": (Specialist, ...) for i in range(self.n_specialists)}
@@ -400,6 +437,7 @@ class Manager(LLMAgent):
                     "answer_history": {}
                 }
                 logger.info(f"Specialist {role} assigned with expertise: {expertise}")
+                
         except Exception as e:
             logger.error(f"Failed to parse specialists from LLM response: {e}")
             return None
@@ -422,51 +460,37 @@ class Manager(LLMAgent):
         logger.info("No consensus found.")
         return None
 
-    async def _aggregate(self):
-        specialists_chat_history = self.state.copy()
-        for field_to_remove in ["label", "hadm_id", "problem", "cached_messages"]:
-            specialists_chat_history.pop(field_to_remove, None)
-
-        specialists_str = json.dumps(specialists_chat_history, indent=4)
- 
-        logger.info(f"Token count for specialists' chat history: {count_llama_tokens(specialists_str)}")
+    async def _aggregate(self, chat_history):
+        logger.info(f"Token count for the entire chat history to be aggregated: {count_llama_tokens(chat_history)}")
 
         user_prompt = (
-            "No consensus has been reached among the specialists.\n"
-            "You now have access to the entire conversation histories for all specialists.\n"
-            "Please analyze each specialist's reasoning and final choice, then provide a single, definitive answer.\n"
+            "No consensus has been reached among the sub-agents.\n"
+            "You now have access to the entire conversation histories.\n"
+            "Please analyze each agent's reasoning and final choice, then provide a single, definitive answer.\n"
             "Your answer should be the one best supported by their collective reasoning.\n\n"
-            "Below is the complete conversation history for each specialist:\n\n"
-            f"{specialists_str}\n\n"
-            "After reviewing this material, please provide:\n"
+            "Below is the complete conversation history for each agent:\n\n"
+            f"{json.dumps(chat_history, indent=4)}\n\n"
+            "After reviewing this, please provide:\n"
             "1) A concise summary of the reasoning behind your final decision\n"
             "2) A single recommended choice: 'Yes' or 'No' "
             f"(indicating whether the patient has {self.problem})."
         )
 
         class AggregatedResponse(BaseModel):
-            aggregated_reasoning: str = Field(..., description="Detailed reasoning behind the final choice.")
-            aggregated_choice: Literal["Yes", "No"] = Field(
-                ..., description=f"Single recommended choice for whether the patient has {self.problem}."
-            )
+            final_reasoning: str = Field(..., description="Step-by-step reasoning leading to the final choice.")
+            final_choice: Literal["Yes", "No"] = Field(..., description=f"Final choice indicating whether the patient has {self.problem}.")
         
         try:
-            response = await self.llm_call(user_prompt, temperature=0.1, guided_={"guided_json": AggregatedResponse.model_json_schema()})
-            data = safe_json_load(response)
+            raw = await self.llm_call(user_prompt, temperature=0.1, guided_={"guided_json": AggregatedResponse.model_json_schema()})
+            parsed = safe_json_load(raw)
+            self.state["final"] = parsed
+            return parsed
         except Exception as e:
             logger.error(f"Failed to parse aggregator response: {e}")
-            data = {}
-        return data
+            self.state["final"] = {"final_choice": "Error in aggregation.", "final_reasoning": "Unable to parse aggregator response."}
+            return None
     
-    def _cache_and_clear_memory(self, initial_message: str = ""):
-        self.state["cached_messages"].extend(self.messages.copy())
-        self.messages = [self.messages[0]]  # Keep only the system message
-        if initial_message:
-            self.messages.append({"role": "system", "content": f"Summary so far: {initial_message}"})
-        logger.info(f"[{self.__class__.__name__}] Cached messages and cleared memory. Current token length: {count_llama_tokens(self.messages)}")
-
     async def run_specialists(self):
-        consecutive_failures = 0
         while self.assignment_attempts < self.max_assignment_attempts:
             logger.info(f"Assignment attempt #{self.assignment_attempts + 1} started.")
             
@@ -474,29 +498,21 @@ class Manager(LLMAgent):
             # 굳이 안반환해도 됨
             if panel_state is None:
                 logger.error("Failed to assign specialists; retrying.")
-                consecutive_failures += 1
-                if consecutive_failures >= self.max_assignment_attempts:
-                    break                      # fall through to aggregation
                 continue
-            consecutive_failures = 0
           
             panel = []
             for role in self.state[f"panel_{self.assignment_attempts}"]["Collected Specialists"].keys():
                 panel.append(
-                    DynamicSpecialist(role, self.state[f"panel_{self.assignment_attempts}"]["Collected Specialists"][role])
+                    DynamicSpecialist(role, self.assignment_attempts, self.state)  # panel_id is the assignment attempt number
                 )
                 
-            # Step 1) Specialists analyze the note
-            consensus_attempts = 0
             analyze_tasks = [asyncio.create_task(specialist.analyze_note(self.note, self.problem)) for specialist in panel]
             analyze_results = await asyncio.gather(*analyze_tasks)
             if any(r is None for r in analyze_results):
                 logger.error("At least one specialist failed analysis; skipping this panel.")
                 continue
 
-
-            # Check immediate consensus (round 1)
-            consensus_attempts += 1
+            consensus_attempts = 1
             consensus_choice = self._check_consensus_specialists(self.assignment_attempts, consensus_attempts)
             if consensus_choice:
                 self.state["final"] = {
@@ -507,19 +523,14 @@ class Manager(LLMAgent):
             
             # Debate loop
             while consensus_attempts < self.max_consensus_attempts:
-                logger.info(f"Debate attempt #{consensus_attempts + 1} started.")
-                debate_tasks = [
-                    asyncio.create_task(
-                        specialist.debate(self.state[f"panel_{self.assignment_attempts}"]["Collected Specialists"])
-                    ) 
-                    for specialist in panel
-                ]
+                consensus_attempts += 1
+                logger.info(f"Debate attempt #{consensus_attempts} started.")
+                debate_tasks = [asyncio.create_task(specialist.debate()) for specialist in panel]
                 debate_results = await asyncio.gather(*debate_tasks)
                 if any(r is None for r in debate_results):
                     logger.error("At least one specialist failed during debate; skipping this round.")
                     continue
-
-                consensus_attempts += 1
+                
                 consensus_choice = self._check_consensus_specialists(self.assignment_attempts, consensus_attempts)
                 if consensus_choice:
                     self.state["final"] = {
@@ -527,34 +538,28 @@ class Manager(LLMAgent):
                         "final_reasoning": "Consensus reached"
                     }
                     return self.state
-            
-            # If we exhaust all debate attempts with no consensus, summarize the debate, then move on
             logger.info("No consensus reached after maximum consensus attempts among the panel.")
 
-        # If we reach here, we've exhausted assignment attempts, so we do final aggregation:
         logger.info("No consensus reached after maximum assignment attempts. Proceeding to aggregation.")
-        aggregated_response = await self._aggregate()
-        self.state["final"] = {
-            "final_choice": aggregated_response.get("aggregated_choice", "Error in aggregation."),
-            "final_reasoning": aggregated_response.get("aggregated_reasoning", "Unable to parse aggregator response.")
-        }
+        specialists_chat_history = self.state.copy()
+        for field_to_remove in ["label", "hadm_id", "cached_messages", "static agents", "final"]:
+            specialists_chat_history.pop(field_to_remove, None)
+        aggregated_response = await self._aggregate(specialists_chat_history)
+        if aggregated_response is None:
+            logger.error("Aggregation failed; returning error.")
         return self.state
     
     async def run_generic_agents(self):
-        consensus_attempts = 0
-
         panel = []
-        for agent_id in [f"generic_agent_{i+1}" for i in range(self.n_static_agents)]:
+        for agent_id in [f"generic_agent_{i+1}" for i in range(self.n_generic_agents)]:
             panel.append(GenericAgent(agent_id, self.state))
             
         analyze_tasks = [asyncio.create_task(agent.analyse_note(self.note, self.problem)) for agent in panel]
         analyze_results = await asyncio.gather(*analyze_tasks)
-        consensus_attempts += 1
-        choice = self._check_consensus_specialists
 
-        consensus_attempts += 1
+        consensus_attempts = 1
         choice_counts = {}
-        majority_count = math.ceil(self.n_static_agents * self.consensus_threshold)
+        majority_count = math.ceil(self.n_generic_agents * self.consensus_threshold)
         for result in analyze_results:
             if result:
                 choice_counts[result["choice"]] = choice_counts.get(result["choice"], 0) + 1
@@ -569,34 +574,110 @@ class Manager(LLMAgent):
         
         # Debate loop
         while consensus_attempts < self.max_consensus_attempts:
-            logger.info(f"Debate attempt #{consensus_attempts + 1} started.")
-            debate_tasks = [asyncio.create_task(
+            consensus_attempts += 1
+            logger.info(f"Debate attempt #{consensus_attempts} started.")
+            debate_tasks = [asyncio.create_task(agent.debate()) for agent in panel]
             debate_results = await asyncio.gather(*debate_tasks)
             if any(r is None for r in debate_results):
-                logger.error("At least one specialist failed during debate; skipping this round.")
+                logger.error("At least one agent failed during debate; skipping this round.")
                 continue
 
-            consensus_attempts += 1
-            consensus_choice = self._check_consensus_specialists(self.assignment_attempts, consensus_attempts)
-            if consensus_choice:
-                self.state["final"] = {
-                    "final_choice": consensus_choice, 
-                    "final_reasoning": "Consensus reached"
-                }
-                return self.state
-        
-        # If we exhaust all debate attempts with no consensus, summarize the debate, then move on
-        logger.info("No consensus reached after maximum consensus attempts among the panel.")
+            choice_counts = {}
+            majority_count = math.ceil(self.n_generic_agents * self.consensus_threshold)
+            for result in debate_results:
+                choice_counts[result["choice"]] = choice_counts.get(result["choice"], 0) + 1
 
-        # If we reach here, we've exhausted assignment attempts, so we do final aggregation:
-        logger.info("No consensus reached after maximum assignment attempts. Proceeding to aggregation.")
-        aggregated_response = await self._aggregate()
-        self.state["final"] = {
-            "final_choice": aggregated_response.get("aggregated_choice", "Error in aggregation."),
-            "final_reasoning": aggregated_response.get("aggregated_reasoning", "Unable to parse aggregator response.")
-        }
+            for choice, count in choice_counts.items():
+                if count >= majority_count:
+                    self.state["final"] = {
+                        "final_choice": choice,
+                        "final_reasoning": "Consensus reached"
+                    }
+                    return self.state
+        
+        logger.info("No consensus reached after maximum consensus attempts among the panel. Proceeding to aggregation.")
+
+        generic_agents_chat_history = {}
+        for field_to_include in ["note", "problem", "static agents"]:
+            generic_agents_chat_history[field_to_include] = self.state[field_to_include]
+        aggregated_response = await self._aggregate(generic_agents_chat_history.copy())
+        if aggregated_response is None:
+            logger.error("Aggregation failed; returning error.")
         return self.state
 
+class GenericAgent(LLMAgent):
+    def __init__(self, agent_id: Union[str, int], state: dict):
+        self.agent_id = str(agent_id)
+        self.state = state
+        self.state["static agents"][self.agent_id] = {} 
+
+        self.round_id: int = 0
+        self.schema = None
+        system_prompt = "You are a collaborating diagnostic agent in a multi‑agent AI system designed to handle medical questions."
+
+        super().__init__(system_prompt)
+
+        logger.info(f"[GenericAgent '{self.agent_id}'] Initialized...")
+
+    async def analyse_note(self, note: str, problem: str):
+        self.round_id += 1
+
+        class Response(BaseModel):
+            reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
+            choice: Literal["Yes", "No"] = Field(..., description=f"Your choice indicating whether the patient has {problem}.")
+        self.schema = Response.model_json_schema()
+
+        user_prompt = (
+            "Read the patient note and decide whether the patient has the specified problem.\n"
+            f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
+            f"Question: Does this patient have {problem}?\n"
+            "Please give your reasoning, then the choice ('Yes' or 'No')."
+        )
+
+        try:
+            raw = await self.llm_call(
+                user_prompt,
+                temperature=0.1,
+                guided_={"guided_json": self.schema}
+            )
+            parsed = safe_json_load(raw)
+            self.append_message(raw)
+            self.state["static agents"][self.agent_id][f"round_{self.round_id}"] = parsed
+            return parsed
+        except Exception as e:
+            logger.error("[%s] analyse_note() failed: %s", self.agent_id, e)
+            return None
+
+    async def debate(self): 
+        self.round_id += 1
+        peers = {
+            agent: info[f"round_{self.round_id-1}"]
+            for agent, info in self.state["static agents"].items()
+            if agent != self.agent_id
+        }
+
+        user_prompt = (
+                    "Here are your peers’ previous answers:\n"
+                    f"{json.dumps(peers, indent=2)}\n\n"
+                    "Please review their reasoning. Based on their input and your own analysis, reconsider your initial assessment. "
+                    "You may either keep your original conclusion or change it.\n\n"
+                    "Please give your refined reasoning and final choice ('Yes' or 'No')."
+                    )
+
+        try:
+            raw = await self.llm_call(
+                user_prompt,
+                temperature=0.3,
+                guided_={"guided_json": self.schema}
+            )
+            parsed = safe_json_load(raw)
+            self.append_message(raw)
+            self.state["static agents"][self.agent_id][f"round_{self.round_id}"] = parsed
+            return parsed
+        except Exception as e:
+            logger.error("[%s] debate() failed: %s", self.agent_id, e)
+            return None
+        
 
 class DynamicSpecialist(LLMAgent):
     def __init__(self, specialist: str, panel_id: int, state: dict): 
@@ -617,7 +698,7 @@ class DynamicSpecialist(LLMAgent):
         
         logger.info(f"[{self.specialist}] Initialized...")
 
-    async def analyze_note(self, note: str, problem: str):
+    async def analyze_note(self, note: str, problem: str) -> Union[dict, None]: 
         self.round_id += 1
 
         class Response(BaseModel):
@@ -626,7 +707,7 @@ class DynamicSpecialist(LLMAgent):
         self.schema = Response.model_json_schema()
 
         user_prompt = (
-            " Read the patient note and decide whether the patient has the specified problem.\n"
+            "Read the patient note and decide whether the patient has the specified problem.\n"
             f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
             f"Question: Does this patient have {problem}?\n"
             "Please give your reasoning, then the choice ('Yes' or 'No')."
@@ -656,9 +737,9 @@ class DynamicSpecialist(LLMAgent):
         }
 
         user_prompt = (
-                    "Here are opinions from other specialists:\n"
+                    "Here are other specialists' previous answers:\n"
                     f"{json.dumps(other_specialists, indent=2)}\n\n"
-                    "Please review the reasoning of the other specialists. Based on their input and your own analysis, reconsider your initial assessment. "
+                    "Please review their reasoning. Based on their input and your own analysis, reconsider your initial assessment. "
                     "You may either keep your original conclusion or change it.\n\n"
                     "Please give your refined reasoning and final choice ('Yes' or 'No')."
                     )
@@ -666,7 +747,7 @@ class DynamicSpecialist(LLMAgent):
         try:
             raw = await self.llm_call(user_prompt, temperature=0.3, guided_={"guided_json": self.schema})
             parsed = safe_json_load(raw)
-            self.append_message(content=raw)
+            self.append_message(raw)
             self.answer_history[f"round_{self.round_id}"] = parsed
             return parsed
         except Exception as e:
@@ -801,79 +882,6 @@ class CaseBasedAgent(LLMAgent):
         return parsed_response
 
 
-class GenericAgent(LLMAgent):
-    def __init__(self, agent_id: Union[str, int], state: dict):
-        self.agent_id = f"generic_{agent_id}"  # e.g. “generic_1”
-        self.state = state
-        self.state["static agents"][self.agent_id] = {} 
-
-        self.round_id: int = 0
-        self.schema = None
-        system_prompt = "You are a collaborating diagnostic agent in a multi‑agent AI system designed to handle medical questions."
-
-        super().__init__(system_prompt)
-
-        logger.info(f"[GenericAgent '{self.agent_id}'] Initialized...")
-
-    async def analyse_note(self, note: str, problem: str):
-        self.round_id += 1
-
-        class Response(BaseModel):
-            reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
-            choice: Literal["Yes", "No"] = Field(..., description=f"Your choice indicating whether the patient has {problem}.")
-        self.schema = Response.model_json_schema()
-
-        user_prompt = (
-            " Read the patient note and decide whether the patient has the specified problem.\n"
-            f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
-            f"Question: Does this patient have {problem}?\n"
-            "Please give your reasoning, then the choice ('Yes' or 'No')."
-        )
-
-        try:
-            raw = await self.llm_call(
-                user_prompt,
-                temperature=0.1,
-                guided_={"guided_json": self.schema}
-            )
-            parsed = safe_json_load(raw)
-            self.append_message(raw)
-            self.state["static agents"][self.agent_id][f"round_{self.round_id}"] = parsed
-            return parsed
-        except Exception as e:
-            logger.error("[%s] analyse_note() failed: %s", self.agent_id, e)
-            return None
-
-    async def debate(self): 
-        self.round_id += 1
-        peers = {
-            agent: info[f"round_{self.round_id-1}"]
-            for agent, info in self.state["static agents"].items()
-            if agent != self.agent_id
-        }
-
-        user_prompt = (
-                    "Here are your peers’ previous answers:\n"
-                    f"{json.dumps(peers, indent=2)}\n\n"
-                    "Please review your peers' reasoning and final choices. Based on their input and your own analysis, reconsider your initial assessment. "
-                    "You may either keep your original conclusion or change it.\n\n"
-                    "Please give your refined reasoning and final choice ('Yes' or 'No')."
-                    )
-
-        try:
-            raw = await self.llm_call(
-                user_prompt,
-                temperature=0.3,
-                guided_={"guided_json": self.schema}
-            )
-            parsed = safe_json_load(raw)
-            self.append_message(raw)
-            self.state["static agents"][self.agent_id][f"round_{self.round_id}"] = parsed
-            return parsed
-        except Exception as e:
-            logger.error("[%s] debate() failed: %s", self.agent_id, e)
-            return None
-        
 async def process_problem(df: pd.DataFrame, problem: str):
     logger.info(f"Processing problem '{problem}' for {len(df)} rows.")
     results = []
@@ -890,19 +898,19 @@ async def process_problem(df: pd.DataFrame, problem: str):
             hadm_id=hadm_id,
             problem=problem,
             label=label,
-            n_specialists='auto',  # or an integer
+            # n_specialists='auto',  # or an integer
+            n_generic_agents=5,
             consensus_threshold=0.8,
             max_consensus_attempts=4,
             max_assignment_attempts=3,
-            static_specialists=None,
         )
 
         # Run the manager's workflow
-        result = await manager.run_specialists()
+        result = await manager.run_generic_agents()
         results.append(result)
 
     # Save results for this problem
-    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/correction_all_3/3_problems_{problem.replace(' ', '_')}_new_temp.json"
+    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/generic/generic_{problem.replace(' ', '_')}_new_temp.json"
     with open(output_path, "w") as f:
         json.dump(results, f, indent=4)
     logger.info(f"[{problem}] Results saved to: {output_path}")
@@ -929,7 +937,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0417_MA_3_probs_outof_all_corrected.log', mode='w'), # Save to file
+            logging.FileHandler('log/0420_MA_aki_generic.log', mode='w'), # Save to file
             logging.StreamHandler()  # Print to console
         ]
     )

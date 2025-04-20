@@ -1,194 +1,87 @@
-# ──────────────── multi_agent_generic.py ────────────────
-from typing import List, Literal, Dict, Any, Optional
-import json, math, asyncio, logging
-from pydantic import BaseModel, Field
+async def _summarize_history(self, inplace: bool = True, message: str = "") -> bool | str:
+    logger.warning("[%s] Starting iterative summarization …", self.__class__.__name__)
 
-# import the core classes you already have
-from multi_agent_original import LLMAgent, Manager, safe_json_load   # path = your file
-
-logger = logging.getLogger(__name__)
-
-
-# ────────────────────────────────
-# 1) A role‑free sub–agent
-# ────────────────────────────────
-class GenericAgent(LLMAgent):
-    """
-    An LLM agent with *no* pre‑assigned medical specialty.
-    Every instance receives the same generic instruction set.
-    """
-
-    def __init__(self, name: str = "Agent"):
-        self.name = name            # e.g. “Agent_1”
-        self.answer_history: Dict[str, Any] = {}
-        self.round_id: int = 0
-        self.schema: Optional[Dict[str, Any]] = None
-
-        system_prompt = (
-            f"You are {self.name}, one of several peer LLMs jointly analysing a patient note.\n"
-            "You have broad, general medical knowledge (but no specific specialty).\n"
-            "• Work *independently* first, then debate with peers.\n"
-            "• Always return JSON that follows the given schema."
+    async def _summarize_once(text: str) -> str | None:
+        summary_prompt = (
+            "Summarize the following message concisely, "
+            "preserving all key facts and reasoning steps. "
+            "Do not exceed 1000 words.\n\n"
+            "<<<MESSAGE_START>>>\n"
+            f"{text}\n"
+            "<<<MESSAGE_END>>>"
         )
-        super().__init__(system_prompt)
-
-    # ---------- phase 1 : individual analysis ----------
-    async def analyse_note(self, note: str, problem: str):
-        self.round_id += 1
-
-        class Response(BaseModel):
-            reasoning: str = Field(..., description="Step‑by‑step reasoning.")
-            choice: Literal["Yes", "No"] = Field(..., description=f"Does the patient have {problem}?")
-
-        self.schema = Response.model_json_schema()
-
-        user_prompt = (
-            f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
-            f"Question: Does this patient have {problem}?\n"
-            "Please give your reasoning, then the choice ('Yes' or 'No')."
-        )
-
         try:
-            raw = await self.llm_call(
-                user_prompt,
+            resp = await self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {"role": "system", "content": "You are a summarization assistant."},
+                    {"role": "user",   "content": summary_prompt},
+                ],
                 temperature=0.1,
-                guided_={"guided_json": self.schema}
+                max_tokens=1500,
             )
-            parsed = safe_json_load(raw)
-            self.append_message(raw)
-            self.answer_history[f"round_{self.round_id}"] = parsed
-            return parsed
+            return resp.choices[0].message.content.strip()
         except Exception as e:
-            logger.error("[%s] analyse_note() failed: %s", self.name, e)
+            logger.error("Summarization call failed: %s", e)
             return None
 
-    # ---------- phase 2 : debate ----------
-    async def debate(self, panel_state: Dict[str, Any]):
-        self.round_id += 1
+    if inplace:  
+        if len(self.messages) < 3:
+            logger.warning("Not enough messages to summarise.")
+            return False
 
-        # Collect last‑round answers from *other* agents
-        peers = {
-            agent: info["answer_history"][f"round_{self.round_id-1}"]
-            for agent, info in panel_state.items()
-            if agent != self.name
-        }
+        def longest_idx() -> int:
+            return max(
+                (
+                    (i, count_llama_tokens([m]))
+                    for i, m in enumerate(self.messages)
+                    if m["role"] != "system"
+                ),
+                key=lambda t: t[1],
+            )[0]
 
-        user_prompt = (
-            "Here are your peers’ previous answers:\n"
-            f"{json.dumps(peers, indent=2)}\n\n"
-            "Re‑evaluate your own reasoning. "
-            "You may keep or change your answer, but justify it briefly."
-        )
+        failures = 0
+        while count_llama_tokens(self.messages) >= self.token_threshold:
+            idx = longest_idx()
+            summary = await _summarize_once(self.messages[idx]["content"])
+            if summary is None:
+                return False
 
-        try:
-            raw = await self.llm_call(
-                user_prompt,
-                temperature=0.3,
-                guided_={"guided_json": self.schema}
-            )
-            parsed = safe_json_load(raw)
-            self.append_message(raw)
-            self.answer_history[f"round_{self.round_id}"] = parsed
-            return parsed
-        except Exception as e:
-            logger.error("[%s] debate() failed: %s", self.name, e)
-            return None
+            # sanity‑check: summary must be shorter
+            if count_llama_tokens([{"role": "assistant", "content": summary}]) >= \
+               count_llama_tokens([self.messages[idx]]):
+                failures += 1
+                if failures > 3:
+                    logger.error("Summarization failed repeatedly. Aborting.")
+                    return False
+                continue
 
+            self.messages[idx]["content"] = f"[Summary] {summary}"
+            logger.info("Replaced longest message with summary (%d tokens total).",
+                        count_llama_tokens(self.messages))
+        return True
 
-# ────────────────────────────────
-# 2) Manager that *skips* specialty selection
-# ────────────────────────────────
-class ManagerGeneric(Manager):
-    """
-    Same high‑level workflow as your existing Manager, but:
-    • skips the “choose specialties” LLM step
-    • spawns a fixed number of GenericAgent instances
-    """
+    # ── summarise an external `message` string ───────────────────────────────────────────
+    if not message:
+        logger.warning("No message provided for summarization.")
+        return False
+    
+    summary = await _summarize_once(message)
+    if summary is None:
+        return False
+    message = summary
 
-    def __init__(
-        self,
-        note: str,
-        hadm_id: str,
-        problem: str,
-        label: str,
-        n_agents: int = 5,                       # <── number of sub‑agents you want
-        consensus_threshold: float = 0.8,
-        max_consensus_attempts: int = 3,
-    ):
-        super().__init__(
-            note=note,
-            hadm_id=hadm_id,
-            problem=problem,
-            label=label,
-            n_specialists=n_agents,              # we *reuse* the old variable internally
-            consensus_threshold=consensus_threshold,
-            max_consensus_attempts=max_consensus_attempts,
-            max_assignment_attempts=1,           # we assign only once
-            static_specialists=None,
-        )
+    failures = 0
+    while count_llama_tokens(message) >= self.token_threshold:
+        summary = await _summarize_once(message)
+        if summary is None:
+            return False
+        if count_llama_tokens(summary) >= count_llama_tokens(message):
+            failures += 1
+            if failures > 3:
+                logger.error("Summarization failed repeatedly. Aborting.")
+                return False
+            continue
+        message = summary     
 
-    # ---------- override ONLY the specialist‑assignment ----------
-    async def _assign_specialists(self):
-        self.assignment_attempts += 1
-        panel_key = f"panel_{self.assignment_attempts}"
-        self.state_dict[panel_key] = {
-            "Initially Identified Specialties": [],            # kept for compatibility
-            "Collected Specialists": {}
-        }
-
-        # Simply create n generic agent labels
-        agent_names = [f"Agent_{i+1}" for i in range(self.n_specialists)]
-        for name in agent_names:
-            self.state_dict[panel_key]["Collected Specialists"][name] = {
-                "expertise": [],           # empty
-                "answer_history": {}
-            }
-
-        logger.info("Assigned %d generic agents: %s", self.n_specialists, agent_names)
-        return self.state_dict
-
-    # ---------- override DynamicSpecialist → GenericAgent ----------
-    async def run(self):
-        # a *slim* re‑implementation of the part that instantiates sub‑agents
-        await self._assign_specialists()
-        panel_key = f"panel_{self.assignment_attempts}"
-        panel = [
-            GenericAgent(name)
-            for name in self.state_dict[panel_key]["Collected Specialists"].keys()
-        ]
-
-        # — analysis round —
-        analyse = [asyncio.create_task(agent.analyse_note(self.note, self.problem)) for agent in panel]
-        await asyncio.gather(*analyse)
-        self.consensus_attempts += 1
-        choice = self._check_consensus(self.assignment_attempts, self.consensus_attempts)
-        if choice:
-            self.state_dict["final"] = {
-                "final_choice": choice,
-                "final_reasoning": "Consensus reached"
-            }
-            return self.state_dict
-
-        # — debate rounds —
-        while self.consensus_attempts < self.max_consensus_attempts:
-            debate = [asyncio.create_task(agent.debate(
-                self.state_dict[panel_key]["Collected Specialists"]
-            )) for agent in panel]
-            await asyncio.gather(*debate)
-            self.consensus_attempts += 1
-            choice = self._check_consensus(self.assignment_attempts, self.consensus_attempts)
-            if choice:
-                self.state_dict["final"] = {
-                    "final_choice": choice,
-                    "final_reasoning": "Consensus reached"
-                }
-                return self.state_dict
-
-        # fall‑back aggregation (re‑use parent helper)
-        agg = await self._aggregate()
-        self.state_dict["final"] = {
-            "final_choice": agg.get("aggregated_choice", "Error"),
-            "final_reasoning": agg.get("aggregated_reasoning", "Aggregation failed")
-        }
-        return self.state_dict
-# ─────────────────────────────────────────────────────────
+    return message

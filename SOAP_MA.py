@@ -31,6 +31,10 @@ selected_problems = [
     'acute kidney injury',
 ]
 
+class Response(BaseModel):
+    reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
+    choice: Literal["Yes", "No"] = Field(..., description="Your choice indicating whether the patient has the problem.")
+
 class LLMAgent:
     def __init__(
         self, 
@@ -224,7 +228,7 @@ class LLMAgent:
     async def llm_call(
         self, 
         user_prompt: str, 
-        temperature: float = 0.5,
+        temperature: float = 0.3,
         guided_: dict = None,
         tools_descript: List[dict] = None, 
         available_tools: dict = None
@@ -268,29 +272,31 @@ class LLMAgent:
 
 
 class BaselineZS(LLMAgent):
-    """One‑shot classifier: no multi‑agent coordination, no debate."""
     def __init__(self):
         super().__init__("You are a clinical reasoning assistant.")
         self.schema = None   # filled lazily
 
-    async def classify(self, note: str, problem: str):
+    async def analyze_note(self, note: str, problem: str):
         if self.schema is None:                   # build schema once
-            class Resp(BaseModel):
-                reasoning: str
-                choice: Literal["Yes", "No"]
-            self.schema = Resp.model_json_schema()
+            self.schema = Response.model_json_schema()
 
-        prompt = (
+        user_prompt = (
             "Read the patient note and decide whether the patient has the specified problem.\n"
             f"<<<PATIENT NOTE>>>\n{note}\n<<<END NOTE>>>\n\n"
-            f"Question: Does this patient have {problem}? "
-            "Give your reasoning, then 'Yes' or 'No'."
+            f"Question: Does this patient have {problem}?\n"
+            "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
-        raw = await self.llm_call(prompt, temperature=0.1,
-                                  guided_={"guided_json": self.schema})
-        return safe_json_load(raw)
-
-
+        try:
+            raw = await self.llm_call(
+                user_prompt, 
+                temperature=0.1, 
+                guided_={"guided_json": self.schema}
+            )
+            parsed = safe_json_load(raw)
+            return parsed
+        except Exception as e:
+            logger.error("[BaselineZS] analyze_note() failed: %s", e)
+            return None
 
 class Manager(LLMAgent):
     def __init__(
@@ -343,7 +349,7 @@ class Manager(LLMAgent):
 
         if self.assignment_attempts > 1:
             previous_panel_history = json.dumps(self.state[f"panel_{self.assignment_attempts - 1}"]["Collected Specialists"], indent=4)
-            summary = self._summarize_history(inplace=False, message=previous_panel_history)
+            summary = await self._summarize_history(inplace=False, message=previous_panel_history)
             if isinstance(summary, str):
                 message=(f"The previous panel of specialists couldn’t reach consensus. "
                                                             f"Summary so far: \n{summary}\n\n"
@@ -621,10 +627,6 @@ class GenericAgent(LLMAgent):
 
     async def analyse_note(self, note: str, problem: str):
         self.round_id += 1
-
-        class Response(BaseModel):
-            reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
-            choice: Literal["Yes", "No"] = Field(..., description=f"Your choice indicating whether the patient has {problem}.")
         self.schema = Response.model_json_schema()
 
         user_prompt = (
@@ -667,7 +669,7 @@ class GenericAgent(LLMAgent):
         try:
             raw = await self.llm_call(
                 user_prompt,
-                temperature=0.3,
+                temperature=0.1,
                 guided_={"guided_json": self.schema}
             )
             parsed = safe_json_load(raw)
@@ -701,9 +703,7 @@ class DynamicSpecialist(LLMAgent):
     async def analyze_note(self, note: str, problem: str) -> Union[dict, None]: 
         self.round_id += 1
 
-        class Response(BaseModel):
-            reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
-            choice: Literal["Yes", "No"] = Field(..., description=f"Your choice indicating whether the patient has {problem}.")
+
         self.schema = Response.model_json_schema()
 
         user_prompt = (
@@ -745,7 +745,7 @@ class DynamicSpecialist(LLMAgent):
                     )
 
         try:
-            raw = await self.llm_call(user_prompt, temperature=0.3, guided_={"guided_json": self.schema})
+            raw = await self.llm_call(user_prompt, temperature=0.1, guided_={"guided_json": self.schema})
             parsed = safe_json_load(raw)
             self.append_message(raw)
             self.answer_history[f"round_{self.round_id}"] = parsed
@@ -849,12 +849,12 @@ class CaseBasedAgent(LLMAgent):
             "3) Provide your final choice ('Yes' or 'No').\n"
         )
 
-        class Response(BaseModel):
+        class RagResponse(BaseModel):
             summary: str = Field(..., description="Summary of similarities and differences.")
             reasoning: str = Field(..., description="Step-by-step reasoning leading to the final choice.")
             choice: Literal["Yes", "No"] = Field(..., description=f"Final choice indicating whether the patient has {problem}.")
 
-        guided_schema = Response.model_json_schema()
+        guided_schema = RagResponse.model_json_schema()
 
         try:
             response = await self.llm_call(
@@ -882,53 +882,84 @@ class CaseBasedAgent(LLMAgent):
         return parsed_response
 
 
-async def process_problem(df: pd.DataFrame, problem: str):
-    logger.info(f"Processing problem '{problem}' for {len(df)} rows.")
-    results = []
+async def run_generic(note, hadm_id, problem, label):
+    mgr = Manager(note, hadm_id, problem, label,
+                  n_generic_agents=5, consensus_threshold=0.8,
+                  max_consensus_attempts=4, max_assignment_attempts=3)
+    state = await mgr.run_generic_agents()
+    return {
+        "method": "generic_multi",
+        "hadm_id": hadm_id,
+        "label": label,
+        "choice": state["final"]["final_choice"],
+        "reasoning": state["final"]["final_reasoning"],
+        "raw_state": state,          # keep everything if you want
+    }
 
-    for idx, row in df.iterrows():
-        logger.info(f"[{problem}] Processing row index {idx}")
+async def run_dynamic(note, hadm_id, problem, label):
+    mgr = Manager(note, hadm_id, problem, label,
+                  n_specialists="auto", consensus_threshold=0.8,
+                  max_consensus_attempts=4, max_assignment_attempts=3)
+    state = await mgr.run_specialists()
+    return {
+        "method": "dynamic_multi",
+        "hadm_id": hadm_id,
+        "label": label,
+        "choice": state["final"]["final_choice"],
+        "reasoning": state["final"]["final_reasoning"],
+        "raw_state": state,
+    }
 
-        note_text = str(row["Subjective"]) + "\n" + str(row['Objective'])
-        hadm_id = row["File ID"]
-        label = row["combined_summary"]
+async def run_baseline(note, hadm_id, problem, label):
+    zs = BaselineZS()
+    out = await zs.analyze_note(note, problem)
+    if out:
+        return {
+            "method": "baseline_zs",
+            "hadm_id": hadm_id,
+            "label": label,
+            "choice": out["choice"],
+            "reasoning": out["reasoning"],
+            "raw_state": out,
+        }
+    else:
+        return {"method": "baseline_zs",
+                "hadm_id": hadm_id,
+                "label": label,
+                "choice": "ERROR",
+                "reasoning": "baseline failed",
+                "raw_state": {}}
 
-        manager = Manager(
-            note=note_text,
-            hadm_id=hadm_id,
-            problem=problem,
-            label=label,
-            # n_specialists='auto',  # or an integer
-            n_generic_agents=5,
-            consensus_threshold=0.8,
-            max_consensus_attempts=4,
-            max_assignment_attempts=3,
-        )
 
-        # Run the manager's workflow
-        result = await manager.run_generic_agents()
-        results.append(result)
+async def process_row(row, problem):
+    note = f"{row['Subjective']}\n{row['Objective']}"
+    hadm_id = row["File ID"]
+    label = row["combined_summary"]
 
-    # Save results for this problem
-    output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/generic/generic_{problem.replace(' ', '_')}_new_temp.json"
-    with open(output_path, "w") as f:
-        json.dump(results, f, indent=4)
-    logger.info(f"[{problem}] Results saved to: {output_path}")
+    tasks = [
+        run_generic(note, hadm_id, problem, label),
+        run_dynamic(note, hadm_id, problem, label),
+        run_baseline(note, hadm_id, problem, label),
+    ]
+    return await asyncio.gather(*tasks)           # returns a list of 3 dicts
+
+async def process_problem(df, problem):
+    logger.info("Processing %s (%d rows).", problem, len(df))
+    all_results = []
+
+    for _, row in df.iterrows():
+        all_results.extend(await process_row(row, problem))
+
+    out_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/generic/integrated_results_{problem.replace(' ','_')}.json"
+    with open(out_path, "w") as f:
+        json.dump(all_results, f, indent=2)
+    logger.info("[%s] saved to %s", problem, out_path)
 
 async def main():
-    df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_all_problems.csv"
-    df = pd.read_csv(df_path, lineterminator='\n')
-    logger.info("Loaded dataframe with %d rows.", len(df))
-
-    # Create an asyncio Task for each problem
-    tasks = []
-    for problem in selected_problems:
-        tasks.append(asyncio.create_task(process_problem(df, problem)))
-
-    # Run them concurrently
+    df = pd.read_csv("/home/yl3427/cylab/SOAP_MA/Input/SOAP_all_problems.csv", lineterminator="\n")
+    tasks = [asyncio.create_task(process_problem(df, p))
+             for p in selected_problems]
     await asyncio.gather(*tasks)
-
-    logger.info("All tasks completed.")
 
 
 if __name__ == "__main__":
@@ -937,7 +968,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0420_MA_aki_generic.log', mode='w'), # Save to file
+            logging.FileHandler('log/0421_MA_aki_integrated_test.log', mode='w'), # Save to file
             logging.StreamHandler()  # Print to console
         ]
     )

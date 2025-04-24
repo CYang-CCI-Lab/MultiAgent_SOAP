@@ -1,87 +1,125 @@
-async def _summarize_history(self, inplace: bool = True, message: str = "") -> bool | str:
-    logger.warning("[%s] Starting iterative summarization …", self.__class__.__name__)
+async def run_generic(note, hadm_id, problem, label):
+    mgr = Manager(note, hadm_id, problem, label,
+                  n_generic_agents=5, consensus_threshold=0.8,
+                  max_consensus_attempts=4, max_assignment_attempts=3)
+    state = await mgr.run_generic_agents()
+    return {
+        "method": "generic_multi",
+        "hadm_id": hadm_id,
+        "choice": state["final"]["final_choice"],
+        "reasoning": state["final"]["final_reasoning"],
+        "raw_state": state,          # keep everything if you want
+    }
 
-    async def _summarize_once(text: str) -> str | None:
-        summary_prompt = (
-            "Summarize the following message concisely, "
-            "preserving all key facts and reasoning steps. "
-            "Do not exceed 1000 words.\n\n"
-            "<<<MESSAGE_START>>>\n"
-            f"{text}\n"
-            "<<<MESSAGE_END>>>"
-        )
-        try:
-            resp = await self.client.chat.completions.create(
-                model=self.model_name,
-                messages=[
-                    {"role": "system", "content": "You are a summarization assistant."},
-                    {"role": "user",   "content": summary_prompt},
-                ],
-                temperature=0.1,
-                max_tokens=1500,
-            )
-            return resp.choices[0].message.content.strip()
-        except Exception as e:
-            logger.error("Summarization call failed: %s", e)
-            return None
+async def run_dynamic(note, hadm_id, problem, label):
+    mgr = Manager(note, hadm_id, problem, label,
+                  n_specialists="auto", consensus_threshold=0.8,
+                  max_consensus_attempts=4, max_assignment_attempts=3)
+    state = await mgr.run_specialists()
+    return {
+        "method": "dynamic_multi",
+        "hadm_id": hadm_id,
+        "choice": state["final"]["final_choice"],
+        "reasoning": state["final"]["final_reasoning"],
+        "raw_state": state,
+    }
 
-    if inplace:  
-        if len(self.messages) < 3:
-            logger.warning("Not enough messages to summarise.")
-            return False
+async def run_baseline(note, hadm_id, problem, label):
+    zs = BaselineZS()
+    out = await zs.classify(note, problem)
+    return {
+        "method": "baseline_zs",
+        "hadm_id": hadm_id,
+        "choice": out["choice"],
+        "reasoning": out["reasoning"],
+        "raw_state": out,
+    }
 
-        def longest_idx() -> int:
-            return max(
-                (
-                    (i, count_llama_tokens([m]))
-                    for i, m in enumerate(self.messages)
-                    if m["role"] != "system"
-                ),
-                key=lambda t: t[1],
-            )[0]
+async def process_row(row, problem):
+    note = f"{row['Subjective']}\n{row['Objective']}"
+    hadm_id = row["File ID"]
+    label = row["combined_summary"]
 
-        failures = 0
-        while count_llama_tokens(self.messages) >= self.token_threshold:
-            idx = longest_idx()
-            summary = await _summarize_once(self.messages[idx]["content"])
-            if summary is None:
-                return False
+    tasks = [
+        run_generic(note, hadm_id, problem, label),
+        run_dynamic(note, hadm_id, problem, label),
+        run_baseline(note, hadm_id, problem, label),
+    ]
+    return await asyncio.gather(*tasks)           # returns a list of 3 dicts
 
-            # sanity‑check: summary must be shorter
-            if count_llama_tokens([{"role": "assistant", "content": summary}]) >= \
-               count_llama_tokens([self.messages[idx]]):
-                failures += 1
-                if failures > 3:
-                    logger.error("Summarization failed repeatedly. Aborting.")
-                    return False
-                continue
+async def process_problem(df, problem):
+    logger.info("Processing %s (%d rows).", problem, len(df))
+    all_results = []
 
-            self.messages[idx]["content"] = f"[Summary] {summary}"
-            logger.info("Replaced longest message with summary (%d tokens total).",
-                        count_llama_tokens(self.messages))
-        return True
+    for _, row in df.iterrows():
+        all_results.extend(await process_row(row, problem))
 
-    # ── summarise an external `message` string ───────────────────────────────────────────
-    if not message:
-        logger.warning("No message provided for summarization.")
-        return False
-    
-    summary = await _summarize_once(message)
-    if summary is None:
-        return False
-    message = summary
+    out_path = f"/…/results_{problem.replace(' ','_')}.json"
+    with open(out_path, "w") as f:
+        json.dump(all_results, f, indent=2)
+    logger.info("[%s] saved to %s", problem, out_path)
 
-    failures = 0
-    while count_llama_tokens(message) >= self.token_threshold:
-        summary = await _summarize_once(message)
-        if summary is None:
-            return False
-        if count_llama_tokens(summary) >= count_llama_tokens(message):
-            failures += 1
-            if failures > 3:
-                logger.error("Summarization failed repeatedly. Aborting.")
-                return False
-            continue
-        message = summary     
+async def main():
+    df = pd.read_csv("/…/SOAP_all_problems.csv", lineterminator="\n")
+    tasks = [asyncio.create_task(process_problem(df, p))
+             for p in selected_problems]
+    await asyncio.gather(*tasks)
 
-    return message
+# df = pd.read_json("results_acute_kidney_injury.json")
+# df.groupby("method")["choice"].eq(df["label"]).mean()
+
+
+
+
+
+
+
+####
+
+# async def process_problem(df: pd.DataFrame, problem: str):
+#     logger.info(f"Processing problem '{problem}' for {len(df)} rows.")
+#     results = []
+
+#     for idx, row in df.iterrows():
+#         logger.info(f"[{problem}] Processing row index {idx}")
+
+#         note_text = str(row["Subjective"]) + "\n" + str(row['Objective'])
+#         hadm_id = row["File ID"]
+#         label = row["combined_summary"]
+
+#         manager = Manager(
+#             note=note_text,
+#             hadm_id=hadm_id,
+#             problem=problem,
+#             label=label,
+#             # n_specialists='auto',  # or an integer
+#             n_generic_agents=5,
+#             consensus_threshold=0.8,
+#             max_consensus_attempts=4,
+#             max_assignment_attempts=3,
+#         )
+
+#         # Run the manager's workflow
+#         result = await manager.run_generic_agents()
+#         results.append(result)
+
+#     # Save results for this problem
+#     output_path = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/generic/generic_{problem.replace(' ', '_')}_new_temp.json"
+#     with open(output_path, "w") as f:
+#         json.dump(results, f, indent=4)
+#     logger.info(f"[{problem}] Results saved to: {output_path}")
+
+# async def main():
+#     df_path = "/home/yl3427/cylab/SOAP_MA/Input/SOAP_all_problems.csv"
+#     df = pd.read_csv(df_path, lineterminator='\n')
+#     logger.info("Loaded dataframe with %d rows.", len(df))
+
+#     # Create an asyncio Task for each problem
+#     tasks = []
+#     for problem in selected_problems:
+#         tasks.append(asyncio.create_task(process_problem(df, problem)))
+
+#     # Run them concurrently
+#     await asyncio.gather(*tasks)
+
+#     logger.info("All tasks completed.")

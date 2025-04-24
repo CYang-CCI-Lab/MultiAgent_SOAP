@@ -1,0 +1,414 @@
+2025-04-21 08:19:43 - INFO - Processing acute kidney injury (10 rows).
+2025-04-21 08:19:43 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:19:43 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:19:43 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:19:43 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:19:43 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:19:43 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:43 - INFO - Assignment attempt #1 started.
+2025-04-21 08:19:43 - INFO - Starting assignment attempt #1.
+2025-04-21 08:19:43 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:19:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:19:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:05 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:08 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:08 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis and management', 'Renal replacement therapy', 'Electrolyte imbalance', 'Fluid management']
+2025-04-21 08:20:08 - INFO - Specialist Critical Care Attending Physician assigned with expertise: ['Critical care medicine', 'Hemodynamic monitoring', 'Mechanical ventilation', 'Sepsis management', 'Multi-organ failure']
+2025-04-21 08:20:08 - INFO - Specialist Cardiologist assigned with expertise: ['Cardiac dysfunction', 'Hypotension management', 'Cardiac arrhythmias', 'Cardiogenic shock']
+2025-04-21 08:20:08 - INFO - Specialist Hospitalist assigned with expertise: ['Internal medicine', 'General medical care', 'Infection management', 'Antibiotic therapy', 'Systemic inflammation']
+2025-04-21 08:20:08 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:08 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:20:08 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:08 - INFO - [Critical Care Attending Physician] Initialized...
+2025-04-21 08:20:08 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:08 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:20:08 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:08 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:20:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:26 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:20:26 - INFO - Consensus found on choice 'No' with 4/4 specialists.
+2025-04-21 08:20:26 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:20:26 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:20:26 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:20:26 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:20:26 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:20:26 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:26 - INFO - Assignment attempt #1 started.
+2025-04-21 08:20:26 - INFO - Starting assignment attempt #1.
+2025-04-21 08:20:26 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:46 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:49 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:20:49 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis', 'Renal function assessment', 'Electrolyte imbalance management']
+2025-04-21 08:20:49 - INFO - Specialist ICU Attending Physician assigned with expertise: ['Critical care medicine', 'Hemodynamic monitoring', 'Fluid balance management', 'Multi-organ support']
+2025-04-21 08:20:49 - INFO - Specialist Cardiologist assigned with expertise: ['Cardiac enzyme interpretation', 'EKG analysis', 'Cardiovascular disease management', 'Hypotension management']
+2025-04-21 08:20:49 - INFO - Specialist Hospitalist assigned with expertise: ['Internal medicine', 'Medical comorbidities management', 'Medication review', 'Overall patient assessment']
+2025-04-21 08:20:49 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:49 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:20:49 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:49 - INFO - [ICU Attending Physician] Initialized...
+2025-04-21 08:20:49 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:49 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:20:49 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:20:49 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:20:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:09 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:16 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:21:16 - INFO - Consensus found on choice 'No' with 4/4 specialists.
+2025-04-21 08:21:16 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:21:16 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:21:16 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:21:16 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:21:16 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:21:16 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:16 - INFO - Assignment attempt #1 started.
+2025-04-21 08:21:16 - INFO - Starting assignment attempt #1.
+2025-04-21 08:21:16 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:32 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:38 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis', 'Renal function assessment', 'Electrolyte imbalance management']
+2025-04-21 08:21:38 - INFO - Specialist Critical Care Physician assigned with expertise: ['Hemodynamic monitoring', 'Fluid balance management', 'Sepsis recognition and treatment']
+2025-04-21 08:21:38 - INFO - Specialist Cardiologist assigned with expertise: ['Heart rhythm interpretation', 'Cardiac medication management', 'Hypertension management']
+2025-04-21 08:21:38 - INFO - Specialist Hospitalist assigned with expertise: ['General medical management', 'Medication interaction assessment', 'Overall patient care coordination']
+2025-04-21 08:21:38 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:38 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:21:38 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:38 - INFO - [Critical Care Physician] Initialized...
+2025-04-21 08:21:38 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:38 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:21:38 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:21:38 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:21:52 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:21:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:04 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:11 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:12 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:22:12 - INFO - Consensus found on choice 'Yes' with 4/4 specialists.
+2025-04-21 08:22:12 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:22:12 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:22:12 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:22:12 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:22:12 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:22:12 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:12 - INFO - Assignment attempt #1 started.
+2025-04-21 08:22:12 - INFO - Starting assignment attempt #1.
+2025-04-21 08:22:12 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:17 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:26 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:35 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis', 'Renal function assessment', 'Fluid balance management', 'Electrolyte imbalance correction']
+2025-04-21 08:22:35 - INFO - Specialist Critical Care Physician assigned with expertise: ['Hemodynamic monitoring', 'Vital sign interpretation', 'Respiratory support management', 'Multi-organ failure prevention']
+2025-04-21 08:22:35 - INFO - Specialist Hospitalist assigned with expertise: ['General internal medicine', 'Medication management', 'Infection control', 'Systemic disease diagnosis']
+2025-04-21 08:22:35 - INFO - Specialist Cardiologist assigned with expertise: ['Cardiac rhythm interpretation', 'Heart failure management', 'Hypertension control', 'Cardiovascular disease diagnosis']
+2025-04-21 08:22:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:35 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:22:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:35 - INFO - [Critical Care Physician] Initialized...
+2025-04-21 08:22:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:35 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:22:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:35 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:22:48 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:52 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:56 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:22:56 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:22:56 - INFO - Consensus found on choice 'No' with 4/4 specialists.
+2025-04-21 08:22:56 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:22:56 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:22:56 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:22:56 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:22:56 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:22:56 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:22:56 - INFO - Assignment attempt #1 started.
+2025-04-21 08:22:56 - INFO - Starting assignment attempt #1.
+2025-04-21 08:22:56 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:25 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis', 'Renal function assessment', 'Electrolyte imbalance management']
+2025-04-21 08:23:25 - INFO - Specialist Intensivist assigned with expertise: ['Critical care management', 'Hemodynamic monitoring', 'Fluid balance management', 'Multi-organ support']
+2025-04-21 08:23:25 - INFO - Specialist Cardiologist assigned with expertise: ['Supraventricular Tachycardia (SVT) management', 'Cardiac enzyme interpretation', 'Hemodynamic instability assessment']
+2025-04-21 08:23:25 - INFO - Specialist Gastroenterologist assigned with expertise: ['Hiatal hernia management', 'Gastrointestinal motility disorders', 'Nausea and vomiting management']
+2025-04-21 08:23:25 - INFO - Specialist Thoracic Surgeon assigned with expertise: ['Hiatal hernia repair', 'Thoracic surgical procedures', 'Pre-operative assessment and planning']
+2025-04-21 08:23:25 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:25 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:23:25 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:25 - INFO - [Intensivist] Initialized...
+2025-04-21 08:23:25 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:25 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:23:25 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:25 - INFO - [Gastroenterologist] Initialized...
+2025-04-21 08:23:25 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:25 - INFO - [Thoracic Surgeon] Initialized...
+2025-04-21 08:23:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:31 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:54 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:55 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:23:55 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:23:55 - INFO - Consensus found on choice 'No' with 5/5 specialists.
+2025-04-21 08:23:55 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:23:55 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:23:55 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:23:55 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:23:55 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:23:55 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:23:55 - INFO - Assignment attempt #1 started.
+2025-04-21 08:23:55 - INFO - Starting assignment attempt #1.
+2025-04-21 08:23:55 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:24:00 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:16 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:16 - INFO - Specialist Nephrologist assigned with expertise: ['Acute kidney injury diagnosis and management', 'Renal replacement therapy', 'Electrolyte imbalance', 'Fluid management']
+2025-04-21 08:24:16 - INFO - Specialist Critical Care Physician assigned with expertise: ['Critical care medicine', 'Multi-organ failure', 'Sepsis management', 'Mechanical ventilation', 'Hemodynamic monitoring']
+2025-04-21 08:24:16 - INFO - Specialist Hospitalist assigned with expertise: ['Internal medicine', 'General medical care', 'Infection management', 'Medication management', 'Post-operative care']
+2025-04-21 08:24:16 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:24:16 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:24:16 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:24:16 - INFO - [Critical Care Physician] Initialized...
+2025-04-21 08:24:16 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:24:16 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:24:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:30 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:38 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:24:43 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:24:43 - INFO - No consensus found.
+2025-04-21 08:24:43 - INFO - Debate attempt #2 started.
+2025-04-21 08:25:06 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:13 - INFO - Checking for consensus among specialists in panel_1, round_2.
+2025-04-21 08:25:13 - INFO - Consensus found on choice 'Yes' with 3/3 specialists.
+2025-04-21 08:25:13 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:25:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:25:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:25:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:25:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:25:13 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:13 - INFO - Assignment attempt #1 started.
+2025-04-21 08:25:13 - INFO - Starting assignment attempt #1.
+2025-04-21 08:25:13 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:37 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:37 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis and management', 'Renal function assessment', 'Electrolyte imbalance management']
+2025-04-21 08:25:37 - INFO - Specialist Cardiologist assigned with expertise: ['Cardiac arrhythmia management', 'Myocardial infarction diagnosis and treatment', 'Cardiac biomarker interpretation (e.g., troponin)']
+2025-04-21 08:25:37 - INFO - Specialist Intensivist assigned with expertise: ['Critical care medicine', 'Hemodynamic monitoring and management', 'Fluid balance and resuscitation']
+2025-04-21 08:25:37 - INFO - Specialist Hospitalist assigned with expertise: ['Internal medicine', 'General medical management', 'Medication management (e.g., atorvastatin, eptifibatide)']
+2025-04-21 08:25:37 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:37 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:25:37 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:37 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:25:37 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:37 - INFO - [Intensivist] Initialized...
+2025-04-21 08:25:37 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:25:37 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:25:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:25:55 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:13 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:26:13 - INFO - Consensus found on choice 'No' with 4/4 specialists.
+2025-04-21 08:26:13 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:26:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:26:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:26:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:26:13 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:26:13 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:13 - INFO - Assignment attempt #1 started.
+2025-04-21 08:26:13 - INFO - Starting assignment attempt #1.
+2025-04-21 08:26:13 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:18 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:33 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:34 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:35 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis', 'Renal function assessment', 'Electrolyte imbalance management']
+2025-04-21 08:26:35 - INFO - Specialist Critical Care Physician assigned with expertise: ['Hemodynamic monitoring', 'Fluid balance management', 'Sepsis recognition and treatment']
+2025-04-21 08:26:35 - INFO - Specialist Hospitalist assigned with expertise: ['General internal medicine', 'Patient assessment and management', 'Medication management']
+2025-04-21 08:26:35 - INFO - Specialist Hematology Consultant assigned with expertise: ['Blood transfusion management', 'Coagulation disorders', 'Anemia diagnosis and treatment']
+2025-04-21 08:26:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:35 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:26:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:35 - INFO - [Critical Care Physician] Initialized...
+2025-04-21 08:26:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:35 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:26:35 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:35 - INFO - [Hematology Consultant] Initialized...
+2025-04-21 08:26:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:41 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:57 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:26:58 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:26:58 - INFO - Consensus found on choice 'No' with 4/4 specialists.
+2025-04-21 08:26:58 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:26:58 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:26:58 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:26:58 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:26:58 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:26:58 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:26:58 - INFO - Assignment attempt #1 started.
+2025-04-21 08:26:58 - INFO - Starting assignment attempt #1.
+2025-04-21 08:26:58 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:02 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:19 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:21 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:21 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis and management', 'Renal function assessment', 'Electrolyte imbalance management']
+2025-04-21 08:27:21 - INFO - Specialist Critical Care Physician assigned with expertise: ['Hemodynamic monitoring', 'Fluid balance management', 'Multi-organ support in critically ill patients']
+2025-04-21 08:27:21 - INFO - Specialist Cardiologist assigned with expertise: ['Atrial Fibrillation management', 'Cardiac complications in critically ill patients', 'Troponin elevation interpretation']
+2025-04-21 08:27:21 - INFO - Specialist Hospitalist assigned with expertise: ['General medical management', 'Medication side effect assessment (e.g., rash)', 'Overall patient care coordination']
+2025-04-21 08:27:21 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:21 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:27:21 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:21 - INFO - [Critical Care Physician] Initialized...
+2025-04-21 08:27:21 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:21 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:27:21 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:21 - INFO - [Hospitalist] Initialized...
+2025-04-21 08:27:23 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:24 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:25 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:27 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:28 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:43 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:45 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:48 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:53 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:27:53 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:27:53 - INFO - Consensus found on choice 'Yes' with 4/4 specialists.
+2025-04-21 08:27:53 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - [GenericAgent 'generic_agent_1'] Initialized...
+2025-04-21 08:27:53 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - [GenericAgent 'generic_agent_2'] Initialized...
+2025-04-21 08:27:53 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - [GenericAgent 'generic_agent_3'] Initialized...
+2025-04-21 08:27:53 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - [GenericAgent 'generic_agent_4'] Initialized...
+2025-04-21 08:27:53 - INFO - [GenericAgent] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - [GenericAgent 'generic_agent_5'] Initialized...
+2025-04-21 08:27:53 - INFO - [Manager] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:53 - INFO - Assignment attempt #1 started.
+2025-04-21 08:27:53 - INFO - Starting assignment attempt #1.
+2025-04-21 08:27:53 - INFO - [BaselineZS] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:27:58 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:12 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:13 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:15 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:15 - INFO - Specialist Nephrologist assigned with expertise: ['Acute Kidney Injury (AKI) diagnosis and management', 'Renal replacement therapy', 'Electrolyte imbalance', 'Fluid management']
+2025-04-21 08:28:15 - INFO - Specialist Intensivist assigned with expertise: ['Critical care medicine', 'Hemodynamic monitoring', 'Vasopressor management', 'Multi-organ failure']
+2025-04-21 08:28:15 - INFO - Specialist Cardiologist assigned with expertise: ['Cardiovascular disease management', 'Hemodynamic support', 'Cardiac arrhythmias', 'Cardiorenal syndrome']
+2025-04-21 08:28:15 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:28:15 - INFO - [Nephrologist] Initialized...
+2025-04-21 08:28:15 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:28:15 - INFO - [Intensivist] Initialized...
+2025-04-21 08:28:15 - INFO - [DynamicSpecialist] Initialized. Token limit: 24000, Summarization threshold: 19200
+2025-04-21 08:28:15 - INFO - [Cardiologist] Initialized...
+2025-04-21 08:28:33 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:35 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:36 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 08:28:36 - INFO - Checking for consensus among specialists in panel_1, round_1.
+2025-04-21 08:28:36 - INFO - Consensus found on choice 'Yes' with 3/3 specialists.
+2025-04-21 08:28:36 - INFO - [acute kidney injury] saved to /home/yl3427/cylab/SOAP_MA/Output/SOAP/generic/results_acute_kidney_injury_test.json

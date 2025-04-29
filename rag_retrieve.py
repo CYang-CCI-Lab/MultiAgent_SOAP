@@ -1,7 +1,9 @@
 import os
 import json
+import pickle
 import logging
-
+import pandas as pd
+import time
 import torch
 from dotenv import load_dotenv, find_dotenv
 from transformers import AutoTokenizer, AutoModel
@@ -12,6 +14,7 @@ import chromadb
 from chromadb.config import Settings
 from typing import List, Dict, Any
 
+# environment should be "base"
 # ------------------
 # Logging Setup
 # ------------------
@@ -118,6 +121,8 @@ def hybrid_query(
         query_embeddings=query_embedding,
         n_results=semantic_k
     )
+
+    logger.info(f"Semantic query returned {type(semantic_results)}, {semantic_results.keys()}")
     results_semantic_ids = [full_id.split("_")[0] for full_id in semantic_results["ids"][0]]
     semantic_id_set = set(results_semantic_ids)
     logger.info(f"Semantic top-{semantic_k} hadm_ids: {results_semantic_ids}")
@@ -195,7 +200,7 @@ def main():
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler('log/0410_MA_3_probs_parallel_static.log', mode='w'),  # 파일로 저장
+            logging.FileHandler('log/rag.log', mode='w'),  # 파일로 저장
             logging.StreamHandler()  # 콘솔에 출력
         ]
     )
@@ -203,7 +208,7 @@ def main():
     setup_environment()
 
     # 1) Paths
-    json_path = "/secure/shared_data/SOAP/MIMIC/cases_base.json"
+    json_path = "/secure/shared_data/SOAP/MIMIC/full_cases_base.json"
     chroma_db_path = "/secure/shared_data/rag_embedding_model/chroma_db"
     model_cache_dir = "/secure/shared_data/rag_embedding_model"
     model_name = "nvidia/NV-Embed-v2"
@@ -217,7 +222,17 @@ def main():
         trust_remote_code=True,
         cache_dir=model_cache_dir
     )
-    docs_processed = create_documents(cases, tokenizer, max_length=512)
+    # docs_processed = create_documents(cases, tokenizer, max_length=512)
+    chunked_doc_file = "chunked_documents.pkl"
+    if os.path.exists(chunked_doc_file):
+        with open(chunked_doc_file, "rb") as f:
+            docs_processed = pickle.load(f)
+        logger.info(f"Loaded pre-chunked documents from {chunked_doc_file}")
+    else:
+        docs_processed = create_documents(cases, tokenizer, max_length=512)
+        with open(chunked_doc_file, "wb") as f:
+            pickle.dump(docs_processed, f)
+        logger.info(f"Created and saved {len(docs_processed)} chunked documents to {chunked_doc_file}")
 
     # 4) Connect to existing Chroma DB
     client = chromadb.PersistentClient(
@@ -242,10 +257,19 @@ def main():
         "Given the following clinical note, retrieve the most similar clinical case. "
         "The clinical note is:\n\n"
     )
-    query_text = (
-        "pleuritic right chest pain\n- patient started on coumadin\n..."
-        "respiratory support\no2 delivery device: nasal cannula\nspo2: 98%\n..."
-    )
+
+    input_df = pd.read_csv("/home/yl3427/cylab/SOAP_MA/Input/SOAP_3_problems_mini.csv", lineterminator="\n")
+    row = input_df.iloc[3]
+    query_text = f"{row['Subjective']}\n{row['Objective']}"
+
+    # query_text = (
+    #     "pleuritic right chest pain\n- patient started on coumadin\n..."
+    #     "respiratory support\no2 delivery device: nasal cannula\nspo2: 98%\n..."
+    # )
+
+    # --- Time the Hybrid Retrieval ---
+    logger.info("Starting the hybrid query...")
+    start_time = time.time() # <-- Start timer
 
     retrieved = hybrid_query(
         cases=cases,
@@ -256,15 +280,30 @@ def main():
         query_prefix=query_prefix,
         max_length=512,
         semantic_k=5,
-        bm25_k=5,
-        bm25_weight=0.5
+        bm25_k=0,
+        bm25_weight=0
     )
+    end_time = time.time() # <-- End timer
+    elapsed_time = end_time - start_time
+    logger.info(f"--- Hybrid query finished. Time taken: {elapsed_time:.2f} seconds ---")
+    # ----------------------------------
+
 
     # 6) Print out final docs
     logger.info("---------- FINAL RETRIEVED DOCS ----------")
     for idx, doc_text in enumerate(retrieved, start=1):
         print(f"\n--- Retrieved Doc #{idx} ---")
         print(doc_text)
+
+    # --- New: Save results ---
+    json_out = "log/final_retrieved_docs.json"
+    with open(json_out, "w") as jf:
+        json.dump(retrieved, jf, indent=2)
+    logger.info(f"Final docs saved as JSON to {json_out}")
+
+    csv_out = "log/final_retrieved_docs.csv"
+    pd.DataFrame(retrieved).to_csv(csv_out, index=False)
+    logger.info(f"Final docs saved as CSV to {csv_out}")
 
 
 if __name__ == "__main__":

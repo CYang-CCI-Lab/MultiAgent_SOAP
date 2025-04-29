@@ -1,0 +1,1004 @@
+[
+  {
+    "method": "baseline_zs",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "Yes",
+    "reasoning": "The patient's presentation with severe pulmonary edema, as noted in the chest X-ray (CXR) report, is a key indicator of congestive heart failure (CHF). Pulmonary edema is a condition characterized by excess fluid in the lungs, often due to the heart's inability to pump effectively, which is a hallmark of CHF. Additionally, the patient's history of being hypotensive and requiring vasopressor support (norepinephrine) and having a murmur heard best at the base radiating to the apex, suggests cardiac dysfunction. The improvement in pulmonary edema with treatment, as mentioned, further supports the diagnosis of CHF. The patient's troponin-T level is elevated at 4.84, indicating myocardial injury, which can be associated with CHF. The presence of small bilateral pleural effusions also supports the diagnosis, as fluid overload is common in CHF. Lastly, the patient's requirement for invasive ventilation and the use of an endotracheal tube for respiratory support indicate severe respiratory compromise, which can be a consequence of CHF.",
+    "raw_state": {
+      "reasoning": "The patient's presentation with severe pulmonary edema, as noted in the chest X-ray (CXR) report, is a key indicator of congestive heart failure (CHF). Pulmonary edema is a condition characterized by excess fluid in the lungs, often due to the heart's inability to pump effectively, which is a hallmark of CHF. Additionally, the patient's history of being hypotensive and requiring vasopressor support (norepinephrine) and having a murmur heard best at the base radiating to the apex, suggests cardiac dysfunction. The improvement in pulmonary edema with treatment, as mentioned, further supports the diagnosis of CHF. The patient's troponin-T level is elevated at 4.84, indicating myocardial injury, which can be associated with CHF. The presence of small bilateral pleural effusions also supports the diagnosis, as fluid overload is common in CHF. Lastly, the patient's requirement for invasive ventilation and the use of an endotracheal tube for respiratory support indicate severe respiratory compromise, which can be a consequence of CHF.",
+      "choice": "Yes"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring vasopressor support, evidence of pulmonary edema on chest X-ray (improvement in prior severe pulmonary edema and presence of small bilateral pleural effusions), and the need for invasive ventilation and positive end-expiratory pressure (PEEP). Additionally, the patient has a murmur heard best at the base that radiates to the apex, which could be indicative of heart failure. The patient's troponin-T level is also elevated at 4.84, suggesting myocardial injury, which can be associated with heart failure. The presence of these signs and symptoms collectively points towards congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring levophed, a murmur heard best at the base and radiating to the apex, and evidence of pulmonary edema on the chest X-ray (cxr). Additionally, the patient is on invasive ventilation and has a history of febrile illness, which may have contributed to cardiac decompensation. The presence of small bilateral pleural effusions also supports the diagnosis of congestive heart failure. Furthermore, the patient's troponin-t level is elevated at 4.84, indicating cardiac injury, and the ckmb is 36, which is a marker of cardiac muscle damage. The patient's ekg was unchanged after the hypotensive episode, but the overall clinical picture suggests cardiac dysfunction. The improvement in pulmonary edema on the cxr also suggests that the patient's heart failure is being managed, but the presence of a left upper lobe opacity and small bilateral pleural effusions indicates ongoing cardiac issues.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring vasopressor support, evidence of pulmonary edema on chest X-ray (improvement in prior severe pulmonary edema and presence of small bilateral pleural effusions), and the need for invasive ventilation and positive end-expiratory pressure (PEEP). Additionally, the patient has a murmur heard best at the base that radiates to the apex, which could be indicative of heart failure. The patient's lab results also show elevated troponin levels, which can be associated with cardiac injury or strain, often seen in heart failure. The presence of these factors collectively suggests that the patient is experiencing congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring levophed, a murmur heard best at the base and radiating to the apex, and evidence of pulmonary edema on the chest X-ray (cxr). Additionally, the patient is on invasive ventilation and has a high troponin level, which can be associated with cardiac injury. The cxr also shows small bilateral pleural effusions, which can be a sign of fluid overload, a common feature of congestive heart failure. Furthermore, the patient's ABG results and the need for increased PEEP to improve oxygenation suggest significant respiratory compromise, consistent with pulmonary edema. The presence of a cardiomediastinal silhouette and hilar contours that are normal, however, does not directly indicate congestive heart failure, but the overall clinical picture, including the patient's response to treatment and the improvement in pulmonary edema, supports the diagnosis of congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring vasopressor support, evidence of pulmonary edema on chest X-ray (improvement in prior severe pulmonary edema but with a new left upper lobe opacity and small bilateral pleural effusions), and the need for invasive ventilation and positive end-expiratory pressure (PEEP). Additionally, the patient has a murmur heard best at the base radiating to the apex, which could suggest valvular heart disease contributing to heart failure. The patient's troponin-T level is also elevated at 4.84, indicating some degree of myocardial injury, which can be seen in heart failure. The presence of these factors supports the diagnosis of congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring levophed, a murmur heard best at the base and radiating to the apex, and evidence of pulmonary edema on the chest X-ray (cxr). Additionally, the patient is on invasive ventilation and has a history of febrile illness, which may have contributed to cardiac decompensation. The presence of small bilateral pleural effusions also supports the diagnosis of congestive heart failure. Furthermore, the patient's troponin-t level is elevated at 4.84, indicating cardiac injury, and the ckmb level is 36, which may suggest myocardial damage. The patient's ekg was unchanged after the hypotensive episode, but the overall clinical picture is consistent with congestive heart failure. The improvement in pulmonary edema on the cxr also suggests that the patient is responding to treatment for congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note mentions several indicators of congestive heart failure, including a history of hypotension requiring vasopressor support, evidence of pulmonary edema on chest X-ray (improvement in prior severe pulmonary edema and presence of small bilateral pleural effusions), and the need for invasive ventilation and positive end-expiratory pressure (PEEP). Additionally, the patient has a murmur heard best at the base that radiates to the apex, which could be indicative of heart failure. The patient's troponin-T level is also elevated at 4.84, suggesting myocardial injury, which can be associated with heart failure. The presence of these factors collectively points towards congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Cardiology",
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Cardiac electrophysiologist",
+            "Cardiologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. The patient's vital signs, including blood pressure and heart rate, are within normal limits. Additionally, the patient's oxygen saturation is 94% on a nasal cannula, which does not indicate severe respiratory distress. The chest X-ray (CXR) result is not explicitly stated, but it is mentioned as '? pna' (possible pneumonia), which may be a concern, but it does not directly indicate congestive heart failure (CHF). The patient's hemodynamic monitoring and fluid balance data do not show signs of fluid overload, which is a common feature of CHF. The patient is receiving heparin sodium, which may be for prophylaxis or treatment of thrombosis, but it does not directly relate to CHF. The patient's medications, including atenolol, may be for rate control or hypertension, but they do not necessarily indicate CHF. Overall, based on the provided information, there is no clear evidence to suggest that the patient has congestive heart failure.",
+    "raw_state": {
+      "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. The patient's vital signs, including blood pressure and heart rate, are within normal limits. Additionally, the patient's oxygen saturation is 94% on a nasal cannula, which does not indicate severe respiratory distress. The chest X-ray (CXR) result is not explicitly stated, but it is mentioned as '? pna' (possible pneumonia), which may be a concern, but it does not directly indicate congestive heart failure (CHF). The patient's hemodynamic monitoring and fluid balance data do not show signs of fluid overload, which is a common feature of CHF. The patient is receiving heparin sodium, which may be for prophylaxis or treatment of thrombosis, but it does not directly relate to CHF. The patient's medications, including atenolol, may be for rate control or hypertension, but they do not necessarily indicate CHF. Overall, based on the provided information, there is no clear evidence to suggest that the patient has congestive heart failure.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. The patient's vital signs, including blood pressure and heart rate, are within normal limits. Additionally, the patient's oxygen saturation is at 94% on a nasal cannula, which does not indicate severe respiratory distress. The patient was admitted with hypotension and hypoxia, but both had resolved by the time of arrival in the unit. There is no mention of pulmonary edema or other signs of congestive heart failure, such as jugular venous distension or peripheral edema, in the review of systems or physical examination. The patient is on heparin sodium, which may be for prophylaxis or treatment of other conditions, but there is no clear indication of congestive heart failure. The patient's troponin-t level is <0.01, which is within normal limits, and the BNP (brain natriuretic peptide) level is not reported, but the absence of other signs and symptoms of congestive heart failure makes it less likely. ",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. Additionally, the patient's vital signs, including blood pressure and heart rate, are within normal limits. The patient is also not showing any signs of fluid overload, such as pulmonary edema, as the chest X-ray (CXR) only mentions a possible pneumonia (? pna) without any mention of cardiomegaly or pulmonary congestion. The patient's oxygen saturation is also at 94% on a nasal cannula, which is relatively stable. The hemodynamic monitoring and fluid balance data do not indicate any signs of heart failure, such as significant fluid retention or hypotension. Overall, based on the provided information, there is no clear evidence to suggest that the patient has congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. The patient's vital signs, including blood pressure and heart rate, are within normal limits. Additionally, the patient's oxygen saturation is at 94% on a nasal cannula, which does not indicate severe respiratory distress. The patient was admitted with hypotension and hypoxia, but both had resolved by the time of arrival in the unit. There is no mention of pulmonary edema or other signs of congestive heart failure, such as jugular venous distension or peripheral edema, in the review of systems or physical examination. The patient is on heparin sodium, which may be for prophylaxis or treatment of other conditions, but there is no clear indication of congestive heart failure. The patient's troponin-T level is <0.01, which is within normal limits, and the BNP (brain natriuretic peptide) level is not reported. However, based on the available information, there is no clear evidence to suggest congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. Additionally, the patient's vital signs, such as blood pressure (107/69 mmHg) and heart rate (71 bpm), are within normal limits. The patient is also not showing any signs of fluid overload, such as pulmonary edema, as the chest X-ray (CXR) only mentions a possible pneumonia (? pna). The patient's oxygen saturation (94%) is also relatively stable, and the patient is only requiring a nasal cannula for oxygen delivery. The patient's hemodynamic monitoring and fluid balance data do not indicate any signs of congestive heart failure, such as significant fluid retention or hypotension. Overall, based on the provided patient note, there is no clear evidence to suggest that the patient has congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. The patient's vital signs, including blood pressure and heart rate, are within normal limits. Additionally, the patient's oxygen saturation is 94% on a nasal cannula, which does not indicate severe respiratory distress. The chest X-ray (CXR) result is not explicitly stated, but it is mentioned as '? pna' which may indicate a possible pneumonia, but it does not directly suggest congestive heart failure (CHF). The patient's hemodynamic monitoring and fluid balance data do not show signs of fluid overload, which is a common indicator of CHF. The patient is on heparin sodium, which could be for various reasons, including prevention of deep vein thrombosis or treatment of thrombosis, but it does not directly indicate CHF. The patient's medications include atenolol, which is a beta-blocker that can be used to treat heart failure, but its presence alone does not confirm the diagnosis. Overall, based on the provided information, there is no clear evidence to suggest that the patient has congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Radiology",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. The patient's vital signs, including blood pressure and heart rate, are within normal limits. Additionally, the patient's oxygen saturation is at 94% on a nasal cannula, which does not indicate severe respiratory distress. The patient was admitted with hypotension and hypoxia, but both had resolved by the time of arrival in the unit. There is no mention of pulmonary edema or other signs of congestive heart failure, such as jugular venous distension or peripheral edema, in the review of systems or physical examination. The patient is on heparin sodium, which may be for prophylaxis or treatment of thrombosis, but this does not directly indicate congestive heart failure. The patient's troponin-T level is <0.01, which is within normal limits and does not suggest cardiac injury. The B-type natriuretic peptide (BNP) level, a marker for heart failure, is not mentioned in the note. However, based on the available information, there is no clear evidence of congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's cardiac enzymes are negative, and the repeat EKG is unchanged, which suggests that there is no acute cardiac injury or infarction. Additionally, the patient's vital signs, such as blood pressure (107/69 mmHg) and heart rate (71 bpm), are within normal limits. The patient is also not showing any signs of fluid overload, such as pulmonary edema, as the chest X-ray (CXR) only mentions a possible pneumonia (? pna). The patient's oxygen saturation (94%) is also relatively stable, and the patient is only requiring a nasal cannula for oxygen delivery. Furthermore, the patient's hemodynamic monitoring and fluid balance data do not indicate any signs of congestive heart failure, such as significant fluid retention or hypotension. Overall, based on the provided patient note, there is no clear evidence to suggest that the patient has congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Cardiology",
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Cardiac electrophysiologist",
+            "Cardiologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "Yes",
+    "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient has been prescribed several medications commonly used to treat CHF, such as furosemide (a diuretic), labetolol (a beta-blocker), and amlodipine (a calcium channel blocker). Additionally, the patient's vital signs show a relatively low blood pressure (134/56 mmHg) and a high heart rate (67 bpm), which could be indicative of decreased cardiac output. The patient's physical examination also reveals signs consistent with CHF, including diminished breath sounds and crackles at the bases of the lungs, which suggest pulmonary congestion. Furthermore, the patient's neck is supple with a jugular venous pressure (JVP) of 10 cm, which is elevated and consistent with fluid overload. The patient's laboratory results also show an elevated BNP is not mentioned but troponin-t is elevated at 21 which could indicate some cardiac injury. Lastly, the patient's oxygen saturation is 94% on a nasal cannula, which may indicate some degree of respiratory compromise. Considering these factors, it appears that the patient is experiencing symptoms and signs consistent with congestive heart failure.",
+    "raw_state": {
+      "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient has been prescribed several medications commonly used to treat CHF, such as furosemide (a diuretic), labetolol (a beta-blocker), and amlodipine (a calcium channel blocker). Additionally, the patient's vital signs show a relatively low blood pressure (134/56 mmHg) and a high heart rate (67 bpm), which could be indicative of decreased cardiac output. The patient's physical examination also reveals signs consistent with CHF, including diminished breath sounds and crackles at the bases of the lungs, which suggest pulmonary congestion. Furthermore, the patient's neck is supple with a jugular venous pressure (JVP) of 10 cm, which is elevated and consistent with fluid overload. The patient's laboratory results also show an elevated BNP is not mentioned but troponin-t is elevated at 21 which could indicate some cardiac injury. Lastly, the patient's oxygen saturation is 94% on a nasal cannula, which may indicate some degree of respiratory compromise. Considering these factors, it appears that the patient is experiencing symptoms and signs consistent with congestive heart failure.",
+      "choice": "Yes"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient is on nitroglycerin, which is often used to treat angina or heart failure. Additionally, the patient has a history of receiving furosemide (Lasix), a diuretic commonly used to manage fluid overload in CHF. The physical examination reveals a neck with a jugular venous pressure (JVP) of 10 cm, which is elevated and can be a sign of right-sided heart failure. Furthermore, the lungs show diminished breath sounds and crackles at the bases, indicating pulmonary congestion, a hallmark of CHF. The patient's vital signs, including a heart rate of 67 bpm and blood pressure of 134/56 mmHg, do not alone indicate CHF but in the context of other findings, support the diagnosis. The laboratory results, such as an elevated BNP (not directly mentioned but can be inferred from the context of other heart failure indicators), are not provided, but the overall clinical picture suggests CHF. Lastly, the presence of trace edema, although not explicitly mentioned in the extremities section, can sometimes be associated with CHF, but its absence does not rule out the diagnosis given the other signs.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient is on nitroglycerin, which is often used to treat angina or heart failure. Additionally, the patient has a history of receiving furosemide (Lasix), a diuretic commonly used to manage fluid overload in CHF. The physical examination findings, such as diminished breath sounds and crackles at the bases of the lungs, are also consistent with pulmonary congestion, a hallmark of CHF. The patient's jugular venous pressure (JVP) is elevated at 10 cm, which can be a sign of right-sided heart failure. Furthermore, the patient's laboratory results show an elevated BNP is not provided but troponin-T is elevated at 21, which may indicate some degree of cardiac injury or stress. The combination of these findings suggests that the patient likely has congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient is on nitroglycerin, which is often used to treat angina or heart failure. Additionally, the patient has a history of receiving furosemide (Lasix), a diuretic commonly used to manage fluid overload in CHF. The physical examination findings, such as diminished breath sounds and crackles at the bases of the lungs, are also consistent with pulmonary congestion, a hallmark of CHF. The patient's jugular venous pressure (JVP) is elevated at 10 cm, which can be a sign of right-sided heart failure. Furthermore, the patient's laboratory results show an elevated BNP is not provided but troponin-T is elevated at 21, which may indicate some degree of cardiac injury or stress. The combination of these findings suggests that the patient likely has congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient is on nitroglycerin, which is often used to treat angina or heart failure. Additionally, the patient has a history of receiving furosemide (Lasix), a diuretic commonly used to manage fluid overload in CHF. The physical examination findings, such as diminished breath sounds and crackles at the bases of the lungs, are also consistent with pulmonary congestion, a hallmark of CHF. Furthermore, the patient's jugular venous pressure (JVP) is elevated at 10 cm, which can be a sign of right-sided heart failure. The laboratory results show an elevated BNP is not provided but troponin-t is elevated at 21 which could indicate some cardiac injury. The combination of these findings suggests that the patient likely has congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient is on nitroglycerin, which is often used to treat angina or heart failure. Additionally, the patient has a history of receiving furosemide (Lasix), a diuretic commonly used to manage fluid overload in CHF. The physical examination findings, such as diminished breath sounds and crackles at the bases of the lungs, are also consistent with pulmonary congestion, a hallmark of CHF. The patient's jugular venous pressure (JVP) is elevated at 10 cm, which can be a sign of right-sided heart failure. Furthermore, the patient's laboratory results show an elevated BNP is not provided but troponin-T is elevated at 21, which may indicate some degree of cardiac injury or stress. The combination of these findings suggests that the patient likely has congestive heart failure.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 2, Round 1",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note contains several indicators that suggest the presence of congestive heart failure (CHF). Firstly, the patient is on nitroglycerin, which is often used to treat angina or heart failure. Additionally, the patient has a history of receiving furosemide (Lasix), a diuretic commonly used to manage fluid overload in CHF. The physical examination reveals a neck with a supple quality and a jugular venous pressure (JVP) of 10 cm, which could indicate fluid overload. Furthermore, the lungs show diminished breath sounds and crackles at the bases, suggesting pulmonary congestion, a hallmark of CHF. The patient's vital signs, including a heart rate of 67 bpm and blood pressure of 134/56 mmHg, do not immediately suggest acute decompensated heart failure but do not rule out chronic or compensated heart failure either. The laboratory results show an elevated BNP is not provided, but the presence of other signs and symptoms, along with the use of heart failure medications (e.g., labetalol, amlodipine), supports the diagnosis. Lastly, the patient's weight has increased from admission (81.4 kg from 80 kg), which could indicate fluid retention, another sign of CHF.",
+              "choice": "Yes"
+            },
+            "round_2": {
+              "error": "LLM call failed",
+              "reasoning": "LLM response was None",
+              "choice": "ERROR"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note provides various indicators that can help determine if they have congestive heart failure (CHF). Key points to consider include the patient's vital signs, hemodynamic monitoring, fluid balance, and laboratory results. The patient has a history of receiving medications such as furosemide (a diuretic often used in CHF management), nitroglycerin (used for angina but can also indicate cardiac issues), and labetalol (a beta-blocker used in various cardiac conditions). The presence of diminished breath sounds and crackles at the bases of the lungs could suggest pulmonary congestion, a common finding in CHF. Additionally, the patient's neck is supple with a jugular venous pressure (JVP) of 10 cm, which is slightly elevated and could indicate right-sided heart failure. The cardiac examination shows a normal S1 and S2 with no murmurs, thrills, or lifts, but this does not rule out CHF entirely. The patient's oxygen saturation is at 94% on a nasal cannula, which might not directly indicate CHF but suggests some need for supplemental oxygen. Laboratory results, including a slightly elevated white blood cell count and various other parameters, do not directly point to CHF but indicate the patient is under close monitoring for multiple systems. Considering these points, especially the clinical findings of pulmonary congestion and the use of relevant medications, it suggests the patient could be experiencing symptoms or management consistent with congestive heart failure.",
+              "choice": "Yes"
+            },
+            "round_2": {
+              "error": "LLM call failed",
+              "reasoning": "LLM response was None",
+              "choice": "ERROR"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Cardiology",
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 2, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "congestive heart failure",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Cardiac electrophysiologist",
+            "Cardiologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "The patient's vital signs and physical examination do not indicate overt signs of congestive heart failure (CHF) such as pulmonary edema, jugular venous distension (JVD), or peripheral edema. The patient's respiratory rate (RR) is within normal limits at 18 breaths per minute, and oxygen saturation (SpO2) is 99% on a nasal cannula, which does not suggest significant respiratory distress or hypoxemia typically seen in CHF. Additionally, the cardiac examination notes a normal S1 and S2 with no S3 or S4 gallop, which are often associated with heart failure. The patient's hemodynamic parameters, including blood pressure and heart rate, are also within relatively normal limits. While the patient reports dyspnea, which can be a symptom of CHF, the absence of other supportive findings and the lack of explicit mention of CHF in the review of systems or diagnosis sections of the note suggest that CHF may not be the primary concern at this time. Furthermore, the laboratory values provided, including troponin levels, do not strongly indicate acute myocardial injury that could precipitate new-onset heart failure. Therefore, based on the information provided, there is not sufficient evidence to conclude that this patient has congestive heart failure.",
+    "raw_state": {
+      "reasoning": "The patient's vital signs and physical examination do not indicate overt signs of congestive heart failure (CHF) such as pulmonary edema, jugular venous distension (JVD), or peripheral edema. The patient's respiratory rate (RR) is within normal limits at 18 breaths per minute, and oxygen saturation (SpO2) is 99% on a nasal cannula, which does not suggest significant respiratory distress or hypoxemia typically seen in CHF. Additionally, the cardiac examination notes a normal S1 and S2 with no S3 or S4 gallop, which are often associated with heart failure. The patient's hemodynamic parameters, including blood pressure and heart rate, are also within relatively normal limits. While the patient reports dyspnea, which can be a symptom of CHF, the absence of other supportive findings and the lack of explicit mention of CHF in the review of systems or diagnosis sections of the note suggest that CHF may not be the primary concern at this time. Furthermore, the laboratory values provided, including troponin levels, do not strongly indicate acute myocardial injury that could precipitate new-onset heart failure. Therefore, based on the information provided, there is not sufficient evidence to conclude that this patient has congestive heart failure.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "congestive heart failure",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary edema or congestion on auscultation, and a normal S1 and S2 heart sound without an S3 gallop (which is often associated with CHF), do not support a diagnosis of congestive heart failure. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, indicating adequate oxygenation without the need for more intensive respiratory support that might be expected in severe CHF. The presence of sinus bradycardia (heart rhythm: SB) with a rate of 50 bpm is noted, but this alone, in the context provided, does not indicate CHF. Overall, based on the information given, there is not sufficient evidence to confirm a diagnosis of congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary edema or congestion on auscultation, and a normal S1 and S2 heart sound without an S3 gallop (which is often associated with CHF), do not support a diagnosis of congestive heart failure. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, which indicates good oxygenation but does not directly indicate CHF. The presence of sinus bradycardia (heart rhythm: SB) with a rate of 50 bpm is noted, but this alone is not diagnostic of CHF. Overall, based on the information provided, there is not sufficient evidence to confirm a diagnosis of congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary congestion or effusions on exam, and a normal S1 and S2 without an S3 or S4 gallop, do not support a diagnosis of CHF at this time. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, which does not necessarily indicate severe respiratory distress associated with CHF. The presence of sinus bradycardia (heart rhythm: SB) and the lack of other specific findings like jugular venous distension (unable to examine) or significant peripheral edema also do not strongly support CHF. Therefore, based on the information provided, there is not sufficient evidence to confirm congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary edema or congestion on auscultation, and a normal S1 and S2 heart sound without an S3 gallop (which is often associated with CHF), do not support a diagnosis of congestive heart failure. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, indicating adequate oxygenation without the need for more intensive respiratory support that might be expected in severe CHF. The presence of sinus bradycardia (heart rhythm: SB) with a rate of 50 bpm is noted, but this alone, in the context provided, does not indicate CHF. Overall, while dyspnea is a concerning symptom, the information provided does not conclusively indicate congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary congestion or effusions on exam, and a normal S1 and S2 without an S3 or S4 gallop, do not support a diagnosis of CHF at this time. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, which does not indicate severe respiratory distress typically seen in acute CHF. The presence of sinus bradycardia (heart rhythm: SB) with a rate of 50 bpm is noted, but this alone, without other supporting evidence of heart failure, does not confirm CHF. Overall, based on the information provided, there is not sufficient evidence to confirm congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "congestive heart failure",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Radiology",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "congestive heart failure",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary edema or congestion on auscultation, and a normal S1 and S2 heart sound without additional murmurs or signs of fluid overload, do not support a diagnosis of CHF at this time. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, which does not indicate severe respiratory distress typically seen in acute CHF. The presence of sinus bradycardia (heart rhythm: SB) with a rate of 50 bpm is noted, but this alone, without other supporting evidence of heart failure, does not confirm CHF.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not provide clear evidence of congestive heart failure (CHF). While the patient is experiencing dyspnea, which can be a symptom of CHF, other indicators such as vital signs (e.g., blood pressure, heart rate, and oxygen saturation) and laboratory results (e.g., troponin levels, BNP not mentioned but other cardiac markers are within relatively normal limits) do not strongly suggest CHF. Additionally, the physical examination findings, including the absence of significant edema, no mention of pulmonary edema or congestion on auscultation, and a normal S1 and S2 heart sound without an S3 gallop (which is often associated with CHF), do not support a diagnosis of congestive heart failure. The patient's respiratory support is via a nasal cannula with an SpO2 of 99%, which does not indicate severe respiratory distress typically seen in acute CHF. Therefore, based on the information provided, there is not sufficient evidence to conclude that the patient has congestive heart failure.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Cardiology",
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "congestive heart failure",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Cardiac electrophysiologist",
+            "Cardiologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "The patient's note mentions 'mild pulm edema persists' which is a sign of fluid accumulation in the lungs, often associated with congestive heart failure (CHF). However, the presence of pulmonary edema alone is not sufficient to diagnose CHF. Other indicators such as heart rhythm (svt), blood pressure, and cardiac enzymes are provided but do not conclusively point towards CHF. The patient is also scheduled for surgery to correct a hiatal hernia, and there's no direct mention of heart failure symptoms like shortness of breath, leg swelling, or fatigue being a primary concern. The patient's overall condition and the context provided do not strongly support a diagnosis of congestive heart failure as the primary issue at this moment.",
+    "raw_state": {
+      "reasoning": "The patient's note mentions 'mild pulm edema persists' which is a sign of fluid accumulation in the lungs, often associated with congestive heart failure (CHF). However, the presence of pulmonary edema alone is not sufficient to diagnose CHF. Other indicators such as heart rhythm (svt), blood pressure, and cardiac enzymes are provided but do not conclusively point towards CHF. The patient is also scheduled for surgery to correct a hiatal hernia, and there's no direct mention of heart failure symptoms like shortness of breath, leg swelling, or fatigue being a primary concern. The patient's overall condition and the context provided do not strongly support a diagnosis of congestive heart failure as the primary issue at this moment.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, it also mentions that the patient 'appears drier than yesterday', suggesting some improvement. Additionally, the patient has a hiatal hernia and is scheduled for surgery, which may be contributing to their symptoms. The patient's vital signs, such as blood pressure and oxygen saturation, are within relatively normal ranges. The chest X-ray shows 'mild pulm edema' but also notes that the patient 'appears drier than yesterday'. The cardiac enzymes are negative, which suggests that there is no acute cardiac damage. The patient does have supraventricular tachycardia (SVT), but this is not necessarily indicative of congestive heart failure. Considering these factors, while the patient does have some symptoms that could be indicative of congestive heart failure, such as mild pulmonary edema, the overall clinical picture does not strongly support a diagnosis of congestive heart failure at this time.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, the presence of pulmonary edema alone is not sufficient to confirm congestive heart failure. Other indicators such as shortness of breath, orthopnea, paroxysmal nocturnal dyspnea, and peripheral edema are not explicitly mentioned in the note. The patient's vital signs, including blood pressure and oxygen saturation, are within relatively normal limits. Additionally, the cardiac enzymes are negative, and there is no mention of significant left ventricular dysfunction or other typical signs of heart failure. The patient does have a hiatal hernia and is scheduled for surgery, which may be contributing to some of the symptoms. The mention of 'svt (supra ventricular tachycardia)' and 'irregularly irregular' heart rhythm could be related to various conditions, not necessarily heart failure. Considering these factors, while there are some signs that could be related to heart failure, they are not conclusive, and other explanations are possible for the patient's condition.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, it also mentions that the patient 'appears drier than yesterday', suggesting some improvement. Additionally, the patient has a hiatal hernia and is scheduled for surgery, which may be contributing to their symptoms. The patient's vital signs, such as blood pressure and oxygen saturation, are within relatively normal ranges. The chest X-ray shows 'mild pulm edema' but also notes that the patient 'appears drier than yesterday'. The cardiac enzymes are negative, which suggests that there is no acute cardiac damage. The patient does have supraventricular tachycardia (SVT), but this is not necessarily indicative of congestive heart failure. Overall, while the patient has some symptoms that could be consistent with congestive heart failure, such as pulmonary edema, the evidence is not conclusive.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, it also mentions that the patient 'appears drier than yesterday', suggesting some improvement. Additionally, the patient has a hiatal hernia and is scheduled for surgery, which may be contributing to their symptoms. The patient's vital signs, such as blood pressure and oxygen saturation, are within relatively normal ranges. The chest X-ray shows 'mild pulm edema' but also notes that the patient 'appears drier than yesterday'. The cardiac enzymes are negative, which suggests that there is no acute cardiac injury. The patient does have supraventricular tachycardia (SVT), but this is not necessarily indicative of congestive heart failure. Overall, while the patient has some symptoms that could be consistent with congestive heart failure, such as pulmonary edema, the evidence is not conclusive.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, it also mentions that the patient 'appears drier than yesterday', suggesting some improvement. Additionally, the patient has a hiatal hernia and is scheduled for surgery, which may be contributing to their symptoms. The patient's vital signs, such as blood pressure and oxygen saturation, are within relatively normal ranges. The chest X-ray shows 'mild pulm edema' but also notes that the patient 'appears drier than yesterday'. The cardiac enzymes are negative, which suggests that there is no acute cardiac damage. The patient does have supraventricular tachycardia (SVT), but this is not necessarily indicative of congestive heart failure. Overall, while the patient has some symptoms that could be consistent with congestive heart failure, such as pulmonary edema, the evidence is not conclusive.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Radiology",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, it also mentions that the patient 'appears drier than yesterday', suggesting some improvement. Additionally, the patient has a hiatal hernia and is scheduled for surgery, which may be contributing to their symptoms. The patient's vital signs, such as blood pressure and oxygen saturation, are within relatively normal ranges. The chest X-ray shows 'mild pulm edema' but also notes that the patient 'appears drier than yesterday'. The cardiac enzymes are negative, which suggests that there is no acute cardiac damage. The patient does have supraventricular tachycardia (SVT), but this is not necessarily indicative of congestive heart failure. Considering these factors, while the patient does have some symptoms that could be indicative of congestive heart failure, such as pulmonary edema, the overall clinical picture does not strongly support a diagnosis of congestive heart failure at this time.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient note mentions 'mild pulm edema persists' which is a common indicator of congestive heart failure. However, it also mentions that the patient 'appears drier than yesterday', suggesting some improvement. Additionally, the patient has a hiatal hernia and is scheduled for surgery, which may be contributing to their symptoms. The patient's vital signs, such as blood pressure and oxygen saturation, are within relatively normal ranges. The chest X-ray shows 'mild pulm edema' but also notes that the patient 'appears drier than yesterday'. The cardiac enzymes are negative, which suggests that there is no acute cardiac damage. The patient does have supraventricular tachycardia (SVT), but this is not necessarily indicative of congestive heart failure. Overall, while the patient has some symptoms that could be consistent with congestive heart failure, such as pulmonary edema, the evidence is not conclusive.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Cardiology",
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "congestive heart failure",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Cardiac electrophysiologist",
+            "Cardiologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Cardiologist",
+            "Cardiac electrophysiologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  }
+]

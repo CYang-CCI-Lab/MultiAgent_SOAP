@@ -1,0 +1,1011 @@
+[
+  {
+    "method": "baseline_zs",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "Yes",
+    "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC of 12.6 and 10.1 k/ul), and a bandemia (neutrophils of 79.7%). The patient also has a positive gram stain with 25+ pmn, 1+ yeast, and 1+ GNR, indicating a possible infection. Additionally, the patient has been started on antibiotics (levofloxacin, vancomycin, and piperacillin) and has been cultured (blood, urine, sputum, and nasal swab). The patient's Sequential Organ Failure Assessment (SOFA) score is not explicitly stated, but the patient is on invasive ventilation, has a high troponin level (4.84), and has elevated liver enzymes (ALT of 51 and AST of 262), indicating possible organ dysfunction. The patient's lactic acid level is also elevated (1.4 mmol/L), which can be a marker of tissue hypoperfusion. Overall, the patient meets the Systemic Inflammatory Response Syndrome (SIRS) criteria and has a possible source of infection, which suggests sepsis.",
+    "raw_state": {
+      "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC of 12.6 and 10.1 k/ul), and a bandemia (neutrophils of 79.7%). The patient also has a positive gram stain with 25+ pmn, 1+ yeast, and 1+ GNR, indicating a possible infection. Additionally, the patient has been started on antibiotics (levofloxacin, vancomycin, and piperacillin) and has been cultured (blood, urine, sputum, and nasal swab). The patient's Sequential Organ Failure Assessment (SOFA) score is not explicitly stated, but the patient is on invasive ventilation, has a high troponin level (4.84), and has elevated liver enzymes (ALT of 51 and AST of 262), indicating possible organ dysfunction. The patient's lactic acid level is also elevated (1.4 mmol/L), which can be a marker of tissue hypoperfusion. Overall, the patient meets the Systemic Inflammatory Response Syndrome (SIRS) criteria and has a possible source of infection, which suggests sepsis.",
+      "choice": "Yes"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "sepsis",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC) of 12.6 k/ul, and a bandemia (neutrophils 79.7%) which are indicative of an infectious process. Additionally, the patient has been started on broad-spectrum antibiotics (levofloxacin, vancomycin, and piperacillin) and has had multiple cultures sent (blood, urine, sputum), suggesting a suspicion of infection. The patient also has evidence of organ dysfunction, as indicated by the need for vasopressor support (norepinephrine) and mechanical ventilation, as well as abnormal laboratory values such as elevated troponin and lactate. These findings are consistent with the diagnosis of sepsis, which is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC) of 12.6 k/ul, and a bandemia (neutrophils 79.7%) which are indicative of an infectious process. Additionally, the patient has been started on broad-spectrum antibiotics (levofloxacin, vancomycin, and piperacillin) and has had multiple cultures sent (blood, urine, sputum), suggesting a suspicion of infection. The patient also has evidence of organ dysfunction, as indicated by the need for vasopressor support (norepinephrine) and mechanical ventilation, as well as abnormal laboratory values such as elevated troponin and lactate. These findings are consistent with the diagnosis of sepsis, which is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC of 12.6 and 10.1 k/ul), and a bandemia (neutrophils of 79.7%). The patient also has a positive gram stain with 25+ PMN, indicating the presence of a potential infection. Additionally, the patient has been started on antibiotics (levofloxacin and vancomycin), which suggests a suspicion of infection. The patient's Sequential Organ Failure Assessment (SOFA) score is not explicitly provided, but the patient is on invasive ventilation, has a high troponin level, and has elevated liver enzymes, indicating potential organ dysfunction. The patient's lactic acid level is 1.4 mmol/L, which is slightly elevated. Overall, the patient meets the Systemic Inflammatory Response Syndrome (SIRS) criteria and has a suspected infection, which suggests sepsis.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC) of 12.6 k/ul, and a bandemia (neutrophils 79.7%) which are indicative of an infectious process. Additionally, the patient has been started on broad-spectrum antibiotics (levofloxacin, vancomycin, and piperacillin) and has had multiple cultures sent (blood, urine, sputum), suggesting a suspicion of infection. The patient also has evidence of organ dysfunction, as indicated by the need for vasopressor support (norepinephrine) and mechanical ventilation, as well as abnormal laboratory values such as elevated troponin and lactate. These findings are consistent with the diagnosis of sepsis, which is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC) of 12.6 k/ul, and a bandemia (neutrophils 79.7%) which are indicative of an infectious process. Additionally, the patient has been started on broad-spectrum antibiotics (levofloxacin, vancomycin, and piperacillin) and has had multiple cultures sent (blood, urine, sputum), suggesting a suspicion of infection. The patient also has evidence of organ dysfunction, as indicated by the need for vasopressor support (norepinephrine) and mechanical ventilation, as well as abnormal laboratory values such as elevated troponin and lactic acid. These findings are consistent with the diagnosis of sepsis, which is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "sepsis",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "sepsis",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC) of 12.6 k/ul, and a bandemia (neutrophils 79.7%) which are indicative of an infectious process. Additionally, the patient has been started on broad-spectrum antibiotics (levofloxacin, vancomycin, and piperacillin) and has had multiple cultures sent (blood, urine, sputum), suggesting a suspicion of infection. The patient also has evidence of organ dysfunction, as indicated by the need for vasopressor support (norepinephrine) and mechanical ventilation, as well as abnormal laboratory values such as elevated troponin and lactic acid. These findings are consistent with the diagnosis of sepsis, which is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient has a fever (temperature of 101.3°F), an elevated white blood cell count (WBC of 12.6 and 10.1 k/ul), and a bandemia (neutrophils of 79.7%). The patient also has a positive gram stain with 25+ pmn, 1+ yeast, and 1+ GNR, indicating a possible infection. Additionally, the patient is being treated with antibiotics such as levofloxacin, vancomycin, and piperacillin, which suggests a suspicion of infection. The patient's Sequential Organ Failure Assessment (SOFA) score is not explicitly provided, but the patient is on invasive ventilation, has a high troponin level, and has elevated liver enzymes, indicating possible organ dysfunction. The patient's lactic acid level is 1.4 mmol/L, which is slightly elevated. Overall, the patient meets the Systemic Inflammatory Response Syndrome (SIRS) criteria and has a suspected infection, which are the two main criteria for sepsis.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Cardiology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "sepsis",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "The patient's note mentions hypotension and hypoxia, which had resolved by the time of arrival in the unit. The patient also has a chest X-ray with a possible pneumonia (pna) and is on heparin sodium and other ICU medications. However, the patient's vital signs, such as heart rate (71 bpm), blood pressure (107/69 mmHg), and oxygen saturation (94%), are within relatively normal limits. The white blood cell count (WBC) is 4.4-4.5 k/ul, which is slightly low, and the patient's temperature is 36.9°C (98.4°F), which is normal. There is no clear indication of systemic inflammatory response syndrome (SIRS) criteria being met, such as two or more of the following: temperature >38°C or <36°C, heart rate >90 bpm, respiratory rate >24 breaths/min, or WBC >12,000 cells/mm^3 or <4,000 cells/mm^3. Additionally, the patient's lactate level is not provided, and the patient is not showing signs of organ dysfunction. Therefore, based on the provided information, it does not appear that the patient has sepsis at this time.",
+    "raw_state": {
+      "reasoning": "The patient's note mentions hypotension and hypoxia, which had resolved by the time of arrival in the unit. The patient also has a chest X-ray with a possible pneumonia (pna) and is on heparin sodium and other ICU medications. However, the patient's vital signs, such as heart rate (71 bpm), blood pressure (107/69 mmHg), and oxygen saturation (94%), are within relatively normal limits. The white blood cell count (WBC) is 4.4-4.5 k/ul, which is slightly low, and the patient's temperature is 36.9°C (98.4°F), which is normal. There is no clear indication of systemic inflammatory response syndrome (SIRS) criteria being met, such as two or more of the following: temperature >38°C or <36°C, heart rate >90 bpm, respiratory rate >24 breaths/min, or WBC >12,000 cells/mm^3 or <4,000 cells/mm^3. Additionally, the patient's lactate level is not provided, and the patient is not showing signs of organ dysfunction. Therefore, based on the provided information, it does not appear that the patient has sepsis at this time.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "sepsis",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient's oxygen saturation is 94% on a nasal cannula, which is relatively stable. The patient's troponin-t is <0.01, which suggests no cardiac damage. The patient's creatinine (cr) is 1.3 mg/dl, which is slightly elevated but not indicative of acute kidney injury. The patient's liver function tests (LFTs) are mostly normal. The patient is on heparin sodium, which may indicate a risk of bleeding, but there is no clear indication of sepsis. The patient's codeine and compazine (prochlorperazine) may be contributing to bradycardia, but this is not a clear indicator of sepsis. Overall, the patient does not appear to have sepsis based on the provided information.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient was admitted with hypotension and hypoxia, but both had resolved by the time of arrival in the unit. The patient's antibiotic treatment is also mentioned, but the reason for it is not specified as sepsis. The patient's labs, including troponin-t (<0.01), CKMB, and cardiac enzymes (negative x1), do not indicate any signs of sepsis. The patient's oxygen saturation (spo2: 94%) and ABG results are not fully provided, but the patient is on a nasal cannula, which suggests that the patient may have some respiratory issues, but not severe enough to indicate sepsis. Overall, based on the provided information, there is no clear indication of sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient's oxygen saturation is 94% on a nasal cannula, which is relatively stable. The patient's troponin-t and cardiac enzymes are negative, which suggests that the patient does not have cardiac involvement. The patient's liver function tests (LFTs) are normal, and the patient's creatinine level is 1.3 mg/dl, which is slightly elevated but not indicative of severe kidney dysfunction. The patient is receiving heparin sodium at 1,000 units/hour, which may suggest that the patient is at risk for thrombosis, but this is not a definitive indicator of sepsis. Overall, based on the provided information, the patient does not appear to have sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient's oxygen saturation is 94% on a nasal cannula, which is relatively stable. The patient's troponin-t is <0.01, which suggests no cardiac damage. The patient's creatinine (cr) is 1.3 mg/dl, which is slightly elevated but not indicative of severe kidney damage. The patient's liver function tests (LFTs) are mostly normal. The patient is on heparin sodium, which may indicate a risk of bleeding, but there is no clear indication of sepsis. The patient's antibiotic use is mentioned, but the last dose is not specified, and there is no clear indication of an infectious source. Overall, based on the provided information, there is no clear evidence of sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient's oxygen saturation is 94% on a nasal cannula, which is relatively stable. While the patient was admitted with hypotension and hypoxia, both had resolved by the time of arrival in the unit. The patient is on heparin sodium, which may indicate a risk for bleeding, but there is no clear indication of sepsis. The patient's troponin-t and cardiac enzymes are negative, which suggests no cardiac involvement. The patient's liver function tests (LFTs) are normal, and the patient's creatinine (cr) is 1.3 mg/dl, which is slightly elevated but not indicative of sepsis. The patient's differential count shows a slight increase in neutrophils (79.8%) and eosinophils (5.4%), but this is not sufficient to diagnose sepsis. Overall, based on the provided information, there is no clear indication of sepsis in this patient.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "sepsis",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Radiology",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "sepsis",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient's oxygen saturation is 94% on a nasal cannula, which is within a normal range. The patient's troponin-t level is <0.01, which suggests no cardiac damage. The patient's creatinine level is 1.3 mg/dl, which is slightly elevated but not indicative of severe kidney damage. The patient's liver function tests (LFTs) are mostly within normal ranges. The patient is on heparin sodium, which may indicate a risk of bleeding, but there is no clear indication of sepsis. The patient's codeine and compazine (prochlorperazine edisylate) usage may be related to pain management and nausea, respectively. The patient's atenolol usage may be related to bradycardia. Overall, the patient's clinical presentation and laboratory results do not strongly suggest sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is within the normal range (4.4 and 4.5 k/ul), and the patient is not showing signs of systemic inflammatory response syndrome (SIRS) such as fever (tmax: 37.8 C, tcurrent: 36.9 C), tachycardia (hr: 71 bpm), or tachypnea (rr: 10 insp/min). The patient's blood pressure is also within a normal range (bp: 107/69 mmHg). Additionally, the patient's lactate level is not provided, but the patient is not showing signs of organ dysfunction. The patient's oxygen saturation is 94% on a nasal cannula, which is relatively stable. While the patient was admitted with hypotension and hypoxia, both had resolved by the time of arrival in the unit. The patient is on heparin sodium, which may indicate a risk for bleeding, but there is no clear indication of sepsis. The patient's troponin-t and cardiac enzymes are negative, which suggests no cardiac involvement. The patient's liver function tests (LFTs) are normal, and the patient's creatinine (cr) is 1.3 mg/dl, which is slightly elevated but not indicative of sepsis. The patient's differential count shows a slight increase in neutrophils (79.8%) and eosinophils (5.4%), but this is not sufficient to diagnose sepsis. Overall, based on the provided information, there is no clear indication of sepsis in this patient.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Cardiology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "sepsis",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "No",
+    "reasoning": "To determine if the patient has sepsis, we need to look for signs of infection and organ dysfunction. The patient's white blood cell count (WBC) is elevated at 14.1 k/ul, which can indicate an infection. The patient is also on antibiotics (vancomycin and cefipime), which suggests that there is a suspected or confirmed infection. Additionally, the patient has a fever, as indicated by a maximum temperature (tmax) of 36.6 C and a current temperature (tcurrent) of 36.1 C, although these temperatures are not significantly elevated. However, other signs such as heart rate (hr) of 67 bpm, which is within the normal range, and blood pressure (bp) of 134/56 mmHg, do not strongly indicate sepsis. The patient's respiratory rate (rr) is 15 breaths per minute, which is within the normal range. The patient's oxygen saturation (spo2) is 94% on a nasal cannula, which does not necessarily indicate respiratory distress. The patient's labs show elevated creatinine (cr) at 2.3 mg/dl, indicating some degree of kidney dysfunction, but not severe enough to conclusively diagnose sepsis. The patient's lactic acid level is not provided, which is an important marker for sepsis. Overall, while there are some signs that could suggest infection, such as elevated WBC and antibiotic use, there is not enough evidence to conclusively diagnose sepsis, especially without more pronounced organ dysfunction or a clear source of infection.",
+    "raw_state": {
+      "reasoning": "To determine if the patient has sepsis, we need to look for signs of infection and organ dysfunction. The patient's white blood cell count (WBC) is elevated at 14.1 k/ul, which can indicate an infection. The patient is also on antibiotics (vancomycin and cefipime), which suggests that there is a suspected or confirmed infection. Additionally, the patient has a fever, as indicated by a maximum temperature (tmax) of 36.6 C and a current temperature (tcurrent) of 36.1 C, although these temperatures are not significantly elevated. However, other signs such as heart rate (hr) of 67 bpm, which is within the normal range, and blood pressure (bp) of 134/56 mmHg, do not strongly indicate sepsis. The patient's respiratory rate (rr) is 15 breaths per minute, which is within the normal range. The patient's oxygen saturation (spo2) is 94% on a nasal cannula, which does not necessarily indicate respiratory distress. The patient's labs show elevated creatinine (cr) at 2.3 mg/dl, indicating some degree of kidney dysfunction, but not severe enough to conclusively diagnose sepsis. The patient's lactic acid level is not provided, which is an important marker for sepsis. Overall, while there are some signs that could suggest infection, such as elevated WBC and antibiotic use, there is not enough evidence to conclusively diagnose sepsis, especially without more pronounced organ dysfunction or a clear source of infection.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "sepsis",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is elevated at 14.1 k/ul, which is a sign of potential infection or inflammation. Additionally, the patient is receiving antibiotics (vancomycin and cefipime), which suggests that there is a concern for infection. However, to diagnose sepsis, we would typically look for a combination of signs, including systemic inflammatory response syndrome (SIRS) criteria (such as fever, tachycardia, tachypnea, or leukocytosis), suspected or documented infection, and organ dysfunction. The patient's temperature is 36.6 C (97.8 F) at maximum and 36.1 C (97 F) currently, which does not indicate fever. The heart rate is 67 bpm, which is within the normal range. The respiratory rate is 15 breaths per minute, which is also within the normal range. While the patient has an elevated WBC count and is receiving antibiotics, there is not enough information to confirm organ dysfunction or meet the full SIRS criteria. Therefore, based on the provided information, it is difficult to definitively diagnose sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is elevated at 14.1 k/ul, which is a sign of potential infection or inflammation. Additionally, the patient is receiving antibiotics (vancomycin and cefipime), which suggests that the medical team is treating a suspected infection. The patient's temperature is also slightly elevated at 36.6°C (97.8°F) at its maximum, and the current temperature is 36.1°C (97°F), which could be indicative of an infectious process. However, to definitively diagnose sepsis, we would need to see evidence of organ dysfunction, which is not clearly presented in the provided information. The patient's vital signs, such as heart rate (67 bpm), blood pressure (134/56 mmHg), and respiratory rate (15 breaths/min), are within relatively normal limits, and there's no explicit mention of organ dysfunction that would meet the criteria for sepsis. Nonetheless, the presence of an elevated WBC count and the administration of antibiotics suggest an infectious process, but without clear evidence of organ dysfunction or failure, it's challenging to confirm sepsis based solely on the information provided.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is elevated at 14.1 k/ul, which is a sign of potential infection. Additionally, the patient is receiving antibiotics (vancomycin and cefipime), which suggests that the medical team is treating a suspected infection. The patient's temperature is also slightly elevated at 36.6°C (97.8°F) at its maximum, and the current temperature is 36.1°C (97°F), which could be indicative of an infectious process. However, to definitively diagnose sepsis, we would need to see evidence of organ dysfunction, which is not clearly presented in the provided information. The patient's vital signs, such as heart rate (67 bpm), blood pressure (134/56 mmHg), and respiratory rate (15 breaths/min), are within relatively normal limits, and there's no explicit mention of organ dysfunction that would meet the criteria for sepsis. Nonetheless, the presence of an elevated WBC count and the administration of antibiotics suggest an infectious process, but without clear evidence of organ dysfunction or failure, it's challenging to confirm sepsis based solely on the information provided.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note shows an elevated white blood cell (WBC) count of 14.1 k/ul, which is a sign of potential infection or inflammation. Additionally, the patient is receiving antibiotics such as vancomycin and cefipime, indicating a possible infection. However, to diagnose sepsis, we typically look for a combination of signs, including systemic inflammatory response syndrome (SIRS) criteria (two or more of the following: temperature >38°C or <36°C, heart rate >90 bpm, respiratory rate >24 breaths/min, or WBC count >12,000 cells/mm^3 or <4,000 cells/mm^3), a suspected or documented infection, and organ dysfunction. The patient's temperature is 36.6°C (97.8°F) at maximum and 36.1°C (97°F) currently, which does not meet the SIRS criterion for fever. The heart rate is 67 bpm, which is within the normal range. The respiratory rate is 15 breaths/min, also within normal limits. While the WBC count is elevated, other SIRS criteria are not met based on the information provided. Furthermore, there's no clear indication of organ dysfunction that would meet the criteria for sepsis as defined by the Sepsis-3 consensus (SOFA score increase of 2 or more points).",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note shows an elevated white blood cell (WBC) count of 14.1 k/ul, which is higher than the normal range, indicating a potential infection or inflammatory response. Additionally, the patient is receiving antibiotics such as vancomycin and cefipime, which suggests that the healthcare team is treating a suspected infection. The patient's temperature is also slightly elevated at 36.6°C (97.8°F) and then 36.1°C (97°F), but not excessively high. However, the presence of an elevated WBC count, antibiotic administration, and the clinical context of the patient being in the ICU with multiple medications and interventions suggest a possible infection. Furthermore, the patient has a high glucose level of 189 mg/dl, which can be associated with stress or infection. The differential count shows a high percentage of neutrophils (91.6%), which can also indicate a bacterial infection. While the patient's vital signs, such as heart rate (67 bpm) and blood pressure (134/56 mmHg), are within relatively normal limits, the overall clinical picture and laboratory results suggest that the patient may have an infection. However, to definitively diagnose sepsis, we would need to see more pronounced systemic inflammatory response syndrome (SIRS) criteria, such as two or more of the following: temperature >38°C or <36°C, heart rate >90 bpm, respiratory rate >24 breaths/min or PaCO2 <32 mmHg, and WBC count >12,000 cells/mm^3 or <4,000 cells/mm^3. Given the information provided, while there are indications of a possible infection, the criteria for sepsis are not fully met based on the provided vital signs and laboratory results alone.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "sepsis",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "sepsis",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note shows an elevated white blood cell count (WBC) of 14.1 k/ul, which is a common indicator of infection or inflammation. Additionally, the patient is receiving antibiotics (vancomycin and cefipime), which suggests that the medical team is treating a suspected infection. The patient's temperature is also slightly elevated, with a maximum temperature (tmax) of 36.6°C (97.8°F) and a current temperature (tcurrent) of 36.1°C (97°F). However, the patient's vital signs, such as heart rate (67 bpm), blood pressure (134/56 mmHg), and respiratory rate (15 inspirations/min), are within relatively normal limits. The patient's oxygen saturation (94%) is also within a acceptable range. To diagnose sepsis, we would typically look for a combination of systemic inflammatory response syndrome (SIRS) criteria, such as fever, tachycardia, tachypnea, and leukocytosis, along with evidence of organ dysfunction. While the patient has some of these criteria, the note does not provide clear evidence of organ dysfunction. Nevertheless, the presence of an elevated WBC count, antibiotic administration, and slightly elevated temperature suggest that the patient may be at risk for sepsis or is being treated for a suspected infection.",
+              "choice": "Yes"
+            },
+            "round_2": {
+              "error": "LLM call failed",
+              "reasoning": "LLM response was None",
+              "choice": "ERROR"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's white blood cell count (WBC) is elevated at 14.1 k/ul, which is a sign of potential infection or inflammation. Additionally, the patient is receiving antibiotics (vancomycin and cefipime), which suggests that there is a concern for infection. However, to diagnose sepsis, we would typically look for a combination of signs, including fever, tachycardia, tachypnea, and organ dysfunction. The patient's temperature is 36.6 C (97.8 F) at maximum and 36.1 C (97 F) currently, which is not significantly elevated. The heart rate is 67 bpm, which is within the normal range. The respiratory rate is 15 breaths per minute, which is also within the normal range. While the patient has some signs of potential infection, such as an elevated WBC and antibiotic use, the lack of significant fever, tachycardia, and tachypnea, as well as the absence of clear organ dysfunction, makes it difficult to definitively diagnose sepsis based on the provided information.",
+              "choice": "No"
+            },
+            "round_2": {
+              "error": "LLM call failed",
+              "reasoning": "LLM response was None",
+              "choice": "ERROR"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Cardiology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      },
+      "execution_errors": {
+        "count": 2,
+        "failed_agent_ids": [
+          "generic_1",
+          "generic_2"
+        ]
+      }
+    },
+    "status": "Completed with agent errors"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "sepsis",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), respiratory rate (18 breaths/min), and oxygen saturation (99%), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of organ dysfunction, such as altered mental status, or significant laboratory abnormalities that would suggest sepsis. While the patient has been taking antibiotics, there is no clear indication of an infectious source or a systemic inflammatory response syndrome (SIRS) that would meet the criteria for sepsis.",
+    "raw_state": {
+      "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), respiratory rate (18 breaths/min), and oxygen saturation (99%), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of organ dysfunction, such as altered mental status, or significant laboratory abnormalities that would suggest sepsis. While the patient has been taking antibiotics, there is no clear indication of an infectious source or a systemic inflammatory response syndrome (SIRS) that would meet the criteria for sepsis.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "sepsis",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), and respiratory rate (18 inspirations/min), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of organ dysfunction, such as altered mental status, or significant laboratory abnormalities that would suggest sepsis. While the patient has been taking antibiotics, there is no clear indication of a bacterial infection that would suggest sepsis. The patient's clinical presentation and laboratory results do not meet the typical criteria for sepsis, which includes a suspected or documented infection, a systemic inflammatory response (such as fever, tachycardia, tachypnea, or leukocytosis), and organ dysfunction.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), respiratory rate (18 breaths/min), and oxygen saturation (99%), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of systemic inflammatory response syndrome (SIRS) criteria being met, such as two or more of the following: temperature > 38°C or < 36°C, heart rate > 90 bpm, respiratory rate > 20 breaths/min, or WBC > 12,000 cells/ul or < 4,000 cells/ul. Additionally, there is no clear source of infection mentioned in the patient note. The patient is on antibiotics, but the last dose is not specified, and there is no mention of a specific infection being treated. Overall, based on the provided information, there is no clear evidence to suggest that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), and respiratory rate (18 inspirations/min), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of organ dysfunction, such as altered mental status, decreased urine output, or decreased platelet count. The patient's troponin-T level is slightly elevated (0.17), but this could be due to various factors, not necessarily sepsis. The patient is on antibiotics, but the note does not specify the reason for their administration. Overall, based on the provided information, there is no clear indication of sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), respiratory rate (18 breaths/min), and oxygen saturation (99%), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of organ dysfunction or failure. While the patient has been taking antibiotics, there is no clear indication of a bacterial infection or sepsis in the provided note. The patient's labs, including troponin-t (0.17) and creatinine (0.8), do not indicate severe organ dysfunction. Overall, based on the provided information, there is no clear evidence to suggest that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), and respiratory rate (18 inspirations/min), are within relatively normal limits. The patient's temperature is also normal (36.2°C or 97.2°F). Additionally, the white blood cell count (WBC) is 5.6 k/ul, which is within the normal range. While the patient is on oxygen therapy via a nasal cannula, the SpO2 is 99%, indicating adequate oxygenation. The patient's hemodynamic monitoring and fluid balance data do not suggest severe hypotension, hypoperfusion, or organ dysfunction typically seen in sepsis. Furthermore, the review of systems and physical examination do not indicate any obvious source of infection or signs of sepsis such as fever, chills, or hypotension. The patient's laboratory results, including WBC, troponin, and creatinine, do not strongly suggest sepsis. Therefore, based on the provided information, there is no clear evidence to suggest that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "sepsis",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Radiology",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "sepsis",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), and respiratory rate (18 inspirations/min), are within relatively normal limits. The patient's temperature is also normal (36.2°C or 97.2°F). Additionally, the white blood cell count (WBC) is 5.6 k/ul, which is within the normal range. While the patient is on oxygen therapy via a nasal cannula, the SpO2 is 99%, indicating adequate oxygenation. The patient's review of systems and physical examination do not indicate any obvious signs of infection or sepsis, such as fever, hypotension, or organ dysfunction. The patient's laboratory results, including troponin-t (0.17), creatinine (0.8), and glucose (136), do not strongly suggest sepsis. The patient's antibiotic use is mentioned, but the last dose is not specified, and there is no clear indication of an infectious source. Overall, based on the provided information, there is no clear evidence to suggest that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's vital signs, such as heart rate (50 bpm), blood pressure (114/63 mmHg), respiratory rate (18 breaths/min), and oxygen saturation (99%), are within relatively normal limits. The patient's white blood cell count (WBC) is 5.6 k/ul, which is slightly below the normal range, but not significantly elevated. The patient's temperature is 36.2°C (97.2°F), which is normal. There is no clear evidence of systemic inflammatory response syndrome (SIRS) criteria being met, such as two or more of the following: temperature >38°C or <36°C, heart rate >90 bpm, respiratory rate >24 breaths/min, or WBC >12,000 cells/μL or <4,000 cells/μL. Additionally, there is no clear source of infection mentioned in the patient note. The patient is on antibiotics, but the last dose is not specified, and there is no mention of a specific infection being treated. The patient's labs, such as troponin-t (0.17) and CKMB (16), do not indicate significant cardiac or muscle damage. Overall, based on the provided information, there is no clear evidence to suggest that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Cardiology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "sepsis",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including stress, surgery, or other non-infectious causes. The patient's temperature is within normal limits (tmax: 37.4°C, tcurrent: 35.9°C), and blood pressure is stable (bp: 131/69 mmHg). Additionally, there is no mention of any positive blood cultures, which are often used to confirm sepsis. The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. Overall, based on the provided information, there is no strong evidence to suggest that the patient has sepsis.",
+    "raw_state": {
+      "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including stress, surgery, or other non-infectious causes. The patient's temperature is within normal limits (tmax: 37.4°C, tcurrent: 35.9°C), and blood pressure is stable (bp: 131/69 mmHg). Additionally, there is no mention of any positive blood cultures, which are often used to confirm sepsis. The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. Overall, based on the provided information, there is no strong evidence to suggest that the patient has sepsis.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "sepsis",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC count of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including the patient's current medical condition, such as the hiatal hernia, or the administration of medications. Additionally, the patient's temperature is within normal limits (tmax: 37.4 C, tcurrent: 35.9 C), and blood pressure is stable (bp: 131/69 mmHg). The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. There is no mention of any positive blood cultures or other signs of infection that would suggest sepsis. The patient's current diagnosis and treatment seem to be focused on the hiatal hernia, nausea, and pain management, rather than sepsis. Therefore, based on the provided information, it does not appear that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC count of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including the patient's current medical condition, such as the hiatal hernia, or the administration of medications. Additionally, the patient's temperature is within normal limits (tmax: 37.4 C, tcurrent: 35.9 C), and blood pressure is stable (bp: 131/69 mmHg). The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. There is no mention of any positive blood cultures or other signs of infection that would suggest sepsis. The patient's current diagnosis and treatment seem to be focused on the hiatal hernia, nausea, and pain management, rather than sepsis. ",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC count of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including the patient's current medical condition, such as the hiatal hernia, or the administration of medications. Additionally, the patient's temperature is within normal limits (tmax: 37.4 C, tcurrent: 35.9 C), and blood pressure is stable (bp: 131/69 mmHg). The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. There is no mention of any positive blood cultures or other signs of infection that would suggest sepsis. The patient's current diagnosis and treatment seem to be focused on the hiatal hernia, nausea, and pain management, rather than sepsis. ",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not explicitly indicate sepsis. While the patient has been given antibiotics, the last dose is mentioned but no clear reason for their administration is provided in the context of sepsis. The patient's white blood cell count (WBC) is slightly elevated at 12.1 k/ul, which could be a sign of infection or inflammation, but it is not significantly high to conclusively indicate sepsis on its own. The patient's temperature is 37.4°C (99.3°F) at maximum and 35.9°C (96.7°F) currently, which does not strongly suggest a systemic infection. Additionally, the patient's lactic acid level is 1.3 mmol/l, which is not markedly elevated. The presence of a hiatal hernia and the need for surgical correction, along with the management of nausea and pain, are the primary focuses of the patient's care as described. There is no clear indication of organ dysfunction due to a suspected infection, which is a key criterion for diagnosing sepsis. Therefore, based on the information provided, there is not enough evidence to conclude that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC count of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including the patient's current medical condition, such as the hiatal hernia, or the administration of medications. Additionally, the patient's temperature is within normal limits (tmax: 37.4 C, tcurrent: 35.9 C), and blood pressure is stable (bp: 131/69 mmHg). The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. There is no mention of any positive blood cultures or other signs of infection that would suggest sepsis. The patient's current diagnosis and treatment seem to be focused on the hiatal hernia, nausea, and pain management, rather than sepsis. Therefore, based on the provided information, it does not appear that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "sepsis",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "sepsis",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC count of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including the patient's current medical condition, such as the hiatal hernia, or the administration of medications. Additionally, the patient's temperature is within normal limits (tmax: 37.4 C, tcurrent: 35.9 C), and blood pressure is stable (bp: 131/69 mmHg). The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. There is no mention of any positive blood cultures or other signs of infection that would suggest sepsis. The patient is being treated with antibiotics, but the note does not specify the reason for this treatment. Overall, based on the provided information, there is no clear evidence to suggest that the patient has sepsis.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's note does not indicate any clear signs of sepsis, such as a significant increase in white blood cell count (WBC), fever, or hypotension. Although the patient has a WBC count of 12.1 k/ul, which is slightly elevated, this can be attributed to various factors, including the patient's current medical condition, such as the hiatal hernia, or the administration of medications. Additionally, the patient's temperature is within normal limits (tmax: 37.4 C, tcurrent: 35.9 C), and blood pressure is stable (bp: 131/69 mmHg). The patient's lactic acid level is 1.3 mmol/l, which is not significantly elevated. The patient is also receiving antibiotics, but the note does not specify that the antibiotics are being administered for sepsis. Overall, based on the provided information, there is no clear indication of sepsis.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Cardiology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "sepsis",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Infectious Disease Specialist",
+            "Intensive Care Specialist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  }
+]

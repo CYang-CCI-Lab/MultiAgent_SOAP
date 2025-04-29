@@ -1,0 +1,30 @@
+2025-04-29 09:34:00 - INFO - Environment setup complete for retrieval.
+2025-04-29 09:34:02 - INFO - Loaded 41174 cases from /secure/shared_data/SOAP/MIMIC/full_cases_base.json
+2025-04-29 09:34:05 - INFO - Loaded pre-chunked documents from chunked_documents.pkl
+2025-04-29 09:34:05 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-29 09:34:06 - INFO - PyTorch version 2.2.0 available.
+2025-04-29 09:35:29 - INFO - Starting the hybrid query...
+2025-04-29 09:35:29 - INFO - Starting hybrid retrieval...
+2025-04-29 09:35:44 - INFO - Semantic query returned [[0.3387305736541748, 0.344115674495697]]
+2025-04-29 09:35:44 - INFO - Semantic top-2 hadm_ids: ['108497', '199046']
+2025-04-29 09:37:38 - INFO - BM25 top-0 hadm_ids: []
+2025-04-29 09:37:38 - INFO - Union of semantic & BM25 -> total 2 unique hadm_ids
+2025-04-29 09:37:38 - INFO - Doc hadm_id=108497 => from Semantic; combined_score=1.0000
+2025-04-29 09:37:38 - INFO - Doc hadm_id=199046 => from Semantic; combined_score=0.5000
+2025-04-29 09:37:38 - INFO - Retrieved 2 docs total.
+2025-04-29 09:37:40 - INFO - --- Hybrid query finished. Time taken: 130.36 seconds ---
+2025-04-29 09:37:40 - INFO - ---------- FINAL RETRIEVED DOCS ----------
+2025-04-29 09:37:40 - INFO - Final docs saved as JSON to log/final_retrieved_docs.json
+2025-04-29 09:37:40 - INFO - Final docs saved as CSV to log/final_retrieved_docs.csv
+2025-04-29 09:50:38 - INFO - Starting the hybrid query...
+2025-04-29 09:50:38 - INFO - Starting semantic retrieval for top 3 results...
+2025-04-29 09:50:38 - INFO - ChromaDB query took 0.21 seconds.
+2025-04-29 09:50:38 - INFO - Retrieved 3 results from semantic search.
+2025-04-29 09:50:38 - INFO - Added Doc hadm_id=108497 => distance=0.3387
+2025-04-29 09:50:38 - INFO - Added Doc hadm_id=199046 => distance=0.3441
+2025-04-29 09:50:38 - INFO - Added Doc hadm_id=140838 => distance=0.3464
+2025-04-29 09:50:38 - INFO - Retrieved 3 unique documents total based on semantic search.
+2025-04-29 09:50:38 - INFO - --- Time taken: 0.22 seconds ---
+2025-04-29 09:50:38 - INFO - ---------- FINAL RETRIEVED DOCS ----------
+2025-04-29 09:50:38 - INFO - Final docs saved as JSON to log/final_retrieved_docs.json
+2025-04-29 09:50:38 - INFO - Final docs saved as CSV to log/final_retrieved_docs.csv

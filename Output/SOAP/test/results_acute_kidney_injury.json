@@ -1,0 +1,987 @@
+[
+  {
+    "method": "baseline_zs",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "No",
+    "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the note, the patient's creatinine (cr) level has remained stable at 0.9 mg/dl across different measurements. This stability in creatinine levels suggests that there is no significant acute change in kidney function as would be expected in acute kidney injury. Additionally, the patient's urine output is 750 ml, which, although not extremely high, does not indicate oliguria (reduced urine production), a common sign of AKI. The patient is also on invasive ventilation and has other critical conditions, but based on the creatinine levels and urine output provided, there is no clear indication of acute kidney injury.",
+    "raw_state": {
+      "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the note, the patient's creatinine (cr) level has remained stable at 0.9 mg/dl across different measurements. This stability in creatinine levels suggests that there is no significant acute change in kidney function as would be expected in acute kidney injury. Additionally, the patient's urine output is 750 ml, which, although not extremely high, does not indicate oliguria (reduced urine production), a common sign of AKI. The patient is also on invasive ventilation and has other critical conditions, but based on the creatinine levels and urine output provided, there is no clear indication of acute kidney injury.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's creatinine (cr) levels are 0.9 mg/dl, which is within the normal range. Although the patient has a high troponin-t level of 4.84, indicating potential cardiac injury, and elevated liver enzymes (alt / ast:51/262), there is no clear indication of acute kidney injury based on the provided creatinine levels and other relevant lab results. The patient's urine output is also 750 ml, which is not significantly decreased. Therefore, based on the available information, there is no clear evidence of acute kidney injury.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's creatinine (cr) levels are 0.9 mg/dl, which is within the normal range. Although the patient has a high troponin-t level of 4.84, indicating potential cardiac injury, and elevated liver enzymes (alt / ast:51/262), there is no clear indication of acute kidney injury based on the provided creatinine levels and other lab results. The patient's urine output is also 750 ml, which is not significantly low. Therefore, based on the available information, the patient does not appear to have acute kidney injury.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the patient note, the creatinine (cr) level is consistently reported as 0.9 mg/dl at different times, which does not indicate a significant increase that would typically suggest AKI. Additionally, the urine output is 750 ml, which, although not extremely high, does not immediately suggest oliguria (low urine output), a common sign of AKI. However, without knowing the patient's baseline creatinine or having more detailed information on urine output over a longer period, it's challenging to definitively diagnose AKI based solely on the provided data. Nonetheless, based on the information given, there isn't clear evidence of significantly impaired kidney function as would be expected in AKI.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the patient note, the creatinine (cr) level is consistently reported as 0.9 mg/dl at different times ([**2170-2-15**] 02:48 pm, [**2170-2-15**] 03:20 pm, [**2170-2-15**] 09:28 pm). This stability in creatinine levels suggests that there is no significant increase in creatinine, which is one of the criteria for diagnosing AKI. Additionally, the urine output is 750 ml, which, although not explicitly compared to the intake, does not immediately suggest oliguria (reduced urine output), another criterion for AKI. Given this information, there is no clear indication of acute kidney injury based on the provided data.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the patient note, the creatinine (cr) level has remained stable at 0.9 mg/dl across different measurements. This stability in creatinine levels suggests that there is no significant acute change in kidney function as would be expected in acute kidney injury. Additionally, the urine output is 750 ml, which, although not explicitly compared to a baseline, does not immediately suggest oliguria (reduced urine output), a common sign of AKI. The patient's fluid balance and other parameters do not clearly indicate a diagnosis of AKI based on the provided information.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the patient note, the creatinine (cr) level has remained stable at 0.9 mg/dl across different measurements. This stability in creatinine levels suggests that there is no significant acute change in kidney function as would be expected in acute kidney injury. Additionally, the urine output is 750 ml, which, although not extremely high, does not indicate oliguria (reduced urine production), a common sign of AKI. The patient's fluid balance and other parameters do not strongly suggest AKI either. Therefore, based on the provided information, there is no clear evidence of acute kidney injury.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the patient note, the creatinine (cr) level is consistently reported as 0.9 mg/dl at different times ([**2170-2-15**] 02:48 pm, [**2170-2-15**] 03:20 pm, [**2170-2-15**] 09:28 pm). This stability in creatinine levels suggests that there is no significant increase in creatinine, which is one of the criteria for diagnosing AKI. Additionally, the urine output is 750 ml, which, although not explicitly compared to the intake, does not immediately suggest oliguria (reduced urine output), another criterion for AKI. Given this information, there is no clear indication of acute kidney injury based on the provided data.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist",
+            "Cardiology"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "193820.txt",
+    "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "overnight hypotensive to map 47 from 72 about 1 hour after receiving\nmetoprolol 12.5 tid. ekg at that time unchanged. started on levophed,\nsedation weaned, with bp returning to maps in 60s to 70s.\nfebrile on admit, urine, sputum blood cx sent, defervesced, continued\nadded levofloxacin to abx coverage.\nabg showed 02 in 60s with sats in 90s, peep increased to 8 from 5 with\nimprovement 02 on abg, peep now at 5.\ninvasive ventilation - start [**2170-2-15**] 02:00 pm\nmulti lumen - start [**2170-2-15**] 02:09 pm\nblood cultured - at [**2170-2-15**] 02:45 pm\nnasal swab - at [**2170-2-15**] 02:45 pm\nurine culture - at [**2170-2-15**] 02:50 pm\nblood cultured - at [**2170-2-15**] 03:00 pm\nsputum culture - at [**2170-2-15**] 07:30 pm\narterial line - start [**2170-2-15**] 08:46 pm\nekg - at [**2170-2-15**] 09:00 pm\nfever - 101.3\nf - [**2170-2-15**] 03:18 pm\nno known drug allergies\nchanges to\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nlevofloxacin - [**2170-2-15**] 04:03 pm\nvancomycin - [**2170-2-15**] 08:30 pm\npiperacillin - [**2170-2-16**] 04:00 am\ninfusions:\nmidazolam (versed) - 2 mg/hour\nnorepinephrine - 0.2 mcg/kg/min\nother icu medications:\nmidazolam (versed) - [**2170-2-15**] 07:30 pm\nother medications:\nflowsheet data as of  [**2170-2-16**] 06:35 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince [**71**] am\ntmax: 38.5\nc (101.3\ntcurrent: 36.7\nc (98\nhr: 60 (55 - 79) bpm\nbp: 113/42(67) {71/28(44) - 144/66(93)} mmhg\nrr: 18 (18 - 25) insp/min\nspo2: 98%\nheart rhythm: sr (sinus rhythm)\nheight: 64 inch\ntotal in:\n874 ml\n239 ml\npo:\ntf:\nivf:\n834 ml\n239 ml\nblood products:\ntotal out:\n750 ml\n720 ml\nurine:\n750 ml\n720 ml\nng:\nstool:\ndrains:\nbalance:\n124 ml\n-481 ml\nrespiratory support\no2 delivery device: endotracheal tube\nventilator mode: cmv/assist\nvt (set): 400 (400 - 400) ml\nrr (set): 14\nrr (spontaneous): 0\npeep: 8 cmh2o\nfio2: 40%\nrsbi: 56\npip: 18 cmh2o\nspo2: 98%\nabg: 7.40/38/80.[**numeric identifier 20**]/21/0\nve: 7.4 l/min\npao2 / fio2: 200\npe: intubated, responds to voice, follows command.\ncvs: murmur heard best at base, radiates to apex\ncta bilateral anterior chest.\nabd: +bs, soft, nt, nd, girdle in place\npulses:doppelerable\next: cool but pink, cap refill wnl, rle all other extremities warm.\nno edema\n173 k/ul\n10.4 g/dl\n116 mg/dl\n0.9 mg/dl\n21 meq/l\n3.9 meq/l\n21 mg/dl\n106 meq/l\n134 meq/l\n29.7 %\n10.1 k/ul\nimage002.jpg]\n[**2170-2-15**]  02:48 pm\n[**2170-2-15**]  03:20 pm\n[**2170-2-15**]  09:28 pm\n[**2170-2-15**]  11:00 pm\n[**2170-2-15**]  11:15 pm\n[**2170-2-16**]  05:11 am\n[**2170-2-16**]  05:23 am\nwbc\n12.6\n10.1\nhct\n32.2\n31.0\n29.7\nplt\n188\n173\ncr\n0.9\n0.9\ntropt\n4.99\n4.84\ntco2\n24\n24\n23\n24\nglucose\n126\n116\nother labs: pt / ptt / inr:19.9/33.7/1.8, ck / ckmb /\ntroponin-t:998/36/4.84, alt / ast:51/262, alk phos / t bili:51/0.8,\ndifferential-neuts:79.7 %, lymph:15.0 %, mono:4.5 %, eos:0.6 %, lactic\nacid:1.4 mmol/l, ca++:7.4 mg/dl, mg++:2.9 mg/dl, po4:2.1 mg/dl\ngram stain: prelim: 25+ pmn, 1+ yeast, 1+ gnr\ncxr:\nthere is improvement in the prior severe pulmonary edema, however a\nleft upper\nlobe opacity appears similar. cardiomediastinal silhouette and hilar\ncontours\nare normal. there are small bilateral pleural effusions. an et tube\nterminates 3 cm above the carina in appropriate position. an ng tube\nterminates below the diaphragm in appropriate position.",
+      "hadm_id": "193820.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; newly worsened mr; hypotension: acutely hypotensive, concern was for ischemia/infarct\n   versus oversedation; respiratory distress: repeat cxr showed stable ll opacity. also chf; rp bleednon st elevation myocardial infarction; newly worsened mitral regurgitation; hypotension acutely hypotensive concern was for ischemia infarction versus oversedation; respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure; retroperitoneal bleed['non st elevation myocardial infarction', 'newly worsened mitral regurgitation', 'hypotension acutely hypotensive concern was for ischemia infarction versus oversedation', 'respiratory distress repeat chest x ray showed stable left lower opacity also congestive heart failure', 'retroperitoneal bleed']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. This is slightly below the typical threshold for oliguria (which is <0.5 ml/kg/hour for 12 hours), but without knowing the patient's weight, it's difficult to definitively classify this as oliguric. However, given the creatinine level is stable and not elevated, and the urine output, while somewhat low, does not clearly indicate a significant decrease in kidney function based on the information provided, it suggests that the patient does not have acute kidney injury based on these parameters alone.",
+    "raw_state": {
+      "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. This is slightly below the typical threshold for oliguria (which is <0.5 ml/kg/hour for 12 hours), but without knowing the patient's weight, it's difficult to definitively classify this as oliguric. However, given the creatinine level is stable and not elevated, and the urine output, while somewhat low, does not clearly indicate a significant decrease in kidney function based on the information provided, it suggests that the patient does not have acute kidney injury based on these parameters alone.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and urine output. The patient's creatinine level is reported as 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab, a common range is approximately 0.6 to 1.3 mg/dl for males and 0.5 to 1.1 mg/dl for females, but these can vary). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. According to the KDIGO (Kidney Disease: Improving Global Outcomes) criteria, AKI is defined by an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/hour for 12 hours. Without knowing the patient's weight, we cannot directly apply the urine output criterion, but the absolute volume (700 ml over 24 hours) does not immediately suggest oliguria (low urine output) in the context of AKI without considering the patient's size. Additionally, there's no mention of a significant increase in creatinine levels over time, as the value is provided without a baseline for comparison, but it remains within a potentially normal range. Given the information provided and the lack of clear evidence of either a significant rise in creatinine or a decrease in urine output to less than 0.5 ml/kg/hour for 12 hours (due to missing weight), we cannot conclusively diagnose acute kidney injury based solely on the data given.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's creatinine (cr) levels are 1.3 mg/dl, which is within the normal range or slightly elevated, but not significantly high to indicate acute kidney injury. Additionally, the patient's urine output is 700 ml, which is not oliguric (< 0.5 ml/kg/hour for 12 hours). Although the patient is receiving heparin sodium, which may affect kidney function, there is no clear indication of acute kidney injury based on the provided laboratory results and clinical data.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. This is slightly below the typical threshold for oliguria (which is <0.5 ml/kg/hour for 12 hours), but without knowing the patient's weight, it's difficult to definitively classify this as oliguric. However, given that the creatinine level is stable and not elevated, and there's no clear indication of significantly decreased urine output in the context provided, it suggests that the patient does not have acute kidney injury based on the information given in the note.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and urine output. The patient's creatinine level is reported as 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab, a common range is approximately 0.6 to 1.3 mg/dl for males and 0.5 to 1.1 mg/dl for females, but these can vary). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. According to the KDIGO (Kidney Disease: Improving Global Outcomes) criteria, AKI is defined by an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/hour for 12 hours. Without knowing the patient's weight, we cannot directly apply the urine output criterion, but the absolute volume (700 ml over 24 hours) does not immediately suggest oliguria (low urine output) in the context of AKI without considering the patient's size. Moreover, there's no mention of a significant increase in creatinine levels over time, as the value is provided without a baseline for comparison, but it remains constant at 1.3 mg/dl. Given the information provided, there is no clear indication of acute kidney injury based on the creatinine levels or the urine output as described.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. This is slightly below the typical threshold for oliguria (which is <0.5 ml/kg/hour for 12 hours), but without knowing the patient's weight, it's difficult to definitively classify this as oliguric. However, given the creatinine level is stable and not elevated, and the urine output, while somewhat low, does not clearly indicate severe oliguria without more context on the patient's weight, the evidence does not strongly support a diagnosis of acute kidney injury based on the information provided in the patient note.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Radiology",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 1.3 mg/dl, which is within the normal range for many labs (though the exact normal range can vary by lab). The urine output over 24 hours is 700 ml, which averages out to about 29 ml/hour. This is slightly below the typical threshold for oliguria (which is <0.5 ml/kg/hour for 12 hours), but without knowing the patient's weight, it's difficult to definitively classify this as oliguric. However, given that the creatinine level is stable and not elevated, and there's no clear indication of significantly decreased urine output in the context provided, there isn't strong evidence to suggest acute kidney injury based solely on the information given in the patient note.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "The patient's creatinine (cr) levels are 1.3 mg/dl, which is within the normal range or slightly elevated, but not significantly high to indicate acute kidney injury. Additionally, the patient's urine output is 700 ml, which is not oliguric (< 0.5 ml/kg/hour for 12 hours). The patient is also receiving heparin sodium, which may affect kidney function, but there is no clear indication of acute kidney injury based on the provided lab values and clinical data.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist",
+            "Cardiology"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "192874.txt",
+    "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "admitted to unit with hypotension and hypoxia, both had resolved by the\ntime he arrived in unit\ncxr w/ ? pna\ncardiac enzymes negative x1\nlft's normal\nrepeat ekg this a.m. was unchanged\ncompazine (injection) (prochlorperazine edisylate)\nunknown;\ncodeine\nunknown;\natenolol\nbradycardia;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nheparin sodium - 1,000 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2108-12-20**] 06:23 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.8\nc (100\ntcurrent: 36.9\nc (98.4\nhr: 71 (71 - 86) bpm\nbp: 107/69(77) {103/67(75) - 129/96(102)} mmhg\nrr: 10 (10 - 21) insp/min\nspo2: 94%\ntotal in:\n160 ml\n123 ml\npo:\ntf:\nivf:\n160 ml\n123 ml\nblood products:\ntotal out:\n0 ml\n700 ml\nurine:\n700 ml\nng:\nstool:\ndrains:\nbalance:\n160 ml\n-577 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///28/\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nskin:  not assessed\nneurologic: responds to: not assessed, movement: not assessed, tone:\nnot assessed\n164 k/ul\n9.1 g/dl\n78 mg/dl\n1.3 mg/dl\n28 meq/l\n4.4 meq/l\n21 mg/dl\n103 meq/l\n138 meq/l\n26.2 %\n4.5 k/ul\n[image002.jpg]\n[**2108-12-19**]  05:01 pm\n[**2108-12-20**]  04:35 am\nwbc\n4.4\n4.5\nhct\n28.3\n26.2\nplt\n158\n164\ncr\n1.3\n1.3\ntropt\n<0.01\nglucose\n93\n78\nother labs: pt / ptt / inr:13.6/48.7/1.2, ck / ckmb /\ntroponin-t:35//<0.01, alt / ast:18/24, alk phos / t bili:78/0.3,\namylase / lipase:/16, differential-neuts:79.8 %, lymph:11.7 %, mono:2.7\n%, eos:5.4 %, ldh:180 iu/l, ca++:8.5 mg/dl, mg++:1.8 mg/dl, po4:4.3\nmg/dl",
+      "hadm_id": "192874.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxemia and hypotension; # le swelling; acute on chronic systolic chf; cad s/p stemi 2; h/o dvt/pe s/p ivc filterhypoxemia and hypotension; lower extremity swelling; acute on chronic systolic congestive heart failure; coronary artery disease status post st elevation myocardial infarction ; history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter['hypoxemia and hypotension', 'lower extremity swelling', 'acute on chronic systolic congestive heart failure', 'coronary artery disease status post st elevation myocardial infarction', 'history of deep vein thrombosis pulmonary embolism status post inferior vena cava filter']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "No",
+    "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output. According to the note, the patient's creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the patient's urine output is 1,074 ml in 24 hours, which is approximately 44.75 ml/hour. This is lower than the typical normal urine output of 50-100 ml/hour for adults, but not significantly low enough on its own to definitively diagnose AKI without considering other factors such as fluid balance and overall clinical context. However, the increase in creatinine level is a key indicator. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria define AKI as an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a increase to 1.5 times or more baseline, which was within the last 7 days. Given the information provided, the patient's creatinine increase does not meet the 0.3 mg/dL threshold within 48 hours as per the exact KDIGO criteria based on the data given, but it does show an increase, suggesting some degree of kidney stress or impairment. However, without a clear baseline creatinine from before the current hospital stay or more detailed information on the timing and magnitude of creatinine changes, it's challenging to definitively classify this as AKI based solely on the provided data. Nonetheless, the clinical context, including the use of medications that can affect kidney function and the presence of other potential stressors, suggests that kidney function is being closely monitored, which is appropriate given the patient's overall clinical picture.",
+    "raw_state": {
+      "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output. According to the note, the patient's creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the patient's urine output is 1,074 ml in 24 hours, which is approximately 44.75 ml/hour. This is lower than the typical normal urine output of 50-100 ml/hour for adults, but not significantly low enough on its own to definitively diagnose AKI without considering other factors such as fluid balance and overall clinical context. However, the increase in creatinine level is a key indicator. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria define AKI as an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a increase to 1.5 times or more baseline, which was within the last 7 days. Given the information provided, the patient's creatinine increase does not meet the 0.3 mg/dL threshold within 48 hours as per the exact KDIGO criteria based on the data given, but it does show an increase, suggesting some degree of kidney stress or impairment. However, without a clear baseline creatinine from before the current hospital stay or more detailed information on the timing and magnitude of creatinine changes, it's challenging to definitively classify this as AKI based solely on the provided data. Nonetheless, the clinical context, including the use of medications that can affect kidney function and the presence of other potential stressors, suggests that kidney function is being closely monitored, which is appropriate given the patient's overall clinical picture.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the urine output is 1,074 ml in 24 hours, and 850 ml since 12 am, which is relatively low. The patient is also on furosemide (Lasix), a diuretic, which may affect urine output. However, the increase in creatinine level and the relatively low urine output suggest that the patient may have acute kidney injury. Furthermore, the patient's fluid balance is negative (-181 ml and -480 ml), which could also contribute to AKI. ",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output over time. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a worsening of kidney function. Additionally, the patient's urine output is 1,074 ml over 24 hours, which is relatively low and may indicate decreased kidney function. The patient is also on furosemide (Lasix), a diuretic that can affect urine output. However, despite the use of a diuretic, the urine output is not significantly high, suggesting that the kidneys may not be responding well. Furthermore, the patient's fluid balance is negative (-181 ml and -480 ml), which could be a sign of dehydration or inadequate fluid resuscitation, potentially exacerbating kidney injury. Based on these indicators, it appears that the patient's kidney function is compromised, suggesting the presence of acute kidney injury.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the urine output is 1,074 ml in 24 hours, and 850 ml since 12 am, which may not be sufficient to rule out AKI without knowing the patient's baseline urine output. However, the increase in creatinine level is a key indicator of AKI. The patient's fluid balance is also negative (-181 ml and -480 ml), which could be a contributing factor to AKI. Based on these findings, it appears that the patient may have acute kidney injury.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the urine output is 1,074 ml in 24 hours, which is relatively low (less than 0.5 ml/kg/hour for 12 hours). The patient's fluid balance is also negative (-181 ml), which could be a contributing factor to the low urine output. Based on these findings, it appears that the patient has acute kidney injury.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the urine output is 1,074 ml in 24 hours, which is relatively low (less than 0.5 ml/kg/hour for 12 hours). The patient's fluid balance is also negative (-181 ml), which could be a contributing factor to the low urine output. Based on these findings, it appears that the patient has acute kidney injury.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "Yes",
+    "reasoning": "Consensus 'Yes' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the urine output is 1,074 ml in 24 hours, and 850 ml since 12 am, which may not be sufficient to rule out AKI without knowing the patient's baseline urine output. However, the increase in creatinine level is a key indicator of AKI. The patient's fluid balance is also negative (-181 ml and -480 ml), which could be a contributing factor to AKI. Based on these findings, it appears that the patient may have acute kidney injury.",
+              "choice": "Yes"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level increased from 2.1 to 2.3 mg/dl, which indicates a rise in creatinine level. Additionally, the urine output is 1,074 ml in 24 hours, which is relatively low (less than 0.5 ml/kg/hour for 12 hours). The patient's fluid balance is also negative (-181 ml), which could be a contributing factor to the low urine output. Based on these findings, it appears that the patient has acute kidney injury.",
+              "choice": "Yes"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist",
+            "Cardiology"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "Yes",
+        "final_reasoning": "Consensus 'Yes' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "105852.txt",
+    "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "arterial line - start [**2169-11-8**] 07:03 pm\narterial line - stop [**2169-11-8**] 10:26 pm\nno known drug allergies\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2169-11-8**] 09:21 pm\ncefipime - [**2169-11-8**] 10:25 pm\ninfusions:\nnitroglycerin - 0.2 mcg/kg/min\nother icu medications:\nfurosemide (lasix) - [**2169-11-8**] 11:53 pm\nother medications:\nasa 325mg\natorvostatin 80mg\nplavix 75mg\nheparin 5000 tid\nlabetolol 200 [**hospital1 **]\nvancomycin 1500 q 48 day 2\ncefepime 1gm q 24hr day 2\nvitamin d3/ calcium carbonate\nartificial tears\namlodipine 10mg\nipratroprium nebs\nsenna/ colace\nflowsheet data as of  [**2169-11-9**] 06:09 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.6\nc (97.8\ntcurrent: 36.1\nc (97\nhr: 67 (58 - 73) bpm\nbp: 134/56(75) {102/35(52) - 159/128(132)} mmhg\nrr: 15 (15 - 26) insp/min\nspo2: 94%\nheart rhythm: sr (sinus rhythm)\nwgt (current): 81.4 kg (admission): 80 kg\ntotal in:\n893 ml\n370 ml\npo:\n20 ml\ntf:\nivf:\n873 ml\n370 ml\nblood products:\ntotal out:\n1,074 ml\n850 ml\nurine:\n1,074 ml\n850 ml\nng:\nstool:\ndrains:\nbalance:\n-181 ml\n-480 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 94%\nabg: ///26/\ngeneral: nad. oriented x3. mood, affect appropriate.\nheent: ncat. right eye blind and with cataract. sclera anicteric.\nperrl, eomi. conjunctiva were pink, no pallor or cyanosis of the oral\nmucosa. dry mm no xanthalesma.\nneck: supple with jvp of 10 cm.\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. no m/r/g. no thrills, lifts.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. diminished breathe sounds and\ncrackles at the bases, other clear anteriorly. no wheezes or rhonchi.\nabdomen: soft, ntnd. no hsm or tenderness. abd aorta not enlarged by\npalpation. no abdominial bruits.\nextremities: no c/c/ trace edema. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ dp 1+ pt 1+\nleft: carotid 2+ femoral 2+ dp 1+ pt 1+\n263 k/ul\n11.6 g/dl\n189 mg/dl\n2.3 mg/dl\n26 meq/l\n5.3 meq/l\n74 mg/dl\n105 meq/l\n144 meq/l\n34.5 %\n14.1 k/ul\n[image002.jpg]\n[**2169-11-8**]  07:48 pm\n[**2169-11-9**]  01:41 am\nwbc\n14.1\nhct\n34.8\n34.5\nplt\n317\n263\ncr\n2.1\n2.3\nglucose\n189\nother labs: pt / ptt / inr:16.0/150.0/1.4, ck / ckmb /\ntroponin-t:365/21/, alt / ast:17/44, alk phos / t bili:57/0.2,\ndifferential-neuts:91.6 %, lymph:6.6 %, mono:1.6 %, eos:0.1 %,\nalbumin:3.8 g/dl, ldh:224 iu/l, ca++:9.4 mg/dl, mg++:2.6 mg/dl, po4:4.9\nmg/dl",
+      "hadm_id": "105852.txt",
+      "problem": "acute kidney injury",
+      "label": "nstemi; elevated end lv pressure (44mmhg) and pulm edema; nsr; hypoxia; leukocytosis; acute on chonic rf; htn:non st elevation myocardial infarction; elevated end left ventricular pressure millimeters of mercury and pulmonary edema; normal sinus rhythm; hypoxia; leukocytosis; acute on chronic renal failure; hypertension['non st elevation myocardial infarction', 'elevated end left ventricular pressure millimeters of mercury and pulmonary edema', 'normal sinus rhythm', 'hypoxia', 'leukocytosis', 'acute on chronic renal failure', 'hypertension']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl at different times, which does not indicate a significant increase that would suggest AKI. Additionally, the urine output is 750 ml and 1,020 ml over 24 hours, which is within the normal range. The fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. Based on these values, there is no clear evidence of acute kidney injury.",
+    "raw_state": {
+      "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl at different times, which does not indicate a significant increase that would suggest AKI. Additionally, the urine output is 750 ml and 1,020 ml over 24 hours, which is within the normal range. The fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. Based on these values, there is no clear evidence of acute kidney injury.",
+      "choice": "No"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "acute kidney injury",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. Additionally, the urine output is 750 ml and 1,020 ml, which is within normal limits. The patient's fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria for AKI include an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/h for 12 hours. Based on the provided data, the patient does not meet these criteria.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. Additionally, the urine output is 750 ml and 1,020 ml, which is within normal limits. The patient's fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria for AKI include an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/h for 12 hours. Based on the provided data, the patient does not meet these criteria.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. Additionally, the urine output is 750 ml and 1,020 ml, which is within normal limits. The patient's fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria for AKI include an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/h for 12 hours or more. Based on the provided data, the patient does not meet these criteria.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. The urine output is 750 ml and 1,020 ml over 24 hours, which is within the normal range. There is no mention of a decrease in urine output or an increase in creatinine level that would meet the criteria for AKI. ",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. Additionally, the urine output is 750 ml and 1,020 ml, which is within normal limits. The patient's fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria for AKI include an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/h for 12 hours or more. Based on the provided data, the patient does not meet these criteria.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "acute kidney injury",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Pediatrics",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "acute kidney injury",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. Additionally, the urine output is 750 ml and 1,020 ml, which is within normal limits. The patient's fluid balance is negative (-275 ml and -370 ml), but this alone does not necessarily indicate AKI. The KDIGO (Kidney Disease: Improving Global Outcomes) criteria for AKI include an increase in serum creatinine by 0.3 mg/dl or more within 48 hours or a urine output of less than 0.5 ml/kg/h for 12 hours. Based on the provided data, the patient does not meet these criteria.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the creatinine levels and the urine output. According to the note, the creatinine level is 0.8 mg/dl and 0.9 mg/dl, which does not indicate a significant increase. The urine output is 750 ml and 1,020 ml over 24 hours, which is within the normal range. There is no mention of a decrease in urine output or an increase in creatinine level that would meet the criteria for AKI. ",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist",
+            "Cardiology"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "184357.txt",
+    "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "dyspnea\nno events overnight.\ndaypro (oral) (oxaprozin)\nrash;\nshellfish derived\nrash; abdominal\nlipitor (oral) (atorvastatin calcium)\nleg pain;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nother medications:\nflowsheet data as of  [**2169-10-22**] 06:54 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 36.2\nc (97.2\ntcurrent: 36.2\nc (97.2\nhr: 50 (50 - 61) bpm\nbp: 114/63(74) {88/52(68) - 126/66(80)} mmhg\nrr: 18 (14 - 24) insp/min\nspo2: 99%\nheart rhythm: sb (sinus bradycardia)\ntotal in:\n475 ml\n650 ml\npo:\n150 ml\n150 ml\ntf:\nivf:\n325 ml\n500 ml\nblood products:\ntotal out:\n750 ml\n1,020 ml\nurine:\n750 ml\n1,020 ml\nng:\nstool:\ndrains:\nbalance:\n-275 ml\n-370 ml\nrespiratory support\no2 delivery device: nasal cannula\nspo2: 99%\nabg: ///27/\ngeneral: wdwn in nad. oriented x3. mood, affect appropriate.\nheent: ncat. sclera anicteric. perrl, eomi. conjunctiva were pink, no\npallor or cyanosis of the oral mucosa. no xanthalesma.\nneck: unable to examine for jvd\ncardiac: pmi located in 5th intercostal space, midclavicular line. rr,\nnormal s1, s2. w/ ii/vi sm at llsb, no radiation to carotids. no\nthrills, lifts. no s3 or s4.\nlungs: no chest wall deformities, scoliosis or kyphosis. resp were\nunlabored, no accessory muscle use. unable to auscultate bases for\nexam.\nabdomen: soft, ntnd. no hsm or tenderness.\nextremities: no c/c/e. no femoral bruits.\nskin: no stasis dermatitis, ulcers, scars, or xanthomas.\npulses:\nright: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\nleft: carotid 2+ femoral 2+ popliteal 2+ dp 2+ pt 2+\n205 k/ul\n11.3 g/dl\n136 mg/dl\n0.8 mg/dl\n27 meq/l\n4.4 meq/l\n13 mg/dl\n105 meq/l\n137 meq/l\n33.4 %\n5.6 k/ul\nimage002.jpg]\n[**2169-10-21**]  10:29 pm\n[**2169-10-22**]  05:17 am\nwbc\n6.6\n5.6\nhct\n35.4\n33.4\nplt\n199\n205\ncr\n0.9\n0.8\ntropt\n0.14\n0.17\nglucose\n136\nother labs: pt / ptt / inr:12.7/25.3/1.1, ck / ckmb /\ntroponin-t:135/16/0.17, mg++:2.0 mg/dl",
+      "hadm_id": "184357.txt",
+      "problem": "acute kidney injury",
+      "label": "stemist elevation myocardial infarction['st elevation myocardial infarction']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "baseline_zs",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "Yes",
+    "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output. According to the note, the patient's creatinine (cr) level is 1.3 mg/dl. While this value alone does not confirm AKI without knowing the baseline creatinine level, it is within a range that could be considered normal or slightly elevated for some individuals, depending on their baseline renal function. However, the urine output is 170 ml over a period (the exact timeframe is not specified but appears to be at least 12 hours given the context of 'since 12 am' for other measurements), which is low and suggests oliguria, a criterion for AKI. The patient is also noted to have a 'hypoactive bowel sounds; soft, nontender, not distended' abdomen, which might not directly indicate AKI but suggests some gastrointestinal issues that could indirectly affect renal function through dehydration or other mechanisms. Nonetheless, without a clear increase in creatinine from a baseline value or more detailed information on the urine output over a standardized period (e.g., less than 0.5 mL/kg/hour for 12 hours), it's challenging to definitively diagnose AKI based solely on the information provided. However, considering the low urine output, it's reasonable to suspect some form of renal impairment or insufficiency, which could be consistent with AKI, especially in the context of a critically ill patient with multiple other issues.",
+    "raw_state": {
+      "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output. According to the note, the patient's creatinine (cr) level is 1.3 mg/dl. While this value alone does not confirm AKI without knowing the baseline creatinine level, it is within a range that could be considered normal or slightly elevated for some individuals, depending on their baseline renal function. However, the urine output is 170 ml over a period (the exact timeframe is not specified but appears to be at least 12 hours given the context of 'since 12 am' for other measurements), which is low and suggests oliguria, a criterion for AKI. The patient is also noted to have a 'hypoactive bowel sounds; soft, nontender, not distended' abdomen, which might not directly indicate AKI but suggests some gastrointestinal issues that could indirectly affect renal function through dehydration or other mechanisms. Nonetheless, without a clear increase in creatinine from a baseline value or more detailed information on the urine output over a standardized period (e.g., less than 0.5 mL/kg/hour for 12 hours), it's challenging to definitively diagnose AKI based solely on the information provided. However, considering the low urine output, it's reasonable to suspect some form of renal impairment or insufficiency, which could be consistent with AKI, especially in the context of a critically ill patient with multiple other issues.",
+      "choice": "Yes"
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "generic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine (cr) levels and other indicators of kidney function. According to the note, the patient's creatinine level is 1.3 mg/dl. While this value alone might not conclusively indicate AKI without knowing the baseline creatinine level, we can also consider other factors such as the patient's fluid balance, urine output, and overall clinical context. The patient has a relatively low urine output (170 ml over a period, with 50 ml from the NG tube and other outputs not significantly high), which could suggest some degree of kidney impairment or dehydration. However, without a clear increase in creatinine from a baseline value or more specific criteria for AKI (such as those defined by the KDIGO guidelines, which include an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a 50% or more increase from baseline within 7 days), it's challenging to definitively diagnose AKI based solely on the information provided. Nonetheless, considering the clinical context, including the patient's complex medical condition, the use of medications that could affect kidney function, and the presence of other potential stressors on the kidneys, there is a suggestion of possible renal impairment, but it does not clearly meet the specific criteria for AKI as typically defined. Therefore, based on the information given and typical diagnostic criteria, the answer would lean towards 'No' for a definitive diagnosis of acute kidney injury, but with the understanding that renal function is being closely monitored and could potentially deteriorate.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine (cr) levels and other indicators of kidney function. According to the note, the patient's creatinine level is 1.3 mg/dl. While this value alone might not conclusively indicate AKI without knowing the baseline creatinine level, we can also consider other factors such as the patient's fluid balance, urine output, and overall clinical context. The patient has a relatively low urine output (170 ml over a period, with 50 ml from the NG tube and other outputs), which could suggest some degree of kidney dysfunction or dehydration. However, without a clear increase in creatinine from a baseline value or more specific criteria for AKI (such as those defined by the KDIGO guidelines, which include an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a 50% or more increase from baseline within 7 days), it's challenging to definitively diagnose AKI based solely on the information provided. Additionally, the patient's overall fluid management, including IV fluids and diuretic use, can impact kidney function and urine output. Given these considerations and the lack of explicit comparison to baseline kidney function or clear AKI criteria, the determination of AKI might not be conclusively made from the provided information alone.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_3": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine (cr) levels and other indicators of kidney function. According to the note, the patient's creatinine level is 1.3 mg/dl. While this value alone might not conclusively indicate AKI without knowing the baseline creatinine level, we can also consider other factors such as the patient's fluid balance, urine output, and overall clinical context. The patient has a relatively low urine output (170 ml over a period, with 50 ml from the NG tube and other outputs), which could suggest some degree of kidney impairment or dehydration. However, without a clear increase in creatinine from a baseline value or more specific criteria for AKI (such as those defined by the KDIGO guidelines, which include an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a 50% or more increase from baseline within 7 days), it's challenging to definitively diagnose AKI based solely on the information provided. Nonetheless, the clinical context, including the use of medications that could affect kidney function and the patient's overall critical condition, suggests that kidney function should be closely monitored.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_4": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine (cr) levels and other indicators of kidney function. According to the note, the patient's creatinine level is 1.3 mg/dl. While this value alone might not conclusively indicate AKI without knowing the baseline creatinine level, we can also consider other factors such as the patient's fluid balance, urine output, and overall clinical context. The patient has a relatively low urine output (170 ml over a period, with 50 ml from the NG and other outputs not significantly high), which could suggest some degree of kidney impairment or dehydration. However, without a clear increase in creatinine from a baseline value or more specific criteria for AKI (such as those defined by the KDIGO guidelines, which include an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a 50% or more increase from baseline within 7 days), it's challenging to definitively diagnose AKI based solely on the information provided. Additionally, the patient's overall fluid management, including IV fluids and diuretic use, can impact kidney function and urine output. Given these considerations and the lack of explicit comparison to baseline kidney function or clear AKI criteria, the diagnosis of acute kidney injury cannot be conclusively made from the provided information alone.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_5": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine levels and urine output. According to the note, the patient's creatinine (cr) level is 1.3 mg/dl. While this value alone does not confirm AKI without knowing the baseline creatinine level, it is within a range that could be considered normal or slightly elevated for some individuals, depending on their baseline renal function. However, the urine output is 170 ml over a period (the exact timeframe is not specified but appears to be over several hours), which is relatively low and could indicate decreased renal function or other issues such as dehydration. Nonetheless, without a clear increase in creatinine from a baseline value or more detailed information on urine output over a standardized period (e.g., less than 0.5 ml/kg/hour for 12 hours), it's challenging to definitively diagnose AKI based solely on the information provided. The patient's fluid balance and overall clinical context also play crucial roles in assessing renal function. Given the information, while there are indicators of potential renal issues, such as low urine output, the data provided does not conclusively meet the typical criteria for diagnosing acute kidney injury without knowing more about the patient's baseline renal function and without more specific details on the timing and volume of urine output.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "dynamic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Infectious Diseases",
+            "General Practice"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "No",
+    "reasoning": "Consensus 'No' reached in Panel 1, Round 1",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {
+        "generic_1": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine (cr) levels and other indicators of kidney function. The patient's creatinine level is 1.3 mg/dl. While this value alone might not conclusively indicate AKI without knowing the baseline creatinine level, we can also consider other factors such as the patient's fluid balance, urine output, and overall clinical context. The patient has a relatively low urine output (170 ml over a period, with 50 ml from the NG tube and other outputs not significantly high), which could suggest some degree of kidney impairment or dehydration. However, without a clear increase in creatinine from a baseline value or more specific criteria for AKI (such as those defined by the KDIGO guidelines, which include an increase in serum creatinine by 0.3 mg/dL or more within 48 hours or a 50% or more increase from baseline within 7 days), it's challenging to definitively diagnose AKI based solely on the information provided. Additionally, the patient's overall fluid management, medications, and the presence of other potential causes of acute kidney injury (like nephrotoxic medications or sepsis) should be considered. Given the information, while there are indicators that could suggest renal impairment (low urine output, need for fluid management), the explicit diagnosis of acute kidney injury cannot be made without more specific data on creatinine level changes over time or more detailed clinical context.",
+              "choice": "No"
+            }
+          }
+        },
+        "generic_2": {
+          "history": {
+            "round_1": {
+              "reasoning": "To determine if the patient has acute kidney injury (AKI), we need to look at the patient's creatinine (cr) levels and other indicators of kidney function. The patient's creatinine level is 1.3 mg/dl. While this value alone might not conclusively indicate AKI without knowing the baseline creatinine value, we can also consider other factors such as the patient's fluid balance, urine output, and overall clinical context. The patient has a urine output of 170 ml over a certain period, which might be considered low depending on the time frame, but without a clear 24-hour urine output, it's difficult to assess. However, the presence of a hiatal hernia, the need for surgery, and the use of medications that could affect kidney function (like IV contrast for imaging studies, though not explicitly mentioned as recently administered) are important contextual factors. Nonetheless, the key indicator for AKI would be a rise in creatinine levels or a decrease in urine output. Given the information, the creatinine level of 1.3 mg/dl is not markedly elevated for many adults, suggesting that while the patient may have some degree of kidney impairment, it does not clearly indicate acute kidney injury without more specific criteria being met, such as a significant increase from a baseline value or a more pronounced decrease in urine output. Therefore, based on the provided information, it's challenging to definitively diagnose acute kidney injury.",
+              "choice": "No"
+            }
+          }
+        }
+      },
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist",
+            "Cardiology"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus 'No' reached in Panel 1, Round 1"
+      }
+    },
+    "status": "Completed successfully"
+  },
+  {
+    "method": "static_dynamic",
+    "hadm_id": "111372.txt",
+    "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+    "choice": "ERROR",
+    "reasoning": "Fallback aggregator LLM call failed (returned None).",
+    "raw_state": {
+      "note": "[**8-14**]\n- thoracic [**doctor first name 213**] to operate tomorrow to correct hiatal hernia but as w/o\ncorrection, pt will not tolerate feeds.\n.\n- given two doses iv vit k to reverse inr 2.5 in case she goes for\nsurgery tomorrow. goal inr <1.4\n.\n- changed ppi, metoprolol, and h2 blocker to iv form. po meds being\nheld as pt has lots of fluid suctioned from ngt, brown, guaiac\nnegative. nausea improved with suctioning.\n.\n- nausea after 0.5 of morphine- trying toradol for pain control\nmorphine\nnausea/vomiting\npercocet (oral) (oxycodone hcl/acetaminophen)\nnausea/vomiting\ncodeine\nnausea/vomiting\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\ninfusions:\nother icu medications:\nmorphine sulfate - [**2119-8-14**] 08:50 pm\nmetoprolol - [**2119-8-14**] 09:14 pm\npantoprazole (protonix) - [**2119-8-14**] 10:00 pm\nfamotidine (pepcid) - [**2119-8-14**] 11:51 pm\nother medications:\nflowsheet data as of  [**2119-8-15**] 07:48 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 37.4\nc (99.3\ntcurrent: 35.9\nc (96.7\nhr: 91 (81 - 115) bpm\nbp: 131/69(85) {107/53(51) - 140/83(96)} mmhg\nrr: 16 (9 - 28) insp/min\nspo2: 99% tent, fio2 50%\nheart rhythm: svt (supra ventricular tachycardia)\nwgt (current): 71.1 kg (admission): 71.6 kg\nheight: 66 inch\nabg: 7.40/41/63/26 (normal)\ntotal in:\n1,076 ml\n585 ml\npo:\ntf:\nivf:\n1,076 ml\n585 ml\nblood products:\ntotal out:\n220 ml\n500 ml\nurine:\n170 ml\n200 ml\nng:\n50 ml\n300 ml\nstool:\ndrains:\nbalance:\n856 ml\n85 ml\ngeneral:  pleasant, conversational, comfortable\nheent:  sclera anicteric, dry mucous membranes\nneck:  supple\nlungs:  diffuse ronchi b/l\ncv:  irregularly irregular; normal s1/s2; no murmurs\nabdomen:  hypoactive bowel sounds; soft, nontender, not distended\next:  warm, well-perfused; no lower extremity edema\n131 k/ul\n11.9 g/dl\n174 mg/dl\n1.3 mg/dl\n19 meq/l\n4.3 meq/l\n28 mg/dl\n111 meq/l\n146 meq/l\n37.1 %\n12.1 k/ul\nwbc\n12.1\nhct\n37.1\nplt\n131\ncr\n1.3\ntropt\n<0.01\n0.01\ntco2\n26\nglucose\n174\nother labs:\npt/ptt/inr: 185./26.7/1.7\ncardiac enzymes negative x 3\nlipase: 26,\nlactic acid:1.3 mmol/l,\nca++:8.5 mg/dl, mg++:2.4 mg/dl, po4:3.3 mg/dl\n.\ncxr [**2119-8-15**] s/p picc placement: per , compared to [**8-15**] and\n[**8-14**], picc line 8cm past ac junction in r atrium, ng tube in place in\nstomach above diaphragm. pt with mild pulm edema persists but appears\ndrier than yesterday. has collapse of rll, which may be due to pleural\neffusion vs atelectasis.\nct chest/[**last name (un) **]/pelvis\nthoracic aa measures 4.9 x 4.4 cm, minimal\ninterval enlargement; no dissection or pe; interval enlargement and\nlarge hiatal hernia.",
+      "hadm_id": "111372.txt",
+      "problem": "acute kidney injury",
+      "label": "hypoxic respiratory distress; hiatal hernia; shoulder pain; cad s/p inferior mi; gastritis/gerd:  likely related to large hiatal hernia.hypoxic respiratory distress; hiatal hernia; shoulder pain; coronary artery disease status post inferior myocardial infarction; gastritis gastroesophageal reflux disease likely related to large hiatal hernia['hypoxic respiratory distress', 'hiatal hernia', 'shoulder pain', 'coronary artery disease status post inferior myocardial infarction', 'gastritis gastroesophageal reflux disease likely related to large hiatal hernia']",
+      "generic_agents": {},
+      "panels": {
+        "panel_1": {
+          "Initially Identified Specialties": [
+            "Oncology",
+            "Cardiology",
+            "Neurology",
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        },
+        "panel_2": {
+          "Initially Identified Specialties": [
+            "Intensive Care Specialist",
+            "Nephrologist"
+          ],
+          "Collected Specialists": {}
+        }
+      },
+      "final": {
+        "final_choice": "ERROR",
+        "final_reasoning": "Fallback aggregator LLM call failed (returned None)."
+      }
+    },
+    "status": "Completed successfully"
+  }
+]

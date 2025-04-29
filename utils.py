@@ -7,15 +7,20 @@ logger = logging.getLogger(__name__)
 def safe_json_load(s: str) -> any:
     # 1. Try standard JSON
     try:
-        return json.loads(s)
+        obj = json.loads(s)
+        if not isinstance(obj, dict):
+            raise ValueError(f"Expected JSON object, got {obj!r}")
+        return obj
     except Exception as e:
-        logger.error("Standard json.loads failed: %s", e)
+        logger.error("Standard json.loads failed or non‐dict output: %s", e)
     
     # 2. Try demjson3
     try:
         import demjson3
         logger.info("Attempting to parse with demjson3 as fallback.")
         result = demjson3.decode(s)
+        if not isinstance(result, dict):
+            raise ValueError(f"Expected JSON object, got {result!r}")
         logger.info("demjson3 successfully parsed the JSON.")
         return result
     except Exception as e2:
@@ -26,6 +31,8 @@ def safe_json_load(s: str) -> any:
         import json5
         logger.info("Attempting to parse with json5 as fallback.")
         result = json5.loads(s)
+        if not isinstance(result, dict):
+            raise ValueError(f"Expected JSON object, got {result!r}")
         logger.info("json5 successfully parsed the JSON.")
         return result
     except Exception as e3:
@@ -36,6 +43,8 @@ def safe_json_load(s: str) -> any:
         import dirtyjson
         logger.info("Attempting to parse with dirtyjson as fallback.")
         result = dirtyjson.loads(s)
+        if not isinstance(result, dict):
+            raise ValueError(f"Expected JSON object, got {result!r}")
         logger.info("dirtyjson successfully parsed the JSON.")
         return result
     except Exception as e4:
@@ -47,6 +56,8 @@ def safe_json_load(s: str) -> any:
         logger.info("Attempting to parse with jsom as fallback.")
         parser = jsom.JsomParser()
         result = parser.loads(s)
+        if not isinstance(result, dict):
+            raise ValueError(f"Expected JSON object, got {result!r}")
         logger.info("jsom successfully parsed the JSON.")
         return result
     except Exception as e5:
@@ -58,6 +69,8 @@ def safe_json_load(s: str) -> any:
         logger.info("Attempting to repair JSON with json_repair as fallback.")
         repaired = json_repair.repair_json(s)
         result = json.loads(repaired)
+        if not isinstance(result, dict):
+            raise ValueError(f"Expected JSON object, got {result!r}")
         logger.info("json_repair successfully parsed the JSON.")
         return result
     except Exception as e6:

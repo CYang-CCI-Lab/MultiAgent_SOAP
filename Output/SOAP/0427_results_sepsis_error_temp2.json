@@ -1,0 +1,86 @@
+[
+  {
+    "method": "hybrid_special_generic",
+    "hadm_id": "185452.txt",
+    "label": "hypoxemia; # nstemi.; aspiration pneumonia; pleural effusion; copdhypoxemia; non st elevation myocardial infarction ; aspiration pneumonia; pleural effusion; chronic obstructive pulmonary disease['hypoxemia', 'non st elevation myocardial infarction', 'aspiration pneumonia', 'pleural effusion', 'chronic obstructive pulmonary disease']",
+    "choice": "No",
+    "reasoning": "Consensus reached",
+    "raw_state": {
+      "note": "dyspnea/hypoxia\nekg - at [**2125-12-31**] 08:23 am\n-tte - to assess for new [**year (4 digits) 2270**] given elevated bnp and findings of failure\n- no new [**last name (lf) **], [**first name3 (lf) **] 55%\n-s/s evalutation - rec barium swallow to r/o esophageal pathology,\nlikely reflux, re-consult if (-) scan, cont purees\n- diuresis iv lasix 40mg am - net (-)\n\"   -cardiology recs - from team census - \"\"when sob quiets down, consider\"\n\"   cath\"\" - maximize med tx.  spoke with cards c/s o/n, will make sure team\"\nevals [**1-1**].\n- ct scan 8pm - small bil pleural effusions, smooth septal thickening,\nggo in dependant portion of lungs, findings suggestive of pulmonary\nedema, however pattern is somewhat atypical, aspiration may be\nconsidered.  3v cad noted, calcification of mitral annulus and av.\ndemerol (oral) (meperidine hcl)\nunknown;\nchanges to  and\nf\nreview of systems is unchanged from admission except as noted below\nreview of systems:\nlast dose of antibiotics:\nvancomycin - [**2125-12-30**] 07:45 am\nmetronidazole - [**2126-1-1**] 06:00 am\ninfusions:\nheparin sodium - 1,800 units/hour\nother icu medications:\nother medications:\nflowsheet data as of  [**2126-1-1**] 07:52 am\nvital signs\nhemodynamic monitoring\nfluid balance\n24 hours\nsince 12 am\ntmax: 38.1\nc (100.5\ntcurrent: 36.4\nc (97.5\nhr: 65 (57 - 69) bpm\nbp: 115/31(54) {93/21(44) - 157/123(131)} mmhg\nrr: 17 (11 - 17) insp/min\nspo2: 92%\nheart rhythm: sr (sinus rhythm)\ntotal in:\n1,078 ml\n220 ml\npo:\n480 ml\ntf:\nivf:\n598 ml\n220 ml\nblood products:\ntotal out:\n2,045 ml\n260 ml\nurine:\n2,045 ml\n260 ml\nng:\nstool:\ndrains:\nbalance:\n-967 ml\n-40 ml\nrespiratory support\no2 delivery device: aerosol-cool\nspo2: 92%\nabg: ///36/\ngeneral appearance: well nourished, no acute distress, overweight /\nobese\ncardiovascular: (s1: normal), (s2: normal), (murmur: systolic)\nperipheral vascular: (right radial pulse: not assessed), (left radial\npulse: not assessed), (right dp pulse: not assessed), (left dp pulse:\nnot assessed)\nrespiratory / chest: (breath sounds: wheezes : )\nabdominal: soft, non-tender, bowel sounds present, no(t) distended\nextremities: right: 2+, left: 2+\nskin:  not assessed\nneurologic: attentive, responds to: not assessed, movement: not\nassessed, tone: not assessed\n250 k/ul\n9.7 g/dl\n167 mg/dl\n0.8 mg/dl\n36 meq/l\n4.2 meq/l\n26 mg/dl\n98 meq/l\n141 meq/l\n29.4 %\n8.8 k/ul\nimage002.jpg]\n[**2125-12-30**]  04:27 am\n[**2125-12-30**]  11:14 am\n[**2125-12-31**]  05:20 am\n[**2125-12-31**]  04:33 pm\n[**2126-1-1**]  04:37 am\nwbc\n8.6\n9.5\n8.8\nhct\n29.3\n30.0\n29.4\nplt\n[**telephone/fax (3) 2271**]\ncr\n0.9\n0.9\n1.0\n0.8\ntropt\n2.89\n2.99\n2.61\n1.37\n0.82\nglucose\n97\n122\n223\n167\nother labs: pt / ptt / inr:13.1/76.8/1.1, ck / ckmb /\ntroponin-t:110/3/0.82, alt / ast:[**12-30**], alk phos / t bili:64/0.3,\nlactic acid:0.9 mmol/l, albumin:2.9 g/dl, ldh:246 iu/l, ca++:8.2 mg/dl,\nmg++:2.0 mg/dl, po4:3.9 mg/dl",
+      "hadm_id": "185452.txt",
+      "problem": "sepsis",
+      "label": "hypoxemia; # nstemi.; aspiration pneumonia; pleural effusion; copdhypoxemia; non st elevation myocardial infarction ; aspiration pneumonia; pleural effusion; chronic obstructive pulmonary disease['hypoxemia', 'non st elevation myocardial infarction', 'aspiration pneumonia', 'pleural effusion', 'chronic obstructive pulmonary disease']",
+      "generic_agents": {
+        "generic_1": {
+          "round_1": {
+            "reasoning": "The patient's note does not explicitly mention sepsis, but it does provide some relevant information. The patient has been receiving antibiotics (vancomycin and metronidazole), which could suggest a suspected infection. However, the patient's white blood cell count (WBC) is not significantly elevated (8.6, 9.5, 8.8), and the patient's temperature is not extremely high (tmax: 38.1\u00b0C or 100.5\u00b0F). While the patient has some abnormal lab results, such as an elevated troponin level and a slightly elevated glucose level, these findings are not specific to sepsis. Additionally, the patient's clinical presentation, including vital signs and physical examination, does not clearly indicate sepsis. The patient's Spo2 is 92% on oxygen, and the patient has a systolic murmur, but these findings are more suggestive of cardiac or respiratory issues rather than sepsis. Overall, based on the provided information, there is not enough evidence to confirm sepsis.",
+            "choice": "No"
+          }
+        },
+        "generic_2": {
+          "round_1": {
+            "reasoning": "The patient's note does not explicitly mention sepsis, but it does provide some relevant information. The patient has been administered vancomycin and metronidazole, which are antibiotics often used to treat sepsis. However, the note also mentions that the review of systems is unchanged from admission except as noted, and there is no clear indication of a systemic inflammatory response syndrome (SIRS) or organ dysfunction that would be characteristic of sepsis. The patient's vital signs, such as heart rate, blood pressure, and temperature, are also not indicative of sepsis. Additionally, the patient's white blood cell count (WBC) is within a relatively normal range (8.6-9.5), which does not strongly suggest sepsis. While the patient is being treated with antibiotics, the presence of antibiotics alone is not sufficient to diagnose sepsis. Overall, based on the provided information, there is not enough evidence to confirm a diagnosis of sepsis.",
+            "choice": "No"
+          }
+        }
+      },
+      "final": {
+        "final_choice": "No",
+        "final_reasoning": "Consensus reached"
+      },
+      "panel_1": {
+        "Initially Identified Specialties": [
+          "Infectious Disease Specialist",
+          "Intensive Care Specialist",
+          "Pulmonologist"
+        ],
+        "Collected Specialists": {
+          "Infectious Disease Specialist": {
+            "expertise": [
+              "interpretation of antibiotic therapy",
+              "identification of infectious pathogens",
+              "diagnosis of sepsis"
+            ],
+            "answer_history": {
+              "round_1": {
+                "reasoning": "The patient's note shows a temperature of 38.1\u00b0C (100.5\u00b0F) at some point, which is a fever, and a white blood cell count (WBC) that has been around 8.6 to 9.5, which is within the normal range or slightly elevated. The patient is also on vancomycin and metronidazole, which are antibiotics often used to treat infections. However, the patient's condition seems to be more focused on cardiovascular and respiratory issues, such as dyspnea, hypoxia, and pulmonary edema, rather than a clear source of infection that would typically be seen in sepsis. Additionally, the patient's vital signs, such as heart rate and blood pressure, do not show the typical signs of septic shock. The lactic acid level is 0.9 mmol/l, which is not significantly elevated. While the patient has some signs that could be consistent with infection or inflammation, such as the fever and the use of antibiotics, the overall clinical picture does not strongly suggest sepsis as the primary issue at this moment.",
+                "choice": "No"
+              }
+            }
+          },
+          "Intensive Care Specialist": {
+            "expertise": [
+              "management of critically ill patients",
+              "hemodynamic monitoring",
+              "recognition of sepsis in ICU settings"
+            ],
+            "answer_history": {
+              "round_1": {
+                "reasoning": "The patient's note shows a temperature of 38.1\u00b0C (100.5\u00b0F) at some point, which is a fever, and a white blood cell count (WBC) that has been around 8.6 to 9.5, which is within the normal range or slightly elevated. The patient is also on antibiotics (vancomycin and metronidazole), which could indicate a suspected infection. However, the patient's hemodynamic parameters such as blood pressure (115/31 mmHg), heart rate (65 bpm), and respiratory rate (17 breaths/min) do not show significant signs of hemodynamic instability typically seen in sepsis. Additionally, the patient's lactate level is 0.9 mmol/L, which is not significantly elevated. While there are some indicators of potential infection, the overall clinical picture does not strongly suggest sepsis, especially considering the lack of clear evidence of organ dysfunction or severe hemodynamic compromise associated with sepsis.",
+                "choice": "No"
+              }
+            }
+          },
+          "Pulmonologist": {
+            "expertise": [
+              "evaluation of respiratory symptoms",
+              "interpretation of chest imaging",
+              "diagnosis of pulmonary complications related to sepsis"
+            ],
+            "answer_history": {
+              "round_1": {
+                "reasoning": "The patient's note does not explicitly mention sepsis, but it does provide some relevant information. The patient has been receiving antibiotics (vancomycin and metronidazole), which could suggest a suspected or confirmed infection. Additionally, the patient's vital signs show a maximum temperature of 38.1\u00b0C (100.5\u00b0F) and a heart rate of 65 bpm, which are within normal limits but could be indicative of a stress response. However, the patient's white blood cell count (WBC) is not significantly elevated (8.6, 9.5, 8.8), and the patient's other laboratory results do not clearly indicate sepsis. The patient's respiratory symptoms (dyspnea, hypoxia) and CT scan findings (small bilateral pleural effusions, smooth septal thickening, ground-glass opacities) could be consistent with pulmonary edema or other conditions, but they do not necessarily indicate sepsis. Overall, while the patient may have an infection, the available information does not clearly support a diagnosis of sepsis.",
+                "choice": "No"
+              }
+            }
+          }
+        }
+      },
+      "meta": {
+        "crashed_agents": [],
+        "active_agents": 5,
+        "round": 1
+      }
+    }
+  }
+]

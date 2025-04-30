@@ -1,0 +1,312 @@
+2025-04-30 07:29:13 — INFO — Processing sepsis (8 rows)…
+2025-04-30 07:29:13 — INFO — [BaselineZS] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:13 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:13 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:13 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:13 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:15 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:15 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:15 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:15 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:15 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:15 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:35 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:36 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:40 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:40 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:40 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:40 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:40 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:49 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:29:49 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:49 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:49 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:49 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:29:49 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:30:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:30:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:39:20 — INFO — Retrying request to /chat/completions in 0.471415 seconds
+2025-04-30 07:49:20 — INFO — Retrying request to /chat/completions in 0.756946 seconds
+2025-04-30 07:59:21 — ERROR — Method hybrid_special_generic failed for HADM 147952.txt: Request timed out.
+2025-04-30 07:59:21 — INFO — [BaselineZS] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:48 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:48 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:48 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:48 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:48 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:53 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 07:59:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 07:59:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:00:14 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:14 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:31 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:36 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:52 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:00:55 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:01:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:01:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:01:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:01:03 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:09:27 — INFO — Retrying request to /chat/completions in 0.446634 seconds
+2025-04-30 08:19:28 — INFO — Retrying request to /chat/completions in 0.935625 seconds
+2025-04-30 08:19:38 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:19:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:19:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:19:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:19:38 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:19:38 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:05 — INFO — [BaselineZS] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:05 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:05 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:05 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:05 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:06 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:06 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:06 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:06 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:06 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:25 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:33 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:33 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:33 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:33 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:33 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:33 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:38 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:38 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:20:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:20:38 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:21:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:10 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:49 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:51 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:53 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:21:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:22:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:22:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:22:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:30:12 — INFO — Retrying request to /chat/completions in 0.387221 seconds
+2025-04-30 08:40:13 — INFO — Retrying request to /chat/completions in 0.944415 seconds
+2025-04-30 08:50:14 — ERROR — Method hybrid_special_generic failed for HADM 197038.txt: Request timed out.
+2025-04-30 08:50:14 — INFO — [BaselineZS] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:14 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:14 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:14 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:14 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:35 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:35 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:37 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:37 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:37 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:37 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:41 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:41 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:41 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:41 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:41 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:50:47 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:47 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:47 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:47 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:50:47 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 08:51:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:14 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:15 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 08:51:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:00:22 — INFO — Retrying request to /chat/completions in 0.449151 seconds
+2025-04-30 09:02:53 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:02:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:02:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:02:53 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:02:53 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:02:53 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:15 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:21 — INFO — [BaselineZS] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:21 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:22 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:22 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:22 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:22 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:22 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:28 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:28 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:43 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:43 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:43 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:43 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:43 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:56 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:03:56 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:56 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:56 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:56 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:03:56 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:15 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:23 — INFO — [BaselineZS] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:23 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:23 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:23 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:23 — INFO — [Manager] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:25 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:31 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:31 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:32 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:50 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:04:54 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:54 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:54 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:54 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:54 — INFO — [DynamicSpecialist] init – token limit 22000, summarise ≥13200
+2025-04-30 09:04:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:05:28 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 09:14:31 — INFO — Retrying request to /chat/completions in 0.407823 seconds
+2025-04-30 09:24:31 — INFO — Retrying request to /chat/completions in 0.931123 seconds

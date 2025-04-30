@@ -1,849 +1,219 @@
 full_note,discharge diagnosis,distance,hadm_id
-"admission date:  [**2155-4-16**]              discharge date:   [**2155-5-7**]
+"admission date:  [**2201-10-19**]              discharge date:   [**2201-10-22**]
 
-date of birth:  [**2089-12-13**]             sex:   f
-
-service: surgery
-
-allergies:
-erythromycin base / indomethacin / actonel / reglan
-
-attending:[**first name3 (lf) 695**]
-chief complaint:
-hypoxia, altered mental status
-
-
-major surgical or invasive procedure:
-[**2155-4-26**]: egd/colonoscopy
-[**2155-4-30**]: egd
-[**5-6**]: picc removed
-
-
-history of present illness:
-ms. [**known lastname **] is a 65 year old female with extensive medical
-history including dm ii, esrd, and nonalcoholic steatohepatitis
-s/p liver and kidney transplant in [**7-/2153**], who recently
-underwent exploratory laparotomy, evacuation of intra-abdominal
-blood, exploration of retroperitoneal hematoma, and left
-salpingo-oophorectomy for retroperitoneal bleed. her post-op
-course was complicated by [**last name (un) **], volume overload requiring
-diuresis and cvvhd for ultrafiltration, gout flare. she also had
-an abdominal wall hematoma required evacuation on [**4-11**] and stay
-overnight for overvation. she was also treated for esbl uti with
-meropenem on [**4-14**]. per report, patient was noted to be hypoxic
-when working with pt and confused at the rehab on [**2155-4-16**]. she
-was then transferred to [**hospital1 18**] for evaluation. in the ed, the
-patient reported that she hasn't been feeling well. she reported
-having shortness of breath. she reported tolerating her diet and
-tf, having regular bms. she denied any fever, abdominal pain,
-fever, chills.
-
-
-past medical history:
-- diabetes mellitus type 2, on insulin, c/b retinopathy,
-nephropathy, and neuropathy
-- dyslipidemia
-- hypertension
-- atrial fibrillation, on coumadin
-- high-degree av block, s/p ppm [**2154-2-5**] ([**company 1543**] sensia ddd
-pacemaker), now pacer dependent
-- diastolic heart failure, nyha ii-[**last name (lf) 1105**], [**first name3 (lf) **] >65% on tte [**1-/2154**]
-- calcific aortic stenosis, moderate (area 1.0-1.2cm2) on tte
-[**1-/2154**]
-- moderate mitral annular calcification and mitral regurgitation
-
-- mild tricuspid regurgitation
-- moderate pulmonary hypertension
-- end-stage renal disease, [**3-12**] diabetes & contrast-induced
-nephropathy, s/p cadaveric transplant [**2153-7-21**]
-- non-alcoholic steato-hepatitis cirrhosis (stage iv, grade 2),
-c/b portal htn, ascites, encephalopathy, grade i-ii esophageal
-varices s/p banding s/p tips [**8-/2152**], s/p oltx [**2153-7-21**]
-- saphenous vein interposition graft repair of the hepatic
-artery and harvesting of the left saphenous vein graft [**2154-3-14**],
-hepatic artery s/p stent [**2154-4-25**]
-- s/p vats decortication [**11/2153**]
-- splenic vein thrombosis, on coumadin
-- anemia
-- thrombocytopenia
-- h/o c.diff
-- h/o seizures
--headaches ? [**3-12**] occipital neuralgia
-- meningioma, small left frontal lobe
-- gerd
-- osa has cpap at home but does not use
-- cervical djd
-- dermoid cyst
-- right adrenal mass
--osteoporosis
-- recurrent mdr uti (esbl klebsiella)
-- status post cholecystectomy followed by tubal ligation
-- status post left oopherectomy
-- status post appendectomy
-- ? restless legs syndrome
-- abdominal wall hematoma s/p evacuation
-
-social history:
-widowed, lives in [**hospital3 **] facility in [**hospital1 6930**] ma. has 4
-children, 3 in ma, one in [**state 3908**]. smoking: none; etoh: never;
-illicits: none.
-
-
-family history:
-mother and father with cad. father with stroke at 90. no other
-family history of early mi, arrhythmia, cardiomyopathies, or
-sudden cardiac death; otherwise non-contributory.
-
-physical exam:
-physical exam in the ed:
-vitals: t 102.4 hr 79 (ventricular paced) bp 125/56 rr 24 sat
-95%4l
-gen: moderately distress, orientedx2
-heent: nc/at, dry mucosa, no lymphadenopathy, no jvd appreciated
-chest: no tachypnea, b/l crackles
-cv: regularly paced, +murmur
-abd: obese; soft; nt/nd; lower abdominal wound clean, no
-exudate, no erythema
-extrem: trace edema
-rectal: normal tone, no gross blood, no mass
-
-physical exam at time of discharge:
-afebrile, vitals wnl
-gen - a&o x 3 nad
-cv - rrr no m/g/r
-pulm - ctab
-abd - soft ntnd, llq incision w/ wtd dressing along inferior 3
-cm, good granulation tissue, no surrounding erethema or
-induration, incision otherwise cdi
-extrem - no c/c/e
-
-
-pertinent results:
-labs on admission: [**2155-4-16**]
-wbc-35.4* rbc-2.76* hgb-9.0* hct-27.2* mcv-99* mch-32.6*
-mchc-33.1 rdw-20.0* plt ct-569*
-pt-14.4* ptt-28.4 inr(pt)-1.2*
-glucose-125* urean-73* creat-1.7* na-135 k-5.2* cl-95* hco3-30
-angap-15
-alt-22 ast-20 ck(cpk)-19* alkphos-208* totbili-1.5 lipase-12
-ck-mb-1 probnp-9697*
-albumin-3.1* calcium-8.6 phos-3.9 mg-2.0
-[**2155-4-17**] tacrofk-25.8*
-at discharge [**2155-5-7**]
-wbc-17.6* rbc-3.45* hgb-10.7* hct-33.2* mcv-96 mch-31.1
-mchc-32.3 rdw-17.1* plt ct-603*
-pt-12.2 ptt-23.4 inr(pt)-1.0
-glucose-134* urean-43* creat-1.0 na-138 k-3.7 cl-97 hco3-31
-angap-14
-alt-12 ast-15 ld(ldh)-274* alkphos-98 totbili-0.8
-albumin-3.1* calcium-8.3* phos-2.8 mg-2.0
-tacrofk-5.7
-.........
-cxr [**2155-4-16**]:
-findings: portable ap chest radiograph compared with [**2155-4-11**]
-demonstrates
-interval increase in bilateral basal and perihilar airspace
-opacities with
-increase in bilateral pleural effusions right greater than left
-and fluid
-tracking along the minor fissure. a left chest two-lead
-pacemaker remains
-stable in appearance. there is a feeding tube with its tip
-positioned in the third portion of the duodenum.
-
-tte [**2155-4-17**]: the left atrium is dilated. left ventricular wall
-thickness, cavity size and regional/global systolic function are
-normal (lvef >55%). right ventricular chamber size and free wall
-motion are normal. the number of aortic valve leaflets cannot be
-determined. the aortic valve leaflets are moderately thickened.
-there is moderate aortic valve stenosis (valve area 1.0-1.2cm2).
-moderate (2+) aortic regurgitation is seen. the mitral valve
-leaflets are mildly thickened. there is no mitral valve
-prolapse. there is severe mitral annular calcification. there is
-moderate thickening of the mitral valve chordae. there is mild
-functional mitral stenosis (mean gradient 7 mmhg) due to mitral
-annular calcification. moderate to severe (3+) mitral
-regurgitation is seen. [due to acoustic shadowing, the severity
-of mitral regurgitation may be significantly underestimated.]
-the tricuspid valve leaflets are mildly thickened. there is no
-pericardial effusion.
-
-renal us [**2155-4-17**]:
-impression:
-1. progression of the abnormal appearance of renal transplant
-vascularity,
-now with diffuse reversal of flow in diastole. renal vein
-remains patent.
-2. no significant change in appearance of the large midline/left
-
-abdominopelvic and retroperitoneal hematoma.
-
-ct chest w/o constrast [**2155-4-17**]:
-impression:
-1. bilateral lower lobe consolidations concerning for pneumonia
-in the
-setting of fever.
-2. asymmetrically distributed ground-glass opacities and smooth
-septal
-thickening, most likely due to hydrostatic pulmonary edema.
-infectious
-etiology (such as viral) for these opacities is less likely.
-3. small, dependent left and small-to-moderate, partially
-loculated right
-pleural effusion.
-
-colonoscopy [**2155-4-26**]:
-friability and ulceration in the distal transverse colon,
-splenic flexure and proximal descending colon compatible with
-ischemic colitis
-normal mucosa in the hepatic flexure and distal ascending colon
-otherwise normal colonoscopy to cecum
-
-egd [**2155-4-26**]:
-normal esophagus.  normal stomach.  normal duodenum.
-
-
-
-
-brief hospital course:
-ms. [**known lastname **] was evaluated in the ed and thought to have
-pulmonary edema. due to her high oxygen requirement and clinical
-picture, she was given iv [**known lastname 11573**] with minimal response. she was
-admitted to the sicu where [**known lastname 11573**] [**known lastname **] was initiated. below is
-her hospital course by system:
-
-1. neurologic: mental status improved by hospital day 2.
-confusion was felt to be secondary to hypoxia and uti. psych
-meds were continued. she was noted to have tremor and weakness
-on her right side. neurology was consulted and made
-recommendations for  eeg to r/o seizures, head ct to eval
-evolution of stroke. keppra was continued at current dose. head
-ct without contrast on [**4-22**] demonstrated unchanged left frontal
-parafalcine dural calcification. no mass effect, bleed or
-midline shift. mild atrophy was noted. cpap was recommended to
-decrease change of hypoxia that could increase seizure
-potential. this was set up, but she refused to wear due to
-claustraphobia sensation.
-
-2. pulmonary: pulmonary edema responded to diuresis. chest ct
-was done on [**4-17**] demonstrating pulmonary edema with possible
-bilateral pneumonia. cardiology consult was obtained and it was
-deemed that she had chf secondary to worsening mr. [**first name (titles) 11573**] [**last name (titles) **]
-and metolazone were given. she was also treated with a
-7-day-course of vancomycin for pna.
-
-3. cardiac: due to her history of diastolic chf and a bnp of
-~10,000 at admission, patient was thought to be in chf which
-exacerbated her [**last name (un) **]. tte on [**2155-4-17**] showed normal lvef with
-worsening mr compared to previous tte on 2/[**2155**]. cardiology
-agreed with the plan. recommendations were to continue to
-diurese then re-echo to evaluate mr and as once euvolemic.
-
-4. gi: dobbhoff tube was clogged on admission and was exchanged
-on hd#1. tf was restarted to 40 ml/hr of norvasource with
-beniprotein 21g/day. she developed diarrhea likely r/t tube
-feeds. stool was negative for c.diff on [**4-24**] and [**4-26**].
-colchicine which was started [**4-21**] was likely causing diarrhea.
-on hd 10 the patient passed multiple clots per rectum and had a
-hct drop. she was transferred to the icu and was transfused 6
-units of ffp and 6 units of prbc's. her hct stabalized at 30 and
-she did not require any further transfusions after hd 12. a
-colonoscopy done on [**4-26**] was significant for friability and
-ulceration in the distal transverse colon, splenic flexure and
-proximal descending colon compatible with ischemic colitis. tube
-feedings were stopped allowing for bowel rest. on [**4-29**],
-hepatology was consulted to place post pyloric feeding tube. on
-[**5-1**] a feeding tube was placed and tube feeds were advanced
-slowly during the remainder of her stay. at the time of
-discharge her tube feeds were to goal. peptamen 1.5 3/4 strength
-@ 60cc/hr. she should continue daily calorie counts.
-
-5. gu: diuresed with furosemide, metolazone and chlorothiazide.
-creatinine was 1.7 on admit. this trended down to 1.1 but
-trended up again to 1.9 after the lgi bleed. at the time of
-discharge her cr was at baseline.
-
-6. hem/id: on admit wbc was 35k with fever of 102.4. she was
-treated on meropenem for esbl klebsiella uti from her ucx on
-[**4-12**]. meropenum was given from [**4-17**] thru [**4-22**]. vancomycin was
-added empirically and given for 6 days ([**4-17**] thru [**4-22**]) for
-presumed pneumonia. serum wbc trended down to 16. blood cultures
-from [**4-16**] were negative. as discussed above her hct dropped [**3-12**] a
-lower gi bleed and stabalized after multiple transfussions.
-cipro and flagyl were started and should complete a 14 day
-course.
-
-7. musculoskeletal: she complained of increased discomfort in
-wrists. rheumatology was consulted and felt that she likely had
-a gout flare. recommendations were to increase her prednisone to
-10mg per day and start colchicine daily. joint pain decreased.
-prednisone was tapered to 5mg daily. colchicine was stopped due
-to an increase in her cr, therefore prednisone was increased to
-10 mg daily with good effect
-
-8. immunosuppression: prograf levels were monitored closely
-during this admission. dosing based on levels. mmf was kept at
-500 [**hospital1 **] and prednisone dosing as discussed under ms is 10 mg at
-discharge.
-
-medications on admission:
-albuterol neb q6 prn, amlodipine 10mg', aripiprazole 5mg'',
-carvedilol 25mg'', plavix 75mg', desvenlafaxine er 50mg', [**hospital1 11573**]
-120mg qam/80mg qpm, insulin glargine 30units qam & qhs,
-ipratropium neb q6 prn, prevacid 30mg', keppra 500mg'', ativan
-0.5mg [**hospital1 **] prn anxiety, meropenem 1gm q8 (started [**4-14**]), mmf
-500'', prilosec 20mg', zofran
-8mg q8 prn, oxycodone 5-10mg q4prn, pred 2.5mg', bactrim
-ss',fk [**2-8**], trazodone 25 qhs, ursodiol 300mg'', asa 325mg'',
-calicum 500+d 2tab', ferrous sulfate 325mg', miconazole tp"",
-insulin regular ss
-
-
-discharge medications:
-1. albuterol sulfate 2.5 mg /3 ml (0.083 %) solution for
-nebulization [**month/day (4) **]: one (1) neb inhalation q6h (every 6 hours) as
-needed for shortness of breath or wheezing.
-2. carvedilol 25 mg tablet [**month/day (4) **]: one (1) tablet po twice a day.
-3. ipratropium bromide 17 mcg/actuation hfa aerosol inhaler [**month/day (4) **]:
-two (2) puff inhalation qid (4 times a day) as needed for
-wheezing.
-4. levetiracetam 500 mg tablet [**month/day (4) **]: one (1) tablet po bid (2
-times a day).
-5. lorazepam 0.5 mg tablet [**month/day (4) **]: one (1) tablet po bid (2 times a
-day) as needed for anxiety.
-6. mycophenolate mofetil 500 mg tablet [**month/day (4) **]: one (1) tablet po
-bid (2 times a day).
-7. sulfamethoxazole-trimethoprim 400-80 mg tablet [**month/day (4) **]: one (1)
-tablet po daily (daily).
-8. miconazole nitrate 2 % powder [**month/day (4) **]: one (1) appl topical [**hospital1 **]
-(2 times a day): to groin area.
-9. trazodone 50 mg tablet [**hospital1 **]: 0.5 tablet po hs (at bedtime).
-10. ursodiol 300 mg capsule [**hospital1 **]: one (1) capsule po bid (2 times
-a day).
-11. oxycodone 5 mg tablet [**hospital1 **]: one (1) tablet po q4h (every 4
-hours) as needed for pain.
-12. acetaminophen 325 mg tablet [**hospital1 **]: 1-2 tablets po q6h (every 6
-hours) as needed for pain.
-13. prednisone 5 mg tablet [**hospital1 **]: two (2) tablet po daily (daily).
-
-14. furosemide 80 mg tablet [**hospital1 **]: one (1) tablet po bid (2 times
-a day).
-15. clopidogrel 75 mg tablet [**hospital1 **]: one (1) tablet po daily
-(daily).
-16. aripiprazole 5 mg tablet [**hospital1 **]: one (1) tablet po bid (2 times
-a day).
-17. aspirin 325 mg tablet [**hospital1 **]: one (1) tablet po daily (daily).
-
-18. ciprofloxacin 500 mg tablet [**hospital1 **]: one (1) tablet po q12h
-(every 12 hours) for 2 days: end date [**5-9**].
-19. pantoprazole 40 mg tablet, delayed release (e.c.) [**month/day (4) **]: one
-(1) tablet, delayed release (e.c.) po q12h (every 12 hours).
-20. insulin glargine 100 unit/ml solution [**month/day (4) **]: thirty two (32)
-units subcutaneous once a day: am dose
-34 units pm dose
-please see printout.
-21. insulin lispro 100 unit/ml solution [**month/day (4) **]: per sliding scale
-subcutaneous four times a day: follow sliding scale per fsbs.
-22. tacrolimus 0.5 mg capsule [**month/day (4) **]: one (1) capsule po q12h
-(every 12 hours): check levels monday/thursday. dose changed by
-transplant clinic only.
-23. metronidazole 500 mg tablet [**month/day (4) **]: one (1) tablet po q8h
-(every 8 hours) for 4 days: end date [**2155-5-11**].
-24. venlafaxine 50 mg tablet [**month/day/year **]: one (1) tablet po once a day.
-
-
-
-discharge disposition:
-extended care
-
-facility:
-[**hospital1 **]- [**hospital1 8**]
-
-
-Discharge Diagnosis: 
-chf (diastolic dysfunction)
-uti
-gout flare
-h/o liver/kidney transplant
-gi bleed/colitis
-occlusive and nonocclusive thrombus in left basilic vein. (picc
-removed)
-
-
-discharge condition:
-mental status: clear and coherent.
-level of consciousness: alert and interactive.
-activity status: out of bed with assistance to chair or
-wheelchair.
-
-
-discharge instructions:
-you will be transferring to [**hospital3 **] in [**hospital1 8**]
-please call the transplant office [**telephone/fax (1) 673**] if you have any
-of the following: fever, chills, nausea, vomiting, jaundice,
-increased fluid retention, decreased urine output, increased
-pain over the graft kidney or abdominal pain
-
-followup instructions:
-provider: [**first name4 (namepattern1) **] [**last name (namepattern1) **] md, phone [**telephone/fax (1) 673**], [**hospital **] medical
-building [**first name8 (namepattern2) **] [**location (un) 86**], date/time: [**2155-5-14**]  11:00
-provider: [**first name4 (namepattern1) **] [**last name (namepattern1) **], md phone:[**telephone/fax (1) 44**]
-  date/time:[**2155-5-15**] 8:30am
-[**2155-5-15**]  10:00a   echo east-gryz-4 [**hospital ward name **] building [**location (un) **]
-
-  cardiology echo lab
-[**2155-5-28**] 09:00a dr [**first name (stitle) **] (cardiology) [**hospital ward name **] clin ctr, [**location (un) **]
-
-
-                             [**first name11 (name pattern1) **] [**last name (namepattern4) 707**] md, [**md number(3) 709**]
-
-completed by:[**2155-5-7**]","
-chf (diastolic dysfunction)
-uti
-gout flare
-h/o liver/kidney transplant
-gi bleed/colitis
-occlusive and nonocclusive thrombus in left basilic vein. (picc
-removed)
-
-
-discharge condition:
-mental status: clear and coherent.
-level of consciousness: alert and interactive.
-activity status: out of bed with assistance to chair or
-wheelchair.
-
-
-discharge instructions:
-you will be transferring to [**hospital3 **] in [**hospital1 8**]
-please call the transplant office [**telephone/fax (1) 673**] if you have any
-of the following: fever, chills, nausea, vomiting, jaundice,
-increased fluid retention, decreased urine output, increased
-pain over the graft kidney or abdominal pain
-
-followup instructions:
-provider: [**first name4 (namepattern1) **] [**last name (namepattern1) **] md, phone [**telephone/fax (1) 673**], [**hospital **] medical
-building [**first name8 (namepattern2) **] [**location (un) 86**], date/time: [**2155-5-14**]  11:00
-provider: [**first name4 (namepattern1) **] [**last name (namepattern1) **], md phone:[**telephone/fax (1) 44**]
-  date/time:[**2155-5-15**] 8:30am
-[**2155-5-15**]  10:00a   echo east-gryz-4 [**hospital ward name **] building [**location (un) **]
-
-  cardiology echo lab
-[**2155-5-28**] 09:00a dr [**first name (stitle) **] (cardiology) [**hospital ward name **] clin ctr, [**location (un) **]
-
-
-                             [**first name11 (name pattern1) **] [**last name (namepattern4) 707**] md, [**md number(3) 709**]
-
-completed by:[**2155-5-7**]",0.3387305736541748,108497
-"admission date:  [**2105-4-22**]              discharge date:   [**2105-5-5**]
-
-date of birth:  [**2031-4-7**]             sex:   m
 
 service: medicine
 
 allergies:
-vancomycin / heparin sodium / phenytoin sodium / diazepam /
-lorazepam
+patient recorded as having no known allergies to drugs
 
-attending:[**first name3 (lf) 2485**]
+attending:[**first name3 (lf) 7934**]
 chief complaint:
-septic arthritis and sepsis, pneumonia
+respiratory distress
 
 major surgical or invasive procedure:
-revision left total knee replacement one component ([**4-23**])
-aspiration of right knee ([**4-23**])
-picc line placement ([**4-29**])
+picc line placement
 
 
 history of present illness:
-74 yo man with multiple medical problems including cad, esrd on
-hd (mwf, last hd today), respiratory failure s/p trach/peg, vent
-dependent at night and history of multiple infections with
-history of left tkr presents from [**hospital1 **] with concern for
-evolving sepsis. his knee had been replaced ~7 years ago and
-recently there had been concern about evolving infection due to
-knee pain x 1 month leading to several joint taps, last reported
-tap 2 days ago. he was started on daptomycin on [**4-10**] for mrsa
-septic arthritis and meropenem was added on [**4-13**], reports
-allergy to vancomycin. he had a midline placed on [**4-19**]. he was
-noted to be febrile and tachycardic with borderline hypotension
-and was [**last name (un) 4662**] to ed today due to concern that he was becoming
-septic.
-
-on arrival to the ed his vs were 101.8 121 (in af, known),
-112/71 rr30s 93% on 6l trach mask. ortho saw pt, consult in
-chart, basically recommended icu admission with antibiotics and
-or in am for washout. his knee has been tapped and cultured,
-blood cultures were also sent. synovial fluid with 180k wbcs.
-his chest xray showed r hd catheter in place, b/l pleural
-effusions knee film showed an effusion, osteomyelitis could not
-be excluded. labs notable for normal lactate at 1.6, normal
-electrolytes, elevated bun/cr and phos c/w chronic renal
-failure, anemic and thrombocytopenic with no known baseline. inr
-1.3. came in with picc, had 2 pivs placed in ed. he was given 1l
-ns as well as tylenol and meropenem and was admitted to the icu
-for continued monitoring. at the time of transfer his vs:
-110s sbp 90s 20s 98% on 6l trach mask.
-
-on arrival to the [**hospital unit name 153**] the patient was initially alert, some
-speech latency but cooperative fully with exam and questioning.
-only complaint was [**8-10**] knee pain which had been stable for past
-3 weeks. noted 1 episode of fever today. pain tolerable when
-still, otherwise takes tylenol and oxycodone for it. not
-ambulatory. on review of systems, denies headache, neck
-stiffness, vision changes, focal numbness or weakness. no change
-in respiratory status, no chest discomfort. no nausea or
-vomiting or change in ostomy output. [**name8 (md) **] rn at nh, has trouble
-with ostomy output at baseline requiring ostomy stimulation
-three times a week. denies confusion or lightheadedness. per nh
-and records pt will have intermittent periods of
-""unresponsiveness"" thought to potentially be seizures for which
-he takes keppra. does not make urine. no other joint pains. c/o
-some chronic lbp at site of sacral ulcer.
-
-he was given 2l ns for borderline bps and decreased
-responsiveness, transiently required dopamine. left subclavian
-central line placement attempted unsuccsesfully, was aborted
-after bp increased to 110s. was continued on meropenem and
-daptomycin.
+hpi: 86 year old female with tracheobronchiomalacia and chronic
+respitory distress vent dependent, h/o uti, h/o aspiration pna,
+dm type2, mr who presents from osh after difficulty with
+ventilation and found to have rapid atrial fibrillation. patient
+found at osh to be in severe respitory distress with minimal.
+ekg done which showed afib with rvr of 140-170. patient given
+solumedral 125mg and lasix 20mg at osh for concern of chf.
+patient transferred to ed were found to be in rapid afib,
+hypotensive to sbp 60s and hypoxic with o2sat in 80s. patient
+was cardioverted in the ed and returned to sinus rhythm,
+decrease in hr and increase in bp. patient given 4l ivf in the
+ed with minimal urine output. patient was also found to be
+febrile with temp 104. given flagyl,vanco,ceftriaxone in the ed.
+on cxr in ed found that there was an overdistension of
+tracheostomy cuff which was reduced in the ed.
 
 past medical history:
--left tkr [**2097**] (dr. [**last name (stitle) 16479**], [**hospital1 **])
--history of aicd infection, removed [**3-8**]
--respiratory failure, trached, vent dependent at night (history
-of mrsa and pseudomonas pna
--esrd on hd mwf, ? h/o iga nephropathy
--htn
--cad, s/p ptca
--chf, had aicd previously (see above)
--af s/p cardioversion, not currently anticoagulated (gib)
--h/o pe, has ivc filter
--h/o colon cancer s/p resection
--? h/o bowel obstruction s/o resection, now with ostomy.
--history of gib from stoma
--gout
--h/o multiple serious infections/bacteremia, both mrsa and vre
-in past, documented serratia bacteremia.
+1. diabetes mellitus type 2.
+2. hypertension.
+3. tracheobronchiomalacia
+4. anemia.
+5. moderate to severe mitral regurgitation.
+6. paf
+7. copd
+8. cva
+9. c. diff being treated at osh with flagyl and aztreonam
+
 
 social history:
-lives at [**hospital1 **] currently, prior to unfortunate chain of
-events [**3-8**] had been living at home with his wife, who still
-lives there. he was indepdenent of his adls prior to that,
-currently is bed ridden. 40 pack year smoking history. reports
-being a heavy drinker, "" i never thought it was a problem."" no
-history of drug abuse. former pipe fitter.
+unknown
 
 family history:
-noncontributory
+the patient is currently a resident at
+[**hospital3 672**] hospital. no known tobacco or drug use
+
 
 physical exam:
-on admission:
-vitals: t:99.8 bp:91/57 p:103(af) r:23 sao2:96% 50% trach mask
-general: awake, fatigued. responds to questions and commands.
-nad. answers most questions with eyes closed.
-heent: ncat, perrl, eomi, no scleral icterus, mm very dry, no
-lesions noted in op
-neck: supple, trach collar in place, thick neck but veins flat.
-traceostomy with mucous drainage, no macerated tissue.
-pulmonary: limited exam, b/l rhonci. r hd tunneled catheter
-insert and track are c/d/i, no erythema or drainage.
-cardiac: tachycardic, irregular, scar on l chest from icd
-removal.
-abdomen: protuberant, s/p laparotomy with ostomy in place. + bs,
-non tender, no rebound or guarding.
-extremities: no edema, peripheral muscle wasting. s/p l tkr,
-left knee enlarged, exquisitely tender, no warmth or erythema.
-sacrum with stage iv decubitus ulcer, 7x7.5cm, no clear
-tracking. clean granulation tissue at base without drainage.
-skin: no rashes or lesions noted.
-neurologic: alert, oriented x 3. able to relate history without
-difficulty. cranial nerves ii-xii intact. able to move all
-extremitites. some speech latency.
+t 104.2 hr 90-107 bp 96-100/34 rr 27 o2sat 100% on vent. cmv
+vt450x rr 26 peep 6 fio2 40%
+gen: patient attached to vent via tracheostomy. spontaneously
+moving le b/l. patient responds to painful stimuli.
+heent: pupils pinpoint, unable to get movement, mmm
+lungs: course bs ant/lat, good airway entry
+cardiac: rrr s1/s2 hol
+abd: distended, decreased bs
+ext: no edema
+neuro: repsonsive to painful stimuli
+
 
 pertinent results:
-admission labs
-[**2105-4-22**] 04:50pm blood wbc-6.4 rbc-3.56* hgb-9.3* hct-30.0*
-mcv-84 mch-26.0* mchc-30.8* rdw-18.7* plt ct-101*
-[**2105-4-22**] 04:50pm blood neuts-80.3* lymphs-11.9* monos-4.2
-eos-3.1 baso-0.6
-[**2105-4-22**] 04:50pm blood pt-14.9* ptt-36.0* inr(pt)-1.3*
-[**2105-4-22**] 04:50pm blood glucose-96 urean-30* creat-4.3* na-142
-k-3.9 cl-101 hco3-26 angap-19
-[**2105-4-22**] 04:50pm blood calcium-8.6 phos-5.0* mg-1.6
-[**2105-4-22**] 10:16pm blood alt-7 ast-36 ld(ldh)-202 ck(cpk)-18*
-alkphos-284* totbili-0.5
-[**2105-4-22**] 10:16pm blood ck-mb-3 ctropnt-0.39*
+[**2201-10-19**] 08:20pm   o2 sat-99
+[**2201-10-19**] 08:20pm   freeca-1.11*
+[**2201-10-19**] 08:20pm   type-art po2-194* pco2-36 ph-7.36 total
+co2-21 base xs--4
+[**2201-10-19**] 08:20pm   lactate-1.4
+[**2201-10-19**] 04:15pm urine  color-amber appear-cloudy sp [**last name (un) 155**]-1.019
+[**2201-10-19**] 04:15pm urine  blood-lg nitrite-neg protein-500
+glucose-neg ketone-tr bilirubin-neg urobilngn-neg ph-6.5
+leuk-mod
+[**2201-10-19**] 04:15pm urine  rbc->50 wbc-[**12-6**]* bacteria-many
+yeast-many epi-[**6-26**] trans epi-[**6-26**]
+[**2201-10-19**] 04:15pm urine  granular-0-2 fine granular casts
+[**2201-10-19**] 02:58pm   type-art temp-40.0 rates-/24 tidal vol-600
+o2-98 po2-609* pco2-74* ph-7.11* total co2-25 base xs--7
+aado2-42 req o2-19 -assist/con intubated-intubated
+[**2201-10-19**] 01:57pm   lactate-1.4
+[**2201-10-19**] 01:30pm   glucose-237* urea n-78* creat-1.6* sodium-134
+potassium-5.1 chloride-101 total co2-26 anion gap-12
+[**2201-10-19**] 01:30pm   alt(sgpt)-11 ast(sgot)-19 ck(cpk)-50 alk
+phos-83 tot bili-0.2
+[**2201-10-19**] 01:30pm   ctropnt-0.08*
+[**2201-10-19**] 01:30pm   ck-mb-notdone
+[**2201-10-19**] 01:30pm   tot prot-7.5 calcium-7.9* phosphate-5.0*
+magnesium-2.4
+[**2201-10-19**] 01:30pm   wbc-22.8*# rbc-2.99* hgb-9.0* hct-29.9*
+mcv-100*# mch-30.0 mchc-30.0*# rdw-14.3
+[**2201-10-19**] 01:30pm   neuts-90* bands-3 lymphs-3* monos-2 eos-0
+basos-0 atyps-0 metas-2* myelos-0
+[**2201-10-19**] 01:30pm   hypochrom-normal anisocyt-1+ poikilocy-normal
+macrocyt-1+ microcyt-normal polychrom-1+ stippled-1+
+[**2201-10-19**] 01:30pm   plt count-447*
+[**2201-10-19**] 01:30pm   pt-15.2* ptt-88.5* inr(pt)-1.6
+.
+ekg: on arrival; atrial fibrillation @ rvr of 140, nl axis, no
+st changes
+.
+cxr: marked overdistention of tracheostomy tube cuff, placing
+the trachea at risk for perforation and fistula formation.
+probable pleural and parenchymal scarring at the lung bases,
+although it
+is difficult to fully exclude a pneumonia at the left lung base.
 
-cosyntropin test
-[**2105-4-26**] 04:07am blood cortsol-19.3
-[**2105-4-26**] 04:55am blood cortsol-33.6*
+.
+cxr [**10-21**]  1. persistent tracheostomy cuff distention. 2.
+worsening mild congestive heart failure with mild cardiomegaly
+and small bilateral pleural effusions.
+.
+[**2201-10-20**] 12:23 am sputum     site: endotracheal
+   gram stain (final [**2201-10-20**]):
+      >25 pmns and <10 epithelial cells/100x field.
+      4+   (>10 per 1000x field):   gram positive rod(s).
+      4+   (>10 per 1000x field):   gram positive cocci.
+                                    in pairs, chains, and
+clusters.
+      4+   (>10 per 1000x field):   gram negative rod(s).
+note: culture data pending at time of discharge.
+.
+[**2201-10-20**] 12:30am urine blood-lg nitrite-neg protein-tr
+glucose-neg ketone-neg bilirub-neg urobiln-neg ph-5.0 leuks-mod
+[**2201-10-20**] 12:30am urine color-yellow appear-hazy sp [**last name (un) **]-1.017
+[**2201-10-20**] 12:30am urine rbc-21-50* wbc-[**12-6**]* bacteri-mod
+yeast-mod epi-[**3-21**]
+.
 
-micro
-[**2105-4-22**] 5:15 pm synovial fluid.
-      staph aureus coag +.    rare growth.  oxacillin resistant
-[**2105-4-24**] 11:20 am sputum      source: endotracheal.
-   respiratory culture (final [**2105-4-26**]):
-      sparse growth oropharyngeal flora.
-      gram negative rod(s).
-         moderate growth of two colonial morphologies.
-      staphylococcus species.    sparse growth.
-[**2105-4-26**] 3:38 pm sputum     site: endotracheal
-   respiratory culture (preliminary):
-      ? oropharyngeal flora.
-      gram negative rod(s).    heavy growth.  suggesting
-pseudomonas.
-         ? of two colonial morphologies.
-      gram negative rod #2.    heavy growth.
-      gram negative rod #3.    moderate growth.
-[**2105-4-27**] 4:23 am stool     consistency: watery      source:
-stool.
-   clostridium difficile toxin a & b test (final [**2105-4-28**]):
-      feces negative for c.difficile toxin a & b by eia.
-
-transthoracic echocardiogram ([**4-24**]):
-the left atrium is markedly dilated. the right atrium is
-moderately dilated. there is mild symmetric left ventricular
-hypertrophy with normal cavity size. overall left ventricular
-function is normal. due to suboptimal technical quality, a focal
-wall motion abnormality cannot be fully excluded. tissue doppler
-imaging suggests a normal left ventricular filling pressure
-(pcwp<12mmhg). the right ventricular cavity is markedly dilated
-with depressed free wall contractility. there is abnormal septal
-motion/position consistent with right ventricular
-pressure/volume overload. the ascending aorta is moderately
-dilated. there are three aortic valve leaflets. the aortic valve
-leaflets are moderately thickened. there is mild aortic valve
-stenosis (valve area 1.2-1.9cm2). trace aortic regurgitation is
-seen. the mitral valve leaflets are mildly thickened. there is
-no mitral valve prolapse. mild (1+) mitral regurgitation is
-seen. the tricuspid valve leaflets are mildly thickened.
-moderate to severe [3+] tricuspid regurgitation is seen. there
-is mild pulmonary artery systolic hypertension. the pulmonic
-valve leaflets are thickened. there is no pericardial effusion.
-impression: suboptimal image quality. mild symmetric left
-ventricular hypertrophy with preserved global systolic function.
-dilated and hypokinetic right ventricle. moderate to severe
-tricuspid regurgitation. evidence of right ventricular
-volume/pressure overload. at least mild pulmonary hypertension,
-which may be underestimated.
-
-ct chest/abdomen/pelvis ([**4-25**]):
-1. multiloculated simple-appearing left pleural effusion with
-adjacent regions of lung collapse as described above. underlying
-infection within these regions of collapse as well as empyema
-cannot be excluded on this non-contrast examination.
-additionally mild-to-moderate centrilobular emphysema with
-probable underlying tracheal and proximal bronchial malacia.
-2. calcified and non-calcified pleural plaques consistent with
-underlying asbestos exposure. no parenchymal findings to suggest
-underlying asbestosis. given the involvement of the medial
-pleural surface on the left as well as some regions of
-underlying nodularity, a dedicated biopsy and/or vats
-examination would be of benefit to exclude underlying
-mesothelioma if a contrast enhanced exam can not be performed.
-3. extensive atherosclerotic calcification with 2.6cm of focal
-region of ulceration involving the inferior aspect of the aortic
-arch.
-4. colitis involving the residual left-sided colon. most likely
-infectious or inflammatory with ischemia felt less likely.
-5. known underlying sequelae of cirrhosis with mild-to-moderate
-intra-abdominal ascites.
-6. large fecal load noted within the right and transverse colon.
-fecalized matter within the stomach may suggest underlying
-gastroparesis and/or severe ileus.
-7. fluid-filled distended esophagus also likely related to
-underlying dysmotility. can consider further evaluation with
-dedicated esophogram when clinically feasible.
-8. cholelithiasis without evidence of acute cholecystitis.
-9. large sacral decubitus ulcer with extension to involve the
-inferior sacrum and coccyx which display demineralization and
-destruction of the cortex consistent with osteomyelitis.
-10. vertebra plana deformity involving t11 vertebral body likley
-related to prior infection and/or trauma. if there is clinical
-concern for an acute spondylitis, a dedicated mri examination
-could be obtained. gadolinium should be used if patient's gfr
-allows.
 
 brief hospital course:
-# septic arthritis
-he had an mrsa infection of the left knee prosthetic joint, s/p
-washout on [**2105-4-23**]. gram stain was negative for organisms and
-showed many pmns. id was following and recommended for a 6-week
-course of daptomycin (dosed after hd) and rifampin (last dose on
-[**2105-6-3**]) and will likely require long-term suppresion after if
-prosthesis not removed. if pt has prosthesis removed, he will no
-longer require rifampin; please be aware of med interaction when
-starting and stopping rifampin. he should be followed by the
-infectious disease specialist at [**hospital1 **] (our id fellow will
-contact with more info), and he will need weekly monitoring of
-ck (daptomycin) and cbc, ast, alt, and ck (rifampin). morphine
-was used for post-operative pain and pain related to infection.
-he should continue physical therapy.
+a/p: 86 y/o female with pmhx significant for
+tracheobronchiomalacia and chronic respitory distress with
+tracheostomy on chronic vent who presents from [**hospital3 672**]
+in severe respitory distress, afib with rvr, hypotension and
+febrile.
+.
+1. sepsis:  pna vs cdiff.  pt came in with positive cdiff
+cultures from osh.  cultures sent from [**hospital1 18**] were subsequently
+negative.  will continue flagyl for complete course.  in
+addition, gram stain revealed gram neg rods, gram + cocci in
+pairs and cocci and gram + rods.  speciation pending at time of
+discharge.
+- will continue to keep patient on current vent setting and
+titrate back to baseline as tolerated.
+- will conitnue vanco/zosyn/flagyl which could cover possible
+vap or aspiration pna and cdiff.  should complete full course of
+antibiotics at [**hospital3 672**].  vanco and zosyn started [**10-20**]
+and flagyl started at osh should continue until [**10-27**].
+- continue albuterol/atrovent nebs prn
+- patient with resp acidosis, would check daily abg to make sure
+correcting on current vent settings
+- [**10-15**] cdiff positive from [**10-15**] sample drawn at osh.  cdiff
+negative at [**hospital1 18**] [**10-20**].
+.
+2. yeast infection- from urine cx.  pulled foley on [**10-21**].
+should recheck u/a at [**hospital3 672**] on [**10-23**] for persistent
+fungal uti.
+.
+3. paf - patient currently in sinus rhythm, atrial fibrillation
+could have been exacerabted by infectious cause.
+- will hold off on bblocker at this time as bp low.
+- consider repeat cardiovesion if returns back to atrial fib.
+- pt needs to be anticoagulated with warfarin.  this was
+communicated with physician at [**hospital3 672**] on [**10-21**].
+.
+4. acute renal failure - patient with cre 1.3, last cre was 1.1
+in [**2199**].  could be atn secondary to hypotensive episode.
+patient with minimal urine output.  would continue to monitor
+bun/cre and k+.  trending down.  probably [**2-18**] infection.
+.
+5. dm  riss
+.
+6. anemia: hct improved but some guiaic + stool on last day of
+admission in setting of heparin.  d/c'd heparin on final night
+of admission.  can reconsider anticoagulation at [**hospital1 1099**].
+.
+7. access: femoral line
+.
+8. fen: continue ivf to maintain bp and uop
+.
+9. ppx: heparin sc, ppi, bowel regimine
+.
+10. code: full
+.
+11. comm with daughter
+.
+12. disp: to rehab
 
-# hospital acquired pneumonia and respiratory status
-his sputum grew out gram negative rods and he completed an 8-day
-course of ceftazidime and tobramycin with the last dose given on
-[**2105-5-4**]. during the course of the admission, possibly in part due
-to morphine given for knee pain, he was noted to be somnulent
-with abgs indicative of hypercarbia. cxr showed white out of the
-left lung on two separate occasions, presumably due to mucuous
-plugging because follow-up cxrs improved after chest pt and
-positive pressure ventilation. a ct chest was done during the
-admission. this showed multiloculated simple-appearing left
-pleural effusion with adjacent regions of lung collapse (see
-full report above). this should be followed up in a 3 months
-with repeat ct to assess for improvement in the effusion after
-his pneumonia is treated.  he required intermittent ventilator
-support at baseline at night.
 
-# end-stage renal disease on hemodialyisis
-he was continued on m-w-f hemodialysis schedule.
-
-# hypotension
-he required dopamine drip transiently. [**last name (un) **] stim test was
-normal. we were unsure of the cause for his hypotension, but
-felt that it may be due to sepsis from knee infection versus
-fluid removal from hemodialysis. dopamine drip was turned off
-several days prior to discharge. pt able to tolerate low dose
-metoprolol at time of discharge for rate control.
-
-# history of gastrointestinal bleeding
-we held anticoagulation and continued his home proton-pump
-inhibitor.
-
-# sacral decrubitus ulcer
-he underwent ct torso that showed sacral osteomyelitis. wound
-care service was following and recommended for v.a.c. therapy
-dressing changed monday and thursday @ 125 mmhg in addition to
-the following: pressure relief per pressure ulcer guidelines,
-turn and reposition every 1-2 hours, heels off bed surface at
-all times, waffle boots bilaterally, elevate legs while sitting,
-moisturize bilateral legs and feet twice daily, commerical wound
-cleanser or normal saline to irrigate/cleanse open wound, pat
-the tissue dry with dry gauze, apply protective barrier wipe to
-peri-wound tissue and air dry, cover with soft sorb dressing,
-secure with medipore tape, change dressing daily.
-
-# coronary artery disease
-there was no evidence of ischemia during this admission with an
-unremarkable ecg and no complaints of chest pain, ck normal. his
-troponin was elevated most likely due to end-stage renal
-disease. we continued his home aspirin. a tte showed severe tr
-with a dilated and hypokinetic right ventricle.
-
-# history of seizure disorder
-we continued his home keppra at a dose adjusted for end-stage
-renal disease.
-
-# constipation
-there was increasing abdominal distention noted on exam and a ct
-torso showed impacted stool so he was given a saline enema
-through his ostomy with a resultant large amount of stool
-output. of note, he was receiving saline enema through ostomy q3
-days at rehab with good results. he was continued on docusate,
-lactulose, and senna.
-
-# atrial fibrillation
-this is chronic, and he is not on anticoagulation due to history
-of gastrointestinal bleed. he was initially tachycardic to the
-low 100s; this improved with iv hydration. beta-blocker was
-added for rate control.
-
-# access
-a picc line has been placed for antibiotics, in addition to
-which he has a tunneled right subclavian for hd.
-
-# code status
-his code status is full code, with family agreeing to only one
-shock in the event of cardiac arrest.
 
 medications on admission:
-meropenem 1g [**hospital1 **](since [**4-13**])
-daptomycin 350mg mwf(since [**4-10**])
-allopurinol 100mg mwf
-celecoxib 100mg po bid
-chlorhexidine qid
-sucralfate 1gm po tid
-thiamine 100mg daily
-tobramycin 300mg/5ml solution nebulizer [**hospital1 **]
-acetaminophen 650mg q4 hours
-lactulose 30ml [**hospital1 **]
-oxycodone 5mg po daily prn
-miconazole powder daily to feet
-midodrine 10mg tid
-mirtazapine 7.5mg qhs
-nephplex caps daily (= nephrocaps)
-pantoprazole 40mg daily
-pregabalin 75mg daily
-quetiapine 12.5 daily
-darbepoetin 200mcg wendesdays
-docusate 100mg [**hospital1 **]
-escitalopram 15mg qhs
-ferrous sulfate 325mg [**hospital1 **]
-folic acid 1mg daily
-levetiracetam 1000mg [**hospital1 **]
-
-discharge medications:
-1. aspirin 81 mg tablet, chewable sig: one (1) tablet, chewable
-po daily (daily).
-2. senna 8.6 mg tablet sig: one (1) tablet po bid (2 times a
-day).
-3. pantoprazole 40 mg tablet, delayed release (e.c.) sig: one
-(1) tablet, delayed release (e.c.) po q24h (every 24 hours).
-4. docusate sodium 100 mg capsule sig: one (1) capsule po bid (2
-times a day).
-5. folic acid 1 mg tablet sig: one (1) tablet po daily (daily).
-
-6. thiamine hcl 100 mg tablet sig: one (1) tablet po daily
-(daily).
-7. acetaminophen 325 mg tablet sig: 1-2 tablets po q6h (every 6
-hours) as needed for pain, fever.
-8. morphine 1 mg/ml syringe sig: [**1-2**]  injection every six (6)
-hours as needed for pain.
-9. lidocaine 5 %(700 mg/patch) adhesive patch, medicated sig:
-one (1) adhesive patch, medicated topical daily (daily): 12
-hours on- 12 hours off.
-10. levetiracetam 500 mg tablet sig: one (1) tablet po daily
-(daily): please give after hd on hd days.
-11. lactulose 10 gram/15 ml syrup sig: thirty (30) ml po qid (4
-times a day).
-12. daptomycin 500 mg recon soln sig: one (1) recon soln
-intravenous q48h (every 48 hours): to be given for six weeks
-with start date [**2105-4-23**]. please dose after hd.
-13. rifampin 300 mg capsule sig: one (1) capsule po q12h (every
-12 hours): to be given for six weeks with start date [**2105-4-23**].
-14. outpatient lab work
-please check cbc, ast, alt, ck qmonday
-15. metoprolol tartrate 25 mg tablet sig: one (1) tablet po bid
-(2 times a day).
-16. sevelamer carbonate 800 mg tablet sig: one (1) tablet po tid
-w/meals (3 times a day with meals).
-
+1) lopressor 12.5 [**hospital1 **]
+2) protonix 40mg qd
+3) modafonil 200mg qd
+4) albuterol 2puff q6 prn
+5) atrovent 2puff q6 prn
+6) heparin sc 5000units [**hospital1 **]
+7) zoloft 75mg qd
+8) aranesp 25 mcg/qweek
+9) flagyl 500mg tid
+10) aztreonam 1g iv q12
+11) ferrlecit 62.5mg x3/week
 
 discharge disposition:
 extended care
 
 facility:
-[**hospital3 7**] & rehab center - [**hospital1 8**]
+[**hospital3 672**] hospital
 
 
 Discharge Diagnosis: 
-primary diagnoses
-sepsis
-septic left knee
-right knee effusion
-pneumonia
-
-secondary diagnoses
-respiratory failure with trachestomy, vent-depedent at night
-end-stage renal disease on hemodialysis monday, wednesday,
-friday
-hypertension
-coronary artery disease
-congestive heart failure
-atrial fibrillation, not anticoagulated due to gi bleed history
-colon cancer and bowel obstruction s/p resection, now with
-ostomy
+respiratory distress/pneumonia
 
 
 discharge condition:
@@ -851,46 +221,17 @@ stable
 
 
 discharge instructions:
-you were admitted to the hospital for treatment of infected knee
-and sepsis related to infection. you have been treated with
-antibiotics for the infected knee and for pneumonia. please
-continue the antibiotics as directed.
-
-please follow up with your pcp as well as the id specialist at
-[**hospital1 **]. you will need weekly laboratory checks while on
-antibiotics. we also recommend that you have a follow-up ct in 3
-months to evaluate for resolution of pneumonia and fluid seen in
-the lungs on the ct during this admission.
-
-please call your doctor or return to the emergency room if you
-have worsening of knee pain, fevers, worsening breathing, or
-other concerning symptoms.
+pls administer all meds as indicated and call with any ?s.  pt
+to complete course of antibiotics with vanco, flagyl and zosyn
+through newly place ([**10-21**]) picc line.
 
 followup instructions:
-please have a follow-up chest ct scan to evaluate resolution of
-effusion and evaluation of pleural plaques
-
-please have weekly labs drawn while on antibiotics
+at osh
 
 
 
 ","
-primary diagnoses
-sepsis
-septic left knee
-right knee effusion
-pneumonia
-
-secondary diagnoses
-respiratory failure with trachestomy, vent-depedent at night
-end-stage renal disease on hemodialysis monday, wednesday,
-friday
-hypertension
-coronary artery disease
-congestive heart failure
-atrial fibrillation, not anticoagulated due to gi bleed history
-colon cancer and bowel obstruction s/p resection, now with
-ostomy
+respiratory distress/pneumonia
 
 
 discharge condition:
@@ -898,765 +239,1814 @@ stable
 
 
 discharge instructions:
-you were admitted to the hospital for treatment of infected knee
-and sepsis related to infection. you have been treated with
-antibiotics for the infected knee and for pneumonia. please
-continue the antibiotics as directed.
-
-please follow up with your pcp as well as the id specialist at
-[**hospital1 **]. you will need weekly laboratory checks while on
-antibiotics. we also recommend that you have a follow-up ct in 3
-months to evaluate for resolution of pneumonia and fluid seen in
-the lungs on the ct during this admission.
-
-please call your doctor or return to the emergency room if you
-have worsening of knee pain, fevers, worsening breathing, or
-other concerning symptoms.
+pls administer all meds as indicated and call with any ?s.  pt
+to complete course of antibiotics with vanco, flagyl and zosyn
+through newly place ([**10-21**]) picc line.
 
 followup instructions:
-please have a follow-up chest ct scan to evaluate resolution of
-effusion and evaluation of pleural plaques
-
-please have weekly labs drawn while on antibiotics
+at osh
 
 
 
-",0.344115674495697,199046
-"admission date:  [**2156-7-24**]              discharge date:   [**2156-8-10**]
+",0.2958177328109741,159602
+"admission date:  [**2118-3-28**]              discharge date:   [**2118-4-4**]
 
-date of birth:  [**2088-8-9**]             sex:   f
+date of birth:  [**2058-4-29**]             sex:   f
 
 service: medicine
 
 allergies:
-penicillins / erythromycin base / heparin agents
+penicillins / sulfa (sulfonamides)
 
-attending:[**first name3 (lf) 30**]
+attending:[**first name3 (lf) 1257**]
 chief complaint:
-tracheomalacia
+altered mental status
 
 major surgical or invasive procedure:
-[**2156-7-30**]: had rigid bronch, electrocautery and balloon dilatation
-of trachea, and upsizing of her trach to a #7
-[**2156-8-9**]: rigid bronch, t-tube placement
-l-picc placement
+left thoracentesis [**3-29**]
+
 
 history of present illness:
-txfer from [**hospital3 3583**]
-in [**1-30**], patient was difficult to extubate s/p cabg and required
-a tracheostomy. she was subsequently sent to pulmonary rehab.
-.
-she was referred to dr. [**last name (stitle) **] in [**6-25**] who performed a rigid
-bronchoscopy here followed by replacement of her tracheostomy
-tube. she was found to have a circumferential area of stenosis
-below the cricoid cartilage extending 6cm; it was not felt to be
-granulation tissue. debridement was minimally successful. a ct
-scan was done which showed that she had:
--focal tracheal stenosis at the inferior extent of the
-tracheostomy tube.
--there was also: proximal narrowing which may relate to
-granulation tissue versus secretions.
--polypoid soft tissue density just above the insertion of the
-tracheostomy tube may relate to granulation tissue.
-.
-- she was discharged back to rehab
-.
-on [**2156-7-4**], she was then admitted to [**hospital3 **] with sob
-and desatted to the low 90s. she was given o2, suctioning and
-nebulizers without significant improvement. initially, she was
-started on levoquin and finished a 14 day course for suspected
-bronchitis. her respiratatory status improved and hence she did
-not require ventilation.
-.
-she was found on hod #2 to have enterococcus bacteremia - via cx
-x 2 on [**7-4**] and cx x 2 on [**7-5**]. (a tte was negative for
-vegetations. a tee was not performed). as such, she was started
-on vancomycin with subsequent negative surveillance cultures.
-.
-[**7-8**]: id was consulted. they added on gent once her urine
-culture came back positive for klebsiella uti. this particular
-klebsiella uti was only sensitive to gentamicin, imipenem, zosyn
-and cefotetan.
-- started on imipenem on [**2156-7-24**] for this.
-.
-on [**7-19**], she was obtunded and had significant mucous secretions
-and mucus plugging requiring suctioning; ent changed her
-cuffless trach from a #6 to a #4 and transitioned to a trach
-collar after transient ventilation.
-.
-on [**7-19**], she has a ij tlc placed in or at [**hospital1 46**].
-on [**7-22**], noticed to have ""mild stridor"" and mild tachypnea and
-was replaced on a ventilator.
-.
-of note:
-- was found to be c diff + and was started on flagyl
-.
-today, she is transferred to [**hospital1 18**] for further options regarding
-placement of a new tracheostomy tube.
+59 y/o f referred by [**hospital 100**] rehab for acute kidney injury and
+concern for chf exacerbation. patient was evaluated at [**hospital 100**]
+rehab by nephrology due to increasing creatinine ([**2118-3-25**] 2.6
+now 3.9) and recommended general work-up for renal failure.
+recently patient also developed low grade fevers and increased
+eryhtema of her right heel - id was consulted and started on iv
+abx (cipro, flagyl, vanco) for concern of osteomyletis based on
+supportive x-ray (per report). she was scheduled for ct scan
+this wednesday. patient being aggressively diuresised, given 120
+mg iv lasix prior to transfer. weight stable 78 kg past week
+despite aggressive diuresis.
 
+[**name (ni) **] husband concerned regarding increasing cough, laboured
+breathing and worsening edema. no chest pain. per husband her
+mental status has been her baseline. she has not been sleeping
+for the past 72 hours.
+.
+in the ed, initial vs were: t 98.1 p 93 bp 178/82 r 22 o2 sat
+100% nrb. during ed patient's oxygenation improved to high
+90s-100% on 2 l. patient was given 2 baby [**name (ni) **]. during stay
+patient became progressively somnolent and is being admitted to
+the micu for altered mental status.
+
+of note, patient had recent admission [**2118-2-22**] to [**2118-3-11**] for
+delirium work-up. during hospital stay patient had mutiple
+episodes of hallucinations/agitation/anxiety with intermittent
+lucidity. felt to be secondary to recent hosptialization, poor
+po intake, and at least five psychiatric medications, all in the
+setting of a poor substrate (i.e. hypoxic brain injury),
+however, pt's baseline is alert and oriented x3 and highly
+functioning. b12/folate/rpr wnl. tsh was
+high, but on synthroid, and unclear how to interpret while
+hospitalized. osh records indicating ?thalamic stroke were
+obtained, and read by [**hospital1 18**] radiologist who said that in the
+setting of a noncontrast study, not ideal study, but nothing to
+suggest acute thalamic stroke. psychiatry, neurology, and
+geriatrics followed her case closely while she was hosptialized.
+patient was tried on depakote (stopped because lft's began to
+trend up after having previously normalized in the setting of
+stoping mexilitine), and a trial of low-dose seroquel
+(ultimately not effective enough). patient was eventually tried
+on [**hospital1 **] with close monitoring of the qtc.
+
+review of systems:
+(+) per hpi
+(-) denies recent fever, chills, night sweats, recent weight
+loss or gain. denies headache, sinus tenderness, rhinorrhea or
+congestion. denies cough, shortness of breath, or wheezing.
+denies chest pain, chest pressure, palpitations, or weakness.
+denies nausea, vomiting, diarrhea, constipation, abdominal pain,
+or changes in bowel habits. denies dysuria, frequency, or
+urgency. denies arthralgias or myalgias. denies rashes or skin
+changes.
 
 past medical history:
-1. cad - s/p ptca [**2153**], nstemi [**1-30**], s/p cabgx4 (lima->lad, vein
-grafts to om and distal cflx, reverse saphenous to post
-descending artery) [**1-30**]
-- s/p sternal wound debridement [**2156-2-22**] (proteus and staph) ->
-id recommended 6 wks of ceftriaxone and vancomycin -> ? if
-finished
-- brief episode of afib/aflutter -> amiodarone -> 2nd degree
-heart block -> converted back to sinus
-- complicated by: proteus mirabilis sepsis
-2. l subdural hematoma ([**4-29**] - s/p fall)with r aneurysm; with r
-homonymous hemianopsia
-3. siadh
-4. diabetes mellitus ii
-5. aortic valve replacement (bovine) [**1-30**]
-6. pituitary tumor
-7. gerd
-8. urinary tract infection;
-9. sternal wound infection.
-10. s/p tracheostomy for respiratory failure.
-10. tracheomalacia -> s/p laser removal of granulation tissue x
-2 ([**5-28**])
-11. c diff colitis
-12. renal insufficiency (baseline cr: ? - last cr was 1.5 at
-[**hospital3 **])
-13. s/p hysterectomy
-
+- cad s/p anterior mi, multiple pcis and history of left main
+thrombosis during last cath in [**3-/2112**]; with thrombotic event
+developed 10 minute asystolic arrest.  since then she has had
+positive stress test, not deemed to be intervened upon due to
+high risk.
+- ischemic chf with most recent known ef 20-25% in [**month (only) 1096**]
+[**2117**].
+- vt s/p icd (hx torsades)
+- pvd s/p fem-[**doctor last name **] bypass.
+- dm type i
+- ckd - baseline creatinine 2.5-3
+- legally blind due to diabetic retinopathy
+- anoxic brain injury resulting from pea arrest in cath as
+above.
+- memory and word finding difficulties of unclear etiology; has
+been evaluated by neurology and cognitive neurology.
+- diabetic neuropathy
+- hypothyroidism
+- anxiety
+- depression
+- s/p carpal tunnel surgery
+- ?severe pulmonary hypertension
 
 social history:
-she presently resides in rehab facility on [**hospital3 **]. son and
-daughter involved w/ care. does not drink etoh. smoked in past
-but not at this time.
-
+she has one son. she finished a bachelor's degree in college, is
+married, and lives with her husband.  she is a nonsmoker and
+does not drink any alcohol. at baseline uses a walker as a
+result of her diabetic neuropathy and can get around the house
+on her own. thinking is clear, not as good as 10-15 years ago
 
 family history:
-significant for cad in her mother at age of 62. [**4-28**] siblings
-died from heart disease.
+her mother died at 50 of heart-related illness.
 
 physical exam:
-t: 97.9 bp: 114/42 p: 63
-resp: cpap + ps : [**10-28**] 20 x 425 @ fio2 of 0.3
-gen: obese female in nad
-heent: perrla eomi. op without upper dentition. multiple
-fillings in lower dentition.
-neck: large with trach in place and attached to ventilator.
-cv: +s1+s2 sem [**3-29**] heard in multiple fields
-resp: coarse sounds c/w ventilator. no crackles or wheezing
-heard
-abd: midline scar. multiple ecchymoses and bruises from
-injections. soft nt nd.
-ext: 2+ pretibial edema. patient with 2 healing ulcers on l leg
-in region of scars from vein removal for cabg. no splinter
-hemorrhages seen in finger nails.
-neuro: aao x 3
-
+general: pt sitting in bed, in nad.  some intermittent chest
+pain from cough.
+heent: sclera anicteric, subconjunctival hemorrage in l eye.
+perrl 3->2   mmm, oropharynx clear.
+neck: supple, jvp not elevated, no lad.
+lungs: no increased wob, mild crackles in the lll, diffuse
+rhonchi
+cv: regular rate and rhythm, normal s1 + s2, no mrg appreciated,
+though difficult to appreciate due to scattered lung sounds
+l sided icd with overlying ecchymosis, area
+somewhat firm, no erythema or warmth or fluctuance. mild
+ecchymosis
+over left chest/breast.
+abdomen:  soft, appears non-tender, non-distended, bowel sounds
+present, no rebound tenderness or guarding, no organomegaly
+ext: well perfused, 2+ dp pulses, no clubbing, cyanosis.
+minimal le edema bilaterally, mild edema on dorsum of hands bl .
+ r heel with deep decubitus ulcer with eschar. no surrounding
+erythema or pus ntoed.
+neuro: a&o x3
 
 pertinent results:
-reports:
-.
-chest (portable ap)  [**2156-7-24**] 8:17 pm
-a tracheostomy tube terminates within the trachea just above the
-level of the clavicles. left internal jugular vascular catheter
-terminates in the superior vena cava, and a nasogastric tube
-courses below the diaphragm. cardiac silhouette is enlarged.
-there are patchy and linear areas of atelectasis at the lung
-bases. there is a questionable small left pleural effusion.
-.
-tee [**2156-7-26**]
-conclusions:
-no spontaneous echo contrast or thrombus is seen in the body of
-the left
-atrium/left atrial appendage or the body of the right
-atrium/right atrial
-appendage. no atrial septal defect is seen by 2d or color
-doppler. overall left ventricular systolic function is normal
-(lvef>55%). the ascending,
-transverse and descending thoracic aorta are normal in diameter
-and free of atherosclerotic plaque. a bioprosthetic aortic valve
-prosthesis is present. the aortic prosthesis appears well
-seated, with thin leaflets that display normal motion. there is
-no aortic valve stenosis. no aortic regurgitation is seen. the
-mitral valve leaflets are mildly thickened. mild (1+) mitral
-regurgitation is seen. there is no pericardial effusion.
-impression: normal aortic bioprosthesis. mild mitral
-regurgitation with mildly thickened leaflets. no vegetation
-seen.
-.
-wrist(3 + views) right port  [**2156-7-28**] 11:52 am
-impression:
-1. no definite evidence for fractures.
-2. degenerative changes as described above.
-.
-chest port. line placement  [**2156-7-29**] 8:57 am
-impression:
-1. left-sided picc with tip in svc. findings discussed with
-[**doctor first name **] of iv therapy at 10:30 a.m.
-2. improving opacity in the left perihilar region could
-represent improving aspiration or asymmetric edema. stable
-bibasilar atelectasis.
-.
-imaging:
-[**8-4**] kub
-impression:
-1) distention of small bowel suggestive of functional colonic
-abnormality causing small-bowel obstruction.
-2) interval decrease in size of transverse colon now measuring 4
-cm in widest diameter.
-.
-.
-
 admission labs:
-.
-[**2156-7-24**] 10:02pm urine  color-straw appear-cloudy sp [**last name (un) 155**]-1.012
-[**2156-7-24**] 10:02pm urine  blood-lg nitrite-neg protein-100
-glucose-neg ketone-tr bilirubin-neg urobilngn-neg ph-5.0
-leuk-mod
-[**2156-7-24**] 10:02pm urine  rbc->50 wbc->50 bacteria-many yeast-many
-epi-0-2
-[**2156-7-24**] 08:24pm   glucose-137* urea n-45* creat-1.5* sodium-145
-potassium-3.9 chloride-111* total co2-26 anion gap-12
-[**2156-7-24**] 08:24pm   calcium-8.6 phosphate-2.8 magnesium-1.9
-[**2156-7-24**] 08:24pm   vanco-10.7*
-[**2156-7-24**] 08:24pm   phenytoin-6.7*
-[**2156-7-24**] 08:24pm   wbc-19.7*# rbc-3.33* hgb-9.7* hct-29.2*
-mcv-88 mch-29.1 mchc-33.1 rdw-17.9*
-[**2156-7-24**] 08:24pm   neuts-90.6* lymphs-5.8* monos-2.2 eos-1.0
-basos-0.2
-[**2156-7-24**] 08:24pm   hypochrom-1+ anisocyt-1+ poikilocy-1+
-microcyt-1+
-[**2156-7-24**] 08:24pm   plt count-186
-[**2156-7-24**] 08:24pm   pt-13.1 ptt-29.3 inr(pt)-1.1
+[**2118-3-28**] 06:45pm blood wbc-6.7 rbc-2.78* hgb-8.2* hct-26.2*
+mcv-94 mch-29.5 mchc-31.3 rdw-16.5* plt ct-231
+[**2118-3-28**] 06:45pm blood neuts-78.6* lymphs-16.2* monos-4.7
+eos-0.3 baso-0.3
+[**2118-3-28**] 06:45pm blood pt-13.6* ptt-28.9 inr(pt)-1.2*
+[**2118-3-29**] 03:27am blood esr-70*
+[**2118-3-28**] 06:45pm blood glucose-126* urean-89* creat-4.1*# na-138
+k-4.3 cl-104 hco3-22 angap-16
+[**2118-3-28**] 06:45pm blood ck(cpk)-266*
+[**2118-3-28**] 06:45pm blood ck-mb-3 ctropnt-0.07* probnp-[**numeric identifier 35141**]*
+[**2118-3-29**] 03:27am blood albumin-2.8* calcium-8.0* phos-6.2*#
+mg-1.9
+[**2118-3-28**] 06:45pm blood vitb12-730 folate-19.7
+[**2118-3-28**] 06:45pm blood tsh-5.2*
+[**2118-3-28**] 06:45pm blood free t4-1.4
+[**2118-3-29**] 03:27am blood crp-35.4*
+[**2118-3-28**] 06:45pm blood vanco-30.1*
+[**2118-3-28**] 06:48pm blood lactate-1.5
+[**2118-3-28**] 08:48pm blood po2-98 pco2-41 ph-7.38 caltco2-25 base
+xs-0
+[**2118-3-28**] 10:00pm urine color-amber appear-clear sp [**last name (un) **]-1.016
+[**2118-3-28**] 10:00pm urine blood-neg nitrite-neg protein-neg
+glucose-neg ketone-tr bilirub-neg urobiln-neg ph-5.0 leuks-tr
+[**2118-3-28**] 10:00pm urine rbc-0 wbc-[**4-8**] bacteri-few yeast-none
+epi-0
+[**2118-3-28**] 10:00pm urine casthy-0-2
+[**2118-3-28**] 10:00pm urine eos-negative
 .
 discharge labs:
-                       wbc rbc hgb hct mcv mch mchc rdw plt ct
-[**2156-8-10**] 04:57am    14.6* 3.79* 11.0* 33.1* 87 29.0 33.2
-17.9* 264
-                     glucose urean creat na k cl hco3 angap
-[**2156-8-10**] 04:57am    126* 53* 1.6* 134 4.1 106 19* 13
-.
-lfts:
-alt ast ld(ldh) ck(cpk) alkphos amylase totbili dirbili
-[**2156-8-3**] 05:00pm    15 14   20* 127* 21 0.2
-[**2156-7-25**] 06:03am    6 7 140   97   0.2
-                     lipase
-[**2156-8-3**] 05:00pm    9
-.
-                       albumin globuln calcium phos mg
-[**2156-8-7**] 10:13am      1.6*   7.2* 3.6 2.2
-.
-heme:
-                   caltibc ferritn trf
-[**2156-8-1**] 05:54am    74* 872* 57
-.
-pituitary:
-                       prolact tsh
-[**2156-8-1**] 05:54am    107*    2.1
-                     free t4
-[**2156-8-1**] 05:54am    0.6
-                     phenyto
-[**2156-8-6**] 04:00am    3.0
-                     freeca
-[**2156-8-3**] 11:09am    1.19
 .
 .
+.
+
+pleural fluid
+[**2118-3-29**] 05:54pm pleural wbc-75* rbc-1630* polys-3* lymphs-63*
+monos-6* meso-10* macro-18*
+[**2118-3-29**] 05:54pm pleural totprot-1.3 glucose-153 ld(ldh)-78
+albumin-<1.0
 
 micro:
+urine legionella ag neg
+pleural fluid ngtd (prelim result)
+****
+
+studies:
+cxr [**2118-3-28**]: hazy right base opacity concerning for
+consolidation and acute
+infectious process. prominence of the hilum may relate to
+vascular
+engorgement.
 .
-[**7-24**] blood cx: negative
-[**2156-8-1**] 5:30 pm blood culture      2 of 2 negative
+nchct [**2118-3-28**]: no acute intracranial process.
 .
-[**2156-7-26**] 4:10 pm catheter tip-iv      source: lij triple lumen.
--no growth
+tte [**2118-3-29**]: the left atrium is mildly dilated. the estimated
+right atrial pressure is 0-10mmhg. left ventricular wall
+thicknesses and cavity size are normal. there is mild to
+moderate regional left ventricular systolic dysfunction with
+focal hypokinesis of the mid to distal anterior wall, lateral
+wall, apex, and distal inferior wall. the remaining segments
+contract normally (lvef = 35-40 %). the diameters of aorta at
+the sinus, ascending and arch levels are normal. the aortic
+valve leaflets (3) are mildly thickened but aortic stenosis is
+not present. no aortic regurgitation is seen. the mitral valve
+leaflets are mildly thickened. there is no mitral valve
+prolapse. mild to moderate ([**2-5**]+) mitral regurgitation is seen.
+the tricuspid valve leaflets are mildly thickened. moderate [2+]
+tricuspid regurgitation is seen. there is moderate pulmonary
+artery systolic hypertension. there is no pericardial effusion.
+impression: moderate regional left ventricular systolic
+dsyfunction consistent with coronary artery disease. mild to
+moderate mitral regurgitation. moderate tricuspid regurgitation.
+moderate pulmonary artery systolic hypertension.
 .
+renal u/s [**2118-3-29**]:
+1. no hydronephrosis of the right kidney or left kidney.
+probable tiny
+calculus at the lower pole of the right kidney.
+2. several small calculi are seen within the gallbladder.
 .
-[**2156-7-24**] 9:57 pm sputum     site: endotracheal
-      source: endotracheal.
-
-                            **final report [**2156-7-30**]**
-
-   gram stain (final [**2156-7-25**]):
-      [**11-17**] pmns and <10 epithelial cells/100x field.
-      2+   (1-5 per 1000x field):   gram positive rod(s).
-      2+   (1-5 per 1000x field):   gram negative diplococci.
-      smear reviewed; results confirmed.
-
-   respiratory culture (final [**2156-7-30**]):
-      oropharyngeal flora absent.
-      acinetobacter baumannii.    moderate growth.
-         ""note, for amp/sulbactam, higher-than-standard dosing
-needs to be
-         used, since therapeutic efficacy relies on intrinsic
-activity of
-         the sulbactam component"".
-      klebsiella pneumoniae.    sparse growth.
-         warning! this isolate is an extended-spectrum
-beta-lactamase
-         (esbl) producer and should be considered resistant to
-all
-         penicillins, cephalosporins, and aztreonam. consider
-infectious
-         disease consultation for serious infections caused by
-         esbl-producing species.
-
-                              sensitivities: mic expressed in
-mcg/ml
-
-_________________________________________________________
-                             acinetobacter baumannii
-                             |          klebsiella pneumoniae
-                             |          |
-ampicillin/sulbactam--  =>32 r     =>32 r
-cefazolin-------------             =>64 r
-cefepime--------------    16 i          r
-ceftazidime-----------  =>64 r     =>64 r
-ceftriaxone-----------                  r
-cefuroxime------------             =>64 r
-ciprofloxacin---------   =>4 r      =>4 r
-gentamicin------------   <=1 s        4 s
-imipenem--------------  =>16 r      <=1 s
-levofloxacin----------     4 i      =>8 r
-meropenem-------------           <=0.25 s
-piperacillin/tazo-----                8 s
-tobramycin------------   <=1 s     =>16 r
-trimethoprim/sulfa----   <=1 s      <=1 s
-
-.
-[**7-25**] c.diff: positive
-.
-[**7-25**] urine cx: yeast
-.
-[**2156-7-29**] 12:17 am sputum     site: endotracheal
-      source: endotracheal.
-
-                            **final report [**2156-7-31**]**
-
-   gram stain (final [**2156-7-29**]):
-      <10 pmns and <10 epithelial cells/100x field.
-      2+   (1-5 per 1000x field):   gram positive cocci.
-                                    in pairs and clusters.
-      2+   (1-5 per 1000x field):   gram negative rod(s).
-      quality of specimen cannot be assessed.
-
-   respiratory culture (final [**2156-7-31**]):
-      sparse growth oropharyngeal flora.
-      acinetobacter baumannii.    moderate growth.
-         identification and sensitivities performed on culture #
-[**numeric identifier 68150**]
-         [**2156-7-24**].
-      klebsiella pneumoniae.    sparse growth.
-         identification and sensitivities performed on culture #
-[**numeric identifier 68150**]
-         [**2156-7-24**].
-
-.
-[**2156-8-4**] urine
-urine     site: clean catch
-
-                            **final report [**2156-8-6**]**
-
-   urine culture (final [**2156-8-6**]):
-      klebsiella pneumoniae.    >100,000 organisms/ml..
-         warning! this isolate is an extended-spectrum
-beta-lactamase
-         (esbl) producer and should be considered resistant to
-all
-         penicillins, cephalosporins, and aztreonam. consider
-infectious
-         disease consultation for serious infections caused by
-         esbl-producing species.
-
-                              sensitivities: mic expressed in
-mcg/ml
-
-_________________________________________________________
-                             klebsiella pneumoniae
-                             |
-ampicillin/sulbactam--    16 i
-cefazolin-------------  =>64 r
-cefepime--------------       r
-ceftazidime-----------  =>64 r
-ceftriaxone-----------       r
-cefuroxime------------  =>64 r
-ciprofloxacin---------   =>4 r
-gentamicin------------     4 s
-imipenem--------------   <=1 s
-levofloxacin----------   =>8 r
-meropenem-------------<=0.25 s
-nitrofurantoin--------   256 r
-piperacillin/tazo-----     8 s
-tobramycin------------  =>16 r
-trimethoprim/sulfa----  =>16 r
-
+bilateral foot xrays [**2118-3-29**]: no evidence osteomyelitis of the
+right heel and left big toe. probable bony destruction of the
+pip joint of the right second toe possibly representing
+osteomyelitic changes in correct clinical setting. subluxation
+of ip joints of both first toes.
 
 brief hospital course:
-67 yo female with history of tracheobronchomalacia transferred
-from osh for further management.
-micu course: pt followed by ip, tracheomalacia c/w subglottic
-granulation tissue and mid trach stenosis. s/p rigid bronch +
-excision, debridement, dilatation and trach change. she was
-managed for acinobacter/klebsiella vap, +c-diff and followed by
-id. tee negative for vegetations. pt back to micu on [**8-3**] for
-aggressive fluid resuscitation given c-diff colitis and poor po
-intake with metabolic acidosis. was given ivf w/bicarb, [**doctor first name **]
-following but not surgical candidate given comorbidities,
-started ivflagyl/po vanco with slowly improving diarrhea. on
-[**8-3**] went into raf, s/p cv now in nsr remains stable.
-transferred to floor [**8-6**].
-.
-# respiratory:
-**tracheomalacia: this was noted on previous admission to [**hospital1 18**].
+59f with cad s/p multiple pcis, ischemic chf, type i dm, hx of
+anoxic brain injury, chronic kidney disease, anxiety, and
+depression who presents with altered mental status.
 
-- s/p laser removal of tissue x 2 in the past
-- on [**7-28**]: was switched from vent to trach mask and tolerated
-this well
-- on [**7-30**]: had rigid [**last name (un) 1066**], electrocautery and balloon dilatation
-of trachea and upsizing of her trach to a #7 -> will need a
-special long trach which was ordered and will be available on
-[**8-9**]. per ip underwent a trach change with t-tube placement on
-[**8-9**] without complications. her trach was capped with stable
-o2sats and voice audible. per ip her trach is to be capped
-during the day and with humidified o2 at night for her osa. if
-pt needs oxygenation she can be oxygenated with nasal cannula o2
-with capped trach.
+# altered mental status: when patient arrived in the icu after
+transfer from the ed she was oriented x 3 when woken, but very
+lethargic. per husband, patient had not slept in 72 hours on
+admission and was likely hypersomnolent.   after sleeping,
+patient was much more interactive and a&o x 3.  a ct was
+performed that showed no acute change.  mri was not performed
+because of patient's icd. workup for causes of altered mental
+status including b12, folate, tsh, and lfts were normal. rpr was
+recently was negative.  when patient was transferred to the
+medicine floor from the icu, she was sleepy but fully oriented.
+patient had one episode of confusion and delusions overnight for
+which she was treated with olanzapine. she was continued on
+olanzapine nightly (5mg) due to history of confusion,
+particularly at night.  qtc was monitored during the
+hospitalization, and remained in the 440-460 range.  at
+discharge, qtc was 392.
 .
-**acinobacter/klebsiella vap: started bactrim on [**7-28**], completed
-14 day course on [**8-10**]
--- continue mucinex prn mucus buildup
--- d/cd atrovent, albuterol standing nebs
--- pt was on solumedrol 60 iv bid prior to admission (unclear
-reason why, ? copd flare), and pt was started on taper on [**2156-7-25**]
-and completed taper without any difficulties
-.
-# id:  pt had hx of enteroccus bacteremia, which was believed to
-be treated adequately with 23 day course of vanc at osh.  she
-had a tee here, which was negative for vegetation, per id
-recommendations the vanc was d/c'd. surveillance cx's were ngtd.
- pt grew acinetobacter from her sputum, and was started on
-bactrim on [**7-28**] for 14 day course for vent associated pna.  pt
-also had hx of klebsiella uti, and had been treated with
-imipenem at osh. per id recommendations, pt was likely colonized
-from frequent foley catheterizations, and imipenem was d/c'd. pt
-had dirty ua on admission here, but urine cx only grew yeast.
-attempted to contact [**name (ni) 336**] to obtain records of antimicrobial
-succeptibilities of sternal infections and bacteremias in past.
-sternal wound infection was staph and proteus per surgical
-summary. however, they did not send the micro data, so will need
-to call the micro lab at some point in the future for further
-information.  pt had hx of c.dif, and was continued on flagyl
-for additional 14 day course. pt had low grade temps during her
-micu stay (with a tmax of 100.5), but did not have a significant
-temp spike. she then had explosive diarrhea with +c-diff in
-stools. she had persistent diarrhea, resistent to po flagyl
-treatment, she was started on po vanco as well as iv flagyl on
-[**8-2**] for c-diff colitis. id again reconsulted for persistent
-diarrhea and elevated wbc. her diarrhea improved with po vanco
-and ivflagyl, her wbc peaked at 29 and came down to 14.4 at time
-of discharge. she was also started on meropenem on [**8-3**] for
-klebsiella uti. per id she was to continue po vanco/flagyl until
-all other antibiotics d/c'd and diarrhea improved. she remained
-afebrile with improving wbc and no new culture data. she will
-complete a recommended 10day course of meropenem on [**2156-8-12**]. she
-remained afebrile with improving wbc and no new culture data at
-time of discharge.
-.
-#. c-diff colitis: pt with explosive diarrhea treated for c-diff
-as noted above. she was followed closely by surgery, however
-given her other comorbidities she was not a surgical candidate.
-she was followed with daily kubs, her last kub notable for
-improvement in loops of bowel size. however, notable for small
-bowel obstruction on [**2156-8-4**]. pt was kept on a clear liquid diet
-with plan to advance when improved colities. her stool output
-improved at time of discharge. continued c-diff precuations.
-.
-# neuro:
-seizure prophylaxis
-- on phenytoin (likely since she had subdural sustained in [**4-29**])
+# acute kidney injury: on admission the patient's creatinine was
+increased from baseline of 1.8-2.0 to 4.1.  patient had been
+treated at outside rehab facility with diuresis for worsening
+kidney function due to the belief that it was being caused by an
+acute exacerbation of chf.  however, the patient was not
+responsive to diuresis and in fact her kidney function continued
+to worsen.  on admission to the icu, the patient was thought to
+be in prerenal failure (with questionable atn) most likely due
+to volume depletion and overdiuresis.  an ultrasound was
+performed and showed no signs of obstruction.  the patient was
+treated with iv fluid rehydration, and her kidney function
+improved over the course of several days. at discharge patient's
+creatinine had improved to 2.6.   her diuretics and ace
+inhibitor were held for the duration of her stay.  patient
+should continue to have electrolytes carefully monitored when
+she returns to her rehab facility.  at rehab, [**last name (un) **] and diuretic
+can be restarted with her kidney function returns to baseline
+(creatinine of 2.0).  once her creatinine reaches 2.0 she can be
+started on losartan at home dose of 100mg daily.  when her
+creatinine reaches 2.0 the patient can also be restarted on
+furosemide, prior dose was 80mg, would favor starting more
+slowly that this when ready. patient should not be diuresed too
+rapidly given history of acute renal failure in setting of
+volume depletion. we recommend keeping patient even to slightly
+positive until her creatinine improve and stabilizes.
 
-- continued phenytoin during this admission, increased dose
-given low albumin and subtherapeutic with corrected dose.
-changed dose from 200mgqam to 300mg qam and increased 300mg qpm
-to 400mgqpm. she did not have any siezure activity while
-hospitalized.
-- ct from osh revealed mass in supracisternal region on r and
-patient notes that she has had changes in vision in her r eye -
-specificially she notes seeing random objects since her fall. pt
-had r homonymous hemianopsia and was to follow up with
-neuroopthamology.
-- [**7-29**]: contact[**name (ni) **] dr. [**first name4 (namepattern1) **] [**last name (namepattern1) 21721**] (endocrine at [**hospital1 112**]) regarding
-her pituitary tumor.  restarted her on carbergoline for her
-prolactinoma. per dr. [**last name (stitle) 21721**] should reckeck prolactin levels in
-6 weeks since prolactin levels elevated during this admission.
-plan to continue cabergoline at current dose 0.5mg 2x/week. if
-her prolactin levels are persistently elevated may increase dose
-0.75mg 2x/week.
-- pituitary tumor is a prolactinoma and measures approx 5cm x
-2.5cm x 3cm
-.
-# renal:
-- cr 1.5 on admission; this is similar to level when she left
-[**hospital1 46**]
-- renally dose medications -> increaed cr on [**7-31**] with peak to
-2.4 due to poor po intake and explosive diarrhea. renal followed
-pt, found no muddy brown casts, arf c/w prerenal etiology also
-atn in setting of poor forward flow. she was agressively
-hydrated in the micu with addition of 50meq nahco3. her arf
-improved with cr. decreased to 1.6 at time of discharge. her ivf
-were discontinued on [**8-9**] as she was significantly volume
-overloaded and making urine, although poorly ~700cc per day.
-.
-#. metabolic acidosis: pt with explosive diarrhea with low
-bicarb. she was started on 50meq nahco3w/1000ml 1/2ns to manage
-metabolic acidosis. her hco3 improved, her hypernatremia
-corrected. however, she also developed hyponatremia with ivf
-resuscitation. her ivf were d/c'd on [**8-9**], her hco3 at time of
-discharge was 19.
-.
-# cardio:  pt s/p cabg in the past, she also went into aflutter
-for which she was cardioverted on [**8-3**]. she remained in nsr. she
-did not tolerate a bb throughout her hospital course due to
-hypotension. she was continued on an asa and statin. no other
-antihypertensive medication was added to her medical regimen.
-her sbp was stable at time of discharge sbp 115. d/c'd hctz
-during this admission, due to borderline low bp and likely need
-for bb in the future
-.
-# dm2:  her bs was persistently elevated while she was on
-steroids. she was maintained on an iss which was titrated for
-better bs control. check fs qid
-.
-# gerd: continued ppi
-.
-# [**month/year (2) **]:  ppi, fondaparinaux for dvt [**name (ni) **] (pt has hx of hit).
-however fondaparinaux was held prior to ip procedure, but was
-restarted s/p procedure.  head of bed at 30 degress
-.
-# fen:  pt grossly volume overloaded. allow pt to autodierese
-and holding further ivf. currenlty receiving tpn since poor po
-intake; clear liquid diet until colitis improved. note on [**7-29**]:
-had fees study by speech/swallow team -> ok to have nectar thick
-liquids and ground solids, however changed diet to clear liq due
-to colitis. will need a new nutrition evaluation at [**hospital1 3325**] to advance diet.
-.
-# access: l subclavian - placed in or on [**7-19**] at [**hospital3 **]
+# chf: (see discussion above). diuretics were held during the
+time of patient's admission.  patient was continued on a
+b-blocker metoprolol tartrate 50 mg po/ng [**hospital1 **] and isosorbide
+dinitrate 10 mg po/ng tid.  patient should continue these
+medications as an outpatient.  patient can re-start diuretics
+and ace inhibitor, once her acute kidney injury has improved.
+(see above).
 
-- removed on [**7-26**] with no growth on culture data
-- switched picc on [**7-29**] because patient has hit. hence switched
-to [**last name (un) 68151**] picc which does not require heparin.
-.
-# code status: dnr/dni. evolving discussions with hcp [**name (ni) 4049**]
-[**name (ni) 696**] cell [**telephone/fax (1) 68152**]
-home [**telephone/fax (1) 68153**]
+#pneumonia:  when patient came in to the hospital she had a low
+grade fever, cough and sob.  a chest x-ray from [**3-29**] in the icu
+showed opacity in the lll, consistent with a pleural effusion.
+a left thoracentesis was performed and 1000 ml of fluid removed,
+with improvement in the patient's symptoms.  the fluid was sent
+for culture, with no growth to date.  it was also sent for
+cytologic evaluation and was negative for any malignant cells.
+after the drainage the patient was able to breathe much easier.
+the patient continued to have a low grade fever off and on for
+the next several days.  the patient was started on aztreonam for
+broad coverage (is allergice to pennicillins so could not
+receive a cephalosporin).  patient should continue receiving
+aztreonam until [**2118-4-11**].  she should continue to receive
+vancomycin that is dosed by level because of rapidly changing
+renal function.  vancomycin levels should be checked daily, with
+a goal vancomycin trough of 15-20.  her vancomycin course stops
+on [**2118-4-11**].
+
+#depression:  patient was evaluated by psychiatry during her
+inpatient stay on the medicine floor for suicidal ideation and
+depression.  per husband, patient has had trouble with
+depression and suicidal ideation in the past but has never had
+suicidal attempt.  patient was titrated up on her fluoxetine by
+10mg q48h per psychiatry recommendations.  she is on 40mg daily
+of fluoxetine at date of discharge to rehab.  she should
+continue to be titrated up by 10mg every other day until she
+reaches her baseline home dose of 60mg daily. ** she should be
+increased to 50mg daily on wednesday, [**4-6**] and titrated up to
+final home dose of 60mg on friday, [**4-8**].  patient was
+followed by psychiatry during her stay.  she was also seen by
+social work.  patient should follow up closely with her pcp
+after discharge. ** it was recommended that patient have
+frequent check-ins on her to help assuage anxiety throughout the
+day, perhaps hourly during the hours of [**7-15**] pm daily. as
+discussed with the patient, social work is working on setting up
+outpatient follow up with a therapist.
+
+# heel ulcer: patient was evaluated by both podiatry and wound
+care during the duration of her stay. patient had previously
+been started on antibiotics at her rehab facility due to concern
+for osteomyelitis infection.   an x-ray performed on [**3-29**] showed
+no cortical destruction or subcutaneous gas to suggest
+osteomyelitis.  podiatry felt that this ulcer was likely
+chronic, not infected and secondary to pvd and diabetes.  they
+recommended that the patient did not need to continue on
+antibiotic therapy so treatment was stopped.  wound care
+recommended protective boots and application of dry dressing
+applied daily.  patient should continue to have dressings
+changed and checked by podiatry once she is discharged to her
+rehab facility.
+
+# cad: patient reported mild chest pain during one of her nights
+on the inpatient medicine floor.  this was likely due to
+musculoskeletal pain from coughing, but cardiac enzymes were
+sent to rule out mi given known cad and multiple risk factors.
+ck-mb was found to be normal and trop-t only very mildly
+elevated.  her ekgs continued to be unchanged from prior.   she
+was continued on [**month/year (2) **], clopidogrel, and atorvastatin.    patient
+should continue on these medications after discharge.
+
+# borderline qtc:  patient was found to have mildly prolonged
+qtc on admission (450).  due to her history of torsades, her qtc
+was monitored daily.  she received [**month/year (2) **] almost daily at
+night.  no worsening qtc prolongation was noted during the
+admission, but she should continued to undergo periodic ecgs to
+monitor qtc while taking [**month/year (2) **]. upon discharge, qtc was 392
+(within normal limits).
+
+# dm: patient receieved a sliding scale of humolog while in
+house.  she also received her home dose of glargine [**hospital1 **]
+(16units, 8 units).  patient should continue on sliding scale
+per our recommendations and on glargine [**hospital1 **] as an outpatient in
+rehab.
+
+# hypothyroidism: patient was continued levothyroxine.  she
+should be maintained on her home dose of levothyroxine as an
+outpatient.
+
+# anemia: patient appeared to be at her baseline throughout her
+stay here. iron studies prior to discharge were most consistent
+with anemia of chronic disease. she had been on epogen in the
+past and we encourage her to discuss re-initiation of this with
+her nephrologist/pcp [**last name (namepattern4) **]. [**last name (stitle) 3271**].
+
+#access:  picc was replaced on [**3-29**] while in the icu.
+
+patient was full code during this hospitalization.
 
 medications on admission:
-# flagyl 250mg po qid
-# pantoprazole 40 mg iv daily
-# clonzepam: 0.5mg [**hospital1 **]
-# albuterol sulfate (1) neb q6h:prn
-# ipratropium bromide (1) neb q6h: prn
-# mvi daily
-# fondaparinux 2.5mg sc daily
-# solumedrol 60mg iv bid
-# guaifenasin 600mg ng qid
-# ranitidine 150mg po bid
-# phenytoin sodium : 200mg qam, 300mg qpm
-# ativan: 0.5mg -1mg q6 prn
-# hydrochlorothiazide 75 mg daily
-# fe so4 325mg po daily (daily).
-# colace 100mg qam and [**hospital1 **]:prn
-# tylenol prn
-# insulin ss
-# acetylcysteine: 200mg q4:prn
-# vancomycin: 1g iv q48
-# nystatin powder to groin
-# epoetin alfa [**numeric identifier 961**] units qmowefr (monday -wednesday-friday).
-# imipenem: 250mg q6hr
-# was on carbergoline 0.5mg qtue, qfri
-
+- [**month/year (2) **] 81 mg
+- atorvastatin 40 mg qhs
+- cipro 500 mg once daily
+- [**month/year (2) **] 75 mg qd
+- vitamin b12 qd
+- iron 325 mg qd
+- fluoxetine 20 mg qd
+- lasix 80 mg iv bid
+- gabapentin 200mg [**hospital1 **]
+- glargine plus sliding scale
+- isosorbide mononitrate 30 mg once daily
+- levothyroxine 88mcg
+- lidocaine
+- losartan 100 mg wd
+- melatonin 1 mg bedtime
+- metoprolol 100 mg qd
+- flagyl 500 mg tid
+- mvi
+- olanzapine
+- pantoprazole
+- spironolactone 25 mg qd
+- thiamine 100 mg qd
+- albuterol neb
+- benzonatate
+- bisacodly
+- guaifensisin
+- ipratropium neb
+- zofran prn
+- senna, miralox
 
 discharge medications:
-1. clonazepam 0.5 mg tablet sig: one (1) tablet po bid (2 times
-a day).
-2. acetaminophen 160 mg/5 ml solution sig: one (1)  po q4-6h
-(every 4 to 6 hours) as needed.
-3. lansoprazole 30 mg susp,delayed release for recon sig: one
-(1)  po daily (daily).
-4. miconazole nitrate 2 % powder sig: one (1) appl topical  tid
-(3 times a day) as needed.
-5. epoetin alfa 10,000 unit/ml solution sig: one (1)  injection
-qmowefr (monday -wednesday-friday).
-6. atorvastatin 40 mg tablet sig: one (1) tablet po daily
+1. senna 8.6 mg tablet [**hospital1 **]: one (1) tablet po bid (2 times a
+day) as needed for constipation.
+2. heparin (porcine) 5,000 unit/ml solution [**hospital1 **]: one (1)
+injection injection tid (3 times a day): please discontinue as
+appropriate when patient ambulatory.
+3. aspirin 81 mg tablet, chewable [**hospital1 **]: one (1) tablet, chewable
+po daily (daily).
+4. clopidogrel 75 mg tablet [**hospital1 **]: one (1) tablet po daily
 (daily).
-7. phenol-phenolate sodium 1.4 % mouthwash sig: one (1) spray
-mucous membrane  q6h (every 6 hours) as needed.
-8. ipratropium bromide 17 mcg/actuation aerosol sig: 2-6 puffs
-inhalation q4-6h (every 4 to 6 hours) as needed.
-9. cabergoline 0.5 mg tablet sig: one (1) tablet po qtues,
-qfriday ().
-10. fondaparinux 2.5 mg/0.5 ml syringe sig: one (1)
-subcutaneous daily (daily).
-11. aspirin 325 mg tablet sig: one (1) tablet po daily (daily).
-
-12. vancomycin 250 mg capsule sig: one (1) capsule po q6h (every
-6 hours).
-13. insulin regular human 100 unit/ml solution sig: one (1)
-injection asdir (as directed).
-14. phenytoin sodium extended 100 mg capsule sig: four (4)
-capsule po qpm (once a day (in the evening)).
-15. phenytoin sodium extended 100 mg capsule sig: three (3)
-capsule po qam (once a day (in the morning)).
-16. metronidazole 500 mg tablet sig: one (1) tablet po tid (3
+5. cyanocobalamin 500 mcg tablet [**hospital1 **]: 0.5 tablet po daily
+(daily).
+6. ferrous sulfate 300  mg (60 mg iron) tablet [**hospital1 **]: one (1)
+tablet po bid (2 times a day).
+7. levothyroxine 88 mcg tablet [**hospital1 **]: one (1) tablet po daily
+(daily).
+8. thiamine hcl 100 mg tablet [**hospital1 **]: one (1) tablet po daily
+(daily).
+9. benzonatate 100 mg capsule [**hospital1 **]: one (1) capsule po tid (3
 times a day).
-17. lidocaine hcl 0.5 % solution sig: one (1) ml injection q1h
-(every hour) as needed for cough.
-18. lidocaine hcl 1 % solution sig: one (1) ml injection q1-2h
-() as needed.
-19. sodium chloride 0.9%  flush 3 ml iv daily:prn
-peripheral iv - inspect site every shift
-20. lorazepam 0.5-1 mg iv q6h:prn
-21. meropenem 500 mg recon soln sig: one (1) recon soln
-intravenous  q12h (every 12 hours): will complete 10 day course
-on [**8-12**].
-22. sodium chloride 0.9%  flush 3 ml iv daily:prn
-peripheral iv - inspect site every shift
+10. bisacodyl 5 mg tablet, delayed release (e.c.) [**hospital1 **]: two (2)
+tablet, delayed release (e.c.) po daily (daily) as needed for
+constipation.
+11. acetaminophen 325 mg tablet [**hospital1 **]: one (1) tablet po q6h
+(every 6 hours) as needed for pain/fever.
+12. gabapentin 300 mg capsule [**hospital1 **]: one (1) capsule po q48h
+(every 48 hours).
+13. atorvastatin 40 mg tablet [**hospital1 **]: one (1) tablet po hs (at
+bedtime).
+14. aztreonam in dextrose(isoosm) 1 gram/50 ml piggyback [**hospital1 **]:
+one (1) 1000 mg intravenous q8h (every 8 hours): to end on
+[**2118-4-11**].
+15. vancomycin in dextrose 1 gram/200 ml piggyback [**date range **]: one (1)
+1000mg intravenous q48h (every 48 hours): to end on [**2118-4-11**].
+give every 48 hours as needed if vanco trough is <15. trough
+this am 20, please repeat am of [**4-5**].
+16. sodium chloride 0.9 % 0.9 % piggyback [**month/day (2) **]: three (3) ml
+intravenous q8h (every 8 hours) as needed for line flush.
+17. isosorbide dinitrate 10 mg tablet [**month/day (2) **]: one (1) tablet po tid
+(3 times a day).
+18. metoprolol tartrate 50 mg tablet [**month/day (2) **]: one (1) tablet po bid
+(2 times a day).
+19. dextromethorphan-guaifenesin 10-100 mg/5 ml liquid [**month/day (2) **]: [**6-13**]
+mls po q4h (every 4 hours) as needed for cough.
+20. olanzapine 5 mg tablet [**month/year (2) **]: one (1) tablet po hs (at
+bedtime): can offer at bedtime if needed.
+21. humalog 100 unit/ml cartridge [**month/year (2) **]: one (1) cartridge
+subcutaneous sliding scale: follow sliding scale protocol
+.
+22. lantus 100 unit/ml cartridge [**month/year (2) **]: 16 unit am, 8 unit pm
+units subcutaneous twice a day: give 16 unit in am
+give 8 inits in pm.
+23. fluoxetine 10 mg capsule [**month/year (2) **]: four (4) capsule po daily
+(daily): continue to increase dose by 10 mg every other day
+until home dose of 60mg is reached.
+24. trazodone 50 mg tablet [**month/year (2) **]: one (1) tablet po qhs prn as
+needed for insomnia: prn for insomnia.
+25. fluticasone 50 mcg/actuation spray, suspension [**month/year (2) **]: one (1)
+spray nasal daily (daily).
+26. heparin flush (10 units/ml) 2 ml iv prn line flush
+picc, heparin dependent: flush with 10ml normal saline followed
+by heparin as above daily and prn per lumen.
+27. albuterol sulfate 90 mcg/actuation hfa aerosol inhaler [**month/year (2) **]:
+1-2 puffs inhalation every six (6) hours as needed for cough or
+sob.
+28. ipratropium bromide 17 mcg/actuation aerosol [**month/year (2) **]: 1-2 puffs
+inhalation every six (6) hours as needed for cough, sob.
 
 
 discharge disposition:
 extended care
 
 facility:
-[**hospital1 **]
+[**hospital6 459**] for the aged - macu
 
 
 Discharge Diagnosis: 
-primary:
-tracheomalacia and stenosis
-mdr klebsiella uti
-c. difficile colitis
-toxic megacolon
-high output diarrhea
-acute tubular necrosis secondary to hypovolemia
-acinetobacter/klebsiella vap
-enterococcal/klebsiella bactermia (prior to admission)
-anasarca
-malnutrition-severe
-af w/rvr s/p cardioversion
-.
-secondary:
-coronary artery disease s/p cabg x 4 [**1-30**]
-bioprosthetic aortic valve replacement [**1-30**]
-sternal wound infection
-perioperative paroxsmal atrial fibrillation
-left subdural hematoma s/p fall - r homonymous hemianopsia
-siadh
-diabetes mellitus type ii
-pituitary tumor - prolactinoma, on seizure prophylaxis
-morbid obesity
-chronic kidney disease cr~1.5
-heparin induced thrombocytopenia (hit)
+primary diagnoses:
+acute on chronic kidney disease
+healthcare associated pneumonia
+pleural effusion
 
 
 discharge condition:
-stable
+mental status: confused - sometimes
+level of consciousness: alert and interactive
+activity status: out of bed with assistance to chair or
+wheelchair
 
 
 discharge instructions:
-please take all your medications as directed.
+you were admitted to the hospital from a rehab facility due to
+concern regarding your worsening kidney function.  you were also
+thought to be confused and very lethargic when you were
+admitted.  you were initially admitted to the icu, where you
+were found to have pneumonia and you were started on
+antibiotics.  in addition, fluid was drained from around your
+lung to help your breathing.  after draining the fluid from your
+lungs you were transferred from the icu to the inpatient
+medicine floor with improved breathing.  your kidney failure was
+thought to be secondary to dehydration, and you were rehydrated
+with iv fluids with good effect.  additionally, you were seen by
+psychiatry for depression, and your anti-depressants increased.
+
 .
-always cap trach during the day and humidified oxygen at night
-for osa, please see instruction for trach care noted below to
-prevent mucous plugging
-.
-site: anterior lle
-type: leg ulcer
-cleansing [**doctor last name 360**]: saline
-change dressing: [**hospital1 **]
-comment: aquacel dressing
-.
-continue pressure relief measures
--[**doctor first name **] air bed-low air loss bed
--turn and reposition every 1-2hours off back
--heels off bed surface at all times
-.
-cleanse trach site with ns, pat dry
---apply no sting barrier wipe to irritated skin, air dry
---apply allevyn foam trach sponges around trach, change every
-2-3days prn
-.
-t-tube care:
--keep cap at all times, use nasal canula for oxygenation
--apply 204ml of ns q12hours to prevent mucous plugging
--if need to uncap use humidified o2 at all times
+changes in medications:
+start:  aztreonam and vancomycin; last day on [**2118-4-11**].
+increased: fluoxetine 40mg daily (continue to increase by 10 mg
+every other day until home dose of 60mg is reached)
+stopped:  flagyl, ciprofloxacin, lisinopril, lasix
+
 
 followup instructions:
-follow up with dr. [**first name (stitle) **] [**name (stitle) **] in 4 weeks at bronch unit at
-[**hospital1 18**], please call if you have further questions at ([**telephone/fax (1) 27079**].
+follow up with pcp:  [**last name (namepattern4) **]. [**last name (stitle) 3271**] 2 weeks after discharge from
+rehab.     phone: [**telephone/fax (1) 35142**] please discuss possibly
+re-starting epogen for your anemia with him at your next visit.
+
+dr. [**first name4 (namepattern1) 919**] [**last name (namepattern1) 911**], please call for follow up appointment after
+rehab discharge: ([**telephone/fax (1) 2037**]
 
 
 
-completed by:[**2156-8-10**]","
-primary:
-tracheomalacia and stenosis
-mdr klebsiella uti
-c. difficile colitis
-toxic megacolon
-high output diarrhea
-acute tubular necrosis secondary to hypovolemia
-acinetobacter/klebsiella vap
-enterococcal/klebsiella bactermia (prior to admission)
-anasarca
-malnutrition-severe
-af w/rvr s/p cardioversion
-.
-secondary:
-coronary artery disease s/p cabg x 4 [**1-30**]
-bioprosthetic aortic valve replacement [**1-30**]
-sternal wound infection
-perioperative paroxsmal atrial fibrillation
-left subdural hematoma s/p fall - r homonymous hemianopsia
-siadh
-diabetes mellitus type ii
-pituitary tumor - prolactinoma, on seizure prophylaxis
-morbid obesity
-chronic kidney disease cr~1.5
-heparin induced thrombocytopenia (hit)
+","
+primary diagnoses:
+acute on chronic kidney disease
+healthcare associated pneumonia
+pleural effusion
 
 
 discharge condition:
-stable
+mental status: confused - sometimes
+level of consciousness: alert and interactive
+activity status: out of bed with assistance to chair or
+wheelchair
 
 
 discharge instructions:
-please take all your medications as directed.
+you were admitted to the hospital from a rehab facility due to
+concern regarding your worsening kidney function.  you were also
+thought to be confused and very lethargic when you were
+admitted.  you were initially admitted to the icu, where you
+were found to have pneumonia and you were started on
+antibiotics.  in addition, fluid was drained from around your
+lung to help your breathing.  after draining the fluid from your
+lungs you were transferred from the icu to the inpatient
+medicine floor with improved breathing.  your kidney failure was
+thought to be secondary to dehydration, and you were rehydrated
+with iv fluids with good effect.  additionally, you were seen by
+psychiatry for depression, and your anti-depressants increased.
+
 .
-always cap trach during the day and humidified oxygen at night
-for osa, please see instruction for trach care noted below to
-prevent mucous plugging
-.
-site: anterior lle
-type: leg ulcer
-cleansing [**doctor last name 360**]: saline
-change dressing: [**hospital1 **]
-comment: aquacel dressing
-.
-continue pressure relief measures
--[**doctor first name **] air bed-low air loss bed
--turn and reposition every 1-2hours off back
--heels off bed surface at all times
-.
-cleanse trach site with ns, pat dry
---apply no sting barrier wipe to irritated skin, air dry
---apply allevyn foam trach sponges around trach, change every
-2-3days prn
-.
-t-tube care:
--keep cap at all times, use nasal canula for oxygenation
--apply 204ml of ns q12hours to prevent mucous plugging
--if need to uncap use humidified o2 at all times
+changes in medications:
+start:  aztreonam and vancomycin; last day on [**2118-4-11**].
+increased: fluoxetine 40mg daily (continue to increase by 10 mg
+every other day until home dose of 60mg is reached)
+stopped:  flagyl, ciprofloxacin, lisinopril, lasix
+
 
 followup instructions:
-follow up with dr. [**first name (stitle) **] [**name (stitle) **] in 4 weeks at bronch unit at
-[**hospital1 18**], please call if you have further questions at ([**telephone/fax (1) 27079**].
+follow up with pcp:  [**last name (namepattern4) **]. [**last name (stitle) 3271**] 2 weeks after discharge from
+rehab.     phone: [**telephone/fax (1) 35142**] please discuss possibly
+re-starting epogen for your anemia with him at your next visit.
+
+dr. [**first name4 (namepattern1) 919**] [**last name (namepattern1) 911**], please call for follow up appointment after
+rehab discharge: ([**telephone/fax (1) 2037**]
 
 
 
-completed by:[**2156-8-10**]",0.34644293785095215,140838
+",0.29728829860687256,136336
+"admission date:  [**2100-12-29**]              discharge date:   [**2101-1-7**]
+
+
+service: medicine
+
+allergies:
+norvasc / cipro i.v.
+
+attending:[**first name3 (lf) 13541**]
+chief complaint:
+hypotension
+
+major surgical or invasive procedure:
+picc line placement
+
+
+history of present illness:
+mr. [**known lastname 22236**] is an 89 y.o. m with systolic chf (ef 45% in [**9-25**]),
+s/p mca cva, afib, htn, and dm ii, recently admitted to [**hospital1 18**]
+from [**date range (1) 8945**] and [**date range (1) 22237**] for hap and uti [**last name (un) **] transferred
+from [**hospital **] hosp for hypotension.
+
+history is unclear as obtained from scant osh records and
+patient unable to give history. he appears to have been at nh
+when found to sats 81% ra, foley draining dark amber urine. he
+was noted to have severe peripheral edema and given levoquin x 1
+and lasix 40 mg iv x 1 at osh. he became hypotensive to 80's at
+osh, placed an ej and started peripheral neo.
+
+in the ed, initial vs were: t 100, p 81, bp 107/58, r 18, 100%
+nrb o2 sat. patient was given vanc/zosyn, tylenol, and 1l ns in
+ed. bladder was changed in ed with ucx very positive and sent to
+icu.
+
+on the floor, he has no complaints. history is obtained mostly
+from son as patient only answers with single words.
+
+past medical history:
+l mca stroke with right-sided hemiparesis, aphasia [**12/2090**]
+systolic chf with ef 45-50% in [**9-/2100**]
+mild pulmonary artery hypertension
+atrial fibrillation with slow ventricular response
+heart block s/p [**company 1543**] sensia single-chamber pacemaker [**3-25**]
+benign hypertension
+hyperlipidemia
+type 2 diabetes
+rle cellulitis
+rle dvt (on coumadin)
+s/p ivc filter [**10/2099**]
+sleep apnea (intolerant of cpap)
+bladder diverticulum w/ ? fungal infection, currently inoperable
+per most recent urology note followed by [**first name8 (namepattern2) **] [**last name (namepattern1) 770**]
+recurrent utis
+
+
+social history:
+he does not drink or smoke. widower with 3 children. former
+pro-baseball scout for numerous pro-teams. was one of the first
+scouts to recruit a minority player (to philly), and was then
+black-listed for this reason for 5 years. he coached for many
+many years at [**location (un) 5871**] college, where he boasted a 100%
+graduation rate. lives in a nursing home, and is visited daily
+by his sons, who performs many of the tasks of daily care. he
+does not drink, smoke, nor use recereational drugs. widower with
+3 children.
+
+
+family history:
+non-contributory
+
+physical exam:
+vitals: tm/c 97.8, 80s, 100-120s/50-60s, 98% on ra
+general: sleepy, appears comfortable, responds to a few
+questions, oriented to [**state 350**] & baseball.  does
+communicate often appropriately.
+heent: pupils small b/l, but reactive to light. sclera
+anicteric, mmm, oropharynx clear
+neck: supple, jvp not elevated, no lad
+lungs: clear to auscultation bilaterally, diffuse wheezes,
+rales, ronchi
+cv: regular rate and rhythm, normal s1 + s2, no murmurs, rubs,
+gallops
+abdomen: somewhat firm, non-tender, non-distended, bowel sounds
+present, no rebound tenderness or guarding, no organomegaly
+ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or
+edema, multipodus boots on.
+skin: few crusted ulcers on toes
+gu: swollen scotum
+
+
+pertinent results:
+discharge labs:
+[**2101-1-6**] 06:23am blood wbc-12.3* rbc-2.62* hgb-8.4* hct-25.2*
+mcv-96 mch-31.9 mchc-33.2 rdw-15.9* plt ct-281
+[**2101-1-6**] 07:00am blood pt-28.7* ptt-42.2* inr(pt)-2.9*
+[**2101-1-6**] 06:23am blood glucose-68* urean-15 creat-1.4* na-145
+k-3.7 cl-113* hco3-25 angap-11
+[**2101-1-6**] 06:23am blood calcium-6.7* phos-2.7 mg-1.7
+[**2100-12-28**] 11:00pm blood vitb12-1170* folate-6.5
+[**2101-1-5**] 07:57pm blood tobra-1.2*
+
+imaging:
+[**1-3**] cxr:
+there is increased hazy vasculature bilaterally with bilateral
+pleural effusions, left greater than right that have increased.
+compared to the prior study, there is dense retrocardiac
+opacification consistent with volume loss/effusion/infiltrate.
+compared to the prior study, the amount of pulmonary edema has
+increased. an underlying infectious infiltrate particularly on
+the left cannot be totally excluded.
+
+[**12-28**] scrotal u/s:
+significant subcutaneous scrotal swelling with no
+hypervascularity and no gas within the tissues identified. this
+edema may be due to third spacing but ultrasound is unable to
+further characterize. a clinical evaluation is recommended to
+exclude a subcutaneous infectious
+process, and if further imaging is required, a ct could be
+performed.
+
+2) no evidence of an intratesticular mass. no evidence of
+epididymitis or
+orchitis.
+
+microbiology:
+**final report [**2101-1-1**]**
+
+   urine culture (final [**2101-1-1**]):
+      pseudomonas aeruginosa.    >100,000 organisms/ml..
+      escherichia coli.    >100,000 organisms/ml..
+
+                              sensitivities: mic expressed in
+mcg/ml
+
+_________________________________________________________
+                             pseudomonas aeruginosa
+                             |          escherichia coli
+                             |          |
+ampicillin------------             =>32 r
+ampicillin/sulbactam--                4 s
+cefazolin-------------               32 r
+cefepime--------------     8 s      <=1 s
+ceftazidime-----------     4 s      <=1 s
+ceftriaxone-----------              <=1 s
+cefuroxime------------               16 i
+ciprofloxacin---------   =>4 r      =>4 r
+gentamicin------------     2 s      <=1 s
+meropenem-------------  =>16 r   <=0.25 s
+nitrofurantoin--------             <=16 s
+piperacillin----------    16 s    =>128 r
+piperacillin/tazo-----    16 s      <=4 s
+tobramycin------------   <=1 s      <=1 s
+trimethoprim/sulfa----              <=1 s
+
+**final report [**2101-1-3**]**
+
+   blood culture, routine (final [**2101-1-3**]):    no growth.
+[**2101-1-4**] 6:32 am blood culture      source: line-picc 2 of 2.
+
+   blood culture, routine (pending):
+
+
+brief hospital course:
+an 89 year old gentleman with systolic chf, chronic foley who
+presented from rehab with psuedomonal/e. coli urosepsis.
+
+#) urosepsis:  the patient was admitted to the micu for
+management of urosepsis.  while there he was maintained on
+neosynephrine for 2 days.  he was started on vancomycin & zosyn.
+ the patient was called out to the floor on zosyn & tobramycin.
+further microbiologic data suggested a treatment change to
+tobramycin & ceftazidime to be continued until [**2101-1-12**].
+throughout this admission the patient's chronic foley due to
+bladder diverticulum remained in place and regularly irrigated.
+
+-ceftazidime 2g iv q12h last dose [**2101-1-12**]
+-tobramycin 100mg iv q24, decrease dose to 80mg on [**2101-1-9**] to
+finish course on [**2101-1-12**].
+-foley requires hand irrigation q4-6 hours, no continuous
+bladder irrigation.
+
+#) atrial fibrillation:  the patient has a history of atrial
+fibrillation for which he is on chronic anti-coagulation and
+metoprolol.  due to his poor po intake and self-sustained rate
+control, the patient will not be continued on metoprolol.  his
+coumadin was held for much of his admission given a
+supratherapeutic inr.  he will be discharged on 2mg daily with
+pt levels to be followed twice weekly, goal [**12-21**].
+
+#) chronic dvts: anticoagulated as above.
+
+#) malnutrition/wound care (sacral decubitus & leg ulcers):  the
+patient is tolerating limited po with siginificant aspiration
+risk & aspiration events.  other feeding options were discussed
+with the family but they have opted to maintain oral feeding.
+of note, the patient has a low albumin in the 1s with
+significant wound care issues as well as significant scrotal
+edema.  the patient was admitted on zinc, vitamin c, & vitamin b
+but due to his poor ability to consume pills these medicines
+have not been continued.
+
+#) leukocytosis: the patient has had a maintained elevated white
+blood cell count while admitted. this is likely due to his
+ongoing pseudomonal uti/chronic foley.  an assay for c. diff was
+sent off and the results will be called to the accepting
+facility.
+- if c. diff positive, will begin flagyl 500mg iv q8 at the
+discretion of the family.
+
+#) chf: the patient has a history of congestive heart failure.
+given his renal failure and hypotension his lasix was initially
+held. given his tenuous renal failure we have not restarted
+lasix on discharge.
+
+#) pain: the patient was maintained on a fentanyl patch and with
+tylenol and morphine iv.  on discharge he will be transitioned
+to sublingual or liquid morphine for pain control.
+
+# arf: the patient has persistent renal failure with baseline
+creatinine 0.8, 1. on discharge. all medicines were renally
+dosed.
+
+# hypertension:  the patient's beta blocker and ace inhibitor
+were not continued.
+
+# type 2 diabetes:  the patient was continued on an insulin
+sliding scale but did not require insulin.  we recommend
+reducing his finger sticks to once daily only.
+
+# anemia: the patient had fluctuating blood volume without clear
+blood loss other than phlebotomy.  he was not transfused on this
+admission.
+
+# l heel stage ii pressure ulcer: wound care as above.
+
+# dementia:  the patient has chronic dementia.  he was unable to
+reliably take food by mouth, however in accordance with the
+family wishes he was fed but kept on aspiration precautions.
+
+medications on admission:
+medications:
+1. fentanyl 12 mcg/hr patch 72 hr [**month/day (3) **]: one (1) patch 72 hr
+transdermal q72h (every 72 hours).
+2. allopurinol 100 mg tablet [**month/day (3) **]: one (1) tablet po daily
+(daily).
+3. lansoprazole 30 mg tablet,rapid dissolve, dr [**last name (stitle) **]: one (1)
+tablet,rapid dissolve, dr [**last name (stitle) **] daily (daily).
+4. metoprolol tartrate 25 mg tablet [**last name (stitle) **]: 0.5 tablet po bid (2
+times a day).
+5. multivitamin,tx-minerals tablet [**last name (stitle) **]: one (1) tablet po
+daily (daily).
+6. paroxetine hcl 10 mg tablet [**last name (stitle) **]: one (1) tablet po daily
+(daily).
+7. lisinopril 5 mg tablet [**last name (stitle) **]: one (1) tablet po daily (daily).
+
+8. chlorhexidine gluconate 0.12 % mouthwash [**last name (stitle) **]: one (1) ml
+mucous membrane qid (4 times a day).
+9. furosemide 20 mg tablet [**last name (stitle) **]: one (1) tablet po daily (daily).
+
+
+10. zinc sulfate 220 mg capsule [**last name (stitle) **]: one (1) capsule po daily
+(daily) for 4 days.
+11. vitamin a 10,000 unit capsule [**last name (stitle) **]: two (2) capsule po daily
+
+(daily) for 4 doses.
+12. ascorbic acid 500 mg tablet [**last name (stitle) **]: one (1) tablet po once a
+day for 4 days.
+13. coumadin 1 mg tablet [**last name (stitle) **]: one (1) tablet po once a day:
+target inr [**12-21**]. inr on [**12-16**] was 3.9, so hold dose on [**12-16**] and
+recheck.
+14. insulin lispro 100 unit/ml solution [**month/year (2) **]: qachs per sliding
+scale subcutaneous asdir (as directed).
+15. polyvinyl alcohol-povidone 1.4-0.6 % dropperette [**month/year (2) **]: [**11-19**]
+drops ophthalmic [**hospital1 **] (2 times a day).
+16. oxybutynin chloride 5 mg tablet [**hospital1 **]: one (1) tablet po tid
+(3 times a day).
+17. metronidazole 500 mg tablet [**hospital1 **]: one (1) tablet po q8h
+(every 8 hours) for 2 weeks.
+18. acetaminophen 325 mg tablet [**hospital1 **]: 1-2 tablets po q6h (every 6
+
+hours) as needed for pain.
+
+
+discharge medications:
+1. bisacodyl 5 mg tablet, delayed release (e.c.) [**hospital1 **]: two (2)
+tablet, delayed release (e.c.) po daily (daily) as needed.
+2. senna 8.6 mg tablet [**hospital1 **]: one (1) tablet po bid (2 times a
+day) as needed.
+3. fentanyl 12 mcg/hr patch 72 hr [**hospital1 **]: one (1) patch 72 hr
+transdermal q72h (every 72 hours).
+4. bacitracin zinc 500 unit/g ointment [**hospital1 **]: one (1) appl topical
+qid (4 times a day).
+5. miconazole nitrate 2 % powder [**hospital1 **]: one (1) appl topical tid
+(3 times a day).
+6. acetaminophen 500 mg/5 ml liquid [**hospital1 **]: one (1)  po q6h (every
+6 hours): please mix with patient's pre-thickened water.
+patient may refuse.
+7. sodium chloride 0.9%  flush 10 ml iv prn line flush
+picc, non-heparin dependent: flush with 10 ml normal saline
+daily and prn per lumen.
+8. ceftazidime 2 gram recon soln [**hospital1 **]: one (1) recon soln
+injection q12h (every 12 hours) for 5 days: last dose [**2101-1-12**].
+
+9. tobramycin sulfate 40 mg/ml solution [**year (4 digits) **]: 2.5 ml injection
+q24h (every 24 hours) for 5 days: [**1-7**] to [**1-8**]: 100mg q24h
+change of dose:
+[**1-10**] to [**1-12**]: 80mg q24.
+10. morphine sulfate 5 mg/0.25 ml solution [**month/year (2) **]: ten (10) mg
+sublingual every four (4) hours as needed for pain.
+11. lansoprazole 30 mg tablet,rapid dissolve, dr [**last name (stitle) **]: one (1)
+tablet,rapid dissolve, dr [**last name (stitle) **] once a day.
+12. polyvinyl alcohol-povidone 1.4-0.6 % drops [**last name (stitle) **]: one (1) gtt
+ophthalmic twice a day.
+13. warfarin 2 mg tablet [**last name (stitle) **]: one (1) tablet po once a day:
+please check pt twice weekly and titrate accordingly to goal inr
+[**12-21**].
+14. insulin lispro 100 unit/ml solution [**month/day (3) **]: asdir  subcutaneous
+once a day: please check finger sticks qam and follow sliding
+scale as directed.
+
+
+discharge disposition:
+extended care
+
+facility:
+[**location (un) 582**] of [**location (un) 5176**]
+
+
+Discharge Diagnosis: 
+1. sepsis due to bacterial uti (pseudomonas and e.coli)
+2. acute on chronic systolic heart failure
+3. acute renal failure
+4. severe malnutrition with albumin <1.5
+5. stage ii decubitus ulcers
+6. history of dvt status post ivc filter, on coumadin
+7. atrial fibrillation
+8. dementia
+9. bladder diverticulum with chronic indwelling foley catheter
+
+discharge condition:
+vital signs stable, chronically ill.
+
+discharge instructions:
+you have been admitted to the hospital with a serious urinary
+infection.  while you were here you were cared for in the
+intensive care unit and on the medical wards.  you will be
+discharged on iv antibiotics for this infection.
+
+please take all medicines as directed as they have changed.  we
+have stopped many of your medicines so please check carfeully.
+
+followup instructions:
+mr. [**known lastname 22236**] has the following appointment already scheduled
+prior to this admission.
+
+provider:  [**name10 (nameis) 676**] clinic phone:[**telephone/fax (1) 62**] date/time:[**2101-1-21**]
+4:00
+
+dr.[**name (ni) **] will be following mr. [**known lastname 22236**] after discharge.
+he can be reached at [**telephone/fax (1) 22235**]
+
+
+                             [**first name8 (namepattern2) **] [**last name (namepattern1) **] md [**md number(2) 13546**]
+
+","
+1. sepsis due to bacterial uti (pseudomonas and e.coli)
+2. acute on chronic systolic heart failure
+3. acute renal failure
+4. severe malnutrition with albumin <1.5
+5. stage ii decubitus ulcers
+6. history of dvt status post ivc filter, on coumadin
+7. atrial fibrillation
+8. dementia
+9. bladder diverticulum with chronic indwelling foley catheter
+
+discharge condition:
+vital signs stable, chronically ill.
+
+discharge instructions:
+you have been admitted to the hospital with a serious urinary
+infection.  while you were here you were cared for in the
+intensive care unit and on the medical wards.  you will be
+discharged on iv antibiotics for this infection.
+
+please take all medicines as directed as they have changed.  we
+have stopped many of your medicines so please check carfeully.
+
+followup instructions:
+mr. [**known lastname 22236**] has the following appointment already scheduled
+prior to this admission.
+
+provider:  [**name10 (nameis) 676**] clinic phone:[**telephone/fax (1) 62**] date/time:[**2101-1-21**]
+4:00
+
+dr.[**name (ni) **] will be following mr. [**known lastname 22236**] after discharge.
+he can be reached at [**telephone/fax (1) 22235**]
+
+
+                             [**first name8 (namepattern2) **] [**last name (namepattern1) **] md [**md number(2) 13546**]
+
+",0.29846084117889404,152311
+"admission date:  [**2186-6-23**]              discharge date:   [**2186-7-6**]
+
+date of birth:  [**2120-1-2**]             sex:   m
+
+service: medicine
+
+allergies:
+pneumovax 23
+
+attending:[**first name3 (lf) 905**]
+chief complaint:
+pneumonia, hypoxia, hypotension
+
+major surgical or invasive procedure:
+none
+
+history of present illness:
+the pt is a 66-yo man with paroxysmal atrial fibrillation,
+hepatitis c, h/o c.diff colitis, and a recent pneumonia,
+discharged [**2186-6-21**] on vanc / zosyn, who was found by his family
+to be more hypoxic and tired than usual so they brought him into
+the ed. his wife found him to be more sick than usual at about
+4pm today, needing more supplemental o2 than prior (2l -->
+3-4l), feeling warm and looking [**doctor last name 352**]. she called ems, who
+brought him in to the ed today.
+.
+on arrival in the ed, vs - temp 101.4f, 148/78, hr 98, r 28,
+sao2 99% nrb. he received tylenol 650mg pr x2. blood cx sent x2,
+ua negative. he was initially weaned down to 4l nc, but
+desaturated to the 80s so was re-started on the nrb with
+improvement to the mid-90s. lactate was 2.6 and cxr showed a
+possible right basilar pneumonia and a coiled picc line. he
+subsequently became hypotensive to the high-70s but was fluid
+responsive. his picc line was pulled and sent for cx and a rij
+cvl was placed, and he got 4l ns ivf with sbps 95-100. id was
+curbsided regarding abx coverage, and he received vancomycin,
+meropenem, and tobramycin for broad coverage. he is admitted to
+the micu for sepsis. he did not require any vasopressor support.
+.
+on arrival to the icu, he feels well and has no complaints. he
+acknowledges fever but denies sob, chest pain, abdominal pain,
+nausea, diarrhea, or swelling.
+
+
+past medical history:
+- paroxysmal atrial fibrillation
+- history of c diff colitis
+- bipolar affective disorder
+- history of resolved hepatitis b
+- history of rheumatic heart disease
+- history of right mca aneurysm clipped in [**2167**] at [**hospital1 112**]
+- history of pernicious anemia
+- gastroesophageal reflux disease
+
+social history:
+he lives with his wife.  questionable history of alcohol abuse
+(did abuse alcohol >20 years ago).  he has not smoked for one
+month but previously has a 40 pack year history.  previously on
+2l o2 at home but not prior to this hospitalization.
+
+family history:
+his father had lung cancer and his mother had congestive heart
+failure.
+
+physical exam:
+vs: temp 96.9f, bp 112/87, hr 85, r 17, sao2 96%nrb; cvp 4
+general: nad
+heent: perrl, dry mm
+neck: supple
+lungs: +crackles @ left base, decreased bs on right
+heart: irreg irreg, nl s1-s2, [**3-24**] sm
+abdomen: +bs, soft/nt/nd, no rebound/guarding
+extrem: 2+ ble pitting edema
+skin: no rash
+neuro: a&ox3, strength 5/5 throughout, sensation grossly intact
+throughout
+.
+
+pertinent results:
+pertinent labs:
+[**2186-6-23**] 06:15pm blood wbc-8.3 rbc-3.52* hgb-11.4* hct-35.0*
+mcv-99* mch-32.4* mchc-32.6 rdw-16.6* plt ct-162
+[**2186-6-23**] 06:15pm blood neuts-68.9 lymphs-22.5 monos-7.1 eos-1.1
+baso-0.4
+[**2186-6-23**] 06:15pm blood pt-16.1* ptt-39.9* inr(pt)-1.4*
+[**2186-6-23**] 06:15pm blood glucose-125* urean-8 creat-0.8 na-139
+k-3.6 cl-103 hco3-25 angap-15
+[**2186-6-23**] 06:15pm blood alt-9 ast-47* ck(cpk)-48 alkphos-253*
+totbili-1.0
+[**2186-6-23**] 06:15pm blood lipase-63*
+[**2186-6-23**] 06:15pm blood ck-mb-notdone ctropnt-<0.01 probnp-1333*
+[**2186-6-23**] 06:15pm blood albumin-3.0* calcium-8.4 phos-2.5* mg-2.2
+[**2186-6-26**] 03:46am blood igg-815 iga-198 igm-93
+[**2186-6-28**] 03:15am blood hiv ab-negative
+[**2186-6-28**] 03:15am blood vanco-20.6*
+[**2186-6-23**] 06:15pm blood vanco-15.5
+[**2186-6-23**] 06:15pm blood digoxin-0.5*
+[**2186-6-27**] 04:14am blood valproa-23*
+[**2186-6-23**] 06:27pm blood lactate-2.6*
+[**2186-6-28**] 03:42pm blood b-glucan-test      >500 pg/ml *
+.
+labs on discharge: na139  cl103  bun9  na4.7  bicarb30
+creatinine0.7
+wbc4.22 h/h 10/30.5 plts 138
+.
+blood cx:
+[**2186-7-2**] 1:43 am blood culture      source: venipuncture.
+   blood culture, routine (preliminary):
+      staphylococcus, coagulase negative.    of two colonial
+morphologies.
+         isolated from one set only.  sensitivities performed on
+request..
+.
+picc line and central line tips negative on [**6-23**] & [**6-28**]
+bloox cx pending [**7-3**] & [**7-4**], blood cx neg from [**6-23**], [**6-24**], [**6-28**]
+c diff negative x3
+ucx [**7-2**] grew yeast
+.
+[**2186-7-3**] cxr:
+findings: in comparison with the study of [**7-1**], there is some
+increasing
+opacification at the right base medially with silhouetting of
+the
+hemidiaphragm, consistent with right middle lobe consolidation.
+mild
+atelectatic changes at the left base with blunting of the
+costophrenic angle persist. upper lung zones remain clear.
+.
+[**6-23**] cxr:
+impression: limited study due to patient motion.
+1. possible right basilar pneumonia. recommend repeat radiograph
+of the chest to confirm with more optimized technique.
+2. interval slight retraction of the right picc which is looped
+in the right subclavian vein.
+.
+[**2186-6-26**] echo:
+the left atrium and right atrium are normal in cavity size. left
+ventricular wall thickness, cavity size, and global systolic
+function are normal (lvef>55%). due to suboptimal technical
+quality, a focal wall motion abnormality cannot be fully
+excluded. right ventricular chamber size and free wall motion
+are normal. the aortic valve leaflets are moderately
+thickened/deformed. no discrete vegetation is seen, but cannot
+be excluded due to suboptimal image quality and diffuse aortic
+valve thickening. there is a minimally increased gradient
+consistent with minimal aortic valve stenosis. no aortic
+regurgitation is seen. the mitral valve leaflets are mildly
+thickened. physiologic mitral regurgitation is seen (within
+normal limits). the pulmonary artery systolic pressure could not
+be determined. there is no pericardial effusion.
+compared with the prior study (images reviewed) of [**2186-6-14**],
+the findings are similar.
+clinical implications:
+based on [**2184**] aha endocarditis prophylaxis recommendations, the
+echo findings indicate prophylaxis is not recommended. clinical
+decisions regarding the need for prophylaxis should be based on
+clinical and echocardiographic data.
+.
+[**6-27**] video swallow
+impression: moderate-to-severe oral and mild pharyngeal
+dysphagia resulting in penetration and aspiration due to
+premature spillover, delayed swallow initiation, and mildly
+reduced laryngeal valve closure.
+.
+[**6-27**] ct head
+noncontrast ct head: there is no intra- or extra-axial
+hemorrhage, shift of normally midline structures, edema, mass
+effect, or evidence of acute infarct.
+evidence of previous right pterional craniotomy and vascular
+clip in the right ica are unchanged since [**2186-6-16**].
+periventricular and subcortical white matter hypodensity
+represent chronic microvascular infarction, unchanged since
+[**2186-6-16**]. the paranasal sinuses and mastoid air cells are
+unremarkable.
+impression: no acute intracranial process.
+.
+[**6-27**] le u/s
+impression: no evidence of bilateral lower extremity dvt,
+although there is limited visualization of the calf veins
+bilaterally.
+.
+[**6-28**] ct chest
+impression:
+1. stable right middle lobe consolidation with interval increase
+in right
+middle lobe volume loss without evidence of endobronchial
+lesion. several
+enlarged and numerous prominent mediastinal lymph nodes not
+significantly
+changed from the prior study and likely reactive in nature.
+2. interval increase in bilateral pleural effusions right
+greater than left.
+3. multiple bilateral 3-6 mm nodules, unchanged compared to the
+prior study.
+a followup ct is recommended in one year to ensure two-year
+stability.
+4. findings consistent with cirrhosis and portal hypertension.
+
+
+brief hospital course:
+assessment and plan: 66m with a history of paf, c.diff colitis,
+recent pneumonia, admitted to the icu with recurrent pna/sepsis
+and found to have rml/rll pna & and being empirically tx for c
+diff colitis.
+.
+# pneumonia: the patient was admitted with high fever, hypoxia,
+and hypotension. his cxr showed evidence of a rml/rll pneumonia
+thought to be due to aspiration given dysphagia on swallow
+study. he was treated with a 14 day course of meropenem which
+was completed today.  he does have pleural effusions but no
+thoracentesis was done given that it was difficult to position
+the patient and there was not enough fluid to safely tap. he was
+gently diuresed during his admission. his ct scan showed
+pulmonary nodules that need to be followed up as an outpatint.
+given his repeated pneumonias checked hiv ab and igg both
+unremarkable.  his b-glucan came back at >500 pg/ml.  given his
+clinical improvement and no known reason for immunocompromise he
+was not treated for a fungal infection.  this lab should be
+redrawn in [**4-19**] weeks after discharge to ensure that it improves.
+ a galactomannan was drawn while he was in the icu and should be
+followed up as an outpatint.  he was placed on a dysphagia diet
+given concern for repeat aspiration pna and failure of swallow
+study.  he required 3l of oxygen at the time of discharge (he
+had 2l oxygen requirement prior to admisison).
+.
+# fever/ sepsis: pt has septic physiology in the ed and micu.
+she grew gram + cocci in clusters in 1 bottle anaerobic from
+[**2186-7-2**] and was started on vancomycin iv which she received for
+one day until it came back coag negative staph. his last fever
+was [**2186-7-3**].  all other blood cx have been negative. his urine
+cx was negative (except for [**female first name (un) **]).  his fever/sepsis was
+treated with a 14 day course of meropenem as detailed above
+under the pna section.
+.
+# diarrhea: the patient had diarrhea while in the icu.  he was
+empirically treatment for c.diff although he was c diff negative
+x3 during this hospitalizatoin. he had 5 bm the day prior to
+discharge some of which were loose stools.  given his completion
+of meropenem on [**2186-7-6**] the patient will be given an additional
+7 day course of flagyl with the last dose the eveing of [**2186-7-13**].
+ his diarrhea may not be c diff in origin and could just be due
+to his meropenem.
+.
+# anisicoria: anisicoria was noticed on exam with r eye dilated
+more than left.  this is an old finding for the patient as he
+has a pcom aneurysm compressing cn iii.
+.
+# paroxysmal atrial fibrillation: the patient is being continued
+on his home dose of flecainide and digoxin.  his metoprolol was
+decreased to [**hospital1 **] on [**7-1**] given occassional low hr and at times
+his metoprolol still needs to be held for decreased bp.  he is
+being continued on aspirin. per a discussion the icu team had
+with his pcp and cardiology he is not being anticoagulation
+given his history of falls.  on the medicine floor he did not
+have a fib with rvr, however, he is at higher risk for rvr given
+that he was started on ritalin. however, given his decreased
+affect and the positive effect of ritalin on his energy level we
+have continued the ritalin.
+.
+#anemia: his hct has been stable at approximately 30.  the
+anemia is macrocytic and likely from liver disease. his recent
+b12/folate were within normal limits.  his ferrous sulfate
+supplement should be continued.
+.
+# psych: the patient has bipolar disorder and has been stable on
+depakote for several years with no recent changes. in the icu
+there was concern for somnolence and his flat affect and his
+zyprexa was discontinued. given his decreased energy level he
+was started on ritalin ([**2186-6-30**]) which he has responded to.  his
+outpatient psychiatrist dr. [**last name (stitle) 1968**] is aware of these changes.  i
+spoke with dr. [**last name (stitle) 1968**] about our concern for his depression and he
+was started on citalopram 20mg daily ([**2186-7-3**]) which should be
+increased to 30mg daily (on [**2186-7-10**]) if he does well on it.
+given his history of bipolar disorder he needs to be closely
+monitored for symptoms of mania since his zyprexa was stopped
+and citalopram was started. he varied from a & o x2 to 3.  he
+does not always participate when asked date. his mental status
+can wax and wanes sometimes with the patient not always
+answering questions in an appropriate time frame especially in
+evening.  his affect is flat and his thinking is very slow.
+.
+severe dry eyes and keratitis: also saw the patient and found
+severe dry eyes and keratitis of the right eye.  continue
+aritifical tears.
+.
+# ? liver disease: there is concern for liver disease given ap
+408, ast 89, inr 1.4, and mild thrombocytopenia.  he was hep c
+ab neg. his hep b serologies were consistent with prior
+infection (surface and core ab+). he hoes have a remote history
+of heavy alcohol use.  he needs outpatient liver follow up after
+he leaves rehab.
+.
+# bradycardia/hypotension: he had a few short episodes of
+bradycardia and hypotension on arrival to ed which resolved.  he
+has some low bps in the icu. he also had some sbp in the high
+80s/low 90s while on the medicine floor and he was
+assymptomatic.
+.
+# nutrition: he is on a dysphagia diet: po diet nectar thick
+liquids, soft solids, and pills whole with puree or nectar thick
+liquid.  he aspirated liquids when he takes large sips. at rehab
+he can take small sips of regular liquids between meals if he is
+undersupervison.  he still has severe le edema which is likely
+influenced by poor nutrition.
+.
+# prophylaxis:
+-dvt: heparin sc. no anticoagulation for a fib (see above)
+-stress ulcer: h2 blocker
+.
+# code status: full code
+.
+# emergency contact: wife makes health care decisions [**name (ni) **]
+[**known lastname 2933**] [**telephone/fax (1) 2938**] (home), [**telephone/fax (1) 2945**] (cell)
+.
+follow up needed by pcp after discharge:
+-galactomannan
+-repeat b-glucan in [**4-19**] weeks
+-liver follow up
+-psychiatry follow up
+
+medications on admission:
+medications (per d/c summary [**2186-6-21**])
+- aspirin 325mg po daily
+- cholyestyramine-sucrose 4grams po bid
+- divalproex 500mg po qam
+- divalproex 1000mg po qpm
+- digoxin 125mcg po daily
+- ferrous sulfate 325mg po daily
+- olanzapine 5mg po daily
+- ranitidine 75mg po daily
+- mvi daily
+- flecainide 50mg po q12hrs
+- vancomycin 1gram iv q12hrs (5 more days)
+- piperacillin-tazobactam 4.5gram iv q8hrs (5 more days)
+- tylenol 325-650mg po q6hrs prn fever, pain
+- metoprolol 25 mg tid (had been held at home)
+
+discharge medications:
+1. aspirin 325 mg tablet sig: one (1) tablet po daily (daily).
+2. digoxin 125 mcg tablet sig: one (1) tablet po daily (daily).
+
+3. ferrous sulfate 325 mg (65 mg iron) tablet sig: one (1)
+tablet po daily (daily).
+4. ranitidine hcl 75 mg tablet sig: one (1) tablet po once a
+day.
+5. multivitamin     tablet sig: one (1) tablet po daily (daily).
+
+6. flecainide 50 mg tablet sig: one (1) tablet po q12h (every 12
+hours).
+7. acetaminophen 325 mg tablet sig: one (1) tablet po q6h (every
+6 hours) as needed for pain.
+8. albuterol sulfate 2.5 mg /3 ml (0.083 %) solution for
+nebulization sig: one (1)  inhalation q4h (every 4 hours) as
+needed for wheezing.
+9. miconazole nitrate 2 % powder sig: one (1) appl topical qid
+(4 times a day) as needed for rash.
+10. divalproex 125 mg capsule, sprinkle sig: four (4) capsule,
+sprinkle po qam (once a day (in the morning)).
+11. divalproex 125 mg capsule, sprinkle sig: eight (8) capsule,
+sprinkle po qpm (once a day (in the evening)).
+12. ipratropium bromide 0.02 % solution sig: one (1)  inhalation
+q6h (every 6 hours).
+13. metronidazole 500 mg tablet sig: one (1) tablet po q8h
+(every 8 hours) as needed for empiric tx for cdiff for 7 days.
+14. polyvinyl alcohol-povidone 1.4-0.6 % dropperette sig: [**2-17**]
+drops ophthalmic qid (4 times a day).
+15. methylphenidate 5 mg tablet sig: one (1) tablet po bid (2
+times a day): at 8 am and 3 pm.
+16. heparin (porcine) 5,000 unit/ml solution sig: one (1)
+injection [**hospital1 **] (2 times a day).
+17. metoprolol tartrate 25 mg tablet sig: 0.5 tablet po bid (2
+times a day): hold bp<100 or hr<55.
+18. citalopram 20 mg tablet sig: one (1) tablet po daily (daily)
+for 4 days: continue until [**2186-7-10**] and then discuss with dr.
+[**last name (stitle) 1968**] (psychiatrist) about increasing dose to 30mg daily.  .
+
+
+discharge disposition:
+extended care
+
+facility:
+[**location (un) 582**] of [**location (un) 620**]
+
+
+Discharge Diagnosis: 
+primary diagnosis:
+-rml and rll pneumonia
+-diarrhea presumptive c diff (negative x3)
+-abnormal liver enzymes
+-severe dry eyes and keratitis
+-depression
+-dysphagia
+.
+secondary diagnosis:
+- paroxysmal atrial fibrillation
+- history of c diff colitis
+- bipolar affective disorder
+- history of hepatitis c
+- history of rheumatic heart disease
+- history of right mca aneurysm clipped in [**2167**] at [**hospital1 112**]
+- history of pernicious anemia
+- gastroesophageal reflux disease
+
+
+discharge condition:
+stable. a & o x2 to 3 (does not always participate when asked
+date). mental status can wax and wanes sometime with the patient
+not always answering questions in an appropriate time frame-
+especially in evening.  flat affect.  very slow thinking.
+
+
+discharge instructions:
+you were admitted with increased oxygen requirement and
+decreased blood pressure and found to have a new pneumonia. you
+went to the icu and you were treated with a 14 day course of
+meropenem which has been completed.  your pneumonia is likely a
+result of aspiration and a swallow study showed that your are
+aspirating thin liquids. you are being discharged on the
+following diet: nectar thick liquids, soft solids, pills whole
+with puree or nectar thick liquids.  you can have regular
+liquids between meals but only if you take small sips and
+someone supervises you. if you take large sips you will likely
+aspirate again.
+you also developed diarrhea and you were treated with flagyl
+although your stool never tested positive for c diff.  you need
+to take 7 more days of flagyl to continue to treat your
+diarrhea.
+
+followup instructions:
+please make a follow up appointment to see your pcp
+[**name9 (pre) **],[**first name3 (lf) 2946**] [**name initial (pre) **]. [**telephone/fax (1) 2205**] after you leave rehab
+.
+please call your psychiatrist dr. [**last name (stitle) 1968**] and make a follow up
+appointment for after you leave rehab.
+.
+please discuss with your pcp seeing [**name initial (pre) **] liver specialist after you
+leave rehab.
+.
+the patient needs a b-glucan drawn in mid/end of [**month (only) **] to trend
+it.
+
+
+                             [**name6 (md) 251**] [**name8 (md) **] md [**md number(1) 910**]
+
+completed by:[**2186-7-6**]","
+primary diagnosis:
+-rml and rll pneumonia
+-diarrhea presumptive c diff (negative x3)
+-abnormal liver enzymes
+-severe dry eyes and keratitis
+-depression
+-dysphagia
+.
+secondary diagnosis:
+- paroxysmal atrial fibrillation
+- history of c diff colitis
+- bipolar affective disorder
+- history of hepatitis c
+- history of rheumatic heart disease
+- history of right mca aneurysm clipped in [**2167**] at [**hospital1 112**]
+- history of pernicious anemia
+- gastroesophageal reflux disease
+
+
+discharge condition:
+stable. a & o x2 to 3 (does not always participate when asked
+date). mental status can wax and wanes sometime with the patient
+not always answering questions in an appropriate time frame-
+especially in evening.  flat affect.  very slow thinking.
+
+
+discharge instructions:
+you were admitted with increased oxygen requirement and
+decreased blood pressure and found to have a new pneumonia. you
+went to the icu and you were treated with a 14 day course of
+meropenem which has been completed.  your pneumonia is likely a
+result of aspiration and a swallow study showed that your are
+aspirating thin liquids. you are being discharged on the
+following diet: nectar thick liquids, soft solids, pills whole
+with puree or nectar thick liquids.  you can have regular
+liquids between meals but only if you take small sips and
+someone supervises you. if you take large sips you will likely
+aspirate again.
+you also developed diarrhea and you were treated with flagyl
+although your stool never tested positive for c diff.  you need
+to take 7 more days of flagyl to continue to treat your
+diarrhea.
+
+followup instructions:
+please make a follow up appointment to see your pcp
+[**name9 (pre) **],[**first name3 (lf) 2946**] [**name initial (pre) **]. [**telephone/fax (1) 2205**] after you leave rehab
+.
+please call your psychiatrist dr. [**last name (stitle) 1968**] and make a follow up
+appointment for after you leave rehab.
+.
+please discuss with your pcp seeing [**name initial (pre) **] liver specialist after you
+leave rehab.
+.
+the patient needs a b-glucan drawn in mid/end of [**month (only) **] to trend
+it.
+
+
+                             [**name6 (md) 251**] [**name8 (md) **] md [**md number(1) 910**]
+
+completed by:[**2186-7-6**]",0.30601930618286133,178411
+"admission date:  [**2168-10-31**]              discharge date:   [**2168-11-3**]
+
+date of birth:  [**2094-3-23**]             sex:   f
+
+service: medicine
+
+allergies:
+lorazepam / morphine / penicillins / zosyn
+
+attending:[**first name3 (lf) 1850**]
+chief complaint:
+fever
+
+major surgical or invasive procedure:
+picc line placement
+
+
+history of present illness:
+74 yr old female with hx of afib/flutter, tachy-brady syndrome
+s/p [**first name3 (lf) 4448**] in [**10/2168**], chf (ef 20%), copd s/p trach in [**8-/2168**]
+who was sent to ed for evaluation of pacemker. in ed, ep
+interrogated pacer and found that the pacer was functioning
+properly. however, she was also found to have a fever to 101.4.
+the pt was asymptomatic and is currently being treated with a
+7-day course of augmentin for presumed sinusitis (given chronic
+ngt) and uti.
+.
+also in [**name (ni) **], pt was found to have different bp in each arm. a ct
+of the chest was done to assess for subclavian vein stenosis but
+it could not be assessed given the artifact from her pacer
+wires.
+.
+on arrival to the icu, pt's only complaint was a sore throat and
+mild nausea. she denies chest pain, sob, vomiting, diarrhea, abd
+pain, headache, dysuria, fevers or chills. she did not some
+increased sputum from her trach tube.
+
+
+past medical history:
+* recent hx of enterococcal uti and sinusitis, treated with
+augmentin
+* afib/aflutter
+* tachy-brady syndrome s/p dual chamber [**name (ni) 4448**] in [**10-12**]
+* chf (echo [**2168-8-18**]: lv ef < 20%. global hypokinesis. 3+ mr, 2+
+tr
+* htn
+* copd/asthma s/p trach in [**8-/2168**]
+* s/p bowel perforation in [**8-/2168**]
+* remote hx of seizure
+* h/o lower gi bleed in [**8-/2168**]
+
+
+social history:
+
+.
+sh: lives at [**hospital1 700**]; daughter is hcp
+former [**name2 (ni) 1818**], no etoh/drug use
+
+
+family history:
+noncontributory; no known hx of heart/lung dz
+
+physical exam:
+temp 99.3, bo 117/43, hr 103, r 12, o2 100%
+vent: ac 500x12x5x40%
+gen: nad, awake and alert, answ questions
+heent: trach collar in place with some purulent drainage; mild
+tenderness over maxillary sinuses; oropharynx clear, no erythema
+
+cv: rrr, no murmurs heard
+chest: diffuse exp wheezes, rhonci more pronounced in right
+chest anteriorly
+abd: +bs, obese, soft, nontender, nondistended
+ext: no edema, 2+ dp; pain on palpation of distal feet
+bilaterally
+neuro: cn 2-12 intact, moves all extremities
+
+
+pertinent results:
+admit labs:
+.
+abg: po2-126* pco2-70* ph-7.39 total co2-44*
+.
+chem: glucose-122* urea n-42* creat-0.6 sodium-143 potassium-4.1
+chloride-96 total co2-40* anion gap-11 ld(ldh)-240
+.
+cbc: wbc-16.8* rbc-3.29* hgb-10.4* hct-31.4* mcv-95 plt
+count-305
+neuts-83.7* lymphs-7.2* monos-6.1 eos-2.8 basos-0.2
+.
+coags: pt-12.6 ptt-24.6 inr(pt)-1.1
+.
+urine:
+[**2168-10-31**] 07:20am urine  blood-neg nitrite-neg protein-tr
+glucose-neg ketone-neg bilirubin-neg urobilngn-neg ph-5.0
+leuk-neg
+.
+ct chest:
+1. no evidence of central upper extremity vascular stenosis in
+this limited study.
+2. multifocal air space opacities within the right and left
+upper lobes, consistent with pneumonia. mediastinal
+lymphadenopathy is likely reactive.
+3. six millimeter nodular density within the right upper lobe.
+3-month followup ct of the chest is recommended to ensure
+stability and/or resolution.
+4. enlarged central pulmonary arteries, consistent with
+underlying pulmonary arterial hypertension.
+.
+ct sinus: probable retention cysts with incompletely imaged
+maxillary sinuses.
+.
+** micro:
+sputum:
+pseudomonas aeruginosa
+                             |
+cefepime--------------     8 s
+ceftazidime-----------     4 s
+ciprofloxacin---------     2 i
+gentamicin------------     4 s
+imipenem--------------     2 s
+meropenem-------------   0.5 s
+piperacillin----------     8 s
+piperacillin/tazo-----     8 s
+tobramycin------------   <=1 s
+.
+urine cx neg
+.
+blood cx neg
+.
+
+
+brief hospital course:
+a/p: 74 yr old female with hx of afib/flutter, tachy-brady
+syndrome s/p pcm, chf, copd s/p trach presents to [**hospital unit name 153**] with
+fever, diagnosed with psuedomonas pneumonia
+.
+1. fever: ct of the chest and cxr showed rul opacity and sputum
+from admission grew out pseudomonas, pan-sensitive, except for
+ciprofloxacin.  pt was given a dose of zosyn but developed hives
+over her back and thighs so zosyn was discontinued and she was
+started on aztreonam.  urine, blood ans stol cultures were all
+negative.  given her chronic ngt a ct of the sinuses was done
+and showed no signs of chronic sinusitis.  on day of discharge,
+pt had been afebrile x 48 hours.  a picc line was placed in
+interventional radiology and pt should received 2 weeks of
+aztreonam for her pseudomonas pneumonia.
+.
+2. chf: pt has an ef of 20% on recent echo.  due to some
+episodes of hypotension, her bp meds were held and she required
+fluid boluses.  therefore, the pt remained positive during her
+short hospital stay.  on day of discharge, pt was hypertensive
+and was tolerating her bp meds.  she was started on
+spironolactone and her hydralazine was stopped.  her dose of
+lasix may need to be decreased due to the addition of
+spironolactone.  she was continued on metoprolol, lasix, ace-i
+and digoxin.  her digoxin level was therapeutic.
+.
+3. tachy-brady syndrome s/p pcm: ep interrogated pacer on
+admission and found that her [**hospital unit name 4448**] was working properly.
+her device clinic appointment was cancelled as ep has already
+since the patient.
+.
+4. copd: pt on chronic vent support.  during her hospital stay,
+pt was weaned and tolerated a pressure support trial of [**10-12**],
+oxygenating well.  her flovent and combivent were continued.
+.
+5. bp difference: per family, this is old. cannot assess
+subclavian stenosis on ct due to pacer wires.
+.
+6. lung nodule: on chest ct, pt was found to have a 6mm nodular
+density within the right upper lobe that will need to be
+followed with another ct in 3 months.
+.
+7. anxiety: pt's seroquel was continued and she was started on
+prn seroquel.
+.
+8. fen: speech and swallow evaluated the patient and she passed
+the bedside swallow exam.  however, to further evaluate for
+aspiration risk pt should have a video swallow.
+.
+8. access: ir-placed picc
+.
+9. code: full
+.
+10. ppx: sq heparin.
+
+
+medications on admission:
+1. augmentin 500mg po q8 x 7days (last dose on [**11-4**])
+2. bisacodyl 5mg prn
+3. digoxin 125 mcg qd
+4. dolasetron mesylate 12.5 mg iv q8h:prn
+5. acetaminophen 500mg q6 prn
+6. hydralazine 10 mg qid
+7. albuterol-ipratropium 1-2 puffs q6
+8. furosemide 80mg [**hospital1 **]
+9. metoprolol tartrate 50 mg [**hospital1 **]
+10. fluticasone 2puffs [**hospital1 **]
+11. liquid colace
+12. miconazole prn
+13. quetiapine 25 mg qhs
+14. lansoprazole 30 mg [**hospital1 **]
+15. aspirin 81 mg qd
+16. lisinopril 20 mg qd
+17. heparin (porcine) 5,000 tid
+18. phenol-phenolate sodium 1.4 % mouthwash q4hrs prn
+19. mgox
+
+
+discharge medications:
+1. bisacodyl 5 mg tablet, delayed release (e.c.) sig: two (2)
+tablet, delayed release (e.c.) po daily (daily) as needed.
+2. docusate sodium 150 mg/15 ml liquid sig: one (1)  po bid (2
+times a day).
+3. digoxin 125 mcg tablet sig: one (1) tablet po daily (daily).
+
+4. acetaminophen 325 mg tablet sig: 1-2 tablets po q4-6h (every
+4 to 6 hours) as needed.
+5. furosemide 80 mg tablet sig: one (1) tablet po at bedtime.
+6. metoprolol tartrate 50 mg tablet sig: one (1) tablet po bid
+(2 times a day).
+7. fluticasone 110 mcg/actuation aerosol sig: two (2) puff
+inhalation [**hospital1 **] (2 times a day).
+8. quetiapine 25 mg tablet sig: one (1) tablet po qhs (once a
+day (at bedtime)).
+9. quetiapine 25 mg tablet sig: one-half tablet po twice a day
+as needed for anxiety.
+10. aspirin 81 mg tablet, chewable sig: one (1) tablet, chewable
+po daily (daily).
+11. heparin (porcine) 5,000 unit/ml solution sig: one (1)
+injection tid (3 times a day).
+12. phenol-phenolate sodium 1.4 % mouthwash sig: one (1) spray
+mucous membrane  q4h (every 4 hours) as needed.
+13. lansoprazole 30 mg susp,delayed release for recon sig: one
+(1)  po bid (2 times a day).
+14. albuterol-ipratropium 103-18 mcg/actuation aerosol sig: [**1-10**]
+puffs inhalation q6h (every 6 hours) as needed.
+15. lisinopril 20 mg tablet sig: one (1) tablet po daily
+(daily): hold for sbp<110 or p<60.
+16. albuterol-ipratropium 103-18 mcg/actuation aerosol sig: [**1-10**]
+puffs inhalation q4h (every 4 hours).
+17. diphenhydramine hcl 12.5 mg/5 ml elixir sig: one (1)  po q6h
+(every 6 hours) as needed for pruritus for 1 weeks.
+18. spironolactone 25 mg tablet sig: one (1) tablet po daily
+(daily).
+19. sodium chloride 0.9%  flush 3 ml iv daily:prn
+peripheral iv - inspect site every shift
+20. heparin flush cvl  (100 units/ml) 1 ml iv daily:prn
+10ml ns followed by 1ml of 100 units/ml heparin (100 units
+heparin) each lumen qd and prn.  inspect site every shift
+21. aztreonam 1 g recon soln sig: one (1) recon soln injection
+q8h (every 8 hours) for 11 days.
+22. furosemide 40 mg tablet sig: one (1) tablet po once a day.
+
+
+discharge disposition:
+extended care
+
+facility:
+[**hospital1 700**] tcu - [**location (un) 701**]
+
+
+Discharge Diagnosis: 
+pseudomonas pneumonia
+....
+copd s/p trach
+chf with ef of 20%
+tachy-brady syndrome s/p [**location (un) 4448**]
+
+
+discharge condition:
+stable - afebrile and satting well on pressure support of 10,
+peep 5, fio2 of 40.
+
+discharge instructions:
+please return if you experience fever >101.5, worsening
+shortness of breath, hypoxia, or any other worrisome symptoms.
+
+please take all medications as directed.  you have been
+prescribed an antibiotic for pneumonia.
+
+weigh yourself every morning, [**name8 (md) 138**] md if weight > 3 lbs.
+adhere to 2 gm sodium diet
+
+
+followup instructions:
+provider: [**name10 (nameis) **] call phone:[**telephone/fax (1) 59**] date/time:[**2168-11-15**]
+10:30
+.
+please follow-up with dr. [**last name (stitle) 9022**] at [**telephone/fax (1) **] within [**1-10**]
+weeks.
+.
+the patient needs a video swallow evaluation within the next
+week to determine if the ng tube can be removed.  she passed
+bedside swallow evaluation.
+
+                             [**first name8 (namepattern2) 1176**] [**name8 (md) 1177**] md [**md number(2) 1851**]
+
+","
+pseudomonas pneumonia
+....
+copd s/p trach
+chf with ef of 20%
+tachy-brady syndrome s/p [**location (un) 4448**]
+
+
+discharge condition:
+stable - afebrile and satting well on pressure support of 10,
+peep 5, fio2 of 40.
+
+discharge instructions:
+please return if you experience fever >101.5, worsening
+shortness of breath, hypoxia, or any other worrisome symptoms.
+
+please take all medications as directed.  you have been
+prescribed an antibiotic for pneumonia.
+
+weigh yourself every morning, [**name8 (md) 138**] md if weight > 3 lbs.
+adhere to 2 gm sodium diet
+
+
+followup instructions:
+provider: [**name10 (nameis) **] call phone:[**telephone/fax (1) 59**] date/time:[**2168-11-15**]
+10:30
+.
+please follow-up with dr. [**last name (stitle) 9022**] at [**telephone/fax (1) **] within [**1-10**]
+weeks.
+.
+the patient needs a video swallow evaluation within the next
+week to determine if the ng tube can be removed.  she passed
+bedside swallow evaluation.
+
+                             [**first name8 (namepattern2) 1176**] [**name8 (md) 1177**] md [**md number(2) 1851**]
+
+",0.30764681100845337,106233

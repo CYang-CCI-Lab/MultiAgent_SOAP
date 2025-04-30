@@ -42,9 +42,9 @@ LLAMA3_70B_MAX_TOKENS = 22000 # 24_000
 logger = logging.getLogger(__name__)
 
 selected_problems = [
-    "congestive heart failure",
+    # "congestive heart failure",
     "sepsis",
-    "acute kidney injury",
+    # "acute kidney injury",
 ]
 
 STATIC_BY_PROBLEM = {
@@ -52,6 +52,9 @@ STATIC_BY_PROBLEM = {
     "sepsis": ["Infectious Disease Specialist", "Intensive Care Specialist"],
     "acute kidney injury": ["Nephrologist", "Intensive Care Specialist"],
 }
+
+ERROR_KEYS = {('185452.txt', 'hybrid_special_generic')}
+
 
 ###############################################################################
 #                           Pydantic response schema                          #
@@ -199,7 +202,7 @@ class LLMAgent:
             logger.error("Post-tool LLM call failed: %s", e)
             return None
 
-    async def llm_call(self, user_prompt: str, temperature: float = 0.1,
+    async def llm_call(self, user_prompt: str, temperature: float = 0.3,
                        guided_: dict = None,
                        tools_descript: List[dict] = None,
                        available_tools: dict = None) -> Any:
@@ -240,7 +243,7 @@ class BaselineZS(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            user_prompt, temperature=0.1,
+            user_prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         return safe_json_load(raw)
@@ -264,7 +267,7 @@ class GenericAgent(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -291,7 +294,7 @@ class GenericAgent(LLMAgent):
             "Return your updated reasoning and final choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -324,7 +327,7 @@ class DynamicSpecialist(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -350,7 +353,7 @@ class DynamicSpecialist(LLMAgent):
             "Return your updated reasoning and final choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -430,7 +433,7 @@ class Manager(LLMAgent):
                     specialties: List[str]
                 reply = await self.llm_call(
                     ask_specialties,
-                    temperature=0.1,
+                    temperature=0.3,
                     guided_={"guided_json": SpecialtyList.model_json_schema()}
                 )
                 specialties.extend(safe_json_load(reply)["specialties"])
@@ -440,7 +443,7 @@ class Manager(LLMAgent):
                 Requested = create_model("RequestedSpecialties", **fld)
                 reply = await self.llm_call(
                     ask_specialties,
-                    temperature=0.1,
+                    temperature=0.3,
                     guided_={"guided_json": Requested.model_json_schema()}
                 )
                 specialties.extend([
@@ -475,7 +478,7 @@ class Manager(LLMAgent):
             PanelOut = create_model("SpecialistPanel", **fld)
             reply      = await self.llm_call(
                 ask_panel,
-                temperature=0.1,
+                temperature=0.3,
                 guided_={"guided_json": PanelOut.model_json_schema()}
             )
             panel_json = safe_json_load(reply)
@@ -501,7 +504,7 @@ class Manager(LLMAgent):
             PanelOut = create_model("SpecialistPanel", **fld)
             reply      = await self.llm_call(
                 ask_panel,
-                temperature=0.1,
+                temperature=0.3,
                 guided_={"guided_json": PanelOut.model_json_schema()}
             )
             panel_json = safe_json_load(reply)
@@ -658,7 +661,7 @@ class Manager(LLMAgent):
             final_reasoning: str = Field(..., description="Concise explanation.")
             final_choice:   Literal["Yes", "No"] = Field(..., description="Final choice.")
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": Out.model_json_schema()}
         )
         parsed = safe_json_load(raw)
@@ -739,13 +742,41 @@ async def process_row(row, problem):
     hadm  = row["File ID"]
     label = row["combined_summary"]
 
-    methods     = [run_baseline, run_generic, run_dynamic, run_special_generic, run_static_dynamic]
+    method_runners     = [run_baseline, run_generic, run_dynamic, run_special_generic, run_static_dynamic]
     method_names= ["baseline_zs","generic","dynamic","hybrid_special_generic","static_dynamic"]
 
-    tasks  = [m(note, hadm, problem, label) for m in methods]
+    tasks  = [m(note, hadm, problem, label) for m in method_runners]
     results= await asyncio.gather(*tasks, return_exceptions=True)
     out    = []
     for name, res in zip(method_names, results):
+        if isinstance(res, Exception):
+            logger.error("Method %s failed for HADM %s: %s", name, hadm, res)
+            out.append({"method": name, "hadm_id": hadm, "label": label, "error": str(res)})
+        else:
+            out.append(res)
+    return out
+
+async def process_failed_row(row, problem):
+    note  = f"{row['Subjective']}\n{row['Objective']}"
+    hadm  = row["File ID"]
+    label = row["combined_summary"]
+
+    method_runners     = [run_baseline, run_generic, run_dynamic, run_special_generic, run_static_dynamic]
+    method_names= ["baseline_zs","generic","dynamic","hybrid_special_generic","static_dynamic"]
+
+    tasks  = []
+    names = []
+    for name, fn in zip(method_names, method_runners):
+        if (hadm, name) in ERROR_KEYS:
+            tasks.append(fn(note, hadm, problem, label))
+            names.append(name)
+    
+    if not tasks:
+        return []
+
+    results= await asyncio.gather(*tasks, return_exceptions=True)
+    out    = []
+    for name, res in zip(names, results):
         if isinstance(res, Exception):
             logger.error("Method %s failed for HADM %s: %s", name, hadm, res)
             out.append({"method": name, "hadm_id": hadm, "label": label, "error": str(res)})
@@ -758,13 +789,16 @@ async def process_problem(df, problem):
     results = []
     for _, row in df.iterrows():
         results.extend(await process_row(row, problem))
-    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0427_results_{problem.replace(' ','_')}_2.json"
+        # results.extend(await process_failed_row(row, problem))
+    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0427_results_{problem.replace(' ','_')}_all_new_temp3.json"
     with open(out, "w") as f:
         json.dump(results, f, indent=2)
     logger.info("Saved → %s", out)
 
 async def main():
     df = pd.read_csv("/home/yl3427/cylab/SOAP_MA/Input/SOAP_all_problems.csv", lineterminator="\n")
+    # hadm_to_fix = {hid for hid, _ in ERROR_KEYS}
+    # df = df[df['File ID'].isin(hadm_to_fix)]
     tasks = [asyncio.create_task(process_problem(df, p)) for p in selected_problems]
     await asyncio.gather(*tasks)
 
@@ -774,7 +808,7 @@ if __name__ == "__main__":
         format = "%(asctime)s — %(levelname)s — %(message)s",
         datefmt= "%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler("log/0427_MA_hybrid.log","w"),
+            logging.FileHandler("log/0430_MA_hybrid.log","w"),
             logging.StreamHandler()
         ]
     )

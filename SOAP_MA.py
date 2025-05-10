@@ -1,21 +1,9 @@
-#########################################################################
-# multi_agent_diagnosis.py  —  FULL SOURCE (with single_step restored)
-###############################################################################
-"""LLM-driven multi-agent system for analysing SOAP progress notes and
+"""
+LLM-driven multi-agent system for analysing SOAP progress notes and
 predicting whether a patient has a given problem.
-
-Supports four evaluation modes
---------------------------------
-1. Baseline            - single zero-shot agent
-2. Generic-only        - N generic agents
-3. Dynamic-specialist  - LLM-proposed panel of M specialists
-4. Hybrid              - user-fixed static specialists + dynamic + generics
 """
 
 from __future__ import annotations
-###############################################################################
-#                                   Imports                                   #
-###############################################################################
 import asyncio, inspect, json, logging, math, os, re
 from typing import Any, Dict, List, Literal, Optional, Union, get_args, get_origin
 
@@ -42,9 +30,9 @@ LLAMA3_70B_MAX_TOKENS = 22000 # 24_000
 logger = logging.getLogger(__name__)
 
 selected_problems = [
-    # "congestive heart failure",
+    "congestive heart failure",
     "sepsis",
-    # "acute kidney injury",
+    "acute kidney injury",
 ]
 
 STATIC_BY_PROBLEM = {
@@ -72,21 +60,21 @@ class LLMAgent:
         model_name: str = "meta-llama/Llama-3.3-70B-Instruct",
         client      = AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
         max_tokens: int = LLAMA3_70B_MAX_TOKENS,
-        summarisation_threshold: float = 0.6):
+        summarization_threshold: float = 0.7):
 
         self.model_name  = model_name
         self.client      = client
         self.messages    = [{"role": "system", "content": system_prompt}]
         self.max_tokens  = max_tokens
-        self.token_thres = int(max_tokens * summarisation_threshold)
+        self.token_thres = int(max_tokens * summarization_threshold)
         logger.info("[%s] init – token limit %d, summarise ≥%d",
                     self.__class__.__name__, max_tokens, self.token_thres)
 
-    async def _summarise_once(self, text: str, max_chars: Optional[int] = None) -> Optional[str]:
+    async def _summarize_once(self, text: str, max_chars: Optional[int] = None) -> Optional[str]:
         length_rule = (f"Do **not** exceed {max_chars} characters."
-                      if max_chars is not None else "Do **not** exceed 500 words.")
+                      if max_chars is not None else "Do **not** exceed 1000 words.")
         prompt = (
-            "Summarise the following message concisely, preserving every key "
+            "Summarize the following message concisely, preserving every key "
             f"fact and reasoning step. {length_rule}\n\n"
             "<<<MESSAGE_START>>>\n"
             f"{text}\n<<<MESSAGE_END>>>"
@@ -96,19 +84,15 @@ class LLMAgent:
             resp = await self.client.chat.completions.create(
                 model      = self.model_name,
                 messages   = [
-                    {"role": "system", "content": "You are a summarisation assistant."},
+                    {"role": "system", "content": "You are a summarization assistant."},
                     {"role": "user",   "content": prompt}],
                 temperature = 0.1,
                 max_tokens  = 1500)
             return resp.choices[0].message.content.strip()
         except Exception as e:
-            logger.error("Summarisation call failed: %s", e)
+            logger.error("Summarization call failed: %s", e)
             return None
-
-
-    # ------------------------------------------------------------------ #
-    # 1B.  _summarize_history — thread max_chars through                 #
-    # ------------------------------------------------------------------ #
+        
     async def _summarize_history(self,
                                  inplace: bool = True,
                                  message: str = "",
@@ -116,7 +100,7 @@ class LLMAgent:
                                 ) -> Union[bool,str]:
         if inplace:
             if len(self.messages) < 3:
-                logger.warning("Not enough messages to summarise.")
+                logger.warning("Not enough messages to summarize.")
                 return False
             tried: set[int] = set()
             while count_llama_tokens(self.messages) >= self.token_thres:
@@ -130,25 +114,25 @@ class LLMAgent:
                     logger.error("No further messages left to summarise.")
                     return False
                 idx = idx_len[0][0]
-                summary = await self._summarise_once(self.messages[idx]["content"], max_chars=max_chars)
+                summary = await self._summarize_once(self.messages[idx]["content"], max_chars=max_chars)
                 if summary is None or count_llama_tokens([{"role":"assistant","content":summary}]) \
                    >= count_llama_tokens([self.messages[idx]]):
                     tried.add(idx)
                     continue
                 self.messages[idx]["content"] = f"[Summary] {summary}"
-                logger.info("Summarised message #%d → total %d tokens",
+                logger.info("Summarized message #%d → total %d tokens",
                             idx, count_llama_tokens(self.messages))
             return True
 
         if not message:
-            logger.warning("No message supplied for external summarisation.")
+            logger.warning("No message supplied for external summarization.")
             return False
-        summary = await self._summarise_once(message, max_chars=max_chars)
+        summary = await self._summarize_once(message, max_chars=max_chars)
         if summary is None:
             return False
         while count_llama_tokens(summary) >= self.token_thres or \
               (max_chars and len(summary) > max_chars):
-            summary = await self._summarise_once(summary, max_chars=max_chars)
+            summary = await self._summarize_once(summary, max_chars=max_chars)
             if summary is None:
                 return False
         return summary
@@ -158,7 +142,7 @@ class LLMAgent:
             await self._summarize_history()
             params["messages"] = self.messages
             if count_llama_tokens(params["messages"]) > self.max_tokens:
-                logger.error("Summarisation failed – still over limit.")
+                logger.error("Summarization failed – still over limit.")
                 return "Error: context limit exceeded."
         iter_ct = 0
         try:
@@ -210,7 +194,7 @@ class LLMAgent:
            > self.token_thres:
             ok = await self._summarize_history()
             if not ok and count_llama_tokens(self.messages) > self.max_tokens:
-                raise ValueError("Context limit even after summarisation.")
+                raise ValueError("Context limit even after summarization.")
         self.messages.append({"role": "user", "content": user_prompt})
         params = {"model": self.model_name, "messages": self.messages,
                   "temperature": temperature}
@@ -525,7 +509,7 @@ class Manager(LLMAgent):
         for hist in self.state.get("generic_agents", {}).values():
             round_ids.extend(int(k.split('_')[1]) for k in hist)
         if not round_ids:
-            return "(no valid answers to summarise)"
+            return "(no valid answers to summarize)"
         last_round = max(round_ids)
 
         blobs: list[tuple[str,str,str]] = []
@@ -669,7 +653,7 @@ class Manager(LLMAgent):
         return parsed
 
 ###############################################################################
-#                    Convenience wrappers for each mode                       #
+#                    Wrappers for each mode                                   #
 ###############################################################################
 async def run_baseline(note, hadm_id, problem, label):
     zs  = BaselineZS()

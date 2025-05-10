@@ -1,5 +1,5 @@
 #########################################################################
-# multi_agent_diagnosis.py  —  FULL SOURCE (with single_step restored)
+# multi_agent_diagnosis.py  —  with RAG
 ###############################################################################
 """LLM-driven multi-agent system for analysing SOAP progress notes and
 predicting whether a patient has a given problem.
@@ -13,9 +13,6 @@ Supports four evaluation modes
 """
 
 from __future__ import annotations
-###############################################################################
-#                                   Imports                                   #
-###############################################################################
 import asyncio, inspect, json, logging, math, os, re
 from typing import Any, Dict, List, Literal, Optional, Union, get_args, get_origin
 
@@ -38,13 +35,13 @@ from utils import count_llama_tokens, safe_json_load
 ###############################################################################
 #                                Constants                                    #
 ###############################################################################
-LLAMA3_70B_MAX_TOKENS = 24_000
+LLAMA3_70B_MAX_TOKENS = 22000 # 24_000
 logger = logging.getLogger(__name__)
 
 selected_problems = [
-    'congestive heart failure',
-    'sepsis',
-    'acute kidney injury',
+    "congestive heart failure",
+    # "sepsis",
+    "acute kidney injury",
 ]
 
 STATIC_BY_PROBLEM = {
@@ -52,6 +49,9 @@ STATIC_BY_PROBLEM = {
     "sepsis": ["Infectious Disease Specialist", "Intensive Care Specialist"],
     "acute kidney injury": ["Nephrologist", "Intensive Care Specialist"],
 }
+
+ERROR_KEYS = {('185452.txt', 'hybrid_special_generic')}
+
 
 ###############################################################################
 #                           Pydantic response schema                          #
@@ -69,7 +69,7 @@ class LLMAgent:
         model_name: str = "meta-llama/Llama-3.3-70B-Instruct",
         client      = AsyncOpenAI(base_url="http://localhost:8000/v1", api_key="dummy"),
         max_tokens: int = LLAMA3_70B_MAX_TOKENS,
-        summarisation_threshold: float = 0.80):
+        summarisation_threshold: float = 0.6):
 
         self.model_name  = model_name
         self.client      = client
@@ -81,28 +81,31 @@ class LLMAgent:
 
     async def _summarise_once(self, text: str, max_chars: Optional[int] = None) -> Optional[str]:
         length_rule = (f"Do **not** exceed {max_chars} characters."
-                      if max_chars is not None else "Do **not** exceed 1000 words.")
+                      if max_chars is not None else "Do **not** exceed 500 words.")
         prompt = (
             "Summarise the following message concisely, preserving every key "
             f"fact and reasoning step. {length_rule}\n\n"
             "<<<MESSAGE_START>>>\n"
             f"{text}\n<<<MESSAGE_END>>>"
         )
+
         try:
             resp = await self.client.chat.completions.create(
-                model       = self.model_name,
-                messages    = [
+                model      = self.model_name,
+                messages   = [
                     {"role": "system", "content": "You are a summarisation assistant."},
-                    {"role": "user",   "content": prompt}
-                ],
+                    {"role": "user",   "content": prompt}],
                 temperature = 0.1,
-                max_tokens  = 1500
-            )
+                max_tokens  = 1500)
             return resp.choices[0].message.content.strip()
         except Exception as e:
             logger.error("Summarisation call failed: %s", e)
             return None
 
+
+    # ------------------------------------------------------------------ #
+    # 1B.  _summarize_history — thread max_chars through                 #
+    # ------------------------------------------------------------------ #
     async def _summarize_history(self,
                                  inplace: bool = True,
                                  message: str = "",
@@ -196,7 +199,7 @@ class LLMAgent:
             logger.error("Post-tool LLM call failed: %s", e)
             return None
 
-    async def llm_call(self, user_prompt: str, temperature: float = .3,
+    async def llm_call(self, user_prompt: str, temperature: float = 0.3,
                        guided_: dict = None,
                        tools_descript: List[dict] = None,
                        available_tools: dict = None) -> Any:
@@ -237,7 +240,7 @@ class BaselineZS(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            user_prompt, temperature=0.1,
+            user_prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         return safe_json_load(raw)
@@ -261,7 +264,7 @@ class GenericAgent(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -288,7 +291,7 @@ class GenericAgent(LLMAgent):
             "Return your updated reasoning and final choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -321,7 +324,7 @@ class DynamicSpecialist(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -347,12 +350,49 @@ class DynamicSpecialist(LLMAgent):
             "Return your updated reasoning and final choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
         self.append_message(raw)
         self.answer_hist[f"round_{self.round}"] = parsed
+        return parsed
+
+class RagAgent(LLMAgent):
+    def __init__(self, state: dict):
+        super().__init__(
+            "You are a case-based reasoning assistant in a multi-agent diagnostic AI system. "
+            "For the given patient note in query, you refer to similar cases to decide "
+          "if the patient has the specified problem. "
+        )
+        self.state = state
+        self.schema = Response.model_json_schema()
+
+    async def analyze_note(self, note: str, problem: str):
+        docs = create_documents(note)[:3]
+        docs_to_include = [docs[0]]
+        for doc in docs[1:]:
+          if (count_llama_tokens(docs_to_include) + count_llama_tokens(note)) > self.token_thres:
+            docs_to_include.pop()
+            break
+          docs_to_include.append(doc)
+        
+        joined = "\n---\n".join(docs_to_include)
+        prompt = (
+            "Below are the few similar patient cases to the query:\n" +
+            f"{joined}\n\n" +
+            "Now, referring to these cases, analyze the following query note.\n" +
+            f"<<<QUERY>>>\n{note}\n<<<END>>>\n" +
+            f"Question: Does this patient have {problem}?"
+            " Provide reasoning and then the choice."
+        )
+        raw = await self.llm_call(
+            prompt, temperature=0.3,
+            guided_={"guided_json":self.schema}
+        )
+        parsed = safe_json_load(raw)
+        self.state["rag_agent"] = parsed
+        self.append_message(raw)
         return parsed
 
 ###############################################################################
@@ -365,14 +405,14 @@ class Manager(LLMAgent):
         hadm_id: str,
         problem: str,
         label: str,
+        rag_agent_enabled: bool = False,
         n_specialists: Union[int, Literal["auto"]] = "auto",
         n_generic_agents: int = 0,
         static_specialists: Optional[List[str]] = None,
         consensus_threshold: float = 0.8,
         max_consensus_attempts: int = 3,
         max_assignment_attempts: int = 2,
-        single_step: bool = False,
-        each_agent_summary_char_limit: int = 100,
+        each_agent_summary_char_limit: int = 300,
     ):
         super().__init__(
             "You are the manager of a multi-agent diagnostic system. "
@@ -382,6 +422,7 @@ class Manager(LLMAgent):
         self.hadm_id           = hadm_id
         self.problem           = problem
         self.label             = label
+        self.rag_agent_enabled   = rag_agent_enabled
         self.n_specialists     = n_specialists
         self.n_generic_agents  = n_generic_agents
         self.static_specs      = static_specialists or []
@@ -392,10 +433,15 @@ class Manager(LLMAgent):
         self.each_agent_summary_char_limit = each_agent_summary_char_limit
         self.assign_attempts   = 0
         self.state: Dict[str, Any] = {
-            "note": note, "hadm_id": hadm_id, "problem": problem,
-            "label": label, "generic_agents": {}, "final": {}
+            "note": note,
+            "hadm_id": hadm_id,
+            "problem": problem,
+            "label": label,
+            "generic_agents": {},
+            "final": {}
         }
-
+        if self.rag_agent_enabled:
+            self.state["rag_agent"] = {}
     async def _assign_specialists(self) -> None:
         self.assign_attempts += 1
         panel_id = self.assign_attempts
@@ -411,7 +457,7 @@ class Manager(LLMAgent):
         else:
             additional_needed = max(self.n_specialists - len(self.static_specs), 0)
 
-        if not self.single_step and additional_needed != 0:
+        if additional_needed != 0:
             ask_specialties = (
                 "Below are the **Subjective (S)** and **Objective (O)** sections of a "
                 "patient’s SOAP note:\n\n"
@@ -427,6 +473,7 @@ class Manager(LLMAgent):
                     specialties: List[str]
                 reply = await self.llm_call(
                     ask_specialties,
+                    temperature=0.3,
                     guided_={"guided_json": SpecialtyList.model_json_schema()}
                 )
                 specialties.extend(safe_json_load(reply)["specialties"])
@@ -436,70 +483,40 @@ class Manager(LLMAgent):
                 Requested = create_model("RequestedSpecialties", **fld)
                 reply = await self.llm_call(
                     ask_specialties,
+                    temperature=0.3,
                     guided_={"guided_json": Requested.model_json_schema()}
                 )
                 specialties.extend([
                     safe_json_load(reply)[f"specialty_{i+1}"]
                     for i in range(additional_needed)
                 ])
+            self.append_message(reply)
 
         self.state[f"panel_{panel_id}"]["Initially Identified Specialties"] = specialties
 
-        # ──────── STEP 2: flesh out specialists ────────
-        # If single_step: one prompt that returns all specialists at once
-        if self.single_step:
-            total_needed = (len(specialties) if self.n_specialists != "auto"
-                            else f"at least {len(specialties)}")
-            ask_panel = (
-                "Below are only the S and O sections of a patient's SOAP note:\n\n"
-                f"<S+O NOTE>\n{self.note}\n</S+O NOTE>\n\n"
-                f"We must decide **whether the patient has «{self.problem}»**.\n"
-                f"Specialties that must appear (already fixed): "
-                f"{self.static_specs or '(none)'}.\n"
-                f"Create a panel of {total_needed} specialists in total. "
-                "For *each* specialist return an object with:\n"
-                "  • `specialist`  – the full job title you want the agent to role-play\n"
-                "  • `expertise`  – 1‒3 short phrases explaining how that role is "
-                "                    helpful for our yes/no decision."
-            )
-            class SpecialistDescription(BaseModel):
-                specialist: str
-                expertise:  List[str]
-            fld = {f"specialist_{i+1}": (SpecialistDescription, ...)
-                   for i in range(len(specialties))}
-            PanelOut = create_model("SpecialistPanel", **fld)
-            reply      = await self.llm_call(
-                ask_panel,
-                guided_={"guided_json": PanelOut.model_json_schema()}
-            )
-            panel_json = safe_json_load(reply)
-            panel_dict = {v["specialist"]: v["expertise"]
-                          for v in panel_json.values()}
-        # else: two-step: first pick roles, then flesh out each
-        else:
-            ask_panel = (
-                "We will run a multi-agent debate to answer one question:\n"
-                f"» **Does the patient described in the S+O note have «{self.problem}»?**\n\n"
-                "The required specialties are:\n"
-                f"{specialties}\n\n"
-                "For each specialty provide an object with:\n"
-                "  • `specialist` – the full job title for the agent to play\n"
-                "  • `expertise`  – 1‒3 short phrases explaining how that role is "
-                "                    helpful for our yes/no decision."
-            )
-            class SpecialistDescription(BaseModel):
-                specialist: str
-                expertise:  List[str]
-            fld = {f"specialist_{i+1}": (SpecialistDescription, ...)
-                   for i in range(len(specialties))}
-            PanelOut = create_model("SpecialistPanel", **fld)
-            reply      = await self.llm_call(
-                ask_panel,
-                guided_={"guided_json": PanelOut.model_json_schema()}
-            )
-            panel_json = safe_json_load(reply)
-            panel_dict = {v["specialist"]: v["expertise"]
-                          for v in panel_json.values()}
+        ask_panel = (
+            "We will run a multi-agent debate to answer one question:\n"
+            f"» **Does the patient described in the S+O note have «{self.problem}»?**\n\n"
+            "The required specialties are:\n"
+            f"{specialties}\n\n"
+            "For each specialty provide an object with:\n"
+            "  • `specialist` – the full job title for the agent to play\n"
+            "  • `expertise`  – areas of expertise for the specialist"
+        )
+        class SpecialistDescription(BaseModel):
+            specialist: str
+            expertise:  List[str]
+        fld = {f"specialist_{i+1}": (SpecialistDescription, ...)
+                for i in range(len(specialties))}
+        PanelOut = create_model("SpecialistPanel", **fld)
+        reply      = await self.llm_call(
+            ask_panel,
+            temperature=0.3,
+            guided_={"guided_json": PanelOut.model_json_schema()}
+        )
+        panel_json = safe_json_load(reply)
+        panel_dict = {v["specialist"]: v["expertise"]
+                        for v in panel_json.values()}
 
         # commit to state
         for role, expertise in panel_dict.items():
@@ -529,6 +546,9 @@ class Manager(LLMAgent):
             if tag in hist:
                 ans = hist[tag]
                 blobs.append((ag, ans["choice"], ans["reasoning"]))
+        if self.rag_agent_enabled:
+            blobs.append(("rag_agent", self.state["rag_agent"].get("choice", "N/A"), 
+                        self.state["rag_agent"].get("reasoning", "N/A")))
 
         async def compress(txt: str) -> str:
             out = await self._summarize_history(
@@ -553,6 +573,10 @@ class Manager(LLMAgent):
             if f"round_{round_id}" in hist:
                 ch = hist[f"round_{round_id}"]["choice"]
                 count[ch] = count.get(ch,0)+1
+        if self.rag_agent_enabled:
+            ch = self.state["rag_agent"]["choice"]
+            count[ch] = count.get(ch,0)+1
+
         for ch, c in count.items():
             if c >= math.ceil(total_agents * self.cons_thresh):
                 return ch
@@ -585,6 +609,10 @@ class Manager(LLMAgent):
             active_agents = specialists + generics
             crashed_agents.clear()
 
+            if self.rag_agent_enabled:
+                active_agents.append(RagAgent(self.state))
+
+
             # Round 1
             results = await asyncio.gather(
                 *(a.analyze_note(self.note, self.problem) for a in active_agents),
@@ -605,10 +633,11 @@ class Manager(LLMAgent):
             choice = self._check_consensus(panel_id, 1, total)
             if choice:
                 self.state["final"] = {"final_choice": choice, "final_reasoning": "Consensus reached"}
-                self.state["meta"] = {"crashed_agents": crashed_agents, "active_agents": total, "round": 1}
+                self.state["meta"] = {"crashed_agents": crashed_agents, "active_agents": total, "rag_agent": self.rag_agent_enabled, "round": 1}
                 return self.state
 
-            # Debate rounds
+            # Debate rounds. rag agent does not participate
+            active_agents = [a for a in active_agents if not isinstance(a, RagAgent)]
             for r in range(2, self.max_consensus+1):
                 results = await asyncio.gather(
                     *(a.debate() for a in active_agents),
@@ -633,25 +662,25 @@ class Manager(LLMAgent):
                     return self.state
 
         # Fallback aggregator
-        hist = {k: v for k, v in self.state.items() if k not in ("label", "final")}
+        hist = self._panel_summary(panel_id)
         parsed = await self._aggregate(hist)
-        self.state["meta"] = {"crashed_agents": crashed_agents, "active_agents": len(active_agents), "round": None}
+        self.state["meta"] = {"crashed_agents": crashed_agents, "active_agents": len(active_agents), "rag_agent": self.rag_agent_enabled, "round": None}
         return self.state
 
-    async def _aggregate(self, chat_history):
+    async def _aggregate(self, last_chat_history):
         prompt = (
             "The sub-agents failed to reach consensus. Below is the entire "
             "conversation history:\n\n"
-            f"{json.dumps(chat_history, indent=4)}\n\n"
+            f"{last_chat_history}\n\n"
             "Analyze their reasoning and provide:\n"
             "1) A concise explanation of how you reached the final decision\n"
             "2) The single best-supported choice: 'Yes' or 'No'"
         )
         class Out(BaseModel):
-            final_reasoning: str
-            final_choice:   Literal["Yes","No"]
+            final_reasoning: str = Field(..., description="Concise explanation.")
+            final_choice:   Literal["Yes", "No"] = Field(..., description="Final choice.")
         raw = await self.llm_call(
-            prompt, temperature=0.1,
+            prompt, temperature=0.3,
             guided_={"guided_json": Out.model_json_schema()}
         )
         parsed = safe_json_load(raw)
@@ -659,7 +688,7 @@ class Manager(LLMAgent):
         return parsed
 
 ###############################################################################
-#                    Convenience wrappers for each mode                       #
+#                    Wrappers for each mode                                   #
 ###############################################################################
 async def run_baseline(note, hadm_id, problem, label):
     zs  = BaselineZS()
@@ -672,6 +701,14 @@ async def run_baseline(note, hadm_id, problem, label):
         "reasoning":(out or {}).get("reasoning", "failed"),
         "raw_state": out
     }
+async def run_rag(note, hadm_id, problem, label):
+    # simple rag-only analysis
+    state = {}
+    rag = RagAgent(state)
+    out = await rag.analyze_note(note, problem)
+    return {"method": "rag", "hadm_id": hadm_id, "label": label,
+            "choice": out.get("choice", "ERROR"), "reasoning": out.get("reasoning", "failed"), "raw_state": out}
+
 
 async def run_generic(note, hadm_id, problem, label):
     mgr = Manager(note, hadm_id, problem, label,
@@ -732,13 +769,41 @@ async def process_row(row, problem):
     hadm  = row["File ID"]
     label = row["combined_summary"]
 
-    methods     = [run_baseline, run_generic, run_dynamic, run_special_generic, run_static_dynamic]
+    method_runners     = [run_baseline, run_generic, run_dynamic, run_special_generic, run_static_dynamic]
     method_names= ["baseline_zs","generic","dynamic","hybrid_special_generic","static_dynamic"]
 
-    tasks  = [m(note, hadm, problem, label) for m in methods]
+    tasks  = [m(note, hadm, problem, label) for m in method_runners]
     results= await asyncio.gather(*tasks, return_exceptions=True)
     out    = []
     for name, res in zip(method_names, results):
+        if isinstance(res, Exception):
+            logger.error("Method %s failed for HADM %s: %s", name, hadm, res)
+            out.append({"method": name, "hadm_id": hadm, "label": label, "error": str(res)})
+        else:
+            out.append(res)
+    return out
+
+async def process_failed_row(row, problem):
+    note  = f"{row['Subjective']}\n{row['Objective']}"
+    hadm  = row["File ID"]
+    label = row["combined_summary"]
+
+    method_runners     = [run_baseline, run_generic, run_dynamic, run_special_generic, run_static_dynamic]
+    method_names= ["baseline_zs","generic","dynamic","hybrid_special_generic","static_dynamic"]
+
+    tasks  = []
+    names = []
+    for name, fn in zip(method_names, method_runners):
+        if (hadm, name) in ERROR_KEYS:
+            tasks.append(fn(note, hadm, problem, label))
+            names.append(name)
+    
+    if not tasks:
+        return []
+
+    results= await asyncio.gather(*tasks, return_exceptions=True)
+    out    = []
+    for name, res in zip(names, results):
         if isinstance(res, Exception):
             logger.error("Method %s failed for HADM %s: %s", name, hadm, res)
             out.append({"method": name, "hadm_id": hadm, "label": label, "error": str(res)})
@@ -751,13 +816,16 @@ async def process_problem(df, problem):
     results = []
     for _, row in df.iterrows():
         results.extend(await process_row(row, problem))
-    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/hybrid/results_{problem.replace(' ','_')}.json"
+        # results.extend(await process_failed_row(row, problem))
+    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0427_results_{problem.replace(' ','_')}_all_new_temp3.json"
     with open(out, "w") as f:
         json.dump(results, f, indent=2)
     logger.info("Saved → %s", out)
 
 async def main():
     df = pd.read_csv("/home/yl3427/cylab/SOAP_MA/Input/SOAP_all_problems.csv", lineterminator="\n")
+    # hadm_to_fix = {hid for hid, _ in ERROR_KEYS}
+    # df = df[df['File ID'].isin(hadm_to_fix)]
     tasks = [asyncio.create_task(process_problem(df, p)) for p in selected_problems]
     await asyncio.gather(*tasks)
 
@@ -767,7 +835,7 @@ if __name__ == "__main__":
         format = "%(asctime)s — %(levelname)s — %(message)s",
         datefmt= "%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler("log/0425_MA_hybrid.log","w"),
+            logging.FileHandler("log/0430_MA_hybrid.log","w"),
             logging.StreamHandler()
         ]
     )

@@ -186,7 +186,7 @@ class LLMAgent:
             logger.error("Post-tool LLM call failed: %s", e)
             return None
 
-    async def llm_call(self, user_prompt: str, temperature: float = 0.3,
+    async def llm_call(self, user_prompt: str, temperature: float = 0.5,
                        guided_: dict = None,
                        tools_descript: List[dict] = None,
                        available_tools: dict = None) -> Any:
@@ -227,7 +227,7 @@ class BaselineZS(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            user_prompt, temperature=0.3,
+            user_prompt, temperature=0.5,
             guided_={"guided_json": self.schema}
         )
         return safe_json_load(raw)
@@ -251,7 +251,7 @@ class GenericAgent(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.3,
+            prompt, temperature=0.5,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -278,7 +278,7 @@ class GenericAgent(LLMAgent):
             "Return your updated reasoning and final choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.3,
+            prompt, temperature=0.5,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -311,7 +311,7 @@ class DynamicSpecialist(LLMAgent):
             "Please give your reasoning, then the choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.3,
+            prompt, temperature=0.5,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -337,7 +337,7 @@ class DynamicSpecialist(LLMAgent):
             "Return your updated reasoning and final choice ('Yes' or 'No')."
         )
         raw = await self.llm_call(
-            prompt, temperature=0.3,
+            prompt, temperature=0.5,
             guided_={"guided_json": self.schema}
         )
         parsed = safe_json_load(raw)
@@ -361,7 +361,6 @@ class Manager(LLMAgent):
         consensus_threshold: float = 0.8,
         max_consensus_attempts: int = 3,
         max_assignment_attempts: int = 2,
-        single_step: bool = False,
         each_agent_summary_char_limit: int = 300,
     ):
         super().__init__(
@@ -378,7 +377,6 @@ class Manager(LLMAgent):
         self.cons_thresh       = consensus_threshold
         self.max_consensus     = max_consensus_attempts
         self.max_assign        = max_assignment_attempts
-        self.single_step       = single_step
         self.each_agent_summary_char_limit = each_agent_summary_char_limit
         self.assign_attempts   = 0
         self.state: Dict[str, Any] = {
@@ -401,7 +399,10 @@ class Manager(LLMAgent):
         else:
             additional_needed = max(self.n_specialists - len(self.static_specs), 0)
 
-        if not self.single_step and additional_needed != 0:
+        if additional_needed == 0 and not self.static_specs:
+            return
+            
+        if additional_needed != 0:
             ask_specialties = (
                 "Below are the **Subjective (S)** and **Objective (O)** sections of a "
                 "patient’s SOAP note:\n\n"
@@ -417,17 +418,18 @@ class Manager(LLMAgent):
                     specialties: List[str]
                 reply = await self.llm_call(
                     ask_specialties,
-                    temperature=0.3,
+                    temperature=0.5,
                     guided_={"guided_json": SpecialtyList.model_json_schema()}
                 )
                 specialties.extend(safe_json_load(reply)["specialties"])
+     
             else:
                 fld = {f"specialty_{i+1}": (str, ...)
                        for i in range(additional_needed)}
                 Requested = create_model("RequestedSpecialties", **fld)
                 reply = await self.llm_call(
                     ask_specialties,
-                    temperature=0.3,
+                    temperature=0.5,
                     guided_={"guided_json": Requested.model_json_schema()}
                 )
                 specialties.extend([
@@ -435,67 +437,38 @@ class Manager(LLMAgent):
                     for i in range(additional_needed)
                 ])
 
+
+        # self.append_message(reply)
         self.state[f"panel_{panel_id}"]["Initially Identified Specialties"] = specialties
 
         # ──────── STEP 2: flesh out specialists ────────
-        # If single_step: one prompt that returns all specialists at once
-        if self.single_step:
-            total_needed = (len(specialties) if self.n_specialists != "auto"
-                            else f"at least {len(specialties)}")
-            ask_panel = (
-                "Below are only the S and O sections of a patient's SOAP note:\n\n"
-                f"<S+O NOTE>\n{self.note}\n</S+O NOTE>\n\n"
-                f"We must decide **whether the patient has «{self.problem}»**.\n"
-                f"Specialties that must appear (already fixed): "
-                f"{self.static_specs or '(none)'}.\n"
-                f"Create a panel of {total_needed} specialists in total. "
-                "For *each* specialist return an object with:\n"
-                "  • `specialist`  – the full job title you want the agent to role-play\n"
-                "  • `expertise`  – 1‒3 short phrases explaining how that role is "
-                "                    helpful for our yes/no decision."
-            )
-            class SpecialistDescription(BaseModel):
-                specialist: str 
-                expertise:  List[str]
-            fld = {f"specialist_{i+1}": (SpecialistDescription, ...)
-                   for i in range(len(specialties))}
-            PanelOut = create_model("SpecialistPanel", **fld)
-            reply      = await self.llm_call(
-                ask_panel,
-                temperature=0.3,
-                guided_={"guided_json": PanelOut.model_json_schema()}
-            )
-            panel_json = safe_json_load(reply)
-            panel_dict = {v["specialist"]: v["expertise"]
-                          for v in panel_json.values()}
-        # else: two-step: first pick roles, then flesh out each
-        else:
-            ask_panel = (
-                "We will run a multi-agent debate to answer one question:\n"
-                f"» **Does the patient described in the S+O note have «{self.problem}»?**\n\n"
-                "The required specialties are:\n"
-                f"{specialties}\n\n"
-                "For each specialty provide an object with:\n"
-                "  • `specialist` – the full job title for the agent to play\n"
-                "  • `expertise`  – 1‒3 short phrases explaining how that role is "
-                "                    helpful for our yes/no decision."
-            )
-            class SpecialistDescription(BaseModel):
-                specialist: str
-                expertise:  List[str]
-            fld = {f"specialist_{i+1}": (SpecialistDescription, ...)
-                   for i in range(len(specialties))}
-            PanelOut = create_model("SpecialistPanel", **fld)
-            reply      = await self.llm_call(
-                ask_panel,
-                temperature=0.3,
-                guided_={"guided_json": PanelOut.model_json_schema()}
-            )
-            panel_json = safe_json_load(reply)
-            panel_dict = {v["specialist"]: v["expertise"]
-                          for v in panel_json.values()}
+        ask_panel = (
+            "We will run a multi-agent debate to answer one question:\n"
+            f"» **Does the patient described in the S+O note have «{self.problem}»?**\n\n"
+            "The required specialties are:\n"
+            f"{specialties}\n\n"
+            "For each specialty provide an object with:\n"
+            "  • `specialist` – the full job title for the agent to play\n"
+            "  • `expertise`  – 1‒3 short phrases explaining how that role is "
+            "                    helpful for our yes/no decision."
+        )
+        class SpecialistDescription(BaseModel):
+            specialist: str
+            expertise:  List[str]
+        fld = {f"specialist_{i+1}": (SpecialistDescription, ...)
+                for i in range(len(specialties))}
+        PanelOut = create_model("SpecialistPanel", **fld)
+        reply      = await self.llm_call(
+            ask_panel,
+            temperature=0.5,
+            guided_={"guided_json": PanelOut.model_json_schema()}
+        )
+        panel_json = safe_json_load(reply)
+        panel_dict = {v["specialist"]: v["expertise"]
+                        for v in panel_json.values()}
 
         # commit to state
+        self.append_message(reply)
         for role, expertise in panel_dict.items():
             self.state[f"panel_{panel_id}"]["Collected Specialists"][role] = {
                 "expertise": expertise,
@@ -559,9 +532,9 @@ class Manager(LLMAgent):
                 prev = self.assign_attempts
                 summ = await self._panel_summary(prev)
                 self.append_message(
-                    "⚠️ The previous specialist panel failed to reach consensus.\n\n"
-                    f"**Their final positions were:**\n{summ}\n\n"
-                    "Please assemble a *new* mix of specialties to resolve the disagreement.",
+                    "⚠️ The previous specialist panel failed to reach a consensus.\n\n"
+                    f"**Final positions from the panel:**\n{summ}\n\n"
+                    "Please assemble a *new* mix of medical specialties to resolve the disagreement.",
                     role="system"
                 )
 
@@ -634,7 +607,7 @@ class Manager(LLMAgent):
 
     async def _aggregate(self, chat_history):
         prompt = (
-            "The sub-agents failed to reach consensus. Below is the entire "
+            "The specialists failed to reach consensus. Below is the entire "
             "conversation history:\n\n"
             f"{json.dumps(chat_history, indent=4)}\n\n"
             "Analyze their reasoning and provide:\n"
@@ -645,7 +618,7 @@ class Manager(LLMAgent):
             final_reasoning: str = Field(..., description="Concise explanation.")
             final_choice:   Literal["Yes", "No"] = Field(..., description="Final choice.")
         raw = await self.llm_call(
-            prompt, temperature=0.3,
+            prompt, temperature=0.5,
             guided_={"guided_json": Out.model_json_schema()}
         )
         parsed = safe_json_load(raw)
@@ -774,7 +747,7 @@ async def process_problem(df, problem):
     for _, row in df.iterrows():
         results.extend(await process_row(row, problem))
         # results.extend(await process_failed_row(row, problem))
-    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0427_results_{problem.replace(' ','_')}_all_new_temp3.json"
+    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0512_results_{problem.replace(' ','_')}_temp5.json"
     with open(out, "w") as f:
         json.dump(results, f, indent=2)
     logger.info("Saved → %s", out)
@@ -792,7 +765,7 @@ if __name__ == "__main__":
         format = "%(asctime)s — %(levelname)s — %(message)s",
         datefmt= "%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler("log/0430_MA_hybrid.log","w"),
+            logging.FileHandler("log/0512_MA_hybrid.log","w"),
             logging.StreamHandler()
         ]
     )

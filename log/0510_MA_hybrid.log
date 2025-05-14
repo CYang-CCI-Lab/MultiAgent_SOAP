@@ -1,0 +1,559 @@
+2025-05-11 02:19:40 — INFO — Processing congestive heart failure (420 rows)…
+2025-05-11 02:19:40 — INFO — Processing sepsis (420 rows)…
+2025-05-11 02:19:40 — INFO — Processing acute kidney injury (420 rows)…
+2025-05-11 02:19:40 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:40 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:53 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:55 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:58 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:58 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:19:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:19:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:01 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:01 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:01 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:01 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:03 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:10 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:14 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:18 — ERROR — Method dynamic failed for HADM 193820.txt: No agents survived analysis (HADM 193820.txt)
+2025-05-11 02:20:18 — ERROR — Method static_dynamic failed for HADM 193820.txt: No agents survived analysis (HADM 193820.txt)
+2025-05-11 02:20:18 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:20:18 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:18 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:25 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:25 — ERROR — Method dynamic failed for HADM 193820.txt: No agents survived analysis (HADM 193820.txt)
+2025-05-11 02:20:25 — ERROR — Method static_dynamic failed for HADM 193820.txt: No agents survived analysis (HADM 193820.txt)
+2025-05-11 02:20:25 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:20:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:25 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:27 — ERROR — Method dynamic failed for HADM 193820.txt: No agents survived analysis (HADM 193820.txt)
+2025-05-11 02:20:27 — ERROR — Method static_dynamic failed for HADM 193820.txt: No agents survived analysis (HADM 193820.txt)
+2025-05-11 02:20:27 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:20:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:28 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:32 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:34 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:34 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:34 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:38 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:44 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:44 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:47 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:47 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:49 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:51 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:51 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:52 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:54 — ERROR — Method dynamic failed for HADM 192874.txt: No agents survived analysis (HADM 192874.txt)
+2025-05-11 02:20:54 — ERROR — Method static_dynamic failed for HADM 192874.txt: No agents survived analysis (HADM 192874.txt)
+2025-05-11 02:20:54 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:20:54 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:54 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:20:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:20:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:09 — ERROR — Method dynamic failed for HADM 192874.txt: No agents survived analysis (HADM 192874.txt)
+2025-05-11 02:21:09 — ERROR — Method static_dynamic failed for HADM 192874.txt: No agents survived analysis (HADM 192874.txt)
+2025-05-11 02:21:09 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:21:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:10 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:14 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:15 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:15 — ERROR — Method dynamic failed for HADM 192874.txt: No agents survived analysis (HADM 192874.txt)
+2025-05-11 02:21:15 — ERROR — Method static_dynamic failed for HADM 192874.txt: No agents survived analysis (HADM 192874.txt)
+2025-05-11 02:21:15 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:21:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:16 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:24 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:26 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:26 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:30 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:30 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:33 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:34 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:34 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:34 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:34 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:21:34 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:35 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:35 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:37 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:38 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:51 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:21:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:09 — ERROR — Method dynamic failed for HADM 105852.txt: No agents survived analysis (HADM 105852.txt)
+2025-05-11 02:22:09 — ERROR — Method static_dynamic failed for HADM 105852.txt: No agents survived analysis (HADM 105852.txt)
+2025-05-11 02:22:09 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:22:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:09 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:14 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:30 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:30 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:22:33 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:36 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:49 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:22:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:02 — ERROR — Method dynamic failed for HADM 184357.txt: No agents survived analysis (HADM 184357.txt)
+2025-05-11 02:23:02 — ERROR — Method static_dynamic failed for HADM 184357.txt: No agents survived analysis (HADM 184357.txt)
+2025-05-11 02:23:02 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:23:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:32 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:33 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:35 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:36 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:37 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:41 — ERROR — Method dynamic failed for HADM 105852.txt: No agents survived analysis (HADM 105852.txt)
+2025-05-11 02:23:41 — ERROR — Method static_dynamic failed for HADM 105852.txt: No agents survived analysis (HADM 105852.txt)
+2025-05-11 02:23:41 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:23:41 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:41 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:55 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:55 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:55 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:55 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:23:58 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:58 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:23:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:03 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:03 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:03 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:03 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:28 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:28 — ERROR — Method dynamic failed for HADM 184357.txt: No agents survived analysis (HADM 184357.txt)
+2025-05-11 02:24:28 — ERROR — Method static_dynamic failed for HADM 184357.txt: No agents survived analysis (HADM 184357.txt)
+2025-05-11 02:24:28 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:24:28 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:28 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:32 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:33 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:39 — ERROR — Method dynamic failed for HADM 105852.txt: No agents survived analysis (HADM 105852.txt)
+2025-05-11 02:24:39 — ERROR — Method static_dynamic failed for HADM 105852.txt: No agents survived analysis (HADM 105852.txt)
+2025-05-11 02:24:39 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:24:39 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:39 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:45 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:47 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:47 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:52 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:52 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:24:58 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:24:58 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:04 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:19 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:23 — ERROR — Method dynamic failed for HADM 184357.txt: No agents survived analysis (HADM 184357.txt)
+2025-05-11 02:25:23 — ERROR — Method static_dynamic failed for HADM 184357.txt: No agents survived analysis (HADM 184357.txt)
+2025-05-11 02:25:23 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:25:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:23 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:26 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:26 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:27 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:27 — ERROR — Method dynamic failed for HADM 111372.txt: No agents survived analysis (HADM 111372.txt)
+2025-05-11 02:25:27 — ERROR — Method static_dynamic failed for HADM 111372.txt: No agents survived analysis (HADM 111372.txt)
+2025-05-11 02:25:27 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:25:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:27 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:31 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:32 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:34 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:48 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:48 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:48 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:25:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:51 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:52 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:52 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:25:58 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:00 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:02 — ERROR — Method dynamic failed for HADM 111372.txt: No agents survived analysis (HADM 111372.txt)
+2025-05-11 02:26:02 — ERROR — Method static_dynamic failed for HADM 111372.txt: No agents survived analysis (HADM 111372.txt)
+2025-05-11 02:26:02 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:26:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:02 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:12 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:12 — ERROR — Method dynamic failed for HADM 107049.txt: No agents survived analysis (HADM 107049.txt)
+2025-05-11 02:26:12 — ERROR — Method static_dynamic failed for HADM 107049.txt: No agents survived analysis (HADM 107049.txt)
+2025-05-11 02:26:12 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:26:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:12 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:16 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:17 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:20 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:20 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:20 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:22 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:24 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:24 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:26 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:32 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:34 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:34 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:34 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:40 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:41 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:42 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:42 — ERROR — Method dynamic failed for HADM 107049.txt: No agents survived analysis (HADM 107049.txt)
+2025-05-11 02:26:42 — ERROR — Method static_dynamic failed for HADM 107049.txt: No agents survived analysis (HADM 107049.txt)
+2025-05-11 02:26:42 — INFO — [BaselineZS] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — WARNING — Panel 1: No specialties identified. Cannot assign specialist details.
+2025-05-11 02:26:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [GenericAgent] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:42 — INFO — [Manager] init – token limit 22000, summarise ≥15399
+2025-05-11 02:26:43 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:44 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:46 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 02:26:47 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"

@@ -297,8 +297,8 @@ class DynamicSpecialist(LLMAgent):
         self.round      = 0
         self.schema     = Response.model_json_schema()
         super().__init__(
-            f"You are a {specialist}. Your expertise:\n{self.expertise}\n"
-            "Analyze the patient's condition from your specialty's viewpoint."
+            f"You are a {specialist}. Your expertise includes:\n{self.expertise}\n"
+            "Analyze the patient's condition from the perspective of your medical specialty."
         )
 
     async def analyze_note(self, note: str, problem: str):
@@ -365,8 +365,9 @@ class Manager(LLMAgent):
     ):
         super().__init__(
             "You are the manager of a multi-agent diagnostic system. "
-            "Coordinate sub-agents to reach a final decision."
+            "Your role is to coordinate sub-agents to reach a final diagnostic decision."
         )
+
         self.note              = note
         self.hadm_id           = hadm_id
         self.problem           = problem
@@ -747,7 +748,7 @@ async def process_problem(df, problem):
     for _, row in df.iterrows():
         results.extend(await process_row(row, problem))
         # results.extend(await process_failed_row(row, problem))
-    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0512_results_{problem.replace(' ','_')}_temp5.json"
+    out = f"/home/yl3427/cylab/SOAP_MA/Output/SOAP/0513_results_{problem.replace(' ','_')}_temp5.json"
     with open(out, "w") as f:
         json.dump(results, f, indent=2)
     logger.info("Saved → %s", out)
@@ -765,7 +766,7 @@ if __name__ == "__main__":
         format = "%(asctime)s — %(levelname)s — %(message)s",
         datefmt= "%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler("log/0512_MA_hybrid.log","w"),
+            logging.FileHandler("log/0513_MA_hybrid.log","w"),
             logging.StreamHandler()
         ]
     )

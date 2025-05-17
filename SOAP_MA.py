@@ -1,8 +1,3 @@
-"""
-LLM-driven multi-agent system for analysing SOAP progress notes and
-predicting whether a patient has a given problem.
-"""
-
 from __future__ import annotations
 import asyncio, inspect, json, logging, math, os, re
 from typing import Any, Dict, List, Literal, Optional, Union, get_args, get_origin
@@ -24,7 +19,7 @@ from rag_retrieve import create_documents, hybrid_query
 from utils import count_llama_tokens, safe_json_load
 
 ###############################################################################
-#                                Constants                                    #
+#                                Constants                                    
 ###############################################################################
 LLAMA3_70B_MAX_TOKENS = 22000 # 24_000
 logger = logging.getLogger(__name__)
@@ -45,14 +40,14 @@ ERROR_KEYS = {('185452.txt', 'hybrid_special_generic')}
 
 
 ###############################################################################
-#                           Pydantic response schema                          #
+#                           Pydantic response schema                          
 ###############################################################################
 class Response(BaseModel):
     reasoning: str = Field(..., description="Step-by-step reasoning leading to your choice.")
     choice: Literal["Yes", "No"] = Field(..., description="Your choice indicating whether the patient has the problem.")
 
 ###############################################################################
-#                               Core LLMAgent                                 #
+#                               Core LLMAgent                                 
 ###############################################################################
 class LLMAgent:
     def __init__(self,
@@ -67,7 +62,7 @@ class LLMAgent:
         self.messages    = [{"role": "system", "content": system_prompt}]
         self.max_tokens  = max_tokens
         self.token_thres = int(max_tokens * summarization_threshold)
-        logger.info("[%s] init – token limit %d, summarise ≥%d",
+        logger.info("[%s] init – token limit %d, summarize ≥%d",
                     self.__class__.__name__, max_tokens, self.token_thres)
 
     async def _summarize_once(self, text: str, max_chars: Optional[int] = None) -> Optional[str]:
@@ -111,7 +106,7 @@ class LLMAgent:
                     key=lambda t: t[1], reverse=True
                 )
                 if not idx_len:
-                    logger.error("No further messages left to summarise.")
+                    logger.error("No further messages left to summarize.")
                     return False
                 idx = idx_len[0][0]
                 summary = await self._summarize_once(self.messages[idx]["content"], max_chars=max_chars)
@@ -211,7 +206,7 @@ class LLMAgent:
         self.messages.append({"role": role, "content": str(content)})
 
 ###############################################################################
-#                         Concrete agent subclasses                           #
+#                         Concrete agent subclasses                           
 ###############################################################################
 class BaselineZS(LLMAgent):
     def __init__(self):
@@ -346,7 +341,7 @@ class DynamicSpecialist(LLMAgent):
         return parsed
 
 ###############################################################################
-#                             Manager                                         #
+#                             Manager                                         
 ###############################################################################
 class Manager(LLMAgent):
     def __init__(
@@ -627,7 +622,7 @@ class Manager(LLMAgent):
         return parsed
 
 ###############################################################################
-#                    Wrappers for each mode                                   #
+#                    Wrappers for each mode                                   
 ###############################################################################
 async def run_baseline(note, hadm_id, problem, label):
     zs  = BaselineZS()

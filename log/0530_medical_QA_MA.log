@@ -1,0 +1,154 @@
+2025‑05‑30 15:44:35 — INFO — Processing 284 questions …
+2025‑05‑30 15:44:35 — INFO — [BaselineZS] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:35 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 15:44:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 15:44:50 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:50 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:50 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:50 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:50 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 15:44:55 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 15:44:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 15:44:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 15:45:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 15:54:35 — INFO — Retrying request to /chat/completions in 0.410193 seconds
+2025‑05‑30 15:54:35 — INFO — Retrying request to /chat/completions in 0.401012 seconds
+2025‑05‑30 15:54:35 — INFO — Retrying request to /chat/completions in 0.396963 seconds
+2025‑05‑30 15:54:35 — INFO — Retrying request to /chat/completions in 0.394125 seconds
+2025‑05‑30 15:54:51 — INFO — Retrying request to /chat/completions in 0.446136 seconds
+2025‑05‑30 15:54:51 — INFO — Retrying request to /chat/completions in 0.495352 seconds
+2025‑05‑30 15:54:51 — INFO — Retrying request to /chat/completions in 0.495972 seconds
+2025‑05‑30 15:54:51 — INFO — Retrying request to /chat/completions in 0.434546 seconds
+2025‑05‑30 15:55:11 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:04:36 — INFO — Retrying request to /chat/completions in 0.868659 seconds
+2025‑05‑30 16:04:36 — INFO — Retrying request to /chat/completions in 0.892978 seconds
+2025‑05‑30 16:04:36 — INFO — Retrying request to /chat/completions in 0.809377 seconds
+2025‑05‑30 16:04:36 — INFO — Retrying request to /chat/completions in 0.792368 seconds
+2025‑05‑30 16:04:51 — INFO — Retrying request to /chat/completions in 0.852872 seconds
+2025‑05‑30 16:04:51 — INFO — Retrying request to /chat/completions in 0.874970 seconds
+2025‑05‑30 16:04:51 — INFO — Retrying request to /chat/completions in 0.954240 seconds
+2025‑05‑30 16:04:54 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:14:52 — ERROR — ❌ dynamic failed for QID 1_1 – Request timed out.
+2025‑05‑30 16:14:52 — INFO — [BaselineZS] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:14:52 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:15:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:15:08 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:15:10 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:24:52 — INFO — Retrying request to /chat/completions in 0.409928 seconds
+2025‑05‑30 16:24:52 — INFO — Retrying request to /chat/completions in 0.379450 seconds
+2025‑05‑30 16:24:52 — INFO — Retrying request to /chat/completions in 0.376141 seconds
+2025‑05‑30 16:24:52 — INFO — Retrying request to /chat/completions in 0.382764 seconds
+2025‑05‑30 16:24:52 — INFO — Retrying request to /chat/completions in 0.387066 seconds
+2025‑05‑30 16:24:56 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:25:06 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:25:06 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:25:06 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:25:06 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:25:06 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:25:06 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:25:07 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:25:21 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:25:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:25:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:25:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:34:53 — INFO — Retrying request to /chat/completions in 0.785823 seconds
+2025‑05‑30 16:34:53 — INFO — Retrying request to /chat/completions in 0.860307 seconds
+2025‑05‑30 16:34:53 — INFO — Retrying request to /chat/completions in 0.819114 seconds
+2025‑05‑30 16:35:06 — INFO — Retrying request to /chat/completions in 0.378251 seconds
+2025‑05‑30 16:35:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 16:45:06 — INFO — Retrying request to /chat/completions in 0.940539 seconds
+2025‑05‑30 16:55:07 — ERROR — ❌ dynamic failed for QID 1_2 – Request timed out.
+2025‑05‑30 16:55:07 — INFO — [BaselineZS] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:07 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 16:55:36 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.402740 seconds
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.438000 seconds
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.378190 seconds
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.446748 seconds
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.484221 seconds
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.456825 seconds
+2025‑05‑30 17:05:07 — INFO — Retrying request to /chat/completions in 0.495450 seconds
+2025‑05‑30 17:05:13 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:05:23 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:05:23 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:05:23 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:05:23 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:05:23 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:05:23 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:05:56 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:06:01 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:15:08 — INFO — Retrying request to /chat/completions in 0.770844 seconds
+2025‑05‑30 17:15:08 — INFO — Retrying request to /chat/completions in 0.871575 seconds
+2025‑05‑30 17:15:08 — INFO — Retrying request to /chat/completions in 0.771182 seconds
+2025‑05‑30 17:15:08 — INFO — Retrying request to /chat/completions in 0.909086 seconds
+2025‑05‑30 17:15:08 — INFO — Retrying request to /chat/completions in 0.766796 seconds
+2025‑05‑30 17:15:08 — INFO — Retrying request to /chat/completions in 0.864027 seconds
+2025‑05‑30 17:15:23 — INFO — Retrying request to /chat/completions in 0.385124 seconds
+2025‑05‑30 17:15:23 — INFO — Retrying request to /chat/completions in 0.488542 seconds
+2025‑05‑30 17:15:23 — INFO — Retrying request to /chat/completions in 0.415468 seconds
+2025‑05‑30 17:16:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:16:18 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:25:24 — INFO — Retrying request to /chat/completions in 0.806403 seconds
+2025‑05‑30 17:35:24 — ERROR — ❌ baseline_zs failed for QID 1_3 – Request timed out.
+2025‑05‑30 17:35:24 — ERROR — ❌ dynamic failed for QID 1_3 – Request timed out.
+2025‑05‑30 17:35:24 — INFO — [BaselineZS] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:24 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:25 — INFO — [Manager] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:30 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:35:49 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:35:49 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:49 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:49 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:49 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:35:49 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:36:09 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:36:10 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.470833 seconds
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.480296 seconds
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.397312 seconds
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.389837 seconds
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.475887 seconds
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.498923 seconds
+2025‑05‑30 17:45:25 — INFO — Retrying request to /chat/completions in 0.391513 seconds
+2025‑05‑30 17:45:29 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:45:39 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:45:39 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:45:39 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:45:39 — INFO — [DynamicSpecialist] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:45:39 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:45:39 — INFO — [GenericAgent] initialised – hard limit 22000 tks, summarize ≥ 15399 tks
+2025‑05‑30 17:45:49 — INFO — Retrying request to /chat/completions in 0.395379 seconds
+2025‑05‑30 17:45:49 — INFO — Retrying request to /chat/completions in 0.478725 seconds
+2025‑05‑30 17:45:49 — INFO — Retrying request to /chat/completions in 0.416955 seconds
+2025‑05‑30 17:45:50 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:45:57 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:45:59 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025‑05‑30 17:46:05 — INFO — HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"

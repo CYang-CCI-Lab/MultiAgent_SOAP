@@ -21,7 +21,7 @@ from utils import count_llama_tokens, safe_json_load
 ###############################################################################
 #                                Constants                                    
 ###############################################################################
-LLAMA3_70B_MAX_TOKENS = 22000 # 24_000
+LLAMA3_70B_MAX_TOKENS = 22000 # 24000
 logger = logging.getLogger(__name__)
 
 selected_problems = [
@@ -445,8 +445,7 @@ class Manager(LLMAgent):
             f"{specialties}\n\n"
             "For each specialty provide an object with:\n"
             "  • `specialist` – the full job title for the agent to play\n"
-            "  • `expertise`  – 1‒3 short phrases explaining how that role is "
-            "                    helpful for our yes/no decision."
+            "  • `expertise`  – 1‒3 short phrases explaining the specialist's expertise"
         )
         class SpecialistDescription(BaseModel):
             specialist: str
@@ -605,7 +604,7 @@ class Manager(LLMAgent):
         prompt = (
             "The specialists failed to reach consensus. Below is the entire "
             "conversation history:\n\n"
-            f"{json.dumps(chat_history, indent=4)}\n\n"
+            f"{json.dumps(chat_history, indent=2)}\n\n"
             "Analyze their reasoning and provide:\n"
             "1) A concise explanation of how you reached the final decision\n"
             "2) The single best-supported choice: 'Yes' or 'No'"

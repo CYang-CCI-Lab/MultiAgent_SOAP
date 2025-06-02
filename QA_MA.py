@@ -487,7 +487,7 @@ class Manager(LLMAgent):
                 prev = self.assign_attempts
                 summary = await self._panel_summary(prev)
                 self.append_message(
-                    "⚠️ The previous specialist panel failed to reach a consensus.\n\n"
+                    "The previous specialist panel failed to reach a consensus.\n\n"
                     f"**Final positions from the panel:**\n{summary}\n\n"
                     "Please assemble a *fresh* set of specialties to resolve the disagreement.",
                     role="system"
@@ -543,7 +543,7 @@ class Manager(LLMAgent):
         # ───  Fallback: aggregate with a single LLM call
         prompt = (
             "The specialists failed to reach consensus. Below is the entire "
-            "conversation history:\n\n"
+            "conversation history:\n"
             f"{json.dumps({k: v for k, v in self.state.items() if k not in ('final', 'label')}, indent=2)}\n\n"
             "Please:\n"
             " 1) Provide a concise explanation of how you chose the final answer.\n"
